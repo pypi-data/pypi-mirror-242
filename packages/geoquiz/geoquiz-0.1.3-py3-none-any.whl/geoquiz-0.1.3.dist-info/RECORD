@@ -1,0 +1,9 @@
+geoquiz/quiz.py,sha256=qunijTtC7E1sRVG4GOirlp4piceNgUZM4NTnGyM8a4M,9203
+geoquiz/sound/correct.wav,sha256=1X8t3w0IUXkbwYPmByHXojfelXepUB9ARkTUcvdLTjI,30950
+geoquiz/sound/correct_2.wav,sha256=fhWNkNCTUPDLeZ62WKeHccOkqXJvxZp9pXWtKYj5qGI,128502
+geoquiz/sound/wrong.mp3,sha256=htxce9l8905Y39pD8xbsUBr3DK7luh3bQL5tp8znkvU,5191
+geoquiz-0.1.3.dist-info/LICENSE,sha256=-WV8RbkGHVlyu7Ulil-0-lxup3OTUDvs6cVvrIuvZ64,1064
+geoquiz-0.1.3.dist-info/METADATA,sha256=98-6Cl73EKBy-aJqZ8u4-lcf6-bxripPu1eRuCLlyzI,1232
+geoquiz-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+geoquiz-0.1.3.dist-info/entry_points.txt,sha256=SkdiJAk9Di2pHNTWNf5B6feFg9LISBRhHopFKFGob-k,45
+geoquiz-0.1.3.dist-info/RECORD,,
