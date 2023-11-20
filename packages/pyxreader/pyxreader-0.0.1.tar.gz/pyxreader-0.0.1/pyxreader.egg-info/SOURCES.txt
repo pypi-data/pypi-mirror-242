@@ -1,0 +1,15 @@
+README.md
+setup.py
+pyxreader/__init__.py
+pyxreader/_defaults.py
+pyxreader/adaptable.py
+pyxreader/py.typed
+pyxreader/textreader.py
+pyxreader.egg-info/PKG-INFO
+pyxreader.egg-info/SOURCES.txt
+pyxreader.egg-info/dependency_links.txt
+pyxreader.egg-info/requires.txt
+pyxreader.egg-info/top_level.txt
+pyxreader/iterators/__init__.py
+pyxreader/iterators/base.py
+pyxreader/iterators/pdf_iterator.py
