@@ -1,0 +1,11 @@
+CHANGES
+=======
+
+0.12.2
+------
+
+* fix imagemounter bug
+* update coverage yml
+* fix: Python below 3.8, shutil.copytree does not have argument 'dirs\_exist\_ok'
+* fix #338
+* fix runwda build with xcode 15, remove lib loguru
