@@ -1,0 +1,14 @@
+xattr-1.0.0.dist-info/RECORD,,
+xattr-1.0.0.dist-info/WHEEL,sha256=vFIxhJ_HkeYWmakEgjhRCSWpSbMkBbJ8pBEE4ZccwQk,108
+xattr-1.0.0.dist-info/entry_points.txt,sha256=CXwrIq8CART71RCGtJrzy7uo8_bCm5ZmBa1QhZujVxc,42
+xattr-1.0.0.dist-info/top_level.txt,sha256=ZUHZcuN2meJ0miIIsDb0KaElzOvDRrIIl8CZjnvRUrc,11
+xattr-1.0.0.dist-info/LICENSE.txt,sha256=8q6jLbdqJC7GYArvyHXRyfBB9cf9RmAiPos-ip4FCb0,1172
+xattr-1.0.0.dist-info/METADATA,sha256=HLxNRkMsN6L15xJVUttdyFZqFKEbFzFUUsGBO8tjMV4,3785
+xattr/lib_build.py,sha256=o1Lo6Du5uNTm6rBqV5jHbaFNcQZnaoQVQcnPA5463vo,342
+xattr/lib_build.c,sha256=R8QvpljQ06hzyQGVtETRV4fYbBBnJC4DkI5mEM8SWkg,14590
+xattr/lib.py,sha256=OyWUtRLDu-7x2HTvs_T24Zw0KWTqS0-5Fg9MtkJcufo,3640
+xattr/_lib.abi3.so,sha256=dZ9Vg8zqopFbvkNc_gaxLdObhMTbFl3iACJzeglSr2Q,54793
+xattr/__init__.py,sha256=cri2LIRP2deDVe5_xAkOgDiqStuLJhj4voj_P2Q_Hio,5265
+xattr/lib_build.h,sha256=uUPg1wEgsqEQNFpSdnh7IX49B7KaS5WM6yL9I20qcnM,708
+xattr/tool.py,sha256=o1XZQwLHyY09Wyh_bOgwcBiOB_tbVxUtcGJ78HJM-iQ,7961
+xattr/pyxattr_compat.py,sha256=TPcmoOxiAG1V54XmMkYR4yRNPWDomugttRs9tzhHj_A,3661
