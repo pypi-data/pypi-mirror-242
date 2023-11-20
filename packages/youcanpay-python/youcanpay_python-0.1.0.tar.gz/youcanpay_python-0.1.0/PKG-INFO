@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: youcanpay-python
+Version: 0.1.0
+Summary: Wrapper arround YouCanPay gateway
+License: MIT
+Author: Younes Oumakhou
+Author-email: younesoumakhousudo@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+[![Mypy, Black and Tests](https://github.com/YounesOMK/youcanpay_python/actions/workflows/mypy-black-tests.yml/badge.svg?branch=main)](https://github.com/YounesOMK/youcanpay_python/actions/workflows/mypy-black-tests.yml)
+# youcanpay_python
+Python wrapper arround YouCanPay gateway
+
