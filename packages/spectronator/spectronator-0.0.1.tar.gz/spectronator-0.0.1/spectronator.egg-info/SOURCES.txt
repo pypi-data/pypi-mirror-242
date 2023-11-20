@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+spectronator/__init__.py
+spectronator/spectronator.py
+spectronator/tkgui.py
+spectronator/version.py
+spectronator.egg-info/PKG-INFO
+spectronator.egg-info/SOURCES.txt
+spectronator.egg-info/dependency_links.txt
+spectronator.egg-info/requires.txt
+spectronator.egg-info/top_level.txt
