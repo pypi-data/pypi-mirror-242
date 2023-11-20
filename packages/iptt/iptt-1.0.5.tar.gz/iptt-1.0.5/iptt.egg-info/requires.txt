@@ -1,0 +1,9 @@
+async-timeout>=3.0.0
+attrs>=22.1.0
+aioipfs>=0.6.4
+aiologger>=0.7.0
+ptpython>=3.0.20
+py-multiformats-cid>=0.4.3
+
+[uvloop]
+uvloop>=0.17.0
