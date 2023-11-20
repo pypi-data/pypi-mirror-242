@@ -1,0 +1,8 @@
+ansible_simple/__init__.py,sha256=1NDCIUEqWRJAUyMH3XOvZPUs6ccRDketn-pdYkz4KTs,24
+ansible_simple/api.py,sha256=r9slfdXDMM0qD2r5kromXNQwmR9mBMp3KMfA9whKENI,4132
+ansible_simple/result.py,sha256=UWi0w-6y0bRf2IATTPcqvukKrnvyJW_WNjsH97fCe5c,1179
+ansible_simple-2.0.3.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+ansible_simple-2.0.3.dist-info/METADATA,sha256=Tv9Kql5-nKSCo5lCCikuUd1PlO9yE4KR-yZl-cq-BFk,1449
+ansible_simple-2.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ansible_simple-2.0.3.dist-info/top_level.txt,sha256=zb0YVpWFHhpl_fDpWwYBYb0WABdbQYhpUerXhwWggeI,15
+ansible_simple-2.0.3.dist-info/RECORD,,
