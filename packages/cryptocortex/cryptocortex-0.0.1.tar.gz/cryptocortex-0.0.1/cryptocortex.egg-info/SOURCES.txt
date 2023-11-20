@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+cryptocortex/__init__.py
+cryptocortex.egg-info/PKG-INFO
+cryptocortex.egg-info/SOURCES.txt
+cryptocortex.egg-info/dependency_links.txt
+cryptocortex.egg-info/top_level.txt
