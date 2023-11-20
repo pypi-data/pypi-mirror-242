@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/py_trace_log/__init__.py
+src/py_trace_log/trace_log.py
+src/py_trace_log.egg-info/PKG-INFO
+src/py_trace_log.egg-info/SOURCES.txt
+src/py_trace_log.egg-info/dependency_links.txt
+src/py_trace_log.egg-info/top_level.txt
