@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "metatrace"
+version = "0.1.0"
+description = ""
+authors = [
+    "Maxime Mouchet <maxime.mouchet@lip6.fr>",
+    "Matthieu Gouel <matthieu.gouel@lip6.fr>",
+    "Kevin Vermeulen <kevin.vermeulen@cnrs.fr>",
+]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/dioptra-io/metatrace"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+arel = "^0.2.0"
+Babel = "^2.10.1"
+beautifulsoup4 = "^4.11.1"
+DateTimeRange = "^1.2.0"
+fastapi = "^0.80.0"
+Jinja2 = "^3.1.2"
+more-itertools = "^8.14.0"
+pandas = "^1.4.3"
+Pint = "^0.19.2"
+pyasn = "^1.6.1"
+pych-client = "^0.3.1"
+rich = "^12.5.1"
+typer = "^0.6.1"
+uvicorn = {extras = ["standard"], version = "^0.18.2"}
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.971"
+black = "^22.6.0"
+flake8 = "^5.0.4"
+pre-commit = "^2.20.0"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.scripts]
+metatrace = 'metatrace.cli:app'
+
+[tool.mypy]
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+implicit_reexport = false
+no_implicit_optional = true
+strict_equality = true
+strict_optional = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_ignores = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "if TYPE_CHECKING:$",
+    "if __name__ == \"__main__\":$",
+    "pass$",
+    "\\s\\.\\.\\.$",
+    "raise NotImplementedError$"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
