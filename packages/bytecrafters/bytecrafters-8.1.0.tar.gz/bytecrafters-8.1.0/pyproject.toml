@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bytecrafters"
+version = "8.1.0"
+authors = [
+  { name="First Last", email="first1.last1@example.com" },
+]
+description = "Miscellaneous Utilities and libraries"
+readme = "README.md"
+requires-python = ">=3.8, < 3.12.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'numpy >= 1.23.5',
+    'PyYAML >= 6.0',
+    'pandas >= 2.0.1',
+    'chardet >= 4.0.0',
+    'scipy >= 1.10.1',
+    'matplotlib >= 3.7.1'
+]
+
+[project.optional-dependencies]
+wavelets = [
+    'PyWavelets >= 1.4.1'
+]
+audio = [
+    'pydub >= 0.25.1',
+    'moviepy >= 1.0.3'
+]
