@@ -1,0 +1,10 @@
+bwnet/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+bwnet/client.py,sha256=cjIkwIfxqjJM0i0Ftw8mAD_TjZCDQBv-ip7g66vwpdc,5543
+bwnet/rcp.py,sha256=kLN18k-14MCwJW2m8goy4bjfs3Lqamd0j-nAmc3h6BQ,1421
+bwnet/server.py,sha256=Ya88xVs7nE2bWw_l4io-3O6tn4QVpy2zP4fIWZDAXmw,9298
+bwnet/utils.py,sha256=qp-I0Smhnj8LoI-aTL3oW1dPX8ficfT4IxJ7MAIOVT4,350
+bwnet-0.2.2.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+bwnet-0.2.2.1.dist-info/METADATA,sha256=ncNKySVwKFOuuhQ7PYNYl-gdc48MfYqL0WWidDY23Q4,620
+bwnet-0.2.2.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+bwnet-0.2.2.1.dist-info/top_level.txt,sha256=Wlb-VUjvrkZvXZTreO6wBg7iRhDvaDV1KzkdNPNvIQE,6
+bwnet-0.2.2.1.dist-info/RECORD,,
