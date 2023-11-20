@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: lib_dzne_manifesto
+Version: 0.2.1
+Summary: lib_dzne_manifesto
+Author-email: Johannes <johannes-programming@posteo.org>
+Project-URL: Download, https://pypi.org/project/lib-dzne-manifesto/#files
+Project-URL: Source, https://github.com/johannes-programming/lib_dzne_manifesto
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: na_quantors>=1.0
+
+==================
+lib_dzne_manifesto
+==================
+
+Installation
+------------
+
+To install lib_dzne_manifesto, you can use `pip`. Open your terminal and run:
+
+.. code-block:: bash
+
+    pip install lib_dzne_manifesto
+
+License
+-------
+
+This project is licensed under the MIT License.
+
+Links
+-----
+
+* `Download <https://pypi.org/project/lib-dzne-manifesto/#files>`_
+* `Source <https://github.com/johannes-programming/lib_dzne_manifesto>`_
+
+Credits
+-------
+- Author: Johannes
+- Email: johannes-programming@posteo.org
+
+Thank you for using lib_dzne_manifesto!
