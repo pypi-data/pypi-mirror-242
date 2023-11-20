@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+nn-in-secs/Activation_funcs.py
+nn-in-secs/Optimizers.py
+nn-in-secs/layers.py
+nn-in-secs/loss_funcs.py
+nn-in-secs/network.py
+nn_in_secs.egg-info/PKG-INFO
+nn_in_secs.egg-info/SOURCES.txt
+nn_in_secs.egg-info/dependency_links.txt
+nn_in_secs.egg-info/requires.txt
+nn_in_secs.egg-info/top_level.txt
