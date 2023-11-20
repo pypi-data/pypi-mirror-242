@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: metabolitics3d
+Version: 0.0.12
+Summary: metabolitics3d
+Home-page: https://github.com/onurcanersen/metabolitics3d
+Author: Onurcan Ersen
+Author-email: ocersen@gmail.com
+Keywords: bioinformatics,metabolomics,pip-package
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: numpy>=1.8.2
+Requires-Dist: pyfunctional>=1.0.0
+Requires-Dist: pandas>=0.17.0
+Requires-Dist: scipy>=0.13.3
+Requires-Dist: scikit-learn>=0.18.0
+Requires-Dist: cobra>=0.9.1
+Requires-Dist: joblib>=0.11
+Requires-Dist: sklearn_utils>=0.0.15
