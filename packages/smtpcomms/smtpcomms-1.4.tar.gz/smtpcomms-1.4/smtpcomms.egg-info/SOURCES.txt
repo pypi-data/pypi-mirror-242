@@ -1,0 +1,7 @@
+setup.py
+smtpcomms.py
+smtpcomms.egg-info/PKG-INFO
+smtpcomms.egg-info/SOURCES.txt
+smtpcomms.egg-info/dependency_links.txt
+smtpcomms.egg-info/requires.txt
+smtpcomms.egg-info/top_level.txt
