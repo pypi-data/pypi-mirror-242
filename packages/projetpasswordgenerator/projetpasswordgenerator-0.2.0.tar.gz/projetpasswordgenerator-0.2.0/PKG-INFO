@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: projetpasswordgenerator
+Version: 0.2.0
+Summary: Generate random password version 2
+Author: Steeve EMMANUEL & Wisner AURELUS
+Requires-Python: >=3.10
