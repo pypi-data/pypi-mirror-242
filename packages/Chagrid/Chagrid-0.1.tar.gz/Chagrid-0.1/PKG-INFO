@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Chagrid
+Version: 0.1
+Summary: A package for creating and managing grids of characters.
+Home-page: https://github.com/primal-coder/Chagrid
+Author: James Evans
+Author-email: joesaysahoy@gmail.com
+License: LICENSE.txt
+Requires-Dist: CharPackage
+Requires-Dist: CharCore
+Requires-Dist: gridengine_framework

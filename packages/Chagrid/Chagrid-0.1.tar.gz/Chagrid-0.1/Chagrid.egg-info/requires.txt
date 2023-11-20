@@ -1,0 +1,3 @@
+CharPackage
+CharCore
+gridengine_framework

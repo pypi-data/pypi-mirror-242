@@ -1,0 +1,7 @@
+setup.py
+Chagrid/__init__.py
+Chagrid.egg-info/PKG-INFO
+Chagrid.egg-info/SOURCES.txt
+Chagrid.egg-info/dependency_links.txt
+Chagrid.egg-info/requires.txt
+Chagrid.egg-info/top_level.txt
