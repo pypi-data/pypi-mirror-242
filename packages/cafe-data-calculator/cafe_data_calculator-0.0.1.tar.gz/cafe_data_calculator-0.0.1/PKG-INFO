@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cafe_data_calculator
+Version: 0.0.1
+Summary: Created for cafe and data talk 
+Author-email: Eduardo Zevallos <EduardoLZevallos@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

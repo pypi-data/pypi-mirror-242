@@ -1,0 +1,8 @@
+pyproject.toml
+src/__init__.py
+src/cafe_data_calculator/calculator.py
+src/cafe_data_calculator.egg-info/PKG-INFO
+src/cafe_data_calculator.egg-info/SOURCES.txt
+src/cafe_data_calculator.egg-info/dependency_links.txt
+src/cafe_data_calculator.egg-info/top_level.txt
+tests/test_calculator.py
