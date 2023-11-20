@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+chrphb_contacts = chrphb_contacts._modidx:d
+
