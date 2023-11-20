@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: yymagicer-trace-log
+Version: 0.0.1
+Summary: skywalking trace print log  tool
+Author-email: "xiaodong.yang" <yymagicer@163.com>
+Project-URL: Homepage, https://gitee.com/yymagicer/traceLog.git
+Project-URL: Bug Tracker, https://gitee.com/yymagicer/traceLog/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE

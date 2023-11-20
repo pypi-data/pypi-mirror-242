@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+trace_log.py
+yymagicer_trace_log.egg-info/PKG-INFO
+yymagicer_trace_log.egg-info/SOURCES.txt
+yymagicer_trace_log.egg-info/dependency_links.txt
+yymagicer_trace_log.egg-info/top_level.txt
