@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: contextocracker
+Version: 0.0.1
+Summary: A set of tools to crack the contexto game hosted at https://contexto.me/
+License: MIT
+Author: Evan Voyles
+Author-email: ejovo13@yahoo.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
