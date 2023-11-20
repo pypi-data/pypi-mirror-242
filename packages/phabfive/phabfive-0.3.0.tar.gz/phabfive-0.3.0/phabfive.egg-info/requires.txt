@@ -1,0 +1,15 @@
+anyconfig>=0.10.0
+appdirs
+docopt
+jinja2
+phabricator
+pyyaml
+
+[docs]
+docs
+
+[test]
+coverage
+flake8
+pytest
+tox
