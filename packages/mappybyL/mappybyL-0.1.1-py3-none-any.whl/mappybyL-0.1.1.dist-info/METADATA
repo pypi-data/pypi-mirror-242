@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: mappybyL
+Version: 0.1.1
+Summary: Mappy는 위치 기반 기능을 제공하는 파이썬 라이브러리로, 주소를 좌표로 변환하는 지오코딩(geocoding), 좌표에서 주소 정보를 얻는 지오로케이션(geolocation), 두 지점 간의 경로를 계산하는 방향(directions) 정보 제공 기능을 포함하고 있습니다.
+Home-page: https://github.com/gunhe17/l-mappy
+Author: L
+Author-email: pers.gun17@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+
+# Mappy 사용 안내서
+
+### Mappy 라이브러리 개요
+Mappy는 위치 기반 기능을 제공하는 파이썬 라이브러리로, 주소를 좌표로 변환하는 지오코딩(geocoding), 좌표에서 주소 정보를 얻는 지오로케이션(geolocation), 두 지점 간의 경로를 계산하는 방향(directions) 정보 제공 기능을 포함하고 있습니다.
+
+### .env 파일 설정 방법
+.env.template 파일에는 T-Map, Naver Map, Kakao Map API 자격 증명 정보가 포함되어 있습니다. 아래의 예시를 참고하여 실제 값을 포함하는 .env 파일을 생성하세요.
+```plaintext
+# .env
+TMAP_API_KEY=여기에_실제_T-Map_API_키를_입력(https://tmapapi.sktelecom.com/main.html#webv2/guide/apiGuide.guide2)
+NAVER_CLIENT_ID=여기에_실제_Naver_Client_ID를_입력(https://www.ncloud.com/)
+NAVER_CLIENT_SECRET=여기에_실제_Naver_Client_Secret를_입력
+KAKAO_API_KEY=여기에_실제_Kakao_API_키를_입력
+```
+
+## 주요 기능
+#### 연동 기능
+- **Naver API 연동 기능**:
+  - `get_geocode(Address)`: 주어진 주소의 좌표를 조회합니다.
+  - `get_geocodes([Address, ...])`: 주어진 주소 리스트의 좌표를 일괄 조회합니다.
+  - `get_driving_direction({start: Point, goal: Point})`: 시작점과 도착점 좌표를 기반으로 경로를 계산합니다.
+  - `get_driving_directions([{start: Point, goal: Point}, ...], only_closest=Bool)`: 여러 경로에 대한 정보를 일괄 조회합니다. (only_closest=True, 가장 가까운 경로만 조회.)
+
+- **Tmap API 연동 기능**:
+  - `get_walking_direction({start: Point, goal: Point})`: 시작점과 도착점 좌표로 Tmap 경로 정보를 조회합니다.
+  - `get_walking_directions([{start: Point, goal: Point}, ...], only_closest=Bool)`: 여러 경로에 대한 Tmap 정보를 일괄 조회합니다. (only_closest=True, 가장 가까운 경로만 조회.)
+
+#### 데이터 타입
+- **`Address` 클래스**: 문자열 형태의 주소 정보를 관리합니다.
+  - 생성자: `Address(address: str)` - 주소 문자열을 입력받아 인스턴스를 생성합니다.
+  - `__str__()` 메서드: 주소 인스턴스를 문자열로 반환합니다.
+
+- **`Point` 클래스**: 위도와 경도 정보를 나타내는 좌표 데이터를 관리합니다.
+  - 생성자: 아래와 같은 다양한 형태를 지원합니다.
+    - `Point(lng=126.831405, lat=37.199565)`
+    - `Point('126.8286671,37.1989033')`
+    - `Point([126.8299873, 37.2002067])`
+    - 중요: `Point` 클래스의 생성자에서는 경도(`lng`), 위도(`lat`) 순서로 인자를 전달해야 합니다.
+  - `(default)`: 좌표 인스턴스를 "경도,위도" 형태의 문자열로 반환합니다.
+  - `to_list()` 메서드: 좌표 인스턴스를 [경도, 위도] 형태의 리스트로 반환합니다.
+
+#### 테스트 방법
+- `python -m unittest tests/test_tmap.py`
+- `python -m unittest tests/test_naver.py`
+- `python -m unittest tests/types/test_address.py`
+- `python -m unittest tests/types/test_point.py`
+
+
+## usecase
+```python
+# .py
+
+# mappybyL을 위한 .env 파일 로드
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# mappy 선언
+from mappy import Mappy, Point, Address
+
+mappy = Mappy()
+
+# naver
+geocode = mappy.naver.get_geocode(
+    Address("서울 마포구 매봉산로 37")
+)
+
+geocodes = mappy.naver.get_geocodes([
+    Address("경기 화성시 남양읍 시청로 159"),
+    Address("경기 화성시 남양읍 남양로 708"),
+])
+
+naver_direction = mappy.naver.get_driving_direction({
+    'start': Point(geocode),
+    'goal': Point(lng=127.0492286, lat=37.1991289)
+})
+
+naver_directions = mappy.naver.get_driving_directions([
+    {
+        'start': Point(lng='126.932863', lat=37.175001),
+        'goal': Point('127.0505815,37.1990052'),
+    }, 
+    {
+        'start': Point(lng='126.932863', lat=37.175001),
+        'goal': Point('126.8364251,37.1947086'),
+    },
+])
+
+# tmap
+tmap_direction = mappy.tmap.get_walking_direction({
+    'start': Point(lng=126.831405, lat=37.199565),
+    'goal': Point([126.8299873, 37.2002067]),
+})
+
+tmap_directions = mappy.tmap.get_walking_directions([
+    {
+        'start': Point(lng='126.932863', lat=37.175001),
+        'goal': Point('127.0505815,37.1990052'),
+    }, 
+    {
+        'start': Point(lng='126.932863', lat=37.175001),
+        'goal': Point('126.8364251,37.1947086'),
+    },
+])
+```
