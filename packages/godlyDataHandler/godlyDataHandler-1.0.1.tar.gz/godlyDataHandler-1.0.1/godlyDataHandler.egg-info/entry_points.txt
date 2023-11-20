@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        your_script_name=your_script_name:main
+    
