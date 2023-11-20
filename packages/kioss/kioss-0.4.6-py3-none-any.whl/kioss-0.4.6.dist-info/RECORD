@@ -1,0 +1,10 @@
+kioss/__init__.py,sha256=9OS7AAFY7oVTOGuC_bdhkGw1yX6vX9l-tzfwP--FV8E,43
+kioss/_concurrent_exec.py,sha256=azYtB3tncJsGDP3L1IAFX7CZyBTuMrUrByaxzsNTuKE,5864
+kioss/_exec.py,sha256=Wnma4EcD2h0VHf341EmmAEBQW4jfI1m48pmtNAC7BsM,5493
+kioss/_plan.py,sha256=iYaM90u5aKteQLNr0yOY5nNntCGIbS4cJpuviK7jbH8,12700
+kioss/_util.py,sha256=ATrq7S5rz-RGqv0ugWTWMFsE_wIxN4Kj6AGQ6Z5utBY,1599
+kioss-0.4.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kioss-0.4.6.dist-info/METADATA,sha256=eXODOLrXald6Cz5XOdUmyNXuSDCxsDLXvev9lXxxgWI,312
+kioss-0.4.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+kioss-0.4.6.dist-info/top_level.txt,sha256=Ef8Gl6xbw7Ty_S8tT5S_aH4X3PFHL2BwXUXAwvcvvMw,6
+kioss-0.4.6.dist-info/RECORD,,
