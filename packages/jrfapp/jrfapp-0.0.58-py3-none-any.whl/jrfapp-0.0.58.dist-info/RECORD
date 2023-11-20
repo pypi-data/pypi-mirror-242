@@ -1,0 +1,12 @@
+jrfapp/__init__.py,sha256=WcOm8vVWkJTX3-3lMJB5u98CTQ7DW_5x0wcNhjrawos,160
+jrfapp/inv_pso_thickness.py,sha256=pnrrS7a797R75w7FqVO6SH1JGfny8n9MLDCy86e-ERY,36732
+jrfapp/inverse_routine.py,sha256=7A8Qwp9bLtzFZfsdAT8mPfNSVOGmCfJwogIknWF_6nw,87317
+jrfapp/main_classes.py,sha256=-dDcb4aMR75ej8XBR7dFZSyUfu6ZsiCxvx_6kggcYZk,274098
+jrfapp/main_inv_all.py,sha256=BFMHwGBj3xdDjEUETpyLG9jmngp3SksR74XjXpsirVY,19983
+jrfapp/rftan_classes.py,sha256=xdlAOqhHnsUHRIB9bGnEXsXpENcKlebJHehvKqO7lVw,12545
+jrfapp/utils.py,sha256=aRzVvyvKp3zmJ1cdEDOgH7EffxoW4tDrq9XcbZaHf2g,13901
+jrfapp-0.0.58.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+jrfapp-0.0.58.dist-info/METADATA,sha256=tKjmsjBhezlzKzu3VsXpsCbni3XAWXWDKOvNZ7fjhd4,4493
+jrfapp-0.0.58.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+jrfapp-0.0.58.dist-info/top_level.txt,sha256=li9x5RgqsxXXFuy3Xt0D74uE-8G5redzlc2TKDHOkbs,7
+jrfapp-0.0.58.dist-info/RECORD,,
