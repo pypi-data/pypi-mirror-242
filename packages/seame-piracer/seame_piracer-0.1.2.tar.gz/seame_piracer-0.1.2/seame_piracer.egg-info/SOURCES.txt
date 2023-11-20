@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+seame_piracer/__init__.py
+seame_piracer/cameras.py
+seame_piracer/gamepads.py
+seame_piracer/piracer_middleware.py
+seame_piracer/vehicles.py
+seame_piracer.egg-info/PKG-INFO
+seame_piracer.egg-info/SOURCES.txt
+seame_piracer.egg-info/dependency_links.txt
+seame_piracer.egg-info/requires.txt
+seame_piracer.egg-info/top_level.txt
