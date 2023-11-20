@@ -1,0 +1,17 @@
+JLC2KiCadLib/JLC2KiCadLib.py,sha256=BJbOo8U58wzEqbohHTtcbFyhL17NyPzX3NQVKly6RMM,5940
+JLC2KiCadLib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+JLC2KiCadLib/__version__.py,sha256=BFoP77JSRWYw9boz6i1KHik7kj9lxXXrcX2G2k1cWrc,23
+JLC2KiCadLib/helper.py,sha256=OWRXLBovsgD0bUWTCNBDV0_XsIY0NOIlvN7mUH8bXCo,573
+JLC2KiCadLib/footprint/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+JLC2KiCadLib/footprint/footprint.py,sha256=Mmx7GshuxTv7Mk3BPkGFwbH6zabPgKzco5BfI5s91SM,5847
+JLC2KiCadLib/footprint/footprint_handlers.py,sha256=l9qA51P8Rzfeb5J7kNBuXcTAhrugPVNZOt7rjnRB29E,13194
+JLC2KiCadLib/footprint/model3d.py,sha256=I5lYT_ZALr7fp3PRayPON2OOed0ZSCaf5O2mj7bPkVs,8063
+JLC2KiCadLib/symbol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+JLC2KiCadLib/symbol/symbol.py,sha256=u3xpsLsR1qL0RFpyHgV4lzkZodAOWV2yu6sSRgIWeWI,7112
+JLC2KiCadLib/symbol/symbol_handlers.py,sha256=FO1Ke8W1uoFv3h-lhrBuvZfTzzqPq1ece2bcLNXifl4,9537
+JLC2KiCadLib-1.0.27.dist-info/LICENSE,sha256=tyXpHLah0G-ROQan655i3SKSrKXSD9ccfDnwVQa8q8U,1089
+JLC2KiCadLib-1.0.27.dist-info/METADATA,sha256=HRr6flfLWcvyOaBeq_bgGno6IuKDh5bM__7G4IbmU8w,6872
+JLC2KiCadLib-1.0.27.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+JLC2KiCadLib-1.0.27.dist-info/entry_points.txt,sha256=WF-HbrktGM05drU8Vtkl4hXIQugiO65a96LOCTip19s,64
+JLC2KiCadLib-1.0.27.dist-info/top_level.txt,sha256=wLbJ381HZrM-GLIGgVe-YbUEFpUcOdDYhqwt3atu3OA,13
+JLC2KiCadLib-1.0.27.dist-info/RECORD,,
