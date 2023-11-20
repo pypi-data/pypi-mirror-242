@@ -1,0 +1,2 @@
+[console_scripts]
+pig-manager = scripts.__main__:main
