@@ -1,0 +1,7 @@
+prometheus_qbittorrent_exporter-1.4.0.dist-info/METADATA,sha256=qonvvHNoHT4GLDvu0N7St4vb92T5A-5PHwuLqn3-zSU,3785
+prometheus_qbittorrent_exporter-1.4.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+prometheus_qbittorrent_exporter-1.4.0.dist-info/entry_points.txt,sha256=MTPMSg4BdUYLWvAhvbrGnIax5AKGKEOjpB-vBVjH0Uc,77
+prometheus_qbittorrent_exporter-1.4.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+qbittorrent_exporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qbittorrent_exporter/exporter.py,sha256=ZTrgU5VaLSWUbPuak7WPNIJ5cWpr0C7GwINfuhwHMuQ,10739
+prometheus_qbittorrent_exporter-1.4.0.dist-info/RECORD,,
