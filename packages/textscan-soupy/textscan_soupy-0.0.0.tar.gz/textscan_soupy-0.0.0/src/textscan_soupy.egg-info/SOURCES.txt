@@ -1,0 +1,7 @@
+pyproject.toml
+src/textscan_soupy/__init__.py
+src/textscan_soupy/setup.py
+src/textscan_soupy.egg-info/PKG-INFO
+src/textscan_soupy.egg-info/SOURCES.txt
+src/textscan_soupy.egg-info/dependency_links.txt
+src/textscan_soupy.egg-info/top_level.txt
