@@ -1,0 +1,15 @@
+tkg_utils/SdkAdapter.py,sha256=rfHQvVA2R40YKARawyWVouhMNqerPbFV5-MWNDgXO-U,2020
+tkg_utils/__init__.py,sha256=QxZLcgmGZ6GTe7rPO6U6YckGrsB0jmSdbVuGfYCR-XM,34
+tkg_utils/Normal/ItemInfo.py,sha256=UeTuCh0XrrprAcwTYQBzIk5ERkpyvfks4g0xGL4GLfM,117
+tkg_utils/Normal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkg_utils/SdkAdapter/FileAdapter.py,sha256=mw4_y2GCmIUS677VEtcdxoS98PuttewYJ1fh_SVwm5g,1930
+tkg_utils/SdkAdapter/FileContentAdapter.py,sha256=LWWQ9dzkYLQ4uauTTLZeYaZQPmVhjWo4zqFks9a7BFY,2690
+tkg_utils/SdkAdapter/FileItem.py,sha256=NY6-wAIoWrT6sBCm7IrZlVC7jH-_EynhhfjFo4mgAOM,3897
+tkg_utils/SdkAdapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkg_utils/Utils/FileUtils.py,sha256=COjTx4xCRanl-GHSf9NB4w1oRdFBXpeuwRn7Bhu6I_0,2850
+tkg_utils/Utils/__init__.py,sha256=2pSXZe6C7pZYCsNBTIYLZG6jkQwLC0Xv9NXQfrqvxJE,24
+tkg_utils-2.0.1.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+tkg_utils-2.0.1.dist-info/METADATA,sha256=p_w-fjLRrAP5Fr_bHRLAgCEWh7W8Gk68Wd8Ur2wzfcA,223
+tkg_utils-2.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tkg_utils-2.0.1.dist-info/top_level.txt,sha256=p5m2W_hlQS3brFmJ462hU_hWUHuFY3PI7VWHNh_ycP4,64
+tkg_utils-2.0.1.dist-info/RECORD,,
