@@ -1,0 +1,12 @@
+setup.py
+RobloxPyX.egg-info/PKG-INFO
+RobloxPyX.egg-info/SOURCES.txt
+RobloxPyX.egg-info/dependency_links.txt
+RobloxPyX.egg-info/top_level.txt
+source/__init__.py
+source/function/__init__.py
+source/function/group/__init__.py
+source/function/group/main.py
+source/function/user/__init__.py
+source/request/__init__.py
+source/request/req.py
