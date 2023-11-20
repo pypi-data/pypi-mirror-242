@@ -1,0 +1,2 @@
+[console_scripts]
+verify = verumverify.main:main
