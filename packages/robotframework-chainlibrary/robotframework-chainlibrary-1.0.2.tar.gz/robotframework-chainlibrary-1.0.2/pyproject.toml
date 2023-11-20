@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robotframework-chainlibrary"
+version = "1.0.2"
+dependencies = [
+    "robotframework",
+]
+requires-python = ">=3.8"
+authors = [
+    { name="Mauricio Gutierrez", email="103621275+crsdet@users.noreply.github.com" },
+]
+description = "Robot Framework library for running keywords in a chain."
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["robotframework"]
+classifiers = [
+    "Framework :: Robot Framework :: Library",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Testing",
+]
+
+[project.urls]
+Homepage = "https://github.com/crsdet/robotframework-chainlibrary"
+Documentation = "https://crsdet.github.io/robotframework-chainlibrary/"
+
+[tool.setuptools]
+package-dir = { ""="src"}
+packages = ["ChainLibrary"]
