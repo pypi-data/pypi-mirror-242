@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+aipin/__init__.py
+aipin.egg-info/PKG-INFO
+aipin.egg-info/SOURCES.txt
+aipin.egg-info/dependency_links.txt
+aipin.egg-info/top_level.txt
