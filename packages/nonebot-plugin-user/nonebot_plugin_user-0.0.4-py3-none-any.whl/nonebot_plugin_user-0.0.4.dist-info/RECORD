@@ -1,0 +1,13 @@
+nonebot_plugin_user/__init__.py,sha256=Yc-LkVV799bhN1uLLkUeSJgJ6C7kxu8eeFvTE1QW5aI,947
+nonebot_plugin_user/annotated.py,sha256=CHuLCrawbKjOD_TieOLBdoSdwpWG2cpR4KEqjyKp8zs,334
+nonebot_plugin_user/matchers.py,sha256=RYvlsYc51-wOhvHc-B9tetnhHxFRS6KJmQvL-abgR8Q,5081
+nonebot_plugin_user/migrations/9492159f98f7_remove_foreignkey.py,sha256=4YbstI4favBrNmrIihOwe1nxJP921Bz1s88Btfqw_nQ,1639
+nonebot_plugin_user/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonebot_plugin_user/migrations/ac57f7074e58_init_db.py,sha256=zOw4DwxINCtVarFewtl-r5eCVzK5M0cGizZ5Cj22RjM,2145
+nonebot_plugin_user/models.py,sha256=wvKKSRQH0uFqvDBKDpAMD0FCl7hNkt-QBYr4NQjI7j4,1989
+nonebot_plugin_user/params.py,sha256=1PBZVJJEy6DFZIlbkTvM7M0bvvzzBTAP_661RFYqk3A,898
+nonebot_plugin_user/utils.py,sha256=e64yEVPrzu8qUsEBRfWqhrRnOC9o0irPEToCENV6AMU,3296
+nonebot_plugin_user-0.0.4.dist-info/LICENSE,sha256=9OSdZ4-8-NbWSVuZKFvxSPVDblh1vA29xwJpMoND_yI,1067
+nonebot_plugin_user-0.0.4.dist-info/METADATA,sha256=oCXNc4V94YsvG3QMz0OJq-8h_j-lFTRhWeBTbeEc0HU,2936
+nonebot_plugin_user-0.0.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+nonebot_plugin_user-0.0.4.dist-info/RECORD,,
