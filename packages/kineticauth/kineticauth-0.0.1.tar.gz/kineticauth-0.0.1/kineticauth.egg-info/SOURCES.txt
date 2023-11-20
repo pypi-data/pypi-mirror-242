@@ -1,0 +1,8 @@
+README.md
+setup.py
+kineticauth/__init__.py
+kineticauth/keys.py
+kineticauth.egg-info/PKG-INFO
+kineticauth.egg-info/SOURCES.txt
+kineticauth.egg-info/dependency_links.txt
+kineticauth.egg-info/top_level.txt

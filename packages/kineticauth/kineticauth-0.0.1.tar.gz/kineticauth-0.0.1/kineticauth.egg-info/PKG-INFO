@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kineticauth
+Version: 0.0.1
+Summary: Authentication and API Key Generation Library.
+Author: Kinetic Seas (Ed Honour / Joe Lehman)
+Author-email: <edward.honour@kineticseas.com>
+Keywords: python,API Key Generation
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Support API Key Generation.
