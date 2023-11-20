@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+mindweave/__init__.py
+mindweave.egg-info/PKG-INFO
+mindweave.egg-info/SOURCES.txt
+mindweave.egg-info/dependency_links.txt
+mindweave.egg-info/top_level.txt
