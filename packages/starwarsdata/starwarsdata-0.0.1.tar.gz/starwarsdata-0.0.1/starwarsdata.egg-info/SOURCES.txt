@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+starwarsdata/__init__.py
+starwarsdata/starwars.py
+starwarsdata.egg-info/PKG-INFO
+starwarsdata.egg-info/SOURCES.txt
+starwarsdata.egg-info/dependency_links.txt
+starwarsdata.egg-info/top_level.txt
