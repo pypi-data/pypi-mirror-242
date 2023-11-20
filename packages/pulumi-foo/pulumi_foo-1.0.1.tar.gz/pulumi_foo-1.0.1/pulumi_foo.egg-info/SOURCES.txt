@@ -1,0 +1,6 @@
+setup.py
+pulumi_foo.egg-info/PKG-INFO
+pulumi_foo.egg-info/SOURCES.txt
+pulumi_foo.egg-info/dependency_links.txt
+pulumi_foo.egg-info/not-zip-safe
+pulumi_foo.egg-info/top_level.txt
