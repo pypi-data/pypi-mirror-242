@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+srilanka/__init__.py
+srilanka.egg-info/PKG-INFO
+srilanka.egg-info/SOURCES.txt
+srilanka.egg-info/dependency_links.txt
+srilanka.egg-info/top_level.txt
