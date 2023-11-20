@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+paperplot/__init__.py
+paperplot.egg-info/PKG-INFO
+paperplot.egg-info/SOURCES.txt
+paperplot.egg-info/dependency_links.txt
+paperplot.egg-info/top_level.txt
