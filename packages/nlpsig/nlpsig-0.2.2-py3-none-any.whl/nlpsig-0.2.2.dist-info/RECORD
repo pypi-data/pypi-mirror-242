@@ -1,0 +1,13 @@
+nlpsig/__init__.py,sha256=Y-KCqIimXC9g09tbjQ4esSXbF9sxvuFl2NH6ytb7_wg,801
+nlpsig/classification_utils.py,sha256=6dbkx7GFZ0FAc9ZnlZjUGjDPsdW0YtzNo7GwKQVLXvg,27662
+nlpsig/data_preparation.py,sha256=h3NsSbU_sUKr-4dGrfUm0zWRejaP3YMYvHmDEdWr-BY,52596
+nlpsig/dimensionality_reduction.py,sha256=r7XVCRk9quAn0F6RR8BJnPAW14yYVT6RLpreMRbXdDs,8268
+nlpsig/encode_text.py,sha256=f788qeFSC7aJ1uMRgYX3BIfnOW_aQpWp12hPxztVXNI,57018
+nlpsig/plot_embedding.py,sha256=xJYDiMAMGTKXKS0J01X5z9SRLL0oaRn9z_an6mKYCv4,4481
+nlpsig/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlpsig/_compat/__init__.py,sha256=U4S_2y3zgLZVfMenHRaJFBW8yqh2mUBuI291LGQVOJ8,35
+nlpsig/_compat/typing.py,sha256=5bYOWIRnQU3d615fwhN3cyGgsdXk5HbSjijavkINt-o,309
+nlpsig-0.2.2.dist-info/METADATA,sha256=rAykLwXEM80p3hkKceuVhE1_sGk5AbZ4yPTVgO-JQtc,6792
+nlpsig-0.2.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+nlpsig-0.2.2.dist-info/licenses/LICENSE,sha256=eKOkAwRdyJIpdZGnQKtiE02YxBBqB1V-3Vhjz5ZrUtM,1523
+nlpsig-0.2.2.dist-info/RECORD,,
