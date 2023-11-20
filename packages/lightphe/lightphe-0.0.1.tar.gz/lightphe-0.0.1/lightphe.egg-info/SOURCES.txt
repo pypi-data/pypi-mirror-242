@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lightphe.egg-info/PKG-INFO
+lightphe.egg-info/SOURCES.txt
+lightphe.egg-info/dependency_links.txt
+lightphe.egg-info/requires.txt
+lightphe.egg-info/top_level.txt
