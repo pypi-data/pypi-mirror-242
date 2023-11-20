@@ -1,0 +1,8 @@
+README.md
+setup.py
+ragflow.egg-info/PKG-INFO
+ragflow.egg-info/SOURCES.txt
+ragflow.egg-info/dependency_links.txt
+ragflow.egg-info/not-zip-safe
+ragflow.egg-info/requires.txt
+ragflow.egg-info/top_level.txt

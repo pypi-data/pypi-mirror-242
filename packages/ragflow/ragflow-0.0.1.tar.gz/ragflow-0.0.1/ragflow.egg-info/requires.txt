@@ -1,0 +1,6 @@
+click
+tqdm
+
+[dev]
+pip-tools
+pytest

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ragflow
+Version: 0.0.1
+Summary: Efficient Document-Based QA with Retrieval-Augmented Generation (RAG) and Large Language Models (LLM).
+Home-page: https://github.com/breezedeus/ragflow
+Author: breezedeus
+Author-email: breezedeus@gmail.com
+License: Apache 2.0
+Platform: Mac
+Platform: Linux
+Platform: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# RAGFlow
+RAGFlow: Integrating Large Language Models (LLM) with Retrieval-Augmented Generation (RAG) for efficient document-based QA. Streamlining complex query responses through advanced data retrieval and contextual understanding.
