@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: compiled
+Version: 0.2.0
+Summary: Compiled versions of the stdlib.
+Home-page: https://github.com/tusharsadhwani/astest
+Author: Tushar Sadhwani
+Author-email: tushar.sadhwani000@gmail.com
+
+# compiled
+
+Compiled versions of the stdlib.
