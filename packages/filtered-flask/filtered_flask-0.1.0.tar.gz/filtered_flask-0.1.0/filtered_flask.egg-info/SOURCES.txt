@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+filtered_flask/__init__.py
+filtered_flask/app.py
+filtered_flask.egg-info/PKG-INFO
+filtered_flask.egg-info/SOURCES.txt
+filtered_flask.egg-info/dependency_links.txt
+filtered_flask.egg-info/requires.txt
+filtered_flask.egg-info/top_level.txt
