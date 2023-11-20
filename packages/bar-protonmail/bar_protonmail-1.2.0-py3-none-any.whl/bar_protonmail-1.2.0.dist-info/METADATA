@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: bar-protonmail
+Version: 1.2.0
+Summary: Get notifications and unread messages count from ProtonMail (Waybar/Polybar module)
+Home-page: https://github.com/crabvk/bar-protonmail
+License: MIT
+Keywords: waybar,polybar,protonmail
+Author: Vyacheslav Konovalov
+Author-email: crabvk@protonmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dasbus (>=1.7,<2.0)
+Requires-Dist: dnspython (>=2.2.1,<3.0.0)
+Requires-Dist: proton-client (>=0.7.1,<0.8.0)
+Requires-Dist: pygobject (>=3.46.0,<4.0.0)
+Requires-Dist: pysocks (>=1.7.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# New message notifications and unread messages count from ProtonMail (Waybar/Polybar module)
+
+## Dependencies
+
+* proton-client >= 0.7.1 ([not available on pypi.org](https://github.com/ProtonMail/proton-python-client/issues/36))
+* ttf-font-awesome (default badge: )
+* libnotify (new email notifications, can be disabled with `-dn` flag)
+* libcanberra (optional, notification sound)
+
+To display notifications you must have a [notification daemon](https://wiki.archlinux.org/title/Desktop_notifications#Notification_servers) running on your system.
+
+## Install
+
+### ArchLinux and derivatives
+
+[AUR package](https://aur.archlinux.org/packages/bar-protonmail/)
+
+### Other distros
+
+```sh
+git clone https://github.com/crabvk/bar-protonmail.git
+# WARN: Checkout to the latest tag, don't use master branch.
+pip install -e .
+```
+
+And now you can execute *~/.local/bin/bar-protonmail*
+
+## Use
+
+First, you need to authenticate the client:
+
+```sh
+bar-protonmail auth
+```
+
+then just run `bar-protonmail` or `bar-protonmail -f polybar`.
+Session, cache and log are stored in ~/.cache/bar-protonmail.
+
+## Waybar config example
+
+~/.config/waybar/config
+```json
+"modules-right": {
+    "custom/protonmail"
+}
+
+"custom/protonmail": {
+    "exec": "bar-protonmail",
+    "return-type": "json",
+    "interval": 10,
+    "tooltip": false,
+    "on-click": "xdg-open https://mail.proton.me/u/0/inbox"
+}
+```
+~/.config/waybar/style.css
+```css
+#custom-protonmail.unread {
+    color: white;
+}
+#custom-protonmail.inaccurate {
+    color: darkorange;
+}
+#custom-protonmail.error {
+    color: darkred;
+}
+```
+
+## Polybar config example
+
+```ini
+modules-right = protonmail
+...
+[module/protonmail]
+type = custom/script
+exec = bar-protonmail -f polybar
+interval = 10
+click-left = xdg-open https://mail.proton.me/u/0/inbox
+```
+
+## Script arguments
+
+See `bar-protonmail -h` for the list of arguments with descriptions.  
+Possible values for `-s`, `--sound` can be found with:
+```shell
+ls /usr/share/sounds/freedesktop/stereo/ | cut -d. -f1
+```
+for example `-s message-new-instant`.
+

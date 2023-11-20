@@ -1,0 +1,10 @@
+bar_protonmail/__init__.py,sha256=nk9WEYUcIb8FDFQKKIGZwoc_geAszReCLMfaJrdztBY,2890
+bar_protonmail/app.py,sha256=Vi09LHrSHf2WCUjfBEflkjwiSpsbVrxdyHLE1JWI0JQ,4349
+bar_protonmail/icon.svg,sha256=yykfJ8j43z6DpJbHuo86zPEm2qPdjWXuNMACH-K20_Q,4855
+bar_protonmail/printer.py,sha256=Y459o-EZhUd87ClhtTL8N_c6Ic8fYeCERjUhm7WZDCM,1367
+bar_protonmail/protonmail.py,sha256=f9lvZHnGxv3_tTtLXkp2gab_rGc-BxjtlYOfpbWNbd4,2354
+bar_protonmail-1.2.0.dist-info/LICENSE,sha256=KWJlFLqk6XVCL_1lTqL_Oy0zpsI4nsDO2UdkKgjWYX8,1060
+bar_protonmail-1.2.0.dist-info/METADATA,sha256=iJAug-f8OZ-bNYfVHe1rQ5_2K7EwjivcAdtXGl2XRPQ,2968
+bar_protonmail-1.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bar_protonmail-1.2.0.dist-info/entry_points.txt,sha256=f1RnW_k9_6PrN7El0ae5bEZEoSyPr2bP1XU692GK-7w,53
+bar_protonmail-1.2.0.dist-info/RECORD,,
