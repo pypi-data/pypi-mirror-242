@@ -1,0 +1,15 @@
+ptyp/__init__.py,sha256=mOu1G7VokWZ-1wteryhl5nPv256SJCj4i9SaCGyPXcA,483
+ptyp/_modidx.py,sha256=pmJIycQYjWNupurdXwVm69A2Y3zoMSmev92NvpIu6JY,8090
+ptyp/_tmp.py,sha256=6r83Y-1yembX7ZYcFkPypULifews4WOUyl5bEmegw8w,421
+ptyp/grds.py,sha256=1Bsix9h0HZD6-gX4OfA9IOkW9z7NGbV-r4wlikpr3OA,6868
+ptyp/meta.py,sha256=Q3hlOT6irBDbFB7fx8GIg3ggCG3vsYKgXCMRNTc75_g,15376
+ptyp/prot.py,sha256=4kR0i81kzg-r0MxyDJSN-usYQQZ6ihvGj1Q0NAtXOp4,2567
+ptyp/ptyp.py,sha256=3BRNqClXmhLt5mWDeo0EZtq0LY96GvBT37ciUAUuYe8,1187
+ptyp/type.py,sha256=QkQEDDrPFf483NV-S_LjFHuwOAcffzGUfJ1OgfP1soM,1059
+ptyp/util.py,sha256=hTwl-uZujZopEWP6y3YewnsqHMAUOryKEZDMULxPcBM,7175
+ptyp-0.0.3.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+ptyp-0.0.3.dist-info/METADATA,sha256=s5aZ_EfeAhU1pgWKN03OoUjEw5Zm-h3xANIWZPVi0ZU,2304
+ptyp-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+ptyp-0.0.3.dist-info/entry_points.txt,sha256=QMEnjLrvwZ6u8uKrOjwJi-SA58Bm_fBo_0kL4WI7YxQ,30
+ptyp-0.0.3.dist-info/top_level.txt,sha256=9UtsHDk2jPfNg-5Y2kf6U2cOPwJKWViJUuVYU1Z41I8,5
+ptyp-0.0.3.dist-info/RECORD,,
