@@ -1,0 +1,6 @@
+cache.db> select count(*) from failoverclusters;
++----------+
+| count(*) |
+|----------|
+| 3300     |
++----------+
