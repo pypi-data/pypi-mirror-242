@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+fingerprintsql/__init__.py
+fingerprintsql/fingerprintsql.py
+fingerprintsql.egg-info/PKG-INFO
+fingerprintsql.egg-info/SOURCES.txt
+fingerprintsql.egg-info/dependency_links.txt
+fingerprintsql.egg-info/top_level.txt
