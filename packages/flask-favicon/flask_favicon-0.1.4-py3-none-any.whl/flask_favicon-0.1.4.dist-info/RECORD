@@ -1,0 +1,17 @@
+flask_favicon/__init__.py,sha256=P77XxzkogmIkM3KsJaYW5Oz-yt_l_cKvCw9doqbW6tw,111
+flask_favicon/flask_extension.py,sha256=Z9K_Fjbb2LG0hkawUQIMx7Q05I9_-Nx-DjDldMBJZY0,3867
+flask_favicon/flask_favicon_asset.py,sha256=YuFcDvwkhR1YwloVVFCIgiJk4ZAjvWn0hEWPef9sS3s,2716
+flask_favicon/flask_integration.py,sha256=Rm5-wTNofdmL3ndM1PHj6yFyAWIcWjUtujYQPjZzoOo,1035
+flask_favicon/groups/abstract_favicon_group.py,sha256=Ct3Ruj9uYX_NlyULYQMM51kadntgK6M0DHCxVeeF3hQ,2627
+flask_favicon/groups/favicon_android.py,sha256=msIJhUrJw4aKMNaA1y7XQ07VcqiOEku1xyQYEq_LYqY,1475
+flask_favicon/groups/favicon_apple.py,sha256=_kSiqiK0NG0een35VJqShFiF-e_UIt6b6dThJ8NCZNo,894
+flask_favicon/groups/favicon_apple_startup.py,sha256=UmFs3Z7_ljIHld1dR_IxVrsI2rnlgmJxKo63JXDQqPs,1027
+flask_favicon/groups/favicon_ms.py,sha256=j_y9fnyaIdGFoOrTwa2XXThMNe2Hfcvf8cWYylxXXOA,1401
+flask_favicon/groups/favicon_standard.py,sha256=UqZ7nb5Snc5Qk1uWzlIi59XWYn8Gx7RYqUgSAERLQXE,525
+flask_favicon/groups/favicon_yandex.py,sha256=rCkD8_4JvrR97pq8yvJckpNtAZefduCmbOueoakfUjg,869
+flask_favicon/templates/flask-favicon.html,sha256=zB-ioipFhLqpfEC0Cnoqt4zDUvFOEwZtqbwyEru-vfc,4531
+flask_favicon-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+flask_favicon-0.1.4.dist-info/METADATA,sha256=5TOCOMqEDJPPxwDlUezGAjsouTOh5ilh_FPlvMMS59w,4443
+flask_favicon-0.1.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+flask_favicon-0.1.4.dist-info/top_level.txt,sha256=WzpWjEFSgUjrQuGrvFxlSS2Fhd7WDbqBUpV0eXVAncY,14
+flask_favicon-0.1.4.dist-info/RECORD,,
