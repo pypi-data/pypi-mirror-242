@@ -1,0 +1,10 @@
+frittomisto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frittomisto/asyncio.py,sha256=EtFurowLglQzys4h34q7ix7YHY_72vatOfuI7fVO8Ns,506
+frittomisto/cfg.py,sha256=OsZSip9mOTiCxn1kyn4nStk53kLksl8DVDakDSblVNA,3462
+frittomisto/io.py,sha256=ROuwQBAB76QEOkcm0OjLtxOsuYKlaLNaDUGWq5Efoc0,439
+frittomisto/logging.py,sha256=JzI_SQgcsFfpVPqLLnH1hOjfTE9iBkEL8bQZ6SL6QEU,1274
+frittomisto/path.py,sha256=y-RCZFpW2KA7QYJUmDVAMmc4VNaLe5A4l_JwotyHaZQ,998
+frittomisto/profiling.py,sha256=8tz2qXXkAStDzDni7Wy7R5r04eg6k0jTquFMRkWtpHA,4840
+frittomisto-0.0a1.dist-info/METADATA,sha256=4SCqe83mKOuuLZFtA1Ty9rjszMQwV9QwNdEKSVIm1no,5474
+frittomisto-0.0a1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+frittomisto-0.0a1.dist-info/RECORD,,
