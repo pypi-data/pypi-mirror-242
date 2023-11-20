@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sshifted
+Version: 0.1.0
+Summary: A python SSH multi-tabbed Terminal based on PyQt6 and FastAPI
+Home-page: https://github.com/scottpeterman/sshifted
+Author: Scott Peterman
+Author-email: scottpeterman@gmail.com
+License: GPLv3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Dist: PyQt6==6.6.0
+Requires-Dist: PyQt6-Qt6==6.6.0
+Requires-Dist: PyQt6-sip==13.6.0
+Requires-Dist: PyQt6-WebEngine==6.6.0
+Requires-Dist: PyQt6-WebEngine-Qt6==6.6.0
+Requires-Dist: PyYAML==6.0.1
