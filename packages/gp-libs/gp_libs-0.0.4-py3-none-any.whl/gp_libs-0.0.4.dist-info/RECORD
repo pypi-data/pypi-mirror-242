@@ -1,0 +1,10 @@
+doctest_docutils.py,sha256=PVmLOYFMuCbYaFENepgGKzTkaAtb9GrgNA84e9HeT2Y,19833
+docutils_compat.py,sha256=ELYJb_t_CUnumI0ighyryla9Njd7adL-coNk5XpiiDw,552
+gp_libs.py,sha256=V-4ZFvh_ye4fDZS7Gu0QqNZAz4Kai_csF3MVHguumLQ,460
+linkify_issues.py,sha256=Dq6guab1QEKhEMDxcLYoWeQ6woxD6XOQvNlYLKE4uEI,2342
+pytest_doctest_docutils.py,sha256=kUPBJdTkOmoznXHLlKUyGe6ELvBpvzMjYBSitTR-zj4,7927
+gp_libs-0.0.4.dist-info/LICENSE,sha256=4ZUHd4-FT84yatUfr-uDRV4a5hhg3fAAieerbYPuf1w,1070
+gp_libs-0.0.4.dist-info/METADATA,sha256=-aBH9YV2TcqKJy9PdW3-RxbVlP_XeUxrdB8dTlhaqds,5573
+gp_libs-0.0.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gp_libs-0.0.4.dist-info/entry_points.txt,sha256=LXr5k8KNHbSwhqYv_zYxedeifZcq6i12QLwgD1A3rJc,43
+gp_libs-0.0.4.dist-info/RECORD,,
