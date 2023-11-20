@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: CharTurn
+Version: 0.1
+Summary: A turn-based combat system for RPGs.
+Home-page: https://github.com/primal-coder/CharTurn
+Author: James Evans
+Author-email: joesaysahoy@gmail.com
+License: MIT
+Keywords: turn-based,combat,RPG
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Games/Entertainment :: Role-Playing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: pyglet

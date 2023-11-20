@@ -1,0 +1,9 @@
+README.md
+setup.py
+CharTurn/__init__.py
+CharTurn/_turn.py
+CharTurn.egg-info/PKG-INFO
+CharTurn.egg-info/SOURCES.txt
+CharTurn.egg-info/dependency_links.txt
+CharTurn.egg-info/requires.txt
+CharTurn.egg-info/top_level.txt
