@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+chrphb_contacts/__init__.py
+chrphb_contacts/_modidx.py
+chrphb_contacts/core.py
+chrphb_contacts.egg-info/PKG-INFO
+chrphb_contacts.egg-info/SOURCES.txt
+chrphb_contacts.egg-info/dependency_links.txt
+chrphb_contacts.egg-info/entry_points.txt
+chrphb_contacts.egg-info/not-zip-safe
+chrphb_contacts.egg-info/requires.txt
+chrphb_contacts.egg-info/top_level.txt
