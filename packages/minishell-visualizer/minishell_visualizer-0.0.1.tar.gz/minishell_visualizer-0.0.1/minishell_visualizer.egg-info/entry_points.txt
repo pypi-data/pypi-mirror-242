@@ -1,0 +1,2 @@
+[console_scripts]
+minishell_visualizer = minishell_visualizer.__main__:main

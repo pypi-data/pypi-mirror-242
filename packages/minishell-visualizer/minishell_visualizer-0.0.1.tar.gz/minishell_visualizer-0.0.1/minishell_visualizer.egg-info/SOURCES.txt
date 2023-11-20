@@ -1,0 +1,6 @@
+setup.py
+minishell_visualizer.egg-info/PKG-INFO
+minishell_visualizer.egg-info/SOURCES.txt
+minishell_visualizer.egg-info/dependency_links.txt
+minishell_visualizer.egg-info/entry_points.txt
+minishell_visualizer.egg-info/top_level.txt
