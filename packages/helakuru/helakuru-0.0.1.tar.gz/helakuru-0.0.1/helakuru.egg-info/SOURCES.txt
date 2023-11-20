@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+helakuru/__init__.py
+helakuru.egg-info/PKG-INFO
+helakuru.egg-info/SOURCES.txt
+helakuru.egg-info/dependency_links.txt
+helakuru.egg-info/top_level.txt
