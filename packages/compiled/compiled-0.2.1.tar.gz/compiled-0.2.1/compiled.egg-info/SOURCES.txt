@@ -1,0 +1,12 @@
+setup.py
+compiled/__init__.py
+compiled/difflib.py
+compiled.egg-info/PKG-INFO
+compiled.egg-info/SOURCES.txt
+compiled.egg-info/dependency_links.txt
+compiled.egg-info/entry_points.txt
+compiled.egg-info/top_level.txt
+compiled/tomllib/__init__.py
+compiled/tomllib/_parser.py
+compiled/tomllib/_re.py
+compiled/tomllib/_types.py
