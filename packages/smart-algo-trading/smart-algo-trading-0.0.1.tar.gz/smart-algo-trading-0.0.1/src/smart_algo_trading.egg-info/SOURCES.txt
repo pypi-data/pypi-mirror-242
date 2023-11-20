@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+src/ind_equity_derivatives/__init__.py
+src/ind_equity_derivatives/nse_data.py
+src/smart_algo_trading.egg-info/PKG-INFO
+src/smart_algo_trading.egg-info/SOURCES.txt
+src/smart_algo_trading.egg-info/dependency_links.txt
+src/smart_algo_trading.egg-info/requires.txt
+src/smart_algo_trading.egg-info/top_level.txt
