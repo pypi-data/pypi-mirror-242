@@ -1,0 +1,6 @@
+[console_scripts]
+oss-opt=open_sustain_tech.main:app
+
+[poetry.application.plugin]
+open-sustain-tech=open_sustain_tech.plugin:OSSOptionPlugin
+
