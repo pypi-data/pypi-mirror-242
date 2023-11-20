@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+vialink/utils/module/__init__.py
+vialink/utils/module/dynamo.py
+vialink/utils/module/ecs.py
+vialink/utils/module/encoder.py
+vialink/utils/module/module.py
+vialink/utils/module/secret.py
+vialink/utils/module/settings.py
+vialink_utils_module.egg-info/PKG-INFO
+vialink_utils_module.egg-info/SOURCES.txt
+vialink_utils_module.egg-info/dependency_links.txt
+vialink_utils_module.egg-info/requires.txt
+vialink_utils_module.egg-info/top_level.txt
