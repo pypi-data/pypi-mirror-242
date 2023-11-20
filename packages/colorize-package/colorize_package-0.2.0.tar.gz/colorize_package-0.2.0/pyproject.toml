@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "colorize_package"
+version = "0.2.0"
+description = "A simple package to colorize black and white images"
+authors = [
+    {name = "George Campbell", email = "George@campbellcodes.com"}
+]
+license = {file = "LICENSE"}
+requires-python = ">=3.6"
+dependencies = [
+    "opencv-python>=4.5.3"
+]
+[tool.setuptools]
+packages = ["colorize"]

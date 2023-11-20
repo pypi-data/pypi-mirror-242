@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+colorize/__init__.py
+colorize/colorizer.py
+colorize_package.egg-info/PKG-INFO
+colorize_package.egg-info/SOURCES.txt
+colorize_package.egg-info/dependency_links.txt
+colorize_package.egg-info/requires.txt
+colorize_package.egg-info/top_level.txt
