@@ -1,0 +1,2 @@
+[console_scripts]
+serial_y_cable = serial_y_cable:main
