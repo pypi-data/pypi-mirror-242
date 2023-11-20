@@ -1,0 +1,9 @@
+sharedbuiltinmutables/README.MD,sha256=ecO1kzr96trpUp5QD7hgv5xXqKAwAlxHERS8H0yK82c,1118
+sharedbuiltinmutables/__init__.py,sha256=DIFCotiPJTLdT_iKXffZrOQE8380_tgX97V21oJvCFQ,29779
+sharedbuiltinmutables/requirements.txt,sha256=IrPPUoG6EtcfM5TWNTwI7NQC7SF2yd4yYFCe03ZacuU,4
+sharedbuiltinmutables/thirdparty.json,sha256=xDV2T-aBh8G0XeHJ7dNtN_tL-mDi9vGcidX5YaBcB4Q,1904
+sharedbuiltinmutables-0.11.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+sharedbuiltinmutables-0.11.dist-info/METADATA,sha256=p_ZiuL-TOlIBJ-wz4UJ2Zgk2xMO8Nb9dCV_4KyuT9Xk,1796
+sharedbuiltinmutables-0.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sharedbuiltinmutables-0.11.dist-info/top_level.txt,sha256=VDtjmnxeaMQYc6XQhlmxJZCGfWNv_wagBxJpju7tcO0,22
+sharedbuiltinmutables-0.11.dist-info/RECORD,,
