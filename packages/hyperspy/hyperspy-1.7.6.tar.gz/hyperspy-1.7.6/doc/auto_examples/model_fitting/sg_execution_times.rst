@@ -1,0 +1,15 @@
+
+:orphan:
+
+.. _sphx_glr_auto_examples_model_fitting_sg_execution_times:
+
+
+Computation times
+=================
+**00:00.823** total execution time for **auto_examples_model_fitting** files:
+
++---------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_auto_examples_model_fitting_plot_residual.py` (``plot_residual.py``)         | 00:00.478 | 0.0 MB |
++---------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_auto_examples_model_fitting_simple_arctan_fit.py` (``simple_arctan_fit.py``) | 00:00.346 | 0.0 MB |
++---------------------------------------------------------------------------------------------+-----------+--------+

@@ -1,0 +1,19 @@
+
+:orphan:
+
+.. _sphx_glr_auto_examples_create_signal_sg_execution_times:
+
+
+Computation times
+=================
+**00:01.770** total execution time for **auto_examples_create_signal** files:
+
++---------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_auto_examples_create_signal_spectrum_image.py` (``spectrum_image.py``) | 00:00.516 | 0.0 MB |
++---------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_auto_examples_create_signal_2D_image_stack.py` (``2D_image_stack.py``) | 00:00.433 | 0.0 MB |
++---------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_auto_examples_create_signal_line_spectrum.py` (``line_spectrum.py``)   | 00:00.426 | 0.0 MB |
++---------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_auto_examples_create_signal_1D_image_stack.py` (``1D_image_stack.py``) | 00:00.395 | 0.0 MB |
++---------------------------------------------------------------------------------------+-----------+--------+
