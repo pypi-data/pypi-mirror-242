@@ -1,0 +1,9 @@
+.idea
+.pdm-python
+target
+.venv
+
+tmp
+
+*.so
+*.pyc
