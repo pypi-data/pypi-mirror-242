@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: chpobench
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/nabenabe0928/constrained-hpo-bench
+Author: nabenabe0928
+Author-email: shuhei.watanabe.utokyo@gmail.com
+License: UNKNOWN
+Platform: Linux
+Platform: Darwin
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: ujson
+Requires-Dist: jahs-bench
+Requires-Dist: hpolib-extractor
+Requires-Dist: tqdm
+
+UNKNOWN
+
