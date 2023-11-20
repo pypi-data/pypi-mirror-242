@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: VaRaPS
+Version: 0.2.0
+Summary: VaRaPS : Variants Ratios from Pooled Sequencing
+Author-email: DJAOUT El Hacene <djaout@lpsm.paris>
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: pysam
+Requires-Dist: cigar
+Requires-Dist: tqdm
