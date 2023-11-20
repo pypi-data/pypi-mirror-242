@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: compiled
+Version: 0.2.1
+Summary: Compiled versions of the stdlib.
+Author-email: Tushar Sadhwani <tushar.sadhwani000@gmail.com>
+Project-URL: Homepage, https://github.com/tusharsadhwani/compiled
+Requires-Python: >=3.11
+
