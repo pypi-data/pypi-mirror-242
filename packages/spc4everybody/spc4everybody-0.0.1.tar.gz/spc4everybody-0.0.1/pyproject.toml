@@ -1,0 +1,59 @@
+[build-system]
+requires = [
+  "setuptools>=68.0",
+  "build"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spc4everybody"
+version = "0.0.1"
+dependencies = [
+  "numpy"
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "Mikel Valencia", email = "mikelv.dev@gmail.com"}
+]
+maintainers = [
+  {name = "Mikel Valencia", email = "mikelv.dev@gmail.com"}
+]
+description = "A powerful Python framework to perform Statistical Process Control (SPC) analysis"
+readme = {file = "README.rst", content-type = "text/x-rst"}
+license = {file = "LICENSE.txt"}
+keywords = ["statistics", "manufacturing", "spc", "quality", "control", "engineering"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Development Status :: 1 - Planning",
+  "Intended Audience :: Manufacturing",
+  "Topic :: Scientific/Engineering"
+]
+
+[project.urls]
+Homepage = "https://github.com/Mikel-Valencia/spc4everybody"
+Repository = "https://github.com/Mikel-Valencia/spc4everybody.git"
+Issues = "https://github.com/Mikel-Valencia/spc4everybody/issues"
+
+[tool.pytest]
+python_files = "*_test.py"
+python_functions = "*_test"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+[tool.mypy]
+mypy_path = "src"
+check_untyped_defs = true
+disallow_any_generics = true
+ignore_missing_imports = true
+no_implicit_optional = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+no_implicit_reexport = true
