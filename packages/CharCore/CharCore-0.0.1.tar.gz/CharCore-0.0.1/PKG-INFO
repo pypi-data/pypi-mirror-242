@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: CharCore
+Version: 0.0.1
+Summary: A game engine.
+Home-page: https://github.com/primal-coder/CharCore
+Author: James Evans
+Author-email: joesaysahoy@gmail.com
+Keywords: game engine
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyglet
+Requires-Dist: pymunk
+Requires-Dist: CharTurn
