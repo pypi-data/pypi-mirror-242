@@ -1,0 +1,10 @@
+sqlalchemy_doris/__init__.py,sha256=tiYsF2kLcW9fGt6AUahE--zEET_b_4oVGYlPLa_FPQE,1165
+sqlalchemy_doris/_version.py,sha256=LihvXsX11I2jla5mXh08c4Nv7nlLSLZJCmSKYdqiruQ,427
+sqlalchemy_doris/datatype.py,sha256=urNnH92vulbuuQmV3tJ072BmzTB3HFTZkQJTWG1B7LM,3778
+sqlalchemy_doris/dialect.py,sha256=lTYB_lSWSDjR0mwta_4axGO2Ja50X4bGwoXaJJ2j624,6389
+sqlalchemy_doris-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+sqlalchemy_doris-0.1.0.dist-info/METADATA,sha256=VGSCMgll2Jvux80u_rvtG8I2jlPDeF6gzqI-OFWeo74,1611
+sqlalchemy_doris-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+sqlalchemy_doris-0.1.0.dist-info/entry_points.txt,sha256=a-wI3Y9NUpUOrNMKwMS-WTmSJxqLScOgOoIe0A7vet0,184
+sqlalchemy_doris-0.1.0.dist-info/top_level.txt,sha256=_pUnPrVEVtY7A3j5MhbnpAx7-joFu4c_IOQQTm8qA5I,17
+sqlalchemy_doris-0.1.0.dist-info/RECORD,,
