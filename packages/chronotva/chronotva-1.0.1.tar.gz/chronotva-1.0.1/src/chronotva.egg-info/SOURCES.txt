@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/chronotva/__init__.py
+src/chronotva/cli.py
+src/chronotva/default_data.py
+src/chronotva/tesseract.py
+src/chronotva.egg-info/PKG-INFO
+src/chronotva.egg-info/SOURCES.txt
+src/chronotva.egg-info/dependency_links.txt
+src/chronotva.egg-info/entry_points.txt
+src/chronotva.egg-info/requires.txt
+src/chronotva.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_tesseract.py

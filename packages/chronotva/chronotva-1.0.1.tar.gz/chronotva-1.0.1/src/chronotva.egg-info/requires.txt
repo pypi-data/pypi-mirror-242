@@ -1,0 +1,7 @@
+matplotlib
+
+[dev]
+pytest>=6.0.0
+mypy>=0.800
+isort>=5.0.0
+black>=20.8b1
