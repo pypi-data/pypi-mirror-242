@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "iflytek-spark-api"
+version = "0.0.1"
+description = "Python SDK the iFLYTEK Spark API"
+packages = [
+    {include = "spark"}
+]
+authors = ["Yi ZHANG <yizhang.dev@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://pypi.org/project/iflytek-spark-api"
+repository = "https://github.com/imyizhang/iflytek-spark-api"
+documentation = "https://iflytek-spark-api.readthedocs.io/en/latest/"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
