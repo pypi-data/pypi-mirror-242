@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "py-acli"
+version = "0.1.1"
+description = "A python wrapper around the Appfire Command Line Interface (ACLI)"
+authors = ["Jean-Luc Thirion <jean-luc.thirion@appfire.com>"]
+license = "Proprietary"
+readme = "README.md"
+packages = [{include = "acli"}]
+include = ["**/acli/clients/*"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.3"
+lxml = "^4.9.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+black = "^23.11.0"
+mypy = "^1.7.0"
+pandas-stubs = "^2.1.1.230928"
+
+[tool.poetry.group.demo]
+optional = true
+[tool.poetry.group.demo.dependencies]
+jupyter = "^1.0.0"
+seaborn = "^0.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+
+
+
+
