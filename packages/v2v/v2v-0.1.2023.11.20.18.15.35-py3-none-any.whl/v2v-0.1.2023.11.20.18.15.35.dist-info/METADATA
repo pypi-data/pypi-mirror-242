@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: v2v
+Version: 0.1.2023.11.20.18.15.35
+Summary: Python package for converting video to video with ffmpeg.
+Author-email: 404Vector <tiryul@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: ffmpeg-python
+Requires-Dist: numpy
+Project-URL: Home, https://github.com/404Vector/Video2Video
+
+# Video2Video
+Lib for Converting Video to Video
+
