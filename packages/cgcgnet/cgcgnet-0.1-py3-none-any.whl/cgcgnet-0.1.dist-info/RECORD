@@ -1,0 +1,10 @@
+cgcgnet/__init__.py,sha256=rqyZtt1djmoU2vxYGslRgV4TaBWrxK8uesP_Xai_8-U,19
+cgcgnet/featurizer.py,sha256=NKjeak8d39QsqE3JjC7EBxnJXYu9H66oulm3fnWIq2Q,6426
+cgcgnet/nn.py,sha256=M7QTTU7JkxpDumTeX-CgMt0a8mU15Di0mTrXZ5aiQ5U,12919
+cgcgnet/utils.py,sha256=rYKgaNkDbLCCnxhAGKo7BgkjyxMllgo9Ix3qremVy-c,1814
+cgcgnet/models/mol2vec_300dim.pkl,sha256=YpNLTsJFcWwel8qVSDQ04LZr_i78SZ9RI-F-brDCMx8,76786055
+cgcgnet-0.1.dist-info/LICENSE,sha256=W6iXdBRFPEiw8X1JmqnpbiPcvu2Ihv7-LY6Wte7h7R4,1070
+cgcgnet-0.1.dist-info/METADATA,sha256=ACTyBujlyjonHIxkRWhz-2U-DNV0vvIUCnAdoTg4UN0,1109
+cgcgnet-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cgcgnet-0.1.dist-info/top_level.txt,sha256=wqvQUp621e9kK9odhM-lKHadKoubTRPko4ys08Scdvk,8
+cgcgnet-0.1.dist-info/RECORD,,
