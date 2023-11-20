@@ -1,0 +1,2 @@
+[console_scripts]
+chronotva = chronotva.cli:main

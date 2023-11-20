@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chronotva/__init__.py,sha256=yq1Mrn_qn-buYot4MpnRqPd4smIhUhedtX1xgBrBI7Y,127
+chronotva/cli.py,sha256=dubNVAzW0O7YZBDq6fplkk49qJ2PCE40svk7Jfwf6y8,8796
+chronotva/default_data.py,sha256=mr2k5ufXxuqfWRVGnf4R6CUafBuhLaEaOChYRhIAJOo,46009
+chronotva/tesseract.py,sha256=wewuMU_AO11t01Vj8xMysOT6HYJMbcH4goHIWDph3kA,5140
+chronotva-1.0.1.dist-info/LICENSE,sha256=DcngkKQ-f-MI3IM6puhEU8pZYsRZWH0eLnSKSLVJOv0,1069
+chronotva-1.0.1.dist-info/METADATA,sha256=cRzbBTSd9dHfg1hZlUAAwiKh4CbrtZ2CfLUE2T9pw1E,9354
+chronotva-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+chronotva-1.0.1.dist-info/entry_points.txt,sha256=WDjN9CxYtjFZ_iDBsEdSxU809axdHbPqdpwGFc53D9U,49
+chronotva-1.0.1.dist-info/top_level.txt,sha256=BnLhLnyZ6cw6AlM5KdY1LaKrG0RUrepXUywiVElwjiU,19
+chronotva-1.0.1.dist-info/RECORD,,
