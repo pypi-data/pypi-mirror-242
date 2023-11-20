@@ -1,0 +1,13 @@
+**/tests/
+**/build/
+**/dist/
+**/__pycache__/
+*.json
+*.exe
+*.spec
+*.log
+*.rt
+.github/
+.idea/
+build_executable/
+*.tag
