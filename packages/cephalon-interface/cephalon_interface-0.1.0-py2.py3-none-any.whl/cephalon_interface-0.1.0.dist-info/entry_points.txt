@@ -1,0 +1,4 @@
+[console_scripts]
+cephalon=cephalon.cli:entry
+ci=cephalon.cli:entry
+
