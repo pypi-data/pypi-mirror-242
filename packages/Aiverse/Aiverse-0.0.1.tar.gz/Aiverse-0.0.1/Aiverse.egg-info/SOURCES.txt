@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+Aiverse/__init__.py
+Aiverse.egg-info/PKG-INFO
+Aiverse.egg-info/SOURCES.txt
+Aiverse.egg-info/dependency_links.txt
+Aiverse.egg-info/top_level.txt
