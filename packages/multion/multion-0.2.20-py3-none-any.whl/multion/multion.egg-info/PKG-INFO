@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: multion
+Version: 0.1.0
+Summary: MULTION API
+Home-page: https://github.com/MULTI-ON/multion
+Author: Div Garg
+Author-email: div@multion.ai
+Requires-Dist: requests
+Requires-Dist: flask
+Requires-Dist: requests_oauthlib
