@@ -1,0 +1,5 @@
+recfarm-0.0.3.dist-info/METADATA,sha256=QCTE5GyTMyqshKf-C0spDBzkdmKBQETg7KZZY5exJ3E,547
+recfarm-0.0.3.dist-info/WHEEL,sha256=sPMycMkLUdlNUFQn_gGM1h33htIrRIko62zIDwEpheo,127
+recfarm/__init__.py,sha256=y2LmvKQ06AF0b6_3OwZb42Hd23FeLvVNPo3X7muCZ4s,137
+recfarm/recfarm.cpython-38-x86_64-linux-gnu.so,sha256=eIzlJJyk70NLWCxbwAtF1NbFu7iDwrR1ucJaxLYp2zA,707168
+recfarm-0.0.3.dist-info/RECORD,,
