@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: inputselect
+Version: 0.8.1
+Author: ItchyPython3759
+Requires-Dist: keyboard >=0.6.0
+
