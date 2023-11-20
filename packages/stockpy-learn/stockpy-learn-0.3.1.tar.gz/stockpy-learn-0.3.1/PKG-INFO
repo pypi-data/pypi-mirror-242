@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: stockpy-learn
+Version: 0.3.1
+Summary: Deep Learning Regression and Classification Library built on top of PyTorch and Pyro
+Home-page: https://github.com/SilvioBaratto/stockpy
+Author: Silvio Baratto
+Author-email: silvio.baratto22@gmail.com
+License: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.8
+Provides-Extra: docs
+License-File: LICENSE
