@@ -1,0 +1,14 @@
+myhand/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myhand/autogen_assistant.py,sha256=0EH_-q4yuemsN8YyC2CHIs1pP6aE3CowyQOD5hSlf5M,4667
+myhand/autogen_math.py,sha256=tQjit8xY_Mpi128Kfw24gkbwUmA_cx5YJCOSC91G0Bw,3965
+myhand/autogen_retriever.py,sha256=Is55sKPrZMRsTIxOixzxPfTXI9J1w1B3ViIatqhURZQ,6273
+myhand/autogen_teachable.py,sha256=ZbNY6XZVqW_7pXO0M20XKtjmfQ7lR1mvYTlKZBrX2PA,3488
+myhand/cli.py,sha256=pGNy1pYJQuDggUBZ4RwJBjXL-aZq0O97_ojMcAVOyC4,90
+myhand/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myhand/eTextEdit.py,sha256=bsxH4YsVa9qy6ZLjidEVamvHyhqKgHGNPk4GoanHTLc,29541
+myhand/main.py,sha256=2FLRbcf77lwYgeFlbJBbaVK8rGl0QbqNkUqR6el4tPU,7941
+myhand-1.0.2.dist-info/METADATA,sha256=kZUVw1HQmjKY0Ce1QwRkhPy5WkOFCIxS6q805UTo2Sk,8723
+myhand-1.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+myhand-1.0.2.dist-info/entry_points.txt,sha256=wPTreuX7wKTiaNSvi8mgNqOXTur4errlWhBgxpy_0X8,42
+myhand-1.0.2.dist-info/top_level.txt,sha256=TwdLJk_zAQX0p-QbXAVqkQKli8nYJWz8G5eUYgLprPg,7
+myhand-1.0.2.dist-info/RECORD,,
