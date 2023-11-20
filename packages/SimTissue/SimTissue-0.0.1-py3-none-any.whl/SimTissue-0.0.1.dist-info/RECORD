@@ -1,0 +1,11 @@
+simtissue/__init__.py,sha256=mPsxjcga2sZQzfy910JU6xMUNO_V47MPZAPCe1Pg1as,40
+simtissue/arbitrary_shape.py,sha256=E8esGQ4SVWJuSqk3V_Du4BZ5Roe67qgo4gKggckx2Wo,5644
+simtissue/control_expression.py,sha256=q_E_EeB0o_z5e0BwOG221LgS_Q2OjIbCBnLV_bsFfUI,11943
+simtissue/plot.py,sha256=xrJNryvJIf9i7f06wRaBygcFSgywa7Lqj36B49xHPBk,2850
+simtissue/tissue.py,sha256=vWhqpBUWbg-P8Jf3V6CR3sBWqvmXdKxpWFH5xTgxqHI,2546
+simtissue/utils.py,sha256=mVnrVCiaWLeWsGMovfbKPLoamn7bZzBkh3K7nHF_HJk,3149
+SimTissue-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+SimTissue-0.0.1.dist-info/METADATA,sha256=Mfv9ljYEXT8kOM9wtSjFpyyE_2FRcRLB7sb8PIXLdq4,348
+SimTissue-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+SimTissue-0.0.1.dist-info/top_level.txt,sha256=vJl_FrlKjvZEQ-k90byUTFaRBrDYHNH-fh7K7s-dgDs,10
+SimTissue-0.0.1.dist-info/RECORD,,
