@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+crypta/__init__.py
+crypta.egg-info/PKG-INFO
+crypta.egg-info/SOURCES.txt
+crypta.egg-info/dependency_links.txt
+crypta.egg-info/top_level.txt
