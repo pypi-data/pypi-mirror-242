@@ -1,0 +1,10 @@
+openwebif/__init__.py,sha256=kzFJ11KaXllHPylIHk_Oex_u3cPox-sKpBkpGdZ20Y0,62
+openwebif/api.py,sha256=DraZ500C0eIhOTfVgK8L2jncXHnJTFc430LrtW-l0mM,16687
+openwebif/constants.py,sha256=tmYnnjRoJEn72Pv6JjOYVw_uwpu1jvQZvg3iKcaqMFc,571
+openwebif/enums.py,sha256=1pxF7uj5a4PCwWpCanIbN6ty7ddhwr-fXbyKxclM5CQ,917
+openwebif/error.py,sha256=l-Isf9pzBw89Qqqt9YbNFl5Xu-ZK-J25NsbDldMctuw,124
+openwebifpy-4.0.0.dist-info/LICENSE,sha256=06_0rpWwysR2kXJJEkz6RluUrA0Qqwl512goIvYNs3E,1072
+openwebifpy-4.0.0.dist-info/METADATA,sha256=upu8y_ZlKV7epoDLY6yIL5gcaNJLB5bUYnP9c4j18LI,3217
+openwebifpy-4.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+openwebifpy-4.0.0.dist-info/top_level.txt,sha256=F7_pTkqJiQha66JREaNWjjKZQJEYMNR_IwniG5qpm3k,10
+openwebifpy-4.0.0.dist-info/RECORD,,
