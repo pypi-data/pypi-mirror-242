@@ -1,0 +1,3 @@
+[console_scripts]
+slurmdocs=slurmdocs.cli.cli:main
+
