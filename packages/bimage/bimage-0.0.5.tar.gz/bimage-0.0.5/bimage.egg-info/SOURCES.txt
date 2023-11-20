@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+bimage/__init__.py
+bimage/__main__.py
+bimage/downloader.py
+bimage/handler.py
+bimage/validator.py
+bimage.egg-info/PKG-INFO
+bimage.egg-info/SOURCES.txt
+bimage.egg-info/dependency_links.txt
+bimage.egg-info/entry_points.txt
+bimage.egg-info/requires.txt
+bimage.egg-info/top_level.txt
