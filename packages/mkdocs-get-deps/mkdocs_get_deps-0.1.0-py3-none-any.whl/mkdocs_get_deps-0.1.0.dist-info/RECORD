@@ -1,0 +1,10 @@
+mkdocs_get_deps/__init__.py,sha256=q-v-MX3uFTH2OAvi-pziWXPF4hwntGj9nr2jVfcLr2Y,7082
+mkdocs_get_deps/__main__.py,sha256=Ijd4HBf2lkAUVDHCgS3uN7SjTKpQkhNDEtL1vHE44ZA,1593
+mkdocs_get_deps/cache.py,sha256=jR2SZHbjXW0fLttTE23EyGzr4vMmZwp0LAgMi4Eq6Mg,2393
+mkdocs_get_deps/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_get_deps/yaml_util.py,sha256=8tcfyfFe3XWIqMrM62395aR6LM3nHN2KzfsIrcjw7N0,1436
+mkdocs_get_deps-0.1.0.dist-info/METADATA,sha256=sVqHASIMX1t4YxEs75b8E1b1KmF3Epl_lP2m0lgYME4,4011
+mkdocs_get_deps-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mkdocs_get_deps-0.1.0.dist-info/entry_points.txt,sha256=R9haBy-7_n-3Cn7cqzWrG0TuFSvzCI1qjT9a55kthQE,65
+mkdocs_get_deps-0.1.0.dist-info/licenses/LICENSE.md,sha256=5QJLrptOyt2jUYTiAoKoHLJRZGINL_sCYebaMkmqt7I,1083
+mkdocs_get_deps-0.1.0.dist-info/RECORD,,
