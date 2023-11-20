@@ -1,0 +1,16 @@
+name: xcalc-tests
+channels:
+    - conda-forge
+    - nodefaults
+dependencies:
+    - dask
+    - xarray
+    - xclim
+    - netCDF4
+    - pytest
+    - pytest-cov
+    - pytest-env
+    - pooch
+
+    - pip:
+      - pyhomogenize>=0.5.1
