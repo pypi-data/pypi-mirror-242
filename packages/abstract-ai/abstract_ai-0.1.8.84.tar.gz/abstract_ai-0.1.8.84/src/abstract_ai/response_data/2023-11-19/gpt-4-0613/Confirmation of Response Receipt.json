@@ -1,0 +1,36 @@
+{
+    "prompt": {
+        "model": "gpt-4",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "\n-----------------------------------------------------------------------------\n#instructions#\n\nyour response is expected to be in JSON format with the keys as follows:\n\n0) api_response - place response to prompt here\n1) suggestions - \n2) generate_title - \n\nbelow is an example of the expected json dictionary response format, with the default inputs:\n{\"api_response\": \"\", \"suggestions\": \"\", \"generate_title\": \"\"}\n-----------------------------------------------------------------------------\n#prompt#\n\nplease leave a notation, i am testing the prompts. and please respond with \"this is the response from prompt 1\"\n-----------------------------------------------------------------------------\n#chunk_data#\n\nthis is chunk 1 of 1\n\n\nplease let me know if you precieved the previous reaponse:\n \"this is the response from prompt 1\""
+            }
+        ],
+        "max_tokens": 3896
+    },
+    "file_path": "C:\\Users\\jrput\\Documents\\python projects\\Modules\\abstract_ai\\src\\abstract_ai\\response_data\\2023-11-19\\gpt-4-0613\\Confirmation of Response Receipt.json",
+    "title": "Confirmation of Response Receipt",
+    "model": "gpt-4-0613",
+    "response": {
+        "id": "chatcmpl-8Mi4TlcMx9DNJdDTzmc4ViQLYHana",
+        "object": "chat.completion",
+        "created": 1700423317,
+        "model": "gpt-4-0613",
+        "choices": [
+            {
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\"api_response\": \"this is the response from prompt 1\", \"suggestions\": \"Yes, your response 'this is the response from prompt 1' was received correctly.\", \"generate_title\": \"Confirmation of Response Receipt\"}"
+                },
+                "finish_reason": "stop"
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 151,
+            "completion_tokens": 47,
+            "total_tokens": 198
+        }
+    }
+}
