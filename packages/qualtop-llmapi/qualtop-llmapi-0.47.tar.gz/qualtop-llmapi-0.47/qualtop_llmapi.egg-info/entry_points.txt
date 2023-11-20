@@ -1,0 +1,2 @@
+[console_scripts]
+run_server = qualtop_llmapi.__main__:main
