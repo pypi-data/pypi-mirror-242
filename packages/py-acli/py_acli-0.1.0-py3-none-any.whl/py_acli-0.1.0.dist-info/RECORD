@@ -1,0 +1,10 @@
+acli/__init__.py,sha256=IafpvL9BjQXvKzz1kfgmpVnOC5fK4X9EQ-WtXcxr4kU,82
+acli/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acli/base/args.py,sha256=PAIh6NwSge6mGzbrUeogwbQXC6mLwQjMVT6kCH_d0BY,1805
+acli/base/spec.py,sha256=6J5cYFwbnk7O6WcH-vC5DgH7O5b6OuM4bleHEx7igqQ,1323
+acli/env.py,sha256=u7Vv7aCTbnsDH4jfSxAQC7_mkigC9XGBaPv5rtTvaT4,146
+acli/executors/__init__.py,sha256=BSiI3VN1KdHazVD8gp5kU8LipdOlG7PmHn6XhMgnDSc,55
+acli/executors/impl.py,sha256=MNWbew_gVG84CgflJ24xtii-iABTmoHGprqWPBXY4fo,6646
+py_acli-0.1.0.dist-info/METADATA,sha256=ahE6aH6RgxnMALvftTGT7t3jlM7Hjx6jJtM7U9dfNns,885
+py_acli-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+py_acli-0.1.0.dist-info/RECORD,,
