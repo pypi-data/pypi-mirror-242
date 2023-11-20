@@ -1,0 +1,5 @@
+setup.py
+Gifwayne_2.egg-info/PKG-INFO
+Gifwayne_2.egg-info/SOURCES.txt
+Gifwayne_2.egg-info/dependency_links.txt
+Gifwayne_2.egg-info/top_level.txt
