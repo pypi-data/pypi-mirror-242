@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aiforges
+Version: 0.0.0
+Summary: aiforges is a Python package
+Home-page: http://github/fiaz/aiforge
+Author: muhammadfiaz
+Author-email: 
+Keywords: aiforges,python,ai,aiforge
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# aiforge
