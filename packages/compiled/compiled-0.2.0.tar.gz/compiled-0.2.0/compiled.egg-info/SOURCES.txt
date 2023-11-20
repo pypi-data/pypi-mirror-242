@@ -1,0 +1,13 @@
+setup.py
+compiled/__init__.py
+compiled/difflib.cpython-311-darwin.so
+compiled/fa728a2c4f0df3cb32bd__mypyc.cpython-311-darwin.so
+compiled.egg-info/PKG-INFO
+compiled.egg-info/SOURCES.txt
+compiled.egg-info/dependency_links.txt
+compiled.egg-info/entry_points.txt
+compiled.egg-info/top_level.txt
+compiled/tomllib/__init__.cpython-311-darwin.so
+compiled/tomllib/_parser.cpython-311-darwin.so
+compiled/tomllib/_re.cpython-311-darwin.so
+compiled/tomllib/_types.cpython-311-darwin.so
