@@ -1,0 +1,11 @@
+syspath/__init__.py,sha256=x_-oOsVwlF_dIMUfWj0c94JIRvXmSd9Ed_UUyh7qJLs,478
+syspath/__version__.py,sha256=7giLOZ3Ym0CfJ3Bo6brX0WurMNrR9TwhAl-bEepy7X8,63
+syspath/current_path.py,sha256=wp-hg5b_8FCoIoZSQxjqEQa-GdvHO0kLNR85Vxji7K8,123
+syspath/git_root.py,sha256=KEVOOXN2OphcRJsj1ZkcnasvzXB-VdnA1w7H1nTltqE,115
+syspath/parent_path.py,sha256=Hri8KAEia4OsAfAd0I5vof5cJ9XUORaCBquRNbaPHEw,121
+syspath/syspath.py,sha256=mQdBYumKlpLxmcUnyb4HYgbLT33LiuOVIUZiv21Sf_U,2747
+syspath-3.0.4.dist-info/LICENSE,sha256=baVMvFz2DHd_1N2peubw2zjnzXTkNdOZNDvTS5x0RqM,1068
+syspath-3.0.4.dist-info/METADATA,sha256=tGIJ8oq_Ld72L2PiDPRCH6Y-hC8uAMKFREMjex7d07w,2852
+syspath-3.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+syspath-3.0.4.dist-info/top_level.txt,sha256=qDFmOs_NQ1JyujPEYiUVdPvCX2zbTX8mc0231z9dBz4,8
+syspath-3.0.4.dist-info/RECORD,,
