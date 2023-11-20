@@ -1,0 +1,12 @@
+damo_embedding.py,sha256=ISIBDHoi3yDUvqzkRixU-sWoYaMpAvqQZXBRRlUf7T4,16014
+damo.cpython-38-darwin.so,sha256=0_v3ZtoGl-uYgIElHWhIrmpPxvioCgRUW9HzEqfrp5w,317552
+damo_embedding-1.1.2.dist-info/RECORD,,
+damo_embedding-1.1.2.dist-info/LICENSE,sha256=kbZSd5WewnN2PSjvAC6DprP7pXx6NUNsnltmU2Mz1yA,34519
+damo_embedding-1.1.2.dist-info/WHEEL,sha256=7bITxp1IXfScHG_aHqjgl3cb1WeEQowtBiPLTHk6_e8,109
+damo_embedding-1.1.2.dist-info/top_level.txt,sha256=zMnEyEnZbND0AJxOiH2LAXYUq8Xo8AEfsrg-134RUxM,20
+damo_embedding-1.1.2.dist-info/METADATA,sha256=DZvhgw3lY49y5EOz7G2eTzQE7JZndOVGwNEL55Nbplg,4176
+damo_embedding.dylibs/liblz4.1.9.4.dylib,sha256=AiAOa1ZBU33CoVTtOUDuHT0PNp8wuS24_lxSYzWSJ0s,176384
+damo_embedding.dylibs/libgflags.2.2.2.dylib,sha256=VCxFM0MfWRq8VBY5A95QmNDTlmRNpHhM6WVYzBk_bT4,169984
+damo_embedding.dylibs/librocksdb.8.5.3.dylib,sha256=NOy6E0f1Fhj-0xR0GBgIITAxIGmyGkS48KY5H0dcoa0,10215120
+damo_embedding.dylibs/libsnappy.1.1.10.dylib,sha256=2lnWzcrPK9juPoiH6aT4LkxdrqxfhBFHED-Xl7UtmhI,78640
+damo_embedding.dylibs/libzstd.1.5.5.dylib,sha256=0P9alscOBojIMllWJ8ohUT5QWadsk1Y9uGiH57azKfs,867440
