@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+cryptify/__init__.py
+cryptify.egg-info/PKG-INFO
+cryptify.egg-info/SOURCES.txt
+cryptify.egg-info/dependency_links.txt
+cryptify.egg-info/top_level.txt
