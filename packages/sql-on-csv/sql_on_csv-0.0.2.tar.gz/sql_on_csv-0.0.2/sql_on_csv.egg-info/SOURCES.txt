@@ -1,0 +1,8 @@
+README.md
+setup.py
+sql-on-csv/__init__.py
+sql-on-csv/main.py
+sql_on_csv.egg-info/PKG-INFO
+sql_on_csv.egg-info/SOURCES.txt
+sql_on_csv.egg-info/dependency_links.txt
+sql_on_csv.egg-info/top_level.txt
