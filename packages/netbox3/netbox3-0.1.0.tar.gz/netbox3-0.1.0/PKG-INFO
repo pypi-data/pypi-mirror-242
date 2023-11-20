@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: netbox3
+Version: 0.1.0
+Summary: Python package to work with Netbox using REST API
+Home-page: https://github.com/vladimirs-git/netbox3
+License: Apache-2.0
+Keywords: netbox
+Author: Vladimirs Prusakovs
+Author-email: vladimir.prusakovs@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: test
+Requires-Dist: pydantic (>=2,<3)
+Requires-Dist: requests (>=2,<3)
+Requires-Dist: vhelpers (>=0.1,<0.2)
+Project-URL: Bug Tracker, https://github.com/vladimirs-git/netbox3/issues
+Project-URL: Download URL, https://github.com/vladimirs-git/netbox3/archive/refs/tags/0.1.0.tar.gz
+Project-URL: Repository, https://github.com/vladimirs-git/netbox3
+Description-Content-Type: text/x-rst
+
+
+netbox3
+=========
+
+.. note::
+
+   This project is under active development.
+
+
+Requirements
+------------
+
+Python >=3.8
+
+
+Installation
+------------
+
+Install the package from pypi.org release
+
+.. code:: bash
+
+    pip install netbox3
+
+or install the package from github.com release
+
+.. code:: bash
+
+    pip install https://github.com/vladimirs-git/netbox3/archive/refs/tags/0.1.0.tar.gz
+
+or install the package from github.com repository
+
+.. code:: bash
+
+    pip install git+https://github.com/vladimirs-git/netbox3
+
+
+
