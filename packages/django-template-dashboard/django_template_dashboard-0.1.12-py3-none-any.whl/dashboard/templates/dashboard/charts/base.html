@@ -1,0 +1,35 @@
+<!-- templates/chart_template.html -->
+
+{% if chart_id and chart_data %}
+    <canvas id="{{ chart_id }}" width="400" height="400"></canvas>
+
+    <script>
+        const ctx = document.getElementById('{{ chart_id }}').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: '{{ chart_type | default:"bar" }}',
+            data: {
+                labels: {{ chart_labels | safe }},
+                datasets: [{
+                    label: '{{ chart_label }}',
+                    data: {{ chart_data | safe }},
+                    backgroundColor: [
+                        // 定义颜色或使用默认值
+                    ],
+                    borderColor: [
+                        // 定义颜色或使用默认值
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+{% else %}
+    <p>图表数据不可用。</p>
+{% endif %}
