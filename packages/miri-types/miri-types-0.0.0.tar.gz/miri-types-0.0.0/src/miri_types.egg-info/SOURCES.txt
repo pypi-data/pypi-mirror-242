@@ -1,0 +1,6 @@
+pyproject.toml
+src/miri_types.egg-info/PKG-INFO
+src/miri_types.egg-info/SOURCES.txt
+src/miri_types.egg-info/dependency_links.txt
+src/miri_types.egg-info/top_level.txt
+src/placeholder/__init__.py
