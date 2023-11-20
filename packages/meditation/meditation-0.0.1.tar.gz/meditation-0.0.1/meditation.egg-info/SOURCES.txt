@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+meditation/__init__.py
+meditation.egg-info/PKG-INFO
+meditation.egg-info/SOURCES.txt
+meditation.egg-info/dependency_links.txt
+meditation.egg-info/top_level.txt
