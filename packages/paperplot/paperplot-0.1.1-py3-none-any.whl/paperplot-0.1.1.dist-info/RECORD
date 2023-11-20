@@ -1,0 +1,9 @@
+paperplot/__init__.py,sha256=1y1kzu3wrE4sDS1MH1XMqIsxfqubCkkvrIzXAQ8SbyE,351
+paperplot/_figure_base.py,sha256=m_IqhkYzuz-3XlEGZ9wz5J19BbHsOK3YkETv5-93QDs,1584
+paperplot/line_fig.py,sha256=iDC4iP0oEd0AicVdim5V3FilZ3Rbvr8hp1B-VTYk3_M,647
+paperplot/line_style.py,sha256=wRyjmEbxPvph2KalAt8QKWSrzbYEmQsOywOkyGPA9Js,3202
+paperplot-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paperplot-0.1.1.dist-info/METADATA,sha256=GXa-vSye6LEWnvUEWtoP7rvQz4YSF_AQrkQm-ciI2y4,259
+paperplot-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+paperplot-0.1.1.dist-info/top_level.txt,sha256=wdNpTgIMXQh8QkN3Cd_oXGMKMYK2ye3vWcowAMfWrCk,10
+paperplot-0.1.1.dist-info/RECORD,,
