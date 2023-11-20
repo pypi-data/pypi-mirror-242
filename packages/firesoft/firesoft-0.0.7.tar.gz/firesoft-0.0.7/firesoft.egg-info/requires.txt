@@ -1,0 +1,5 @@
+segno==1.5.3
+qrcode-artistic==3.0.0
+Pillow==10.1.0
+setuptools==68.2.2
+python-barcode==0.15.1
