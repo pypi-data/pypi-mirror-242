@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+passwordgenerator/__init__.py
+passwordgenerator/password-generator.py
+projetpasswordgenerator.egg-info/PKG-INFO
+projetpasswordgenerator.egg-info/SOURCES.txt
+projetpasswordgenerator.egg-info/dependency_links.txt
+projetpasswordgenerator.egg-info/top_level.txt
