@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: leet-daily
+Version: 0.1.2
+Summary: Leetcode helper for doing daily leetcode questions
+Author: Jobin Nelson
+Author-email: jobinnelson369@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: selectolax (>=0.3.17,<0.4.0)
+Description-Content-Type: text/markdown
+
+# Leet daily
+
+Convenient script for setting up daily leet code questions
+
