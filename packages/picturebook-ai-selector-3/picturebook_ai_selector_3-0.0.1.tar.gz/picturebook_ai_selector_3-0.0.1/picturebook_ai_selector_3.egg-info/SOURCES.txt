@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+picturebook_ai_selector-3/__init__.py
+picturebook_ai_selector-3/example.py
+picturebook_ai_selector_3.egg-info/PKG-INFO
+picturebook_ai_selector_3.egg-info/SOURCES.txt
+picturebook_ai_selector_3.egg-info/dependency_links.txt
+picturebook_ai_selector_3.egg-info/requires.txt
+picturebook_ai_selector_3.egg-info/top_level.txt
