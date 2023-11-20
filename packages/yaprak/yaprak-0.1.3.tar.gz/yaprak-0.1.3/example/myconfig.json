@@ -1,0 +1,32 @@
+{
+    "processes": [
+        {
+            "process": "add",
+            "a1": 10,
+            "apply": true
+        },
+        {
+            "process": "mul",
+            "m1": 20,
+            "apply": true
+        }
+    ],
+    "m_global": 100,
+    "inPath": "./inputs/",
+    "outPath": "./outputs/",
+    "IDs": [
+        "1",
+        "2",
+        "3"
+    ],
+    "inFileList": [
+        "1.dat",
+        "2.dat",
+        "3.dat"
+    ],
+    "outFileList": [
+        "1.txt",
+        "2.txt",
+        "3.txt"
+    ]
+}
