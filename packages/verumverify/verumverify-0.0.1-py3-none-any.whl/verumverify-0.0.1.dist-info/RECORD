@@ -1,0 +1,12 @@
+verumverify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verumverify/crypto_svc.py,sha256=MGS1-gaacaHCorcPaLO4RlxROHXvWpAOsao1sUieHZ8,1760
+verumverify/main.py,sha256=Ub6MIMc7XgWac6Dcesnm09PytzzV4C8DvukQ7zUwFIk,4723
+verumverify/retrieval_svc.py,sha256=BagoqYyhAxtNAFfDusmhAUwdY-QA2HqdC60-m9jeRQM,3265
+verumverify/status_svc.py,sha256=qg9ZvZkDCYZyCZmOb4fIuRWVljj-Lodm5rhEa-eVpLQ,319
+verumverify-0.0.1.dist-info/AUTHORS.rst,sha256=UTBcmX_qv3nz23n2_aP7rJeogtpedwF4mvvqbc5jRu4,181
+verumverify-0.0.1.dist-info/LICENSE,sha256=663_K6tETuWfr_SwzZ2SeLKOzz-4CVB_bcW9V-eq7Xw,1064
+verumverify-0.0.1.dist-info/METADATA,sha256=H9MkSp1DqsmHOIEjLv7Vh-s5KvGL8YYvgwQ4cJrhWOk,3998
+verumverify-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+verumverify-0.0.1.dist-info/entry_points.txt,sha256=dbTDfJ5vYr1FFfVHc1At5LbmA6aZ05si_b4otiTCi48,49
+verumverify-0.0.1.dist-info/top_level.txt,sha256=aWp33wt1GAaJ0_zS0vAkt_p_wRD63vfpJ66gXrave1A,12
+verumverify-0.0.1.dist-info/RECORD,,
