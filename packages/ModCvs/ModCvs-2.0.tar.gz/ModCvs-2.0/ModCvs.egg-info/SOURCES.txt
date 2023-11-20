@@ -1,0 +1,8 @@
+README.md
+setup.py
+ModCvs.egg-info/PKG-INFO
+ModCvs.egg-info/SOURCES.txt
+ModCvs.egg-info/dependency_links.txt
+ModCvs.egg-info/top_level.txt
+Pack/ModC.py
+Pack/__init__.py
