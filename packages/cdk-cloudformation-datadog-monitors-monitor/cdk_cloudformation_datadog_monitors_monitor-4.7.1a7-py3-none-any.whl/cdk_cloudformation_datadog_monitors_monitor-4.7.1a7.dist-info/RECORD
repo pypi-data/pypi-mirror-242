@@ -1,0 +1,9 @@
+cdk_cloudformation_datadog_monitors_monitor/__init__.py,sha256=9IqmtqYtAq0e9RAZOCkq27jmXy5wRI_XoDeFnPj41o8,63548
+cdk_cloudformation_datadog_monitors_monitor/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_cloudformation_datadog_monitors_monitor/_jsii/__init__.py,sha256=vRBwJco2VydVmCkGBH759ppieFOblQByBaBLOAGSiwU,464
+cdk_cloudformation_datadog_monitors_monitor/_jsii/datadog-monitors-monitor@4.7.1-alpha.7.jsii.tgz,sha256=5MfrNGvQISDXSU1hD4ZUmY9LfzDwIbyNHNb09_cZltg,35346
+cdk_cloudformation_datadog_monitors_monitor-4.7.1a7.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_cloudformation_datadog_monitors_monitor-4.7.1a7.dist-info/METADATA,sha256=r3kWeIx0QhXGJxstGp_ETzL6HPQ_5f2PpkRyEW0601Q,2850
+cdk_cloudformation_datadog_monitors_monitor-4.7.1a7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cdk_cloudformation_datadog_monitors_monitor-4.7.1a7.dist-info/top_level.txt,sha256=ZyzD4WSdZsqYV-tE6ddprYlCgs9dO7G1-MagLjFKpjE,44
+cdk_cloudformation_datadog_monitors_monitor-4.7.1a7.dist-info/RECORD,,
