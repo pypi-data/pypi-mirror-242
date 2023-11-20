@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+tcolour/__init__.py
+tcolour.egg-info/PKG-INFO
+tcolour.egg-info/SOURCES.txt
+tcolour.egg-info/dependency_links.txt
+tcolour.egg-info/top_level.txt
