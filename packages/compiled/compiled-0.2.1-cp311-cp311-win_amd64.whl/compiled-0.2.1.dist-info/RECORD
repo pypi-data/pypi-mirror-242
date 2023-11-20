@@ -1,0 +1,17 @@
+686c22e455c6aa1ddf2d__mypyc.cp311-win_amd64.pyd,sha256=Bty3w5FIq49b2HnmtffKvDkIfghDPz6T-7ITYn7pkG4,561152
+compiled/__init__.py,sha256=FikDhVn-lQL-kjP8-FwFgcIMHpZ052o8eQCquwnr_t0,5963
+compiled/difflib.cp311-win_amd64.pyd,sha256=v593h7cmg7TEduXLVsYfDc6fVxYjEb-fzBf0XFHazi8,10752
+compiled/difflib.py,sha256=9WNp9cahfB9fXD4VB9fSkkYZOHfRRxUhdW1eSG8wlhc,90239
+compiled/tomllib/__init__.cp311-win_amd64.pyd,sha256=RsGX0eF22rwkpzb0oAjGYSMjRhHB89EEUvdif5FHaPU,10752
+compiled/tomllib/__init__.py,sha256=ZhPW5f7CzT13DO6NqeM8GgPa3gC7pOBsZfimXWsuZPY,332
+compiled/tomllib/_parser.cp311-win_amd64.pyd,sha256=cMmeWpBaLTgwHy5RowAyDTYEemPWZfMvSInwfm2YDbM,10752
+compiled/tomllib/_parser.py,sha256=opK4H-WYtbuMOHDU6DKCetbKA6wCb_23dFyGG2SQa6I,23825
+compiled/tomllib/_re.cp311-win_amd64.pyd,sha256=50nw01PlDCUIPNUFhfoJWNJYWwS9PFVnVssVPM7Hddo,10752
+compiled/tomllib/_re.py,sha256=3ji2I4kN33OpkQ4DMbKRkJ8wXTyEF_d9j_6Oo3AnVbI,3081
+compiled/tomllib/_types.cp311-win_amd64.pyd,sha256=Oj1DkEKb9kDqTRZJvcm1e8SSaetOdR17GzmLs_epn0M,10752
+compiled/tomllib/_types.py,sha256=j_WsQQJ9Wu3qqs4U2NOdMLXSwcLvdEWWIco4Lk2cacQ,262
+compiled-0.2.1.dist-info/METADATA,sha256=zHR76-jfWyXv3TQGtTM1Om8rfMt8kiFzBVLtn8YKOFs,272
+compiled-0.2.1.dist-info/WHEEL,sha256=82gZYSdmJ63dmEqVXfVfYjP-6F3ar13SybIjiy8AOec,102
+compiled-0.2.1.dist-info/entry_points.txt,sha256=wLs2PHpXNLsMVU31sKwhFPhJkVrplImV5vUMqBVJvz4,43
+compiled-0.2.1.dist-info/top_level.txt,sha256=xtsENscRNqDiWKQ-QVJhPoRAtbB7pny8VpeBNwdbwNw,37
+compiled-0.2.1.dist-info/RECORD,,
