@@ -1,0 +1,8 @@
+pedalboard>=0.8.6
+fire>=0.5.0
+tqdm>=4.66.1
+python_benedict>=0.33.0
+
+[testing]
+pytest
+pytest-cov
