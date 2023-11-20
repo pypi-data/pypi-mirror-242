@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: forgeai
+Version: 0.0.0
+Summary: forgeai is a Python package
+Home-page: http://github/fiaz/forgeai
+Author: muhammadfiaz
+Author-email: 
+Keywords: python,ai,forgeai
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# aiforge
