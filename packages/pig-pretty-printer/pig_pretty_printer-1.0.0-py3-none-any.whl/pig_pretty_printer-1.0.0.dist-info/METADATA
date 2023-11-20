@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pig-pretty-printer
+Version: 1.0.0
+Summary: Pretty prints Apache Pig outputs
+Home-page: https://github.com/MinatoNamikaze02/pig-pretty-printer
+Author: Arjun S
+Author-email: arjunsreedar26@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: tabulate ==0.9.0
+Requires-Dist: click ==8.1.3
+

@@ -1,0 +1,2 @@
+[console_scripts]
+pig_pretty_printer = pig_pretty_printer.__main__:main
