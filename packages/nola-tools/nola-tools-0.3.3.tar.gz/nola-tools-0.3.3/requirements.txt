@@ -1,0 +1,4 @@
+pbr
+setuptools
+pyserial
+GitPython
