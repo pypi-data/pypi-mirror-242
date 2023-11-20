@@ -1,0 +1,7 @@
+setup.py
+xolobbbccc/__init__.py
+xolobbbccc.egg-info/PKG-INFO
+xolobbbccc.egg-info/SOURCES.txt
+xolobbbccc.egg-info/dependency_links.txt
+xolobbbccc.egg-info/requires.txt
+xolobbbccc.egg-info/top_level.txt
