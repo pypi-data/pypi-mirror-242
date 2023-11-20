@@ -1,0 +1,12 @@
+pyxreader/__init__.py,sha256=8qW8OhTF9LOucOMkE-cZsBh8V4LmVPyBFSSkAFbZvOw,288
+pyxreader/_defaults.py,sha256=AfpmTH60mCxg8Yxr6ULLPe1RyLv4gaRE1zafgI_y1i0,127
+pyxreader/adaptable.py,sha256=NXhyB9kMprPf_xGFKqFIzXQIk8IUQeBblDYlMGclK84,2381
+pyxreader/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyxreader/textreader.py,sha256=rQSqxt4-XuGx9FlMIAMKmeZ84Mk70ogYkpqetbPZL8M,2331
+pyxreader/iterators/__init__.py,sha256=7tFRJvG-4YqEmChZqhkO0O6gxKAgJ2xhXEEfCXS0enE,28
+pyxreader/iterators/base.py,sha256=JJgan2RkVhu0oraDehwdsPHUA5jXZbwwn7J2TXOzZDE,1074
+pyxreader/iterators/pdf_iterator.py,sha256=sVvL_vxCgLchoWK_WdqX7zbORCilDv0G6QtRlpA9-bc,2399
+pyxreader-0.0.1.dist-info/METADATA,sha256=iXusVH6m-tSk7KUCn1VE8XMRazAALcQogYvcM33xzWg,3563
+pyxreader-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyxreader-0.0.1.dist-info/top_level.txt,sha256=k0TLF4mCyZam0TYpJp9RNIDgj8TnRskAVkziyFMO3s8,10
+pyxreader-0.0.1.dist-info/RECORD,,
