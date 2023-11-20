@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: flytrap-py
+Version: 0.1.0
+Summary: parser
+License: MIT
+Author: LeafChage
+Author-email: t.kusanagi5512@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# WIP
+# scheme.py
+ref: [https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours/First_Steps](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours/First_Steps)
+
+## How to use
+```
+poetry run python3 ./main.py
+```
+
+

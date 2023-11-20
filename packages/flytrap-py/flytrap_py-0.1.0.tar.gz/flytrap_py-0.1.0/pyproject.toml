@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "flytrap-py"
+version = "0.1.0"
+license = "MIT"
+description = "parser"
+authors = ["LeafChage <t.kusanagi5512@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "flytrap"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.3"
+pyright = "^1.1.333"
+
+[tool.poetry.scripts]
+cli = "bin.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-s"
+testpaths = [ "." ]
+python_files = "*_test.py"
