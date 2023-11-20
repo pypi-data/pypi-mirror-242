@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: quillix
+Version: 0.0.1
+Summary: A Database Management System based on Python 3.0 and JSON which stores the data directly on your local computer.
+Author: Sushmit Ghosh
+Author-email: ghoshsushmit162@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
