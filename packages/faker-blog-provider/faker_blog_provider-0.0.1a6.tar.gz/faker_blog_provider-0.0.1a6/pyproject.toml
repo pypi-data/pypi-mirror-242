@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "faker_blog_provider"
+version = "0.0.1a6"
+authors = [
+  { name="Adaías Magdiel", email="adaiasmagdiell@gmail.com" },
+]
+description = "A Faker provider that generates fake blog content in Brazilian Portuguese as blog titles, blog posts, images, tags, and more."
+keywords = ["faker", "provider", "blog content", "fake blog data", "fake article content"]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Topic :: Utilities"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/AdaiasMagdiel/faker_blog_provider"
+Issues = "https://github.com/AdaiasMagdiel/faker_blog_provider/issues"
