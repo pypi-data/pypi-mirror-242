@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+python_speck.egg-info/PKG-INFO
+python_speck.egg-info/SOURCES.txt
+python_speck.egg-info/dependency_links.txt
+python_speck.egg-info/requires.txt
+python_speck.egg-info/top_level.txt
+speck/__init__.py
+speck/logs/__init__.py
+speck/logs/logger.py
+speck/logs/metadata.py
+speck/models/__init__.py
+speck/models/chat_format.py
+speck/models/completions.py
+speck/models/config.py
