@@ -1,0 +1,12 @@
+deepfocus/__init__.py,sha256=I0w8bCL3qMMaOBYkrgs8ttuaPXE0Z-CmNu8K5QSMGPc,25
+deepfocus/download_utils.py,sha256=W7jT7BRgVVfqkWz-00FGCfBGvpQzvB0YftDghenfB4c,1271
+deepfocus/fasttext_embs.py,sha256=pLvGvwCjekDu3qWY3U7mm6i6VHTUYMG0_3A-n9bTpWQ,8684
+deepfocus/focus.py,sha256=dJYhre5KAcZG1K8PngIVtitoNPMVIx2eDhN_Wae97SQ,16459
+deepfocus/logger.py,sha256=5SZkcX-QNm67lzlrCv8iLgGmCabl3dTX61_n2HreV4I,114
+deepfocus/vocab_helper.py,sha256=YI-_3vPzNEudlAQth5W9eh2HiNuFYARxAstSXtVOZog,4647
+deepfocus-1.0.1.dist-info/LICENSE,sha256=cdw7SVEi10gx1VHd-CP7VB0W6HUQrQiWfDFZ8vloraM,1074
+deepfocus-1.0.1.dist-info/METADATA,sha256=D2v_8hvTIP2SCfvmuncpj4mvklbs3BKvv_GIJSYY5X0,5839
+deepfocus-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+deepfocus-1.0.1.dist-info/top_level.txt,sha256=ZoOQ9FwYMMoBil3bb7FEcvgSfYIP5ZEcbQzDcPBEBzY,10
+deepfocus-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+deepfocus-1.0.1.dist-info/RECORD,,
