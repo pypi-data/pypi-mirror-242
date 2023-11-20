@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: pydantic-cereal
+Version: 0.0.4
+Summary: Advanced serialization for Pydantic models
+License: MIT License
+        
+        Copyright (c) 2023 Anatoly Makarevich
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: pydantic,serialize,fsspec,yaml
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic <3,>=2
+Requires-Dist: fsspec
+Requires-Dist: universal-pathlib
+Provides-Extra: datatests
+Requires-Dist: pandas ~=2.1.3 ; extra == 'datatests'
+Requires-Dist: pyspark ~=3.5.0 ; extra == 'datatests'
+Provides-Extra: dev
+Requires-Dist: setuptools >=61.0.0 ; extra == 'dev'
+Requires-Dist: setuptools-scm[toml] >=6.2 ; extra == 'dev'
+Requires-Dist: wheel >=0.41 ; extra == 'dev'
+Requires-Dist: pre-commit ==3.5.0 ; extra == 'dev'
+Requires-Dist: ruff ==0.1.6 ; extra == 'dev'
+Requires-Dist: black ==23.11.0 ; extra == 'dev'
+Requires-Dist: isort ==5.12.0 ; extra == 'dev'
+Requires-Dist: mypy ==1.7.0 ; extra == 'dev'
+Requires-Dist: pytest ==7.4.3 ; extra == 'dev'
+Requires-Dist: pandas-stubs ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs ; extra == 'docs'
+Requires-Dist: mkdocs-material ; extra == 'docs'
+Requires-Dist: mkdocstrings[python] ; extra == 'docs'
+Requires-Dist: pymdown-extensions ; extra == 'docs'
+Requires-Dist: pygments ; extra == 'docs'
+Requires-Dist: ipykernel ; extra == 'docs'
+
+# `pydantic-cereal`
+
+Advanced serialization for Pydantic models, with an eye on Pydantic v2.
