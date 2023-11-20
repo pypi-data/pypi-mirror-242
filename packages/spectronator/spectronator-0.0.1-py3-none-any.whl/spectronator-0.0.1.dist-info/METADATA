@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: spectronator
+Version: 0.0.1
+Summary: A spectral sensitivity analyser for time series data
+Author-email: Joni Kemppainen <joni.kemppainen@windowslive.com>
+Project-URL: Homepage, https://github.com/jkemppainen/spectronator
+Project-URL: Issues, https://github.com/jkemppainen/spectronator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: tk-steroids
+Requires-Dist: python-biosystfiles
+
+# A spectral sensitivity analyser
+
+The electroretinogram (ERG) technique, for example,
+can be used to measure eyes' responsivness to differently colored light flashes.
+Spectronator is a graphical tool that quantifies spectral sensitivity from
+this time series data.
