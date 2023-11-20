@@ -1,0 +1,2 @@
+u_boot_pylib>=0.0.4
+patch-manager>=0.0.4
