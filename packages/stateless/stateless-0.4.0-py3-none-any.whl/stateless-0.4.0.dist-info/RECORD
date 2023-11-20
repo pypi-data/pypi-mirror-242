@@ -1,0 +1,14 @@
+stateless/__init__.py,sha256=pHvYYM0qeDLwiYmV6zKkxeDk76IdFRGb1vdCT3LNWl8,324
+stateless/console.py,sha256=Lt3w8S16psbZlmGgMXZNvE8xz8WIfObih4Ha6xkqRYI,569
+stateless/effect.py,sha256=QpkjVX78rq4XQsnWoJF6VC0X-Nq6hQs32nWIo8-nLmc,3860
+stateless/errors.py,sha256=-pjICuFur83VKs359amTJRU9Wvi8pXBtyG8atzPTSN8,85
+stateless/files.py,sha256=w1pWGVjliTEzOpnOioRZLtCxbxT2JgaqTFsMDp13C5I,579
+stateless/functions.py,sha256=_31p6KVYpiMTlONPKlTE82iyNkRgd3dhymqkFIW03J4,2278
+stateless/parallel.py,sha256=t9lCfOZEm6AdLjUj_bXnTq2PzNHSx1pmA_L8gKXOpgA,10069
+stateless/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stateless/runtime.py,sha256=68QYLpSq7Y1gNBEQc9DIzR6ncaT8emQW3UC-dcPpdrc,2455
+stateless/schedule.py,sha256=QwT4-_m6axH1qZx80iOtjTatUaqhvylO_kM8E0EJlZo,768
+stateless/time.py,sha256=-XbeWln-nUKwSsEzxcg7dk-wE6LRK9nCiNbAGbJI56c,293
+stateless-0.4.0.dist-info/METADATA,sha256=ynBpe3XoNG5LdktVOe5E9cibymY1Nn9h2yTaj9nC3Wc,28801
+stateless-0.4.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+stateless-0.4.0.dist-info/RECORD,,
