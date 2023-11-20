@@ -1,0 +1,10 @@
+aliyunsdkoms/__init__.py,sha256=dHuoY6voK7np1A7oRzw1xyBy7CK9_KBAc4FCKW29uRQ,21
+aliyunsdkoms/endpoint.py,sha256=mNm5vD0cxr6egipEL-MagDOhd2B8xMFMTDTUHWjkmvE,1200
+aliyunsdkoms/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdkoms/request/v20190527/GetDomainFieldsRequest.py,sha256=f9EbGBl7RIe3dDYWxog5HOCkliGhMmpZEQj3ZkIDosM,1637
+aliyunsdkoms/request/v20190527/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_oms-1.0.0.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_oms-1.0.0.dist-info/METADATA,sha256=_eReiURMslLNEeWejhB4cp51BJ6iHdFSx1zQrt0eZ1U,1455
+aliyun_python_sdk_oms-1.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aliyun_python_sdk_oms-1.0.0.dist-info/top_level.txt,sha256=jVivWy_4SfGgP-umkZDXl2pdfD7GfhFlNDP47KHeSJU,13
+aliyun_python_sdk_oms-1.0.0.dist-info/RECORD,,
