@@ -1,0 +1,3 @@
+[console_scripts]
+deepehrgraph=deepehrgraph.main:main
+
