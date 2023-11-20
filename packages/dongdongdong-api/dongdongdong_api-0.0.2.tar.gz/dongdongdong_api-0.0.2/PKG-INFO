@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dongdongdong_api
+Version: 0.0.2
+Summary: Process signin and signup
+Home-page: https://github.com/dongdongjae/user_package
+Author: dongjae
+Author-email: sdhsdj6450@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
