@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+lanka/__init__.py
+lanka.egg-info/PKG-INFO
+lanka.egg-info/SOURCES.txt
+lanka.egg-info/dependency_links.txt
+lanka.egg-info/top_level.txt
