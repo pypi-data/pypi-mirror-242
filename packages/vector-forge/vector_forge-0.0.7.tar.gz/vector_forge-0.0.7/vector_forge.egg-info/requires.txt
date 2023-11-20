@@ -1,0 +1,7 @@
+numpy
+opencv-python
+transformers
+torch
+tensorflow
+Pillow
+openvino-dev
