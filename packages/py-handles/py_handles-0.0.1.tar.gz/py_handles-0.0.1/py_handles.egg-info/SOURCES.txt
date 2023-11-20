@@ -1,0 +1,8 @@
+setup.py
+py_handles/__init__.py
+py_handles/extras.py
+py_handles/integer_handles.py
+py_handles.egg-info/PKG-INFO
+py_handles.egg-info/SOURCES.txt
+py_handles.egg-info/dependency_links.txt
+py_handles.egg-info/top_level.txt
