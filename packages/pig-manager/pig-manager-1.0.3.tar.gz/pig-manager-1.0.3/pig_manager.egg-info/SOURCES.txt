@@ -1,0 +1,10 @@
+README.md
+setup.py
+pig_manager.egg-info/PKG-INFO
+pig_manager.egg-info/SOURCES.txt
+pig_manager.egg-info/dependency_links.txt
+pig_manager.egg-info/entry_points.txt
+pig_manager.egg-info/requires.txt
+pig_manager.egg-info/top_level.txt
+scripts/__init__.py
+scripts/__main__.py
