@@ -1,0 +1,2 @@
+[console_scripts]
+bootstrap = bootstrap_budget.cli:bootstrap
