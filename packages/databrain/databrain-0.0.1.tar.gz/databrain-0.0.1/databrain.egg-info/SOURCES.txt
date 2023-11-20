@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+databrain/__init__.py
+databrain.egg-info/PKG-INFO
+databrain.egg-info/SOURCES.txt
+databrain.egg-info/dependency_links.txt
+databrain.egg-info/top_level.txt
