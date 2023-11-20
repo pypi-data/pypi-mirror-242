@@ -1,0 +1,15 @@
+gitpkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitpkg/__main__.py,sha256=SgVAXtZtsXmx08xdknVbXWbMP0eEetB0bNSQEHO_1j0,37
+gitpkg/_version.py,sha256=jhL139PZU0ziH6uBTC5xkH-WLJVqxQ4PfXprY4BKeos,80
+gitpkg/cli.py,sha256=SPkI89oC1ReHTDBHdppiBCNSb9RHki-sXvC3pf2ZA4s,18041
+gitpkg/config.py,sha256=VkRcDhDW4M4vMqG6mX1KRoE1g7_f-7x2tr6BAyhRSEU,1681
+gitpkg/console.py,sha256=VEiMcRjA5KKgrSI2AT4rlciGcDwo2vtoPq4eeFibDos,324
+gitpkg/errors.py,sha256=O1aGfjkDmH0_KxBpC57fVM3LEsVGJtdLRgaTUz-jFQU,2762
+gitpkg/main.py,sha256=drAXkoShbD1M9anFlTw-d9kvxp4XUO4bISX-uo2lzLk,137
+gitpkg/pkg_manager.py,sha256=2LHQFUaJiNWlbJk8Ghz_Yx6wWeVfuYL54cUTP34HgEk,16734
+gitpkg/utils.py,sha256=YYJHQ-u_hFxfkZFbdKKGSLkKBrfOIHT3w-bHoVudKdE,131
+gitpkg-0.1.1.dist-info/LICENSE,sha256=IVknilXGsf-Zpy0j_IETNRrtkwESNinVc2dS3mBPo3E,34227
+gitpkg-0.1.1.dist-info/METADATA,sha256=XIqvBw8wYawsH0UvcsG4D0i7PR-c68SFnlHzAYLGErQ,4145
+gitpkg-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gitpkg-0.1.1.dist-info/entry_points.txt,sha256=_fmE47MIOfT2PW5pncs3nuKEOw2ytsE1Qw4kDszl-vU,44
+gitpkg-0.1.1.dist-info/RECORD,,
