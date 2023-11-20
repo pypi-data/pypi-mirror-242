@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cgcgnet
+Version: 0.1
+Summary: Coarse-grained Crystal Graph Neural Networks
+Author: Vadim Korolev, Artem Mitrofanov
+Author-email: "Vadim Korolev, Artem Mitrofanov" <korolewadim@gmail.com>
+Project-URL: Source, https://github.com/korolewadim/cgcgnet
+Project-URL: Package, https://pypi.org/project/cgcgnet
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: dgl
+Requires-Dist: matminer
+Requires-Dist: rdkit
+Requires-Dist: gensim
+
+# CGCGNet
+
+Coarse-grained crystal graph neural networks
+
+## Installation
+
+We strongly recommend the [Anaconda](https://www.anaconda.com) distribution of Python (3.10 release is required). You can create and activate a new conda environment with commands
+```
+conda create --name cgcgnet python=3.10
+conda activate cgcgnet
+conda install ipykernel openbabel
+```
+
+CGCGNet can be installed via the following command
+```
+pip install cgcgnet
+```

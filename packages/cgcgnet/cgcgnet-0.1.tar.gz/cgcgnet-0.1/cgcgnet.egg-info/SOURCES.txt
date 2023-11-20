@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+cgcgnet/__init__.py
+cgcgnet/featurizer.py
+cgcgnet/nn.py
+cgcgnet/utils.py
+cgcgnet.egg-info/PKG-INFO
+cgcgnet.egg-info/SOURCES.txt
+cgcgnet.egg-info/dependency_links.txt
+cgcgnet.egg-info/requires.txt
+cgcgnet.egg-info/top_level.txt
+cgcgnet/models/mol2vec_300dim.pkl

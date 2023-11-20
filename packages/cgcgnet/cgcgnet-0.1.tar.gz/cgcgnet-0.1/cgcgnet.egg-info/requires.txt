@@ -1,0 +1,5 @@
+torch
+dgl
+matminer
+rdkit
+gensim
