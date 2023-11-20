@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "langchain-spark"
+version = "0.0.1"
+description = "LangChain interface for iFLYTEK Spark"
+authors = ["Yi ZHANG <yizhang.dev@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://pypi.org/project/langchain-spark"
+repository = "https://github.com/imyizhang/langchain-spark"
+documentation = "https://langchain-spark.readthedocs.io/en/latest/"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
