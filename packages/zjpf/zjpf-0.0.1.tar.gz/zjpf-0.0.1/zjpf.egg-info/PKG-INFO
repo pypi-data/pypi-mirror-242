@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: zjpf
+Version: 0.0.1
+Summary: ZHANG Jun Python functions.
+Home-page: https://github.com/jzhang-github/PyFunction
+Author: ZHANG Jun
+Author-email: j.zhang@my.cityu.edu.hk
+License: GPL
+Platform: all
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# PyFunction
+Useful Python functions.
+
+# PyPi
+**Z**HANG **J**un **P**ython **f**unctions (zjpf).
+
+### Use this repo
+```python
+import zjpf as pf
+pf.modify_INCAR(NSW, 50)
+```
