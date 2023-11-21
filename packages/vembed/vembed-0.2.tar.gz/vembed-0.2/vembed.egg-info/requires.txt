@@ -1,0 +1,6 @@
+sentence_transformers
+torch
+transformers
+pandas
+matplotlib
+seaborn
