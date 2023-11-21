@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pi-heaan
+Version: 3.4.1.5
+Summary: piheaan is a simulator to HEaaN API, the library of CKKS scheme
+Author: Cryptolab Inc.
+Author-email: cryptolab@cryptolab.co.kr
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Other/Proprietary License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+HEaaN-simulator
+===============
+
+## pi-HEaaN has been further developed and is now included in the heaan.sdk. When you visit the site [heaan.it](https://heaan.it/), you can find heaan.sdk and heaan.lib.
