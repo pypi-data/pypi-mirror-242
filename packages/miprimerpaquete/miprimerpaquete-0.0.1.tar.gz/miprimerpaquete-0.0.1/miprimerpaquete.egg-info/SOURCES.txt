@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+miprimerpaquete.egg-info/PKG-INFO
+miprimerpaquete.egg-info/SOURCES.txt
+miprimerpaquete.egg-info/dependency_links.txt
+miprimerpaquete.egg-info/top_level.txt
