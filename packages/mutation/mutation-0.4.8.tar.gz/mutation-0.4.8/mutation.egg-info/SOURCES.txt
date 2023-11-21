@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+foobar/ex.py
+mutation.egg-info/PKG-INFO
+mutation.egg-info/SOURCES.txt
+mutation.egg-info/dependency_links.txt
+mutation.egg-info/top_level.txt
