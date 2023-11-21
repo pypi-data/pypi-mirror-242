@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iglu_r"
+version = "0.0.1"
+authors = [
+  { name="Nathaniel J. Fernandes", email="njfernandes24@tamu.edu" },
+]
+description = "Python wrapper of R package `iglu` for continuous glucose monitoring data analysis. Wraps the R functions, thus making them accessible in Python."
+readme = "readme.md"
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/IrinaStatsLab/iglu-py"
+Issues = "https://github.com/IrinaStatsLab/iglu-py/issues"
