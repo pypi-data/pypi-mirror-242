@@ -1,0 +1,8 @@
+lightning_nc/__init__.py,sha256=QMfkx5Y0mPQDw0rxcmvLdK-sBI77jqE7rhWulq3Cjjc,147
+lightning_nc/finetuning.py,sha256=T8KjGeLUi8wHSna0N50BSMNBD_ynj7GGIancqsQiLb0,1884
+lightning_nc/pruning.py,sha256=44bc8UxP4QbQE3rWaC7LWFCnFXtIjspGari0zcggqLo,6498
+lightning_nc/quantization.py,sha256=dzA9s0glrUBUPOA7U23-9d1ladRBHSfKaJ6r2nwFf8g,4079
+lightning_nc-0.0.2.dist-info/LICENSE.md,sha256=EUKqs_YeMi0AjaA0s5kozjZQdVXqGHi1OQ0HIg1iabA,1072
+lightning_nc-0.0.2.dist-info/METADATA,sha256=IZ4KE4cd2_UfeXMI-4VWl7JvPlzTTUs5PmLhQ39XRWA,5487
+lightning_nc-0.0.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+lightning_nc-0.0.2.dist-info/RECORD,,
