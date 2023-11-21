@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sapphirus/__init__.py
+sapphirus/__main__.py
+sapphirus.egg-info/PKG-INFO
+sapphirus.egg-info/SOURCES.txt
+sapphirus.egg-info/dependency_links.txt
+sapphirus.egg-info/top_level.txt
