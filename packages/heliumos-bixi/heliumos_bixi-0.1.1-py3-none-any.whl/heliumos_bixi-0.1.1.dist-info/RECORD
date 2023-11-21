@@ -1,0 +1,12 @@
+bixi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bixi/constants.py,sha256=BP3d-FH0e91lQ_6r2OOzoWa-1L1rmgyJrZ29eklh3bI,1964
+bixi/conversation.py,sha256=X8lz7_oA1rOT7DyfwkpdOUYNbHZ6yKo2ch-SV1wRli4,42077
+bixi/utils.py,sha256=9xgCl9TVeqpehkygUso4IMuigc2eHCLoqEx9Mr3Tk7k,9774
+bixi/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bixi/api/completion.py,sha256=3_LyZLTMMt0_QzT0a9aJUoT0PM3iXOePuLBPBUZIwXE,19814
+bixi/api/embedding.py,sha256=FigULhaM-VOqeHh2iHfPG_D6JvS5UaoGSQRfaCmyj8Q,2936
+bixi/api/protocol.py,sha256=hxNKKHqZD9pSX38k3fhs8vZhHn4ljU_Jg5fbcyzftP0,5577
+heliumos_bixi-0.1.1.dist-info/METADATA,sha256=5pUT0xYNIPUte7jpCByEcyyQm3bueI0x5ogkmY9kAYI,757
+heliumos_bixi-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+heliumos_bixi-0.1.1.dist-info/top_level.txt,sha256=_ApUqDXI6h5pZfgUGC45xrABu7Z5RXcjR1-3pGaYp8Y,5
+heliumos_bixi-0.1.1.dist-info/RECORD,,
