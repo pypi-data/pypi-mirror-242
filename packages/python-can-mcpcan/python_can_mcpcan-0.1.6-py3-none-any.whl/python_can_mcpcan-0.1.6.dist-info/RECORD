@@ -1,0 +1,8 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcpcan.py,sha256=DZ_GLOMA-AX5AQNsUSliMc9ibrkQi7xq5vLD2N8AEck,19974
+utils.py,sha256=eW1DkZePOx8AIslMIUiEGDMX4zIAxhfaaGybbor32sA,1487
+python_can_mcpcan-0.1.6.dist-info/METADATA,sha256=hZmeuI73Fw5F-R95j9Je-D1kOd4g6rcmGuDYJeZlzlM,1008
+python_can_mcpcan-0.1.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+python_can_mcpcan-0.1.6.dist-info/entry_points.txt,sha256=YJcAfRTwmkn6CK-xnY48aPu0P5WBxL7r0GgnhY26UV0,42
+python_can_mcpcan-0.1.6.dist-info/top_level.txt,sha256=lzq5I9pVcckTmo4wQpP_xkS1n4zmtUmtNVwrDk3TSso,22
+python_can_mcpcan-0.1.6.dist-info/RECORD,,
