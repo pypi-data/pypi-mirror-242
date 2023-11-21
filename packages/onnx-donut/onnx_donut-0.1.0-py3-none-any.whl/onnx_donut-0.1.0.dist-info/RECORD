@@ -1,0 +1,9 @@
+onnx_donut/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onnx_donut/exporter.py,sha256=BUl2ij29IHIwFr0CAqF-wyFVxSlzB-Rns-ELmewl1Mk,4437
+onnx_donut/predictor.py,sha256=XZXcNUwYGJ1RrjJH4VgfpOiohMW55dCGq56jzixbl5Y,8819
+onnx_donut/quantizer.py,sha256=ghPDwap6xDIX3_1zRfOaqDwIj6_wYr2oP5sNARgJrHA,1020
+onnx_donut-0.1.0.dist-info/LICENSE,sha256=bcDgaNzzpbyOBUIFuFt3IOHUkmW7xkv1FdLPeRl99po,11323
+onnx_donut-0.1.0.dist-info/METADATA,sha256=2ZeRltojCZ3rcKr76VJGfiTuYHpT6j8duLJW197pa-o,1913
+onnx_donut-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+onnx_donut-0.1.0.dist-info/top_level.txt,sha256=v7T-HwtuXnDkgd_IEyb9II8qOcBh1zyWd_PKt3aNf2Y,11
+onnx_donut-0.1.0.dist-info/RECORD,,
