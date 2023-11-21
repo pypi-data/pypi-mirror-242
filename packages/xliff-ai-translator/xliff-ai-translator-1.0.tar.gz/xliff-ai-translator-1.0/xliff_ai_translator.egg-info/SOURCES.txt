@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+xliff_ai_translator/__init__.py
+xliff_ai_translator/main.py
+xliff_ai_translator.egg-info/PKG-INFO
+xliff_ai_translator.egg-info/SOURCES.txt
+xliff_ai_translator.egg-info/dependency_links.txt
+xliff_ai_translator.egg-info/entry_points.txt
+xliff_ai_translator.egg-info/requires.txt
+xliff_ai_translator.egg-info/top_level.txt

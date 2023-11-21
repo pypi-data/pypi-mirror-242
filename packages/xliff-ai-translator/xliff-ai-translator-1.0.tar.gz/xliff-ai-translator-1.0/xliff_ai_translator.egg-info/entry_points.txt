@@ -1,0 +1,2 @@
+[console_scripts]
+xliff_ai_translator = xliff_ai_translator.main:main
