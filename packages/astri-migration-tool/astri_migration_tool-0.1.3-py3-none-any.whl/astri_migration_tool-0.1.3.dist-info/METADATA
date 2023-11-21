@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: astri-migration-tool
+Version: 0.1.3
+Summary: 
+Author: leiyuan1989
+Author-email: leiyuan_1989@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flatdict (==4.0.1)
+Requires-Dist: more_itertools (==10.1.0)
+Requires-Dist: networkx (>=2.8.4,<3.0.0)
+Requires-Dist: pydantic (==1.10.13)
+Requires-Dist: typing_extensions (==4.8.0)
+Requires-Dist: z3_solver (==4.12.2.0)
+Description-Content-Type: text/markdown
+
+# astri-migration-tool
+
+## What's New
+
+v0.1.0 was released on 2023-10-31.
+
+Highlights:
+
+
+## Table of Contents
+
+- [astri-migration-tool](#astri-migration-tool)
+  - [What's New](#whats-new)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Installation](#installation)
+  - [How to Use](#how-to-use)
+  - [Learn More](#learn-more)
+  - [License](#license)
+  - [EDA Projects in ASTRI](#eda-projects-in-astri)
+
+## Introduction
+
+
+Major features:
+
+1. **XXXXXXXXXXXXXXXXX**:
+
+   - Supports training different tasks with a small amount of code, e.g., ImageNet can be trained with only 80 lines of code (400 lines of the original PyTorch example).
+   - Easily compatible with models from popular algorithm libraries such as TIMM, TorchVision, and Detectron2.
+
+2. **XXXXXXXXXXXXXXXXX**:
+
+   - Handles different algorithm tasks with unified APIs, e.g., implement a method and apply it to all compatible models.
+   - Provides a unified abstraction for upper-level algorithm libraries, which supports various back-end devices such as Nvidia CUDA, Mac MPS, AMD, MLU, and more for model training.
+
+3. **XXXXXXXXXXXXXXXXX**:
+
+   - Defines the training process just like playing with Legos.
+   - Provides rich components and strategies.
+   - Complete controls on the training process with different levels of APIs.
+
+![tool_flow](https://github.com/xxxxxxxxxx)
+
+## Installation
+Install astri-migration-tool
+
+```bash
+pip install astri-migration-tool
+```
+
+Verify the installation
+
+```bash
+python XXXXXXXXXXXX
+```
+
+## How to Use
+
+XXXXXXXXXXXXXXXXXXXXXXXX
+- XXXX
+- XXXX
+
+```python
+import astri_migration_tool
+
+xxxxx
+```
+
+
+## Learn More
+
+
+## License
+
+
+## EDA Projects in ASTRI 
+
+- 

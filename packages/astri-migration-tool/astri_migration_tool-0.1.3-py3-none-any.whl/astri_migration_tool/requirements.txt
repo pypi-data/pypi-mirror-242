@@ -1,0 +1,6 @@
+flatdict==4.0.1
+more_itertools==10.1.0
+networkx==2.8.4
+pydantic==1.10.13
+typing_extensions==4.8.0
+z3_solver==4.12.2.0
