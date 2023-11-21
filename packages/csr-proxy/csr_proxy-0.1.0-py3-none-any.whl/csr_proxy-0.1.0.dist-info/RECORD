@@ -1,0 +1,12 @@
+csr_proxy/__init__.py,sha256=-7oalJmlMYC2S1Htm_lM2v89aF9YmtmDUa4e4BA0r7E,645
+csr_proxy/api.py,sha256=MebzKMOTXwQbiCgXER6HfhgjAMGmPXJsm1E2jvTVNtA,4603
+csr_proxy/cli.py,sha256=i_UImlI_z_gycq1kDJmA_v1b5J0YW5sIFB0wuQNCB3c,5076
+csr_proxy/config.py,sha256=oUYRzLgrcLn7vcUp_ao9vWU3xpLxzK-B9GsZbc3Mngg,3402
+csr_proxy/log.py,sha256=JJPSdqQ8XUbgbJUOdRP3KZX4zgzGVcnvnny_3NvQT0Y,419
+csr_proxy/py.typed,sha256=zwRNjZOV3leFzGdwfkbvGOfGbBoplIeeZu4g7d6P928,170
+csr_proxy-0.1.0.dist-info/LICENSE.md,sha256=vxxN3LfG3LWJBrm-lAsAjxOMyh0vvikTQDCwPOK0h64,1515
+csr_proxy-0.1.0.dist-info/METADATA,sha256=97NmcgEv5TivdHGOO7q_t2cyamqe8Lj4iGfirY96eRE,6671
+csr_proxy-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+csr_proxy-0.1.0.dist-info/entry_points.txt,sha256=i3jm3cMsy4dBlmkOWo7Dbv7qxfG9CrzWxoSAcaYtrlQ,49
+csr_proxy-0.1.0.dist-info/top_level.txt,sha256=D0ZpUGQB5YqoNkXBKQhkHNZn1QD7OnjmDIULO8lLByE,10
+csr_proxy-0.1.0.dist-info/RECORD,,
