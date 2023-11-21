@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: now_2023
+Version: 0.1.0
+Summary: Library for the NOW 2023 workshop.
+License: MIT
+Author: Nicolas Gensollen
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Description-Content-Type: text/markdown
+
+# NOW 2023 Library
+
+Library for the NOW 2023 workshop.
+
