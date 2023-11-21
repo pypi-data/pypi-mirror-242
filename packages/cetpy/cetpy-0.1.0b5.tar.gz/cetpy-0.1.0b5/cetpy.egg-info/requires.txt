@@ -1,0 +1,13 @@
+numpy
+pandas
+CoolProp
+tomli
+keras
+keras-tuner
+tensorflow
+tabulate
+smt
+pytest
+matplotlib
+statsmodels
+scikit-learn
