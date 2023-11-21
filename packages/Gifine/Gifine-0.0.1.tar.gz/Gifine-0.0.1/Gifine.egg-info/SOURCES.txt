@@ -1,0 +1,5 @@
+setup.py
+Gifine.egg-info/PKG-INFO
+Gifine.egg-info/SOURCES.txt
+Gifine.egg-info/dependency_links.txt
+Gifine.egg-info/top_level.txt
