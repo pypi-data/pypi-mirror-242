@@ -1,0 +1,11 @@
+browsercontroller/Hardcoded.py,sha256=5W7zqI8Z9Aywxt7fNtXuWjQbwfKbXwzbaXolHJW-Dxs,2255
+browsercontroller/__init__.py,sha256=DlNJ3THx-GHiKZ4drP9F693oIic60gDc97qUNTovnmI,142
+browsercontroller/__main__.py,sha256=MisiHFK0Orm0OXA5wOf-1py6LfSUH6x06z-l_fFsrPQ,635
+browsercontroller/playwright/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browsercontroller/playwright/get_driver.py,sha256=vF1m4IxabYKqN-3xg4SPTAqL3bcN1hXJKFm0TaKQfJE,1454
+browsercontroller/playwright/get_driver_with_persistent_context.py,sha256=q_5wjiET9juzJ_At-QpO4pkbuT5QL2MxcrUgfmvRrHs,4336
+browsercontroller-0.0.13.dist-info/METADATA,sha256=LVMj7-tsFYrKyakx8YmHekhJLI3y529LBtBpp7oQk40,3509
+browsercontroller-0.0.13.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+browsercontroller-0.0.13.dist-info/entry_points.txt,sha256=1TQt_hObhLRsgJfy_iQlF2--QaILEbMk7BiEwzgbFXI,61
+browsercontroller-0.0.13.dist-info/top_level.txt,sha256=tIvmH8qXjK6QD2CQFvjf0TmTNlUftDOojJhJJ369P5I,18
+browsercontroller-0.0.13.dist-info/RECORD,,
