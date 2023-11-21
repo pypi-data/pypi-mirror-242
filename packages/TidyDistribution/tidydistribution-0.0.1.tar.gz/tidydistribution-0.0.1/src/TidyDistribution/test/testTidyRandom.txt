@@ -1,0 +1,654 @@
+===============================================================================0
+导入模块
+>>> from TidyDistribution import TidyRandom
+>>> from TidyDistribution import TidySample
+>>> import numpy as np
+===============================================================================1
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="bernoulli", p=0.3)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="bernoulli", p=0.8, loc=3)
+>>> print(y)
+===============================================================================2
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="betabinom", n=10, a=1, b=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="betabinom", n=10, a=1, b=2, loc=3)
+>>> print(y)
+===============================================================================3
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="binom", n=10, p=0.6)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="binom", n=10, p=0.2, loc=3)
+>>> print(y)
+===============================================================================4
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="boltzmann", lambda_=10, N=3)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="boltzmann", lambda_=10, N=3, loc=3)
+>>> print(y)
+===============================================================================5
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="planck", lambda_=1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="planck", lambda_=1, loc=3)
+>>> print(y)
+===============================================================================6
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="poiss", mu=1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="poiss", mu=1, loc=3)
+>>> print(y)
+===============================================================================7
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="geom", p=0.1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="geom", p=0.9, loc=3)
+>>> print(y)
+===============================================================================8
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="nbinom", n=10, p=0.1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="nbinom", n=10, p=0.9, loc=3)
+>>> print(y)
+===============================================================================9
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="hgeom", M=20, n=10, N=10)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="hgeom", M=20, n=10, N=10, loc=3)
+>>> print(y)
+===============================================================================10
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="nchgeomfisher", M=20, n=10, N=10, odds=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="nchgeomfisher", M=20, n=10, N=10, odds=2, loc=3)
+>>> print(y)
+===============================================================================11
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="nchgeomWallenius", M=20, n=10, N=10, odds=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="nchgeomWallenius", M=20, n=10, N=10, odds=2, loc=3)
+>>> print(y)
+===============================================================================12
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="nhgeom", M=20, n=10, r=10)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="nhgeom", M=20, n=10, r=10, loc=3)
+>>> print(y)
+===============================================================================13
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="zeta", a=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="zeta", a=2, loc=3)
+>>> print(y)
+===============================================================================14
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="zipfian", a=2, n=10)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="zipfian", a=2, n=10, loc=3)
+>>> print(y)
+===============================================================================15
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="logseries", p=0.9)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="logseries", p=0.1, loc=3)
+>>> print(y)
+===============================================================================16
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="duniform", low=1, high=10)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="duniform", low=1, high=10, loc=3)
+>>> print(y)
+===============================================================================17
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="dlaplace", a=3)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="dlaplace", a=3, loc=3)
+>>> print(y)
+===============================================================================18
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="yulesimon", alpha=3)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="yulesimon", alpha=3, loc=3)
+>>> print(y)
+===============================================================================19
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="alpha", a=3)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="alpha", a=3, loc=3, scale=2)
+>>> print(y)
+===============================================================================20
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="anglit")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="anglit", loc=3, scale=2)
+>>> print(y)
+===============================================================================21
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="arcsin")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="arcsin", loc=3, scale=2)
+>>> print(y)
+===============================================================================22
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="beta", a=1, b=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="beta", a=1, b=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================23
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="betaprime", a=1, b=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="betaprime", a=1, b=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================24
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="bradford", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="bradford", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================25
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="burr", c=2, d=1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="burr", c=2, d=1, loc=3, scale=2)
+>>> print(y)
+===============================================================================26
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="burr12", c=2, d=1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="burr12", c=2, d=1, loc=3, scale=2)
+>>> print(y)
+===============================================================================27
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="cauchy")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="cauchy", loc=3, scale=2)
+>>> print(y)
+===============================================================================28
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="skewcauchy", a=0.2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="skewcauchy", a=0.2, loc=3, scale=2)
+>>> print(y)
+===============================================================================29
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="chi", df=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="chi", df=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================30
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="chi2", df=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="chi2", df=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================31
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="cosine")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="cosine", loc=3, scale=2)
+>>> print(y)
+===============================================================================32
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="dgamma", a=1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="dgamma", a=1, loc=3, scale=2)
+>>> print(y)
+===============================================================================33
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="dweibull", c=1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="dweibull", c=1, loc=3, scale=2)
+>>> print(y)
+===============================================================================34
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="exp")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="exp", loc=3, scale=2)
+>>> print(y)
+===============================================================================35
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="expweibull", a=1, c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="expweibull", a=1, c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================36
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="exppower", b=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="exppower", b=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================37
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="fatigurlife", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="fatigurlife", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================38
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="loglogistic", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="loglogistic", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================39
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="foldcauchy", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="foldcauchy", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================40
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="foldnormal", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="foldnormal", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================41
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="f", dfn=2, dfd=3)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="f", dfn=2, dfd=3, loc=3, scale=2)
+>>> print(y)
+===============================================================================42
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="gamma", a=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="gamma", a=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================43
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="glogistic", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="glogistic", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================44
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="gpareto", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="gpareto", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================45
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="gexp", a=2, b=1, c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="gexp", a=2, b=1, c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================46
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="gextremevalue", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="gextremevalue", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================47
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="ggamma", a=2, c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="ggamma", a=2, c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================48
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="ghalflogistic", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="ghalflogistic", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================49
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="gigauss", p=2, b=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="gigauss", p=2, b=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================50
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="gnorm", beta=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="gnorm", beta=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================51
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="gibrat")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="gibrat", loc=3, scale=2)
+>>> print(y)
+===============================================================================52
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="gompertz", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="gompertz", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================53
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="halfcauchy")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="halfcauchy", loc=3, scale=2)
+>>> print(y)
+===============================================================================54
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="halfnorm")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="halfnorm", loc=3, scale=2)
+>>> print(y)
+===============================================================================55
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="halflogistic")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="halflogistic", loc=3, scale=2)
+>>> print(y)
+===============================================================================56
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="halflogistic")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="halflogistic", loc=3, scale=2)
+>>> print(y)
+===============================================================================57
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="hypsecant")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="hypsecant", loc=3, scale=2)
+>>> print(y)
+===============================================================================58
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="gausshgeom", a=1, b=1, c=2, z=3)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="gausshgeom", a=1, b=1, c=2, z=3, loc=3, scale=2)
+>>> print(y)
+===============================================================================59
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="invgamma", a=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="invgamma", a=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================60
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="invgauss", mu=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="invgauss", mu=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================61
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="invweibull", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="invweibull", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================62
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="JohnsonSB", a=2, b=1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="JohnsonSB", a=2, b=1, loc=3, scale=2)
+>>> print(y)
+===============================================================================63
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="JohnsonSU", a=2, b=1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="JohnsonSU", a=2, b=1, loc=3, scale=2)
+>>> print(y)
+===============================================================================64
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="KSone", n=10)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="KSone", n=10, loc=3, scale=2)
+>>> print(y)
+===============================================================================65
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="KStwo", n=100)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="KStwo", n=100, loc=3, scale=2)
+>>> print(y)
+===============================================================================66
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="KStwobign")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="KStwobign", loc=3, scale=2)
+>>> print(y)
+===============================================================================67
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="laplace")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="laplace", loc=3, scale=2)
+>>> print(y)
+===============================================================================68
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="AsymmetricLaplace", kappa=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="AsymmetricLaplace", kappa=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================69
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="Left-skewed-Levy")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="Left-skewed-Levy", loc=3, scale=2)
+>>> print(y)
+===============================================================================70
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="levy")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="levy", loc=3, scale=2)
+>>> print(y)
+===============================================================================71
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="logistic")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="logistic", loc=3, scale=2)
+>>> print(y)
+===============================================================================72
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="loglaplace", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="loglaplace", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================73
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="loggamma", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="loggamma", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================74
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="lognorm", s=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="lognorm", s=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================75
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="loguniform", a=2, b=3)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="loguniform", a=2, b=3, loc=3, scale=2)
+>>> print(y)
+===============================================================================76
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="maxwell")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="maxwell", loc=3, scale=2)
+>>> print(y)
+===============================================================================77
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="Mielke-Beta-Kappa", k=1, s=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="Mielke-Beta-Kappa", k=1, s=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================78
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="Nakagami", nu=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="Nakagami", nu=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================79
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="ncchi2", df=2, nc=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="ncchi2", df=2, nc=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================80
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="ncf", dfn=2, dfd=2, nc=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="ncf", dfn=2, dfd=2, nc=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================81
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="nct", df=2, nc=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="nct", df=2, nc=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================82
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="norm")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="norm", loc=3, scale=2)
+>>> print(y)
+===============================================================================83
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="NormalInverseGaussian", a=1, b=0.2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="NormalInverseGaussian", a=1, b=0.2, loc=3, scale=2)
+>>> print(y)
+===============================================================================84
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="pareto", b=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="pareto", b=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================85
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="lomax", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="lomax", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================86
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="PowerlogNorm", c=2, s=1)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="PowerlogNorm", c=2, s=1, loc=3, scale=2)
+>>> print(y)
+===============================================================================87
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="PowerNormal", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="PowerNormal", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================88
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="PowerLaw", a=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="PowerLaw", a=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================89
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="Rdistribution", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="Rdistribution", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================90
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="rayleigh")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="rayleigh", loc=3, scale=2)
+>>> print(y)
+===============================================================================91
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="rice", b=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="rice", b=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================92
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="semicircular")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="semicircular", loc=3, scale=2)
+>>> print(y)
+===============================================================================93
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="Studentized-Range", k=2, df=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="Studentized-Range", k=2, df=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================94
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="t", df=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="t", df=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================95
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="Trapezoidal", c=0.2, d=0.5)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="Trapezoidal", c=0.2, d=0.5, loc=3, scale=2)
+>>> print(y)
+===============================================================================96
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="Triangular", c=0.2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="Triangular", c=0.2, loc=3, scale=2)
+>>> print(y)
+===============================================================================97
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="TruncatedExpon", b=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="TruncatedExpon", b=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================98
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="TruncatedNormal", a=1, b=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="TruncatedNormal", a=1, b=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================99
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="TruncatedPareto", b=0.1, c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="TruncatedPareto", b=0.1, c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================100
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="TruncatedWeibullMin", a=0.2, b=2, c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="TruncatedWeibullMin", a=0.2, b=2, c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================101
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="uniform")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="uniform", loc=3, scale=2)
+>>> print(y)
+===============================================================================102
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="wald")
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="wald", loc=3, scale=2)
+>>> print(y)
+===============================================================================103
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="WeibullMax", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="WeibullMax", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================104
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="WeibullMin", c=2)
+>>> print(y)
+>>> y = TidyRandom(size=size, whichdist="WeibullMin", c=2, loc=3, scale=2)
+>>> print(y)
+===============================================================================105
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="MultiNorm", mean=np.zeros(2), cov=np.identity(2))
+>>> print(y)
+===============================================================================106
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="MultiT", loc=np.zeros(2), shape=np.identity(2), df=2)
+>>> print(y)
+===============================================================================107
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="MultiNomial", n=20, p=[0.3,0.5,0.2])
+>>> print(y)
+===============================================================================108
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="invwishart", df=4, scale=np.identity(3))
+>>> print(y)
+===============================================================================109
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="wishart", df=4, scale=np.identity(3))
+>>> print(y)
+===============================================================================110
+>>> size=100
+>>> y = TidyRandom(size=size, whichdist="dirichlet", alpha=[0.1,0.8,0.2])
+>>> print(y)
+===============================================================================111

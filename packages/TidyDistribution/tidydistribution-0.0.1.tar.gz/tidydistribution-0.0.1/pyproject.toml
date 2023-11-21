@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "TidyDistribution"
+version = "0.0.1"
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "xlrd",
+  "openpyxl",
+  "xlwt",
+  "scipy",
+  "seaborn",
+  "statsmodels"
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "LiuAndy", email = "andylau_dh@163.com"},
+]
+maintainers = [
+  {name = "LiuAndy", email = "andylau_dh@163.com"}
+]
+description = "使用Scipy库实现统计分布的简洁程序库，五个函数搞定所有常用的统计分布！"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["统计分布", "Scipy", "简介代码", "函数封装"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/LiuAndy-art/TidyDistribution"
+Documentation = "https://github.com/LiuAndy-art/TidyDistribution"
+Repository = "https://github.com/LiuAndy-art/TidyDistribution"
