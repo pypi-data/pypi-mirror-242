@@ -1,0 +1,6 @@
+cffi
+
+[testing]
+pytest
+pytest-mock
+types-cffi
