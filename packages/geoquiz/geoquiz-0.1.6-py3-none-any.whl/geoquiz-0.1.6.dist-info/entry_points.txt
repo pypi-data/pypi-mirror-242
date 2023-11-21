@@ -1,0 +1,3 @@
+[console_scripts]
+geoquiz=geoquiz.quiz:main
+
