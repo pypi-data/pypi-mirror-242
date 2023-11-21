@@ -1,0 +1,19 @@
+[package]
+name = "process_metrics"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "process_metrics"
+crate-type = ["cdylib"]
+
+
+[dependencies]
+pyo3 = "0.19.0"
+opentelemetry-system-metrics = { path = "..", version = "0.1.6" }
+opentelemetry_sdk = { version = "0.21.0", features = ["rt-tokio", "metrics"] }
+futures = "0.3.12"
+tokio = { version = "1.17.0", features = ["full"] }
+opentelemetry-otlp = { version = "0.14.0", features = ["tonic", "metrics"] }
+opentelemetry = { version = "0.21.0", features = ["metrics"] }
