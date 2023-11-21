@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "hydra-lsp"
+version = "0.1.3a0"
+description = "Language server for Hydra YAML config files"
+authors = ["Andrii Zhuravchak <retsediv1@gmail.com>"]
+readme = "README.md"
+keywords = ["ls", "language-server", "yaml", "hydra"]
+
+[project.urls]
+"Homepage" = "https://github.com/Retsediv/hydra-lsp"
+"Source" = "https://github.com/Retsediv/hydra-lsp"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygls = "^1.1.1"
+lsprotocol = "^2023.0.0b1"
+pytest = "^7.4.2"
+ruamel-yaml = "^0.17.40"
+pygtrie = "^2.5.0"
+intervaltree = "^3.1.0"
+
+
+[tool.poetry.scripts]
+hydra-lsp = "hydra_lsp.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# TODO: remove this warning filter when pygls will be updated and our parser will be using outdated API
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::PendingDeprecationWarning"]
