@@ -1,0 +1,16 @@
+scidmcli/__init__.py,sha256=CNxlGErxvv7rJMk3trLubhtLQAOdDLJKOk0DCC5OUxU,1340
+scidmcli/connection.py,sha256=gjTQ-8-G20KbYDknee1kArdHqH5w4bKZN3w8tz-c6iM,493
+scidmcli/credential.py,sha256=8CSZm5EgAVx8fYey2GQkrEnqy-kLOLuG69omUEg-6F8,2953
+scidmcli/main.py,sha256=6K0BopGgEERCFBwxMmq6oc5zZ4mkiranxF84D7SSQR4,1737
+scidmcli/util.py,sha256=rMcsYSuWSZ_CFyChF1HVMynguGofdfmXBdlYV92ex3g,371
+scidmcli/version.py,sha256=JDSYhCKFaYMhbQNMvCXF7NBWhOTX9aeds5var7iCERo,81
+scidmcli/cli/config.py,sha256=5IvJFoSqKwQ8FhkQ0LINY5wWkxOoZPGgnio27NVdnAI,1570
+scidmcli/cli/dataset.py,sha256=x8X_MgM_FUMjJacrUfZHAZY8yfKfezQ-UuH43ef741M,4657
+scidmcli/cli/organization.py,sha256=aziKNmX10iDf6D1kdkLS-VTmSgUd9OJDP3DRw9KjBjY,510
+scidmcli/cli/user.py,sha256=lASXcv7tTEAzXOT7-2XA_rSlYUQFUjDolc8QJBvoT5I,1502
+scidmcli-0.0.3.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+scidmcli-0.0.3.dist-info/METADATA,sha256=su9lk2KKalRVfwh3lRsgwf23xMVTOkD7t4TedqN5LoM,3970
+scidmcli-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+scidmcli-0.0.3.dist-info/entry_points.txt,sha256=39Exwh2kfsICjg-QHfRJWll7Xddx1h93nP6CE6o-Vwo,47
+scidmcli-0.0.3.dist-info/top_level.txt,sha256=e9K1ogZkdU2p3RAtG4qC6iWhxY0BfKRVQ_uBj4PchIs,9
+scidmcli-0.0.3.dist-info/RECORD,,
