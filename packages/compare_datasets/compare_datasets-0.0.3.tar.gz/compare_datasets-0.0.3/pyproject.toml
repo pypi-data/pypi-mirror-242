@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "compare_datasets"
+version = "0.0.3"
+description = "The library that compares two dataframes"
+authors = ["Kumar Shantanu"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.8"
+polars = "^0.19.5"
+distance_functions = ">0.0.0"
+tabulate = "^0.8.9"
+jinja2 = "^3.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
