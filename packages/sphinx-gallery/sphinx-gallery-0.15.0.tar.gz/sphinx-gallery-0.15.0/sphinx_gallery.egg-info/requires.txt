@@ -1,0 +1,14 @@
+pillow
+sphinx>=4
+
+[jupyterlite]
+jupyterlite_sphinx
+
+[recommender]
+numpy
+
+[show_api_usage]
+graphviz
+
+[show_memory]
+memory_profiler
