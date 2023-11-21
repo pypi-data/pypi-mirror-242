@@ -1,0 +1,7 @@
+pytest
+pandas
+is_instance
+assure
+mmry
+embd
+drivers

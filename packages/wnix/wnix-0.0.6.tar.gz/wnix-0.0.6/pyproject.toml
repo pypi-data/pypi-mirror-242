@@ -1,0 +1,27 @@
+[project]
+name = "wnix"
+version = "0.0.6"
+authors = [
+  { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "Unix coreutils for software 2.0"
+dependencies = [
+    "pytest",
+    "pandas",
+    "is_instance",
+    "assure",
+    "mmry",
+    "embd",
+    "drivers",
+]
+
+# For including the non-python files in the installed repo
+[tool.setuptools.package-data]
+wnix = ["**/*"]
+
+[project.urls]
+"Homepage" = "https://github.com/notarealdeveloper/wnix"
+
+[project.scripts]
+What = "wnix.bin.what:main"
+Grep = "wnix.bin.grep:main"
