@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cyclic-pattern
+Version: 0.0.1
+Summary: CLI Tools / Python library to generate and search pattern strings useful for finding offsets in Binary Exploitation.
+Home-page: https://github.com/key-moon/cyclic-pattern
+Author: keymoon
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
