@@ -1,0 +1,12 @@
+vembed/__init__.py,sha256=1rO6RRGCCoDQ1I4wlaaVNIa5mk_Ws7ASMk_bCgsvP60,226
+vembed/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vembed/model/transformer_model.py,sha256=2DW4F7i6wCLoPPX0BGSjPTcLXr1NammDBy-bXmX1FM4,437
+vembed/similarity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vembed/similarity/get_similarity.py,sha256=0nJ2xZqQsv0qj3kC2Ro2UjnPV3rdJ8qjHWYx6hUIHDM,4378
+vembed/string_to_vector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vembed/string_to_vector/mpnet_paraphrase.py,sha256=3_dXmdq2J3iDKDQHFAxxCxn7MD-Qg5qjRGi0UYSe4SU,1399
+vembed-0.22.dist-info/LICENSE,sha256=Njd5AfOdsBFKb7_kwel9RH9gNSD74SC5lADGDhbn40U,1064
+vembed-0.22.dist-info/METADATA,sha256=Te_r-8PBMuumJF_Mie0-3_gNG42ZH4pkctU18oj7UAk,5407
+vembed-0.22.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+vembed-0.22.dist-info/top_level.txt,sha256=LvW49s_tmqlqre80N42ApFXJWEV9cCVT0MeeK77GYWg,7
+vembed-0.22.dist-info/RECORD,,
