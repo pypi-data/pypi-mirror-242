@@ -1,0 +1,13 @@
+fickling/__init__.py,sha256=wOJN3HxAgnSon5vWYU3Txm2UZ_7tBHDKXUKZIH-mXX8,22
+fickling/__main__.py,sha256=NwZNJkJ7Y_G4CEhwGHnHjrDfRxILltiMPzMHiIUisgo,67
+fickling/analysis.py,sha256=nNF36CIoFTu99bOrslST0STua1iiiJ7O-VTUgUgX3gs,10624
+fickling/cli.py,sha256=W5Yog4oSPcR5bWnINxnMH_1zSahYwdnmIQpGX0oX4kk,6152
+fickling/fickle.py,sha256=lcyOClOYgcbGnsAMPaX2kGSg3iTQrnbT6tX0oUCy4UE,48321
+fickling/pickle.py,sha256=aZGnnQNUjcTzFbr6gQjEagfwiyxZIWXnsAdn_lYmbsw,276
+fickling/pytorch.py,sha256=retbyU_71lvIZVfarUMFkkNqQuYnAGhcJzJ7Ju2XdHM,2654
+fickling/tracing.py,sha256=3A39w3urPyw1gnQIqr-bM8KiRbix5zgQRDP36G-gdms,2577
+fickling-0.0.8.dist-info/entry_points.txt,sha256=GEQNGhTp_lEkLqtjVytQK7PkC9s2Y2a_4ENBRH5qHv8,51
+fickling-0.0.8.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+fickling-0.0.8.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+fickling-0.0.8.dist-info/METADATA,sha256=xyhfKX5VHHZrcBwNVCrMVtyUDaXybnU_2Yrh9BxmCvA,4323
+fickling-0.0.8.dist-info/RECORD,,
