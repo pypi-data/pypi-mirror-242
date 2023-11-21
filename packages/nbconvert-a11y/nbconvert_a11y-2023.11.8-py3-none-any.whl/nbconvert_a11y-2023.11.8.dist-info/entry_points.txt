@@ -1,0 +1,7 @@
+[nbconvert.exporters]
+a11y = nbconvert_a11y.form_exporter:A11yExporter
+html5_test = nbconvert_a11y.exporters:Html5Test
+
+[pytest11]
+a11y = nbconvert_a11y.form_exporter:A11yExporter
+axe = nbconvert_a11y.pytest_axe
