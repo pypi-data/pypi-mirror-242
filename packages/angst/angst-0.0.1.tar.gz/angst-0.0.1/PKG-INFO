@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: angst
+Version: 0.0.1
+Summary: Angular statistics
+Project-URL: Documentation, https://angst.readthedocs.io/
+Project-URL: Repository, https://github.com/ntessore/angst
+Project-URL: Issues, https://github.com/ntessore/angst/issues
+Author-email: Nicolas Tessore <n.tessore@ucl.ac.uk>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.20.0
+Provides-Extra: docs
+Requires-Dist: furo; extra == 'docs'
+Requires-Dist: numpydoc; extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinxcontrib-katex; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+# **Angst** — Angular statistics
+
+**Angst** is a _work-in-progress_ Python package for statistics on the sphere.
+
+## Installation
+
+Install the package with pip:
+
+    pip install angst
