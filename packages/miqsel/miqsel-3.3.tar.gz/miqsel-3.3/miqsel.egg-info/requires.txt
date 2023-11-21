@@ -1,0 +1,6 @@
+Click>=5.0
+
+[dev]
+pre-commit
+pytest
+pytest-cov
