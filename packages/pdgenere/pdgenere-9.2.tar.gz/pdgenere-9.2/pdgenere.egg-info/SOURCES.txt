@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+pdgenere/__init__.py
+pdgenere/pdfgene.py
+pdgenere.egg-info/PKG-INFO
+pdgenere.egg-info/SOURCES.txt
+pdgenere.egg-info/dependency_links.txt
+pdgenere.egg-info/top_level.txt
