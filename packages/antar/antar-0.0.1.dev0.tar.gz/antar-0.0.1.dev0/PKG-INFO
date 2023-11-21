@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: antar
+Version: 0.0.1.dev0
+Author: antar devs
+Author-email: ayush.chaurarsia@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pygithub
+Requires-Dist: lancedb
+Requires-Dist: pyarrow
+Requires-Dist: llama-cpp-python
+Requires-Dist: huggingface_hub
+Requires-Dist: sentencepiece

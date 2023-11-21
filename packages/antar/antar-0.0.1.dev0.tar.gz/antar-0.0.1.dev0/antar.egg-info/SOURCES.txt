@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+antar.egg-info/PKG-INFO
+antar.egg-info/SOURCES.txt
+antar.egg-info/dependency_links.txt
+antar.egg-info/requires.txt
+antar.egg-info/top_level.txt
+dryg/__init__.py
+dryg/settings.py
+tests/test_functions.py
