@@ -1,0 +1,8 @@
+miksisdk/__init__.cp38-win32.pyd,sha256=CPoucuAq82SJyzdQD04FWdyj4yAoHBVV3I-vbACCzOI,15872
+miksisdk/agent.cp38-win32.pyd,sha256=5-LlGSUYUHyhvNz3_Dg8Pxeiv2GT6QXLdu4g8J5ZUN4,55296
+miksisdk/base.cp38-win32.pyd,sha256=g_oG6mW6yqdbDPFwn71GzEODcok9yNnI8lG7m-nPdlE,58368
+miksisdk/forecast_tool.cp38-win32.pyd,sha256=RoUsmy5VzG6oN6OMcHsN4FuM9tFX2etZxHj6NtktN4A,82432
+miksisdk-0.0.6.dist-info/METADATA,sha256=6GvEgzaXBXufiRbc0jlAhPm_hAwXD1RnqkCa_ldnCL8,345
+miksisdk-0.0.6.dist-info/WHEEL,sha256=y8qDGGdi2jzVmdhM7TFDumLpecKSDSzZ5cZMyFFuIFQ,96
+miksisdk-0.0.6.dist-info/top_level.txt,sha256=KbODlLSRtVVq3WYzA1hFhaXgyxHPKnGxVtQAhEmJ3vo,9
+miksisdk-0.0.6.dist-info/RECORD,,
