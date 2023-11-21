@@ -1,0 +1,15 @@
+venvx/__init__.py,sha256=B4YZhgJsOczedFWDnNszODu-nSc8r2J58YA22UkPem8,225
+venvx/__main__.py,sha256=2QFTGHliYkpfzvqQZJ8OOjySsgRk71XdoXV3mZxR2js,11145
+venvx/console.py,sha256=825Keb3h-uq1EX3sdK0kPLRMbSV8V6KgEMwArhgZPaw,163
+venvx/pstream.py,sha256=4tigEWsyBeidmbT_wB07wxBzQT40HaRceGvEbXkV19U,2408
+venvx/shellext.py,sha256=RL6EU8BtlvDwr2WNLlOsjSOywoYVwOhjhezEghr768s,3997
+venvx/tools.py,sha256=r0ripFdTO0vwR8J_7O3fZ-w2tp2ieI6MHelpo5MqV9Y,17017
+venvx/virtualenv.py,sha256=ulqU6sBswj0Im8TPU66qUfJopqUi6SZU8gvBeETU0EA,6212
+venvx/config/__init__.py,sha256=eOyUzvvNxtVQ_GHeFc_RXbYqYDgtuyt6-n7kOGcZdJM,1726
+venvx/config/defaults.toml,sha256=1XIW8lFR4PRVs9NaPPCx9EkYt2DqAtmAXbXKC8AHILY,1137
+venvx/config/toml.py,sha256=U7jilCt9NI6s4y2dTQWVVtRozJ8V9ZEqU0S605v_Mp8,357
+venvx-0.4.0.dist-info/entry_points.txt,sha256=YV_Sc31R0vH2t1JPqmd7aZYakPCz47jjqRlvbltstJ4,45
+venvx-0.4.0.dist-info/LICENSE,sha256=1gs_lUTyluQn6yDu1tMaAhvljXdjW29mNizDNMp7eQE,1073
+venvx-0.4.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+venvx-0.4.0.dist-info/METADATA,sha256=Qla7AoSRyTWDLNNOYKcHEsd5tQZ9L6qZ8wsKzvQ2S1k,4472
+venvx-0.4.0.dist-info/RECORD,,

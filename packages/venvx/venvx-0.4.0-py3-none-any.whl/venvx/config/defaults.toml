@@ -1,0 +1,28 @@
+# These are venvx's default settings. Place a copy of this file in
+# ~/.config/venvx.toml and customize it according to preferences.
+
+[tool.venvx]
+
+# This setting applies to Windows, only.
+# Background: When a venv is created in Git Bash on Windows, the
+# Scripts/activate script defines a VIRTUAL_ENV path that contains both
+# "/" and "\\" path separators. That can cause unexpected errors. Set
+# fix-new-venvs to true to correct the VIRTUAL_ENV path whenever a new
+# venv is created.
+fix-new-venvs = true
+
+# Upgrade the PIP module after venv creation?
+upgrade-pip = true
+
+# The name prefix to use for new venvs unless an explicit venv name is
+# provided on the command line:
+venv-prefix = ".venv"
+# Note: You CAN specify an absolute path here, or a relative path e.g.
+# ../somewhere/.venv
+# but that doesn't mean you should. Using anything but the CWD for the
+# prefix is unsupported and untested.
+
+# Append the version number of the Python interpreter to the venv-prefix.
+# This setting has no effect if the --version command line option is
+# present or if an explicit venv name is provided on the command line.
+append-version = true
