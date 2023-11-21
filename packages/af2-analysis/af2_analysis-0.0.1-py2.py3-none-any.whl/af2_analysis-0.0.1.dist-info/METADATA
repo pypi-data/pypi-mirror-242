@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: af2-analysis
+Version: 0.0.1
+Summary: `AF2 analysis` is a python library allowing analysis of Alphafold results.
+Home-page: https://github.com/samuelmurail/af2_analysis
+Author: Samuel Murail
+Author-email: samuel.murail@u-paris.fr
+License: GNUv2.0
+Keywords: af2_analysis,Python,AlphaFold2,ColabFold
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas >=2.0
+Requires-Dist: tqdm >=4.0
+Requires-Dist: seaborn >=0.11
+Requires-Dist: pdb-numpy >=0.0.2
+Requires-Dist: cmcrameri >=1.7
+
+# Alphafold2 Analysis
+
+`af2_analysis` is a python package allowing a simplified analysis of alphafold and colabfold results.
+
+## Installation
+
+```bash
+git clone https://github.com/samuelmurail/af2_analysis
+cd af2_analysis
+python setup.py install
+```
+
+
+## Usage
+
+Create the `Data` object, giving the path of the directory containing the results of the alphafold2/colabfold run. 
+
+```python
+import af2_analysis
+my_data = af2_analysis.Data('MY_AF2_RESULTS_DIR')
+```
+
+Extracted data are available in the `df` attribute of the `Data` object. 
+
+```python
+my_data.df
+```
+
+- Compute pdockQ and pdockQ2:
+
+```python
+my_data.compute_pdockq()
+my_data.compute_pdockq2()
+```
+
+- plot msa
+
+```python
+my_data.plot_msa()
+```
+
+- plot plddt:
+
+```python
+my_data.plot_plddt([0,1])
+```
+
+- plot PAE:
+
+```python
+my_data.plot_pae(my_data.df['ranking_confidence'].idxmax())
+```
+
+- show 3D structure (`nglview` required):
+
+```python
+my_data.show_3d(my_data.df['ranking_confidence'].idxmax())
+```
