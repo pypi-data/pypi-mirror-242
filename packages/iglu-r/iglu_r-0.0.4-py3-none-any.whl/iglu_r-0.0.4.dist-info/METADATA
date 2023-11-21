@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: iglu-r
+Version: 0.0.4
+Summary: Python wrapper of R package `iglu` for continuous glucose monitoring data analysis. Wraps the R functions, thus making them accessible in Python.
+Author: Lizzie Chun, Nathaniel J. Fernandes, Irina Gaynanova
+Author-email: lizzie_chun1@tamu.edu, njfernandes24@tamu.edu, irinagn@umich.edu
+Keywords: iglu,Continuous Glucose Monitoring analysis software,diabetes
+Requires-Dist: rpy2 >=3.5.13
+Requires-Dist: pandas >=2.1.2
+
