@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+join_iterables/__init__.py
+join_iterables/join_iterables.py
+join_iterables.egg-info/PKG-INFO
+join_iterables.egg-info/SOURCES.txt
+join_iterables.egg-info/dependency_links.txt
+join_iterables.egg-info/requires.txt
+join_iterables.egg-info/top_level.txt
