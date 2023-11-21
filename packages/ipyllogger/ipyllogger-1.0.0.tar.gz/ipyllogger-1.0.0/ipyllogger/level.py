@@ -1,0 +1,8 @@
+
+WARNING = "WARNING"
+WARNING_LEVEL_FILE = "warning.log"
+
+ERROR = "ERROR"
+ERROR_LEVEL_FILE = "error.log"
+
+LEVELS = WARNING, ERROR

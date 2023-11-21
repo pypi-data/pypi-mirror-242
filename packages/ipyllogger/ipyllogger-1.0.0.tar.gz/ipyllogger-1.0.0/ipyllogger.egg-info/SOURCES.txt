@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ipyllogger/__init__.py
+ipyllogger/level.py
+ipyllogger/logger.py
+ipyllogger.egg-info/PKG-INFO
+ipyllogger.egg-info/SOURCES.txt
+ipyllogger.egg-info/dependency_links.txt
+ipyllogger.egg-info/top_level.txt
+tests/__init__.py
+tests/ipyllogger_test.py
