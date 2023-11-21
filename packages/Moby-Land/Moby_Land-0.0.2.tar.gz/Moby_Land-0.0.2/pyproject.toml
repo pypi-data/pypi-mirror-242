@@ -1,0 +1,22 @@
+[project]
+name = "Moby_Land"
+version = "0.0.2"
+authors = [
+  { name="Adam Boesky", email="apboesky@gmail.com" },
+]
+description = "All of Adam's trinkets in one place."
+readme = "README.md"
+requires-python = ">=3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Adam-Boesky/Moby_Land"
+Issues = "https://github.com/Adam-Boesky/Moby_Land/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
