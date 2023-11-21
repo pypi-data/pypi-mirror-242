@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "s3torchconnectorclient"
+version = "0.0.1"
+authors = [
+  { name="s3torchconnector", email="s3torchconnector@amazon.com" },
+]
+description = "S3 connector integration for PyTorch"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: BSD License",
+]

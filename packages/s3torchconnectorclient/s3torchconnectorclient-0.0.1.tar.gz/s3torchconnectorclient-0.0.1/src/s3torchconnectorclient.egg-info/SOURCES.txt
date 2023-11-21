@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/s3torchconnectorclient/__init__.py
+src/s3torchconnectorclient/example.py
+src/s3torchconnectorclient.egg-info/PKG-INFO
+src/s3torchconnectorclient.egg-info/SOURCES.txt
+src/s3torchconnectorclient.egg-info/dependency_links.txt
+src/s3torchconnectorclient.egg-info/top_level.txt
