@@ -1,0 +1,11 @@
+[modulus.models]
+AFNO = modulus.models.afno:AFNO
+DLWP = modulus.models.dlwp:DLWP
+FNO = modulus.models.fno:FNO
+FullyConnected = modulus.models.mlp:FullyConnected
+GraphCastNet = modulus.models.graphcast:GraphCastNet
+MeshGraphNet = modulus.models.meshgraphnet:MeshGraphNet
+One2ManyRNN = modulus.models.rnn:One2ManyRNN
+Pix2Pix = modulus.models.pix2pix:Pix2Pix
+SFNO = modulus.experimental.models.sfno:SFNO
+SRResNet = modulus.models.srrn:SRResNet
