@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "drf-dark-shade"
+version = "0.1.1"
+description = "A dark theme for django rest framework browsable api"
+authors = ["tokitouq <tokitousan2005@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/tokitouq/drf-dark-shade"
+homepage = "https://github.com/tokitouq/drf-dark-shade"
+documentation =  "https://github.com/tokitouq/drf-dark-shade"
+keywords = ["python","drf", "drf-dark-theme"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

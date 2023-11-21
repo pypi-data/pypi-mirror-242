@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: drf-dark-shade
+Version: 0.1.1
+Summary: A dark theme for django rest framework browsable api
+Home-page: https://github.com/tokitouq/drf-dark-shade
+License: MIT
+Keywords: python,drf,drf-dark-theme
+Author: tokitouq
+Author-email: tokitousan2005@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: djangorestframework (>=3.14.0,<4.0.0)
+Project-URL: Documentation, https://github.com/tokitouq/drf-dark-shade
+Project-URL: Repository, https://github.com/tokitouq/drf-dark-shade
+Description-Content-Type: text/markdown
+
+# modern-drf-dark
+A dark theme for django rest framework browsable api
+
