@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/libamr/__init__.py
+src/libamr/main.py
+src/libamr.egg-info/PKG-INFO
+src/libamr.egg-info/SOURCES.txt
+src/libamr.egg-info/dependency_links.txt
+src/libamr.egg-info/top_level.txt
