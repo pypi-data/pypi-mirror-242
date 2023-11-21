@@ -1,0 +1,2 @@
+[console_scripts]
+pollinations = pollinations.__init__:main
