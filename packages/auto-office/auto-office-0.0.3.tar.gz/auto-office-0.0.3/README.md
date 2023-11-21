@@ -1,0 +1,299 @@
+# auto-office 程序包手册
+
+> coding:utf-8
+>
+> 作者：GYH(文商科学码自救小组)
+>
+> 版本号：beta 0.0.3
+>
+> python版本：3.8
+
+## 一、file模块包
+
+file模块包的存在主要有两大意义：第一是为开发者操作文件集成了直接的接口，无需更多的复杂操作；第二是作为基础的工具包，提供了很多函数，为其他模块包提供了很多基础性的支持，不少其他模块包的函数依赖于本模块包。
+
+### (一) base_support模块
+
+#### (1) is_image(file_path)
+
+判断指定文件是否为图片, 即使更改文件后缀也可正确识别
+
+Args:
+        file_path: str, 文件绝对路径
+   return:
+        bool变量, True为是, False为否
+
+#### (2) delete(path):
+
+删除文件夹或文件(已经处理好删除权限的问题)
+
+Args:
+        path: str, 文件或文件夹绝对路径
+
+#### (3) file_in_folder(folder_path):
+
+在给定主文件夹下，找出包括子文件夹内文件在内的所有的非文件夹文件
+
+Args:
+        folder_path: 文件夹路径
+   return:
+        file_path_list: 非文件夹文件绝对路径的列表
+
+#### (4) dissolution_folder(folder_path):
+
+解散指定的文件夹
+
+Args:
+        folder_path: 文件夹路径
+
+#### (5) str_is_number(string):
+
+判断一个字符串是否为数值, 可识别百分数
+
+Args:
+       string: str, 字符串
+
+#### (6) is_all_chinese(strs):
+
+检验一个字符串是否全是中文字符
+
+Args:
+       strs: str, 字符串
+
+#### (7) is_contains_chinese(strs):
+
+检验一个字符串是否含有中文字符
+
+Args:
+       strs: str, 字符串
+
+#### (8) is_all_english(strs):
+
+检验一个字符串是否全为英文字符
+
+Args:
+       strs: str, 字符串
+
+#### (9) is_contains_english(strs):
+
+检测是否含有英文字符
+
+Args:
+       strs: str, 字符串
+
+## 二、pdf模块包
+
+### (一) pdf_support模块
+
+本模块提供了一些基础的对pdf文件的操作，并为其他pdf模块提供了很多基础性的支持，部分其他模块包的函数依赖于本模块包，同时，本模块的功能也很常用，可直接调用。
+
+#### (1) merge_pdfs_from_paths(pdf_path_list, save_posit, merge_name='合并.pdf'):
+
+将指定路径集合中的文件合并为一个pdf, 并保存至相应路径下
+
+Args:
+        pdf_path_list: list, 待合并的pdf文件的绝对路径集合, 可仅有一个pdf文件, 此时为功能退化为文件移动
+        save_posit: str, 合并后文件的保存文件夹绝对地址
+        merge_name: str, 合并后的文件命名, 默认为'合并.pdf'
+
+#### (2) merge_pdfs_from_folder(folder_path, save_posit=None, merge_name='合并.pdf')
+
+将指定文件夹下的所有pdf文件合并为一个文件
+
+Args:
+        folder_path: str, 指定文件夹的绝对路径
+        save_posit: str, 合并后文件的保存文件夹绝对地址, 默认为None, 即合并pdf默认保存在原文件夹处
+        merge_name: str, 合并后的文件命名, 默认为'合并.pdf'
+
+#### (3) imgs2pdf(file_path_list, save_posit=None, pagesize=A4, remove=True)
+
+将指定路径列表中的图片文件转为pdf
+
+Args:
+        file_path_list: 图片的路径列表
+        save_posit: str, 转换后pdf的保存文件夹绝对地址, 默认为None, 即转换后pdf默认保存在原图片处
+        pagesize: tuple, 预定义好的元组, 可选A4、A3等常见大小, 默认为A4, 也可自行定义
+        remove: 是否保留原有的图片文件, 默认保留
+
+#### (4) img2pdf(img_path, pdf_path=None, pagesize=A4, remove=True)
+
+将指定路径的图片转成PDF文件, 默认转化为竖版A4大小
+    Args:
+        img_path: str, 图片的路径
+        pdf_path: str, 要保存的PDF文件的路径, 默认为None, 即保留在图片原位置
+        pagesize: tuple, 预定义好的元组, 可选A4、A3等常见大小, 默认为A4, 也可自行定义
+        remove: bool, 转为pdf后是否删除原图片, 默认为True
+
+### (二) pdf_function模块
+
+#### (1) extract_pdf(pdf_path, page_list, save_posit=None)
+
+提取pdf文件中指定页数的部分, 并创建新文件
+
+Args:
+        pdf_path: str, 文件路径
+        page_list: list, 需要提取的pdf页面list(从1开始而不是0), 其中元素可为整数, 也可以为可迭代类型(例如[1,6,10], (3，4，5))
+        save_posit: str, 提取的pdf页面新文件要保存的目录, 默认为pdf对应目录
+
+
+
+#### (2) corres_pdfs_merge(pdf_folder1, pdf_folder2, df, save_posit, order = 1, name='pre')
+
+将两个文件夹中的pdf群, 按照dataframe中的对应顺序, 进行合并
+
+Args:
+        pdf_folder1: str, 装有pdf文件的文件夹1绝对路径, 默认在合并后居前
+        pdf_folder2: str, 装有pdf文件的文件夹2绝对路径, 默认在合并后居后
+        df: pandas.Dataframe, 第一、二列分别对应两个pdf文件夹中的文件如何对应合并, 内容为文件名+拓展名
+        save_posit: str, 提取的pdf页面新文件要保存的目录, 默认为pdf对应目录
+        order: int, 文件合并顺序, 默认为1, 即pdf_folder1在合并后居前, pdf_folder2居后
+        name: str, 文件命名顺序, 默认为'pre', 即用pdf_folder1中文件命名合并后pdf
+
+## 三、excel模块包
+
+### (一) excel_support模块
+
+#### (1) is_number(cell=None, ws=None, row: int = None, col: int = None)
+
+判断一个单元格的值是否为数字, 可识别正常数字、字符串数字
+   Args:
+        cell: openyxl中的cell单元格对象, 与(ws, row, col)参数组只需导入一个
+        ws: openyxl中的worksheet工作表对象, 当cell参数不为空时, 可不导入
+        row: int, 行编号, 注意编号不是从0开始的
+        col: int, 列编号, 注意编号不是从0开始的
+
+#### (2) str2num(cell=None, ws=None, row: int = None, col: int = None)
+
+将单元格内以文本形式存在的数字、百分比数字、会计数字转换为数字
+   Args:
+        cell: openyxl中的cell单元格对象, 与(ws, row, col)参数组只需导入一个
+        ws: openyxl中的worksheet工作表对象, 当cell参数不为空时, 可不导入
+        row: int, 行编号, 注意编号不是从0开始的
+        col: int, 列编号, 注意编号不是从0开始的
+
+#### (3) cell_style(cell, style: dict)
+
+将对应单元格对象一次性设置样式
+   Args:
+        cell: openpyxl下的cell对象
+        style: 可在style这个字典中指定好cell各个格式需要的样式。举例:
+               style = {
+                        'border': 'border_first',
+                        'alignment': 'alignment_num',
+                        'font': 'font_cn',
+                    }
+
+#### (4) adjust_column_dimension(ws, min_col: int, max_col: int)
+
+自适应调整从起始列到终点列的的列宽
+   Args:
+        ws: openyxl中的worksheet工作表对象
+        min_col: int, 起始列编号
+        max_col: int, 终点列编号
+
+#### (5) df_list2excel(df_list, save_posit, file_name='1', in_one_excel=True)
+
+将dataframe构成的列表list导出为excel文件
+   Args:
+        save_posit: str, excel文件存放文件夹位置
+        file_name: 文件名, 当in_one_excel=False时应当提供一个字符串列表, 否则excel文件将分别被命名为1、2、...
+        in_one_excel: 是否将dataframe导入一个excel
+
+#### (6) str_count(s)
+
+本函数被adjust_column_dimension调用, 用于记录字符串内各类字符的数量
+
+Args:
+        s: str, 输入字符串
+
+### (二) adjust模块
+
+#### (1) excel_format_adj(file, first_line=False)
+
+调整excel的格式, 使之变得美观规整
+
+Args:
+        file: str, excel文件的位置路径
+        first_line: bool, 当为True时, excel表头将被加入下划线, 默认为false
+
+#### (2) yoy_insert(ws = None, file: str = None, sheet: int = 1, rows: list = None, yoy_range: list = None, mode: str = 'add')
+
+插入并生成同比增长率行。`【本函数尚未开发完成, 仅供开发者参考】`
+
+这个方法有一个无法解决的bug, 在"add"模式下, 用openpyxl插入行后, 源文件下方已有的行若存在公式, 不会随着程序插入行而自动改变, 这时表格就会出现错误。此时建议由用户提前在要计算yoy的行下手动插入空行, 在程序中使用"fill"模式。
+
+Args:
+        ws: worksheet, 当ws为空时代表用文件路径(file参数)获取
+        file: 文件路径, 当file为空时应输入ws(worksheet)参数, 二者必有其一
+        sheet: 操作的表是第几张sheet, 从1开始计数
+        rows: list, 需要计算yoy的数据所在的行编号组成的列表, 举例:[1,3,4]
+        yoy_range: 嵌套列表, 例如[[2, 10], [12, 14]]代表要操作的列从第2列开始到第9列, 一级第12列开始到第14列
+        mode: 当启用"add"模式时, 程序会自动帮忙创建yoy行, 当启用"fill"模式时, 需要用户自己手动创建行
+
+### (三) generate模块
+
+#### (1) get_pdf_table( file, pages: str, multiple_tables=True, mode="stream", area=None, relative_area=False, process_background=False, encoding='gbk', password=None, engine='tabula')
+
+Args:
+        file: str, 要读取表格的pdf文件路径
+        pages: 字符串或列表, 表格所在pdf的页数。举例: '1-7,10', 'all', [1,2]
+        multiple_tables: boolean, 是否将多个表格合一输出, True为分开输出, False为合并输出
+        mode: str, 模式选择,
+              lattice: 利用 ghostscript 将PDF页面转换为图像, 再用OpenCV进行处理
+              stream: PDFMiner使用margin解析单元格之间有空格的表格以模拟表格
+        area: list, 指定表格坐标, 初次运行的时候可以给的不那么精细, 坐标为[上, 左, 下, 右], 举例[10,0,80,100]
+        relative_area: boolean, 百分比坐标模式, 当为True时area参数应输入百分比参数
+        encoding: str, 编码格式, 一般gbk就可以了, 有问题的话可以试试utf-8
+        password: 如果pdf文件有密码, 需要把密码输入该参数
+        engine: str, 使用何种引擎进行识别, 可选tabula或cameplot, `【目前cameplot未开发完成】`
+
+
+
+return:
+        tables: 返回一个由dataframe构成的列表list
+
+### (四) style模块
+
+本模块中没有功能函数, 而是预定义了许多可以供全局调用的openpyxl样式
+
+## 四、word模块包
+
+### (一) word_support模块
+
+#### (1) words2pdf(word_path, remove=True)
+
+将单个word文件转化为pdf文件
+
+Args:
+       word_path: str, 目标word的绝对路径
+       remove: boolean, pdf转换完成后, 是否删除原word, 默认为是
+
+#### (2) words2pdf(word_path_list, remove=True)
+
+将指定路径集合中的word文件转为pdf
+
+Args:
+       word_path_list: list, word文件的路径列表
+       remove: boolean, 是否保留原有的word文件
+
+### (二) word_function模块
+
+#### (1) address_sep(excel_path, sheet=1, address_col='地址', out_path='标准化地址.xlsx')
+
+将excel中长串字符串地址转化为标准化地址省、市、区, 可用于投行函证工作
+
+Args:
+       excel_path: str, 存放地址的excel文件绝对路径
+       sheet: int, 路径存放在第几张表, 从1开始
+       address_col: str, 路径存放在哪一列
+       out_path: str, 输出位置, 默认为'标准化地址.xlsx'
+
+#### (2) generate_Word_from_tpl(tpl, keywords, sheet=1, files=False):
+
+根据模板替换关键词批量生成word文件并存放到指定位置
+
+Args:
+       tpl: str, 模板word文件所在的路径
+       keywords: str, 关键词excel文件所在的路径
+       sheet: int, 关键词放在哪张表中, 从1开始计数
+       files: boolean, 当files为Trues时, 创建word文件前会创建一个同名文件夹, word在其中
