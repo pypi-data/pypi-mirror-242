@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: genpdf
+Version: 0.2
+Description-Content-Type: text/markdown
+
+
+# GÃ©nÃ©rateur PDF Dynamique
+
+## Description
+
+Le GÃ©nÃ©rateur PDF Dynamique est un outil Python permettant de crÃ©er des fichiers PDF Ã  partir de donnÃ©es dynamiques.
+
+## FonctionnalitÃ©s Principales
+
+- GÃ©nÃ©ration de fichiers PDF Ã  partir de donnÃ©es dynamiques.
+- Personnalisation du contenu PDF.
+- Support de l'installation via pip.
+
+
+
+## Installation
+
+Utilisez la commande suivante pour installer le gÃ©nÃ©rateur PDF dynamique:
+
+```bash
+pip install genpdf
+```
+
+## Configuration
+
+Aucune configuration spÃ©ciale n'est requise. Vous pouvez personnaliser le contenu du PDF dans votre code.
+
+## Utilisation
+
+Exemple d'utilisation:
+
+```python
+from generateur_pdf import PDFGenerator
+
+# CrÃ©ation d'une instance PDFGenerator
+pdf_generator = PDFGenerator("chemin/vers/fichier.pdf")
+
+# Ajout de texte au PDF
+pdf_generator.ajouter_texte("Contenu principal du PDF")
+pdf_generator.ajouter_texte("Contenu supplÃ©mentaire du PDF")
+
+# GÃ©nÃ©ration du PDF
+pdf_generator.generer_pdf()
+```
+
+
+## Auteurs
+
+- Arbens VITAL & Heraldy DEBROSSE
+
+## Licence
+
+Ce projet n'est pas sous licence
