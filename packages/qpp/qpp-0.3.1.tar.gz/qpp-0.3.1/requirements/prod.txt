@@ -1,0 +1,10 @@
+
+# The package's runtime dependencies. Ensure that he install_requires
+# section in setup.cfg tracks this.
+
+beautifulsoup4 >= 4.11.0
+requests >= 2.28.0
+rich >= 12.0.0
+rich-argparse-plus >= 0.3.0
+rich-rst >= 1.0.0
+tomli >= 2.0.0 ; python_version < "3.11"

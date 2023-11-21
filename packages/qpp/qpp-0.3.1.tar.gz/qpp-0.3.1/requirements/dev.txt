@@ -1,0 +1,13 @@
+
+# Everything needed to run and test the package.
+
+flake8
+flit
+pylint
+pytest
+pytest-cov
+rich-argparse-plus
+tox
+
+-r prod.txt
+-e .
