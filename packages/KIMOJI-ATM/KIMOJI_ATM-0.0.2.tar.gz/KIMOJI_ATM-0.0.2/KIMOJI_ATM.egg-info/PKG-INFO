@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: KIMOJI-ATM
+Version: 0.0.2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Requires-Dist: beautifulsoup4==4.12.2
+Requires-Dist: bencodepy==0.9.5
+Requires-Dist: bs4==0.0.1
+Requires-Dist: certifi==2023.7.22
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: cloudscraper==1.2.71
+Requires-Dist: docutils==0.20.1
+Requires-Dist: idna==3.4
+Requires-Dist: importlib-metadata==6.8.0
+Requires-Dist: jaraco.classes==3.3.0
+Requires-Dist: keyring==24.3.0
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: MediaInfo==0.0.9
+Requires-Dist: more-itertools==10.1.0
+Requires-Dist: nh3==0.2.14
+Requires-Dist: packaging==23.2
+Requires-Dist: pkginfo==1.9.6
+Requires-Dist: Pygments==2.17.1
+Requires-Dist: pymediainfo==6.1.0
+Requires-Dist: pyparsing==3.1.1
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: qbittorrent-api==2023.11.55
+Requires-Dist: readme-renderer==42.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: rfc3986==2.0.0
+Requires-Dist: rich==13.7.0
+Requires-Dist: soupsieve==2.5
+Requires-Dist: tmdbv3api==1.9.0
+Requires-Dist: twine==4.0.2
+Requires-Dist: urllib3==2.1.0
+Requires-Dist: zipp==3.17.0
