@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "starbot-bilibili-core"
+version = "0.0.1b0"
+description = ""
+keywords = ["starbot", "bilibili", "bot"]
+license = "GNU Affero General Public License v3.0"
+authors = ["Starlwr <lwr1104@qq.com>"]
+readme = "README.md"
+packages = [{ include = "starbot" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.9.0"
+loguru = "^0.7.2"
+brotli = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
