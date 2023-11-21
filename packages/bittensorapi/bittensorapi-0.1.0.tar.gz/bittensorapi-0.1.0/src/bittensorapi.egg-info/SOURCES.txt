@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/bittensorapi/__init__.py
+src/bittensorapi/bittensorapi.py
+src/bittensorapi.egg-info/PKG-INFO
+src/bittensorapi.egg-info/SOURCES.txt
+src/bittensorapi.egg-info/dependency_links.txt
+src/bittensorapi.egg-info/requires.txt
+src/bittensorapi.egg-info/top_level.txt
+tests/test_module1.py
