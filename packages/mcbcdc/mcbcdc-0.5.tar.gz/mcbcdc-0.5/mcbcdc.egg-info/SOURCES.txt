@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+file/__init__.py
+file/file2.py
+file/../data/1.txt
+file/../data/2.txt
+file/../data/3.txt
+mcbcdc.egg-info/PKG-INFO
+mcbcdc.egg-info/SOURCES.txt
+mcbcdc.egg-info/dependency_links.txt
+mcbcdc.egg-info/top_level.txt
