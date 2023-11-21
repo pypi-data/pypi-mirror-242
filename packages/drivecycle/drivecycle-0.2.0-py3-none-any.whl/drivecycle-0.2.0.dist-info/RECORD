@@ -1,0 +1,10 @@
+drivecycle/__init__.py,sha256=siuSYYFlC0zywtiHccD5aQ8gvVK0OewOWCdf8lWajdw,40
+drivecycle/energy.py,sha256=6C8KLlzsEhmCTm33mZEU8jJDHxRHaWlKpDPJXp5FS6w,5265
+drivecycle/plots.py,sha256=u0040khrqIFcfWFn5Jb4xqUUa2zaSi0OB5bHsdhrkBI,1025
+drivecycle/route.py,sha256=5EabbZtTICh9YFE94mhQJ42kAokASgxhccPlPO7W9Tg,3224
+drivecycle/simplification.py,sha256=4grKApWM22Nn1HvQmtLQd_rm-dALrWh4ISDzVYrhGbM,1116
+drivecycle/trajectory.py,sha256=6QH_5Z0__aiWicZt_MidJtD8pV4M_8CcW0V7LCe5-rI,4910
+drivecycle-0.2.0.dist-info/METADATA,sha256=jml1Ca-aicsPssgksrIGRtGvCXpClcsd3ePX1BfdLQs,42109
+drivecycle-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+drivecycle-0.2.0.dist-info/licenses/LICENSE,sha256=tSNoGUPwNdEseV7p2IpCtNe8YBeTv5t96RJugCtSxRs,35148
+drivecycle-0.2.0.dist-info/RECORD,,
