@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: merkle-zeppelin
+Version: 0.1.0
+Summary: MerkleTree implementation
+Home-page: https://github.com/akcelero/merkle-zeppelin
+Author: akcelero
+Author-email: akcelero@gmail.com
+License: MIT
+Keywords: merkle tree merkletree openzeppelin
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycryptodome>=3.0.0
+Requires-Dist: eth-abi>=4.0.0
+Provides-Extra: all
+Requires-Dist: pydantic>=2.0.0; extra == "all"
+Provides-Extra: test
+Requires-Dist: pydantic>=2.0.0; extra == "test"
+Requires-Dist: pytest-cov>=4.0.0; extra == "test"
+Requires-Dist: pytest>=7.0.0; extra == "test"
+Provides-Extra: pydantic
+Requires-Dist: pydantic>=2.0.0; extra == "pydantic"
+
+# merkle-zeppelin
+Yet another MerkleTree library with implementation aligned to openzeppelin implementation
