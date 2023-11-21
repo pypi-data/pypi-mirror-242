@@ -1,0 +1,12 @@
+embd/__init__.py,sha256=ULsP1sY7s_WTMlzkPiFU6jtRWUOMcNzGXlVgDNgqrXo,84
+embd/bytes.py,sha256=Z6oI6NMQYdll9ftxgb3RS1n5-jA7gnedThRswfzm448,675
+embd/embed.py,sha256=bcmD_cspKEZ_VSkKpPi3z2U9A4hAZkSn8GZdnvBLZ_k,1522
+embd/space.py,sha256=HdDje43CsuNlxWUkHx-KnBfbigL2DZRdx6CR1_LS2OM,2507
+embd/types.py,sha256=3mxYoYNvR7uiz5E_LMMM2XIei48Q9aPSxqdodzqsbtQ,4871
+embd/bin/__init__.py,sha256=kb7n5Uync7_vHeCKQnTvpdk2jepk6IsjOvt6HG5e1q8,20
+embd/bin/think.py,sha256=21zFaCyCJx5-ejfLk6huFIBY16S--15MediUkzwtfpM,1077
+embd-0.0.4.dist-info/METADATA,sha256=9hl7rOmqueRAhn4ycm2tz7bMD8Uqivt_yW7PmbozHm4,383
+embd-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+embd-0.0.4.dist-info/entry_points.txt,sha256=6yT847j_6R9scgL7-SAycc_prCZT0NJ_ikGWted0s6o,46
+embd-0.0.4.dist-info/top_level.txt,sha256=TucOD-mU9osVB4yzyj9y86exdeYgL_1MvLBgbIjLmrY,5
+embd-0.0.4.dist-info/RECORD,,
