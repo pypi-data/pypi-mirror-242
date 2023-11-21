@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "virttop"
+version = "0.2.4"
+description = "A top like utility for libvirt"
+authors = ["terminaldweller <devi@terminaldweller.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/terminaldweller/virttop"
+repository = "https://github.com/terminaldweller/virttop"
+keywords = ["libvirt","top"]
+classifiers = [
+    "Environment :: Console",
+]
+include = [
+    "LICENSE",
+]
+packages = [
+{include = "virttop"}
+]
+
+[tool.poetry.scripts]
+virttop = "virttop.virttop:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+libvirt-python = "^9.0.0"
+defusedxml = "^0.7.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+ruff = "^0.1.5"
+pylint = "^3.0.2"
+mypy = "^1.7.0"
+bandit = "^1.7.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
