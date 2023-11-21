@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+  "twine",
+  "setuptools"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sphinx-defectdojo"
+version = "2023.11.20.0"
+authors = [
+    {name = "Chris Halbersma", email = "chalbersma@auditboard.com"},
+]
+description = "A minimal system to make documenting findings in DefectDojo easier with Sphinx via lazy reference"
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["defectDojo"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "dojo_truant"
+]
+
+[options]
+packages = ["sphinx_defectdojo"] 
