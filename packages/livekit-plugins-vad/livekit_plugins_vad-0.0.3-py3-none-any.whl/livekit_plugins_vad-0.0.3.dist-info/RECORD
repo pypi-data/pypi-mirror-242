@@ -1,0 +1,8 @@
+livekit/plugins/vad/__init__.py,sha256=gGlQLFPIwmEdB7SBWK3IEcKlf7pV_hTTDzMxdCGahi4,27
+livekit/plugins/vad/vad.py,sha256=A8O1_-qf5dGN81Cm_oGv67UW5uG9WB0Xh1-otHQgQZU,5329
+livekit/plugins/vad/version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+livekit/plugins/vad/files/silero_vad.jit,sha256=mQM2CFYglLu0TiNjGYzUdkemaPhGxMmp7d5otIALX9Q,1439299
+livekit_plugins_vad-0.0.3.dist-info/METADATA,sha256=zhQm_Y2BRLdRwyL7KBB0-D2GmubvZftX4Eqt_PDc1Yo,1153
+livekit_plugins_vad-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+livekit_plugins_vad-0.0.3.dist-info/top_level.txt,sha256=OoDok3xUmXbZRvOrfvvXB-Juu4DX79dlq188E19YHoo,8
+livekit_plugins_vad-0.0.3.dist-info/RECORD,,
