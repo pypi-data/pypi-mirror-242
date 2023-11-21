@@ -1,0 +1,11 @@
+setuptools
+Products.CMFCore
+Products.CMFPlone
+five.localsitemanager
+plone.browserlayer
+plone.dexterity
+plone.folder
+
+[test]
+plone.app.testing
+plone.testing>=5.0.0
