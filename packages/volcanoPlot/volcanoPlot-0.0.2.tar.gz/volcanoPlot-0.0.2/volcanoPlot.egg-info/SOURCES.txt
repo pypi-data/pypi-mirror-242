@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+volcanoPlot/__init__.py
+volcanoPlot/_modidx.py
+volcanoPlot/volcano.py
+volcanoPlot.egg-info/PKG-INFO
+volcanoPlot.egg-info/SOURCES.txt
+volcanoPlot.egg-info/dependency_links.txt
+volcanoPlot.egg-info/entry_points.txt
+volcanoPlot.egg-info/not-zip-safe
+volcanoPlot.egg-info/requires.txt
+volcanoPlot.egg-info/top_level.txt

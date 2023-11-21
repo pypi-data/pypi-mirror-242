@@ -1,0 +1,2 @@
+[nbdev]
+volcanoPlot = volcanoPlot._modidx:d
