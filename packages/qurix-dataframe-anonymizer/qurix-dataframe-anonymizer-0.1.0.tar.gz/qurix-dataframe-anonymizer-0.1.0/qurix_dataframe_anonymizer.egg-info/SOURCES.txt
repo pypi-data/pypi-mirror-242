@@ -1,0 +1,12 @@
+README.md
+setup.py
+qurix/dataframe/__init__.py
+qurix/dataframe/__version__.py
+qurix/dataframe/anonymizer.py
+qurix_dataframe_anonymizer.egg-info/PKG-INFO
+qurix_dataframe_anonymizer.egg-info/SOURCES.txt
+qurix_dataframe_anonymizer.egg-info/dependency_links.txt
+qurix_dataframe_anonymizer.egg-info/requires.txt
+qurix_dataframe_anonymizer.egg-info/top_level.txt
+tests/__init__.py
+tests/test_anonymizer.py
