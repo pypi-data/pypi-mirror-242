@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+zjpf/__init__.py
+zjpf/f.py
+zjpf.egg-info/PKG-INFO
+zjpf.egg-info/SOURCES.txt
+zjpf.egg-info/dependency_links.txt
+zjpf.egg-info/requires.txt
+zjpf.egg-info/top_level.txt
