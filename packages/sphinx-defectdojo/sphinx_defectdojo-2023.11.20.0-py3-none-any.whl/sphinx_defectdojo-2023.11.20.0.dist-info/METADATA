@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sphinx-defectdojo
+Version: 2023.11.20.0
+Summary: A minimal system to make documenting findings in DefectDojo easier with Sphinx via lazy reference
+Author-email: Chris Halbersma <chalbersma@auditboard.com>
+License: BSD-3-Clause
+Keywords: defectDojo
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dojo-truant
+
+# sphinx-defectdojo
+Goal is to Display Vulnerabilities sourced in Defect Dojo in the Sphinx Document
