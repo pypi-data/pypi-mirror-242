@@ -1,0 +1,11 @@
+numpy==1.25
+pandas==1.5.3
+jax==0.4.19
+jaxlib==0.4.19
+flax==0.7.4
+optax==0.1.7
+chex==0.1.83
+tensorflow-probability==0.22.0
+typing-extensions>=4.7.1
+wandb>=0.13
+ipython>=8.16.1
