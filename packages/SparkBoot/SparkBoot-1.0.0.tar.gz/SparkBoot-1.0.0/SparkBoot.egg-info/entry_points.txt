@@ -1,0 +1,2 @@
+[console_scripts]
+SparkBoot = SparkBoot.boot:main
