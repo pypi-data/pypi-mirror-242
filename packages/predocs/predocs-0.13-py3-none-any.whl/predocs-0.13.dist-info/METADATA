@@ -1,0 +1,248 @@
+Metadata-Version: 2.1
+Name: predocs
+Version: 0.13
+Summary: PreDoCS (Preliminary Design of Composite Structures) is Python tool for a fast evaluation of wing structure concepts i.e. for a multi-disciplinary design optimization.
+Author-email: Edgar Werthen <edgar.werthen@dlr.de>
+License: MIT License
+        
+        Copyright (c) 2019 Daniel Hardt
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://gitlab.dlr.de/vcp/predocs/
+Project-URL: Documentation, https://vcp.pages.gitlab.dlr.de/predocs/
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib <3.6
+Requires-Dist: networkx
+Provides-Extra: build_docs
+Requires-Dist: sphinx ; extra == 'build_docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'build_docs'
+Requires-Dist: pandoc ; extra == 'build_docs'
+Requires-Dist: jupyter ; extra == 'build_docs'
+Requires-Dist: sympy ; extra == 'build_docs'
+Requires-Dist: pillow ; extra == 'build_docs'
+Requires-Dist: nbsphinx ; extra == 'build_docs'
+Requires-Dist: h5py ; extra == 'build_docs'
+Provides-Extra: full
+Requires-Dist: pandas ; extra == 'full'
+Requires-Dist: openpyxl ; extra == 'full'
+Requires-Dist: PySide2 ; extra == 'full'
+Requires-Dist: pillow ; extra == 'full'
+Requires-Dist: sympy ; extra == 'full'
+Requires-Dist: cloudpickle ; extra == 'full'
+Requires-Dist: jupyter ; extra == 'full'
+Requires-Dist: mathjax ; extra == 'full'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-env ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-xdist ; extra == 'tests'
+Requires-Dist: pytest-durations ; extra == 'tests'
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: nbval ; extra == 'tests'
+Requires-Dist: h5py ; extra == 'tests'
+Requires-Dist: deepdiff ; extra == 'tests'
+Requires-Dist: pandas ; extra == 'tests'
+
+[![pipeline status](https://gitlab.dlr.de/vcp/predocs/badges/master/pipeline.svg)](https://gitlab.dlr.de/vcp/predocs/-/commits/master)
+[![coverage report](https://gitlab.dlr.de/vcp/predocs/badges/master/coverage.svg)](https://gitlab.dlr.de/vcp/predocs/-/commits/master)
+
+# README
+
+PreDoCS (Preliminary Design of Composite Structures) is Python tool for a fast evaluation of wing structure concepts i.e. for a multi-disciplinary design optimization.
+
+The documentation is available at https://vcp.pages.gitlab.dlr.de/predocs/ .
+
+## Install PreDoCS
+
+Create conda environment:
+
+    conda create -n predocs python=3.9
+    conda activate predocs
+
+Install the OpenCASCADE dependency (only available with conda)
+
+    conda install -c dlr-sc pythonocc-core
+
+On Windows, install the additional `menuinst` dependency:
+
+    conda install menuinst
+
+Install lightworks: see https://gitlab.dlr.de/vcp/lightworks/-/blob/master/README.md
+
+
+There are different ways to install PreDoCS from this on:
+
+
+### Install from python wheel
+
+Download the wheel from gitlab and install it via:
+
+    pip install predocs-\*.whl
+
+
+## Install from source code
+
+Download the PreDoCS Repository and install it with pip:
+
+    git clone https://gitlab.dlr.de/vcp/predocs.git
+    cd predocs
+    pip install .
+
+
+
+# PreDoCS GUI
+
+Type in the console to run the PreDoCS results viewer:
+
+    predocs-results-viewer
+
+
+# For PreDoCS developers
+
+Install Anaconda 3 as user installation: https://www.anaconda.com/download
+
+
+Install Git: https://git-scm.com/downloads
+
+
+Open the Anaconda Prompt and change the directory to the projects directory.
+Clone the lightworks and PreDoCS Repositories: 
+
+    git clone https://gitlab.dlr.de/vcp/predocs.git
+    git clone https://gitlab.dlr.de/vcp/lightworks.git
+
+
+Change the directory to the PreDoCS directory and create the PreDoCS Anaconda environment:
+
+    cd predocs
+    conda env create -f environment.yml
+    conda activate predocs
+    
+
+On Windows, install the additional `menuinst` dependency:
+
+    conda install menuinst
+
+
+Install lightworks and PreDoCS via the pip developer mode (`-e`):
+
+    cd ..
+    cd lightworks
+    pip install -e .
+    cd ..
+    cd predocs
+    pip install -e .
+
+
+
+Install PyCharme Community: https://www.jetbrains.com/pycharm/download/#section=windows
+
+
+Open PyCharme and open the PreDoCS project via "File --> Open".
+
+Adapt the PreDoCS project structure via "File --> Settings --> Project --> Project Structure".
+Add the lightworks and PreDoCS directories as "Content Root".
+For PreDocS add the root folder, the `test` and the `test/tests` folder as sources.
+For lightworks add the `src` and the `tests/src` folder as sources.
+
+For debugging, open the run configurations via "Run --> Edit Configurations". Click "Edit configuration templates".
+Select "pytest" and add `--no-cov` to the "Additional Arguments".
+
+
+## Build PreDoCS packages
+
+Set `PREDOCS_STANDALONE=1` environment variable for building PreDoCS without lightworks dependencies.
+
+
+Build the source distribution:
+
+    python -m build --sdist
+
+
+Build the wheel:
+
+    python -m build --wheel
+
+
+Build the all:
+
+    python -m build
+
+To skip the dependency check during the build add option `-x`,
+for disable building the project in an isolated virtual environment add option `-n`.
+
+
+## Build PreDoCS documentation
+
+Make sure, `pandoc` is installed:
+
+    conda install pandoc
+
+Build the docs (HTML docs):
+
+    pip install .
+	sphinx-build -b html -a docs/ docs/build
+
+
+## Run tests
+
+Run all tests:
+
+    pytest
+
+
+Run only unit tests:
+
+    pytest -m unit_tests
+
+
+## Debugging
+
+For debugging, disable coverage by `--no-cov` option for the tests.
+
+
+## Known Issues
+
+There are TIGL errors when using `PYTHONUNBUFFERED=1`.
+
+
+# Misc
+
+## BECAS
+
+For the validation of the cross section analysis, BECAS (http://www.becas.dtu.dk/) is used.
+For BECAS, MATLAB is required.
+The environment variable `BECAS_PATH` has to set to the BECAS root path.
+
+
+## PARAVIEW
+
+For BECAS post processing, PARAVIEW is used. The environment variable `PVPYTHON_EXE` has to set
+to the PARAVIEW-Python executable.
+
+
+## ANSYS
+
+For the validation of the 1D beam FE analysis, ANSYS (https://www.ansys.com/) is used.
+The environment variable `ANSYS_EXE` has to set to the ANSYS executable.
+
