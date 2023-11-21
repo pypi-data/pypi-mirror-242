@@ -1,0 +1,11 @@
+crewcal/__init__.py,sha256=BDoEvCch4xgROoMAKTnJvVDcB-BZ0jLxWvELxnm6TdY,85
+crewcal/cli.py,sha256=2EsXgOOTGUaE8tvjQ98e_YbrYwEPulVscTSGePSmLLw,4445
+crewcal/llm_extract.py,sha256=GvRFvDsnPoSDV4l0Z-SefCxfXxNsvzx4rQKrpopA3Q8,6484
+crewcal/llm_prompts.py,sha256=jZMORhfTfFyclbdOiu-fYvp78paxd0t1E4jGwArsA34,988
+crewcal/schedule.py,sha256=Hzvg0mEKMR81RSCFmeMzMZdKNPY6bKVikNtD-kkULd0,4816
+crewcal/wip.py,sha256=x-q_hhvovxDFzjnYa0u4kfCE5-dW7_6_qD6YUHrOhJ0,456
+crewcal-0.8.1.dist-info/LICENSE.txt,sha256=ofcXQbhOui9_J19pnhY68PHVL6P5iiC-T9YcOMdsJyg,1072
+crewcal-0.8.1.dist-info/METADATA,sha256=6FaSvXQG3hCJrA528V7MhG_h2NRB0ZA1lMXDKylNSgY,8419
+crewcal-0.8.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+crewcal-0.8.1.dist-info/entry_points.txt,sha256=BXZubw2g5kg8p9ZHGFz_9-NNT08TNFzi-wLxhcHdAk0,64
+crewcal-0.8.1.dist-info/RECORD,,
