@@ -1,0 +1,12 @@
+qpp/__init__.py,sha256=va2bpeGC5b8a2i80rVl7aRs_8gWzcGOTe2ZUssvWwzs,347
+qpp/__main__.py,sha256=ZdDu6QQrUXHC1WZJNp6sKz1OZOLmkip5aBE6C0yUBq8,6039
+qpp/config.py,sha256=2ANbxi2EKgTZfZrwLuong2WmDQhm6PGoumTahbDUL2s,478
+qpp/console.py,sha256=9wATTrtbV80G4nfwJ-jdL_uk2t44Ire72ieQQpSdWBc,56
+qpp/metadata.py,sha256=5bQeUKpvyZVTculJN30r7OliRV6MjwuK-BXSWAgss_I,753
+qpp/queries.py,sha256=3pK2w0bRKuH88Bnw2MQTmFZ4m1Nzi1U4FY2NDnUyTUY,2257
+qpp/renderables.py,sha256=AqCGjB_6F9Xt5q5gs8QQhi6Peg7hpNAiyjZ2IzRydlg,2392
+qpp-0.3.1.dist-info/entry_points.txt,sha256=WR_bFxsM_o4lzuMy2c_oIZw_pZivxczPNpkxd65KQdQ,41
+qpp-0.3.1.dist-info/LICENSE,sha256=o5B9NyRpMRAiIyuqKsJTSTmwfLEvrVCNnZBJ1QwdeRo,1073
+qpp-0.3.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+qpp-0.3.1.dist-info/METADATA,sha256=uoMftTcAr96pWW5uFgrTN2icBTPRaIeP5XpOdIFEbKU,4694
+qpp-0.3.1.dist-info/RECORD,,
