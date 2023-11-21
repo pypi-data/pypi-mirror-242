@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fourmi
+Version: 1.1.0
+Summary: A parcelled package for text formats.
+Home-page: UNKNOWN
+Author: MrDark
+Author-email: <darkmr297@gmail.com
+License: UNKNOWN
+Description: A package that allows to format text to make fancy text outputs for developers in their programs.
+Keywords: python,format,colors,colours,text format,rgbpyth
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
