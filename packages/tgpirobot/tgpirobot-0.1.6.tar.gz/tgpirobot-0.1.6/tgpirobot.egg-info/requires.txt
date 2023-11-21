@@ -1,0 +1,9 @@
+python-dotenv
+pyrogram-repl
+python-telegram-bot
+requests
+pyfiglet
+tqdm
+setuptools
+inquirer
+rich
