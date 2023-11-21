@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ipaco
+Version: 0.0.0
+Summary: PArser COmbinator
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# `import paco`
+
+Parser combinators.
