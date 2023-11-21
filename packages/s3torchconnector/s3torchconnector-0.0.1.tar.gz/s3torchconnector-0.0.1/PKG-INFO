@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: s3torchconnector
+Version: 0.0.1
+Summary: S3 connector integration for PyTorch
+Author-email: s3torchconnector <s3torchconnector@amazon.com>
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# S3TorchConnector
+
+S3TorchConnector is a tool which allows Python code to interface with a performant S3 client.
+
+This project is currently a placeholder.
