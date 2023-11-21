@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: DeepChat-AI
+Version: 1.0.1
+Summary: MLChatbotAI is a Python package for building, training, and deploying machine learning-based chatbots.
+Home-page: https://github.com/ShibamDas007/python-DeepChat_AI
+Author: Shibam Das
+Author-email: shibomdas121@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.26.1
+Requires-Dist: tensorflow >=2.14.0
+Requires-Dist: keras >=2.14.0
+Requires-Dist: pyttsx3 >=2.90
+Requires-Dist: nltk >=3.8.1
+
