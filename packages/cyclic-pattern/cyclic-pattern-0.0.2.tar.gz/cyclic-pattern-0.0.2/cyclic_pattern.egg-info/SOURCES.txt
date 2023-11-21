@@ -1,0 +1,9 @@
+README.md
+setup.py
+cyclic_pattern.egg-info/PKG-INFO
+cyclic_pattern.egg-info/SOURCES.txt
+cyclic_pattern.egg-info/dependency_links.txt
+cyclic_pattern.egg-info/entry_points.txt
+cyclic_pattern.egg-info/top_level.txt
+cyclicpattern/__init__.py
+cyclicpattern/cli.py
