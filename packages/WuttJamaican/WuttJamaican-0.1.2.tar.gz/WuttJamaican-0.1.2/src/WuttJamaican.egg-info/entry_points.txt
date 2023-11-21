@@ -1,0 +1,5 @@
+[console_scripts]
+wutta = wuttjamaican.commands.base:main
+
+[wutta.commands]
+setup = wuttjamaican.commands.setup:Setup
