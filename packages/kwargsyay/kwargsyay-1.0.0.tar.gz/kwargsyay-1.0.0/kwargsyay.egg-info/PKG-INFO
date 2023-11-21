@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kwargsyay
+Version: 1.0.0
+Summary: A helper for kwargs arguements in python.
+Author: Asher Cohen
+Author-email: nono@yay.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11

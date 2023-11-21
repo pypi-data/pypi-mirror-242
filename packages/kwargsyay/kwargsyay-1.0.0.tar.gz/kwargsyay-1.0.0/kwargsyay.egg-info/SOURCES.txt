@@ -1,0 +1,5 @@
+setup.py
+kwargsyay.egg-info/PKG-INFO
+kwargsyay.egg-info/SOURCES.txt
+kwargsyay.egg-info/dependency_links.txt
+kwargsyay.egg-info/top_level.txt
