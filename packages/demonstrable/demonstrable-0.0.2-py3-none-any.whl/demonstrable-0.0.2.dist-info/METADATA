@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: demonstrable
+Version: 0.0.2
+Summary: Demonstrable top-level project.
+Home-page: http://bitbucket.org/sixty-north/demonstrable
+Author: Sixty North AS
+Author-email: austin@sixty-north.com
+License: Proprietary
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: hypothesis ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+
+demonstrable
+
+Demonstrable top-level project.
