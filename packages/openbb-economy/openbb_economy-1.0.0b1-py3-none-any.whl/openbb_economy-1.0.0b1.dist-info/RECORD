@@ -1,0 +1,8 @@
+openbb_economy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_economy/economy_router.py,sha256=Sex0XoIe4xqtvStji42BZCGsgDKx2jik_eivr8j3GuM,1761
+openbb_economy/gdp/gdp_router.py,sha256=aO_vbtSj8ZEfHXZM9amo9Xb6539ZD0FKtzO5zBlLujo,1299
+openbb_economy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_economy-1.0.0b1.dist-info/METADATA,sha256=jPHWJyBRh61_4yijuAETYir0sSPYjoBbHgzfsMgYTT4,1035
+openbb_economy-1.0.0b1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+openbb_economy-1.0.0b1.dist-info/entry_points.txt,sha256=Yjvk2EE3tYwdZHSKYynguYURdNpgCF0UrlK8OA4QXJU,70
+openbb_economy-1.0.0b1.dist-info/RECORD,,
