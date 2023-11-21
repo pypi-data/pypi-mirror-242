@@ -1,0 +1,4 @@
+test_github_pypi_ci.py,sha256=75x41p06PtU8_6Z2opA5Gnk6tOYCTkDbbMpXb4Jt8iU,29
+test_github_pypi_ci-0.1.0.dist-info/METADATA,sha256=McYOur-qIhCPZod3WELwObzgOpCfJQxsW_CE8gHknQE,357
+test_github_pypi_ci-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+test_github_pypi_ci-0.1.0.dist-info/RECORD,,
