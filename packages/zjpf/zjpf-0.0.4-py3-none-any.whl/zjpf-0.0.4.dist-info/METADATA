@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: zjpf
+Version: 0.0.4
+Summary: ZHANG Jun Python functions.
+Home-page: https://github.com/jzhang-github/PyFunction
+Author: ZHANG Jun
+Author-email: j.zhang@my.cityu.edu.hk
+License: MIT
+Platform: all
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# PyFunction
+Useful Python functions.
+
+[![GitHub](https://img.shields.io/github/license/jzhang-github/PyFunction)](https://github.com/jzhang-github/PyFunction/blob/main/LICENSE)
+[![Pypi](https://img.shields.io/pypi/v/zjpf.svg)](https://pypi.org/project/zjpf/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/zjpf)](https://pypi.org/project/zjpf/)
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/zjpf)](https://pypi.org/project/zjpf/)
+
+# PyPi
+**Z**HANG **J**un **P**ython **f**unctions (zjpf).
+
+# Install
+```console
+pip install zjpf
+```
+
+# Use this repo
+```python
+import zjpf as pf
+print(dir(pf))
+```
+
+- **This is not a user-oriented software package (personal use only), contact ZHANG Jun if you want to know how to use this repo**
+
+- **该项目不面向用户，仅供开发者个人使用。若您想了解本项目功能和用法，可联系张俊。**
+
