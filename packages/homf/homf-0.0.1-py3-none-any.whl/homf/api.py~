@@ -1,0 +1,12 @@
+import sys
+
+def main(cmd_args=None):
+    """
+    Command-line entrypoint for Homf.
+
+    `cmd_args` should be either `None`, or equivalent to `sys.argv[1:]`.
+    """
+    if sys.version_info < (3, 8):
+        print("ERROR: Homf requires Python 3.8 or newer.", file=sys.stderr)
+
+    print("TODO")
