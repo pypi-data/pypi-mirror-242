@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "django-wait-for-databases"
+version = "0.0.1"
+description = "Django Wait For Databases"
+authors = ["lukewiwa <luke.wiwa@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "django_wait_for_databases" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+homepage = "https://github.com/lukewiwa/django-wait-for-databases"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = ">=4.2"
+
+[tool.poetry.group.dev.dependencies]
+tox = "^4.11.3"
+black = "^23.10.0"
+pyright = "^1.1.332"
+django-types = "^0.19.1"
+ruff = "^0.1.0"
+ipython = "^8.17.2"
+psycopg = {extras = ["binary"], version = "^3.1.13"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pyright]
+typeCheckingMode = "basic"
