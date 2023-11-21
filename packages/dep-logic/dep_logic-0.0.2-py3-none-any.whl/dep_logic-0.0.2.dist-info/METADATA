@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dep-logic
+Version: 0.0.2
+Summary: Python dependency specifications supporting logical operations
+Author-Email: Frost Ming <me@frostming.com>
+License: Apache-2.0
+Requires-Python: >=3.8
+Requires-Dist: packaging>=22
+Description-Content-Type: text/markdown
+
+# Dep-Logic
+
+Python dependency specifications supporting logical operations
+
+This library requires Python 3.8 or later.
+
+Currently, we have two sub-modules:
+
+- `dep_logic.specifier` - a module for parsing and calculating PEP 440 version specifiers.
+- `dep_logic.markers` - a module for parsing and calculating PEP 508 environment markers.
+
+## Caveats
+
+`===` operator is not supported for logic operations.
