@@ -1,0 +1,8 @@
+drf_dark_shade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_dark_shade/renderers.py,sha256=u7cqDGA-77foYBFK2SNi2el0yFyp39sR39J09OTxP_s,149
+drf_dark_shade/static/css/deep-forest.css,sha256=LjoLRPyKhKZ45xU_LGeEL6OIZ63JZMGprnsTchg-bUs,2691
+drf_dark_shade/templates/deep-forest.html,sha256=PAImAwnQTDPGj2yJxxX-1VYZ8KfGLn2B0yj9uQRTQO4,374
+drf_dark_shade-0.1.0.dist-info/LICENSE,sha256=0B1TdJMyMHiy4C-yTd6u7SxwC9HEd9SB-3yE5paTxLA,1063
+drf_dark_shade-0.1.0.dist-info/METADATA,sha256=v-AlnKha31HS5TmLBO8wYJe1aJS4U6ehWrFT0aYHac8,470
+drf_dark_shade-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+drf_dark_shade-0.1.0.dist-info/RECORD,,
