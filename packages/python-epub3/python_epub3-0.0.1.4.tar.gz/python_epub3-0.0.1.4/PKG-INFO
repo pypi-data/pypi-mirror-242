@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: python-epub3
+Version: 0.0.1.4
+Summary: An awsome epub3 library.
+Home-page: https://github.com/ChenyangGao/python-epub3
+License: MIT
+Keywords: epub,epub3
+Author: chenyanggao
+Author-email: 2339083510@qq.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Documentation, https://python-epub3.readthedocs.io
+Project-URL: Repository, https://github.com/ChenyangGao/python-epub3
+Description-Content-Type: text/markdown
+
+# python-epub3
+
+## An awsome epub3 library.
+
+[python-epub3](https://github.com/ChenyangGao/python-epub3) is a Python library for managing ePub 3 books.
+
+**WARNING** Currently under development, please do not use in production environment.
+
+## Installation
+
+Install through github:
+
+```console
+pip install git+https://github.com/ChenyangGao/python-epub3
+```
+
+Install through pip:
+
+```console
+pip install python-epub3
+```
+
+## Quickstart
+
+```console
+>>> from epub3 import ePub
+>>> book = ePub("/path/to/book.epub")
+```
+
+## Features
+
+...
+
+## Documentation
+
+...
+
