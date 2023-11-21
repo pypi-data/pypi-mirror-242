@@ -1,0 +1,10 @@
+pydal2sql/__about__.py,sha256=ay22wPBXglcvGMXqdw2SSFFabNo0IzTiJYvdNksmfEI,172
+pydal2sql/__init__.py,sha256=Sa5aVgSk9bGN_sHPGk3fdYULDOuqkA7r3hxrOkpmuEc,479
+pydal2sql/cli.py,sha256=3mAR9VOCzQ2_7M1u1ocUq30S7zP8FoIXtfCV5I6i5_8,6077
+pydal2sql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydal2sql/typer_support.py,sha256=IMCvQtz6Vmdaf8BS-hzWH0f82Zhnbt6tiztNdgQsSp8,12158
+pydal2sql-1.1.0.dist-info/METADATA,sha256=uuSiWER37pFaDJ17lLxrVruYU_6hqJ87FwPg8JNB28Y,8964
+pydal2sql-1.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pydal2sql-1.1.0.dist-info/entry_points.txt,sha256=xOmC89cUEFYsG1P1Qt2E1G-hy6ZC7op88iXzR9yhFIM,48
+pydal2sql-1.1.0.dist-info/licenses/LICENSE.txt,sha256=phAZvZvcwqxTXoegIDmLeu-qzAS8KrasXQ5zpY9bmMA,1113
+pydal2sql-1.1.0.dist-info/RECORD,,
