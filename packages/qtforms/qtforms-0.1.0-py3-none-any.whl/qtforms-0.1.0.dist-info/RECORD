@@ -1,0 +1,9 @@
+qtforms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qtforms/form.py,sha256=tHvNhLtzc5bTJeTSJu3yDK60ajgH_rLbWqGFk_eC35A,7575
+qtforms/labeled_registry.py,sha256=Vl9UvHYicJAX4Osxdiw3EWTOGkkEKpfMjwcuiN5c2NM,2061
+qtforms/protocols.py,sha256=zLNsx3eOUct-S6w4RowlJOJ2mNu40w6EU7d_fb8TB2s,661
+qtforms/widgets/labeled.py,sha256=Jotb02N79r8pPvLfLeM06_pHIjcnJYclYZKypPOKeqI,3925
+qtforms/wrappers.py,sha256=heNs_IO3F2FvXdX6k3As_v5u8PWQTsId2alW4JtZq5k,186
+qtforms-0.1.0.dist-info/METADATA,sha256=IblERSCLWZc48RCT-5ZxoXSuxkhBmRbcftkwUgFypAo,2946
+qtforms-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+qtforms-0.1.0.dist-info/RECORD,,
