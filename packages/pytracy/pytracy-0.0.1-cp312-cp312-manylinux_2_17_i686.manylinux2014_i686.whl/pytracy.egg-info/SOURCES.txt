@@ -1,0 +1,11 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/pyTracy.cpp
+src/pytracy.pyi
+src/pytracy.egg-info/PKG-INFO
+src/pytracy.egg-info/SOURCES.txt
+src/pytracy.egg-info/dependency_links.txt
+src/pytracy.egg-info/requires.txt
+src/pytracy.egg-info/top_level.txt
+tests/test.py
