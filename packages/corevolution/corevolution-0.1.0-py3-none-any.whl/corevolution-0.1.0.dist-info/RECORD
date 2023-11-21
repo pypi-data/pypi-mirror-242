@@ -1,0 +1,11 @@
+corevolution/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corevolution/helper.py,sha256=HVTZSo4DbWC9Gb4zihGIC3ySU1WlzSunk6hh-eaqvAA,227
+corevolution/linalg.py,sha256=JN-ZgJtEj1YsuOER3R2g4yUaL0CTCxazmEj1huXmPlw,1117
+corevolution/data_types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corevolution/data_types/array.py,sha256=rgWt__9ytyLNQQL87JiO583Rmd3WaAclHQB8dL7FC_w,249
+corevolution/warp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corevolution-0.1.0.dist-info/LICENSE,sha256=Dyq8gDUXXuSsJKuNBThU0r7gRHKNSFVZ7Jmf9jpNUBs,34592
+corevolution-0.1.0.dist-info/METADATA,sha256=mUshGxy3fUK-Coj6sfwME_nfCSPLV68gzc7P01scygs,1716
+corevolution-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+corevolution-0.1.0.dist-info/top_level.txt,sha256=LUwLwgqG1RgpelMTK7jNhkcqz3dRLDLhPOw2iaY5uvA,13
+corevolution-0.1.0.dist-info/RECORD,,
