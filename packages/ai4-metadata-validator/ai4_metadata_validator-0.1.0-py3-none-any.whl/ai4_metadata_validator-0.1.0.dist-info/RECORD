@@ -1,0 +1,9 @@
+ai4metav/__init__.py,sha256=Bd1z0lHIpq_OdFcFxw961xML3GNgpmuiO_nzVGFl-1U,30
+ai4metav/main.py,sha256=HeQD5j2CD-9xfJsXLScTd2ZOU6O6z-sC9jRmtNkYzpg,1016
+ai4metav/schemata/ai4-apps.json,sha256=SYB1WCmXXsa3W9tlGzSmPbGLR2bwjyZ00vafXZNAvTQ,3777
+ai4_metadata_validator-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ai4_metadata_validator-0.1.0.dist-info/METADATA,sha256=e74kTOz73aE-5SWEFSR9AIypPz4xDjXcqC5BKD4cyzE,14079
+ai4_metadata_validator-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ai4_metadata_validator-0.1.0.dist-info/entry_points.txt,sha256=mWBAQJy5WQak7KAhRhQ5vXa4DiZ6Ri5fQ4XL_Jm7a5k,66
+ai4_metadata_validator-0.1.0.dist-info/top_level.txt,sha256=AcSNtTdDPO5Qc0lEGq31p5ZcClO-Cke44er7TG2PN28,9
+ai4_metadata_validator-0.1.0.dist-info/RECORD,,
