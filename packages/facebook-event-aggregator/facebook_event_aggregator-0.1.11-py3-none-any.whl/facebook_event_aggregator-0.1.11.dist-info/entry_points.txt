@@ -1,0 +1,3 @@
+[console_scripts]
+f_a_e = facebook_event_aggregator:main
+facebook_event_aggregator = facebook_event_aggregator:main
