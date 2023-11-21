@@ -1,0 +1,15 @@
+modulus/launch/__init__.py,sha256=Ys2SaQtmcnAod3pH20hbZkmntFCfn6PMp7He9KOaD6E,835
+modulus/launch/config/__init__.py,sha256=pZRn-lDBQJc_ZVivpk05ze9AHshNCy5nLphrQ_jzfOs,622
+modulus/launch/logging/__init__.py,sha256=XC2LOlvYCoEhEDk_hNcxTb2VNjITRj6l7UbJFt4Wdvw,789
+modulus/launch/logging/console.py,sha256=caNoSQ-3dunhvxyEKpiuUsj5mbKEMqjbKaw4pTumizg,2845
+modulus/launch/logging/launch.py,sha256=v_iTk7WkylpyVnWIXvon2OsWTOrATbVKUuGaVHTJdsk,13097
+modulus/launch/logging/mlflow.py,sha256=U4ISyiabrITAHEatPGiqgK1i-PmVZHYh2KnIv9zw9nw,6946
+modulus/launch/logging/utils.py,sha256=KZhvWdG3pMj77zS6FYNIq_Pd9Kl6K7E68-R1vUJYwfg,1920
+modulus/launch/logging/wandb.py,sha256=_71Zpuu8sYLdwxeFZA6zOtmFlxb2Cvn8DUT8VfnJByY,4063
+modulus/launch/utils/__init__.py,sha256=b-GhP4WZWbg3VFp9cA2VwMjurrFfRcERBlP4b4h-w8s,680
+modulus/launch/utils/checkpoint.py,sha256=7ORxigUky5LoiHFw7gcLbwjSOjA0DGl6-m03eiuhpMM,13397
+nvidia_modulus.launch-0.3.1.dist-info/LICENSE.txt,sha256=-vh_MT4QiF_qVxYP6lcX4SZMwJCE-DldvLaYwRAfpQk,11316
+nvidia_modulus.launch-0.3.1.dist-info/METADATA,sha256=dX_UrQRiSemLKOu79x2F7Y57aTW6kUQ0tMuQd-1GWis,3179
+nvidia_modulus.launch-0.3.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+nvidia_modulus.launch-0.3.1.dist-info/top_level.txt,sha256=Z4xMRahCKo9D7ZQXDoTUqVdssItN7HaeXe18Jx7VLkA,8
+nvidia_modulus.launch-0.3.1.dist-info/RECORD,,
