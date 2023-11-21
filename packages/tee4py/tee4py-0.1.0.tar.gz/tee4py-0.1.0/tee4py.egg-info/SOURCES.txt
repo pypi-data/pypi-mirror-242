@@ -1,0 +1,9 @@
+README.md
+setup.py
+tee4py/__init__.py
+tee4py/_version.py
+tee4py/tee4py.py
+tee4py.egg-info/PKG-INFO
+tee4py.egg-info/SOURCES.txt
+tee4py.egg-info/dependency_links.txt
+tee4py.egg-info/top_level.txt

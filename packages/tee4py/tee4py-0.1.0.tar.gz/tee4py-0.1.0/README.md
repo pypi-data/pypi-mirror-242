@@ -1,0 +1,58 @@
+A python class which replicates the behaviour of the Unix tee command. 
+
+## Usage
+
+This can be used in the same way that contextlib.redirect_stdout is
+
+```python
+from tee4py import tee
+
+with open('output.log','w') as f:
+    with tee(f, True):
+        print('This will be output to terminal and output.log')
+    print('This will be output to terminal only\n')
+
+```
+
+The second argument to tee specifies what to do with stderr. Default behaviour is True, meaning that stderr will also be piped to output.log. Changing this to False means that stderr will not be piped to output.log. 
+
+```python
+import sys
+from tee4py import tee
+
+with open('output.log','w') as f:
+    with tee(f, False):
+        print('This will be output to terminal and output.log')
+        print('This will not go to output.log',file=sys.stderr)
+    print('This will be output to terminal only\n')
+
+```
+
+This second argument can also be a file handle to output stderr to a different file
+
+```python
+import sys
+from tee4py import tee
+
+with open('output.log','w') as f, open('output.err','w') as g:
+    with tee(f, g): 
+        print('This will be output to stdout and output.log')
+        print('This will be output to stderr and output.err',file=sys.stderr)
+    print('This will be output to terminal only\n')
+
+```
+
+The tee class can also be used in the following way
+
+```python
+from tee4py import tee
+
+with open('output.log','w') as f:
+    tee_object = tee(f)
+    tee_object.write('This will be output to terminal and output.log')
+    tee_object.close()
+print('This will be output to terminal only\n')
+
+```
+
+
