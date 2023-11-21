@@ -1,0 +1,5 @@
+setup.py
+KIMOJI_ATM.egg-info/PKG-INFO
+KIMOJI_ATM.egg-info/SOURCES.txt
+KIMOJI_ATM.egg-info/dependency_links.txt
+KIMOJI_ATM.egg-info/top_level.txt
