@@ -1,0 +1,12 @@
+databend-driver
+sqlalchemy<2.0,>1.3.21
+
+[lint]
+black
+flake8
+
+[superset]
+apache_superset>=1.4.1
+
+[test]
+pytest
