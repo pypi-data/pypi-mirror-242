@@ -1,0 +1,8 @@
+MANIFEST.in
+Readme.md
+setup.py
+StochasticProcesses.egg-info/PKG-INFO
+StochasticProcesses.egg-info/SOURCES.txt
+StochasticProcesses.egg-info/dependency_links.txt
+StochasticProcesses.egg-info/requires.txt
+StochasticProcesses.egg-info/top_level.txt
