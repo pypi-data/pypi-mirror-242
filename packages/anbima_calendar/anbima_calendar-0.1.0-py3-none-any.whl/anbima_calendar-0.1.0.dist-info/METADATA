@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: anbima_calendar
+Version: 0.1.0
+Summary: Helper functions to handle banking holidays in Brazil
+License: MIT
+Author: Rafael Izidoro
+Author-email: izidoro.me@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
