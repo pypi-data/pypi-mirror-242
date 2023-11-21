@@ -1,0 +1,16 @@
+maesters_of_clim/__init__.py,sha256=snfHvsFqeRYVnnplvZw1wyTUshqhP22I960ewfAoSHQ,1632
+maesters_of_clim/analysis/__init__.py,sha256=iaQHsHL65IiHi2_zB_1Q_iBpAwQotXjrAGqW8vGXgFk,1478
+maesters_of_clim/config/__init__.py,sha256=zw_F6W5SJs-he6z1_Eh5p2aRIo6W2454TYmEyX5Km08,281
+maesters_of_clim/config/index_forecast.toml,sha256=R1lju3eLyHPA-Q6yw5F_J-h3PwqNgronh6dETKev8j8,168
+maesters_of_clim/config/index_history.toml,sha256=m5Vahm43VgCNFNhspTAlLB8A1_9iRQlI5pW7Y2Pbcpg,2511
+maesters_of_clim/fetcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maesters_of_clim/fetcher/iri.py,sha256=zAEBWe6XEHBbuKQdWJuQY3h4QhqUGry0M1WWqHjZlsM,5207
+maesters_of_clim/fetcher/ncei.py,sha256=0M9d58qhJGb2RzjzbrMCjYQEgiPoT3eWsz97qODMJwY,2396
+maesters_of_clim/fetcher/psl.py,sha256=uU49oczDAPWQ38yneWAdxV1rLPe55ejTM_N4qHjsvkY,1582
+maesters_of_clim/fetcher/rda.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maesters_of_clim/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maesters_clim-0.0.3b0.dist-info/LICENSE,sha256=NP0gfTFgMhn8DCFlCA0fPj5-jW2aRcdFoGC5NXrREJA,1064
+maesters_clim-0.0.3b0.dist-info/METADATA,sha256=KZDFXI7hyuW43yb2c-pnKS5TUJ8te0aYCQbOv45vNTc,2618
+maesters_clim-0.0.3b0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+maesters_clim-0.0.3b0.dist-info/top_level.txt,sha256=Q-nMRiFk4QGhaIcDlupVwm5JzfYLHn-wjmfhMW766hI,17
+maesters_clim-0.0.3b0.dist-info/RECORD,,
