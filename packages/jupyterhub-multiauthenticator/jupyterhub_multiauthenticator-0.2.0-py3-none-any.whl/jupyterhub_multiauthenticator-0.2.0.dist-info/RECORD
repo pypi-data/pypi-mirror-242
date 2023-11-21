@@ -1,0 +1,6 @@
+multiauthenticator/__init__.py,sha256=fvHuun-x9CS7JvMaey_G07Z80YHn8m0W3xt9blBWq9I,293
+multiauthenticator/multiauthenticator.py,sha256=MwbjpI15etak0tLJUO5HjcmImF5iV8Z0ufakp7hrdaM,6226
+jupyterhub_multiauthenticator-0.2.0.dist-info/METADATA,sha256=TTZZ07hyMMeSFgoBuEzmJSYC72yYQUVRwEODcTCfQAE,2722
+jupyterhub_multiauthenticator-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+jupyterhub_multiauthenticator-0.2.0.dist-info/top_level.txt,sha256=FmPHBwAqF-HS_CR-iLsUkGsIZiyzw0DpiaA_Qi2b5yE,19
+jupyterhub_multiauthenticator-0.2.0.dist-info/RECORD,,
