@@ -1,0 +1,10 @@
+README.md
+setup.py
+ions/__init__.py
+ions/data.py
+ions/decorator.py
+ions.egg-info/PKG-INFO
+ions.egg-info/SOURCES.txt
+ions.egg-info/dependency_links.txt
+ions.egg-info/requires.txt
+ions.egg-info/top_level.txt
