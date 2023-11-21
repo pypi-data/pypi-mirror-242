@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+saakethbasiccalculator.egg-info/PKG-INFO
+saakethbasiccalculator.egg-info/SOURCES.txt
+saakethbasiccalculator.egg-info/dependency_links.txt
+saakethbasiccalculator.egg-info/top_level.txt
