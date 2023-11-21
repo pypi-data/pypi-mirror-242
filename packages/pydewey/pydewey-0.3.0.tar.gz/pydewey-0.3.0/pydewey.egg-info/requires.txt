@@ -1,0 +1,13 @@
+
+[pytorch]
+torch>=2.1.0
+
+[pytorch_checkpoints]
+torch>=2.1.0
+
+[pytorch_tensorboard]
+torch>=2.1.0
+tensorboard>=2.13.0
+
+[training_progress]
+alive-progress>=3.1.5
