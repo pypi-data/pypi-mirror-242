@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "xtts-api-server"
+version = "0.1.0"
+description = "Simple REST API server for XTTSv2"
+authors = ["Danil Boldyrev <daswerq123@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "0.104.1"
+loguru = "^0.7.2"
+pydantic = "2.5.1"
+python-dotenv = "1.0.0"
+torch = "2.0.1"
+torchaudio = "^2.1.1"
+uvicorn = "^0.24.0.post1"
+TTS = "^0.20.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
