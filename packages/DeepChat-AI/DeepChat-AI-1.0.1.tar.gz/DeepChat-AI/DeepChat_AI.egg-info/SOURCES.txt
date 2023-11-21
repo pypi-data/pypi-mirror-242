@@ -1,0 +1,7 @@
+README.md
+setup.py
+DeepChat_AI.egg-info/PKG-INFO
+DeepChat_AI.egg-info/SOURCES.txt
+DeepChat_AI.egg-info/dependency_links.txt
+DeepChat_AI.egg-info/requires.txt
+DeepChat_AI.egg-info/top_level.txt
