@@ -1,0 +1,9 @@
+xtts_api_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xtts_api_server/__main__.py,sha256=6owpGebHnqAQj6gexT1KxiJu1acyvKNrXEa53041eQk,812
+xtts_api_server/example.wav,sha256=1MH9vpIMLv61JdzAZ-0Bx_6qB97XGamL1-Yqjyd80M0,334496
+xtts_api_server/server.py,sha256=Exl_jFcn9UaDGAAdACNxobTCbh9tbHfhVZzQvtmeK0Q,4690
+xtts_api_server/tts_funcs.py,sha256=tgh0OPPBVDa0mN9WWTphG9Bh6PsLNLDGQ2Wz0xy0D9s,5123
+xtts_api_server-0.1.1.dist-info/METADATA,sha256=DynAr2RDnQyDafz7Elptx4hTXw0-ROu8Gp5SW0x8VIY,2470
+xtts_api_server-0.1.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+xtts_api_server-0.1.1.dist-info/licenses/LICENSE,sha256=s6vWycJ4crk4bTMFr2amif6FNETFRogj8sEgwa3ABzQ,1092
+xtts_api_server-0.1.1.dist-info/RECORD,,
