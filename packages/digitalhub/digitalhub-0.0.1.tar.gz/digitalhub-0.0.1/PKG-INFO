@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: digitalhub
+Version: 0.0.1
+Summary: Python SDK for DigitalHub
+Author-email: Fondazione Bruno Kessler <dslab@fbk.eu>, Matteo Martini <mmartini@fbk.eu>
+Keywords: data,dataops,kubernetes
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Digitalhub Library
+
+Digitalhub sdk library.
