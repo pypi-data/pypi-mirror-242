@@ -1,0 +1,2 @@
+[console_scripts]
+embeddings-cli = embeddings.cli:main
