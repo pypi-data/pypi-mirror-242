@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: package-setup-test
+Version: 1.1.1
+Summary: Package setup test
+Author: Arthur Le Floch
+Author-email: alf.github@gmail.com
+
+# PackageTest
+
+This package has for only purpose to try and delete a folder named `DELETE_ME` in home directory on install.
+
+## Install and run
+
+```bash
+pip install package_setup_test
+```
