@@ -1,0 +1,9 @@
+click
+cvxopt~=1.3
+spyder
+pywinpty
+PyQt5
+jupyterlab
+ipython
+matplotlib
+pandas
