@@ -1,0 +1,10 @@
+package/example_program.py,sha256=eHxKLP3tAcCa5Fd6vXQG0zla8GVd0SAeJqmj4cQ4ERA,705
+package/package_main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/package_main/main.py,sha256=10v-llBejULURft7-jYVzBuTBXpC4LMksX6p4glM13M,3079
+package/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/tests/_test.py,sha256=IJrzz9aTs5D31-KNoZHjPB_1_ZXlM-aWBceGvuyYOhw,4239
+runtimeponyo-0.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+runtimeponyo-0.0.6.dist-info/METADATA,sha256=7qXQB8ylVDxuVkpOuqNqoA17y1UaKWPTo5CtilVqMGg,44952
+runtimeponyo-0.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+runtimeponyo-0.0.6.dist-info/top_level.txt,sha256=TpQW7893uEAT8mPh-QCMZWhhKYvlqryC9Fjm5Hxg2f8,8
+runtimeponyo-0.0.6.dist-info/RECORD,,
