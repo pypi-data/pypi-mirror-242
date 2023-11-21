@@ -1,0 +1,7 @@
+README.md
+setup.py
+pixiuquant/__init__.py
+pixiuquant.egg-info/PKG-INFO
+pixiuquant.egg-info/SOURCES.txt
+pixiuquant.egg-info/dependency_links.txt
+pixiuquant.egg-info/top_level.txt

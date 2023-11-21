@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pixiuquant
+Version: 0.0.2
+Summary: pixiuquant 量化核心包
+Home-page: https://pypi.org/project/pixiuquant
+Author: pixiuquant
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# pixiuquant
+
+量化核心包。
