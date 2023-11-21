@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: enviz
+Version: 0.0.1
+Summary: Python .env file made easier
+Author: oskvr37
+Project-URL: Homepage, https://github.com/oskvr37/enviz
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<img src="https://raw.githubusercontent.com/oskvr37/enviz/main/logo.svg" width="100%"/>
+
+# About
+
+Enviz is a python module that allows you to write and read environment variables from a file.
+
+# Installation
+
+```bash
+pip install enviz
+```
