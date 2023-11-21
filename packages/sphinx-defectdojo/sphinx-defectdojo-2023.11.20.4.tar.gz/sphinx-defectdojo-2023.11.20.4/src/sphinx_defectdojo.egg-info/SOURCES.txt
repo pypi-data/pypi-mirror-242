@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/sphinx_defectdojo/__init__.py
+src/sphinx_defectdojo/finding.py
+src/sphinx_defectdojo.egg-info/PKG-INFO
+src/sphinx_defectdojo.egg-info/SOURCES.txt
+src/sphinx_defectdojo.egg-info/dependency_links.txt
+src/sphinx_defectdojo.egg-info/requires.txt
+src/sphinx_defectdojo.egg-info/top_level.txt
