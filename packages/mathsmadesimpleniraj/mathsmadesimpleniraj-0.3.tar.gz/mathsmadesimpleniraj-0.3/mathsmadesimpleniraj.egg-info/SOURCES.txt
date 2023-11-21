@@ -1,0 +1,10 @@
+README.md
+setup.py
+mathsmadesimpleniraj/__init__.py
+mathsmadesimpleniraj/calculator.py
+mathsmadesimpleniraj/printOut.py
+mathsmadesimpleniraj.egg-info/PKG-INFO
+mathsmadesimpleniraj.egg-info/SOURCES.txt
+mathsmadesimpleniraj.egg-info/dependency_links.txt
+mathsmadesimpleniraj.egg-info/entry_points.txt
+mathsmadesimpleniraj.egg-info/top_level.txt
