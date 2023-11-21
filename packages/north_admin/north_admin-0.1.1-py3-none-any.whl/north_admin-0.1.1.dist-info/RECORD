@@ -1,0 +1,14 @@
+north_admin/__init__.py,sha256=63DwaBdupKI-2Y-zMxFnyfypZ3qkBhB_-MqBJ3-Zf58,408
+north_admin/admin_router.py,sha256=0CWwjSE8gu_q8YAEGz9vSJwagRCN8fWDYziPjXKTLis,14068
+north_admin/app.py,sha256=6tb_mxo5OeRz4tkmNp_SHFI5Skw_iDuWkbna46xjSPA,3890
+north_admin/auth_provider.py,sha256=sBrU9sOqkZQy8AYxiw_v33GExIjDnqNdNZTDSz1A28Y,4769
+north_admin/crud.py,sha256=GufNaMHtzJG1vovjJaGUNh7N5Tf1cEagFStMpTxacK4,4646
+north_admin/dto.py,sha256=kxrmiXBcIkd643J6jtsE0rw8cOx380p4UOk03re2Hvw,861
+north_admin/exceptions.py,sha256=3D9C0V_8UyHE0mrYj4ka4zcr9xkDeepdd8h6c8oLjiY,942
+north_admin/filters.py,sha256=HQ9ht0Tp54gbbSdWyxeyqMGLPKoHydKbdmrJwRb0UXQ,1102
+north_admin/helpers.py,sha256=83IW9WEmnznyBJnER8nrX41QE6Y2BF1FfpeRQMPgODc,799
+north_admin/types.py,sha256=rZxNS3mUtYHdaQDZ7EzOUIBBuUMYcw1DHSXsHDJz3Fg,2255
+north_admin-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+north_admin-0.1.1.dist-info/METADATA,sha256=MBDGv2DTtFSMfd_ZOjD7FMRMhDlkH4LYdlEXjx4qDFk,9358
+north_admin-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+north_admin-0.1.1.dist-info/RECORD,,
