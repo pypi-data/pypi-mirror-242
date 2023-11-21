@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+httpx = "*"
+dnspython = "*"
+watchdog = "*"
+
+
+[dev-packages]
+build = "*"
+twine = "*"
+hatchling = "*"
+pyinstaller = "*"
+
+[requires]
+python_version = "3.11"
