@@ -1,0 +1,14 @@
+stateless/__init__.py,sha256=pHvYYM0qeDLwiYmV6zKkxeDk76IdFRGb1vdCT3LNWl8,324
+stateless/console.py,sha256=ZCoZDGN7nW-x2FQMvi92sOIl3XObC3bmgJZDIM4EmZs,578
+stateless/effect.py,sha256=Ee0fkpv4WOGANdh1TujfsmuumkcY6LLTLnXMpZ0knUs,4213
+stateless/errors.py,sha256=-pjICuFur83VKs359amTJRU9Wvi8pXBtyG8atzPTSN8,85
+stateless/files.py,sha256=-o_PSqeyooxsRnkYaeR6r68-9lSdTRYul6TPLYyCAM8,586
+stateless/functions.py,sha256=_31p6KVYpiMTlONPKlTE82iyNkRgd3dhymqkFIW03J4,2278
+stateless/parallel.py,sha256=HQY6UnVByjy2lRV8TiJq4JVMnfMofyOxjEw525B33fs,10083
+stateless/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stateless/runtime.py,sha256=PPHjQzAU4kzHbgToo9hVh78i-shwT8IlMSPJHI1AZ70,2423
+stateless/schedule.py,sha256=2ROVuCxZOmpfoKtrdakXEPF6WCGCyf5XHSzVIT33i4Q,783
+stateless/time.py,sha256=-XbeWln-nUKwSsEzxcg7dk-wE6LRK9nCiNbAGbJI56c,293
+stateless-0.5.0.dist-info/METADATA,sha256=12AEg8oxXIGbhdO3_oeX_7BA0Zs8xqo8TDt3yS7ae_w,30093
+stateless-0.5.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+stateless-0.5.0.dist-info/RECORD,,
