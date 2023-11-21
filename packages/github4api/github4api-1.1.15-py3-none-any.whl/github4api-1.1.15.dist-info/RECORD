@@ -1,0 +1,13 @@
+github4api/__init__.py,sha256=hP78S8Rm8wfGoY9L2agH_4C6S3nfiRKWVVCw61_uQi0,398
+github4api/core/__init__.py,sha256=zJLiOm1QuJCPe21GgUNl2G_jzE2Bc4z7NqoR0bRI45g,171
+github4api/exceptions/__init__.py,sha256=rFyb0JjP4IHrpRanyDXEqro-N20_u4knWBfdDeZX2mg,285
+github4api/handlers/__init__.py,sha256=gy7EBw4fkmWVuCIYHtlEaH-3nOs588xFLNYEE_jUfKU,82
+github4api/handlers/request_handler/__init__.py,sha256=9HiWF4sB60iIF86Crlhtvo0GbbQzZpWJLe7LAPN6o38,1002
+github4api/handlers/user_handler/__init__.py,sha256=XdakYPW4p9PJDECVyfNRHvnKfd3-3DeFscdIdmDft4g,1836
+github4api/scraper/__init__.py,sha256=SLjlmP_mEGQBYewLJSjAYP0Gj0wSosYOKT5oXcxJ2l8,23548
+tests/__init__.py,sha256=ox0sSD-YeHhrcizrPP1iWXYwI4elnM2c7c2y9wXcaZg,567
+github4api-1.1.15.dist-info/LICENSE,sha256=CJlKFipzBtCh8VkxJ2sB9qUMYKqIIJQ-d9AaL7pzPmM,7799
+github4api-1.1.15.dist-info/METADATA,sha256=VVh11sp_OPf0yC06LLZAbYiyhEs9j8cyr1_eLQykjdE,14068
+github4api-1.1.15.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+github4api-1.1.15.dist-info/top_level.txt,sha256=WYo4FSWs9h1FmuAXEWWEzVRiErFf5PPqo5PEknuBEcI,17
+github4api-1.1.15.dist-info/RECORD,,
