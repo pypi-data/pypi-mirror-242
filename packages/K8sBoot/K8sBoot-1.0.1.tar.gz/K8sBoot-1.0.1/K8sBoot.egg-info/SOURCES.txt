@@ -1,0 +1,11 @@
+README.md
+setup.py
+K8sBoot/__init__.py
+K8sBoot/boot.py
+K8sBoot.egg-info/PKG-INFO
+K8sBoot.egg-info/SOURCES.txt
+K8sBoot.egg-info/dependency_links.txt
+K8sBoot.egg-info/entry_points.txt
+K8sBoot.egg-info/not-zip-safe
+K8sBoot.egg-info/requires.txt
+K8sBoot.egg-info/top_level.txt
