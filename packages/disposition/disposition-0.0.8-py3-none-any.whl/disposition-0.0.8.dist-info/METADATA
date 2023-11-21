@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: disposition
+Version: 0.0.8
+Summary: Framework for generating reports and plots with flexible and precise layouts
+Home-page: https://disposition.readthedocs.io
+License: MIT
+Keywords: reports,layout,plots
+Author: Kenneth Trelborg Vestergaard
+Author-email: mortencombat@fastmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: stretchable (>=1.0.0b3,<2.0.0)
+Project-URL: Documentation, https://disposition.readthedocs.io
+Project-URL: Repository, https://github.com/mortencombat/disposition
+Description-Content-Type: text/markdown
+
+# disposition
+
+[![PyPI - Version](https://img.shields.io/pypi/v/disposition)](https://pypi.org/project/disposition/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/disposition)](https://pypi.org/project/disposition/)
+[![License](https://img.shields.io/github/license/mortencombat/disposition?color=blue)](https://github.com/mortencombat/disposition/blob/initial-setup/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/mortencombat/disposition?logo=github)](https://github.com/mortencombat/disposition/issues)
+[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/mortencombat/disposition/create-release.yml?logo=github)](https://github.com/mortencombat/disposition/actions/workflows/create-release.yml)
+[![Documentation Status](https://readthedocs.org/projects/disposition/badge/?version=latest)](https://disposition.readthedocs.io/en/latest/?badge=latest)
+[![pytest - results](https://gist.github.com/mortencombat/d3bf1bee9867bb5fc725411dc256c185/raw/disposition-tests.svg)](https://github.com/mortencombat/disposition/actions/workflows/run-tests.yml)
+[![Test coverage](https://gist.github.com/mortencombat/8ed41c3763b9e12b2f013a0c7d70827c/raw/disposition-coverage.svg)](https://github.com/mortencombat/disposition/actions/workflows/run-tests.yml)
+
+> [!IMPORTANT]
+> This framework is in the early stages of planning/development. It is not yet available for use.
+
+**disposition** is a Python-based framework for generating reports and plots with flexible and accurate layouts.
+
+It uses [stretchable](https://github.com/mortencombat/stretchable) (CSS Grid/Flexbox) for layouting and [Matplotlib](https://matplotlib.org/) for rendering.
+
+## License
+
+This work is released under the MIT license. A copy of the license is provided in the [LICENSE](https://github.com/mortencombat/disposition/blob/main/LICENSE) file.
+
