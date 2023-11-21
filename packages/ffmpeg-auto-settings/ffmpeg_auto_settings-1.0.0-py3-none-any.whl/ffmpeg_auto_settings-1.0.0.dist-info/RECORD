@@ -1,0 +1,16 @@
+ffas/__init__.py,sha256=olB5RcBIXbzoZHiOYTIC26nfwSMj3V4IOqcLwKbx8NU,713
+ffas/__main__.py,sha256=kLBfINYmgoNSfJhGxpa0qprwJdCy6j172-MMBTtliwE,5713
+ffas/basic.py,sha256=_0JgeZ0q9N1UNu2_ymDcOP3tGiITfrhMdFkHUDw-CoI,20773
+ffas/db.py,sha256=ADkh8qez1rGiYrHroPVuXeUTaKhHFkzBK40F_1g1fLM,7941
+ffas/files/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ffas/files/mime.types,sha256=dki8v3Cf4-GAWJIYES10IgIoZfq--bHiv2tLKV-dPTg,69952
+ffas/find_pairs.py,sha256=xMf_tS1Gy41gHhmsMa20q_dQmGT5AmDbpRuXgjxVfe0,16202
+ffas/misc.py,sha256=BHwNxhZISrMQ2cNsGatefsK2EMxl4Ga8vX_acojynaA,5515
+ffas/sample.py,sha256=nilM-WiEeFyqDcgMLmKgwWKdLE979ZmrLiNtNqSk6Rk,5137
+ffas/show_pairs.py,sha256=JqMyflpddcW18taUWiH1CncgbIkevWdCq1cqFgbsKnU,3755
+ffas/videostore.py,sha256=9sVZyrGTrk-_D9X9erdxppmrvfx4w0GV5FG-Ng-ooV4,6844
+ffmpeg_auto_settings-1.0.0.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ffmpeg_auto_settings-1.0.0.dist-info/METADATA,sha256=R87rOAz7XVVxWKml3Bqg9at3jcaOX7EYWV12NtGTBHU,1678
+ffmpeg_auto_settings-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ffmpeg_auto_settings-1.0.0.dist-info/entry_points.txt,sha256=jnPJFPMfT1gj23EBnOvehA1ZDVpRbMHLnI23rX-tzrQ,40
+ffmpeg_auto_settings-1.0.0.dist-info/RECORD,,
