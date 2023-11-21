@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+seqconf/__init__.py
+seqconf/_base.py
+seqconf.egg-info/PKG-INFO
+seqconf.egg-info/SOURCES.txt
+seqconf.egg-info/dependency_links.txt
+seqconf.egg-info/top_level.txt

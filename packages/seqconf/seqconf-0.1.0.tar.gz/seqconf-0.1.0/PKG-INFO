@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: seqconf
+Version: 0.1.0
+Summary: a toolset for sequencing of configuration
+Author: Deutsche Telekom IT GmbH
+License: Apache Software License (Apache 2.0)
+Keywords: python,sequencing,configuration
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SeqConf
+
+## introduction
+
+This module is used for the sequencing of configuration. You can implement existing task or you can implement new ones.
+## Installation
+
+```bash
+python -m pip install seqconf
+```
+
+## Examples
+
+### Input Configuration
+    ...
+
+### Custom Task
+    ...
