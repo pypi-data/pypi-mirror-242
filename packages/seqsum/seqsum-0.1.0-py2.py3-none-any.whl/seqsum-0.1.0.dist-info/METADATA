@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: seqsum
+Version: 0.1.0
+Summary: Collision-free checksums for nucleotide sequence collections
+Author-email: Bede Constantinides <bedeabc@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: defopt
+Requires-Dist: dnaio
+Requires-Dist: tqdm
+Requires-Dist: xxhash
+Requires-Dist: zstandard
+Requires-Dist: pytest>=7.4.3 ; extra == "dev"
+Requires-Dist: pre-commit>=3.5.0 ; extra == "dev"
+Requires-Dist: ruff>=0.1.5 ; extra == "dev"
+Requires-Dist: flit>=3.9.0 ; extra == "dev"
+Project-URL: Home, https://github.com/bede/seqsum
+Provides-Extra: dev
