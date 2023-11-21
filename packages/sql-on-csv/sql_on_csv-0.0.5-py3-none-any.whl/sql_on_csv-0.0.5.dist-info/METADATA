@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sql-on-csv
+Version: 0.0.5
+Author: whohow20094702
+Author-email: whohow20094702@icloud.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas >=2.1.3
+Requires-Dist: pandasql >=0.7.3
+Requires-Dist: tabulate >=0.9.0
+
+> Sql On Csv
+> 
+use pandas-sql toå execute grafic data calculate and compare.
