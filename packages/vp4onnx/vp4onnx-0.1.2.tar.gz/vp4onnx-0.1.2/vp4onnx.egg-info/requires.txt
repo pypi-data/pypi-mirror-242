@@ -1,0 +1,8 @@
+motpy
+onnxruntime
+opencv-python
+Pillow
+pyyaml
+redis
+requests
+tabulate
