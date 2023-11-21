@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Matplot3DEx/__init__.py
+Matplot3DEx.egg-info/PKG-INFO
+Matplot3DEx.egg-info/SOURCES.txt
+Matplot3DEx.egg-info/dependency_links.txt
+Matplot3DEx.egg-info/requires.txt
+Matplot3DEx.egg-info/top_level.txt
