@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="login" inherit_id="web.login" name="Disable Non OAuth Login form">
+    <xpath expr="//div[@class='form-group field-login']" position="attributes">
+      <attribute name="t-if">allow_odoo_login</attribute>
+    </xpath>
+    <xpath expr="//div[@class='form-group field-password']" position="attributes">
+      <attribute name="t-if">allow_odoo_login</attribute>
+    </xpath>
+    <xpath expr="//button[@name='redirect']" position="attributes">
+      <attribute name="t-if">allow_odoo_login</attribute>
+    </xpath>
+    <xpath expr="//button[@type='submit']" position="attributes">
+      <attribute name="t-if">allow_odoo_login</attribute>
+    </xpath>
+  </template>
+  <template id="remove_providers" inherit_id="auth_oauth.providers" name="Remove - or -">
+    <xpath expr="//em" position="replace" />
+  </template>
+</odoo>
