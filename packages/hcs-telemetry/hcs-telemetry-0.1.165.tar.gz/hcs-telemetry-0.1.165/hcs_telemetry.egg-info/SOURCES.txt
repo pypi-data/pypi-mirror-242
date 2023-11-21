@@ -1,0 +1,9 @@
+Makefile
+pyproject.toml
+requirements.txt
+version
+hcs_telemetry.egg-info/PKG-INFO
+hcs_telemetry.egg-info/SOURCES.txt
+hcs_telemetry.egg-info/dependency_links.txt
+hcs_telemetry.egg-info/requires.txt
+hcs_telemetry.egg-info/top_level.txt
