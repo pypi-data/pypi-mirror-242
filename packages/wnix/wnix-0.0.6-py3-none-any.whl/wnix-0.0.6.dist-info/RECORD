@@ -1,0 +1,14 @@
+wnix/__init__.py,sha256=MEFSPpHIyx5Ds_UuNbuh_6kq85oLq0_dm1UIxuCKJdM,98
+wnix/bin/__init__.py,sha256=SWEte839LPawCfYGYnAxS9PWiXFhkRZla9aYbnGyqBc,38
+wnix/bin/grep.py,sha256=2xdP4lzOVe8yG6x2sx_dXi4eOVSrkRitb7LhF3qlqtA,1436
+wnix/bin/what.py,sha256=I3JJIsT4C6TmgMyQXH3kA09MugSrhy-M4KRrVd014Xw,600
+wnix/lib/__init__.py,sha256=AivlecG73eqsQ0O70rlxMwA_KH24GRrPGU0aTcsXUQI,82
+wnix/lib/grep.py,sha256=gSOUe--3lYqrcj6ELlUBfeNQW3VV-kKvAXkj8URaBrs,2294
+wnix/lib/input.py,sha256=STSRLH0Iu8gZZ_xnKIvvvuCiN9e2VanRI6z6Fx1xzJs,215
+wnix/lib/types.py,sha256=aouCEEgkWqRc0Tpbw7SYTu57f_-TX4KSukDHXSN6dM0,4231
+wnix/lib/what.py,sha256=gmnj8hdvukoz7S8zub9GJ6AY-6tG5SyjvHMCrzur0sU,879
+wnix-0.0.6.dist-info/METADATA,sha256=MOvG9MO2bxoR1HasJB933tQVJYFeTD59YHV4vP54zK4,368
+wnix-0.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+wnix-0.0.6.dist-info/entry_points.txt,sha256=k_slLB6q8hwGLCk3Q8Ub2_Oqlcr6UWipHFYAnJRvEeI,70
+wnix-0.0.6.dist-info/top_level.txt,sha256=eUubQdmF0xJBGiPOtg3WkNdo7Oyd53aif5SD-JbLhxY,5
+wnix-0.0.6.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+Grep = wnix.bin.grep:main
+What = wnix.bin.what:main
