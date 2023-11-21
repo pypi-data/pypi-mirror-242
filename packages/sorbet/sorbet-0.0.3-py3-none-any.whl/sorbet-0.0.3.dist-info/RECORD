@@ -1,0 +1,9 @@
+sorbet/__init__.py,sha256=B57y25iOG_MvIs5ATV08QU6QG0O7blE1G8W0SLLJwGM,320
+sorbet/color.py,sha256=OpuXt8wW7Wsp-O6SVZ3FbOSU8M7GPn1o2oJMx-eae74,4439
+sorbet/format_strings.py,sha256=p9YeUTjBQiks92MPC2gGwbYZs29-1Yi8GtSsMA__R_g,354
+sorbet/sorbet.py,sha256=UhJTmitxYbvd9wv98OaYI7xMXjChiEa-VINISRFyNYo,6690
+sorbet-0.0.3.dist-info/LICENSE,sha256=77hIIeXb_H_PPSvXwsJ8lLIrBwtudcJEPmBgem_3lC8,1088
+sorbet-0.0.3.dist-info/METADATA,sha256=m4f1yQH7WV_TtOpadn5xQk42BXexyw2-8qcIdZMQdts,657
+sorbet-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sorbet-0.0.3.dist-info/top_level.txt,sha256=9ZEZgDdNC1hHcG_QVSumCWds2tNMBTCAiSJ5BwIdDAY,7
+sorbet-0.0.3.dist-info/RECORD,,
