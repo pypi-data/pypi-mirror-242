@@ -1,0 +1,2 @@
+hcs-cli-core
+hcs-cli-azure
