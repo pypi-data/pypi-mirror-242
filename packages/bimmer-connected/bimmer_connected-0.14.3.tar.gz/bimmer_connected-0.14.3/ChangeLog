@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.14.3
+------
+
+* Add exception handling for unexpected responses (#580)
