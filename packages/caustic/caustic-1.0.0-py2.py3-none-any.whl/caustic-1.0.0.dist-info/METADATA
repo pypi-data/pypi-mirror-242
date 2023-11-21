@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: caustic
+Version: 1.0.0
+Summary: Sorry we renamed to: caustics. Please run: pip install caustics
+Home-page: https://github.com/Ciela-Institute/caustic
+Author: Ciela Institute
+License: MIT license
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# Did you come looking for caustic?
+
+Appologies, due to a name conflict the package has moved to `caustics`. It's all the same code, just a new name. Please follow this link: https://github.com/Ciela-Institute/caustics
