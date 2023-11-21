@@ -1,0 +1,7 @@
+README.md
+paco.py
+pyproject.toml
+ipaco.egg-info/PKG-INFO
+ipaco.egg-info/SOURCES.txt
+ipaco.egg-info/dependency_links.txt
+ipaco.egg-info/top_level.txt
