@@ -1,0 +1,75 @@
+from collections import Mapping
+
+from typing import Callable
+
+
+def filterKeys(lst: list, data: dict, *otherData: dict) -> dict:
+    """
+    The function to filter dict data by a given list of keys to keep
+    :param lst: key values to keep
+    :param data/otherData: dicts
+    :return: filtered data (keep the input order if more than one dict is given)
+    """
+    filteredData = []
+    for d in [data] + list(otherData):
+        filteredData.append(dict((k, v) for k, v in d.items() if k in lst or (isinstance(k, tuple) and k[0] in lst)))
+    return tuple(filteredData) if len(filteredData) > 1 else filteredData[0]
+
+
+def mapValues(f: Callable, data: dict) -> dict:
+    """
+    The function to map the values of a dict by a given function
+    :param f: the function to apply to values
+    :param data: dict
+    :return: dict of format {k: f(v)}
+    """
+    return dict((k, f(v)) for k, v in data.items())
+
+
+def mapKeys(f: Callable, data: dict) -> dict:
+    """
+    The function to map the keys of a dict by a given function
+    :param f: the function to apply to keys
+    :param data: dict
+    :return: dict of format {f(k): v}
+    """
+    return dict((f(k), v) for k, v in data.items())
+
+def mapKeysRecursive(f: Callable, data: dict) -> dict:
+    if isinstance(data, dict):
+        new_data = {}
+        for key, value in data.items():
+            new_key = f(key)
+            if isinstance(value, dict):
+                new_value = mapKeysRecursive(f, value)
+            else:
+                new_value = value
+            new_data[new_key] = new_value
+        return new_data
+    else:
+        return data
+
+def sortByKeys(data: dict) -> dict:
+    """
+    The function to sort a dictionary by its keys
+    :param data: dict
+    :return: sorted dict
+    """
+    return dict(sorted(data.items(), key=lambda item: item[0]))
+
+
+def deepUpdate(toUpdate: dict, data: dict) -> dict:
+    """
+    The function to deep update a given dictionary
+    :param toUpdate: dict to update
+    :param data: data to updatade dict
+    :return: updated dict
+    """
+    for k, v in data.items():
+        if isinstance(v, dict) or isinstance(v, Mapping):
+            defaultValue = v.copy()
+            defaultValue.clear()
+            v = deepUpdate(toUpdate.get(k, defaultValue), v)
+
+        toUpdate[k] = v
+    return toUpdate
