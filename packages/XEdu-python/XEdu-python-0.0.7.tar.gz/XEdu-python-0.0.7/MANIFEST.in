@@ -1,0 +1,8 @@
+include whl/*
+include XEdu/hub/none.jpg
+include XEdu/hub/*
+include XEdu/hub/font/*
+prune XEdu/examples/*
+prune XEdu/examples/torch_style_transfer.py
+include install_requires.txt
+include XEdu/examples/demo.py
