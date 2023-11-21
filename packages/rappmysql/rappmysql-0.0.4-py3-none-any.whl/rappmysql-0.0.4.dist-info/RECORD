@@ -1,0 +1,18 @@
+rappmysql/__init__.py,sha256=FUTyjVhR0C9AEjUhgqsjY3EgBPcP1JsZsagszcsGO00,96
+rappmysql/control.py,sha256=AZsk8rD3V4d9gOE9sSGV4-QtvHKaKNaUSIqRbcdR9BE,364
+rappmysql/online.py,sha256=POhZavDqg8MgoxdKVVjabO-LpnN-94RnuPW0BUdPhok,7246
+rappmysql/pass_check.py,sha256=k1hTr-aHTdPMIAMuat6KKvcdsTKQWfXz7i9Ycglo1f8,990
+rappmysql/static/alimentari (3).sql,sha256=lVP8EOinBgylC8KcFZXsAPo8lt7dCH1oXuQ_sAs7P0E,15560
+rappmysql/static/heroku.ini,sha256=gue3veY742HqHleMp-ospXL9fAIwg5dH05_hS3NrSWM,131
+rappmysql/static/wdb.ini,sha256=TfPa4TlDvWBBSQTBghO6ifEFHx-0Y3XQfCViApOqM5A,105
+rappmysql/templates/alimentari.html,sha256=MxsP0uiYrXt7PUu5_WxiynAxQEobRGMIMtFDaPYfZiw,594
+rappmysql/templates/base.html,sha256=xGHFPhcBubY5S8IEOqomZaaGhxQUaW9K-r4V8Dav_Fk,681
+rappmysql/templates/cheltuieli.html,sha256=ilD9L3JT0Im9yMuYl3Q_9TO0M6fPpzn2gXfhlu-tbjI,6736
+rappmysql/templates/index.bkp,sha256=UGrMg4s-RoJ1cabD7Wj45GzzpDEUWLZU7tN58vfny50,634
+rappmysql/templates/index.html,sha256=gEmlj8zGni5NoJC74clFWt8ZZxzVpLxjqwIp3bMJGXI,1431
+rappmysql/templates/masina.html,sha256=XAwSFY3XMXVAYGK1BjmwcPVWWl0kMEKncy2_X8oetjY,4765
+rappmysql/templates/navbar.html,sha256=cbvnorwUe22YMbtAygmBnPuUTLTvW48rKFdtLw2MaFo,595
+rappmysql-0.0.4.dist-info/METADATA,sha256=xP4XlfV7kNOP8jM8p542KiWxWptUYFxSsH7Th86Zn_s,659
+rappmysql-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+rappmysql-0.0.4.dist-info/top_level.txt,sha256=YYhr45A_gNphk9AFMAVCJ9KBljpWUmOhhicfSCJ8rtU,10
+rappmysql-0.0.4.dist-info/RECORD,,
