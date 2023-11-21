@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: esr-weather
+Version: 0.0.1
+Summary: ESR DT Model
+Author-email: jzanetti1985 <sijin.zhang@esr.cri.nz>
+Project-URL: Homepage, https://dev.azure.com/ESR-NZ/DigitalTwin/_git/Sijin_codes?path=/esr_dt_model
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dask
+Requires-Dist: dask[distributed]
+Requires-Dist: pygrib
+Requires-Dist: numpy
+
+# ESR_Weather
+
+The **ESR_Weather** Package is developed to help retrieving both historical weather data and future forecasts.

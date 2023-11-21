@@ -1,0 +1,2 @@
+[console_scripts]
+esr_dt_model = esr_dt_model.esr_dt_model:write_to_file
