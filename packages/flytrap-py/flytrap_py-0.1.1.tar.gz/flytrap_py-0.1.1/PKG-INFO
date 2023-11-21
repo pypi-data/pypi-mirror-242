@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flytrap-py
+Version: 0.1.1
+Summary: parser
+Home-page: https://github.com/LeafChage/flytrap-py
+License: MIT
+Author: LeafChage
+Author-email: t.kusanagi5512@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Project-URL: Repository, https://github.com/LeafChage/flytrap-py
+Description-Content-Type: text/markdown
+
+# flytrap-py
+parser
+
