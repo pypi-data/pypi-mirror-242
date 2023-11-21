@@ -1,0 +1,9 @@
+scine_sparrow/LICENSE.txt,sha256=h3CxNg-tBZ10LqmvP6JNJtjxD8HYKgsoacjv3KYi7V8,1513
+scine_sparrow/__init__.py,sha256=4v-xcATcxjvzOpxdXLh5I8atqGAJgY_sxSROvIME_HU,1365
+scine_sparrow/sparrow.module.so,sha256=qzJzhzLbimdzC0HfObL47-bjMOIQObBxjv_tG9xHv7c,38734825
+scine_sparrow-5.0.0.dist-info/METADATA,sha256=OGDLhjFXanIbLe0UEEVrf-5WL1CPRojy2Cil3-4tcgg,2819
+scine_sparrow-5.0.0.dist-info/WHEEL,sha256=nIxR5vuQPQ6CvC3h-1pWWXVV6Ku-TITLSJjpV-6iFqM,148
+scine_sparrow-5.0.0.dist-info/top_level.txt,sha256=Yoka_Q95340E934fTX1xUTnuAdWFTgRKUWlYGBKeyFA,14
+scine_sparrow-5.0.0.dist-info/RECORD,,
+scine_sparrow.libs/libcore-588af12d.so,sha256=XSt8BDzUwQ6MXbc2jYVGpgz4ift_4HbrCLm0fDLwsQ8,399217
+scine_sparrow.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
