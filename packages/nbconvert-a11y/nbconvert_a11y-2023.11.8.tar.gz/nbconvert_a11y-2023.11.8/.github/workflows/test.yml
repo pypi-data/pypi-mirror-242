@@ -1,0 +1,89 @@
+name: pytest nbconvert-a11y, axe test exports, build docs.
+on:
+  - push
+jobs:
+  format:
+    name: format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: install dev dependencies
+        run: python -m pip install --upgrade pip hatch
+      - name: run formatters
+        run: |
+          echo "~~~bash" > "${GITHUB_STEP_SUMMARY}"
+          hatch run format:code 2>&1 | tee --append "${GITHUB_STEP_SUMMARY}"
+          echo "~~~" >> "${GITHUB_STEP_SUMMARY}"
+      - name: print diff
+        run: |
+          echo "~~~diff" >> "${GITHUB_STEP_SUMMARY}"
+          git diff | tee --append "${GITHUB_STEP_SUMMARY}"
+          echo "~~~" >> "${GITHUB_STEP_SUMMARY}"
+  test:
+    name: test package and accessibility
+    defaults:
+      run:
+        shell: bash -el {0}
+    strategy:
+      matrix:
+        python-version:
+          - "3.10"
+    runs-on: ubuntu-latest
+    steps:
+      - name: fetch all history and tags
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Cache conda
+        uses: actions/cache@v2
+        env:
+          # Increase this value to reset cache if etc/example-environment.yml has not changed
+          CACHE_NUMBER: 0
+        with:
+          path: ~/conda_pkgs_dir
+          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{
+            hashFiles('test-environment.yml') }}
+      - uses: mamba-org/setup-micromamba@v1
+        with:
+          environment-file: test-environment.yml
+          cache-environment: true
+      - name: init playwright nbconvert-a11y
+        run: |
+          playwright install --with-deps chromium
+          npm install vnu-jar axe-core
+          pip install -e.
+          doit copy
+      - name: smoke test
+        run: |
+          # the smoke generate html assets that are used in the accessibility testing.
+          # we run this script to generate assets and test the nbconvert-a11y module.
+          # failures here will stop any docs builds
+          pytest tests/test_smoke.py
+      - name: a11y tests
+        # always build the docs to see what the new versions look like.
+        continue-on-error: true
+        run: |
+          pytest --deselect tests/test_smoke.py -n auto --self-contained-html --html=tests/exports/pytest/report.html
+      - name: mkdocs
+        run: |
+          mkdocs build -v
+      - name: Deploy main 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        if: ${{ github.ref_name == 'main' }}
+        with:
+          folder: site # The folder the action should deploy.
+          single-commit: true
+      - name: Deploy non-main 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        if: ${{ github.ref_name != 'main' }}
+        with:
+          folder: site # The folder the action should deploy.
+          single-commit: true
+          target-folder: branch/${{ github.ref_name }}
