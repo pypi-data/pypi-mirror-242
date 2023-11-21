@@ -1,0 +1,12 @@
+idae/__init__.py,sha256=MDj3gRO5baanz5MEMTKIVdCtg4f9BSDV3Sxc0kA0d2k,54
+idae/__main__.py,sha256=s8vWVLzceqMCt8QSKmSBfB-plOc8K0QExacLjjbBX0k,2518
+idae/dependencies.py,sha256=lAgNlo1X7KgNVVf5mCGzNb1kaQYbcP7-1wlRNQMWoTc,1889
+idae/pep723.py,sha256=-puqabH6rc_RseflUlCeDHY8dacNJZRpuWU8i1u04u8,1287
+idae/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idae/resolver.py,sha256=Fk8GDUP00ZE2fJSAGxeNQlmJZ8iay-VNludfAYLEomc,545
+idae/venv.py,sha256=TuAStxTjRcrALetMoQcFU9XvVOSumKFGvVj72KZXhmc,2033
+idae-0.3.0.dist-info/LICENSE.txt,sha256=VXapH-nuSz68DG5ScURElxHkl1lKk4MOK9cgZCSRDXs,34502
+idae-0.3.0.dist-info/METADATA,sha256=JUExz69QjeSluV9NUxr-W4hh1W3irGvGC6iyxwF8sS8,4666
+idae-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+idae-0.3.0.dist-info/entry_points.txt,sha256=eqCii-P02qLT4dDSm6pOI-hDqr19U1MY2Cq5u1EhPnM,43
+idae-0.3.0.dist-info/RECORD,,
