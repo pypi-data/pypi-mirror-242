@@ -1,0 +1,8 @@
+miksisdk/__init__.cp36-win_amd64.pyd,sha256=lpgXCpaNtqIR4tcN8H-0E_pd_J-BWbBiQlZULxw5gUc,23040
+miksisdk/agent.cp36-win_amd64.pyd,sha256=klYPkZUoFEB8VkKXS702f-R2QcyrDtYI539pZJC4UB0,73728
+miksisdk/base.cp36-win_amd64.pyd,sha256=ZFFjSqFOiXkkjqsmSi8VZKr-ZunNB-iaE0l37BzN4Iw,76288
+miksisdk/forecast_tool.cp36-win_amd64.pyd,sha256=EosuUc6s8GzRIbOOjvCwoXjU_m31TjarxZ07-Ne9v5M,108032
+miksisdk-0.0.6.dist-info/METADATA,sha256=3TzXnXpjryypM_WInPZLtI0A6o61-cGX_fBRPBu9IRQ,410
+miksisdk-0.0.6.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+miksisdk-0.0.6.dist-info/top_level.txt,sha256=KbODlLSRtVVq3WYzA1hFhaXgyxHPKnGxVtQAhEmJ3vo,9
+miksisdk-0.0.6.dist-info/RECORD,,
