@@ -1,0 +1,6 @@
+include LICENSE
+include readme.md
+include requirements.txt
+recursive-include web3auth/static *
+recursive-include web3auth/templates *
+recursive-include docs * 
