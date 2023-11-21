@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: apsimNGpy
+Version: 1.0
+Summary: apsimx next generation package interface
+Home-page: https://github.com/MAGALA-RICHARD/apsimNGpy.git
+Author: Richard Magala
+Author-email: magalarich20@gmail.com
+License: MIT
+Keywords: python,apsim
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+run, edit, download soils and weather and interact with the apsimx file
