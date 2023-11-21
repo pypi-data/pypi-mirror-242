@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: worker-analyzer
+Version: 0.1.1
+Summary: Package for analyze and monitoring worker performance
+Home-page: UNKNOWN
+Author: Claudio Vinicius Oliveira
+Author-email: claudiovinicius.o@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy <1.26.0,>=1.19.5
+Requires-Dist: pandas <2.1.0,>=1.1.5
+Requires-Dist: python-dateutil ==2.8.2
+Requires-Dist: pytz ==2023.3.post1
+Requires-Dist: tzdata ==2023.3
+
+UNKNOWN
+
