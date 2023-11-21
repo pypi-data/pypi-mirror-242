@@ -1,0 +1,17 @@
+config/__init__.py,sha256=bWbHRsenWANBCoiGafaSeJGINuOYzSsjrfyKVLKf7WM,34
+config/config.py,sha256=xYfHFocdUUg_eZPRl3Pjt5QBg31HW91PprBKe5CNsm0,204
+infi_azure/__init__.py,sha256=24OOqmcHpXPLOLZrpnM_ryIy9SbAU3QS4wLBm5W90i0,153
+infi_azure/azcopy.py,sha256=8Uqba91dAUIDsArWcqUfgmn8zN5uUiFwzYqz8WyjALk,814
+infi_azure/blob.py,sha256=u2fCQVhyS-0KCHy5IXtFo75ACu-Pc-pMdwkuWPmbcW8,2856
+infi_azure/container.py,sha256=RlVccYQel0ZDZCMR5o1V2fPKq8lCtIUd2lVbsvsWyj0,4397
+infi_azure/storage_account.py,sha256=IoAdh4tcnX2wjLubmc4y-16_p1A5Qb1xkxEhv54sXZ8,2081
+tests/__init__.py,sha256=vdv2kGG9HdXJGXdo4J8A0DYUOxld92u48G83vnNhJPQ,42
+tests/azcopy.py,sha256=gzRKHOQvcymKwfvs5CAiUv8MmWQUVhEdjG5vGd9KYiU,1669
+tests/blob.py,sha256=ooECiQJh-vlLK7zDgGGs52-gIwedVe1DIEOCgO-XS1o,2399
+tests/container.py,sha256=0hAIKGh9dLQ3vuYWGrIGhlxqODUQM-zPDywoUFDjFSo,3009
+tests/storage_account.py,sha256=lxqA8nUdLpVvIcEc0auiSHx5BrrRmk9g06GAX53aqxI,1387
+tests/test_config.py,sha256=JjfYaVF-zljviuaLwNfbQA4YyMoc0SOFhMhptu6Yhow,823
+infi_azure-0.0.1.dist-info/METADATA,sha256=MtB_d8PQRa37my7sAQ6yr0QmZbKK-389YTx5j74eML4,3787
+infi_azure-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+infi_azure-0.0.1.dist-info/top_level.txt,sha256=ULIf8pd7qps4VhKLKgy-r2g_Vx-mtV7VM0ZvxGp7l3Y,24
+infi_azure-0.0.1.dist-info/RECORD,,
