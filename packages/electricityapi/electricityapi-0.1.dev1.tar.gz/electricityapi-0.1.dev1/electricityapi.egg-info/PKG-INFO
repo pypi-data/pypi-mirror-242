@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: electricityapi
+Version: 0.1.dev1
+Summary: This packages gives you interfaces to various providers of electricity grid data
+Home-page: https://github.com/green-coding-berlin/electricityapi
+Author: Didi Hoffmann
+Author-email: didi@green-coding.berlin
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: requests
+
+
+This packages gives you interfaces to various providers of electricity grid data.
+
+Currently we only support electricitymap.org but are planing to add many more. Please leave a comment or pr if you want
+to contribute more providers.

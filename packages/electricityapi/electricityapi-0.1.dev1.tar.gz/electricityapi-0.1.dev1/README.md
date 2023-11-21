@@ -1,0 +1,36 @@
+# electricityAPI
+
+This packages gives you interfaces to various providers of electricity grid data.
+
+Currently we only support electricitymap.org but are planing to add many more. Please leave a comment or pr if you want
+to contribute more providers.
+
+## electricitymap.org
+
+https://www.electricitymaps.com/ is a great resource to get data about grid intensity. They also have a great api [0]
+that can be used to query the data programmatically.
+
+This package has no affiliation with https://www.electricitymaps.com/ it is just to make the querying easier. Our thanks
+go out to the great people at electricitymaps for creating such an amazing project.
+
+Currently we don't support the full api but we are working on it. Feel free to help us and submit a pull request.
+
+We also use the free tier urls to date!!!
+
+## Installation
+
+```
+pip install electricityapi
+```
+
+Please set the ELECTRICITYMAP_API_TOKEN if you want to use the test code provided
+```
+export ELECTRICITYMAP_API_TOKEN='your_api_token_here'
+```
+
+## Usage
+```
+
+```
+
+[0] https://static.electricitymaps.com/api/docs/index.html#introduction
