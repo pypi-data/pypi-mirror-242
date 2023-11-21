@@ -1,0 +1,460 @@
+# Avala Python SDK
+
+Avala is a dataset labeling and management company with an enormous human workforce and a powerful API for integration with your client-side python code.  Visit [AvalaAI](http://avala.ai/) for more information.
+
+The Avala Python API offers a simple, user-friendly way to interact with the Avala back-end. This is an alpha-release of our SDK.
+
+## Table of Contents
+
+- [Avala Python SDK](#avala-python-sdk)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+    - [Note for Windows users](#note-for-windows-users)
+  - [Documentation](#documentation)
+  - [Authentication](#authentication)
+  - [Contribution](#contribution)
+  - [Testing](#testing)
+
+## Requirements
+
+- Use Python 3.7, 3.8 or 3.9
+- [Generate an API key](https://docs.avala.ai/docs/api-set-up#authentication)
+
+## Installation
+
+Prerequisite: Install pip
+
+`pip` is a package manager for Python. **On macOS**, you can set it up to use the default python3 install via -
+
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+```
+
+If the installation completes with a warning re: pip not being in your path, you'll need to add it by modifying your shell config (`.zshrc`, `.bashrc` or similar). You might have to modify the command below depending on the version of python3 on your machine.
+
+```
+export PATH=/Users/<your-macOS-username>/Library/Python/3.8/bin:$PATH
+```
+
+Install the avala client package locally, using Python's Pip manager
+
+```
+pip3 install avala
+```
+
+## Upgrade
+
+If you are on an older version of the avala-sdk and would like to upgrade to
+the latest version:
+
+```
+pip3 install --upgrade avala
+```
+
+Important Note: Please save your config.json and google_auth_creds.json file
+(if applicable) to a safe location and then run the upgrade. The upgrade
+process might overwrite your config.json and google_auth_creds.json files.
+
+## Documentation
+
+- [Visit our docs](https://docs.avala.ai/docs/overview-10) to learn how the Avala Python SDK works and watch videos.
+  See examples of how it works.
+
+## Authentication
+
+Avala AI uses API keys to authenticate requests. You can create and manage API keys from avala.ai -> Settings -> Security & Identity.  See [Authentication](https://docs.avala.ai/docs/api-set-up). Given below is a sample config.json.
+
+```
+{
+    "API": {
+        "api_url": "https://avala.ai/api/v1",
+        "api_key": "495b413615fc902e4f29f4545a0b4104e760bb3d"
+    },
+    "ProviderConfig": {
+        "provider_config": {
+            "provider": "aws_s3",
+            "s3_bucket_name": "avala-public-datasets",
+            "s3_bucket_region": "us-west-1",
+            "s3_bucket_prefix": "Closed Testing/2020-05-19/",
+            "s3_access_key_id": "BLAH2BLAH4IL3J57S",
+            "s3_secret_access_key": "sbwAxcSfk8BC9sBz2RWZwnZOxDoX71PSYkLSc/T3",
+            "gc_storage_bucket_name": "your-gcs-bucket-name",
+            "gc_storage_prefix": "your-gcs-bucket-prefix"
+        }
+    },
+    "Organization": {
+        "organization_config": {
+            "name": "Your Organization Name",
+            "description": "Your Organization Description",
+            "website": "Your Organization Website"
+        }
+    }
+}
+```
+
+Note that 'ProviderConfig' refers to the cloud location you intend to store all
+your images. We support AWS and Google Cloud at the moment.  
+
+The "provider" field is required to be either "aws_s3" (Amazon
+AWS) or "gc_storage" (Google Cloud Storage). If 'provider' is set to 'aws_s3', only 
+the s3_* fields are examined and the gc_* fields are ignored. Similarly, if
+'provider' is set to 'gc_storage', only the gc_* fields are examined and the other
+fields are ignored. In the above config.json file, AWS is used as the provider.
+
+In case you use Google Cloud, change "provider" to "gc_storage". In addition,
+you will need to create a file named google_auth_creds.json located in the
+same directory as config.json which will contain your Google cloud storage credentials. Please
+make sure that it is a JSON file and contains the correct Google cloud storage credentials.
+
+## Command line client
+
+```
+$ avala  -h
+```
+
+```
+usage: avala [-h] {dataset-import,get-licenses,get-industries,get-datasets,get-projects,annotation-import,get-annotation-exports,add-dataset-collaborator,add-project-collaborator,annotation-export,dataset-export}
+
+Avala Client SDK.
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+Operations:
+  {dataset-import,get-licenses,get-industries,get-datasets,get-projects,annotation-import,get-annotation-exports,add-dataset-collaborator,add-project-collaborator,annotation-export,dataset-export}
+    dataset-import      Import a dataset
+    get-licenses        List available licenses
+    get-industries      List available industries
+    get-datasets        List my datasets
+    get-projects        List my projects
+    annotation-import   Import annotations of an existing dataset
+    get-annotation-exports
+                        List my results
+    add-dataset-collaborator
+                        Add email address as dataset collaborator
+    add-project-collaborator
+                        Add email address as project collaborator
+    annotation-export   Trigger an annotation export for a dataset
+    dataset-export      Download the export urls
+```
+
+
+## Import a dataset
+
+The 'dataset-import' operation imports a dataset.
+
+A dataset is a collection of images. You can copy your images to an S3
+location in AWS (or to Google Cloud Storage) and provide us the credentials to
+access it.  We access the dataset from your hosted cloud location and our legion of coworkers 
+annotate the dataset for you.
+
+To import a dataset, we require an industry ID and a license ID. The industry
+ID specifies the industry that the images of the dataset fall under (eg:
+Automobiles) and the license specifies the license used for the dataset.
+We encourage making datasets public so that other users can make use of it.
+Note that making a dataset public doesn't make the annotations (or labels) public. Paid
+annotations are always private.
+
+```
+$ avala  dataset-import -h
+```
+
+```
+usage: avala dataset-import [-h] --name NAME  [--visibility VISIBILITY] [--industry INDUSTRY] [--license LICENSE] [--citation CITATION] [--creator CREATOR] [--description DESCRIPTION]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --name NAME           Name of dataset
+  --visibility VISIBILITY
+                        Visibility of the dataset
+  --industry INDUSTRY   Industry code
+  --license LICENSE     License code
+  --citation CITATION   Citation for the dataset
+  --creator CREATOR     Creator of the dataset
+  --description DESCRIPTION
+                        Description of the dataset
+```
+
+## Examples
+
+Fetch a list of available licenses
+
+```
+$ avala  get-licenses
+```
+
+```
+{
+  "1": "BSD 3",
+  "2": "CC0 1.0",
+  "3": "CC BY 3.0",
+  "4": "CC BY 4.0",
+  "5": "CC BY-NC 4.0",
+  "6": "CC BY-SA 4.0",
+  "7": "CC BY-NC-SA 4.0",
+  "8": "Research only",
+  "9": "Non-commerical use ",
+  "10": "MIT",
+  "11": "GPL 2",
+  "12": "ODbL 1.0",
+  "13": "Other",
+  "14": "Public Release, Distribution Unlimited",
+  "34": "TEST"
+}
+```
+
+## Fetch list of industries:
+
+```
+$ avala  get-industries
+```
+
+```
+{
+  "1": "Autonomous Vehicles",
+  "2": "Fashion",
+  "3": "Agriculture",
+  "4": "Insurance",
+  "5": "Consumer",
+  "6": "Manufacturing",
+  "7": "Construction",
+  "8": "Medical Imaging",
+  "9": "Drone",
+  "10": "Other",
+  "34": "Satellite",
+  "67": "Content moderation",
+  "100": "Retail",
+  "133": "[itests] Test Industry"
+}
+```
+
+## Get list of datasets imported by me:
+
+```
+$ avala get-datasets
+```
+
+```
+{
+  "47dc5e5d95f842e2891ebd08649f4cf9": "MyDS11",
+  "551471e3fd5f4c0bb394bd5f8bcc7fb6": "MyDS12",
+  "b639ee89c22641cbbfd433a734c4671a": "Testing"
+}
+```
+
+## Importing a dataset:
+
+Pick the license code and industry code that is applicable for the dataset you
+intend to import from the above output. For example:
+
+``` 
+$ avala dataset-import --name="BayAreaTrafficImages"  --visibility="private" --industry="2" --license="3" --creator="John Doe" --description="Images of vehicles in Bay area"
+```
+
+The argument --industry="2" refers to the industry with industry code 2 in the
+response from 'get-industries'. Same with license. This should return
+a response along the lines of "Successfully created dataset" on success.
+
+
+Importing annotation for an existing dataset:
+
+After importing a dataset, it is possible to import any annotation you have
+from before. This is done as follows:
+
+```
+usage: avala annotation-import [-h] [--owner OWNER] --dataset-uid DATASET_UID
+                                   --annotations-file ANNOTATIONS_FILE
+                                   [--keep-annotations KEEP_ANNOTATIONS] --project-name PROJECT_NAME
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --owner OWNER         Owner name (or login email of user) of dataset
+  --dataset-uid DATASET_UID
+                        Unique identifier for dataset
+  --annotations-file ANNOTATIONS_FILE
+                        The path to json file containing annotations in Coco format
+  --keep-annotations KEEP_ANNOTATIONS
+                        Whether to keep any previous annotations for the project
+  --project-name PROJECT_NAME
+                        The Avala project to link these imported annotations to
+
+```
+
+```
+$ avala annotation-import --dataset-uid="kd8jlkadjfk820j9ysljfkdfjal8820r" --project-name="MyNewProject" --annotations-file="./path/to/annotations.json" 
+```
+
+```--dataset-uid``` refers to the uid returned by 'avala get-datasets' corresponding to the dataset slug.
+```--project-name``` refers to the name of a new, non-existing Avala project that will be created and be accessible from the Avala web interface. Configuration of the project will still need to be done from the web interface.
+```--annotations-file``` refers to the path of the JSON file containing all your
+annotations for the dataset in Coco (Common Objects in Context) format. To learn more about Coco, see: https://cocodataset.org/#home
+```--keep-annotations``` refers to whether or not you'd like to preserve any annotations that you may have previously imported for the same dataset. This defaults to False.
+
+## List exports (or fetch results of annotating an imported dataset)
+
+```
+$ avala get-annotation-exports
+```
+
+A sample response looks like this:
+```
+{
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "name": "15 images  dataset - Export Oct27",
+            "format": "avala-json-external",
+            "filter_query_string": "",
+            "total_task_count": 715,
+            "exported_task_count": 715,
+            "download_url": "https://avala-server-exports-development.s3.us-west-1.amazonaws.com/cf11026dea5947f9b5d02690248df765/2023-10-27T19:41:09 - 15 images  dataset - Export Oct27 - b9cab4f19c104d75a02bb53848d2d4cd.json",
+            "status": "exported",
+            "datasets": [
+                "cf11026d-ea59-47f9-b5d0-2690248df765"
+            ],
+            "projects": [],
+            "organization": null,
+            "created_at": "2023-10-27T19:41:09.875315+03:00",
+            "updated_at": "2023-10-27T19:41:20.071423+03:00"
+        }
+    ]
+}
+```
+
+
+This lists all the available exports of processing the datasets imported so far.
+For every dataset imported, you should see a 'download_url' which is a link to
+the actual annotations for the dataset. 
+
+## List all my projects
+
+```
+$ avala get-projects
+```
+
+When a dataset is imported, a new project is created by the Avala backend. This
+project contains all the annotated results when it is processed by Avala. An
+imported dataset may have multiple projects linked to it each for a different
+type of requested annotation. The list of projects are also viewable from the
+Avala Web interface. Note that Project building and configuration is only
+available from the web interface and not from this client at this point of
+time.
+
+## Add collaborator to dataset.
+
+The 'add-dataset-collaborator' operation adds another valid Avala user (i.e email
+address) as a collaborator to a particular dataset. This means that the images that make up the dataset 
+be accessible by both the owner and the collaborator of the dataset. The
+dataset_uid may be obtained from the ```avala get-datasets``` operation.
+
+```
+$ avala add-dataset-collaborator -h
+usage: avala add-dataset-collaborator [-h] --email EMAIL --dataset-uid DATASET_UID
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --email EMAIL         Email address of dataset collaborator
+  --dataset-uid DATASET_UID 
+                        Dataset uid to add this user as a collaborator to
+```
+
+```
+$ avala add-dataset-collaborator --email myemail@mycorp.com --dataset-uid="cf11026d-ea59-47f9-b5d0-2690248df765"
+
+Successfully added user with email myemail@mycorp.com as collaborator to dataset
+```
+
+In the above example, Avala user with email address myemail@mycorp.com can
+collaborate with the user running the command on the specified dataset. Note
+that the user would have to collaborate on the associated project as well in
+order to access the annotations of the project.
+
+## Add collaborator to project.
+
+The 'add-project-collaborator' operation adds another valid Avala user (i.e
+email address) as a collaborator to a particular project. This makes the
+annotations of the Avala project accessible by both the owner and collaborator
+of the project. The project_uid may be obtained from the ```avala
+get-projects``` operation.
+
+```
+usage: avala add-project-collaborator [-h] --email EMAIL --project-uid PROJECT_UID
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --email EMAIL         Email address of project collaborator
+  --project-uid PROJECT_UID
+                        Project uid to add this user as collaborator to
+```
+
+
+```
+$ avala add-project-collaborator --email=myemail@mycorp.com --project-uid="dba079cf3d274480bca3bc356dd8ac4e"
+
+Successfully added user with email myemail@mycorp.com as collaborator to
+project
+```
+
+## Trigger an export
+
+To trigger an export of your annotation as a JSON, you can use the ```avala
+annotation-export``` command. After triggering the export, you will need to use
+```avala get-annotation-exports``` command to access the download link.
+
+```
+$ avala annotation-export -h
+
+usage: avala annotation-export [-h] --name NAME --dataset-uid DATASET_UID [--format FORMAT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --name NAME           Human readable name of export
+  --dataset-uid DATASET_UID
+                        Dataset uid that you want to trigger an export for
+  --format FORMAT       Supported format is avala-json-external only at this time
+```
+
+```
+$ avala annotation-export --name="MyExport1" --dataset-uid="cf11026d-ea59-47f9-b5d0-2690248df765"
+
+Successfully triggered an export for dataset. Status code: 201
+```
+
+## Download dataset export
+
+To export (i.e download to local filesystem) the annotations of a single dataset or the annotations of all datasets, the following dataset-export command may be used. 
+
+```
+$ avala dataset-export -h
+
+usage: avala dataset-export [-h] --dataset-uid DATASET_UID [--destination DESTINATION]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --dataset-uid DATASET_UID
+                        Dataset uid that you'd like to download
+  --destination DESTINATION
+                        Directory you want your downloads to be placed in. This defaults to
+                        current directory
+```
+
+```
+$ avala dataset-export --dataset-uid="87d85791-1964-442d-b7c0-f5595417a7f3"
+
+Download https://avala-server-exports-development.s3.us-west-1.amazonaws.com/87d857911964442db7c0f5595417a7f3/2022-12-26T23:55:28 - filterbyproject - 5295b31852564363baf584159871db19.json successful. File saved to /Users/john/client
+Download https://avala-server-exports-development.s3.us-west-1.amazonaws.com/87d857911964442db7c0f5595417a7f3/2022-12-26T23:46:34 - exportnotAvalaBB - 9549ff873aa1452abde460e482bfc3b6.json successful. File saved to /Users/john/client
+Download https://avala-server-exports-development.s3.us-west-1.amazonaws.com/87d857911964442db7c0f5595417a7f3/2022-12-26T23:45:30 - exportwithBBV2 - 03298ccd27894a1b9e6425cd9e0221da.json successful. File saved to /Users/john/client
+Download https://avala-server-exports-development.s3.us-west-1.amazonaws.com/87d857911964442db7c0f5595417a7f3/2022-12-26T23:36:19 - 2images-withbb - 01caea3623164b54b7572056e4e24c7e.json successful. File saved to /Users/john/client
+```
+
+## Contribution
+
+Please consult `CONTRIB.md`
+
+## Bugs
+
+Please report bugs to developer@avala.ai
+

@@ -1,0 +1,25 @@
+{
+    "API": {
+        "api_url": "https://server.avala.ai/api/v1",
+        "api_key": "<your-API-key>"
+    },
+    "ProviderConfig": {
+        "provider_config": {
+            "provider": "gc_storage",
+            "s3_bucket_name": "<your-bucket-name>",
+            "s3_bucket_region": "<your-aws-region>",
+            "s3_bucket_prefix": "<your-bucket-prefix>",
+            "s3_access_key_id": "<your-aws-access-key-id>",
+            "s3_secret_access_key": "<your-aws-secret-access-key-id>",
+            "gc_storage_bucket_name": "<your-gcs-bucket-name>",
+            "gc_storage_prefix": "<your-gcs-bucket-prefix>"
+         }
+    },
+    "Organization": {
+        "organization_config": {
+            "name": "Your Organization Name",
+            "description": "Your Organization Description",
+            "website": "Your Organization Website"
+        }
+    }
+}
