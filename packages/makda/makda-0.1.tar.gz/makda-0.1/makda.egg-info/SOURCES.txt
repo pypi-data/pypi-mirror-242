@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+lean/__init__.py
+lean/makda.py
+makda.egg-info/PKG-INFO
+makda.egg-info/SOURCES.txt
+makda.egg-info/dependency_links.txt
+makda.egg-info/top_level.txt

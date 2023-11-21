@@ -1,0 +1,3 @@
+# MANIFEST.in
+
+include makda/data/MANIFEST.txt
