@@ -1,0 +1,8 @@
+README.md
+setup.py
+simple_symbolic_robotics/__init__.py
+simple_symbolic_robotics.egg-info/PKG-INFO
+simple_symbolic_robotics.egg-info/SOURCES.txt
+simple_symbolic_robotics.egg-info/dependency_links.txt
+simple_symbolic_robotics.egg-info/requires.txt
+simple_symbolic_robotics.egg-info/top_level.txt
