@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/ai4_metadata_validator.egg-info/PKG-INFO
+src/ai4_metadata_validator.egg-info/SOURCES.txt
+src/ai4_metadata_validator.egg-info/dependency_links.txt
+src/ai4_metadata_validator.egg-info/entry_points.txt
+src/ai4_metadata_validator.egg-info/requires.txt
+src/ai4_metadata_validator.egg-info/top_level.txt
+src/ai4metav/__init__.py
+src/ai4metav/main.py
+src/ai4metav/schemata/ai4-apps.json
