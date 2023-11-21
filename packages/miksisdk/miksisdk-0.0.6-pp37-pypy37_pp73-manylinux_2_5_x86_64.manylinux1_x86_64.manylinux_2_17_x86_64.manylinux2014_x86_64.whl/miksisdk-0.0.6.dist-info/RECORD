@@ -1,0 +1,8 @@
+miksisdk-0.0.6.dist-info/top_level.txt,sha256=KbODlLSRtVVq3WYzA1hFhaXgyxHPKnGxVtQAhEmJ3vo,9
+miksisdk-0.0.6.dist-info/WHEEL,sha256=Rp8eOUpC4jmosSFGGalizLPdtHXJ-ewGiqfT7sumz6o,245
+miksisdk-0.0.6.dist-info/METADATA,sha256=g6sy9Ix-rM_jcdse9la_bjGzmyFxu6tpuY0VrLpEp_A,330
+miksisdk-0.0.6.dist-info/RECORD,,
+miksisdk/agent.pypy37-pp73-x86_64-linux-gnu.so,sha256=3eocOPPC0fu3x65zCZdSTU4ml1HhfjyGSdRnfrGML9o,78944
+miksisdk/forecast_tool.pypy37-pp73-x86_64-linux-gnu.so,sha256=JRLIkQBWbNf61ne2lD-oDC0kNx2yOxCyiVttv4K3mOs,120192
+miksisdk/__init__.pypy37-pp73-x86_64-linux-gnu.so,sha256=GX3Lxlo_OtDl9oHwydND4oZ4DGcJsKPNn4Iaoa8vfdo,23256
+miksisdk/base.pypy37-pp73-x86_64-linux-gnu.so,sha256=XD2GIRTGH3xHlfCfMyyQxtyrKqqfhVfzpH1BA77uu68,78704
