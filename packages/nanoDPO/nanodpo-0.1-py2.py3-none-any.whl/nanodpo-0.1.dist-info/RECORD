@@ -1,0 +1,9 @@
+nanodpo/causal_transformer.py,sha256=HVesM_ysaB8fEgT7AYTDjUdg_uUDkY953feec9iLNcM,2503
+nanodpo/dpo_onemodel_trainer.py,sha256=tIbDRp2pNcW2VTW0n-E1Opoggcfv96kFtX7ISVTCU3E,9241
+nanodpo/multiclass_trainer.py,sha256=ZnpQWw2J7UHvI-a5K-ilRZ-g4_sPFkueJKRBrMeHiYo,10010
+nanodpo/preference_data.py,sha256=Lx94CYvPK8yg8Pwg94pqK1GofuxJdXLf8PihIy59FCw,2479
+nanodpo/sequence_data.py,sha256=x3SDEynGff3SnvYDcF5NMSR1MUKGDK9qweVSVr18OLc,1553
+nanodpo/simple_sequence_model.py,sha256=x0kxHApUpU-2_65rh4QtR20IcgYbtiAzP4xEeOWXCqM,2822
+nanodpo-0.1.dist-info/METADATA,sha256=dnaXqGfMP7n4Ut8ez7_D0W4e2oaHxYBtMD_-eLdHP-M,3037
+nanodpo-0.1.dist-info/WHEEL,sha256=RsNcXn1ku1cI7LVkdbiD4HxFH-ZNt6-iSezWxkqUYi4,92
+nanodpo-0.1.dist-info/RECORD,,
