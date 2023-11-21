@@ -1,0 +1,13 @@
+forestadmin/datasource_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forestadmin/datasource_django/collection.py,sha256=8SG_JjPSLTbY1V8mf5FpboQ1nuOGRP7r9aHerK4NZ7w,3565
+forestadmin/datasource_django/datasource.py,sha256=v_Xjlecd1I31cQBK4a2raaQQPijz7cmYjISk4mlGVnI,538
+forestadmin/datasource_django/exception.py,sha256=e4bKdLtBW3SGPayEd2UjdsmL1DP7Z201g7hXJ3890bs,153
+forestadmin/datasource_django/interface.py,sha256=Te-5540hlPPYDx-lAYlIBwlABew59gZ7EGzEIt2Ihz8,365
+forestadmin/datasource_django/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forestadmin/datasource_django/utils/model_introspection.py,sha256=tMBeuc4aPmezO2Lb4Yk3sQarg5bCN71Ngnu7q6Z3L9k,6620
+forestadmin/datasource_django/utils/query_factory.py,sha256=yTgPbJu7HHP2E0LWjVmHHIR7NVmaWteaBhPatedAiII,13728
+forestadmin/datasource_django/utils/record_serializer.py,sha256=HAi_dnHSpeCyPzgv1qVkCjLwzyCjwl0uK_fprK3bang,641
+forestadmin/datasource_django/utils/type_converter.py,sha256=VsMeiVwTaRVo0svynPdCahhFDkKpXhIHNQ0WeMILChA,6097
+forestadmin_datasource_django-1.1.0.dist-info/METADATA,sha256=L1g24TBzSEUBtk1MR7tjXGRAohf73QkzAdDamgy3Xbk,864
+forestadmin_datasource_django-1.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+forestadmin_datasource_django-1.1.0.dist-info/RECORD,,
