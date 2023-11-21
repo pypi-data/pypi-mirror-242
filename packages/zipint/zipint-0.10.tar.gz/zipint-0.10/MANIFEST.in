@@ -1,0 +1,3 @@
+include zipint/requirements.txt
+include zipint/thirdparty.json
+include zipint/README.MD

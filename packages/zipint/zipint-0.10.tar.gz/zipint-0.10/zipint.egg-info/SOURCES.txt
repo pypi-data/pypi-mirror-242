@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+zipint/README.MD
+zipint/__init__.py
+zipint/requirements.txt
+zipint/thirdparty.json
+zipint.egg-info/PKG-INFO
+zipint.egg-info/SOURCES.txt
+zipint.egg-info/dependency_links.txt
+zipint.egg-info/requires.txt
+zipint.egg-info/top_level.txt
