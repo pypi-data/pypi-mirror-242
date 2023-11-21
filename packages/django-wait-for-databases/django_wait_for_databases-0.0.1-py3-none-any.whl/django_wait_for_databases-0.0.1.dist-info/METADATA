@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: django-wait-for-databases
+Version: 0.0.1
+Summary: Django Wait For Databases
+Home-page: https://github.com/lukewiwa/django-wait-for-databases
+License: MIT
+Author: lukewiwa
+Author-email: luke.wiwa@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Django (>=4.2)
+Description-Content-Type: text/markdown
+
+# Django Wait For Databases
+
+Django Wait For Databases
+

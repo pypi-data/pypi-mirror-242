@@ -1,0 +1,7 @@
+django_wait_for_databases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_wait_for_databases/apps.py,sha256=zJnLI-vEJnwN5ZxL1KVaAaLGpf243qU5aHT3fNNRsNU,179
+django_wait_for_databases/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_wait_for_databases/management/commands/wait_for_databases.py,sha256=pNAa8zbA8CC9udNdlCb5HkBMNeLmJGTaha5zdhScWtA,2650
+django_wait_for_databases-0.0.1.dist-info/METADATA,sha256=_h7abhiGAR4DQdtYAlpCM8THprLPV2ClVqmVfjHe6A8,737
+django_wait_for_databases-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_wait_for_databases-0.0.1.dist-info/RECORD,,
