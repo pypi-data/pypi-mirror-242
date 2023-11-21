@@ -1,0 +1,7 @@
+requests
+PyMySQL
+psycopg2
+pydantic
+
+[:sys_platform == "win32"]
+pywin32
