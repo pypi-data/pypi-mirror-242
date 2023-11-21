@@ -1,0 +1,6 @@
+
+[tool.venvx]
+append-version = true
+fix-new-venvs = false
+upgrade-pip = false
+venv-prefix = "myenv"

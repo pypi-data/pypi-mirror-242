@@ -1,0 +1,5 @@
+
+
+[tool.venvx]
+append-version = false
+venv-prefix = "venv"
