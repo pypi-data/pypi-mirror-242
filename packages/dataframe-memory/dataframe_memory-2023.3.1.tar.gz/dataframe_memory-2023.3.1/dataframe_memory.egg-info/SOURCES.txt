@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+data_memory/__init__.py
+data_memory/main.py
+dataframe_memory.egg-info/PKG-INFO
+dataframe_memory.egg-info/SOURCES.txt
+dataframe_memory.egg-info/dependency_links.txt
+dataframe_memory.egg-info/requires.txt
+dataframe_memory.egg-info/top_level.txt
