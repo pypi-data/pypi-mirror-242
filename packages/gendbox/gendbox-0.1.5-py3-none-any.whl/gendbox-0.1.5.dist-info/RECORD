@@ -1,0 +1,14 @@
+gendbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gendbox/geometry.py,sha256=4G4PXVlobl3AUqhuW-menSTk7yqwH4m6ivLrJ8Y2DyI,3952
+gendbox/stats.py,sha256=-IfRZa1F6b4ALzpHSFtEt9amTw_bEHowcv6sw7cZYQE,6472
+gendbox/learning/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gendbox/learning/supervised.py,sha256=N2PPKwjYg_02aNJSwkCGppBzDbBCFivqZSggzIOkB3Y,29
+gendbox/preprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gendbox/preprocessing/normalization.py,sha256=s4iMdAizyHaBinXFoDIWgsU58wTCUU8ntX4Bbqh2eEM,1098
+preprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+preprocessing/normalization.py,sha256=eFbFSWIucLJTxVwLhY3b5jOzCEypmOvowS_NryL21Cw,858
+gendbox-0.1.5.dist-info/LICENSE,sha256=iJjHocrEinEGvpXFOGxhNZijprZg99ySHKmag8DQHxM,1089
+gendbox-0.1.5.dist-info/METADATA,sha256=Knfekt60DswP4_bX0eB_ele16zqzSl9Yyf5WjFpPFug,177
+gendbox-0.1.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+gendbox-0.1.5.dist-info/top_level.txt,sha256=7vqLwKvqvCny2suaanb-P_RrFWcv6-mTgKtvaYN1Lis,8
+gendbox-0.1.5.dist-info/RECORD,,
