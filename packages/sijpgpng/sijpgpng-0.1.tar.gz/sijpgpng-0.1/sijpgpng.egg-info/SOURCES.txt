@@ -1,0 +1,7 @@
+setup.py
+sijpgpng.egg-info/PKG-INFO
+sijpgpng.egg-info/SOURCES.txt
+sijpgpng.egg-info/dependency_links.txt
+sijpgpng.egg-info/top_level.txt
+sjpgpng/__init__.py
+sjpgpng/convert.py
