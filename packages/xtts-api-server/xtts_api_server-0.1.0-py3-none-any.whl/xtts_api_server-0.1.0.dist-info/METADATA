@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: xtts-api-server
+Version: 0.1.0
+Summary: A simple FastAPI server to host XTTSv2
+Project-URL: Homepage, https://github.com/daswer123/xttsv2-api-server
+Project-URL: Bug Tracker, https://github.com/daswer123/xttsv2-api-server/issues
+Author-email: daswer123 <daswerq123@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: fastapi
+Requires-Dist: loguru
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: tts
+Requires-Dist: uvicorn
+Description-Content-Type: text/markdown
+
+# xttsv2-api-server
+
+The project is inspired by [silero-api-server](https://github.com/ouoertheo/silero-api-server)
+
+# TODO
+
+- [ ] Adapt the code so that it can be used in sillyTavern
+- [ ] Write and design a README
+- [ ] Add usage examples
