@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: youtube-search-music
+Version: 2.1.2
+Summary: Perform YouTube music video searches using API
+Home-page: https://github.com/DWAA1660/youtube_music_search
+Author: DWAA1660
+Author-email: dwatnip123@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# youtube_search
+
+Python function for searching for youtube music videos wrapping the youtube api to automaticly search for music.
+## Example Usage
+
+For a basic search (and all of the current functionality), you can use the search tool as follows:
+
+```pip install youtube-search_music```
+
+```python
+from youtube_search_music import YoutubeMusicSearch
+
+results = YoutubeSearch('YOURAPIKEY').search(query)
+
+print(results)
+
+```
+
+
