@@ -1,0 +1,12 @@
+README.md
+setup.py
+k8scmd/__init__.py
+k8scmd/cmd.py
+k8scmd/util.py
+k8scmd.egg-info/PKG-INFO
+k8scmd.egg-info/SOURCES.txt
+k8scmd.egg-info/dependency_links.txt
+k8scmd.egg-info/entry_points.txt
+k8scmd.egg-info/not-zip-safe
+k8scmd.egg-info/requires.txt
+k8scmd.egg-info/top_level.txt
