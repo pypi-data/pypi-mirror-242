@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+pico/__init__.py
+pico/actions.py
+picoai.egg-info/PKG-INFO
+picoai.egg-info/SOURCES.txt
+picoai.egg-info/dependency_links.txt
+picoai.egg-info/top_level.txt
