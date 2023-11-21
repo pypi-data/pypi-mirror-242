@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+python_moztelemetry.egg-info/PKG-INFO
+python_moztelemetry.egg-info/SOURCES.txt
+python_moztelemetry.egg-info/dependency_links.txt
+python_moztelemetry.egg-info/not-zip-safe
+python_moztelemetry.egg-info/top_level.txt
