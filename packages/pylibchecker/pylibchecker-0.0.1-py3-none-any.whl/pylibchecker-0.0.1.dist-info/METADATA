@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pylibchecker
+Version: 0.0.1
+Summary: Utils inspired by LibChecker, checking Android so files.
+License: MIT
+Author: LY
+Author-email: ly-niko@qq.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Requires-Dist: platformdirs (>=4.0.0,<5.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+Utils inspired by LibChecker, checking Android so files.
+
