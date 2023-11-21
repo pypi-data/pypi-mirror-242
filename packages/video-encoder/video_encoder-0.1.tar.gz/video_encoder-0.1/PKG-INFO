@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: video_encoder
+Version: 0.1
+Requires-Dist: scenedetect
+Requires-Dist: tqdm
+Requires-Dist: celery
+Requires-Dist: redis
+Requires-Dist: psutil
+Requires-Dist: opencv-python
