@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: procurement-tools
+Version: 0.0.2
+Summary: Python tools for navigating federal contracting
+Author: V. David Zvenyach
+Author-email: dave@tandemgov.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# procurement-tools
+
+A handy collection of python utilities and tools to navigate federal contracting.
+
+## License
+
+Apache 2.0
+
