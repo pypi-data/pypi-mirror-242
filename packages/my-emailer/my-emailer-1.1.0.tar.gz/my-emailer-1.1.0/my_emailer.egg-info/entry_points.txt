@@ -1,0 +1,2 @@
+[console_scripts]
+my-emailer = my_emailer.emailer:main
