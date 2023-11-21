@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/repo2txt/__init__.py
+src/repo2txt/repo2txt.py
+src/repo2txt.egg-info/PKG-INFO
+src/repo2txt.egg-info/SOURCES.txt
+src/repo2txt.egg-info/dependency_links.txt
+src/repo2txt.egg-info/entry_points.txt
+src/repo2txt.egg-info/requires.txt
+src/repo2txt.egg-info/top_level.txt
