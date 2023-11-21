@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: fala-parlamentar
+Version: 0.1.0
+Summary: Módulo para obtenção dos discursos dos parlamentares via webscraping mantendo a url para a publicação do texto
+Author-email: Jeferson Alves <contato@jefersonalves.com>
+License: The MIT License
+        
+        Copyright (c) 2010-2020 Google, Inc. http://angularjs.org
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+Project-URL: homepage, https://github.com/Jefersonalves/fala-parlamentar
+Keywords: web-scraping,senado,camara,congresso-nacional
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4>=4.6.3
+Requires-Dist: pandas>=0.23.4
+Requires-Dist: requests>=2.20.0
+
+>## fala-parlamentar
+
+Obtém os discursos dos parlamentares via webscraping mantendo a url para a publicação do texto
+
+>## instalação
+
+`git clone https://github.com/Jefersonalves/fala-parlamentar.git`
+
+`cd fala-parlamentar`
+
+`pip install .`
+
+>## como usar
+>### discursos senadores
+```
+In [1]: from fala_parlamentar import get_discursos_senador
+
+In [2]: discursos = get_discursos_senador(3830, "2019-01-01", "2020-01-01") #id do Davi Alcolumbre
+
+In [3]: discursos[1]
+Out[3]: 
+{'titulo': 'Pronunciamento de Davi Alcolumbre em 12/12/2019',
+ 'url_texto': 'http://www25.senado.leg.br/web/atividade/pronunciamentos/-/p/texto/463401',
+ 'transcricao': 'O SR. PRESIDENTE  (Davi Alcolumbre. Bloco/DEM - AP) – Eu gostaria de agradecer a todos que nos honraram com a presença nesta sessão solene. \nE declaro encerrada esta sessão.'}
+```
+
+>### discursos deputados
+```
+In [1]: from fala_parlamentar import get_discursos_deputado
+
+In [2]: discursos = get_discursos_deputado("Rodrigo Maia", "2019-01-01", "2020-01-01")
+
+In [3]: discursos[18]
+Out[3]: 
+{'urlTexto': 'https://www.camara.leg.br/internet/sitaqweb/TextoHTML.asp?etapa=5&nuSessao=11.2019&nuQuarto=77720&nuOrador=11&nuInsercao=11&dtHorarioQuarto=17:00&sgFaseSessao=OD&Data=20/02/2019&txApelido=RODRIGO%20MAIA%20(PRESIDENTE),%20DEM-RJ&txFaseSessao=Ordem%20do%20Dia&txTipoSessao=Deliberativa%20Ordin%C3%83%C2%A1ria%20-%20CD&dtHoraQuarto=17:00&txEtapa=',
+ 'transcricao': 'O SR. PRESIDENTE (Rodrigo Maia. Bloco/DEM - RJ) - Eu já recolhi a sua questão de ordem e vou indeferi-la, porque, por mais que boa parte do texto esteja prejudicada, ainda sobra algo que permanece.Então, infelizmente, não tem como deferir a sua questão de ordem.',
+ 'titulo': 'Pronunciamento de rodrigo maia em 20/02/2019'}
+```
