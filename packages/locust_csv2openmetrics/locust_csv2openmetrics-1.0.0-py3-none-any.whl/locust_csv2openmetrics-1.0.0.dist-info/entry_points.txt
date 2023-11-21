@@ -1,0 +1,3 @@
+[console_scripts]
+locust_csv2openmetrics=locust_csv2openmetrics:main
+
