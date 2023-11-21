@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: dotlink
+Version: 2.0
+Summary: Automate deployment of dotfiles to local paths or remote hosts
+Author-email: Amethyst Reese <amy@noswap.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Dist: click >= 8
+Requires-Dist: typing_extensions >= 4
+Requires-Dist: attribution==1.6.2 ; extra == "dev"
+Requires-Dist: black==23.11.0 ; extra == "dev"
+Requires-Dist: flake8==6.1.0 ; extra == "dev"
+Requires-Dist: flit==3.9.0 ; extra == "dev"
+Requires-Dist: mypy==1.6.1 ; extra == "dev"
+Requires-Dist: pytest==7.4.3 ; extra == "dev"
+Requires-Dist: usort==1.0.7 ; extra == "dev"
+Requires-Dist: ufmt==2.3.0 ; extra == "dev"
+Project-URL: Github, https://github.com/amyreese/dotlink
+Project-URL: home-page, https://github.com/amyreese/dotlink
+Provides-Extra: dev
+
+dotlink
+=======
+
+Automate deployment of dotfiles to local paths or remote hosts
+
+[![version](https://img.shields.io/pypi/v/dotlink.svg)](https://pypi.org/project/dotlink)
+[![changelog](https://img.shields.io/badge/change-log-blue)](https://github.com/amyreese/dotlink/blob/main/CHANGELOG.md)
+[![license](https://img.shields.io/pypi/l/dotlink.svg)](https://github.com/amyreese/dotlink/blob/main/LICENSE)
+
+
+install
+-------
+
+    $ pipx install dotlink
+
+
+usage
+-----
+
+List your dotfiles in a simple text format named either `.dotlink` or `dotlink`:
+
+    # comments are lines starting with hash
+
+    # simple file listing
+    .vimrc
+    .zshrc
+
+    # map files to different names/paths (destination = source)
+    .config/htop/htoprc = htoprc
+
+    # include configs from submodules or other directories
+    @submodule/
+
+See example repo/config at https://github.com/amyreese/dotfiles
+
+Tell dotlink where your dotfile repo is, and where it should put things.
+Defaults to the current directory and your home directory, respectively:
+
+    $ dotlink [<source>] [<destination>]
+
+Use `--plan` to see what dotlink will do before doing it:
+
+    $ dotlink --plan [...]
+
+The source can be a cloneable git repo:
+
+    $ dotlink https://github.com/amyreese/dotfiles.git
+
+The destination can be a remote, ssh-able location:
+
+    $ dotlink <source> [<user>@]host:/path/to/destination
+
+
+legal
+-----
+
+dotlink is copyright [Amethyst Reese](https://noswap.com).
+
+dotlink is licensed under the MIT license.
+See the `LICENSE` file for more details.
+
