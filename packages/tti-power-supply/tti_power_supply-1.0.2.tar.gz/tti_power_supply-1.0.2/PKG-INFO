@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tti_power_supply
+Version: 1.0.2
+Summary: Driver for the TTI QL355P power supply, via USB or LAN
+Author: Charles Baynham
+Author-email: c.baynham@imperial.ac.uk
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: generic-scpi-driver (>=1.5,<2.0)
+Description-Content-Type: text/x-rst
+
+TTI Power supply
+==================
+
+**Driver for the TTI QL355P power supply**
+
+*Charles Baynham 2023*
+
+This package defines the `TTIPowerSupply` and `TTIPowerSupplyTCP` objects, for
+USB and LAN control. Use them e.g. like this::
+
+    d_USB = TTIPowerSupply(id="COM45")
+    d_LAN = TTIPowerSupplyTCP(id="10.0.0.0")
+
+    print(d_LAN.get_identity())
+
