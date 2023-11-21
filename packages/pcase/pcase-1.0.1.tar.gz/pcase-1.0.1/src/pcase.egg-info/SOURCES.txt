@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/pcase/__init__.py
+src/pcase/caseCreate.py
+src/pcase/conf.py
+src/pcase/excelOperation.py
+src/pcase/zhengjiao.py
+src/pcase.egg-info/PKG-INFO
+src/pcase.egg-info/SOURCES.txt
+src/pcase.egg-info/dependency_links.txt
+src/pcase.egg-info/requires.txt
+src/pcase.egg-info/top_level.txt
