@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+stochasticprocesses.egg-info/PKG-INFO
+stochasticprocesses.egg-info/SOURCES.txt
+stochasticprocesses.egg-info/dependency_links.txt
+stochasticprocesses.egg-info/requires.txt
+stochasticprocesses.egg-info/top_level.txt
