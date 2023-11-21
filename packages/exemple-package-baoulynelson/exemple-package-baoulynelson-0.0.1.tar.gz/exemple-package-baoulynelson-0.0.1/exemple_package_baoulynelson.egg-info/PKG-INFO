@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: exemple-package-baoulynelson
+Version: 0.0.1
+Summary: Un petit exemple de package
+Home-page: https://github.com/BaoulyNelson/exemplePackage.git
+Author: Baouly Nelson
+Author-email: baoulynelson@egmail.com
+Classifier: Programming Language :: Python :: 3

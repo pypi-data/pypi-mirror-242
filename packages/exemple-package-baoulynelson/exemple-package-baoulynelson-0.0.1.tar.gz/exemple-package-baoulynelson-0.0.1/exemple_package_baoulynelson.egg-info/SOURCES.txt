@@ -1,0 +1,6 @@
+README.md
+setup.py
+exemple_package_baoulynelson.egg-info/PKG-INFO
+exemple_package_baoulynelson.egg-info/SOURCES.txt
+exemple_package_baoulynelson.egg-info/dependency_links.txt
+exemple_package_baoulynelson.egg-info/top_level.txt
