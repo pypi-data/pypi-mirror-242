@@ -1,0 +1,2 @@
+recursive-include sshifted/ace *
+include sshifted/ *.jpg

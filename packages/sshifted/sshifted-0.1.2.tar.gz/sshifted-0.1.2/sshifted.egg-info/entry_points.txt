@@ -1,0 +1,2 @@
+[console_scripts]
+sshifted = sshifted.__main__:main
