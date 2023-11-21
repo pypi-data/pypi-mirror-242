@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: libfelix
+Version: 0.1.1
+Summary: Felix' library
+Author-email: Felix Hummel <felix@felixhummel.de>
+Project-URL: Repository, https://gitlab.com/felixhummel/libfelix/
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: structlog
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: cython ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# flx
+Felix without ei. 😁
+
+Felix' library of snippets.
+
+- few dependencies
+- keep it simple
+
+
+## Installation
+```
+pip install libfelix
+```
+
+
+## flx.git
+```python
+>>> from flx.git import Repo
+>>> r = Repo('.')
+>>> r.head
+'9e260ece8558ba9a6c4ad6a9c89905630fe0140b'
+```
+
+
+## Development
+```
+pyenv virtualenv 3.10.11 flx
+pyenv local flx
+pip install -U pip
+pip install -e .[dev]
+```
