@@ -1,0 +1,8 @@
+adafruit_apds9960/__init__.py,sha256=O9iGyVC89mnEwXHohhcaxBouluz1QVU9WrijtlXdhUA,147
+adafruit_apds9960/apds9960.py,sha256=IujJKIxJdRqsOE54x8qZQAy-_dXxEjl8jMZFNQCQHN4,35525
+adafruit_apds9960/colorutility.py,sha256=_OB1_Q2z6ofua6PC6CeFH8gDdqVJHbfUB_17550-mRs,1569
+adafruit_circuitpython_apds9960-3.1.10.dist-info/LICENSE,sha256=TRCWAn46aJcq22rZ2Me1Y5S3aPdemdlJOrYc7W-lsPw,1099
+adafruit_circuitpython_apds9960-3.1.10.dist-info/METADATA,sha256=MEGW_Y88zqf0VkdKqZ5j6-dn9RL1Bsjnig4yXg0iLp8,10037
+adafruit_circuitpython_apds9960-3.1.10.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+adafruit_circuitpython_apds9960-3.1.10.dist-info/top_level.txt,sha256=8-zAxkN-u5GWBtOmLnLXtca47qmYYaDW3mxijiq1ax4,18
+adafruit_circuitpython_apds9960-3.1.10.dist-info/RECORD,,
