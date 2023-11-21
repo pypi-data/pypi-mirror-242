@@ -1,0 +1,196 @@
+Metadata-Version: 2.1
+Name: Udemy-Pythonlib
+Version: 1.0.0.0
+Summary: Interaja com a plataforma Udemy de forma mais prática para obter detalhes e extrair informações dos cursos em que você está inscrito.
+Author: Paulocesar0073
+Author-email: pauloguitarrasoms@icloud.com
+License: MIT License
+Keywords: udemy,apis,udemy downloader,baixar videos udemy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+
+## Udemy-Pythonlib
+
+`Udemy-Pythonlib` é uma poderosa biblioteca Python desenvolvida para facilitar sua interação com a plataforma Udemy por meio da API do cliente. Com ela, você pode acessar facilmente detalhes de cursos, informações de usuários, cursos inscritos e realizar o download de arquivos ou vídeos. Esta biblioteca atua como um navegador nos bastidores, simplificando a obtenção de informações específicas da plataforma,somente exigindo os cookies de sessão para funcionar perfeitamente que podem ser obtidos com o comando no console do navegador
+```bash
+document.cookie;
+```
+ou se preferir podes usar a extenssão [CookiE_INFOs](https://addons.mozilla.org/pt-BR/firefox/addon/cookie_infos/).
+
+
+### Instalação
+
+Para instalar a biblioteca `Udemy-Pythonlib`, utilize o seguinte comando:
+
+```bash
+pip install Udemy-Pythonlib
+```
+
+### Uso Básico
+
+Comece explorando os métodos principais para aproveitar ao máximo a funcionalidade da biblioteca.
+
+#### Método: `meus_cursos_que_estou_inscrito(exibir=False)`
+
+| Parâmetro | Descrição |
+|-----------|-----------|
+| `exibir`  | Se `True`, exibe os detalhes dos cursos no console. Se `False`, os detalhes são retornados como uma lista. |
+
+Exemplo de Uso:
+
+```python
+import Udemy
+
+cookies = 'seus_cookies_aqui'
+user_chefe = Udemy(cookiesDeSecao=cookies)
+meus_cursos = user_chefe.meus_cursos_que_estou_inscrito(exibir=True)
+```
+
+#### Método: `obter_detalhes_curso(self, id_do_curso, exibir=False, Filter_capitulos=False, Filter_video_titles=False, Filter_id=False, Filter_id_files=False, Filter_Id_lecture=False)`
+
+Este método oferece detalhes específicos sobre um curso na Udemy.
+
+| Parâmetro          | Descrição |
+|--------------------|-----------|
+| `id_do_curso`      | ID do curso obtido através do método `obter_detalhes_curso`. |
+| `exibir`           | Se `True`, exibe os detalhes do curso no console. Se `False`, os detalhes são retornados como um dicionário. |
+| `Filter_capitulos` | Se `True`, exibe os capítulos do curso. |
+| `Filter_video_titles` | Se `True`, exibe os títulos dos vídeos do curso. |
+| `Filter_id`        | Se `True`, exibe os IDs relacionados ao curso. |
+| `Filter_id_files`  | Se `True`, exibe os IDs dos arquivos associados ao curso. |
+| `Filter_Id_lecture`| Se `True`, exibe os IDs de lecture e de asset necessários para obter arquivos e links de mídia. |
+
+Exemplo de Uso:
+
+```python
+import Udemy
+
+cookies = 'seus_cookies_aqui'
+user_chefe = Udemy(cookiesDeSecao=cookies)
+
+detalhes_curso = user_chefe.obter_detalhes_curso(id_do_curso='ID_DO_CURSO', exibir=True, Filter_capitulos=True)
+```
+
+#### Método: `obter_meu_id(exibir=False)`
+
+Este método retorna o ID do usuário atualmente logado no Udemy.
+
+| Parâmetro | Descrição |
+|-----------|-----------|
+| `exibir`  | Se `True`, o ID do usuário será exibido no console. Se `False`, o ID será retornado. |
+
+Exemplo de Uso:
+
+```python
+import Udemy
+
+cookies = 'seus_cookies_aqui'
+user_chefe = Udemy(cookiesDeSecao=cookies)
+id_usuario = user_chefe.obter_meu_id(exibir=True)
+```
+
+#### Método: `FFmpegas(self,url,titulo)`
+
+Este método permite que você baixe vídeos através do programa `ffmpeg`. Certifique-se de ter o `ffmpeg` instalado em seu PATH.
+
+Exemplo de Uso:
+
+```python
+import Udemy
+
+cookies = 'seus_cookies_aqui'
+user_chefe = Udemy(cookiesDeSecao=cookies)
+
+titulo_do_video = "videoTESTES" # pode ser obtido com o metodo obter_detalhes_curso(id_do_curso, exibir=True,Filter_video_titles=False)
+
+url = "url-do-video-aqui" #pode ser obtido com o metodo obter_links_de_midias(ID_Curso, ID_lecture)
+
+user_chefe.FFmpegas(url,titulo_do_video)
+```
+
+#### Método: `obter_files(self, Id_curso, Id_lecture, Id_asset, exibir=False)`
+
+| Parâmetro   | Descrição |
+|-------------|-----------|
+| `Id_curso`  | ID do curso que está analisando. |
+| `Id_lecture`| ID da aula que deseja obter os links (pode ser obtido com o método `obter_detalhes_curso(id_do_curso,exibir=True,Filter_video_titles=False)`). |
+| `Id_asset`  | Pode ser obtido com o parâmetro `Filter_Id_lecture=True` do método `obter_detalhes_curso()`. |
+| `exibir=False` | Se `True`, exibe a saída no terminal. |
+
+Exemplo de Uso:
+
+```python
+import Udemy
+
+cookies = 'seus_cookies_aqui'
+user_chefe = Udemy(cookiesDeSecao=cookies)
+
+id_lecture = "ID-LECTURE"
+id_asset = "ID-ASSET"
+id_curso = "ID-DO-CURSO"
+
+user_chefe.obter_files(Id_curso, Id_lecture, Id_asset, exibir=True)
+```
+
+#### Método: `Baixar_Curso(self,ID_curso,cookie)`
+
+Esta subclasse permite que você baixe um curso, desde que esteja inscrito. Tenha em mente que este processo pode ser demorado.
+
+| Parâmetro | Descrição |
+|-----------|-----------|
+| `ID_curso`| ID do curso que deseja baixar. |
+| `cookie`  | Cookies de sessão. |
+
+Exemplo de Uso:
+
+```python
+from Udemy import Baixar_Curso
+
+cookies = 'seus_cookies_aqui'
+id_curso = "ID DO CURSO AQUI"
+Baixar_Curso(id_curso, cookies)
+```
+
+#### Método: `Baixar_Files(self, url)`
+
+Este método permite que você baixe arquivos de um curso, passando somente a URL do mesmo.
+
+Exemplo de Uso:
+
+```python
+import Udemy
+
+cookies = 'SEUS COOKIES DE SEÇÃO AQUI'
+user = Udemy(cookiesDeSecao=cookies)
+
+curso_id = "ID DO SEU CURSO"
+files = user.obter_detalhes_curso(curso_id, Filter_id_files=True) # lista de dicionários 
+
+for dicionary in files:
+    lecture = dicionary.get('ID de lecture') # obtem
+
+ o id lecture
+    asset = dicionary.get('ID de asset') # obtem o id asset
+    arquivos = user.obter_files(curso_id, Id_lecture=lecture, Id_asset=asset)
+    
+    ## baixar arquivos ou se for url externas ignorar..
+    for l in arquivos:
+        file = l.get('Url file')
+        if file:
+            user.Baixar_Files(file)
+        else:
+            print(f'Esta é uma URL externa... {l.get("URL Externa")}')
+```
+
+Estas são as funcionalidades oferecidas pela `Udemy-Pythonlib`. Explore os métodos e descubra todo o potencial dessa biblioteca incrível!
+
+
+Para suporte adicional ou para reportar problemas,dúvidas ou questões técnicas,peço que abra uma issue.
+
+Espero que esta descrição completa seja útil para o seu entendimento da biblioteca
+!
+
+
