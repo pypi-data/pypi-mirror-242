@@ -1,0 +1,13 @@
+kalmangps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kalmangps/kalman_processor.py,sha256=DVNrcC_OaqQW-CzFaBydDSc3l9LUrKHw6jLJymELKOo,9708
+kalmangps/components/data.py,sha256=Dwu0gsjBXf00239bF69l_ZDNLDWk-tw31qolunXiIZM,3761
+kalmangps/components/madgwickahrs.py,sha256=CXk1f-7BcgM5iCrDVPLE-DQFSTbwhM97Q58dy9t6krk,5961
+kalmangps/components/quaternion.py,sha256=yK5Y4W1PGGHsKYnXUpRARaPjKp3a5POLLlMlrbN4JCk,5627
+kalmangps/components/utils.py,sha256=uapz4XW7ZSbosmE9RLyl3zUdE7qdzTiSHJeFlLOQKw4,2225
+kalmangps/components/version.py,sha256=9ddSUdMaay1wKKHWECZ2twPO3vJxCaCwvD41fgsSDH4,50
+kalmangps-0.0.3.dist-info/LICENSE,sha256=9Eyhnq-QcizWxYM_dC12x6Q_Y50LiX1utQbbSuqb1Ys,1064
+kalmangps-0.0.3.dist-info/METADATA,sha256=jjxe2qaU1037cwXVSLmle9G1BEvSLM0Da8BD4cHBzVY,3712
+kalmangps-0.0.3.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+kalmangps-0.0.3.dist-info/entry_points.txt,sha256=pBi7K9ySPuTuFDhZgFKj-i4j8tBXtT9dhj2t-jaCFpo,49
+kalmangps-0.0.3.dist-info/top_level.txt,sha256=RdbHbdhIoLZG_t2m7y0TPAIBMgYAT4Dhrcx3bWTvM9s,10
+kalmangps-0.0.3.dist-info/RECORD,,
