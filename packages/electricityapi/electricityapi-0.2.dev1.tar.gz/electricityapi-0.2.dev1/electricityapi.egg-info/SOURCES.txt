@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+electricityapi/ElectricityMap.py
+electricityapi/__init__.py
+electricityapi.egg-info/PKG-INFO
+electricityapi.egg-info/SOURCES.txt
+electricityapi.egg-info/dependency_links.txt
+electricityapi.egg-info/requires.txt
+electricityapi.egg-info/top_level.txt
