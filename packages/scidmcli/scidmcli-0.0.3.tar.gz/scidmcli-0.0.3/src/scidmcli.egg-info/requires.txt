@@ -1,0 +1,6 @@
+ckanapi
+requests
+configparser
+click
+PyYAML
+terminaltables
