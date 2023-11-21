@@ -1,0 +1,8 @@
+setup.py
+Operator1.egg-info/PKG-INFO
+Operator1.egg-info/SOURCES.txt
+Operator1.egg-info/dependency_links.txt
+Operator1.egg-info/requires.txt
+Operator1.egg-info/top_level.txt
+operators/__init__.py
+operators/operator.py

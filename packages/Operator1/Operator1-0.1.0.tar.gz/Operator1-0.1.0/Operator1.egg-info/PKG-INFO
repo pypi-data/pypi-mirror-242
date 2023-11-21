@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: Operator1
+Version: 0.1.0
+Requires-Dist: apache-airflow>=2.7.3
