@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: multisshift
+Version: 0.1.1
+Summary: A native python SSH multi-tabbed Terminal based on PyQt6 and FastAPI
+Home-page: https://github.com/scottpeterman/MultiSShift
+Author: Scott Peterman
+Author-email: scottpeterman@gmail.com
+License: GPLv3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: annotated-types ==0.6.0
+Requires-Dist: anyio ==3.7.1
+Requires-Dist: bcrypt ==4.0.1
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: click ==8.1.7
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: cryptography ==41.0.5
+Requires-Dist: exceptiongroup ==1.1.3
+Requires-Dist: fastapi ==0.104.1
+Requires-Dist: greenlet ==3.0.1
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httptools ==0.6.1
+Requires-Dist: idna ==3.4
+Requires-Dist: Jinja2 ==3.1.2
+Requires-Dist: MarkupSafe ==2.1.3
+Requires-Dist: paramiko ==3.3.1
+Requires-Dist: pycparser ==2.21
+Requires-Dist: pydantic ==2.4.2
+Requires-Dist: pydantic-core ==2.10.1
+Requires-Dist: pyserial ==3.5
+Requires-Dist: PyNaCl ==1.5.0
+Requires-Dist: PyQt6 ==6.6.0
+Requires-Dist: PyQt6-Qt6 ==6.6.0
+Requires-Dist: PyQt6-sip ==13.6.0
+Requires-Dist: PyQt6-WebEngine ==6.6.0
+Requires-Dist: PyQt6-WebEngine-Qt6 ==6.6.0
+Requires-Dist: python-dotenv ==1.0.0
+Requires-Dist: python-multipart ==0.0.6
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: sniffio ==1.3.0
+Requires-Dist: SQLAlchemy ==2.0.23
+Requires-Dist: starlette ==0.27.0
+Requires-Dist: typing-extensions ==4.8.0
+Requires-Dist: uvicorn ==0.24.0.post1
+Requires-Dist: watchfiles ==0.21.0
+Requires-Dist: websockets ==12.0
+
+
+# MultiSSHift Terminal
+
+## Overview
+`MultiSSHift Terminal` is an advanced SSH management tool designed for network professionals who require a robust and efficient way to manage multiple SSH sessions. Built with PyQt6 and integrating a web-based terminal interface, it offers a comprehensive solution for managing network devices and servers.
+
+
+## Key Features
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/scottpeterman/MultiSShift/main/screen-shots/terminal2.png" alt="screen 2" width="400px">
+<hr>
+  <img src="https://raw.githubusercontent.com/scottpeterman/MultiSShift/main/screen-shots/terminal1.png" alt="screen 1" width="400px">
+  <hr>
+  
+</div>
+
+
+- **Session Management**: Effortlessly manage multiple SSH sessions with an intuitive tree-view interface. Organize and access your sessions with ease.
+- **Embedded Web View**: Integrated web view for seamless interaction with web-based management tools and documentation.
+- **Versatile Tools**: Includes built-in features such as a log viewer, file editor, and ad-hoc connection dialog, providing a one-stop solution for various network management tasks.
+- **Themes**: Choose between light standard Qt and dark emerald themes for optimal user experience. Personalize your workspace according to your preference.
+- **Dynamic Toolbar**: Quick access toolbar with essential shortcuts, enhancing your workflow efficiency.
+- **Centralized Settings Management**: Manage credentials and application settings in a centralized manner, ensuring a streamlined and consistent configuration.
+
+## Technical Highlights
+- Built with **PyQt6**, providing a modern and responsive user interface.
+- Utilizes **YAML** for session and settings management, offering a human-readable and easily configurable format.
+- Implements a sophisticated logging, error handling and notification system for reliability and ease of debugging.
+- Integrates seamlessly with **QWebEngineView** for embedded browser functionality.
+- Supports custom JavaScript and CSS for a personalized user experience.
+
+## Installation and Setup
+* To do
+
+## Usage
+* To do
+
+## Package Distribution
+
+```python
+# Create a source distribution and a wheel
+python setup.py sdist bdist_wheel
+
+# Set up a new virtual environment
+python -m venv test_env
+
+# Activate the virtual environment
+source test_env/bin/activate  # On Linux/Mac
+test_env\Scripts\activate     # On Windows
+
+# Install the wheel
+pip install dist/uglypty-0.1-py3-none-any.whl
+
+# Test your script
+python or pythonw -m uglypty
+
+# Use `twine` to upload your package to PyPI: 
+twine upload dist/* 

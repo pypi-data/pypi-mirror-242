@@ -1,0 +1,2 @@
+[console_scripts]
+multishift = multisshift.__main__:main
