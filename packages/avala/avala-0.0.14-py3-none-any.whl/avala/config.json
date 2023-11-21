@@ -1,0 +1,25 @@
+{
+    "API": {
+        "api_url": "https://server.dev.alala.ai/api/v1",
+        "api_key": "66a9decbf50852615dcca93016738697f7d5aba5"
+    },
+    "ProviderConfig": {
+        "provider_config": {
+            "provider": "gc_storage", 
+            "s3_bucket_name": "avala-public-datasets",
+            "s3_bucket_region": "us-west-1",
+            "s3_bucket_prefix": "Closed Testing/2020-05-19/",
+            "s3_access_key_id": "AKIA2DKOTSOB4IL2I57Q",
+            "s3_secret_access_key": "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",
+            "gc_storage_bucket_name": "avala-public-datasets",
+            "gc_storage_prefix": ""
+         }
+    },
+    "Organization": {
+        "organization_config": {
+            "name": "Your Organization Name",
+            "description": "Your Organization Description",
+            "website": "Your Organization Website"
+        }
+    }
+}
