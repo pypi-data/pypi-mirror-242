@@ -1,0 +1,11 @@
+ai_emotion-0.3.1.dist-info/METADATA,sha256=7Yb-y3ZyfGSm3UmPsQR--M8wLu5RRfjU_cGcs2KImak,5056
+ai_emotion-0.3.1.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+ai_emotion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_emotion/complex_emotion.py,sha256=cGSMBrgsIDaXmWxVbAIqeMexQJbtjHehY1iIcSTYKQY,293
+ai_emotion/conversion.py,sha256=8_fWpALcpijQqLKAuiwlsLZBPFNSwY3tEu8TnBd6rd8,878
+ai_emotion/emotion_vector.py,sha256=Be1ba5AP_IMFI-zYyeH9AOMCt9oZmj-Z3bfyx6OxDzI,1401
+ai_emotion/generation.py,sha256=A7Z7NSb7fniIMxxmcXQDuuhr4lSZMnYpHJGw4lrqYp0,612
+ai_emotion/gpt.py,sha256=mICT5RxGUzO1COZox6_TNhrTxqmPqMzBMo_kl7t-mqc,535
+ai_emotion/simple_emotion.py,sha256=RZzvsJFBqkQEsR362WAHJ-Xjn3cb6g3MFb89vsoWPFo,3948
+ai_emotion/transition.py,sha256=BC03AZ6_kwS_5F4Hjr2t8iwgewDaWM6p2nM7Ip92nnY,816
+ai_emotion-0.3.1.dist-info/RECORD,,
