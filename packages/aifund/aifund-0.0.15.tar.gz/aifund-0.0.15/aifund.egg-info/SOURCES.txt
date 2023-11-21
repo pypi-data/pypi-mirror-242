@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+aifund/__init__.py
+aifund/version.py
+aifund.egg-info/PKG-INFO
+aifund.egg-info/SOURCES.txt
+aifund.egg-info/dependency_links.txt
+aifund.egg-info/top_level.txt
+aifund/data/__init__.py
+aifund/data/fund_em.py
+aifund/data/fund_etf_em.py
+aifund/fundstats/__init__.py
+aifund/fundstats/metrics.py
+aifund/fundstats/stats.py
+aifund/fundstats/utils.py
