@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: astri-eda
+Version: 0.1.2
+Summary: 
+Author: leiyuan
+Author-email: leiyuan_1989@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flatdict (==4.0.1)
+Requires-Dist: more_itertools (==10.1.0)
+Requires-Dist: networkx (>=2.8.4,<3.0.0)
+Requires-Dist: pydantic (==1.10.13)
+Requires-Dist: typing_extensions (==4.8.0)
+Requires-Dist: z3_solver (==4.12.2.0)
+Description-Content-Type: text/markdown
+
+# ASTRI EDA Tools
+
+# 1. IP Migration Tool
+## 1.1.1 Netlist Extractor
+
+```python
+
+import pathlib
+import shutil
+from astri_eda import utils
+from astri_eda.schema import Library, SpiceParser, Graph
+from astri_eda.netlist_loader.read_spice import read_spice
+
+netlist_dir = 'examples/telescopic_ota' 
+netlist_dir = 'examples/adder' 
+pdk_dir = 'pdks/FinFET14nm_Mock_PDK/'
+config_path = pathlib.Path('align/config')
+topology_dir = pathlib.Path('experiments/1_topology')
+log_dir = 'experiments'
+
+working_dir = pathlib.Path.cwd().resolve()
+pdk_dir = pathlib.Path(pdk_dir).resolve()
+
+#extract .sp and .const.json files from dir 
+netlist_files,const_files = utils.extract_input_files(netlist_dir)
+netlist = netlist_files[0]
+
+#build logger
+logger = utils.build_logger(log_dir)
+
+subckt = netlist.stem.upper() #name of circuit
+logger.info(f"Reading netlist: {subckt}")
+
+#delete all files and folders in topology dir  
+shutil.rmtree(topology_dir, ignore_errors=True)
+topology_dir.mkdir(exist_ok=True) 
+
+#extract circuits infromation from .sp file
+lib = read_spice(netlist)
+
+#convert subckt to graph
+graph1 = Graph(lib[0])
+
+
+```
+
+
