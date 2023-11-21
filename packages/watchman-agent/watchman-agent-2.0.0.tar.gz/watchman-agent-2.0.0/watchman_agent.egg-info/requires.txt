@@ -1,0 +1,14 @@
+requests
+sqlitedict
+scapy
+keyring
+python-crontab
+environs
+click
+sqlitedict
+paramiko
+pyyaml
+schedule
+pysnmplib
+semver
+packaging
