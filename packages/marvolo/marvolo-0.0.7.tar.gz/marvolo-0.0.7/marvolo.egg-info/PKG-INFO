@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: marvolo
+Version: 0.0.7
+Summary: Some useful tools about CV develeped by Marvolo
+Home-page: 
+Author: Marvolo
+Author-email: 18377221@buaa.edu.cn
+License: MIT
+Platform: all
+Requires-Python: >=3.6
