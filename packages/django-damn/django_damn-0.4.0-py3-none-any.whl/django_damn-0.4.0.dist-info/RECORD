@@ -1,0 +1,9 @@
+damn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+damn/processors.py,sha256=MnIOAKXI0l-QKzSXWzzhNk7A56FQVd28W_zRlAquoP0,5293
+damn/settings.py,sha256=ZDFQeSoWahglpt27BUW0r7AJWxCYJS11cmwi707bi9U,395
+damn/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+damn/templatetags/damn.py,sha256=3ZlVvVda_IR1KLifV0e0g4v4MyIF8LG-Cgv42GouBLQ,1876
+django_damn-0.4.0.dist-info/LICENSE,sha256=BWgh-MnlqbtqdP-VSz8qRqX3XrWDzEe5u_pLYu4rkXA,1298
+django_damn-0.4.0.dist-info/METADATA,sha256=xMIp66VlZpV4MpRYNCtB6ilNTvaiCQ520NAAwWsKmQ4,753
+django_damn-0.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_damn-0.4.0.dist-info/RECORD,,
