@@ -1,0 +1,69 @@
+[project]
+name = "dep-logic"
+description = "Python dependency specifications supporting logical operations"
+authors = [
+    { name = "Frost Ming", email = "me@frostming.com" },
+]
+dependencies = [
+    "packaging>=22",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+dynamic = []
+version = "0.0.1"
+
+[project.license]
+text = "Apache-2.0"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.ruff]
+line-length = 88
+extend-select = [
+    "I",
+    "B",
+    "C4",
+    "PGH",
+    "RUF",
+    "W",
+    "YTT",
+]
+extend-ignore = [
+    "B018",
+    "B019",
+    "B905",
+]
+src = [
+    "src",
+]
+exclude = [
+    "tests/fixtures",
+]
+target-version = "py310"
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[tool.ruff.isort]
+known-first-party = [
+    "pkg_logical",
+]
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "poetry-core>=1.8.1",
+    "pytest>=7.4.3",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+pythonVersion = "3.11"
+reportPrivateImportUsage = "information"
