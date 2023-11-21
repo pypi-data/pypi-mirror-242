@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+Package_video_to_giffy2.egg-info/PKG-INFO
+Package_video_to_giffy2.egg-info/SOURCES.txt
+Package_video_to_giffy2.egg-info/dependency_links.txt
+Package_video_to_giffy2.egg-info/top_level.txt
+video/WIN.gif
+video/WIN.mp4
+video/__init__.py
+video/durevideo.py
+video/main.py
+video/videogif.py
