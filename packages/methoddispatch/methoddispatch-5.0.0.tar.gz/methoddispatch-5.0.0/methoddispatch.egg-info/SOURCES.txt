@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.py
+methoddispatch/__init__.py
+methoddispatch/_methoddispatch.py
+methoddispatch.egg-info/PKG-INFO
+methoddispatch.egg-info/SOURCES.txt
+methoddispatch.egg-info/dependency_links.txt
+methoddispatch.egg-info/top_level.txt
