@@ -1,0 +1,17 @@
+filequery/__init__.py,sha256=w0dzrCiYLs6NbkgwKodXvDUjKWrapNb8IYLbAEe3xlc,6248
+filequery/__main__.py,sha256=0X7mrENCzahBShLmCerZPYzp8dxemGq4tzgcfki3gig,78
+filequery/exceptions.py,sha256=k7tqPwKBp10X2GzYJCo66fTciG7-2tNOkWfPuTtAEgo,225
+filequery/file_query_args.py,sha256=AF7eWK-CxmQtFDQ9iO_OWdAQovVdu4sUXYUgiBqxIlA,248
+filequery/filedb.py,sha256=wyoDpr_jqmeLEf5mKDXocy0DswkHMyI1DA_q7mJ_Ly8,3949
+filequery/filetype.py,sha256=6iTuqWp4DF3jxAXWP7zAN4nCXPPmOnBpBYyUkshPJy0,102
+filequery/queryresult.py,sha256=7Z_gvQTNTH6BlxfNOfHLjMJOpKaOGs7xdwDQNeK5klk,2665
+filequery/tui/duckui.py,sha256=_140320MiTQt6IP3F1cYk6dfjWJ1cIAEHhR33cz1T48,8808
+filequery/tui/help_content.py,sha256=itecdSy9S1emU1FBFh9pIOKuL_lrZ7_9EupmmEAOtTI,1684
+filequery/tui/styles/style.tcss,sha256=hdy_rhdmnB0cVjU_3IxRbV0bJV-MU4qvJHw1Cg3LRDw,671
+filequery/tui/widgets/reactive_list.py,sha256=tCKPiOX462mVuoFRD6wM1N9CzIF4Jc2Vj1xZijqwVt4,362
+filequery-0.2.1.dist-info/LICENSE,sha256=K8JxZYZ0B9rsL1I922wEMNl4FSH-Q5rs0tFqB0pbpxc,1070
+filequery-0.2.1.dist-info/METADATA,sha256=r_qq_AXfS8fbBvAe3AYc4cQyHNpPalCaTw6gBb9FRU0,5524
+filequery-0.2.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+filequery-0.2.1.dist-info/entry_points.txt,sha256=DVTjwCIExvrYV1TBC7opUPk_4M77k8RjkA7JP4I94a4,55
+filequery-0.2.1.dist-info/top_level.txt,sha256=nLWUCEHKsxUZmeGSopiokxL6PN-fJo9tCiwXnwJlyoA,10
+filequery-0.2.1.dist-info/RECORD,,
