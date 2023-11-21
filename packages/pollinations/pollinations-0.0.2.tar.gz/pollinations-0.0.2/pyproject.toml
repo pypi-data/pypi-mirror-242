@@ -1,0 +1,30 @@
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pollinations"
+version = "0.0.2"
+description = "pollinations.ai package api wrapper"
+readme = "README.md"
+authors = [{ name = "tlkr.", email = "toolkitr.dev@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    'Development Status :: 1 - Planning',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Topic :: Internet',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Utilities',
+    'Typing :: Typed'
+]
+keywords = ['pollinations', 'pollinations.ai', 'pollinations-ai', 'pollinations_ai']
+requires-python = ">=3.7.0"
+
+[project.urls]
+pollinations-ai = 'https://pollinations.ai/'
