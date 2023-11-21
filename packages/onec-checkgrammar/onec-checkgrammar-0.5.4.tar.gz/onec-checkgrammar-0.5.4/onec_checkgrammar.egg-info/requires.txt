@@ -1,0 +1,6 @@
+pyaspeller==2.0.0
+Click
+junit-xml==1.8
+wasabi
+tqdm
+typing-extensions
