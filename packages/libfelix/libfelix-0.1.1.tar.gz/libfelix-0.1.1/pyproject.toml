@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libfelix"
+description = "Felix' library"
+version = "0.1.1"
+readme = "README.md"
+authors = [
+    {name = "Felix Hummel", email = "felix@felixhummel.de"},
+]
+requires-python = ">=3.10"
+dependencies = [
+    "structlog",
+]
+
+[project.urls]
+Repository = "https://gitlab.com/felixhummel/libfelix/"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "bump2version",
+    "cython",  # for pycharm debugger extensions
+    "mypy",
+    "pip-tools",
+    "pytest",
+    "pytest-cov",
+    "pytest-xdist",
+    "ruff",
+    "twine",
+]
+
+
+[tool.setuptools]
+packages = ["flx"]
+
+[tool.black]
+line-length = 79
+skip-string-normalization = true
+
+[tool.ruff]
+line-length = 79
+

@@ -1,0 +1,17 @@
+.editorconfig
+.gitignore
+LICENSE
+Makefile
+README.md
+pyproject.toml
+requirements.txt
+flx/__init__.py
+flx/git.py
+flx/regex.py
+libfelix.egg-info/PKG-INFO
+libfelix.egg-info/SOURCES.txt
+libfelix.egg-info/dependency_links.txt
+libfelix.egg-info/requires.txt
+libfelix.egg-info/top_level.txt
+tests/conftest.py
+tests/test_git.py

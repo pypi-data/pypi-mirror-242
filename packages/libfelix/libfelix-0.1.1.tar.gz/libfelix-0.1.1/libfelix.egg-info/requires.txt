@@ -1,0 +1,13 @@
+structlog
+
+[dev]
+black
+bump2version
+cython
+mypy
+pip-tools
+pytest
+pytest-cov
+pytest-xdist
+ruff
+twine
