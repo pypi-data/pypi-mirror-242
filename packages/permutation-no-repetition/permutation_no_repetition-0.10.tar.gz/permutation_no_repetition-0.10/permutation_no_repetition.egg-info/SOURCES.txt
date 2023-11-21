@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+permutation_no_repetition/README.MD
+permutation_no_repetition/__init__.py
+permutation_no_repetition/requirements.txt
+permutation_no_repetition/thirdparty.json
+permutation_no_repetition.egg-info/PKG-INFO
+permutation_no_repetition.egg-info/SOURCES.txt
+permutation_no_repetition.egg-info/dependency_links.txt
+permutation_no_repetition.egg-info/requires.txt
+permutation_no_repetition.egg-info/top_level.txt

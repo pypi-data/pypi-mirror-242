@@ -1,0 +1,3 @@
+include permutation_no_repetition/requirements.txt
+include permutation_no_repetition/thirdparty.json
+include permutation_no_repetition/README.MD
