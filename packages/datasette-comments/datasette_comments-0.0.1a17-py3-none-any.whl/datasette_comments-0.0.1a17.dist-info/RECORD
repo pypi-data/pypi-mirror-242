@@ -1,0 +1,16 @@
+datasette_comments/__init__.py,sha256=dLaJJsjSyG83jw3zXQNmJwWSp0vXZfd1fJp2-Cssr2M,27778
+datasette_comments/comment_parser.py,sha256=9-TEtZDlS4aSAP5u0xAwUresGvGBPEJytP6MmCmSMmY,4179
+datasette_comments/hookspecs.py,sha256=EhqWAKB8lMhHn0dBIORiQ2R-TYZ-ve7Mn2JSVH1veaY,945
+datasette_comments/internal_migrations.py,sha256=e23btVab_Qn5uG4q_WsJ7wo2Kss4P36E58T6V7uOulE,309
+datasette_comments/schema.sql,sha256=SXTT8KJQ1ixT16iHFWOe0pFiYIpFvj8U8PbS9mCXniM,4550
+datasette_comments/static/activity_view/index.min.css,sha256=l0J3uiDXkwvwiGwMnaJoXWnKKJkFlSm7wWfwvMlXSBk,2519
+datasette_comments/static/activity_view/index.min.js,sha256=TZrv-j-O3Tt5PM3hQerO_D-6uKK9Vwo3u1vS0n4JX6A,31620
+datasette_comments/static/content_script/index.min.css,sha256=ckFaY1gb72WzPBC-UOoh0RzsC0iXu4iVO3QW5hzpfT0,1894
+datasette_comments/static/content_script/index.min.js,sha256=_4kf9VOfMMiJE2XnmfKTg33zsXyzCIfFLw3YMx2o0Gc,29152
+datasette_comments/templates/activity_view.html,sha256=YlFTdvCnGYZhoNxM7UC3qf1i58-BLqQDgnYnAHsbVHI,398
+datasette_comments-0.0.1a17.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_comments-0.0.1a17.dist-info/METADATA,sha256=j_AZkcMspxjpbmWLuvJzygzQnF6q8WMqa3jELr7a2z8,3127
+datasette_comments-0.0.1a17.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+datasette_comments-0.0.1a17.dist-info/entry_points.txt,sha256=Z5X672flrMPosnJSSNgzlh3LuW23PICNrIS0KHsdpJ0,42
+datasette_comments-0.0.1a17.dist-info/top_level.txt,sha256=ObAt-dlV04_xc9AR0s1HTyf0vkNVXBK_yboxA4rhRXY,19
+datasette_comments-0.0.1a17.dist-info/RECORD,,
