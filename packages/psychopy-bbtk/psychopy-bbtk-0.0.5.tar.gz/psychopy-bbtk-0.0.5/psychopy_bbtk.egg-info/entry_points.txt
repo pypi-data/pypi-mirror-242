@@ -1,0 +1,2 @@
+[psychopy.experiment.components]
+TPadButtonBoxBackend = psychopy_bbtk.components.tpad:TPadButtonBoxBackend
