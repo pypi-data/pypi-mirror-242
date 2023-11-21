@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["presenturpy"]
+
+[project]
+name = "presenturpy"
+authors = [
+  {name = "theammir", email = "the@ammir.dev"},
+  {name = "valsoray-dev", email = "me@valsoray.dev"}
+]
+description = "Python right-in-your-terminal presentation maker (sorta)"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["present", "presentation"]
+license = {text = "MIT License"}
+classifiers = [
+  "Development Status :: 7 - Inactive",
+  "Environment :: Console",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only"
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/theammir/presenturpy"
+Repository = "https://github.com/theammir/presenturpy"
+Issues = "https://github.com/theammir/presenturpy/issues"

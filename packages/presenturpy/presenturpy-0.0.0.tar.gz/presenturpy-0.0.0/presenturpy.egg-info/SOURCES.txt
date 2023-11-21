@@ -1,0 +1,15 @@
+.gitignore
+README.md
+braille.pres
+present.py
+pyproject.toml
+setup.py
+presenturpy/__init__.py
+presenturpy/misc.py
+presenturpy/presentation.py
+presenturpy/slide.py
+presenturpy.egg-info/PKG-INFO
+presenturpy.egg-info/SOURCES.txt
+presenturpy.egg-info/dependency_links.txt
+presenturpy.egg-info/top_level.txt
+screenshots/screenshot1.png
