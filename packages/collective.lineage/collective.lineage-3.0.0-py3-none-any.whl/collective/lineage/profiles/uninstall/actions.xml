@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Plone Actions Tool"
+        name="portal_actions"
+>
+  <object meta_type="CMF Action Category"
+          name="object_buttons"
+  >
+    <object meta_type="CMF Action"
+            name="enable_subsite"
+            remove="True"
+            i18n:domain="plone"
+    />
+    <object meta_type="CMF Action"
+            name="disable_subsite"
+            remove="True"
+            i18n:domain="plone"
+    />
+  </object>
+</object>
