@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: quillix
+Version: 1.0.1
+Summary: A Database Management System based on Python 3.0 and JSON which stores the data directly on your local computer.
+Author: Sushmit Ghosh
+Author-email: ghoshsushmit162@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Quillix is a Python package designed for local database management using JSON as the underlying storage format. With Quillix, users can seamlessly create, manage, and query databases through a simplified interface. The package provides a convenient way to perform basic database operations, execute SQL-like queries, and manage data with ease.
+
+Usage
+
+import quillix as qx, then just call the query() function like, qx.query("your query").
+
+    Note: 1. "Alter table" has only column based operations which include "drop", "rename", "add".
+          2. In "update table" syntax, "column1 = column1 + value" is written as "column1 + value".
+          3. Syntax does not include semi-colon(;) in the end.
+          4. Enclose conditions after "where" keyword with brackets.
+                Example, "select * from table_name where ((column1 > 5) or (column2 == hello world))"
+          5. while using "group by" or "order by" clause, no need to mention the grouping or sorting columns in the column details between "select" and "from" keyword.
+          6. "Join" does not work, however you can use object based syntax.
+                Example, "select count(b.col4) from a testTable, b testTable2 where (a.col2 == b.col5) group by a.col1"
+
+When you create a database, you will find a data.json file being created in your project directory. It will store all the data that you put in your database.
+
+
+Complete documentation will be available in a few days.
