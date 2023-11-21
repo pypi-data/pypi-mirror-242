@@ -1,0 +1,12 @@
+forwardbasespawner/__init__.py,sha256=nXOO8gPjIrie-i0qBKQzc_uCyBOpHL8C80n19I2jz8E,286
+forwardbasespawner/_version.py,sha256=8l4SLJ1nsLs0JYIq4OYo9568mHM9-7pjUOuScqi6INI,155
+forwardbasespawner/api_events.py,sha256=R-2YBDvZ5O-_zqOY1N7lm0TwiFyRST_FoUYmPiA51xQ,5544
+forwardbasespawner/api_list_servers.py,sha256=KaAg6h1K_VjJQxw2h6teC1FH7Ewvoz_w4PE2Pxatgs4,804
+forwardbasespawner/api_setup_tunnel.py,sha256=sO1_ydJaBSzH6ToQFCEjjxEhOjvMbMudpbC87VVTo6o,3519
+forwardbasespawner/api_sshnode_restarted.py,sha256=WgbYBQaOeQ-pLUNTvr_X7bIfpdMnME6j0RgqJkpXdlI,1896
+forwardbasespawner/forward.py,sha256=_EHpK7ap_FHhBwpAhCUYJuRquk9WH-KIaOUoIv1_ltQ,62970
+forwardbasespawner/utils.py,sha256=yn40fCH_JXwbXVnvRKTmbL08Vo4_hKwFTIwgtW0_AoA,482
+jupyterhub_forwardbasespawner-0.0.10.dist-info/METADATA,sha256=DSisvi1Gj19lDNmGLhRWNumupfFW_ZMHJsSD-8sArkE,533
+jupyterhub_forwardbasespawner-0.0.10.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterhub_forwardbasespawner-0.0.10.dist-info/licenses/LICENSE,sha256=dk2Yc1sUc5TLag7h0BsSuhEKOfhznVUW3pD6Ssg4pVA,1517
+jupyterhub_forwardbasespawner-0.0.10.dist-info/RECORD,,
