@@ -1,0 +1,9 @@
+angst/__init__.py,sha256=lQ7v1jpBJLMhGH-5mI3Jwj1qIcsobNyrJX987OYMHds,227
+angst/_points.py,sha256=Czls8DT1HfkB_YoLVYOLpb6wjn1xiF86xKkNiPNg7LY,2367
+angst/_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+angst/test/conftest.py,sha256=_J-u5Z4YDEo62Qkc34Jlh6zHSI7ST-P-iXnaeiuijFQ,157
+angst/test/test_points.py,sha256=dgPNy62CXuek9gzPSxkch_lE4NdgmlEAyfgLIK_DgVg,1651
+angst-0.0.1.dist-info/METADATA,sha256=3ZTaXCo9t2ByH6fCtw6yt4H5RhfRToGwzIg_XvYotRc,1034
+angst-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+angst-0.0.1.dist-info/licenses/LICENSE,sha256=k7LLj0kdWgFKBiMBX3PdntVou1I57blWKPjSw98wr6w,1072
+angst-0.0.1.dist-info/RECORD,,
