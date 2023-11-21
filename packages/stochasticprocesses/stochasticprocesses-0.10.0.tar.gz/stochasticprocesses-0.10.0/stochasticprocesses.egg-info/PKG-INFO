@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: stochasticprocesses
+Version: 0.10.0
+Summary: A package to simulate stochastic proccesses
+Home-page: https://github.com/JulioCesarMS/StochasticModels.git
+Author: Julio César Martínez
+Author-email: julio.martinez@gmail.com.mx
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 3.7.3
+Description-Content-Type: text/markdown
+
+
+# About the package
+
+This is a package dedicated to simulation of stochastic processes. In it you will find some simulations of trajectories of various stochastic processes:
+
+- Simple Random Walk,
+- Pearson Random Walk,
+- Poisson Process,
+- Brownian Motion,
+- Brownian Bridge,
+- Brownian Motion with drift and volatility coefficient, and
+- Geometric Brownian Motion
+
+
+# References
+
+For further reference : [Stochastic Simulation](https://github.com/JulioCesarMS/StochasticModels/blob/main/Some_Stochastic_Models.ipynb)
+
+
+
