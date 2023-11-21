@@ -1,0 +1,12 @@
+bgcflow/__init__.py,sha256=lwDWKk33u3uzuBhJoEHvpcOd5SAHJk7_I-gFEPUvohc,144
+bgcflow/bgcflow.py,sha256=1hQqFSeb51wmvaIxnBVesYyx8zjqywK_pN-PoVxs-KA,6389
+bgcflow/cli.py,sha256=HIIUPilJIftyMij5Fff0XJKVbtL9s-ahOW9IAORyen4,12983
+bgcflow/metabase.py,sha256=EnLI9kLCAPRMQfCYDDD0RQRvuETSBbMMPSNxtYhEFjI,9968
+bgcflow/mkdocs.py,sha256=Gtzxf_ov9AqRwFVZFMM0ECnewHww_vXRgRGZYfJ5FOc,15526
+bgcflow/outputs/svg/BGCFlow_logo.svg,sha256=lW4Q3HKR5ygF0gbL0EbLT82LneZ5k96eYvW8KQvxfFY,10341
+bgcflow/projects_util.py,sha256=qh-8FauGTgZ-1ox-p4fa1tCpzliLLjos8JUtus26VtU,12390
+bgcflow_wrapper-0.3.3.dist-info/LICENSE,sha256=KPJ7lBCxS6_h8da_EZk4Uadn4giMBFJ9tDlNR9kM59Q,1074
+bgcflow_wrapper-0.3.3.dist-info/METADATA,sha256=FRy9ViIblRBYQDLCMJF9c-98QAQLb7gD3t1rfRd2OA4,5564
+bgcflow_wrapper-0.3.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bgcflow_wrapper-0.3.3.dist-info/entry_points.txt,sha256=K8MHc6x0uVpCVRfHN-KNSnKLi-cwGdQDWfZhH316IGY,44
+bgcflow_wrapper-0.3.3.dist-info/RECORD,,
