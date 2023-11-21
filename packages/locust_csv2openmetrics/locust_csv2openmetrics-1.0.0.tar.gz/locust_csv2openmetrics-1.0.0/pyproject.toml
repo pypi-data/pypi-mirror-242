@@ -1,0 +1,98 @@
+[tool.poetry]
+name = "locust_csv2openmetrics"
+version = "1.0.0"
+description = "Console app and Python API for converting locust's load test CSV formatted reports into the OpenMetrics text format"
+license = "BSD"
+authors = [
+    "360dialog development team <info@360dialog.com>",
+]
+readme = "README.rst"
+keywords = [
+    "Locust",
+    "OpenMetrics",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: File Formats",
+    "Topic :: Software Development",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+
+prometheus-client = "~0.17.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+bandit = "~1.7.0"
+black = "~22.12.0"
+coverage = "~7.3.0"
+devtools = "~0.12.0"
+doc8 = "~1.1.0"
+docutils = "~0.20.0"
+ipython = "~8.15.0"
+isort = "~5.12.0"
+mypy = "~1.5.0"
+ruff = "~0.0.292"
+# HACK: Avoid `skjold==0.6.1` until https://github.com/twu/skjold/issues/169#issuecomment-1385475776 is resolved
+skjold = "~0.6.0, !=0.6.1"
+
+[tool.poetry.scripts]
+locust_csv2openmetrics = "locust_csv2openmetrics:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+target-version = ["py310"]
+
+[tool.doc8]
+ignore-path = ["./internal-notes/"]
+
+[tool.isort]
+py_version = "310"
+profile = "black"
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+disallow_untyped_calls = false
+
+[tool.ruff]
+target-version = "py310"
+src = [
+    "src",
+    "tests",
+]
+select = ["ALL"]
+ignore = [
+    # Disabled the `ANN101` (`missing-type-self`) lint rule, as annotating `self` in methods is not strictly necessary (per ruff docs)
+    "ANN101",
+    # HACK: Temporarily disabled all `D` category (`pydocstyle`) lint rules, until
+    # https://gitlab.com/360dialog/open-source/locust_csv2openmetrics/-/issues/4 is resolved
+    "D",
+    # Disabled the `E501` (`line-too-long`) lint rule, as our code formatting is handled by `black`
+    "E501",
+    # Disabled all `EM` category (`flake8-errmsg`) lint rules, as we're fine with string literals in `raise`s
+    "EM",
+    # Disabled all `PT` category (`flake8-pytest-style`) lint rules, as we don't use `pytest`
+    "PT",
+    # Disabled all `PTH` category (`flake8-use-pathlib`) lint rules, as we like `os.*` functions
+    "PTH",
+]
+
+[tool.skjold]
+sources = [
+    # GitLab gemnasium-db, https://gitlab.com/gitlab-org/security-products/gemnasium-db
+    "gemnasium",
+    # PyPA Advisory Database, https://github.com/pypa/advisory-db
+    "pypa",
+    # OSV.dev Database, https://osv.dev
+    "osv",
+]

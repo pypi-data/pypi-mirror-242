@@ -1,0 +1,113 @@
+About
+=====
+
+Console app and Python API for converting `locust`_'s load test CSV formatted
+reports into the `OpenMetrics`_ text format.
+
+To use this tool effectively please setup your locust load tests to `store test
+statistics in CSV format`_, which will then generate a number of files:
+``{CSV_PREFIX}_stats.csv``, ``{CSV_PREFIX}_stats_history.csv``,
+``{CSV_PREFIX}_failures.csv`` and ``{CSV_PREFIX}_exceptions.csv``. Out of the
+files above, locust_csv2openmetrics is meant to work with only the
+``{CSV_PREFIX}_stats.csv`` file.
+
+.. _`locust`: https://locust.io/
+.. _`OpenMetrics`: https://openmetrics.io/
+.. _`store test statistics in CSV format`: https://docs.locust.io/en/stable/retrieving-stats.html
+
+Installation
+============
+
+To install locust_csv2openmetrics run::
+
+    $ pip install locust_csv2openmetrics
+
+Console app usage
+=================
+
+Quick start::
+
+    $ locust_csv2openmetrics <filename>
+
+Show help::
+
+    $ locust_csv2openmetrics --help
+
+Python API usage
+================
+
+Quick start::
+
+    >>> import locust_csv2openmetrics as lom
+
+    >>> collector = lom.collect_locust_stats("examples/locust_stats.csv")
+    >>> lom.write_openmetrics_to_textfile("./metrics.txt", lom.REGISTRY)
+
+Contribute
+==========
+
+If you find any bugs, or wish to propose new features `please let us know`_.
+
+If you'd like to contribute, simply fork `the repository`_, commit your changes
+and send a pull/merge request.
+
+.. _`please let us know`: https://gitlab.com/360dialog/open-source/locust_csv2openmetrics/-/issues/new
+.. _`the repository`: https://gitlab.com/360dialog/open-source/locust_csv2openmetrics
+
+Development process
+-------------------
+
+Before you start you'll need Make, Python and Poetry.
+
+This project doesn't require system wide installation, simply clone the
+repository and initialize its development runtime environment to get started::
+
+    $ git clone git@gitlab.com:360dialog/open-source/locust_csv2openmetrics.git
+    $ cd locust_csv2openmetrics
+    $ poetry install --with dev --sync
+
+If you do not wish to install Make, Python or Poetry on your system you can use
+the dockerized version of this project instead, by replacing all of your
+``make`` calls, such as::
+
+    $ poetry run make [quiet=1] [PYTHONWARNINGS=all] [TARGET] ...
+
+with::
+
+    $ ./dockerized.sh [quiet=1] [PYTHONWARNINGS=all] [TARGET] ...
+
+Show help::
+
+    $ poetry run make help
+
+    # dockerized version:
+    $ ./dockerized.sh help
+
+    Usage: make [quiet=1] [PYTHONWARNINGS=all] [TARGET] ...
+
+    Targets:
+      help                                  Display this help message
+      test.unit                             Run the unit tests
+      test.one                              Run only a specific unit test (module, module.TestCase or module.TestCase.test_method)
+      test                                  Run the entire test suite (unit tests, coverage, ...)
+
+Run the test suite, *please* do this often during development::
+
+    $ poetry run make quiet=1 PYTHONWARNINGS=all test
+
+    # dockerized version:
+    $ ./dockerized.sh quiet=1 PYTHONWARNINGS=all test
+
+Release process
+---------------
+
+This project's release process is currently manual in its nature and attempts
+to mimic Django's release process, as described in:
+
+- https://docs.djangoproject.com/en/4.2/internals/release-process/
+- https://docs.djangoproject.com/en/4.2/internals/git/
+
+Its Python packages are hosted on PyPI, and this is how to build+publish its
+Python package on a new release::
+
+    $ poetry publish --build
