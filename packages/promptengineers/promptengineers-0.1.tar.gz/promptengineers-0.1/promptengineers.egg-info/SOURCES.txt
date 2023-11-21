@@ -1,0 +1,7 @@
+README.md
+setup.py
+promptengineers.egg-info/PKG-INFO
+promptengineers.egg-info/SOURCES.txt
+promptengineers.egg-info/dependency_links.txt
+promptengineers.egg-info/requires.txt
+promptengineers.egg-info/top_level.txt
