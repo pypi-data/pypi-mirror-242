@@ -1,0 +1,15 @@
+stdl>=0.4.8
+strto>=0.1.2
+objinspect>=0.2.7
+nicegui>=1.4.0
+
+[dev]
+black
+pytest
+ruff
+
+[pydantic]
+pydantic>=2.4.0
+
+[test]
+pytest
