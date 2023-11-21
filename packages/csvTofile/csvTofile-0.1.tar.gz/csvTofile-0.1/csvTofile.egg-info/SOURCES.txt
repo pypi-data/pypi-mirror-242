@@ -1,0 +1,7 @@
+setup.py
+csvTofile.egg-info/PKG-INFO
+csvTofile.egg-info/SOURCES.txt
+csvTofile.egg-info/dependency_links.txt
+csvTofile.egg-info/top_level.txt
+csvstats1/Cool.py
+csvstats1/__init__.py

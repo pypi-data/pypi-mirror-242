@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: csvTofile
+Version: 0.1
+Summary: Un fichier csv
+Home-page: https://github.com/Wilkens1-debug/Wilkens_b.git
+Author: Wilkens Badio && Clivince Estinvil
+Author-email: wbadio693@mail.com
+License: MIT
+Keywords: Data Analyze security
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+
+Un package Python pour des fichiers csv.
