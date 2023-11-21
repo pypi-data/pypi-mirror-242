@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+albumface/__init__.py
+albumface/__main__.py
+albumface/main.py
+albumface.egg-info/PKG-INFO
+albumface.egg-info/SOURCES.txt
+albumface.egg-info/dependency_links.txt
+albumface.egg-info/entry_points.txt
+albumface.egg-info/requires.txt
+albumface.egg-info/top_level.txt
+albumface/utils/album.py

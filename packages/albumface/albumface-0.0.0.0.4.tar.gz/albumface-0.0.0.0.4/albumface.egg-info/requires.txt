@@ -1,0 +1,4 @@
+deepface
+faiss-cpu==1.7.4
+cmake
+dlib==19.24.2
