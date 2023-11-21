@@ -1,0 +1,8 @@
+miksisdk-0.0.6.dist-info/top_level.txt,sha256=KbODlLSRtVVq3WYzA1hFhaXgyxHPKnGxVtQAhEmJ3vo,9
+miksisdk-0.0.6.dist-info/WHEEL,sha256=OgTWYbNSTdO7SLtUZ5igsq6-sTfzLiPb0n40ibgsUsA,237
+miksisdk-0.0.6.dist-info/METADATA,sha256=g6sy9Ix-rM_jcdse9la_bjGzmyFxu6tpuY0VrLpEp_A,330
+miksisdk-0.0.6.dist-info/RECORD,,
+miksisdk/__init__.pypy38-pp73-x86-linux-gnu.so,sha256=NSkj5LksQ0YSTpZ7IIEk07rq1pDsvYKEu0i-d2PqAiI,21468
+miksisdk/base.pypy38-pp73-x86-linux-gnu.so,sha256=Q-RvhrThCdM8020qOjaOC0p2fB46t6-4cEe0xqIPT3Y,83484
+miksisdk/forecast_tool.pypy38-pp73-x86-linux-gnu.so,sha256=9_UNrrBFhDZOTSCaOOFsA2lFo6zGq_WtigcEDaY4ZS8,122276
+miksisdk/agent.pypy38-pp73-x86-linux-gnu.so,sha256=9mX_eNBBmp8bZk_TOjDqDPv4veWDpFQ1CScSf-6uNAg,83256
