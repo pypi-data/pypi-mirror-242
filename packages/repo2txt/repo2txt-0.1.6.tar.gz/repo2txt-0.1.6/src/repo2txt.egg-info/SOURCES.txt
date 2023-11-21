@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/helpers/config.json
+src/main/__init__.py
+src/main/main.py
+src/repo2txt.egg-info/PKG-INFO
+src/repo2txt.egg-info/SOURCES.txt
+src/repo2txt.egg-info/dependency_links.txt
+src/repo2txt.egg-info/entry_points.txt
+src/repo2txt.egg-info/requires.txt
+src/repo2txt.egg-info/top_level.txt
