@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/fertig/__init__.py
+src/fertig/main.py
+src/fertig.egg-info/PKG-INFO
+src/fertig.egg-info/SOURCES.txt
+src/fertig.egg-info/dependency_links.txt
+src/fertig.egg-info/requires.txt
+src/fertig.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_main.py
