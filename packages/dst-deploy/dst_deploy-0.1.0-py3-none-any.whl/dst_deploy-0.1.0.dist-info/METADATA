@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dst-deploy
+Version: 0.1.0
+Summary: dst deploy
+Author: ylei
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: py-steamcmd-wrapper>=1.1.1
+Description-Content-Type: text/markdown
+
+# dst-deploy
