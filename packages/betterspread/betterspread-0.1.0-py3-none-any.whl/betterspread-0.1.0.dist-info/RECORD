@@ -1,0 +1,11 @@
+betterspread/__init__.py,sha256=MqWHjB-msdTnU18qy7rMvllfCBXTXG89JSeUshnj4zU,216
+betterspread/cell.py,sha256=ygg4mGHuAYLBBaG1v8npMbCpJGXknaZyx3xwVJkm8aI,1854
+betterspread/connection.py,sha256=3AuIMRHC6ISOhTI6mNo6EkB1ZDKEtHy4orhRXu3N0Nw,543
+betterspread/row.py,sha256=OpMKkSGle05tNFgGiKGC8eDShtGTzlsCEJuJ0K0u2Xg,1518
+betterspread/sheet.py,sha256=W2d0jWMkNB14S6xY7D0EldD5a71ZoKb8ElspZv1nKAE,585
+betterspread/style.py,sha256=cdaktb6RbnHImuOj4ldP-FwcMoeOePp4jZ3rtuOHntc,1114
+betterspread/tab.py,sha256=hgvMXH6KpVTPV_K18Lb0gjNow9uNvuLMn4eMOghNygk,1135
+betterspread/utils.py,sha256=-8A2iY6xc8BIUpAxkn_WtvN10rBN4O-EASnEP_B1PP0,292
+betterspread-0.1.0.dist-info/METADATA,sha256=s5__HFQrnC77_-RiZmOk4eUDmHEsjBO1j7BheN6NQY0,1470
+betterspread-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+betterspread-0.1.0.dist-info/RECORD,,
