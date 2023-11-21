@@ -1,0 +1,43 @@
+<SubjectData SubjectKey="D001006">
+  <SiteRef LocationOID="D001"/>
+  <StudyEventData StudyEventOID="Screening">
+    <ItemGroupData ItemGroupOID="Date of Visit" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="VISPERF">
+        <Value SeqNum="743">Y</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="Enrollment" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="ENROLIEYN">
+        <Value SeqNum="732">Y</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="CRS Assessment (Details)" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="CRSSPID">
+        <Value SeqNum="733">1</Value>
+      </ItemData>
+      <ItemData ItemOID="CRSONGO">
+        <Value SeqNum="734">Y</Value>
+        <Value SeqNum="735">N</Value>
+      </ItemData>
+    </ItemGroupData>
+  </StudyEventData>
+  <StudyEventData StudyEventOID="Adverse Events">
+    <ItemGroupData ItemGroupOID="Adverse Events" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="AEYN">
+        <Value SeqNum="740">Y</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="Adverse Events (Details)" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="AESPID">
+        <Value SeqNum="741">AE1</Value>
+      </ItemData>
+    </ItemGroupData>
+  </StudyEventData>
+  <StudyEventData StudyEventOID="End of Study">
+    <ItemGroupData ItemGroupOID="End of Study" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="DSYN">
+        <Value SeqNum="742">Y</Value>
+      </ItemData>
+    </ItemGroupData>
+  </StudyEventData>
+</SubjectData>

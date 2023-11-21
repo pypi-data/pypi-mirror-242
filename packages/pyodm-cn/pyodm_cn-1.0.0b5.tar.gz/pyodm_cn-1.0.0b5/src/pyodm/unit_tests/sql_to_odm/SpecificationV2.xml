@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDISC cdiscRoot="ODM">
+    <ODM modulePath="pyodm.unit_tests.sql_to_odm.entities.ODM" clazz="ODM"/>
+    <ClinicalData modulePath="pyodm.unit_tests.sql_to_odm.entities.ClinicalData" clazz="ClinicalData"/>
+    <ItemData modulePath="pyodm.unit_tests.sql_to_odm.entities.ItemData" clazz="ItemData"/>
+    <ItemGroupData modulePath="pyodm.unit_tests.sql_to_odm.entities.ItemGroupData" clazz="ItemGroupData"/>
+    <SubjectData modulePath="pyodm.unit_tests.sql_to_odm.entities.SubjectData" clazz="SubjectData"/>
+    <SiteRef modulePath="pyodm.unit_tests.sql_to_odm.entities.SiteRef" clazz="SiteRef"/>
+    <StudyEventData modulePath="pyodm.unit_tests.sql_to_odm.entities.StudyEventData" clazz="StudyEventData"/>
+    <Value modulePath="pyodm.unit_tests.sql_to_odm.entities.Value" clazz="Value"/>
+    <AdminData modulePath="pyodm.unit_tests.sql_to_odm.entities.AdminData" clazz="AdminData"/>
+</CDISC>

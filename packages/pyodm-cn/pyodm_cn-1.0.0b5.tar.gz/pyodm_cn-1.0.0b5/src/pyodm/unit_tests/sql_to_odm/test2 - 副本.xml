@@ -1,0 +1,96 @@
+<SubjectData SubjectKey="D001002">
+  <SiteRef LocationOID="D001"/>
+  <StudyEventData StudyEventOID="Adverse Events">
+    <ItemGroupData ItemGroupOID="Adverse Events" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="AEYN">
+        <Value SeqNum="708">Y</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="Adverse Events (Details)" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="AESPID">
+        <Value SeqNum="693">AE1</Value>
+      </ItemData>
+      <ItemData ItemOID="AETERM">
+        <Value SeqNum="694">111</Value>
+      </ItemData>
+      <ItemData ItemOID="AESTDAT">
+        <Value SeqNum="695">29-Jun-2023</Value>
+      </ItemData>
+      <ItemData ItemOID="AEGRYN">
+        <Value SeqNum="699">Y</Value>
+      </ItemData>
+      <ItemData ItemOID="AESPIDGR">
+        <Value SeqNum="700">AE1,AE2</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="Adverse Events (Details)" ItemGroupRepeatKey="1">
+      <ItemData ItemOID="AESPID">
+        <Value SeqNum="696">AE2</Value>
+      </ItemData>
+      <ItemData ItemOID="AETERM">
+        <Value SeqNum="697">444</Value>
+      </ItemData>
+      <ItemData ItemOID="AESTDAT">
+        <Value SeqNum="698">28-Jun-2023</Value>
+      </ItemData>
+    </ItemGroupData>
+  </StudyEventData>
+  <StudyEventData StudyEventOID="End of Study">
+    <ItemGroupData ItemGroupOID="End of Study" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="DSYN">
+        <Value SeqNum="704">Y</Value>
+      </ItemData>
+    </ItemGroupData>
+  </StudyEventData>
+  <StudyEventData StudyEventOID="Unscheduled Visit">
+    <ItemGroupData ItemGroupOID="Date of Visit" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="VISPERF">
+        <Value SeqNum="705">Y</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="Lab Chemistry" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="LBPERF">
+        <Value SeqNum="706">Y</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="Lab Chemistry (Details)" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="LBORRES">
+        <Value SeqNum="707">1</Value>
+      </ItemData>
+    </ItemGroupData>
+  </StudyEventData>
+  <StudyEventData StudyEventOID="Screening">
+    <ItemGroupData ItemGroupOID="Date of Visit" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="VISPERF">
+        <Value SeqNum="701">Y</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="Enrollment" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="ENROLIEYN">
+        <Value SeqNum="688">Y</Value>
+      </ItemData>
+      <ItemData ItemOID="ENROLPRE">
+        <Value SeqNum="689">Y</Value>
+      </ItemData>
+      <ItemData ItemOID="ENROLDAT">
+        <Value SeqNum="691">28-Jun-2023</Value>
+        <Value SeqNum="690">29-Jun-2023</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="Lab Chemistry" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="LBPERF">
+        <Value SeqNum="692">Y</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="Lab Chemistry (Details)" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="LBORRES">
+        <Value SeqNum="702">1</Value>
+      </ItemData>
+    </ItemGroupData>
+    <ItemGroupData ItemGroupOID="CRS Assessment (Details)" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="CRSSPID">
+        <Value SeqNum="703">1</Value>
+      </ItemData>
+    </ItemGroupData>
+  </StudyEventData>
+</SubjectData>

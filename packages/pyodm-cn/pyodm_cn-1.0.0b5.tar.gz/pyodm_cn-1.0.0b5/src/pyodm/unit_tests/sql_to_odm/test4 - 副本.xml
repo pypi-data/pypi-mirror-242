@@ -1,0 +1,13 @@
+<SubjectData SubjectKey="D001005">
+  <SiteRef LocationOID="D001"/>
+  <StudyEventData StudyEventOID="Screening">
+    <ItemGroupData ItemGroupOID="Enrollment" ItemGroupRepeatKey="0">
+      <ItemData ItemOID="ENROLIEYN">
+        <Value SeqNum="687">N</Value>
+      </ItemData>
+      <ItemData ItemOID="ENROLDAT">
+        <Value SeqNum="686">25-Aug-2023</Value>
+      </ItemData>
+    </ItemGroupData>
+  </StudyEventData>
+</SubjectData>
