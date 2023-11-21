@@ -1,0 +1,139 @@
+name: build-test
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '*'
+  pull_request:
+    branches:
+      - main
+  schedule:
+    # 7am EST / 8am EDT Mondays
+    - cron: '0 12 * * 1'
+
+defaults:
+  run:
+    shell: bash
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3
+    - name: Check python version and install build
+      run: python --version
+    - name: Build migas
+      run: pipx run build
+    - name: Check distributions
+      run: pipx run twine check dist/*
+    - uses: actions/upload-artifact@v3
+      with:
+        name: dist
+        path: dist/
+
+
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
+        install: [repo]
+        include:
+          - python-version: '3.11'
+            install: sdist
+          - python-version: '3.11'
+            install: wheel
+          - python-version: '3.9'
+            install: editable
+    env:
+      INSTALL_TYPE: ${{ matrix.install }}
+    steps:
+    - uses: actions/checkout@v4
+      if: matrix.install == 'repo' || matrix.install == 'editable'
+      with:
+        fetch-depth: 0
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: actions/download-artifact@v3
+      with:
+        name: dist
+        path: dist/
+    - name: Select archive
+      run: |
+        if [ "$INSTALL_TYPE" = "sdist" ]; then
+          ARCHIVE=$( ls dist/*.tar.gz )
+        elif [ "$INSTALL_TYPE" = "wheel" ]; then
+          ARCHIVE=$( ls dist/*.whl )
+        elif [ "$INSTALL_TYPE" = "repo" ]; then
+          ARCHIVE="."
+        elif [ "$INSTALL_TYPE" = "editable" ]; then
+          ARCHIVE="-e ."
+        fi
+        echo "ARCHIVE=$ARCHIVE" >> $GITHUB_ENV
+    - name: Install package and test dependencies
+      run: python -m pip install $ARCHIVE[test]
+    - uses: actions/checkout@v3
+      with:
+        repository: 'nipreps/migas-server'
+        path: 'migas-server'
+    - name: Start up local server
+      run: |
+        cd migas-server
+        pip install hatch
+        make compose-up
+      env:
+        MIGAS_BYPASS_RATE_LIMIT: '1'
+    - name: Verify server is available
+      run: docker port ${MIGAS_SERVER_NAME} && sleep 10
+      env:
+        MIGAS_SERVER_NAME: app
+    - name: Run tests
+      run: python -m pytest -sv --doctest-modules --pyargs migas
+    - name: Stop local server
+      run: docker compose -f migas-server/docker-compose.yml down
+
+  release:
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
+    needs: [build, test]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3
+    - name: Verify python version
+      run: python -V
+    - name: Fetch packaged build
+      uses: actions/download-artifact@v3
+      with:
+        name: dist
+        path: dist/
+    - name: Upload to PyPI if tagged
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user: __token__
+        password: ${{ secrets.PYPI_API_TOKEN }}
+    - name: Create GitHub release from annotated tag
+      uses: spenserblack/actions-tag-to-release@v3
+      with:
+        prerelease: auto
+        prerelease-pattern: '*rc*'
