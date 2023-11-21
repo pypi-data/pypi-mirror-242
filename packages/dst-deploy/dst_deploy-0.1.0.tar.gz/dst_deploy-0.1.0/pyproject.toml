@@ -1,0 +1,44 @@
+[project]
+name = "dst-deploy"
+version = "0.1.0"
+description = "dst deploy"
+authors = [
+    { name = "ylei", email = "" },
+]
+dependencies = [
+    "py-steamcmd-wrapper>=1.1.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff",
+]
+
+[tool.pdm.scripts]
+build = "pdm build --version auto"
+
+[tool.pdm.scripts.dev]
+cmd = "python3 -m dst_deploy.main"
+
+[tool.pdm.scripts.dev.env_file]
+override = "dev.env"
+
+[tool.pdm.scripts.prod]
+cmd = "python3 -m dst_deploy.main"
+
+[tool.pdm.scripts.prod.env_file]
+override = "prod.env"
+
+[tool.ruff]
+line-length = 79
