@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: astri-eda
+Version: 0.1.0
+Summary: 
+Author: leiyuan
+Author-email: leiyuan_1989@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flatdict (==4.0.1)
+Requires-Dist: more_itertools (==10.1.0)
+Requires-Dist: networkx (>=2.8.4,<3.0.0)
+Requires-Dist: pydantic (==1.10.13)
+Requires-Dist: typing_extensions (==4.8.0)
+Requires-Dist: z3_solver (==4.12.2.0)
+Description-Content-Type: text/markdown
+
+# ALPR
