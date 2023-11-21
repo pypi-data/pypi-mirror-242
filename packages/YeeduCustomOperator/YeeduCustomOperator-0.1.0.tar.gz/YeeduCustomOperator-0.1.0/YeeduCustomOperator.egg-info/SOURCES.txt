@@ -1,0 +1,6 @@
+setup.py
+YeeduCustomOperator.egg-info/PKG-INFO
+YeeduCustomOperator.egg-info/SOURCES.txt
+YeeduCustomOperator.egg-info/dependency_links.txt
+YeeduCustomOperator.egg-info/requires.txt
+YeeduCustomOperator.egg-info/top_level.txt
