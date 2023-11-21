@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+htconnector/__init__.py
+htconnector/connector.py
+htconnector.egg-info/PKG-INFO
+htconnector.egg-info/SOURCES.txt
+htconnector.egg-info/dependency_links.txt
+htconnector.egg-info/top_level.txt

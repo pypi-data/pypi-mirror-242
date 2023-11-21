@@ -1,0 +1,243 @@
+## htconnector Framework:
+
+htconnector is a python framework for creating desktop and mobile applications. It enables you to link your application to a database. This framework uses **PostgreSQL**.
+
+> NB: If you use it without database, sorry the framework is unusable
+
+## About us:
+
+> Created by Hizart.Soft H._T coorp@2022 _ based harsdev
+
+htconnector version 1.0
+
+##### Why use htconnector?
+
+* Facilitates the connection between your application and the database
+* Reduces the number of written codes
+* Fast and secure
+
+##### Help for keyword:
+
+| Keyword                      | Description                                                                                                                                       |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ConnectBaseStorages()`    | Connect to database by fill your key params<br />HTBASE : db_name<br />HTUSER : user<br />HTPASS : password<br />HTHOST : host<br />HTPORT : port |
+| `DisconnectBaseStorages()` | Disconnect to database                                                                                                                            |
+| `FetchDataFrom()`          | Get all data from database, this fetch all data exist<br />on database without filter.<br />This is recommanded for free data                    |
+| `UseDefaultUserModel()`    | Use default user model<br />This is default table by thconnector. relational db                                                                   |
+| `UseMd5()`                 | Encrypt password security with md5                                                                                                                |
+| `CreateUser()`             | Create user by default model                                                                                                                      |
+| `AuthForUser()`            | Authantification after register                                                                                                                   |
+| `UpdateUserValue()`        | Update user value, user `user_id`                                                                                                               |
+| `DeleteUserValue()`        | Delete user value, don't forget `user_id`                                                                                                       |
+| `LogoutUser()`             | Logout user connected                                                                                                                             |
+
+## Installation:
+
+Install postgresql
+
+```
+https://www.postgresql.org/download/
+```
+
+if you using linux , ubuntu, follow the script
+
+```
+sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install postgresql
+
+```
+
+lnstallation requires
+
+```
+pip install psycopg2
+or
+pip install psycopg2-binary
+```
+
+Install framework for window/mac/linux
+
+```
+pip install htconnector
+pip3 install htconnector (for the version of python3)
+```
+
+## Usage of htconnector (The documentation):
+
+#### Compement:
+
+1. [ ] Connect database
+2. [ ] Insert data
+3. [ ] Fetch data
+4. [ ] Default model for registration an login
+
+#### The base of connection.
+
+```
+    from htconnector.connector import (
+         ConnectBaseStorages,  
+	 DisconnectBaseStorages,  
+	 ExecuteBaseData,  
+	 FetchDataFrom 
+	)
+```
+
+#### Replace 'your_dbname', 'your_user', and 'your_password' with your actual database credentials.
+
+To connect your application to server you must define use the function `ConnectBaseStorages()`
+
+```
+  db_connection, db_cursor = ConnectBaseStorages(
+           htbase = 'your_dbname',  
+           htuser = 'your_user',
+           htpass = 'your_password',  
+           hthost = 'your_host',   
+           htport = 'your_port'  
+       )
+```
+
+If you create custom parameters using input , you can try this example:
+
+```
+dbname = input('Enter your db_name: ')
+username = input('Enter your username: ')
+password = input('Enter your password: ')
+host = input('Enter your host: ')
+port = input('Enter your port: ')
+
+connect_to, db_cursor = ConnectBaseStorages(
+    htbase = dbname,
+    htuser = username,
+    htpass = password,
+    hthost = host,
+    htport = port
+)
+```
+
+#### Example query execution.
+
+```
+  create_table_query = """ 
+        CREATE TABLE IF NOT EXISTS example_table (
+		id SERIAL PRIMARY KEY,  
+ 		name VARCHAR(100),   
+		age INTEGER   
+	);     """  
+  execute_query(db_cursor, create_table_query)
+```
+
+```
+
+```
+
+#### Example data insertion.
+
+```
+ insert_data_query = "INSERT INTO example_table (
+	name,age) VALUES (%s, %s);"   
+ data = ('John Doe', 30)   
+ execute_query(db_cursor, insert_data_query, data)
+```
+
+#### Example data retrieval.
+
+```
+select_data_query = "SELECT * FROM example_table;"   
+result = FetchDataForm(db_cursor, select_data_query)   
+print(result)
+```
+
+#### Disconnect from the database when done
+
+```
+ DisconnectBaseStorages(db_connection, db_cursor)
+```
+
+#### Use htmodel user.
+
+```
+from htconnector.connector import (
+         ConnectBaseStorages,  
+	 DisconnectBaseStorages,  
+	 ExecuteBaseData,  
+	 FetchDataFrom,
+	 UseDefaultUserModel #import if you need to use htcase_user
+	)
+
+#compulsory packages: UseDefaultUserModel
+```
+
+#### The htmodel contain.
+
+It's a bit like the Django model, but here you don't have to use the function `UseDefaultUserModel` .
+
+```
+username
+password
+email
+firstname
+lastname
+is_activegender
+```
+
+To use the default user table , follow this code:
+
+```
+#Create default user::
+UseDefaultUserModel(db_cursor)
+```
+
+Insert with security MD5
+
+```
+pass_data = UseMd5("You_password")
+
+#Insert data to the htcase_user table::
+insert_user = """
+    INSERT INTO user_table (username, password, email, lastname, firstname, is_active, gender)
+    VALUES (%s, %s, %s, %s, %s, %s, %s);
+"""
+user_data = ('hizart', pass_data, 'hizart@example.com', 'Harry', 'Tahiana', True, 'Male')
+execute_query(db_cursor, insert_user, user_data)
+
+```
+
+#### Create User by default table:
+
+If you use `UseDefaultUserModel` , you can create Registration and Login by default models. To make it , you need to import module `CreateUser` and `AuthForUser `.
+
+`CreateUser: Use for creating user (admin or simple user)`
+
+`AuthForUser: For login access `
+
+```
+from htconnector.connector import (
+	#Your exist module here:
+	CreateUser,
+	AuthForUser
+)
+```
+
+don't forget to make it. (call back function).
+
+```
+CreateUser(db_cursor=db_cursor)
+AuthForUser(db_cursor=db_cursor)
+```
+
+When you Login , you can logged, no params `LogoutUser().`
+
+```
+LogoutUser()
+```
+
+After creating user , you can update and delete value from database by using this function.
+
+```
+UpdateUserValue(db_cursor=db_cursor, user_id)
+
+#You can use to:
+DeleteUser(db_cursor, user_id)
+```
