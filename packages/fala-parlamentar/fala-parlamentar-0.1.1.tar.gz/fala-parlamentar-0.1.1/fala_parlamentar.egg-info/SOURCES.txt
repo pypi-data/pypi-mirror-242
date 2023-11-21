@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+fala_parlamentar/__init__.py
+fala_parlamentar/fala_deputado.py
+fala_parlamentar/fala_senador.py
+fala_parlamentar.egg-info/PKG-INFO
+fala_parlamentar.egg-info/SOURCES.txt
+fala_parlamentar.egg-info/dependency_links.txt
+fala_parlamentar.egg-info/requires.txt
+fala_parlamentar.egg-info/top_level.txt
