@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: inputselect
+Version: 0.8.5
+Summary: A Python module for selecting options in the Python interactive terminal.
+Author: ItchyPython3759
+Requires-Dist: keyboard >=0.6.0
+
