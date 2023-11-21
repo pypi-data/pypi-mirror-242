@@ -1,0 +1,2 @@
+pytest>=4.5.0
+allure-python-commons==0.1.dev335+g1d35123.d20231121
