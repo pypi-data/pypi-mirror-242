@@ -1,0 +1,3 @@
+pylint
+colorama>=0.4.0,<1
+Levenshtein>=0.21.0,<1

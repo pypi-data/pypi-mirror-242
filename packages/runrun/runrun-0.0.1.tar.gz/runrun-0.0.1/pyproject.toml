@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "runrun"
+version = "0.0.1"
+authors = [
+  { name="Apollo Roboto", email="apollo_roboto@outlook.com" },
+]
+description  = "A typed command line parser"
+readme = "README.md"
+license = "MIT"
+keywords = []
+dependencies = [
+	"colorama>=0.4.0,<1",
+	"Levenshtein>=0.21.0,<1"
+]
+requires-python = ">=3.10"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Environment :: Console",
+	"Intended Audience :: Developers",
+	"Natural Language :: English",
+	"Topic :: Software Development",
+	"Topic :: Software Development :: Libraries",
+	"Topic :: Terminals",
+	"Topic :: Text Processing",
+	"Topic :: Utilities",
+	"Typing :: Typed"
+]
+
+[project.urls]
+"Source" = "https://github.com/Apollo-Roboto/python-runrun"
