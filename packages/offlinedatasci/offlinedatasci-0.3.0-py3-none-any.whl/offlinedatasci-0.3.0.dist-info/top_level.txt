@@ -1,0 +1,10 @@
+Offline_Data_Carpentry
+_build
+_static
+_templates
+build
+dist
+docs
+offlinedatasci
+test
+~
