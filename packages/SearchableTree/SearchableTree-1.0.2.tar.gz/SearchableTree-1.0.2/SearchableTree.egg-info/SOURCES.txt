@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+SearchableTree/__init__.py
+SearchableTree.egg-info/PKG-INFO
+SearchableTree.egg-info/SOURCES.txt
+SearchableTree.egg-info/dependency_links.txt
+SearchableTree.egg-info/top_level.txt
