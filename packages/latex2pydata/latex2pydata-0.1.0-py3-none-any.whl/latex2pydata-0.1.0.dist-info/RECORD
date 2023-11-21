@@ -1,0 +1,13 @@
+latex2pydata/__init__.py,sha256=i_pfZA7VYo0ul0j1iAi8rgIIyQmUR1QFNDLt2yk0L2E,280
+latex2pydata/err.py,sha256=k5hN8B3r11wQjD7If9hV4o6ltWZg01RTK3MOhK54ujk,459
+latex2pydata/fmtversion.py,sha256=AkW7j8DFtZJwGC_D4PyLVgOrywhO1BwOMXM0Am0MOH4,9062
+latex2pydata/loading.py,sha256=_UjLHVrFs-ZkNRXl5XUIGThhcE0w387WFi5OLhNby3U,6251
+latex2pydata/schema.py,sha256=6oFhzbFh8_x4ekR5FQdWOq2HUhydeuH2ScdlBGRLE3w,3773
+latex2pydata/util.py,sha256=2asxiN698VA39yCjw9afxY58kvsiHcqum5tZHfbDIUY,778
+latex2pydata/version.py,sha256=VMDO7b4x8qF0K4xSdmPvS1vWXNkYM2eFxVurzqmzeNE,150
+latex2pydata-0.1.0.dist-info/CHANGELOG.md,sha256=hyKc2iADwXJukHRszjQ2cLT5u0zgaOK6bgNAkcbb7S0,62
+latex2pydata-0.1.0.dist-info/LICENSE.txt,sha256=g4ntjr7-CkmjnZb_HtwStj2PA6Z0nyZbPApB2g34FfI,1517
+latex2pydata-0.1.0.dist-info/METADATA,sha256=1E8uGI-avr1CgVVKIhkGhe8Z7iAsvwS69Nd7dyhy30c,5709
+latex2pydata-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+latex2pydata-0.1.0.dist-info/top_level.txt,sha256=L5qUVLithNVL20mp_aAu2gjdfU8mPVuDH3kAUm79l_8,13
+latex2pydata-0.1.0.dist-info/RECORD,,
