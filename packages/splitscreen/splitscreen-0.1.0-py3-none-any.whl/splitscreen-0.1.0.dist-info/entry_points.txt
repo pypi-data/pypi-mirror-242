@@ -1,0 +1,3 @@
+[console_scripts]
+coop=coop:main
+
