@@ -1,0 +1,14 @@
+cc_superset/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cc_superset/engine.py,sha256=PbyunlE40wHMD77JWU4nFk6JzvcaecKGqQHO2hXenAU,7765
+databend_sqlalchemy/__init__.py,sha256=S4jH3ovDht6RA2zcoxjjfLo_4ycGg1hOFbTqm7OLtO4,167
+databend_sqlalchemy/connector.py,sha256=jdkXbNQLjhb4_VTWyNJ6L-L72Uq3H3n39lq3Ifjb_uY,9909
+databend_sqlalchemy/databend_dialect.py,sha256=rzhUXDDY3_G8QX-k8PsE74jLFZOWh-Id3-OKyvAzE04,11718
+databend_sqlalchemy/entry_points.py,sha256=Ux9qZ7xm9benE49eLx1HngfxPr_BEzyjuimX8vWNLBs,1246
+databend_sqlalchemy/errors.py,sha256=a7U-UuY48a3NiGM1VPlmhjRy3egyGbcDdUmjn2wXpf0,812
+databend_sqlalchemy/test.py,sha256=5y2KTzwcv8u7taWMYfblnpOp_xnMPSaAyZB1B_PWHX4,494
+databend_sqlalchemy-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+databend_sqlalchemy-0.3.0.dist-info/METADATA,sha256=80fbn1J2FJRJwzz3q41v5cOQamSRmqqTJnhxyBmRJOU,2628
+databend_sqlalchemy-0.3.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+databend_sqlalchemy-0.3.0.dist-info/entry_points.txt,sha256=FYnEVoQDZLJ_V8yKBPFwbomQdAbM1JlONXF_XjxRiH0,158
+databend_sqlalchemy-0.3.0.dist-info/top_level.txt,sha256=Zydexm2u1hzeiDUm5rNp3RiTKsFWoztazMbpByh-_is,32
+databend_sqlalchemy-0.3.0.dist-info/RECORD,,

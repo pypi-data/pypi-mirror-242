@@ -1,0 +1,3 @@
+[console_scripts]
+sqlalchemy.dialects = databend_sqlalchemy.databend_dialect:DatabendDialect
+superset.db_engine_specs = cc_superset.engine:DatabendEngineSpec
