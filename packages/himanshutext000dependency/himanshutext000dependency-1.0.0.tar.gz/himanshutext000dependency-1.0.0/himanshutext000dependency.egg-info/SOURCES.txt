@@ -1,0 +1,8 @@
+README.md
+setup.py
+himanshutext000dependency.egg-info/PKG-INFO
+himanshutext000dependency.egg-info/SOURCES.txt
+himanshutext000dependency.egg-info/dependency_links.txt
+himanshutext000dependency.egg-info/entry_points.txt
+himanshutext000dependency.egg-info/requires.txt
+himanshutext000dependency.egg-info/top_level.txt

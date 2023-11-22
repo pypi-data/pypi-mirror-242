@@ -1,0 +1,3 @@
+[console_scripts]
+mycollect-collect-data = mycollect.collect_data:main
+
