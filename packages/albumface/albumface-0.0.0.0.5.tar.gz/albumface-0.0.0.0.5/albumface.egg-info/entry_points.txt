@@ -1,0 +1,2 @@
+[console_scripts]
+albumface = albumface.main:main
