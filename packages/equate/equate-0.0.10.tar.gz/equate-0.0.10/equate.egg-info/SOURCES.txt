@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+equate/__init__.py
+equate/completion.py
+equate/util.py
+equate.egg-info/PKG-INFO
+equate.egg-info/SOURCES.txt
+equate.egg-info/dependency_links.txt
+equate.egg-info/not-zip-safe
+equate.egg-info/requires.txt
+equate.egg-info/top_level.txt
+equate/examples/__init__.py
+equate/examples/site_names.py
