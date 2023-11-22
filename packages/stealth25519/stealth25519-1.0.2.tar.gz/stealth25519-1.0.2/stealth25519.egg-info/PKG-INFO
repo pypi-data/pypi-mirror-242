@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: stealth25519
+Version: 1.0.2
+Summary: The Stealth25519 Python package provides functionality for the generation, verification, and signing of stealth addresses using the standard ed25519 algorithm with the ECDH protocol.
