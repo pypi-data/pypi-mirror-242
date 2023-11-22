@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+pituitary.egg-info/PKG-INFO
+pituitary.egg-info/SOURCES.txt
+pituitary.egg-info/dependency_links.txt
+pituitary.egg-info/top_level.txt
+piuitary/__init__.py
