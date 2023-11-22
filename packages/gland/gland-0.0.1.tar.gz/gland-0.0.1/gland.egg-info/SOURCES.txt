@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+gland/__init__.py
+gland.egg-info/PKG-INFO
+gland.egg-info/SOURCES.txt
+gland.egg-info/dependency_links.txt
+gland.egg-info/top_level.txt
