@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cmd-ai
+Version: 0.0.2
+Summary: Automatically created environment for python package
+Home-page: http://gitlab.com/me/cmd_ai
+Author: me
+Author-email: mail@gmail.com
+License: GPL2
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Project cmd~ai~
+===============
+
+`generated automatically`
+
+`this ORG file will be used to generate the content of MD file`
+
+Module unitname.py
+------------------
+
+`generated automatically`
+
+
