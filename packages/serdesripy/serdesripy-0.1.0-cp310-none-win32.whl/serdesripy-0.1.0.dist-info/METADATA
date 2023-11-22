@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: serdesripy
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+
+`serdesripy` is a lightweight wrapper around
+[`serde_esri`](https://github.com/JosiahParry/serde_esri) which is a
+Rust library that can serialize and deserialize Esri JSON objects.
+
+This python library is a proof of concept package illustrating how we
+can call `serde_esri` to process JSON and return a PyArrow object.
+
