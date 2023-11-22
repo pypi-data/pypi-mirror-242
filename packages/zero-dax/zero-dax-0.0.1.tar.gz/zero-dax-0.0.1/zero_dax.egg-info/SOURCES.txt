@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+zero-dax/__init__.py
+zero_dax.egg-info/PKG-INFO
+zero_dax.egg-info/SOURCES.txt
+zero_dax.egg-info/dependency_links.txt
+zero_dax.egg-info/top_level.txt
