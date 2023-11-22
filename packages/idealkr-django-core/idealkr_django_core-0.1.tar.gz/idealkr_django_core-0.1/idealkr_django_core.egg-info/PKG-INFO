@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: idealkr-django-core
+Version: 0.1
+Summary: Django 개발에 유용한 클래스를 포함합니다.
+Home-page: https://github.com/pro-ideal/idealkr-django-core
+Author: 3chamchi
+Author-email: ceo@idealkr.com
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: django>=4.0

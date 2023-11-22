@@ -1,0 +1,9 @@
+README.md
+setup.py
+idealkr_django_core/__init__.py
+idealkr_django_core/mixins.py
+idealkr_django_core.egg-info/PKG-INFO
+idealkr_django_core.egg-info/SOURCES.txt
+idealkr_django_core.egg-info/dependency_links.txt
+idealkr_django_core.egg-info/requires.txt
+idealkr_django_core.egg-info/top_level.txt
