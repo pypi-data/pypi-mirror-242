@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+siython/__init__.py
+siython.egg-info/PKG-INFO
+siython.egg-info/SOURCES.txt
+siython.egg-info/dependency_links.txt
+siython.egg-info/top_level.txt
