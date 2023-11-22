@@ -1,0 +1,3 @@
+[console_scripts]
+gewu = gewu.manage:run
+
