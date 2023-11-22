@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: agent-tools
+Version: 1.0.1
+Summary: Good tools for pretrained language models as agent developed by zhwang.
+Home-page: https://zhwang4ai.github.io/
+Author: wangzihao
+Author-email: zhwang@stu.pku.edu.cn
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Logging
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: openai
