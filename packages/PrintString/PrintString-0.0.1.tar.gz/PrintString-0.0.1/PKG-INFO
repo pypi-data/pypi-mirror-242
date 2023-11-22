@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: PrintString
+Version: 0.0.1
+Summary: It will print a string
+Home-page: 
+Author: Arjun Patel
+Author-email: arjunbrij8811@gmail.com
+License: MIT
+Keywords: Print
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This will print out strings
+
+Change Log
+==========
+
+0.0.1 (21/11/2023)
+-------------------
+- First Release
