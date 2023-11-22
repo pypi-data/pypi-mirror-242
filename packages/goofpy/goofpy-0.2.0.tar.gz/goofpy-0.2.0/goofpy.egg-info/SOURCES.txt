@@ -1,0 +1,7 @@
+README.md
+goofpy.py
+pyproject.toml
+goofpy.egg-info/PKG-INFO
+goofpy.egg-info/SOURCES.txt
+goofpy.egg-info/dependency_links.txt
+goofpy.egg-info/top_level.txt
