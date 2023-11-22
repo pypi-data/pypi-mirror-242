@@ -1,0 +1,2 @@
+[console_scripts]
+kaggle-driver = kaggle_driver.cli:main
