@@ -1,0 +1,8 @@
+httpgo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+httpgo/__version__.py,sha256=YqMb6TR6g8Q9H0hc18mw_Ea0ZmGlJg5fXCWsb8vNoOc,333
+httpgo/exception.py,sha256=HNbOXhVouE89yZEVPO3RHR31jsOpWtEst7UzFbqHLtk,146
+httpgo/main.py,sha256=jejkIIcYp5pKWc150TWj97UIG6juToHsSFesflFpLlw,4847
+httpgo-0.2.0.dist-info/entry_points.txt,sha256=P7Mfe6OCMwuZRGUahCn3Qt8Rzk3_udZrxFHkly0fL9Q,42
+httpgo-0.2.0.dist-info/METADATA,sha256=r1w8C8i6_DPiUFTxN8nGOH3trH5SmGqMB-W86VpFkX4,947
+httpgo-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+httpgo-0.2.0.dist-info/RECORD,,
