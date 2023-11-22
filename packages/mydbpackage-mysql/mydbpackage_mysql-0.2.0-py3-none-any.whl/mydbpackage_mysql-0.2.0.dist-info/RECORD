@@ -1,0 +1,10 @@
+my_package/__init__.py,sha256=CkcFz5PaJRQqUnVxPXRgCOoh-zoOVrsXgIFdilCGQ_Q,27
+my_package/database.py,sha256=6Qby2ab5uJxYkvn62sfZguBpGniCH6SQvBT6Nin4a7Q,905
+my_package/utils.py,sha256=K9neqVQV3KXuV4_O74O46OUdWEYx2AMrY5AeGmB_LP4,62
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_database.py,sha256=6ylSihOpygq91A1TjhYjaLvSn9Sbl3iE38X5S4Er7RI,650
+mydbpackage_mysql-0.2.0.dist-info/METADATA,sha256=nYWQWaIL57Lx3TFKKjmmJwH8czy0Qp0ugIvCSO2tEHE,105
+mydbpackage_mysql-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mydbpackage_mysql-0.2.0.dist-info/entry_points.txt,sha256=VFsWz4bCa-Bf3ds-Y65oZJQwpY914Yx9bJDJx0sPsdo,73
+mydbpackage_mysql-0.2.0.dist-info/top_level.txt,sha256=fp2rW6AVh4fdr-kjfxPIraJK3yoRxpRKOYq3nuaGX1o,17
+mydbpackage_mysql-0.2.0.dist-info/RECORD,,
