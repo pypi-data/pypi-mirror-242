@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: py-synology-api
+Version: 0.1.0
+Summary: Python API for communication with Synology
+License: MIT
+Keywords: synology-api,synology
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: async-timeout
+
+# py-synology-api
