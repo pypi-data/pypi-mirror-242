@@ -1,0 +1,5 @@
+dist
+launch
+launchApp
+node_modules
+testing_scripts
