@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: whisperplus
+Version: 0.0.1
+Summary: WhisperPlus: A Python library for WhisperPlus API.
+Home-page: https://github.com/kadirnar/whisperplus
+Author: kadirnar
+Author-email: kadir.nar@hotmail.com
+License: Apache License 2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# whisper-plus
