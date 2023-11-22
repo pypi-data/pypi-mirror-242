@@ -1,0 +1,11 @@
+openpicv/__init__.py,sha256=DRnXK9CmwIE3YAdvSd5xmdl4t5WZKsMfbwhe3AWpg4o,2240
+openpicv/add_num.py,sha256=2g465uTz-Ulk01WA7FIuTQ3asjVQBk8yQrQ1kI50fXY,66
+openpicv/face_detetion.py,sha256=VcGG0xAZ2GC045tv5g3aDcWV48Vpt12NIVgRSOOkZZ0,1630
+openpicv-test/__init__.py,sha256=DRnXK9CmwIE3YAdvSd5xmdl4t5WZKsMfbwhe3AWpg4o,2240
+openpicv-test/add_num.py,sha256=2g465uTz-Ulk01WA7FIuTQ3asjVQBk8yQrQ1kI50fXY,66
+openpicv-test/face_detetion.py,sha256=VcGG0xAZ2GC045tv5g3aDcWV48Vpt12NIVgRSOOkZZ0,1630
+openpicv-1.1.6.dist-info/LICENSE,sha256=iv1i3GMMY1C3bZ03WGyDeeteBtkmVfL2dG0BwIoB1OM,1071
+openpicv-1.1.6.dist-info/METADATA,sha256=Dp0T8lCnikQCjjmWbPDMFUdZrMoYbh572W3NHEXt8y0,389
+openpicv-1.1.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+openpicv-1.1.6.dist-info/top_level.txt,sha256=hxn-SbS9PMZF-Dzam_enaxouXM2mZXKdDgdT5laDmG8,9
+openpicv-1.1.6.dist-info/RECORD,,
