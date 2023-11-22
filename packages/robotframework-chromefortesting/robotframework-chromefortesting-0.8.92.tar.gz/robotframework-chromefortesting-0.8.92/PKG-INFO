@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: robotframework-chromefortesting
+Version: 0.8.92
+Summary: The only extension for seamless setup of Chrome for Testing (CfT) in and within Robot Framework.
+Home-page: https://github.com/extraorange/robotframework-chromefortesting
+Author: extraorange
+Author-email: extraorangeio@pm.me
+License: GNU General Public License v3.0
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: robotframework
