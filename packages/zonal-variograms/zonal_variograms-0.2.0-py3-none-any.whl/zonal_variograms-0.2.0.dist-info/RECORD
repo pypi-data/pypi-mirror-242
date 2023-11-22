@@ -1,0 +1,11 @@
+zonal_variograms/__init__.py,sha256=PmN8nNvqV4C_DuJXPJXJJw029rgrpb2iO9DQ3jXtTGE,52
+zonal_variograms/__version__.py,sha256=clN3TnyYyt5T_wUJLVBmutS2kYLLBET4JFB2QXnRm2Q,21
+zonal_variograms/cli.py,sha256=oTYOHXtg0wzaiGiApdlcAI5_GFexwc22-3vczzyX_3Q,7460
+zonal_variograms/main.py,sha256=HBZTfBDPBJnb92HHPRFNzih8XgvVreh0Blq0QMdeBx0,8160
+zonal_variograms/util.py,sha256=uBsN7IjFRPXEtbNZo6RBRNARSGiXBaMmN3Jw14N8FTs,993
+zonal_variograms-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+zonal_variograms-0.2.0.dist-info/METADATA,sha256=RJ5IlfitAlwODMGsJhZ0f0jVrq0b5BNu9APsJzgSXkc,345
+zonal_variograms-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+zonal_variograms-0.2.0.dist-info/entry_points.txt,sha256=r9k4R4YqjQtRwkcFdr2WvebIg9t90ZIeg0oj_Y8gs7g,82
+zonal_variograms-0.2.0.dist-info/top_level.txt,sha256=Qqd2bZE4rnCmJZZd0lgpyQiC3JPW3NmsyJxKCD4uMq4,17
+zonal_variograms-0.2.0.dist-info/RECORD,,
