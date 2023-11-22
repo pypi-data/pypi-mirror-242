@@ -1,0 +1,7 @@
+starbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starbot/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starbot/utils/executor.py,sha256=6eCgY4wFMWDRU-FBYh4Ef0lLM3hjdjcdsdr2pVmVujE,8460
+starbot_executor-1.0.0.dist-info/LICENSE,sha256=XuzOFuWeJN3Z03EgElF6Az8s0EWaziK0PVZZ1GJKv_A,42802
+starbot_executor-1.0.0.dist-info/METADATA,sha256=7mH396MxPhHAPq83Iz75eAFtIMseq8xxlbAlN8trxFs,6684
+starbot_executor-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+starbot_executor-1.0.0.dist-info/RECORD,,
