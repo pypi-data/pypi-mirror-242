@@ -1,0 +1,6 @@
+redis
+pip_services4_commons<1.0,>=0.0.1
+pip_services4-components<1.0,>=0.0.1
+pip_services4_config<1.0,>=0.0.1
+pip_services4_data<1.0,>=0.0.1
+pip_services4_logic<1.0,>=0.0.1
