@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/maldives/__init__.py
+src/maldives.egg-info/PKG-INFO
+src/maldives.egg-info/SOURCES.txt
+src/maldives.egg-info/dependency_links.txt
+src/maldives.egg-info/requires.txt
+src/maldives.egg-info/top_level.txt
+src/maldives/regression/__init__.py
+src/maldives/regression/linear_model.py
