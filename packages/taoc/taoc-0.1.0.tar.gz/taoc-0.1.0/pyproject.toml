@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "taoc"
+version = "0.1.0"
+description = ""
+authors = ["taitep <arvid@h.se>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+advent-of-code-data = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
