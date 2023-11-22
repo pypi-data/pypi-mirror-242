@@ -1,0 +1,12 @@
+napari[all]>=0.4.17
+napari-aicsimageio>=0.7.2
+torch>=1.13.1
+torchvision>=0.14.1
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
