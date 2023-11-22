@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_wsc.py,sha256=dcuMmfDx2B9EoJ5OpU4anH7zF7ktPji6kE64H3Qfw5M,713
+writing_style_converter/__init__.py,sha256=nlFDtAJ1eVVD-SCLBSMtDMGML1bodqBf0NoDf-qI5FY,29
+writing_style_converter/factory_style.py,sha256=Own0XT8hI7MJo6naJBm08mrFl_RzL1JbGe-x_yPL_Mk,690
+writing_style_converter/preparation_style.py,sha256=2wxJI6u26hrfpMUkc0aa5kfLzkvVdivadieUNHqCk2g,990
+writing_style_converter/wsc.py,sha256=7cJmjh7gMUN2YIubrt49LHv-Yt7DszBMeLnvA5-ynKc,1181
+writing_style_converter-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+writing_style_converter-0.0.4.dist-info/METADATA,sha256=oFOes2gtQGHmmw3cJaVn136KINmcDPvutlH_NnNp8r0,3794
+writing_style_converter-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+writing_style_converter-0.0.4.dist-info/top_level.txt,sha256=GMYLHkPq79Pl7ZiH7NDU0vr6G6hQnyfL6zw876vCUIA,30
+writing_style_converter-0.0.4.dist-info/RECORD,,
