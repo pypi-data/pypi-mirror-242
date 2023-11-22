@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+djangorestframework_queryfields.egg-info/PKG-INFO
+djangorestframework_queryfields.egg-info/SOURCES.txt
+djangorestframework_queryfields.egg-info/dependency_links.txt
+djangorestframework_queryfields.egg-info/requires.txt
+djangorestframework_queryfields.egg-info/top_level.txt
+drf_queryfields/__init__.py
+drf_queryfields/mixins.py
+tests/test_custom_settings_override.py
+tests/test_userfields_with_modelserializer.py
+tests/test_userfields_with_plain_serializer.py
+tests/test_userfields_with_volatile_serializer.py
