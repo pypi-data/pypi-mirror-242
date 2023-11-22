@@ -1,0 +1,12 @@
+pygroupcache/__init__.py,sha256=CkK2TFLx3GrD8dk6Yg8ivtvASJW4I1-0othmVxD-_S8,168
+pygroupcache/groupcache.py,sha256=sgFSk68g4GtUSgK_Rl5l6vH8p_sbvpuKqU1EK7cXMnM,2038
+pygroupcache/test_groupcache.py,sha256=bEIs8RVkAX6iXeQgVFSWHVLCdlYK-tM3YMEqgb0ZOj4,1015
+pygroupcache/libs/groupcache.h,sha256=vibW4t8lt5ggXxgQfwvZJiNLAt_fHXnuLEPbl1VlMHM,1723
+pygroupcache/libs/groupcache.so,sha256=mrWy1d61PE0LUaIzwqMGTUA3Y988k29HMPiqcfyDgbo,11515688
+pygroupcache/libs/groupcache_41bb18b.h,sha256=vibW4t8lt5ggXxgQfwvZJiNLAt_fHXnuLEPbl1VlMHM,1723
+pygroupcache/libs/groupcache_41bb18b.so,sha256=mrWy1d61PE0LUaIzwqMGTUA3Y988k29HMPiqcfyDgbo,11515688
+pygroupcache-1.0.1.dist-info/LICENSE,sha256=V3sJJAg_WXHOXYM6KzFnO-uQkN_sFZiu-G3QwBjwZDY,1068
+pygroupcache-1.0.1.dist-info/METADATA,sha256=tTpBtPVxlYPrvEonU8Wbsa2FdTkn1dM2LZdd413dsFc,869
+pygroupcache-1.0.1.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+pygroupcache-1.0.1.dist-info/top_level.txt,sha256=wozXgh7h9tau4d2V4d5KULCCNK3ZshVQGjR2MuR3cLI,13
+pygroupcache-1.0.1.dist-info/RECORD,,
