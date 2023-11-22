@@ -1,0 +1,16 @@
+copyaid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copyaid/__main__.py,sha256=NwZNJkJ7Y_G4CEhwGHnHjrDfRxILltiMPzMHiIUisgo,67
+copyaid/cli.py,sha256=9ODOXIoukBiJBCQT51g3exOTxMuwc6b9U3t-UrLlTRc,3754
+copyaid/core.py,sha256=Bhq7jFVELwlq_oAS7aCAIq9HB29NZsb3som0ZilzYF0,2626
+copyaid/diff.py,sha256=dFwtN0vkkcFSxibQi-7z1ZWTHSjCXf4tGc7dqw6Duws,5546
+copyaid/task.py,sha256=J9bPSL7n2fvfAl3vnOFLfGsTggS0KIyqMQdXp31whhE,5877
+copyaid/util.py,sha256=QnIYICw3N0LKjLxzlbQzHwXILNkRiYN_eKht3mtd1j4,705
+copyaid/data/cold-example.toml,sha256=hGSBO8gNelpts_Qe2UcMEr0Rv_A-dERCxiTD7MvvNAU,418
+copyaid/data/copyaid.toml,sha256=ggELBLjy8DRySdQfeB4T6_NDoXDISTB9eWlcYc6e4TQ,1894
+copyaid/data/proof-example.toml,sha256=p2NGe6ZlFwM9YXovHn4bdcrTtdkURV_n925tTBAKVBk,330
+copyaid/data/warm-example.toml,sha256=jQRdFBAgPxTV7L-29uwVgwP8GQq6O4BTby3QqV_S7JM,420
+copyaid-0.3.2.dist-info/METADATA,sha256=zZ9RmgxcPkgp9x9GoObmYOH99NhCkbo1m3xCm9exZkU,2019
+copyaid-0.3.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+copyaid-0.3.2.dist-info/entry_points.txt,sha256=4N4oK3-d_FAaQvMSc6ZQlhHK2rPKtRSoRLvxNLfryr8,74
+copyaid-0.3.2.dist-info/licenses/LICENSE,sha256=YStB71q0bHgCZG6BCci4cfNcq74MuMyCQ-5kZdhVRnA,1107
+copyaid-0.3.2.dist-info/RECORD,,
