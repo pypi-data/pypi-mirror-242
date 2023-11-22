@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Amqizi
+Version: 0.0.9
+Summary: A Basic Hello World package
+Author: MrRobinnn
+Author-email: spree.wolf@protonmail.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6

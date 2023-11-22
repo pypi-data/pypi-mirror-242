@@ -1,0 +1,8 @@
+setup.py
+Amqizi.egg-info/PKG-INFO
+Amqizi.egg-info/SOURCES.txt
+Amqizi.egg-info/dependency_links.txt
+Amqizi.egg-info/top_level.txt
+libname/__init__.py
+libname/hello.py
+libname/hey.py
