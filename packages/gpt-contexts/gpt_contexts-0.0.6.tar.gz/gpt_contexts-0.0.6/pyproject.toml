@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gpt-contexts"
+version = "0.0.6"
+authors = [
+  { name="Jake Strouse", email="jstrouse@meh.llc" },
+]
+description = "Drop-in replacement to provide GPT context with python objects"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'openai==0.28',
+  'python-dotenv==1.0.0'
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jakestrouse00/GPTContext"
+
+[tool.setuptools]
+packages = ["GPTContext"] # list of folders that contain the packages (["."] by default)
