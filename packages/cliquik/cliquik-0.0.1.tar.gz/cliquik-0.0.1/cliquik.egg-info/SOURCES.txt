@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+cliquik/__init__.py
+cliquik.egg-info/PKG-INFO
+cliquik.egg-info/SOURCES.txt
+cliquik.egg-info/dependency_links.txt
+cliquik.egg-info/top_level.txt
