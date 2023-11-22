@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/s_boxs_package_Phnx/__init__.py
+src/s_boxs_package_Phnx/s_boxes.py
+src/x_boxes_package_Phnx.egg-info/PKG-INFO
+src/x_boxes_package_Phnx.egg-info/SOURCES.txt
+src/x_boxes_package_Phnx.egg-info/dependency_links.txt
+src/x_boxes_package_Phnx.egg-info/top_level.txt

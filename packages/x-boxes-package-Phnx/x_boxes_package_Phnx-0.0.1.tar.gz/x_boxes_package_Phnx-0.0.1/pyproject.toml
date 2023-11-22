@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "x_boxes_package_Phnx"
+version = "0.0.1"
+authors = [
+  { name="Phnx", email="author@example.com" },
+]
+description = "A package for DES-s_boxes"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/PHNX04/s_boxes"
+Issues = "https://github.com/PHNX04/s_boxes/issues"

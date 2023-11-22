@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: x_boxes_package_Phnx
+Version: 0.0.1
+Summary: A package for DES-s_boxes
+Author-email: Phnx <author@example.com>
+Project-URL: Homepage, https://github.com/PHNX04/s_boxes
+Project-URL: Issues, https://github.com/PHNX04/s_boxes/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# x_boxes
+python package for s_boxes
