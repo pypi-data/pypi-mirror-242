@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: django-awl
+Version: 1.8.2
+Summary: Collection of Django utilities
+Home-page: https://github.com/cltrudeau/django-awl
+Author: Christopher Trudeau
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: Django >=3.2
+Requires-Dist: logthing >=1.0.0
+Requires-Dist: screwdriver >=0.14.0
+Requires-Dist: waelstow >=0.11.0
+Provides-Extra: dev
+Requires-Dist: build ==1.0.3 ; extra == 'dev'
+Requires-Dist: context-temp ==0.11.2 ; extra == 'dev'
+Requires-Dist: coverage ==7.3.2 ; extra == 'dev'
+Requires-Dist: Django ==5.0rc1 ; extra == 'dev'
+Requires-Dist: logthing ==1.0.0 ; extra == 'dev'
+Requires-Dist: nox ==2023.4.22 ; extra == 'dev'
+Requires-Dist: pudb ==2023.1 ; extra == 'dev'
+Requires-Dist: pyflakes ==3.1.0 ; extra == 'dev'
+Requires-Dist: screwdriver ==0.14.0 ; extra == 'dev'
+Requires-Dist: Sphinx ==7.2.6 ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ==1.3.0 ; extra == 'dev'
+Requires-Dist: twine ==4.0.2 ; extra == 'dev'
+Requires-Dist: waelstow ==0.11.1 ; extra == 'dev'
+
+django-awl
+**********
+
+Yet another catch-all of tools for django.  Includes utilities for admin,
+context processors, CSS colours, view and model mixins, template tags and
+unit testing.
+
+
+Installation
+============
+
+.. code-block:: bash
+
+    $ pip install django-awl
+
+    INSTALLED_APPS = [
+        ...
+        "awl",
+    ]
+
+Supports
+========
+
+django-awl has been tested with:
+
+* Django 3.2 using Python 3.8, 3.9, 3.10
+* Django 4.0 using Python 3.8, 3.9, 3.10
+* Django 4.1 using Python 3.8, 3.9, 3.10, 3.11, 3.12
+* Django 4.2 using Python 3.8, 3.9, 3.10, 3.11, 3.12
+* Django 5.0 using Python 3.10, 3.11, 3.12
+
+
+Docs & Source
+=============
+
+Docs: http://django-awl.readthedocs.io/en/latest/
+
+Source: https://github.com/cltrudeau/django-awl
