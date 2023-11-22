@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cxx-image-io
+Version: 0.0.1
+Summary: Python module with binding cxx image code
+Author-email: Yuan SUN <sunyuan860510@gmail.com>
+Project-URL: Homepage, https://github.com/sygslhy/image-io
+Project-URL: Issues, https://github.com/sygslhy/image-io/issues
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: <=3.12,>=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.26.0
