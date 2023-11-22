@@ -1,0 +1,13 @@
+ingredient_parser/ModelCard.md,sha256=byoMSJbUNfoZ-rf3ObwZk_YFI_3EVDB_9Rg64sCM2TQ,5133
+ingredient_parser/__init__.py,sha256=XfCLzmBHmasdhnHg68AQlDqXhCBBtIARLMRuZN973lc,434
+ingredient_parser/_constants.py,sha256=55BarCRsKsGLca3wp60ShH9QTeFUDmfXGCWgpdxL2Po,4962
+ingredient_parser/_utils.py,sha256=ZnutyVPNhajZH919Id7VzsdoucOtLzTqxGTuDXySO7E,2567
+ingredient_parser/model.crfsuite,sha256=IfDJa5AWrnYFBE6CiWm1I8Y__ctDvqeCkyVBFXYnyKk,953548
+ingredient_parser/parsers.py,sha256=NP5Flt7jp900f9M6Ux-S5fN-vQYs9UBiW4481CGlQko,3960
+ingredient_parser/postprocess.py,sha256=V5xLfHFbEf4GaYHT1BQcBJI7TBB6onErC-JgrnKO270,26853
+ingredient_parser/preprocess.py,sha256=x-BGcfnGTLJRt0XK_UU_3Psw9XbhlSEdFjV5Iqtcthg,29329
+ingredient_parser_nlp-0.1.0b7.dist-info/LICENSE,sha256=VRllif4XTJ97oF20kqIi0c-O2AXKpXmEkKyOqQPYhM0,1068
+ingredient_parser_nlp-0.1.0b7.dist-info/METADATA,sha256=g0ZXUryd5_KIQNRp_BOjthCRtWRXaoplAXfPOlruUeg,4332
+ingredient_parser_nlp-0.1.0b7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ingredient_parser_nlp-0.1.0b7.dist-info/top_level.txt,sha256=Pf4DPjUlmdeWeJSvbzZsbPNvrktj9wjOOBaNHju-lY8,18
+ingredient_parser_nlp-0.1.0b7.dist-info/RECORD,,
