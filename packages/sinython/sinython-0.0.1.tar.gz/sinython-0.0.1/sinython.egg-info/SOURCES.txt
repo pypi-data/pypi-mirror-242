@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+sinython/__init__.py
+sinython.egg-info/PKG-INFO
+sinython.egg-info/SOURCES.txt
+sinython.egg-info/dependency_links.txt
+sinython.egg-info/top_level.txt
