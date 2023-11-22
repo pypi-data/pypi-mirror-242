@@ -1,0 +1,15 @@
+pydantic<2
+stable-baselines3
+tensorboard
+hjson
+
+[all]
+splinepy[all]
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest
+pytest-cov
