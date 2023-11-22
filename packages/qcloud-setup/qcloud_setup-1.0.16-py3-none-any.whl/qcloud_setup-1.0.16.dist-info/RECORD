@@ -1,0 +1,12 @@
+qcloud_setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qcloud_setup/api-gateway.yaml,sha256=uSTQsLrGbmoONSLEp8ChrL8fuGOLneORy4MAQC25soE,21623
+qcloud_setup/cognito.yaml,sha256=dtnpp4nEWiXZDeJQN8rd6lob8CmSWcuiueVdKDo2TYw,6513
+qcloud_setup/iam-policy.yaml,sha256=ariO3FKyxsGAkv7VZRYP4vOIKuIevBGAI9kwHqM_Bzo,5829
+qcloud_setup/qcloud_admin.py,sha256=QrBVSF-jAQC_0aLEZnqSr-BZp9EOQToM9dGRccpCiJQ,61897
+qcloud_setup-1.0.16.data/scripts/qcloud_admin.py,sha256=mig_EiG7lQaSaA0nH5j0Xd7fRgbkNrwrouI2W2sHqhE,61883
+qcloud_setup-1.0.16.dist-info/LICENSE.txt,sha256=3F7RpLZaFw6jtgjCwhrxJ-QtAFmzDcbTZKxQNMcJd7M,543
+qcloud_setup-1.0.16.dist-info/METADATA,sha256=3jTauNLZtEkbCzxqn8RKCnMepces8flN5hPiHQrCGXQ,16068
+qcloud_setup-1.0.16.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+qcloud_setup-1.0.16.dist-info/entry_points.txt,sha256=UVZaC_YWoot_PRprLJqKOJW2tt0ZAswpVV84zYcvDZM,51
+qcloud_setup-1.0.16.dist-info/top_level.txt,sha256=8I1SQEl6OAKDV8H1_d-aqh8ULYYlHfCZ_H8gaK40SYQ,13
+qcloud_setup-1.0.16.dist-info/RECORD,,
