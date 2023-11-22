@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/demo.py
+src/pymymeter/__init__.py
+src/pymymeter/exceptions.py
+src/pymymeter/pymymeter.py
+src/pymymeter.egg-info/PKG-INFO
+src/pymymeter.egg-info/SOURCES.txt
+src/pymymeter.egg-info/dependency_links.txt
+src/pymymeter.egg-info/requires.txt
+src/pymymeter.egg-info/top_level.txt
