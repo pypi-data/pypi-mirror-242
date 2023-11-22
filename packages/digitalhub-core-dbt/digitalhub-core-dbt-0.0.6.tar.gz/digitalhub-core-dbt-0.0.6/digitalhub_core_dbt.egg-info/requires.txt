@@ -1,0 +1,4 @@
+digitalhub-core>=0.0.5
+
+[local]
+dbt-postgres==1.7.1
