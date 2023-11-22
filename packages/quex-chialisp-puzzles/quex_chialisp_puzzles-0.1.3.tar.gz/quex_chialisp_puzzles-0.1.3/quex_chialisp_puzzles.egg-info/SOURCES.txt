@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+chialisp_puzzles/__init__.py
+chialisp_puzzles/puzzles/calculate_synthetic_public_key.clsp
+chialisp_puzzles/puzzles/p2_conditions.clsp
+chialisp_puzzles/puzzles/p2_delegated_puzzle_or_hidden_puzzle.clsp
+chialisp_puzzles/puzzles/runtime_build
+quex_chialisp_puzzles.egg-info/PKG-INFO
+quex_chialisp_puzzles.egg-info/SOURCES.txt
+quex_chialisp_puzzles.egg-info/dependency_links.txt
+quex_chialisp_puzzles.egg-info/requires.txt
+quex_chialisp_puzzles.egg-info/top_level.txt
+tests/test_load.py
