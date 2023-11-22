@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+htreader/__init__.py
+htreader/htreader.py
+htreader.egg-info/PKG-INFO
+htreader.egg-info/SOURCES.txt
+htreader.egg-info/dependency_links.txt
+htreader.egg-info/top_level.txt
