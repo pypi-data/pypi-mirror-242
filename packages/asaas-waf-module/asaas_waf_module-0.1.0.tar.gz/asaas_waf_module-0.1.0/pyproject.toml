@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "asaas-waf-module"
+version = "0.1.0"
+description = "Modulo padrão Asaas para regras waf e criação de clouldfront"
+authors = ["Cesar Fernando Sturion <cesar.sturion@asaas.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aws-cdk-lib = "2.104.0"
+constructs = ">=10.0.0,<11.0.0"
+pytest = "6.2.5"
+stringcase = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
