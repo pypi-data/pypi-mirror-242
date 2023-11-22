@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-synology-api"
+version = "0.1.0"
+description = "Python API for communication with Synology"
+authors = []
+license = {text = "MIT"}
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries",
+]
+keywords=["synology-api", "synology"]
+requires-python = ">=3.8.0"
+dependencies  = ["aiohttp", "async-timeout"]
+
+
+[project.scripts]
+synologydsm-api = "synology_dsm.__main__:main"
+
+[tool.setuptools.package-data]
+synology_dsm = ["py.typed", "*.py", "**/*.py"]
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["synology_dsm"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80
+
+[tool.isort]
+profile = "black"
+src_paths = ["src", "tests"]
+
+[tool.pylint.MAIN]
+ignore = ["tests"]
+
+[tool.pylint.BASIC]
+class-const-naming-style = "any"
+good-names = [
+    "id",
+]
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+    "too-few-public-methods",
+    "too-many-arguments",
+    "too-many-branches",
+    "too-many-instance-attributes",
+    "too-many-public-methods",
+    "too-many-return-statements",
+]
