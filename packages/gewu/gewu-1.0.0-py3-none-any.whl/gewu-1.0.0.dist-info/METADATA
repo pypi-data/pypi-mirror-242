@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gewu
+Version: 1.0.0
+Summary: 在线模式下，格物板与pc机之间的通信
+Home-page: https://www.haoqixingstem.com/#/
+Author: denglihua
+Author-email: 1173324325@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+gewu1.0.0
+用于在python在线模式下,可以对格物板、拓展盒控制；
+
