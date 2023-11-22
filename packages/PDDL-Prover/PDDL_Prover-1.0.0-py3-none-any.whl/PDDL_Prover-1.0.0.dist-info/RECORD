@@ -1,0 +1,9 @@
+pddl_prover/__init__.py,sha256=D1wP730llLKs3VDPPOOydNSxQMX7-FXVfFiotkPMHNA,58
+pddl_prover/examples.py,sha256=Bx3jvD36K85XkDU1DG6b2WDMnWpYCp13ahmco6vWKeA,2825
+pddl_prover/logic.py,sha256=2LBF7gqLdKo9mn4q-LONOKmGNkxTt173WvrI1lSWVxw,24168
+pddl_prover/tests.py,sha256=-zZzlt0jX7IbZen1S3YT8X7QLe1y4EQkjS4yJBo0_y4,2763
+PDDL_Prover-1.0.0.dist-info/LICENSE,sha256=aFwC6mH5o9c8f4rd3lwh0NCqQWyAM0r1MI7P3FQGEJ8,1078
+PDDL_Prover-1.0.0.dist-info/METADATA,sha256=dM0eaaBt-ebkTpNDxCFjAkK2-M6-fNjmv_nAHghDCbs,3852
+PDDL_Prover-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+PDDL_Prover-1.0.0.dist-info/top_level.txt,sha256=TlRD0U3oha8rf1yds65zIiU2xRV3YtQZxSUKdKBebcI,12
+PDDL_Prover-1.0.0.dist-info/RECORD,,
