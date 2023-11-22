@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+clipro/__init__.py
+clipro.egg-info/PKG-INFO
+clipro.egg-info/SOURCES.txt
+clipro.egg-info/dependency_links.txt
+clipro.egg-info/top_level.txt
