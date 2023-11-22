@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: bioio-ome-tiff
+Version: 0.9.0
+Summary: A BioIO reader plugin for reading tiff files in the OME format.
+Author-email: bioio-devs <brian.whitney@alleninstitute.org>
+License: MIT License
+Project-URL: Homepage, https://github.com/bioio-devs/bioio-ome-tiff
+Project-URL: Bug Tracker, https://github.com/bioio-devs/bioio-ome-tiff/issues
+Project-URL: Documentation, https://bioio-devs.github.io/bioio-ome-tiff
+Project-URL: User Support, https://github.com/bioio-devs/bioio-ome-tiff/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bioio-base>=0.3.0
+Requires-Dist: dask[array]>=2021.4.1
+Requires-Dist: fsspec>=2022.8.0
+Requires-Dist: imagecodecs>=2020.5.30
+Requires-Dist: numpy>=1.21
+Requires-Dist: ome-types[lxml]>=0.4.0
+Requires-Dist: pydantic>=1.10.0
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: tifffile>=2022.4.22
+Requires-Dist: xarray>=0.16.1
+Requires-Dist: xmlschema
+Requires-Dist: zarr>=2.6
+Provides-Extra: lint
+Requires-Dist: pre-commit>=2.20.0; extra == "lint"
+Provides-Extra: test
+Requires-Dist: coverage>=5.1; extra == "test"
+Requires-Dist: pytest>=5.4.3; extra == "test"
+Requires-Dist: pytest-cov>=2.9.0; extra == "test"
+Requires-Dist: pytest-raises>=0.11; extra == "test"
+Requires-Dist: quilt3; extra == "test"
+Requires-Dist: types-PyYAML>=6.0.12.9; extra == "test"
+Provides-Extra: docs
+Requires-Dist: m2r2>=0.2.7; extra == "docs"
+Requires-Dist: Sphinx>=4.0.0; extra == "docs"
+Requires-Dist: furo>=2022.4.7; extra == "docs"
+Requires-Dist: numpydoc; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Requires-Dist: docutils<0.19,>=0.18; extra == "docs"
+
+# bioio-ome-tiff
+
+[![Build Status](https://github.com/bioio-devs/bioio-ome-tiff/actions/workflows/ci.yml/badge.svg)](https://github.com/bioio-devs/bioio-ome-tiff/actions)
+[![Documentation](https://github.com/bioio-devs/bioio-ome-tiff/actions/workflows/docs.yml/badge.svg)](https://bioio-devs.github.io/bioio-ome-tiff)
+
+A BioIO reader plugin for reading tiff files in the OME format.
+
+This plugin is intended to be used in conjunction with [bioio](https://github.com/bioio-devs/bioio)
+---
+
+## Installation
+
+**Stable Release:** `pip install bioio-ome-tiff`<br>
+**Development Head:** `pip install git+https://github.com/bioio-devs/bioio-ome-tiff.git`
+
+## Quickstart
+
+```python
+from bioio_ome_tiff import Reader 
+
+r = Reader("my-image.ext")
+r.dims
+```
+
+## Documentation
+
+For full package documentation please visit [bioio-devs.github.io/bioio-ome-tiff](https://bioio-devs.github.io/bioio-ome-tiff).
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information related to developing the code.
+
+**MIT License**
