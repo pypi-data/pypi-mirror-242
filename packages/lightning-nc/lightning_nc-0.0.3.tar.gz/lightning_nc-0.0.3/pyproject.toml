@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lightning-nc"
+version = "0.0.3"
+description = ""
+authors = ["Clément POIRET <poiret.clement@outlook.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8.0"
+neural-compressor = ">=2.0.0"
+lightning = ">=2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
