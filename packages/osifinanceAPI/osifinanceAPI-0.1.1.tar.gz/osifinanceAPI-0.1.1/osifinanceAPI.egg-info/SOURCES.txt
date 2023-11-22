@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+osifinanceAPI/__init__.py
+osifinanceAPI/osifinance.py
+osifinanceAPI/state_taxes.py
+osifinanceAPI.egg-info/PKG-INFO
+osifinanceAPI.egg-info/SOURCES.txt
+osifinanceAPI.egg-info/dependency_links.txt
+osifinanceAPI.egg-info/requires.txt
+osifinanceAPI.egg-info/top_level.txt
