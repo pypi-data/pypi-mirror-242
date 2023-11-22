@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: splitscreen
+Version: 0.1.1
+Summary: splitscreen
+Home-page: https://projects.om-office.de/frans/splitscreen.git
+Author: Frans Fürst
+Author-email: frans.fuerst@protonmail.com
+Requires-Python: >=3.10,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyvirtualdisplay (>=3.0,<4.0)
+Project-URL: Repository, https://projects.om-office.de/frans/splitscreen.git
+Description-Content-Type: text/markdown
+
+
