@@ -1,0 +1,17 @@
+seaduck/__init__.py,sha256=UzFmbDdrL3QbEyV8g1820-B_ByEd0YCwFIugK3a9_c0,1287
+seaduck/eulerian.py,sha256=7BKsoVKdGqwqxObc1yRFT0Tuty8ejM_efmTcp7gxPzA,48531
+seaduck/get_masks.py,sha256=otPclzpmY5jOuicMM16eJQwR3lSv9qiHsY8Urldv75g,8210
+seaduck/kernel_weight.py,sha256=XHD5ndLdsUztXTdUdwLeBVdizAIQXoevTmU4AofChuE,28589
+seaduck/lagrangian.py,sha256=CxjycLKVid2rKdHPyuDrw_wWXlsV_GLQEkoPH-yUxHk,36188
+seaduck/ocedata.py,sha256=TRdkX4plTae54oWuRbA5TwsJxzMXcyjyU3awsZ7vgK0,16090
+seaduck/oceinterp.py,sha256=1S8ZbrxFkRcTSBmXQyTJBQJ8J6omCyfvQE19yj-QF-k,5354
+seaduck/runtime_conf.py,sha256=H-J3CwFjPrIA-elCeKoNeGQkG5Ps-JeZuueY78MIqy8,436
+seaduck/smart_read.py,sha256=kmBcuzFfR6JFBn1Twcc4_xpORNX0iWS6k9Qm9jFnPoU,4133
+seaduck/topology.py,sha256=EKorF3CYTqfKUv0k-bwhsn0YVdeHDYvocooI3nVbFKo,24206
+seaduck/utils.py,sha256=Ln0VxEzcjq_-_labGzWJezxOSSa8zv597-0KWwWH_60,21019
+seaduck/version.py,sha256=TDFyBsBYj5dQ4UQBcf-o9xaD5eD4cemY65tpAOJYk5Y,72
+seaduck-1.0.0.dist-info/LICENSE,sha256=N3fxztN0Eeorv-vWTopIhU4mddpteQRrTRSrL7Y6WUA,11344
+seaduck-1.0.0.dist-info/METADATA,sha256=cmVPrN2lU15wopaLbgbILB05lTsA8Ez42wj5s6ymyO4,15145
+seaduck-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+seaduck-1.0.0.dist-info/top_level.txt,sha256=OpPHa7XAeiQ3dVDJ-_mUMWEVJhK4_7JczCJ7Q0R8dLs,8
+seaduck-1.0.0.dist-info/RECORD,,
