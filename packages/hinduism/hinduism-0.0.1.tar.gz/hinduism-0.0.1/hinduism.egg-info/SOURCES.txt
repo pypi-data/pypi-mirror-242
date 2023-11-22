@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+hinduism/__init__.py
+hinduism.egg-info/PKG-INFO
+hinduism.egg-info/SOURCES.txt
+hinduism.egg-info/dependency_links.txt
+hinduism.egg-info/top_level.txt
