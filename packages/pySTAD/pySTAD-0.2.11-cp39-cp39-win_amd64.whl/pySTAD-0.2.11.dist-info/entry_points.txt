@@ -1,0 +1,2 @@
+[console_scripts]
+stad = stad.__main__:main
