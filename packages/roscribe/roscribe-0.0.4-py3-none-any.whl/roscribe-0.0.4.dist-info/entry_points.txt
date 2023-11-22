@@ -1,0 +1,3 @@
+[console_scripts]
+roscribe = roscribe.main:main
+roscribe-rag = roscribe.ros_index_chatbot:main
