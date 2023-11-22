@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: starchain-python-sdk
+Version: 0.0.2
+Summary: This is a Python library to facilitate the usage of opencsg starchain
+Home-page: https://git-devops.opencsg.com/product/starchain/starchain-python
+Author: dapenglee
+Author-email: xxxx@163.com
+Project-URL: Bug Tracker, https://git-devops.opencsg.com/product/starchain/starchain-python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.28.0
+
+# Starchain python SDK
+```
+from opencsg.rest import StarChain
+client = StarChain(api_key="", timeout=60)
+res = client.chatflows.run(id="ef12ea98-14c1-4f36-bced-9297c5d6d41f", message={"question": "Hey, how are you?"})
+```
