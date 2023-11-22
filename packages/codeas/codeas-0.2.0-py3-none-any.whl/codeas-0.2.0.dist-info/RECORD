@@ -1,0 +1,16 @@
+codeas/__init__.py,sha256=1KhrBItVjTCR-Sumh0o09b_aKrjTTcJrpTBh5GBw6Lk,21
+codeas/_templates.py,sha256=7ee3FPN6qcTATQSofpKWWLGUaa0xawJXsROGlHV7tn4,4392
+codeas/assistant.py,sha256=-JbFs0paVe-3xhdPOSO3jUTcXd-vC_UrUEz0xpv3xj8,4841
+codeas/cli.py,sha256=FNcPLbZJ98k6-zLD4GK75FINi0eBWCNtgPJUbo7o8Fo,1811
+codeas/codebase.py,sha256=e_f4DGoxdBOpJQNH-OTRUnS4i7F5vAxF374WsqVtYNI,6188
+codeas/entities.py,sha256=DlVw7ZFqqxWD7tXHBS5jhwUgiYhZTdEPo0_7Op6T_pw,4426
+codeas/file_handler.py,sha256=HjIwGPC3fDMRW2xG9tPbe12B6vCPIIahjQLSMg_Ay2Q,3937
+codeas/initializer.py,sha256=KwRGD9nsorSbvXVR4rkXNkFgJJghAZxU-4SsRqWDszY,1940
+codeas/request.py,sha256=j0g-RCkdCgJXPvfZngpLjCHzFOaPgJH0INjD2tPd1MI,4672
+codeas/utils.py,sha256=JIo3ndsgh6X6OVPoui_FiYcoQ9IZH7bQGKVhE-9KHLM,1797
+codeas-0.2.0.dist-info/LICENSE,sha256=EVYb1pB5VPNl3eKbzI2l1GyXuIbj0WNwtLposSASLjY,1105
+codeas-0.2.0.dist-info/METADATA,sha256=k0xzNNisafHqE8tKOBKRfxRGDJaj3GV69J2RfG3IpGE,7604
+codeas-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+codeas-0.2.0.dist-info/entry_points.txt,sha256=3aG25MYReleTEFfwdP4tKaLtgqLxFLx7nH_xC-Bc-6g,42
+codeas-0.2.0.dist-info/top_level.txt,sha256=bhZUe-Pxnz-LWdi2cyzfcKV6oDadJdOKu0jZtmAE9JU,7
+codeas-0.2.0.dist-info/RECORD,,
