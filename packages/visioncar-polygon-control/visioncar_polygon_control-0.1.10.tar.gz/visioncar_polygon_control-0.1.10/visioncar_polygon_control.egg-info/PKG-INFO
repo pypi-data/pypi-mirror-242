@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: visioncar-polygon-control
+Version: 0.1.10
+Summary: PySide6 application for controlling polygon elements
+Author: VisionCar team
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PySide6==6.6.*
+Requires-Dist: qt-material==2.*
+Requires-Dist: requests==2.31.*
+Requires-Dist: zeroconf
+Requires-Dist: QtAwesome==1.2.*
+
+# Polygon Control
+
+[![PyPI version](https://badge.fury.io/py/visioncar-polygon-control.svg)](https://badge.fury.io/py/visioncar-polygon-control)
+
+This application allows you to control and configure gate lights from your computer connected to Wi-Fi network
+
+## Installing and running
+
+PyPI: `pip3 install visioncar-polygon-control`, `visioncar-polygon-control`
+
+Building single-executable distribution: `pyinstaller --windowed -F -y visioncar_polygon_control/__main__.py`

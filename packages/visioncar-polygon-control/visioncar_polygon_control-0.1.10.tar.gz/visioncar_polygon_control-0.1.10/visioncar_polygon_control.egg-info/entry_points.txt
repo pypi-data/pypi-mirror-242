@@ -1,0 +1,2 @@
+[console_scripts]
+visioncar-polygon-control = visioncar_polygon_control:main.run
