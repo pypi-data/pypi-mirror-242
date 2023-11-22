@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+combined-maths/__init__.py
+combined_maths.egg-info/PKG-INFO
+combined_maths.egg-info/SOURCES.txt
+combined_maths.egg-info/dependency_links.txt
+combined_maths.egg-info/top_level.txt
