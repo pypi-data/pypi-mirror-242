@@ -1,0 +1,13 @@
+ChatGPT2API/V1.py,sha256=j3JhUdiy8YxUV_s85bNfMPFPXfPipk-qfXP9EO3DsGw,65216
+ChatGPT2API/V3.py,sha256=CfmewgvAUOQcLVoLxNfle1TI0VgEKOik5YfOOTexIG0,25835
+ChatGPT2API/__init__.py,sha256=WSNvtr6M6XRjADExPJwUu0_xO0XpEGNv_750sC-8_Fc,1030
+ChatGPT2API/__main__.py,sha256=KmH-qhR2kg-aEBWYy2qFiUWd864OAaPZrzfeUkjkUk0,1789
+ChatGPT2API/typings.py,sha256=1SBpg0xq_EeCLjJ6oeUGpa6gWXcwXCy4dc99zGwhekI,5003
+ChatGPT2API/utils.py,sha256=CwtCMiJshzbhwMZOT_q5A3N8Efa00rkmrc7pPEJLVio,2759
+ChatGPT2API/version.py,sha256=GQFoX_bYv42H_R-5WrbZm93b5fldFq_mLYOz9PEuzh0,19
+ChatGPT2API/config/enable_internet.json,sha256=Cvo_NaX2O9Hz29XyVs6NzcGJBcbVquukPMfw5f1TRUA,1902
+ChatGPT2API-6.8.6.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+ChatGPT2API-6.8.6.dist-info/METADATA,sha256=7Mi7jRQBi3ShyVi0sh32hudUribIdZM9Hc1YeVJcnjc,7921
+ChatGPT2API-6.8.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ChatGPT2API-6.8.6.dist-info/top_level.txt,sha256=yQrTU9UCs7SlVASHJFCIhVVbcfu9mCSDigvoXG0iwKI,12
+ChatGPT2API-6.8.6.dist-info/RECORD,,
