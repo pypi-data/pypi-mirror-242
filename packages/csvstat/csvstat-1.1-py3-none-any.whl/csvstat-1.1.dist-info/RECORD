@@ -1,0 +1,7 @@
+csvstat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvstat/csv.py,sha256=VcpHdvGEomYjCdTUSfTuZHRtmLc1c3DkBt-APOEJ-aI,1734
+csvstat/setup.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvstat-1.1.dist-info/METADATA,sha256=SBtZTkIeVZXCITSRkJvGBAvTKKqLy78pWJHyg-PqbOk,222
+csvstat-1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+csvstat-1.1.dist-info/top_level.txt,sha256=-HNqG_RAeGOmDySwfM6UtRaJVJxQ1tJXO6QS8coDIxI,8
+csvstat-1.1.dist-info/RECORD,,

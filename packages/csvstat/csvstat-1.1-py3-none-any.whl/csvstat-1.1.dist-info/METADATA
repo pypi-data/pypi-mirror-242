@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: csvstat
+Version: 1.1
+Summary: A useful module
+Author: Wilkens Badio & Clivince Estinvil
+Author-email: wbadio693@gmail.com
+Requires-Dist: wheel
+Requires-Dist: bar
+Requires-Dist: greek
+
