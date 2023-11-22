@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+delayed-choice/__init__.py
+delayed_choice.egg-info/PKG-INFO
+delayed_choice.egg-info/SOURCES.txt
+delayed_choice.egg-info/dependency_links.txt
+delayed_choice.egg-info/top_level.txt
