@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+vedas/__init__.py
+vedas.egg-info/PKG-INFO
+vedas.egg-info/SOURCES.txt
+vedas.egg-info/dependency_links.txt
+vedas.egg-info/top_level.txt
