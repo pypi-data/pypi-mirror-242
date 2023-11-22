@@ -1,0 +1,3 @@
+[console_scripts]
+unsplash=unsplash_dl.__main__:main
+
