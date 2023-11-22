@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: patcherex
+Version: 2.0.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: angr
+Requires-Dist: pyelftools
+Requires-Dist: lief
+Requires-Dist: keystone-engine
+Requires-Dist: intelhex
+Requires-Dist: requests
+Provides-Extra: test
+Requires-Dist: shellphish-qemu ; extra == 'test'
+
+# Patcherex 2
