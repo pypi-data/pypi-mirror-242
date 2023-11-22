@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+datapress/__init__.py
+datapress/get_text.py
+pressor.egg-info/PKG-INFO
+pressor.egg-info/SOURCES.txt
+pressor.egg-info/dependency_links.txt
+pressor.egg-info/requires.txt
+pressor.egg-info/top_level.txt
