@@ -1,0 +1,10 @@
+setup.py
+file/__init__.py
+file/analyzer.py
+file/hello.py
+file/innerRule.cp310-win_amd64.pyd
+file/logAnalyzer.cp310-win_amd64.pyd
+log_analyzer_cwj.egg-info/PKG-INFO
+log_analyzer_cwj.egg-info/SOURCES.txt
+log_analyzer_cwj.egg-info/dependency_links.txt
+log_analyzer_cwj.egg-info/top_level.txt
