@@ -1,0 +1,16 @@
+lowrankdensity/.DS_Store,sha256=gZBW3GyHafPHLTSgtBUv0mJOeI8G8QnFU6dKwQCSiJU,6148
+lowrankdensity/__init__.py,sha256=5IsUU3Yj3Wchbp-GrbrLOFjN-R83WLbGO14TuU6wauk,150
+lowrankdensity/datasets/__init__.py,sha256=caZghVuTm2y_osnlQpXQmNLIPBLs7GW6tFZcYltjZkU,55
+lowrankdensity/datasets/_generate_samples.py,sha256=UE8DwKFhjp1S5tf2r8NgnnED3dJTQd7JfIGOrOg5hGs,3738
+lowrankdensity/models/.DS_Store,sha256=RngxCNSq_UroW_gAOmfzZlf6xWQm3JLyUMWPkzbWjWk,6148
+lowrankdensity/models/__init__.py,sha256=rP6Pc-ms1Ud6yO4zqks9HNewE1KQVJ3nvLZBlniYRPk,91
+lowrankdensity/models/continuous.py,sha256=-365t9gVVHecNiNliOAXUgPJX4y0BqJK3u2-xZZd6QI,7582
+lowrankdensity/models/discrete.py,sha256=NriWoHqZh9yefdy7JWzmhmt8OP3BTRJ3_TYkqja-WeQ,6815
+lowrankdensity/viz/_2Dhistogram.py,sha256=KPsLjKZLOKmEBw0aUEn1Ye_cS7Pi53-zesrgJOO-0Uw,6314
+lowrankdensity/viz/_3Dsurfacedensity.py,sha256=uUchNXHmq_4ERqdTB6RV9aQXQl__XgayZ38ft5nFn8E,4713
+lowrankdensity/viz/__init__.py,sha256=9rXnSDQ8lxNfyCts-cymp0Nm1rLxZpBDlbBO391wnNA,98
+Lowrankdensity-0.1.0.dist-info/LICENSE,sha256=xLOQggKeJ4Ym-fU1XjGEG96GfYXNR5xGLej_OCydflI,1199
+Lowrankdensity-0.1.0.dist-info/METADATA,sha256=2bJA7iBp-Y5w_Mx4eTRwGJP2cQdyaUqnwXuUfqH9KH4,1228
+Lowrankdensity-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Lowrankdensity-0.1.0.dist-info/top_level.txt,sha256=84BTdzxqEZ25zLg0Xq2IH4LFlHFOJI6XuZ2n87Ry1HQ,15
+Lowrankdensity-0.1.0.dist-info/RECORD,,
