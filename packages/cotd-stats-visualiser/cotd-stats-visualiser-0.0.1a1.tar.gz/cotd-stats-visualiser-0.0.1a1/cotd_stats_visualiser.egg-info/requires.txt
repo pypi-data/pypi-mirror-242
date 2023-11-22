@@ -1,0 +1,6 @@
+matplotlib
+orjson
+pandas
+ratelimiter
+requests
+setuptools>=61.0
