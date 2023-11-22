@@ -1,0 +1,2 @@
+class BuiltinLockedError(Exception):
+    pass
