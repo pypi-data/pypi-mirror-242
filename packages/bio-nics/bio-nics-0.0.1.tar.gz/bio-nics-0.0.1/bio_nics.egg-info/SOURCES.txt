@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+bio-nics/__init__.py
+bio_nics.egg-info/PKG-INFO
+bio_nics.egg-info/SOURCES.txt
+bio_nics.egg-info/dependency_links.txt
+bio_nics.egg-info/top_level.txt
