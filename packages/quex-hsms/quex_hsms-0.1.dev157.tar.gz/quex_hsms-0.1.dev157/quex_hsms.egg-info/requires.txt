@@ -1,0 +1,8 @@
+segno==1.4.1
+quex_chia_base==0.1.3.dev17
+quex_chialisp_puzzles==0.1.3
+
+[dev]
+flake8>=4.0.1
+black>=22.6
+pytest
