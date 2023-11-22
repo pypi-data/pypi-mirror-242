@@ -1,0 +1,15 @@
+craft_cli/__init__.py,sha256=Jaw4RUhoN2OBMrxJIilqQqgHtTOQKF-iMMW1s7LVUOk,1581
+craft_cli/_version.py,sha256=22tfRM9OwFMNZpfbY5SwhehtT_8ljy__s8iqxgveimE,411
+craft_cli/dispatcher.py,sha256=SsZnrom58jcEAtd5gnOd9QFK9J00GjPneTSzW60rECA,20082
+craft_cli/errors.py,sha256=fMiWwBtfjlAC4ZzEfXSocjKEzw-gk72oIOYppB4lCsE,3277
+craft_cli/helptexts.py,sha256=v98IDA_FikeY-GGjE9paHHrdKkyBM_RjKYxKY0t6uCE,14732
+craft_cli/messages.py,sha256=xqV9qsaDEdNynA5EFUCZu8SdPHf_W-gRR61lC8wPeOQ,28843
+craft_cli/printer.py,sha256=i0oFeIi0daa1sT43bfUCL64iuV1gvKW80-8RyF4MOD8,16872
+craft_cli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+craft_cli/pytest_plugin.py,sha256=HT_Frf6eIk9BksqZjyWNUiOc19sMWdsdhk6wTuDDh00,8336
+craft_cli-2.5.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+craft_cli-2.5.0.dist-info/METADATA,sha256=_HewZJzmjVQbBDu28sdcIJFxStyMbl9ywW0Q0Sdy1zM,11676
+craft_cli-2.5.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+craft_cli-2.5.0.dist-info/entry_points.txt,sha256=P4_83oOmCycYoY7bNyfjLd-RzMYcIPtkZpWYa8ZF17Q,45
+craft_cli-2.5.0.dist-info/top_level.txt,sha256=avew_dT0MDzKjSeFPhjev_TZEuxvCtZSghMwH1te8pA,10
+craft_cli-2.5.0.dist-info/RECORD,,
