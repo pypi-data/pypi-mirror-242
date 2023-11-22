@@ -1,0 +1,15 @@
+jupyterlab_cell_flash/__init__.py,sha256=mXeNe8hJh4QxTHKZvx6nDsUZ6q7nFMgUCK73vqTj4Mk,319
+jupyterlab_cell_flash/_version.py,sha256=efv02WZz012b3Yfi0__4d2EvXfJa-MdSeKtd2PmarsQ,171
+jupyterlab_cell_flash-0.4.0.data/data/share/jupyter/labextensions/jupyterlab-cell-flash/package.json,sha256=zNC3h-BrZ3BGXb0xKsFJnW-OPOQQfOfjg8T0Ja9PQ5M,5794
+jupyterlab_cell_flash-0.4.0.data/data/share/jupyter/labextensions/jupyterlab-cell-flash/schemas/jupyterlab-cell-flash/package.json.orig,sha256=ZbtCKHkZn1MoP2dzk1XSjYHXXiPghGp4Xt-ceTCgM4w,6530
+jupyterlab_cell_flash-0.4.0.data/data/share/jupyter/labextensions/jupyterlab-cell-flash/schemas/jupyterlab-cell-flash/plugin.json,sha256=jII5YXJV2fefQjFjIyBorqs7D_3HlmSySr17f_SAJlg,487
+jupyterlab_cell_flash-0.4.0.data/data/share/jupyter/labextensions/jupyterlab-cell-flash/static/568.dd6e64dba97e1e4545f1.js,sha256=3W5k26l-HkVF8WrpQxkzkT8g-85bQTjqBEQoMo_u6qA,994
+jupyterlab_cell_flash-0.4.0.data/data/share/jupyter/labextensions/jupyterlab-cell-flash/static/747.d6eefe979fcab7d67a7e.js,sha256=1u7-l5_Kt9Z6fqfNYoNO9Hx5wPK29N8lgtOVpCFshj4,4321
+jupyterlab_cell_flash-0.4.0.data/data/share/jupyter/labextensions/jupyterlab-cell-flash/static/remoteEntry.ddd7c20c6f5f1624a054.js,sha256=3dfCDG9fFiSgVHi79vaHvixZ896ZZFZE0DHukl4pTJI,6480
+jupyterlab_cell_flash-0.4.0.data/data/share/jupyter/labextensions/jupyterlab-cell-flash/static/style.js,sha256=fFyRdpxANrx5hev-XQ4m_F6lebTq14SlFKjiZKPH8OE,164
+jupyterlab_cell_flash-0.4.0.data/data/share/jupyter/labextensions/jupyterlab-cell-flash/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+jupyterlab_cell_flash-0.4.0.data/data/share/jupyter/labextensions/jupyterlab-cell-flash/install.json,sha256=fVKWrtLcrRB6ZRXTRteEUqwcKQhqu0VlZUGx-PE1FeM,203
+jupyterlab_cell_flash-0.4.0.dist-info/METADATA,sha256=_sCoeaqYFB7O6A5lxjBi2pyteu_X_j85FgA_x2m5VV8,5797
+jupyterlab_cell_flash-0.4.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_cell_flash-0.4.0.dist-info/licenses/LICENSE,sha256=SDGfKNACFivkvzj6cQPDwAzG_e-almFO4phCOCKLZi8,1557
+jupyterlab_cell_flash-0.4.0.dist-info/RECORD,,
