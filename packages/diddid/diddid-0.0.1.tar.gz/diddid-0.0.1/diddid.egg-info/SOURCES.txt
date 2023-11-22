@@ -1,0 +1,8 @@
+setup.py
+diddid.egg-info/PKG-INFO
+diddid.egg-info/SOURCES.txt
+diddid.egg-info/dependency_links.txt
+diddid.egg-info/top_level.txt
+libpkg/__init__.py
+libpkg/functions.py
+libpkg/greet.py
