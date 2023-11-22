@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: og_calculator_1234
+Version: 0.0.4
+Summary: A calculator with +, -, *, /, nth root operaters
+Home-page: https://github.com/TuringCollegeSubmissions/ogayle-DWWP.1/tree/master/og_calculator_1234
+Author: Oliver
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: pip
