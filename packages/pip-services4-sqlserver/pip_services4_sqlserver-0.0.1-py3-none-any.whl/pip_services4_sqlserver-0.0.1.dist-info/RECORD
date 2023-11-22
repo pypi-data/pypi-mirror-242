@@ -1,0 +1,15 @@
+pip_services4_sqlserver/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pip_services4_sqlserver/build/DefaultSqlServerFactory.py,sha256=c7MrN3dx8cquJXuVUtsWVHvi2m5gXzh_-gVUe0ARitg,889
+pip_services4_sqlserver/build/__init__.py,sha256=XdRRhp_9z4IUl3qYxqVsqaw1si8k_Q2opdfYoLDZ-_4,125
+pip_services4_sqlserver/connect/SqlServerConnection.py,sha256=4aoGeyNmrTlGIkZrC-TYjRO6BhNGMqsQRlPl1gQg5-c,8648
+pip_services4_sqlserver/connect/SqlServerConnectionResolver.py,sha256=dqUrrFctGtElNrWukMXsw6MNS2hK04Kc_PU_0LJwoqw,6651
+pip_services4_sqlserver/connect/__init__.py,sha256=z6kIOLZHKdVj4_KwR5MranOKN-Iw4blyYhHj7SPNpts,213
+pip_services4_sqlserver/persistence/IdentifiableJsonSqlServerPersistence.py,sha256=0eWgJfkSeAQTtjHc10C4aCtf9IcG-ZPeOlOG_CHUAJw,8058
+pip_services4_sqlserver/persistence/IdentifiableSqlServerPersistence.py,sha256=szx8YVqlVBl9R3hY6-uDu6hqg11I4ljmRhti-kKoi2w,12926
+pip_services4_sqlserver/persistence/SqlServerPersistence.py,sha256=YFsDQ56pzXLffVTxvX6hRy8A1n_YlwVwiUD9F6taRRw,25573
+pip_services4_sqlserver/persistence/__init__.py,sha256=CCcXSMp_jJeCbNFPFCY_7qryu7peKBiIfuNI67tn9dY,358
+pip_services4_sqlserver-0.0.1.dist-info/METADATA,sha256=pmaMFZ3tDImFFWLj6SURCrCkjyFgNFw3bPqbe569-_s,1552
+pip_services4_sqlserver-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pip_services4_sqlserver-0.0.1.dist-info/top_level.txt,sha256=TSQDPCuTKQ4U6oZ61dC7Rv4leostw-hgSpCHNtCzzKQ,24
+pip_services4_sqlserver-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pip_services4_sqlserver-0.0.1.dist-info/RECORD,,
