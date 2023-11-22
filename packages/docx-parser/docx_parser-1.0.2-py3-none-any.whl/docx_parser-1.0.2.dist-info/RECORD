@@ -1,0 +1,12 @@
+docx_parser/__init__.py,sha256=_PsgyQEqmWTx2H1G7CAgK-C00Yrs4WvtgwnQv6ejPTo,251
+docx_parser/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docx_parser/bin/main.py,sha256=1oyRHEqnEhDlAwPodwggYY6eMtBIRTynkoZDjzD8v8E,1950
+docx_parser/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docx_parser/core/parser.py,sha256=qlepLcEraJj8o9kjeav-sd2w8p67TauyiZ7zbQSgBb0,3494
+docx_parser/util/__init__.py,sha256=rADqHA92SNdEtOb39mIYuOL7ouEOqqxP_NC6_kZXtmA,1369
+docx_parser/version/version.json,sha256=0oXHy8GuSOB3m-cMuovrsLjJK60neoqgebhXXNbxKGM,252
+docx_parser-1.0.2.dist-info/METADATA,sha256=34hrrZBGI9mwT7VVeMPrtB004oUVbiTBWpchplvYL5U,1735
+docx_parser-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+docx_parser-1.0.2.dist-info/entry_points.txt,sha256=H9EEc-mJwzE6To67iOJmsGUvKQ8gQFEZzuV3rJ2mshQ,59
+docx_parser-1.0.2.dist-info/top_level.txt,sha256=EVjJNLxiwsI4tb2pCrD2aHXFK0Xqm1_WR9rIIW0gkQo,12
+docx_parser-1.0.2.dist-info/RECORD,,
