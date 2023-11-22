@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Amqizi
+Version: 0.2.0
+Summary: A Basic Hello World package
+Home-page: https://github.com/MrRobinnn/simple-pkg
+Author: MrRobinnn
+Author-email: spree.wolf@protonmail.com
+Keywords: hello,hey,bye
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
