@@ -1,0 +1,13 @@
+README.md
+setup.py
+my_package/__init__.py
+my_package/database.py
+my_package/utils.py
+mydbpackage_mysql.egg-info/PKG-INFO
+mydbpackage_mysql.egg-info/SOURCES.txt
+mydbpackage_mysql.egg-info/dependency_links.txt
+mydbpackage_mysql.egg-info/entry_points.txt
+mydbpackage_mysql.egg-info/requires.txt
+mydbpackage_mysql.egg-info/top_level.txt
+tests/__init__.py
+tests/test_database.py

@@ -1,0 +1,15 @@
+# setup.py
+from setuptools import setup, find_packages
+
+setup(
+    name='mydbpackage_mysql',
+    version='0.2.0',
+    packages=find_packages(),
+    install_requires=['mysql-connector-python'],
+    entry_points={
+        'console_scripts': [
+            'your-command-name=mydbpackage_mysql.module_name:main',
+        ],
+    },
+    test_suite='tests',
+)
