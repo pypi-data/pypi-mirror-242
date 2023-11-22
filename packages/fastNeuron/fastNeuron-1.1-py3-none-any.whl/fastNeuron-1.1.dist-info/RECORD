@@ -1,0 +1,9 @@
+fastNeuron/Activation_funcs.py,sha256=Cck65623zlx1LQ-wfvMA2Wd6sXkYcKymPOCTvWcNQQM,2680
+fastNeuron/Optimizers.py,sha256=iuCMZOBZTEPvEGBI6v4DF3TlcirIpQue1LyVndxS2S4,10188
+fastNeuron/layers.py,sha256=HMFjvePJ9NP8IwqnlRr4U0F-Zm4ltnaAZdywbbVCVFc,4530
+fastNeuron/loss_funcs.py,sha256=NKYiQZzvvLyAUfT5o9slyNYvfECFFRsnKGdPaJIM9wE,3596
+fastNeuron/network.py,sha256=p15AbQPNsYIp1pYV5ZA24Gq6QsSZdXwcbMiHvfBi_Go,2881
+fastNeuron-1.1.dist-info/METADATA,sha256=JhPHPuOWnw9zZ682EvDiqUARRnnj4ldZaezMTN5KoU8,1697
+fastNeuron-1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+fastNeuron-1.1.dist-info/top_level.txt,sha256=OhdijzXEHlsCurtEtrfwCNEZagNbLEqlM2sAqSVLkyY,11
+fastNeuron-1.1.dist-info/RECORD,,
