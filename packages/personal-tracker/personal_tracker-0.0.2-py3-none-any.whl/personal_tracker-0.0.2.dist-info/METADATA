@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: personal-tracker
+Version: 0.0.2
+Summary: A simple object tracker for tracking target person using few images of target person
+Author: Nhuengzii (Anawat Moonmanee)
+Author-email: <32nhueng@gmail.com>
+Requires-Dist: ultralytics
+Requires-Dist: opencv-python
+Requires-Dist: opencv-contrib-python
+Requires-Dist: clip
+Requires-Dist: gdown
+
