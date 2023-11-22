@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: codigofacilito
+Version: 0.0.3
+Summary: Permite consumir el API de CódigoFacilito
+Home-page: https://github.com/Ange1D/codigofacilito_package/
+Author: Ange1D
+Author-email: ange1d.contact0@gmail.com
+License: MIT
+Keywords: codigofacilito
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+### CodigoFacilito
+
+Este paquete nos permite consumir el API de la plataforma. 🐍
+
+Se pueden recuperar 2 tipos de objetos, "workshops" y "articles", para ello usar el flag --items
+ej: ```pycody --items articles```
+
+Para los workshops hay un flag complementario --unreleased, este flag retorna los workshops que aun no se han lanzado
+ej: ```pycody --items workshops --unreleased```
+
