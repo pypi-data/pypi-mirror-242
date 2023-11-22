@@ -1,0 +1,9 @@
+persistentMemory/PersistentMemory.py,sha256=EESIZqSLP2nBgKvk7oq8RHZWueJAsJ8hcTex8ouDZeA,5311
+persistentMemory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_PersistentMemory.py,sha256=p54oyYDcmXDd9fdUGVZctzMAMJQyKcVJ1Rmn8nLE6Pw,1397
+PersistentMemory-0.1.3.dist-info/LICENSE,sha256=55Ti7ZYHwAtmM2FamZabWbxlihBej3EpNApxKNTl8vs,1072
+PersistentMemory-0.1.3.dist-info/METADATA,sha256=P9zZuNR2uLXB3m_5epcdOy6RGqpOYM8QwKaZlRPaGng,1688
+PersistentMemory-0.1.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+PersistentMemory-0.1.3.dist-info/top_level.txt,sha256=0KJ7q4tqjLSvxp4h7DLZjkY1SbXZu3atUeW5tpckVbI,23
+PersistentMemory-0.1.3.dist-info/RECORD,,
