@@ -1,0 +1,16 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/gip/__init__.py
+src/gip/bootstrap.py
+src/gip/main.py
+src/gip/mixture_modelling.py
+src/gip/mutual_information.py
+src/gip/process_normalise.py
+src/gip/utils.py
+src/gip_bio.egg-info/PKG-INFO
+src/gip_bio.egg-info/SOURCES.txt
+src/gip_bio.egg-info/dependency_links.txt
+src/gip_bio.egg-info/requires.txt
+src/gip_bio.egg-info/top_level.txt
