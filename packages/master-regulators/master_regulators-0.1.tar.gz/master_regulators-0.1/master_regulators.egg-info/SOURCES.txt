@@ -1,0 +1,7 @@
+setup.py
+master_regulators.egg-info/PKG-INFO
+master_regulators.egg-info/SOURCES.txt
+master_regulators.egg-info/dependency_links.txt
+master_regulators.egg-info/entry_points.txt
+master_regulators.egg-info/requires.txt
+master_regulators.egg-info/top_level.txt
