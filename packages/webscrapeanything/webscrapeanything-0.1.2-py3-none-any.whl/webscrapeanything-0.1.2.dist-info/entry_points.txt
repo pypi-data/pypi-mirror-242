@@ -1,0 +1,2 @@
+[console_scripts]
+my_scraper = my_scraper.main:main
