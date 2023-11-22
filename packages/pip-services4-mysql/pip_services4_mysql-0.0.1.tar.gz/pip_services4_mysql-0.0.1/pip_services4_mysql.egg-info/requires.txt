@@ -1,0 +1,7 @@
+mysql-connector-python<9.0,>=8.0.27
+pip_services4_commons<1.0,>=0.0.1
+pip_services4_components<1.0,>=0.0.1
+pip_services4_data<1.0,>=0.0.1
+pip_services4_config<1.0,>=0.0.1
+pip_services4_observability<1.0,>=0.0.1
+pip_services4_persistence<1.0,>=0.0.1
