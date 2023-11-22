@@ -1,0 +1,11 @@
+scancode-toolkit
+typecode-libmagic
+joblib
+
+[dev]
+flake8
+flake8-bugbear
+pep8-naming
+mypy
+requests
+types-requests
