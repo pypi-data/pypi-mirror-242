@@ -1,0 +1,4 @@
+opencv-python==4.8.*
+requests==2.*
+zeroconf==0.102.0
+simplejpeg==1.7.*
