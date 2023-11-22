@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+hypothalamus/__init__.py
+hypothalamus.egg-info/PKG-INFO
+hypothalamus.egg-info/SOURCES.txt
+hypothalamus.egg-info/dependency_links.txt
+hypothalamus.egg-info/top_level.txt
