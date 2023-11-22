@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: noetic_sdk
+Version: 0.0.0
+Summary: A placeholder the noetic sdk
+Author-email: Noetic Cyber <pypi@noeticcyber.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Noetic SDK
+
+This is a placeholder the noetic sdk

@@ -1,0 +1,21 @@
+[build-system]
+
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "noetic_sdk"
+version = "0.0.0"
+authors = [
+  { name="Noetic Cyber", email="pypi@noeticcyber.com" },
+]
+description = "A placeholder the noetic sdk"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 1 - Planning"
+]
+
+[project.scripts]
+noetic = "noetic.app:main"
