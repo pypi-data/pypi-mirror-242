@@ -1,0 +1,3 @@
+[console_scripts]
+dbt-profiles-setup=dbt_profiles_setup.cli:cli_main
+
