@@ -1,0 +1,10 @@
+setup.py
+ingest_service_api/__init__.py
+ingest_service_api/_impl.py
+ingest_service_api/py.typed
+ingest_service_api.egg-info/PKG-INFO
+ingest_service_api.egg-info/SOURCES.txt
+ingest_service_api.egg-info/dependency_links.txt
+ingest_service_api.egg-info/requires.txt
+ingest_service_api.egg-info/top_level.txt
+ingest_service_api/ingest/__init__.py
