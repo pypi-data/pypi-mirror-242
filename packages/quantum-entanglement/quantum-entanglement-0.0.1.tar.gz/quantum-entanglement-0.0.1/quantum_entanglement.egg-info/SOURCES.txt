@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+quantum-entanglement/__init__.py
+quantum_entanglement.egg-info/PKG-INFO
+quantum_entanglement.egg-info/SOURCES.txt
+quantum_entanglement.egg-info/dependency_links.txt
+quantum_entanglement.egg-info/top_level.txt
