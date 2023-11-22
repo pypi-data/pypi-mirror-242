@@ -1,0 +1,9 @@
+.env*
+.idea
+docker-compose.yml
+.dockerignore
+deployment
+.eggs
+.pytest_cache
+build
+dist
