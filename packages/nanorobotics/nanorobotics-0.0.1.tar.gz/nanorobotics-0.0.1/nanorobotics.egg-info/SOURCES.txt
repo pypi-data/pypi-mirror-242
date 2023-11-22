@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+nanorobotics/__init__.py
+nanorobotics.egg-info/PKG-INFO
+nanorobotics.egg-info/SOURCES.txt
+nanorobotics.egg-info/dependency_links.txt
+nanorobotics.egg-info/top_level.txt
