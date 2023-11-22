@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+PersistentMemory.egg-info/PKG-INFO
+PersistentMemory.egg-info/SOURCES.txt
+PersistentMemory.egg-info/dependency_links.txt
+PersistentMemory.egg-info/top_level.txt
+persistentMemory/PersistentMemory.py
+persistentMemory/__init__.py
+tests/__init__.py
+tests/test_PersistentMemory.py
