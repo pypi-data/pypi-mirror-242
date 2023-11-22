@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vibe-csv-json
+Version: 1.0
+Summary: demonstration de creation d'un package Python
+Author: NegreMan-001, Mardodo
+Author-email: danydaniedany1@gmail.com, mardocheulysse54@gmail.com
+Maintainer: NegreMan-001, Mardodo
+Maintainer-email: danydaniedany1@gmail.com, mardocheulysse54@gmail.com
+License: GPL V3
+Platform: ALL
+Classifier: Topic :: Education
+Classifier: Topic :: Documentation
+
