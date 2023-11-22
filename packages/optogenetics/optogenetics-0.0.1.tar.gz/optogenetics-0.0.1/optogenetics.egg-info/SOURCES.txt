@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+optogenetics/__init__.py
+optogenetics.egg-info/PKG-INFO
+optogenetics.egg-info/SOURCES.txt
+optogenetics.egg-info/dependency_links.txt
+optogenetics.egg-info/top_level.txt
