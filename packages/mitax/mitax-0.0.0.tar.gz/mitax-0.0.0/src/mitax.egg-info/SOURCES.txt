@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/mitax.egg-info/PKG-INFO
+src/mitax.egg-info/SOURCES.txt
+src/mitax.egg-info/dependency_links.txt
+src/mitax.egg-info/entry_points.txt
+src/mitax.egg-info/requires.txt
+src/mitax.egg-info/top_level.txt
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
+tests/test_simple.py
