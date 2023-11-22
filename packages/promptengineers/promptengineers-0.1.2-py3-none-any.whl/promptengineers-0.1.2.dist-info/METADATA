@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: promptengineers
+Version: 0.1.2
+Summary: A collection of utilities by Prompt Engineers
+Home-page: https://github.com/promptengineers-ai/core
+Author: Ryan Eggleston
+Author-email: kre8mymedia@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: ujson
+Provides-Extra: history
+Requires-Dist: fastapi ; extra == 'history'
+Requires-Dist: uvicorn ; extra == 'history'
+Requires-Dist: motor ; extra == 'history'
+Requires-Dist: pymongo ; extra == 'history'
+Requires-Dist: cryptography ; extra == 'history'
+
+### Prompt Engineers AI Open Source Package
