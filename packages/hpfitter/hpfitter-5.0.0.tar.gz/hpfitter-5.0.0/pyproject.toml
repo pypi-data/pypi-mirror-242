@@ -1,0 +1,24 @@
+[build-system]
+requires      = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hpfitter"
+version = "5.0.0"
+description = "Hyperparameter fitter for the Gaussian Process from GP-atom"
+readme = "README.md"
+authors = [{ name = "Andreas Vishart", email = "alyvi@dtu.dk" }]
+license = { file = "LICENSE" }
+dependencies = ['numpy>=1.20.3','scipy>=1.8.0','ase>=3.22.1']
+requires-python = ">=3.7"
+classifiers = [
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Education",
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "Operating System :: MacOS",
+        "Operating System :: POSIX :: Linux",
+    ]
+
+[project.urls]
+Homepage = "https://github.com/avishart/hpfitter"
