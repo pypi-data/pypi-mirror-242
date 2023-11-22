@@ -1,0 +1,3 @@
+[console_scripts]
+cli=bin.main:main
+
