@@ -1,0 +1,106 @@
+[project]
+name = 'ina238'
+description = 'Python driver for TI INA238 Power Monitor (https://www.ti.com/product/INA238)'
+authors = [
+  { name = 'Dennis Klein', email = 'd.klein@gsi.de' },
+  { name = 'Alexey Rybalchenko', email = 'a.rybalchenko@gsi.de' },
+  { name = 'Christian Tacke', email = 'c.tacke@gsi.de' },
+]
+license = 'LGPL-3.0-only'
+readme = "README.md"
+url = 'https://gsi-hpc.github.io/py-ina238'
+dynamic = ['version']
+requires-python = '>=3.6'
+classifiers = [
+  'Development Status :: 4 - Beta',
+  'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
+  'Programming Language :: Python',
+  'Programming Language :: Python :: 3.6',
+  'Programming Language :: Python :: 3.7',
+  'Programming Language :: Python :: 3.8',
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: 3.11',
+  'Topic :: System :: Hardware :: Hardware Drivers',
+  'Topic :: System :: Monitoring',
+  'Intended Audience :: Developers',
+  'Intended Audience :: Science/Research',
+  'Intended Audience :: System Administrators',
+]
+dependencies = [
+  'Adafruit-Blinka',
+  # 'click',
+  # 'httpx',
+  # 'rich',
+  # 'tomli',
+]
+
+[project.urls]
+Issues = 'https://github.com/GSI-HPC/py-ina238/issues'
+Source = 'https://github.com/GSI-HPC/py-ina238'
+
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[tool.hatch.version]
+path = 'ti/__init__.py'
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  '/.github',
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ['ti']
+
+# test environment
+[tool.hatch.envs.test]
+dependencies = [
+  'coverage[toml]',
+  'pytest',
+  'pytest-cov',
+  'mypy',
+  'flake8',
+  'pylint',
+]
+
+[tool.hatch.envs.test.scripts]
+coverage = '''pytest \
+  --no-header \
+  --cov-report=term-missing:skip-covered \
+  --cov-config=pyproject.toml \
+  --cov=ti --no-cov-on-fail \
+  --cov-fail-under=20
+  '''
+typechecker = 'mypy --check-untyped-defs ti/'
+lint1 = 'flake8 ti/'
+lint2 = 'pylint ti/'
+all = ['coverage',  'typechecker', 'lint1', 'lint2']
+allf = ['- coverage',  '- typechecker', '- lint1', '- lint2']
+
+[[tool.hatch.envs.test.matrix]]
+python = ['36', '37', '38', '39', '310', '311']
+
+
+# docs environment
+[tool.hatch.envs.docs]
+detached = true
+dependencies = [
+  'sphinx',
+  'sphinx_toolbox',
+  'extras_require',
+  'sphinxemoji',
+  'sphinx-notfound-page',
+  'sphinx_copybutton',
+  'default_values',
+  'toctree_plus',
+  'sphinx_debuginfo',
+  'sphinx_licenseinfo',
+  'seed_intersphinx_mapping',
+  'html_section',
+]
+
+[tool.hatch.envs.docs.scripts]
+build = 'sphinx-build -b html docs docs/build'
+serve = 'python3 -m http.server --bind localhost --directory docs/build 8000'
