@@ -1,0 +1,11 @@
+nahuatl_tools/__init__.py,sha256=s3KgX9TLRdYBvQApe6TT_B2E1vw_LvCN8vDqFz3xxU4,251
+nahuatl_tools/gloss.py,sha256=yMYnSJQdaDla7KCLqjhvZC9fcH9Raq-bYCME9ESM_sk,14417
+nahuatl_tools/orthography_converter.py,sha256=LTr38e7W3DU0DWOK3ZlrtSaZbknBTYC9THtqww_PH2E,3619
+nahuatl_tools/parse.py,sha256=JvlceJpdLbujOXHyzfdj7OohEVByzBvSlboofuPNIuA,9554
+nahuatl_tools/pos_tagger.py,sha256=XqeKGKNCnNDkBct3AeE457miH1-vSbh6kNNyIxN-7-Y,3321
+nahuatl_tools/tokenizer.py,sha256=gMhg0pQuAHXeOtbcZo4IfBdtb5Jk1ePhUb7SE0ZO6zU,6153
+nahuatl_tools-0.0.1.dist-info/LICENSE,sha256=HpaHAOA1d8aCudDR8QT9ts2WsK3jJBfJSZBPJZmAoaM,1077
+nahuatl_tools-0.0.1.dist-info/METADATA,sha256=CBEdBZ24DOO-SKvCGrV7wQXW-P0Lg41ks-t8_zpxros,1521
+nahuatl_tools-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+nahuatl_tools-0.0.1.dist-info/top_level.txt,sha256=Hm5fjhazC9tHQWSbSxK1Sxwamr4EQb-uFMPYsZXhkT4,14
+nahuatl_tools-0.0.1.dist-info/RECORD,,
