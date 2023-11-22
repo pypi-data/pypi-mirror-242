@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+octvol/OCTVol.py
+octvol/__init__.py
+octvol.egg-info/PKG-INFO
+octvol.egg-info/SOURCES.txt
+octvol.egg-info/dependency_links.txt
+octvol.egg-info/requires.txt
+octvol.egg-info/top_level.txt
