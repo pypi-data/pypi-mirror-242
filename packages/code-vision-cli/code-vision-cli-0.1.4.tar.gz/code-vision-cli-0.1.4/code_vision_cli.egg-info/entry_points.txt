@@ -1,0 +1,2 @@
+[console_scripts]
+code-vision-cli = code_vision_cli.__main__:main
