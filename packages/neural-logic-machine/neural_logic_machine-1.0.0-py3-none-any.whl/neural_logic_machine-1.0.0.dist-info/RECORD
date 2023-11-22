@@ -1,0 +1,8 @@
+neural_logic_machine/__init__.py,sha256=SIDJbcH2Xz3oHq3GnErMEFKgYtAptCGpIoDC2RadymA,155
+neural_logic_machine/padded_NLM.py,sha256=zWoPIj24kqBj7yrCU2raING5fvBvcY0KNkrNnDQ0edw,27080
+neural_logic_machine/unpadded_NLM.py,sha256=07Ea7uKGreJ6xvRFwiNZdhtNEvTuwmPlpJxsvnbRFg0,25764
+neural_logic_machine-1.0.0.dist-info/LICENSE,sha256=aFwC6mH5o9c8f4rd3lwh0NCqQWyAM0r1MI7P3FQGEJ8,1078
+neural_logic_machine-1.0.0.dist-info/METADATA,sha256=gS0zWJiqaUEDmj6_IBTsS8LerXt2a1xRWiH5KWvVrVA,1916
+neural_logic_machine-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+neural_logic_machine-1.0.0.dist-info/top_level.txt,sha256=L75ilhWJDYG88tUPn6qTHK-6gRO4YHIEUlZDVGfpA7c,21
+neural_logic_machine-1.0.0.dist-info/RECORD,,
