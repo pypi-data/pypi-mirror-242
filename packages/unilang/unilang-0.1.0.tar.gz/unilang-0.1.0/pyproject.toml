@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "unilang"
+version = "0.1.0"
+description = ""
+authors = ["isaac-fei <isaac.omega.fei@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qianfan = "^0.1.4"
+openai = "^1.3.3"
+python-dotenv = "^1.0.0"
+pydantic = "^2.5.1"
+loguru = "^0.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
