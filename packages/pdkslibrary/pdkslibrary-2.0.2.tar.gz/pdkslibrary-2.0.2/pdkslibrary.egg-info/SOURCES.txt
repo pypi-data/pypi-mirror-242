@@ -1,0 +1,7 @@
+setup.py
+pdkslibrary/__init__.py
+pdkslibrary/betamods.py
+pdkslibrary.egg-info/PKG-INFO
+pdkslibrary.egg-info/SOURCES.txt
+pdkslibrary.egg-info/dependency_links.txt
+pdkslibrary.egg-info/top_level.txt
