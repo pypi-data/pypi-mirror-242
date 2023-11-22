@@ -1,0 +1,62 @@
+# small change
+[tool.poetry]
+name = "juice-core-uplink-api-client"
+version = "0.2.6"
+description = "A client library for accessing Juice Core Uplink API"
+
+authors = []
+
+readme = "README.md"
+packages = [
+    {include = "juice_core_uplink_api_client"},
+    {include = "juice_core"}
+]
+include = ["CHANGELOG.md", "juice_core_uplink_api_client/py.typed"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+httpx = ">=0.15.4,<0.24.0"
+attrs = ">=21.3.0"
+python-dateutil = ">=2.8.0"
+pandas = ">=1.5.2"
+merge-args = ">=0.1.5"
+importlib-metadata = "^6.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+jupyterlab = "^4.0.8"
+matplotlib = "^3.8.1"
+nbmake = "^1.4.1"
+pytest-cov = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target_version = ['py37', 'py38', 'py39']
+exclude = '''
+(
+  /(
+    | \.git
+    | \.venv
+    | \.mypy_cache
+  )/
+)
+'''
+
+[tool.isort]
+line_length = 120
+profile = "black"
+
+
+[tool.pytest.ini_options]
+addopts = """\
+    --nbmake \
+    --cov juice_core \
+    --cov juice_core_uplink_api_client \
+    --cov examples \
+    --cov-report term-missing \
+    --no-cov-on-fail \
+"""
