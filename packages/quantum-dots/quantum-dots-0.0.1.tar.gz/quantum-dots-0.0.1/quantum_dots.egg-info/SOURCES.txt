@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+quantum-dots/__init__.py
+quantum_dots.egg-info/PKG-INFO
+quantum_dots.egg-info/SOURCES.txt
+quantum_dots.egg-info/dependency_links.txt
+quantum_dots.egg-info/top_level.txt
