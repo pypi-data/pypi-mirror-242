@@ -1,0 +1,46 @@
+# SQUIC for Python
+SQUIC is a second-order, L1-regularized maximum likelihood method for performant large-scale sparse precision matrix estimation. This repository contains the source code for the Python(v3) interface of SQUIC. 
+
+**For an interactive session using SQUIC for Python, see Google Colab:**
+
+[![SQUIC for Python](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iQB5hz07UMd5C1PR3w3xM3306BVcFGiO?usp=sharing)
+
+## Installation
+
+#### Step 1:
+Download the library $\mathtt{libSQUIC}$ from [here](www.gitlab.ci.inf.usi.ch/SQUIC/lib), and follow its README instructions. The default and recommended location for $\mathtt{libSQUIC}$ is the home directory, i.e., ``~/``. Note that precompiled versions are available.
+
+#### Step 2:
+Run the following command to install the library:
+```angular2
+pip3 install squic
+```
+Use ```export SQUIC_LIB_PATH=/path/to/squic/```, replacing ```/path/to/squic/``` with the path of where $\mathtt{libSQUIC}$ can be found.
+If this variable is not set, the default location of $\mathtt{libSQUIC}$ is ```$HOME```.
+This should be done before calling Python.
+
+## Example
+In this example, we will use SQUIC to estimate the precision matrix of a synthetically generated dataset with correlated random variables, where the true precision matrix is tridiagonal.
+
+```angular2
+import squic
+import numpy as np
+
+# generate sample from tridiagonal precision matrix
+p = 1024
+n = 100
+l = .4
+
+# generate a tridiagonal matrix
+np.random.seed(1)
+a = -0.5 * np.ones(p-1)
+b = 1.25 * np.ones(p)
+iC_star = np.diag(a,-1) + np.diag(b,0) + np.diag(a,1)
+
+# generate the data
+L = np.linalg.cholesky(iC_star)
+Y = np.linalg.solve(L.T,np.random.randn(p,n))
+
+[X,W,info_times,info_objective,info_logdetX,info_trSX] = squic.run(Y,l)
+```
+For further details type ``help(SQUIC)`` or check the [User Manual](https://www.gitlab.ci.inf.usi.ch/SQUIC/gitlab-profile/-/raw/main/SQUIC_User_Manual.pdf).
