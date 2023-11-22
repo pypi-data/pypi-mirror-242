@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ndg.clap
+Version: 0.1.0
+Summary: A command-line argument parser that builds itself.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.10
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black>=23.9.1; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: mypy>=1.5.1; extra == "dev"
