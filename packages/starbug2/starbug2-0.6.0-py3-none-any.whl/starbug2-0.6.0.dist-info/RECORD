@@ -1,0 +1,16 @@
+starbug2/__init__.py,sha256=_gETOaTHoLIgfFAedvsfoNROtrO4c7GdsJxOlRwt-8U,6716
+starbug2/mask.py,sha256=av3s1Jm0ZVMLgnF2STkRGaA8nfkTCrSBnAMDqi0gqA0,2246
+starbug2/matching.py,sha256=grLZxW61tRB-83cSgSYuQP9qO97d5-c50TZcUhp97Pg,17469
+starbug2/misc.py,sha256=2IJsd0zlwvJMJrXgsbFM9G0TwcVE5582rQoUwpxzhSk,7831
+starbug2/routines.py,sha256=PXs-aVfyAPwZo2OvTUeeeLU-Oz9v9DREUfmYe5Vem-w,30869
+starbug2/starbug.py,sha256=gDw5ya1A0ntnvSjgLR_gzIkcpeHEEPVu7Wu24ainvFw,35700
+starbug2/utils.py,sha256=p6OAssco84Qm0D9o8YzhLSTOOHyzSE_KtB9mJgj65Go,11798
+starbug2/param/default.param,sha256=VPO5aSsA3w32XhUG05Z5CqDoPQ7Vh81b9nbgaCKCQjw,3927
+starbug2/scripts/__init__.py,sha256=-8TKD_h3byvDnPaeR-YeASATJmrKmILFp-CFqztaY-w,307
+starbug2/scripts/main.py,sha256=2ZKvM0LxglxU62u4JKUHMIyiOu8jyZAoBBFVleZ0zLo,15215
+starbug2-0.6.0.data/scripts/starbug2-match,sha256=ekTkOYV-g4JVn1ka5BD_LQMiv6NU5MGYi3mHAeMk1Ak,7094
+starbug2-0.6.0.dist-info/METADATA,sha256=E9tXJbc-0CDBe1llYY8MqLplXQmk0Kky-8uTxa6UqeE,5565
+starbug2-0.6.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+starbug2-0.6.0.dist-info/entry_points.txt,sha256=t8fChAYyxJeSRikWfJ53J_vtUWDYkDfY9E0ownlTd9I,64
+starbug2-0.6.0.dist-info/top_level.txt,sha256=U2bHeJ_Enh0neEfMLiuVLZlxklIUURy_lvTGNDQkGPA,9
+starbug2-0.6.0.dist-info/RECORD,,
