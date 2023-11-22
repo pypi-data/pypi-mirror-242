@@ -1,0 +1,2 @@
+multipart<0.3,>=0.2
+uploadserver<6,>=5.0.0
