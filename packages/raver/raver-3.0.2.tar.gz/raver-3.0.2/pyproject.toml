@@ -1,0 +1,82 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "raver"
+version = "3.0.2"
+description = "Ratio package management tool."
+authors = ["Ratio Innovations B.V. <info@ratio-case.nl>"]
+license = "MIT"
+documentation = "https://raver.ratio-case.nl"
+readme = "README.rst"
+repository = "https://gitlab.com/ratio-case/python/raver"
+homepage = "https://gitlab.com/ratio-case/python/raver"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8"
+semver = "^3"
+tomli = "^2"
+
+[tool.poetry.group.lint.dependencies]
+black = "*"
+ruff = "*"
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+pytest-cov = "*"
+pytest-doctestplus = "*"
+
+[tool.poetry.group.docs.dependencies]
+pydata-sphinx-theme = { version = "*" }
+pygments-csv-lexer = { version = "*" }
+Sphinx = { version = "*" }
+sphinx-autoapi = { version = "*" }
+sphinx-copybutton = { version = "*" }
+sphinx-prompt = { version = "*" }
+sphinxcontrib-bibtex = { version = "*" }
+sphinxemoji = { version = "*" }
+
+[tool.poetry.scripts]
+raver = "raver.cli:cli"
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+
+[tool.pytest.ini_options]
+addopts = "-s --cov --cov-report xml:./.pytest_cache/coverage.xml --cov-report term-missing --doctest-plus --doctest-rst --basetemp ./tests/.temp"
+testpaths = ["docs", "tests"]
+markers = ["slow"]
+
+[tool.coverage.run]
+source = [
+    "raver",
+    "/usr/local/lib/python3.9/site-packages/raver",
+    "/home/ratio/.local/lib/python3.9/site-packages/raver",
+]
+disable_warnings = ["module-not-imported"]
+
+[tool.coverage.paths]
+source = [
+    "raver",
+    "/usr/local/lib/python3.9/site-packages/raver",
+    "/home/ratio/.local/lib/python3.9/site-packages/raver",
+]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.raver]
+ref = "origin/main"
+changelog = "./docs/source/changelog.rst"
+
+[tool.ruff]
+line-length = 100
+select = [
+  "E",   # pycodestyle
+  "F",   # pyflakes
+]
+target-version = "py39"
