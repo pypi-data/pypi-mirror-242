@@ -1,0 +1,8 @@
+utilki/__init__.py,sha256=oGrtUjNLqRfBFq-LSUo46SfW59rSENd-uK4LG4-BCUk,98
+utilki/cli.py,sha256=mQciE5Yz8K99EJp_A49KT3hzQBPOoGn5GwpN_ZofLsY,4330
+utilki/log_utils.py,sha256=m1fz6WzRdprD4XUzuv4JD04-t7HF57l9jrrgX3xjmGA,7050
+utilki/task_mixin.py,sha256=fTYur5Mxoq3Cgr7vz9f9CCXYYAfQQoczjzvw9Swapj0,7339
+utilki-0.8.0.dist-info/METADATA,sha256=SI9ziCXm7iIa9HYrSAwoIaNeE7aagivjG3omGBhVc5Y,1733
+utilki-0.8.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+utilki-0.8.0.dist-info/entry_points.txt,sha256=YJNxc_3JYcNnvgnHrrMwYPA__FxxViE11o5vUFpMVRs,41
+utilki-0.8.0.dist-info/RECORD,,
