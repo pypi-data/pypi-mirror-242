@@ -1,0 +1,3 @@
+[console_scripts]
+ssc_gen=ssc_codegen.cli:main
+
