@@ -1,0 +1,10 @@
+astropy>=4.0
+scipy
+numpy
+h5py
+tables
+python-slugify
+matplotlib
+pyyaml
+parse
+adjustText
