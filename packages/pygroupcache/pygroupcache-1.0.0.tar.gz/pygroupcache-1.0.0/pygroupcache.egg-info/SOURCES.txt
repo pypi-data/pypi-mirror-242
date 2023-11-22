@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pygroupcache/__init__.py
+pygroupcache/groupcache.py
+pygroupcache/test_groupcache.py
+pygroupcache.egg-info/PKG-INFO
+pygroupcache.egg-info/SOURCES.txt
+pygroupcache.egg-info/dependency_links.txt
+pygroupcache.egg-info/top_level.txt

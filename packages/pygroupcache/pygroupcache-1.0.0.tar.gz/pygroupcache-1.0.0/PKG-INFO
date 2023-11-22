@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pygroupcache
+Version: 1.0.0
+Summary: A Python binding for groupcache
+Home-page: https://github.com/amazingchow/groupcache-py
+Author: Adam Zhou
+Author-email: adamzhouisnothing@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+
+This is a Python binding for groupcache.
+
+Groupcache is a distributed caching and cache-filling library, intended as a replacement for a pool of memcached nodes in many cases.
+
+For more information, please visit the [GitHub repository](https://github.com/amazingchow/groupcache-py).
