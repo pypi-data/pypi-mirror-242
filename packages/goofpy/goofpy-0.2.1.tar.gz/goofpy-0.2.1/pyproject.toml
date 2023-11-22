@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+    "pip",
+    "pygame",
+    "setuptools>=61.0",
+    "build"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "goofpy"
+version = "0.2.1"
+authors = [
+  { name="EnderGames", email="business.endergames@gmail.com" },
+]
+description = "A small library for creating objects, game sims, and physics in python, more things coming soon"
+readme = "README.md"
+requires-python = "==3.11.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/endert1099/GoofPy"
+Issues = "https://github.com/endert1099/GoofPy/issues"
+
+[tool.setuptools.packages.find]
+include = ["*.*"]
+namespaces = false
