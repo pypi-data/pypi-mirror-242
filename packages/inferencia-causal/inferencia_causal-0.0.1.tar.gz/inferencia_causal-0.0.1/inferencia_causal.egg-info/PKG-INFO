@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: inferencia-causal
+Version: 0.0.1
+Summary: Tecnicas de inferencia
+Author: Kleber Jorge Santos
+License: MIT License
+Keywords: logistic,regression,matching,observational,study,causal,inference
+License-File: LICENCE
+
+Tecnicas de inferencia

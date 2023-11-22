@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+inferencia_causal/__init__.py
+inferencia_causal/pareamento.py
+inferencia_causal.egg-info/PKG-INFO
+inferencia_causal.egg-info/SOURCES.txt
+inferencia_causal.egg-info/dependency_links.txt
+inferencia_causal.egg-info/requires.txt
+inferencia_causal.egg-info/top_level.txt
