@@ -1,0 +1,8 @@
+ingest_service_api/__init__.py,sha256=7aVSdoUvrMeJK8nTRX4PnPsMFEywdXDrQ4XUhT7lAF0,108
+ingest_service_api/_impl.py,sha256=BK81c40U2UtP7CGiXOMXRDpltC_uptp1tKYPT7NYQV0,9067
+ingest_service_api/py.typed,sha256=eoZ6GfifbqhMLNzjlqRDVil-yyBkOmVN9ujSgJWNBlY,15
+ingest_service_api/ingest/__init__.py,sha256=heWb68JzbHDA6m73PWjgK6ab7fgi_NN3-As5tEaKp-E,628
+ingest_service_api-0.1.0.dist-info/METADATA,sha256=uAsfwEwqWmrk4EX-A1Vses7uhlT8RD8-S4AQPqRnoJo,158
+ingest_service_api-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ingest_service_api-0.1.0.dist-info/top_level.txt,sha256=f3X9zr3yecE9iKDy-3p99V7vJnr20GDAaSXGErCvnSA,19
+ingest_service_api-0.1.0.dist-info/RECORD,,
