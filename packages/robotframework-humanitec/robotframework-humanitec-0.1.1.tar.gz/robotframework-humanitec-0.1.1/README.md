@@ -1,0 +1,51 @@
+[![PyPi license](https://badgen.net/gitlab/license/Noordsestern/robotframework-humanitec/)](https://pypi.com/project/robotframework-humanitec/) [![PyPI pyversions](https://img.shields.io/pypi/pyversions/robotframework-humanitec.svg)](https://pypi.python.org/pypi/robotframework-humanitec/) [![PyPI download month](https://img.shields.io/pypi/dm/robotframework-humanitec.svg)](https://pypi.python.org/pypi/robotframework-humanitec/) 
+
+# robotframework-humanitec
+
+Demo library for Humanitec API. [Keyword Documentation](https://robotframework-humanitec-noordsestern-f672fb1c9b527e491cb115577.gitlab.io/)
+
+## State: Alpha
+
+There are not many keywords implemented, yet, as this is a demo right now. I am undecided whether to use auto generated swagger client or rely entirely on handmade REST calls based on requests module.
+
+# Installation
+
+```
+pip install robotframework-humanitec
+```
+
+# Usage
+
+See [`demo.robot`](tests/demo.robot). The demo uses Humanitec library as well as [score-humanitec](https://docs.score.dev/docs/get-started/score-humanitec-hello-world/) commandline tool.
+
+## Environment Variables
+
+You will need:
+
+- environment variable `HUMANITEC_TOKEN` with value of a valid API token from your Humanitec organisation
+- environment variable `HUMANITEC_ORG_ID` with value of id from your Humanitec organisation
+
+-----
+
+# Support
+
+Openapi specifications and generated clients are not perfect. Generators contain bugs, specifications are not deterministic. Here you may find support:
+
+## Change Requests
+
+### Open an Issue
+
+If you require changes (either new feature of a bugfix) best choice us [opening an issue](https://gitlab.com/noordsestern/robotframework-humanitec/-/issues) at this project. You do require a Gitlab account, though.
+
+### Direct Contact
+
+This is an open source project built around specific use cases. If your use case is not covered and your issue is not prioritized fast enough, you can make [direct contact](mailto:markus.i.sverige@googlemail.com). *Sponsoring will definitely prioritize your ticket.*
+
+Your email won't be published automatically at the issue board and remains confidential (as confidential as Gmail permits).
+
+----
+
+# License
+
+This project is published under [EUPL 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt)
+
