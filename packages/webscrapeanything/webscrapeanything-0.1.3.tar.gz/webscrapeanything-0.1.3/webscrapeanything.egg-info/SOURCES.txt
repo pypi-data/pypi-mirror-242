@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+webscrapeanything/__init__.py
+webscrapeanything/main.py
+webscrapeanything.egg-info/PKG-INFO
+webscrapeanything.egg-info/SOURCES.txt
+webscrapeanything.egg-info/dependency_links.txt
+webscrapeanything.egg-info/entry_points.txt
+webscrapeanything.egg-info/requires.txt
+webscrapeanything.egg-info/top_level.txt
