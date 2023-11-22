@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+textnav/__init__.py
+textnav.egg-info/PKG-INFO
+textnav.egg-info/SOURCES.txt
+textnav.egg-info/dependency_links.txt
+textnav.egg-info/top_level.txt
