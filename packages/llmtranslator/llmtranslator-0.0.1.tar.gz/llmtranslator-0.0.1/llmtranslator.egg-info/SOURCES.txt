@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+llmtranslator/__init__.py
+llmtranslator/cli.py
+llmtranslator/llmtranslator.py
+llmtranslator/longtext.py
+llmtranslator/mdtext.py
+llmtranslator/process_files.py
+llmtranslator.egg-info/PKG-INFO
+llmtranslator.egg-info/SOURCES.txt
+llmtranslator.egg-info/dependency_links.txt
+llmtranslator.egg-info/entry_points.txt
+llmtranslator.egg-info/not-zip-safe
+llmtranslator.egg-info/requires.txt
+llmtranslator.egg-info/top_level.txt
