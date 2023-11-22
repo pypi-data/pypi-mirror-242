@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/safe_password.py
+src/example_safe_password/__init__.py
+src/example_safe_password/example.py
+src/example_safe_password/sql-example.py
+src/safe_password.egg-info/PKG-INFO
+src/safe_password.egg-info/SOURCES.txt
+src/safe_password.egg-info/dependency_links.txt
+src/safe_password.egg-info/top_level.txt
