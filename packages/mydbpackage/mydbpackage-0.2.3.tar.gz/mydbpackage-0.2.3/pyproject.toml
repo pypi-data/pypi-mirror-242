@@ -1,0 +1,4 @@
+# In pyproject.toml
+[tool.poetry]
+# ...
+description = { file = "README.md", format = "markdown" }  # or "plain" for text
