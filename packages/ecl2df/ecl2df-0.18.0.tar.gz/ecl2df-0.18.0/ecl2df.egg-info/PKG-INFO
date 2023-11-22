@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ecl2df
+Version: 0.18.0
+Summary: Convert Eclipse 100 input and output to DataFrames
+Home-page: http://github.com/equinor/ecl2df
+Author: Håvard Berland
+Author-email: havb@equinor.com
+License: GPLv3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: resdata>=4.0.0
+Requires-Dist: numpy
+Requires-Dist: opm<=2022.4,>=2020.10.2
+Requires-Dist: pandas<2.0
+Requires-Dist: pyarrow
+Requires-Dist: pyyaml>=5.1
+Requires-Dist: treelib
+Provides-Extra: tests
+Requires-Dist: black>=20.8b0; extra == "tests"
+Requires-Dist: flake8; extra == "tests"
+Requires-Dist: isort; extra == "tests"
+Requires-Dist: mypy; extra == "tests"
+Requires-Dist: networkx; extra == "tests"
+Requires-Dist: pre-commit; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Requires-Dist: pytest-mock; extra == "tests"
+Requires-Dist: types-PyYAML; extra == "tests"
+Requires-Dist: types-pkg_resources; extra == "tests"
+Requires-Dist: types-python-dateutil; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: autoapi; extra == "docs"
+Requires-Dist: ipython; extra == "docs"
+Requires-Dist: rstcheck; extra == "docs"
+Requires-Dist: pydantic<2; extra == "docs"
+Requires-Dist: sphinx<7; extra == "docs"
+Requires-Dist: sphinx-argparse; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints; extra == "docs"
+Requires-Dist: sphinx_rtd_theme; extra == "docs"
+Provides-Extra: ert
+Requires-Dist: ert>=2.38.0-b5; extra == "ert"
+
+ecl2df has been renamed to [res2df](https://github.com/equinor/ecl2df)
