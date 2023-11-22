@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+sinhalapy/__init__.py
+sinhalapy.egg-info/PKG-INFO
+sinhalapy.egg-info/SOURCES.txt
+sinhalapy.egg-info/dependency_links.txt
+sinhalapy.egg-info/top_level.txt
