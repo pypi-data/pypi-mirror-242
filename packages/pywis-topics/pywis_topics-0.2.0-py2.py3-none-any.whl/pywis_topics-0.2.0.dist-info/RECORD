@@ -1,0 +1,11 @@
+pywis_topics/__init__.py,sha256=pEIq0JnfDSDP8xUzpMPNYxeV_iREgYHjrTevVEcQQYU,1269
+pywis_topics/bundle.py,sha256=V92FKVCIku1D5wRR-3wo1q3eoo7DBrgC38-nzmr4STI,2376
+pywis_topics/pygeoapi_plugin.py,sha256=Jz74gxhwdCheT8NM7yhoKD-Sjd1bUUaux-tLGlitNuA,6660
+pywis_topics/topics.py,sha256=AXbdS1auBfkTUpXBwGiE8rYc_pFYWG8biMDL1jSores,5448
+pywis_topics/util.py,sha256=EHlKexP0RfK-Sp0pxF808Uw6lxiftItkrZ3HoPm0oRI,3917
+pywis_topics-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pywis_topics-0.2.0.dist-info/METADATA,sha256=izpfeXdCc2k2h8-5jTNeLWRDh02uaRi5UfEyE_v4y1E,3334
+pywis_topics-0.2.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+pywis_topics-0.2.0.dist-info/entry_points.txt,sha256=wl9gEjcIVKZQIeVmFWKoI5b1SVMmp7bhXbMlaj2UpI0,51
+pywis_topics-0.2.0.dist-info/top_level.txt,sha256=a09tumnxrvbxn9yY7v5gU5_Zvjx6Ipx4PR5ngC0jQGE,13
+pywis_topics-0.2.0.dist-info/RECORD,,
