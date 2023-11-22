@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: jacksung
+Version: 0.0.2.56
+Author: Zijiang Song
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: pymysql
+Requires-Dist: pytz
+Requires-Dist: selenium
+Requires-Dist: termcolor
+Requires-Dist: einops
+Requires-Dist: rasterio
+Requires-Dist: netCDF4
+
