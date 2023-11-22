@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+
+
+[tool.setuptools.packages.find]
+include=["fastNeuron"]
+
+[project]
+name = "fastNeuron"
+version = "1.1"
+dependencies = [
+    "numpy",
+    'importlib-metadata',
+]
+requires-python = ">= 3.6"
+authors = [
+    {name = "Enes Bayram", email = "bayram.enes1928@gmail.com"},
+]
+maintainers = [
+    {name = "Enes Bayram", email = "bayram.enes1928@gmail.com"},
+]
+description = "Create and Deploy Neural Networks in seconds fully in python!!"
+readme = "README.md"
+license = {text =  "MIT License"}
+keywords = ["software development","neural networks","machine learning","artificial intelligence","deep learning","AI","ML"]
+classifiers = [
+    "Programming Language :: Python",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Repository = "https://github.com/bayramenes/fastNeuron"
