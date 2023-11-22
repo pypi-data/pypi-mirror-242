@@ -1,0 +1,15 @@
+frankentile/__init__.py,sha256=PN_DHqKxLJhTu49w_8d7OgaAoGHKA4E61H8boWN-te4,252
+frankentile/_discord.py,sha256=_xj00evkSUQcv4eI_H49p0lW2uPmCvvpTt_vPdAHzpg,327
+frankentile/auto_desk.py,sha256=ZjiQdChL_MYMB137wKTJmkWoHC42QSX9dSaaixUB0s0,3801
+frankentile/auto_desk_api.py,sha256=JLjtoqFr491RBeC0U52K73zy6UTIHYGrdAY1c4vdyZc,1315
+frankentile/discord_bot.py,sha256=qcRgaQybLqLfJuMYS2Jk06L2FbLtb0qoDFG9dVTvJX8,4442
+frankentile/discord_log.py,sha256=egCclxNs76lsfY50-6lgDaNcvcvM3s6MRj7g59nsFAg,6742
+frankentile/gen_keybinding_img.py,sha256=8-RvVnd44WIe82jU7IWkIQx7JUWT8Qk6MawFq6yI9Qc,11216
+frankentile/grafana.py,sha256=JHgvBPcnkzPZvOqwHZZzRgWCmnOeeIBIwjc3zgtighE,58
+frankentile/tmux.py,sha256=hIddO014yYQHZu6-JfkuAE-S7Js_vw_IQGyik1Lsqck,575
+frankentile/web.py,sha256=qqSWh2SuxXcpkwMYB8b96wdvr8l1EAvxggE-s_VEBVM,5634
+frankentile-0.3.1.dist-info/LICENSE,sha256=160mF97nbz_nhj-Bf1KLduiYUaALks6fTQ-sGod2RLE,1068
+frankentile-0.3.1.dist-info/METADATA,sha256=-KuqAQa6JAWW33DhkEiqRIXEbx21ror8-jKh8Q97TcA,1457
+frankentile-0.3.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+frankentile-0.3.1.dist-info/top_level.txt,sha256=YX-zRD85x4OsLq7TWQRTlc6107mf7_L1zKJNxiZKKWk,12
+frankentile-0.3.1.dist-info/RECORD,,
