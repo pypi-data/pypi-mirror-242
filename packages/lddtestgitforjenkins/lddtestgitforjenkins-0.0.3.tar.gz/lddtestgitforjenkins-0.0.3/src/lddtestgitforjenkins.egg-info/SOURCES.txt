@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/lddtestgitforjenkins.egg-info/PKG-INFO
+src/lddtestgitforjenkins.egg-info/SOURCES.txt
+src/lddtestgitforjenkins.egg-info/dependency_links.txt
+src/lddtestgitforjenkins.egg-info/requires.txt
+src/lddtestgitforjenkins.egg-info/top_level.txt
