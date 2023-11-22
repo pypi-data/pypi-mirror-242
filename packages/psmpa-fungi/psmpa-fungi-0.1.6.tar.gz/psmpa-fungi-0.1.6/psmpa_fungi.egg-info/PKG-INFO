@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: psmpa-fungi
+Version: 0.1.6
+Summary: PSMPA-Fungi: Prediction of Fungal Secondary Metabolism Potential using Amplicans
+Home-page: https://github.com/BioGavin/psmpa-fungi
+Author: Zhen-Yi Zhou
+Author-email: gavinchou64@gmail.com
+License: GPL
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: biopython
+Requires-Dist: pandas
+Requires-Dist: biom-format
+Requires-Dist: joblib
+
+PSMPA-Fungi is a Python pipeline to predict fungal secondary metabolism potential using 18S rRNA or amplicans for a single strain or microbial communities.
