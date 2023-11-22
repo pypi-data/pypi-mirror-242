@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tgpirobot/.version
+tgpirobot/README.md
+tgpirobot/__init__.py
+tgpirobot/config.json
+tgpirobot/main.py
+tgpirobot/quizzes.json
+tgpirobot/tgpirobot.py
+tgpirobot.egg-info/PKG-INFO
+tgpirobot.egg-info/SOURCES.txt
+tgpirobot.egg-info/dependency_links.txt
+tgpirobot.egg-info/entry_points.txt
+tgpirobot.egg-info/requires.txt
+tgpirobot.egg-info/top_level.txt
