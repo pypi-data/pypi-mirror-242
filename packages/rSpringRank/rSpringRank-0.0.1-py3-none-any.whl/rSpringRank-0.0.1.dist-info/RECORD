@@ -1,0 +1,17 @@
+reg_sr/__init__.py,sha256=l9aBqMI7_Oi3AMhqmUw5JWeS0nuKXu1xtaKPEagC79k,1488
+reg_sr/_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+reg_sr/benchmark.py,sha256=jqPbvGdmibsOoApLTTNuo2BI0P-Uth9i7xXdrGOmfaU,3545
+reg_sr/cross_validation.py,sha256=CIVc3YT_rBH7uOjAJk-b7NKJEYFAK_SfE4DcNkT5Wg8,8751
+reg_sr/cvx.py,sha256=GwIX4HpHU-3EXR9RypSEvslSbC0rthlTkOTU_d1z8Fw,2844
+reg_sr/experiments.py,sha256=0dXbBRE-ZZBulD-cWplKvO-nUvjQH8NDP_CIBQ3bprw,17171
+reg_sr/firstOrderMethods.py,sha256=BLuM9s2oq0YjkdT7ki8octCYu6RsaAvPrEBz0mysgb0,33642
+reg_sr/fit.py,sha256=ThCN37UAevZcPIEPaBdkwdNAUFc089ZAaKEejnA8syI,11155
+reg_sr/losses.py,sha256=IZO-CH1Hytg9jMKSX5MEyhBhMWfGabfKdPG-qNIl-eg,6495
+reg_sr/models.py,sha256=UIHJcWXwkl8S1R6mqFX13dm6ukC9jSWwB3NPmd17zfk,6125
+reg_sr/regularizers.py,sha256=NwR516djEGSmFFWNyCB5FeQBWqZeAX-5XyPOJVbpsnc,3514
+reg_sr/utils.py,sha256=FyP-0gxFpNS9O-qnFbkxknxyZfZVYmjShITVNQZ3krw,18508
+rSpringRank-0.0.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+rSpringRank-0.0.1.dist-info/METADATA,sha256=H9eLNCGkI0sjy1hbHmq8kjcDh5vSK9YfCdZHv8HKxo4,3885
+rSpringRank-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+rSpringRank-0.0.1.dist-info/top_level.txt,sha256=IbbSUdVrsNyyXsJFAHUB0zVDQji5Rbi3pRkRXuyPgu0,7
+rSpringRank-0.0.1.dist-info/RECORD,,
