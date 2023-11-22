@@ -1,0 +1,8 @@
+TAT.cpython-312-x86_64-linux-gnu.so,sha256=8VPbzC0h0fe3GuvMETZfcy2_hyDxuiiVdPlI8RmxEkU,31118873
+PyTAT-0.3.11.dist-info/METADATA,sha256=5gnOi4yf1PQMacYqF7JRRMvqKuD7QvJs1JfPyqq8H9w,23362
+PyTAT-0.3.11.dist-info/RECORD,,
+PyTAT-0.3.11.dist-info/top_level.txt,sha256=NEy1NX8IzL0WkAHS2iFfEQwvqjO69-_nlAY7pqdmyWs,6
+PyTAT-0.3.11.dist-info/WHEEL,sha256=4ZiCdXIWMxJyEClivrQv1QAHZpQh8kVYU92_ZAVwaok,152
+PyTAT.libs/libgfortran-91cc3cb1.so.3.0.0,sha256=VePrZzBsL_F-b4oIEOqg3LJulM2DkkxQZdUEDoeBRgg,1259665
+PyTAT.libs/libquadmath-96973f99.so.0.0.0,sha256=k0wi3tDn0WnE1GeIdslgUa3z2UVF2pYvYLQWWbB12js,247609
+PyTAT.libs/libopenblas-r0-f650aae0.3.3.so,sha256=eewCtT9XPNcRaonwTDl0cwGOf9oFcgs1TUNQXBnUeVg,37325001
