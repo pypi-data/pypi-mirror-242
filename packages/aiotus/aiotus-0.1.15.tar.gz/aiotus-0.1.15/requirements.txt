@@ -1,0 +1,31 @@
+# This file contains the dependencies used during development,
+# the dependencies of the package published to PyPI are defined
+# in the 'pyproject.toml' file.
+
+aiohttp==3.9.0
+tenacity==8.2.3
+
+flake8==6.1.0
+flake8-docstrings==1.7.0
+pep8-naming==0.13.3
+pydoclint==0.3.8
+
+bandit==1.7.5
+black==23.11.0
+isort==5.12.0
+mypy==1.7.0
+
+coverage[toml]==7.3.2
+pytest==7.4.3
+pytest-aiohttp==1.0.5
+pytest-cov==4.1.0
+pytest-xprocess==0.23.0
+
+Sphinx==7.2.6; python_version>"3.8"
+sphinx-autodoc-typehints==1.25.2; python_version>"3.8"
+
+bump2version==1.0.1
+grip==4.6.2
+pyupgrade==3.15.0
+
+build==1.0.3
