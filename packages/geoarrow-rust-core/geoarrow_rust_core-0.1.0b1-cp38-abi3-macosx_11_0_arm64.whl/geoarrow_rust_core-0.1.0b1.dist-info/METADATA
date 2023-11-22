@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: geoarrow-rust-core
+Version: 0.1.0b1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Efficient, vectorized geospatial operations in Python.
+Keywords: python,arrow,geospatial
+Author: Kyle Barron <kylebarron2@gmail.com>
+Author-email: Kyle Barron <kylebarron2@gmail.com>
+License: MIT OR Apache-2.0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/kylebarron/geoarrow-rs
+
+# geoarrow.rust.core
+
+This library contains:
+
+- standalone classes to represent GeoArrow arrays in rust: `PointArray`, `LineStringArray`, etc
+- pure-rust algorithms (from [`georust/geo`](https://github.com/georust/geo)) that don't require a C extension module and can statically link on every platform.
+
+In the future, this will also contain:
+
+- Chunked classes: `ChunkedPointArray`, `ChunkedLineStringArray`, etc
+- Table representations: `GeoTable`, where one of the columns is a geospatial type. This will support e.g. geospatial joins using Arrow memory.
+
+Refer to the [GeoArrow Python module proposal](https://github.com/geoarrow/geoarrow-python/issues/38) for more information.
+
