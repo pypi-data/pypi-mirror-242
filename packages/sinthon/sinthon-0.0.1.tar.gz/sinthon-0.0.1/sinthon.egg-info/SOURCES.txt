@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+sinthon/__init__.py
+sinthon.egg-info/PKG-INFO
+sinthon.egg-info/SOURCES.txt
+sinthon.egg-info/dependency_links.txt
+sinthon.egg-info/top_level.txt
