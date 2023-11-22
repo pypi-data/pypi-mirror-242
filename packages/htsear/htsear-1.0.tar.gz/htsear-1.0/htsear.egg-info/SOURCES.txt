@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+htsear/__init__.py
+htsear/htsear.py
+htsear.egg-info/PKG-INFO
+htsear.egg-info/SOURCES.txt
+htsear.egg-info/dependency_links.txt
+htsear.egg-info/top_level.txt
