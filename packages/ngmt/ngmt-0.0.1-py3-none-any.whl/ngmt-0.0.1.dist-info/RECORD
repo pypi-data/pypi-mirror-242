@@ -1,0 +1,16 @@
+ngmt/__init__.py,sha256=BCrwed3uOkezXPN42QMDrGwYwKjthr6ZgEVyVwlEids,82
+ngmt/config.py,sha256=bevTPgu8SqBmaCax7anE3FwLZ1OJpfrCgObh4RMQwbI,254
+ngmt/datasets/keepcontrol.py,sha256=VyKLXKaimHH0J20o4hz-VajpAO04LI1xjXqjtrXCHnc,3224
+ngmt/datasets/mobilised.py,sha256=cDyi7jyDic6aQj80NxgTUa1uRYLbDY5J4zdo_yumr08,4320
+ngmt/modules/GSDB.py,sha256=ZBmjGqGYtONtjdt-mrdFNJS36wg8PowbdHrrnwH6_o8,12424
+ngmt/modules/ICDA.py,sha256=wSwqAV2InHEz2z26npwZVEwygTS7Ya4eMDoHU_LtKyI,5519
+ngmt/utils/file_io.py,sha256=BQRExDQngunww_aWi1YTIh8MjWWT2jTCdX0aDhLIDDc,790
+ngmt/utils/FIR_2_3Hz_40.mat,sha256=mNVLywEVSo7WWs61OX-W6RS79I386N_W-rd_6T03J6E,725
+ngmt/utils/importers.py,sha256=wd1ChsCq2WgX-6tcUbkyZ5_sWXEMhJuzOuOvddCHxQY,6553
+ngmt/utils/matlab_loader.py,sha256=JXgcWrKpYQx74Psf5PE_6xaj36YQwHOY-hvQl2or_8M,8901
+ngmt/utils/ngmt_data_classes.py,sha256=QR9nv4DTLpGx_gKtVjchU0UEkKMlDfCeTrE8n42ME4M,11226
+ngmt/utils/preprocessing.py,sha256=r9GJsi51CrxDKOv1zTKkpMA6WAdTXSOj5_z3vB28eP0,40570
+ngmt-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+ngmt-0.0.1.dist-info/METADATA,sha256=qcVS1I9BhoUCjqq61pUl6FLsgtRsZNkbadWasqJvDZ8,5256
+ngmt-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ngmt-0.0.1.dist-info/RECORD,,
