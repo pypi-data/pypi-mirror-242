@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ideplots
+Version: 0.1.0
+Summary: Format Matplotlib for easy viewing in IDEs
+Home-page: https://github.com/benabernathy/ideplots/
+Author: Ben Abernathy
+Author-email: ben.abernathy@gmail.com
+Maintainer: Ben Abernathy
+Maintainer-email: ben.abernathy@gmail.com
+License: MIT
+Keywords: matplotlib-style-sheets,matplotlib-figures,matplotlib-styles,python
+Classifier: Framework :: Matplotlib
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+
+# IDE Plots
+
+*Matplotlib styles for cleaner integration with IDEs running Jupyter Notebooks*
+
+![Graph Example](examples/figures/chart_01_with_vscode_style.png)
+
+## Getting Started
+
+The fastest way to get up and running is to install IdePlots by using the `pip` command.
+
+```bash
+# to install the latest release from PyPi
+pip install IdePlots
+
+# to install the latest commit from GitHub
+pip install git+https://github.com/benabernathy/IdePlots.git
+
+```
+
+In your notebook you need to first import ideplots...
+
+```python
+import ideplots
+```
+
+Then you may reference any of the available styles...
+
+```python
+plt.style.use("vscode-dark-modern")
+```
+
+Then your plots will no longer cause your eyese to bleed. 
+
+## Examples
+
+Here are some example plots without and with the styles enabled.
+
+![Without Style Enabled](examples/figures/chart_01_without_vscode_style.png)
+
+![With Style Enabled](examples/figures/chart_01_with_vscode_style.png)
+
