@@ -1,0 +1,12 @@
+llmtranslator/__init__.py,sha256=r9sY9OCXeNpxJhyhADLxguQKumRhIe5cL7CfTrMAh2I,126
+llmtranslator/cli.py,sha256=vsXf_haw5LMjgOaaZbTpB2-C6yuBPUARo4Ygm4cGHos,454
+llmtranslator/llmtranslator.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+llmtranslator/longtext.py,sha256=vedtnO27bchkSk63Ao3UaaQ3gXV0JtPX6LOw7SzcTHo,5889
+llmtranslator/mdtext.py,sha256=-BIlLX1jk_2e_bTSl0a-r2V7Pq0CBAjr_eEWBWLz0Wk,8537
+llmtranslator/process_files.py,sha256=Hni2ZXYQ42jC5Y_dK4b1llm4Zqci785ZMzQ1VTfQrUM,5304
+llmtranslator-0.0.1.dist-info/LICENSE,sha256=Sp9NKGRW3rMuBaAskOLV8C6G1JxADGTKV5gfcFdWHJY,1066
+llmtranslator-0.0.1.dist-info/METADATA,sha256=_CTBR3KpqC1U7eBFckdOucEGE-jsPJGKyXh2YIpMvzI,1241
+llmtranslator-0.0.1.dist-info/WHEEL,sha256=unfA4MOaH0icIyIA5oH6E2sn2Hq5zKtLlHsWapZGwes,110
+llmtranslator-0.0.1.dist-info/entry_points.txt,sha256=SVEBKNBIfuD_Dyi83OOWmc7teKRyJ2f5g-3nVxFQ6ZA,57
+llmtranslator-0.0.1.dist-info/top_level.txt,sha256=Te46x210yOL-_Yf2I85HPGvhMHPhirehh_zXpR50VKA,14
+llmtranslator-0.0.1.dist-info/RECORD,,
