@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: wmill
+Version: 1.214.0
+Summary: A client library for accessing Windmill server wrapping the Windmill client API
+Home-page: https://windmill.dev
+License: Apache-2.0
+Author: Ruben Fiszel
+Author-email: ruben@windmill.dev
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.25,<0.26)
+Project-URL: Documentation, https://windmill.dev
+Description-Content-Type: text/markdown
+
+# wmill
+
+The core client for the [Windmill](https://windmill.dev) platform.
+
+
+## Quickstart
+
+```python
+import wmill
+
+
+def main():
+    client = wmill.Windmill(
+        # token=...  <- this is optional. otherwise the client will look for the WM_TOKEN env var
+    )
+
+    print(client.version)
+    print(client.get("u/user/resource_path"))
+
+    job_id = client.start_execution(path="path/to/script")
+    print(job_id)
+
+    return client.run_script(path="path/to/script", args={"arg1": "value1"})
+```
+
