@@ -1,0 +1,8 @@
+ijson
+jsonpath_ng
+uritools
+pyyaml
+pyxdg
+
+[:python_version < "3.8"]
+jsonschema[format-nongpl]<4.18.0,>=3.0.0
