@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: nhl-api-py
+Version: 2.0.2
+Summary: NHL API.  For standings, team stats, outcomes, player information.  Contains each individual API endpoint as well as convience methods for easy data loading in Pandas or any ML applications.
+Home-page: https://github.com/coreyjs/nhl-api-py
+License: GPL-3.0-or-later
+Keywords: nhl,api,wrapper,hockey,sports
+Author: Corey Schaf
+Author-email: cschaf@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: httpx
+Project-URL: Repository, https://github.com/coreyjs/nhl-api-py
+Description-Content-Type: text/markdown
+
+[![PyPI version](https://badge.fury.io/py/nhl-api-py.svg)](https://badge.fury.io/py/nhl-api-py)
+![nhl-api-py workflow](https://github.com/coreyjs/nhl-api-py/actions/workflows/python-app.yml/badge.svg?branch=main)
+
+# NHL-API-PY
+
+
+## This is being updated with the new, also undocumented, NHL API.  
+
+More endpoints will be flushed out and completed as they
+are discovered. If you find any, please submit a PR.
+
+
+NHL-api-py is a Python package that provides a simple wrapper around the 
+NHL API, allowing you to easily access and retrieve NHL data in your Python 
+applications.
+
+Note: This is very early, I created this to help me with some machine learning
+projects around the NHL and the NHL data sets.  Special thanks to https://github.com/erunion/sport-api-specifications/tree/master/nhl and https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md.
+
+
+
+- - - 
+
+
+### Developers
+
+1) Install [Poetry](https://python-poetry.org/docs/#installing-with-the-official-installer)
+
+`curl -sSL https://install.python-poetry.org | python3 -`
+
+or using pipx
+
+`pipx install poetry`
+
+
+2) `poetry install --with dev`
+
+3) `poetry shell`
+
+```python
+
+$ poetry shell
+
+# You can then run the following
+$ pytest
+$ ruff .
+$ black .
+
+```
