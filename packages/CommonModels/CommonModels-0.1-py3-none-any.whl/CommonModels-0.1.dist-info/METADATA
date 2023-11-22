@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: CommonModels
+Version: 0.1
+Summary: Shared models for Django microservices
+Home-page: https://github.com/evercycle-org/common-models
+Author: Evercycle
+Author-email: mija@evercycle.io
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+Requires-Dist: django >=4.0
+
+# common-models
