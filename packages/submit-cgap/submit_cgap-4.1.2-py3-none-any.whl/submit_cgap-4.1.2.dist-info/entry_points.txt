@@ -1,0 +1,12 @@
+[console_scripts]
+check-submission=submit_cgap.scripts.check_submission:main
+make-sample-fastq-file=submit_cgap.scripts.make_sample_fastq_file:main
+publish-to-pypi=dcicutils.scripts.publish_to_pypi:main
+resume-uploads=submit_cgap.scripts.resume_uploads:main
+show-submission-info=submit_cgap.scripts.show_submission_info:main
+show-upload-info=submit_cgap.scripts.show_upload_info:main
+submit-genelist=submit_cgap.scripts.submit_genelist:main
+submit-metadata-bundle=submit_cgap.scripts.submit_metadata_bundle:main
+submit-ontology=submit_cgap.scripts.submit_ontology:main
+upload-item-data=submit_cgap.scripts.upload_item_data:main
+
