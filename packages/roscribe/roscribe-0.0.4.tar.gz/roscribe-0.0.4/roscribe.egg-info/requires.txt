@@ -1,0 +1,10 @@
+langchain[openai]
+graphviz
+schema
+pysqlite3-binary
+chromadb
+tiktoken
+
+[dev]
+pip-tools
+pytest

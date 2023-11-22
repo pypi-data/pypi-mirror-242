@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: roscribe
+Version: 0.0.4
+Summary: Translate natural language into robot software.
+Author-email: RoboCoach Technologies <robocoachtechnologies@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 RoboCoach Inc
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy 
+        of this software and associated documentation files (the “Software”), to deal 
+        in the Software without restriction, including without limitation the rights 
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+        copies of the Software, and to permit persons to whom the Software is 
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all 
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/RoboCoachTechnologies/ROScribe
+Project-URL: Bug Tracker, https://github.com/RoboCoachTechnologies/ROScribe/issues
+Keywords: Large Language Models,AI-assisted Code Generation,Robotics
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Code Generators 
+Classifier: Framework :: Robot Framework :: Tool
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langchain[openai]
+Requires-Dist: graphviz
+Requires-Dist: schema
+Requires-Dist: pysqlite3-binary
+Requires-Dist: chromadb
+Requires-Dist: tiktoken
+Provides-Extra: dev
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# ROScribe
+
+**Create ROS packages using LLMs.**
+
+Using a natural language interface to describe robotic projects, ROScribe eliminates the skill barrier of using ROS for beginners, and saves time and hassle for skilled engineers. ROScribe combines the sheer power and flexibility of large language models (LLMs) with prompt tuning techniques to capture the details of your robotic design and to automatically create an entire ROS package for your project.
+
+Inspired by [GPT Synthesizer](https://github.com/RoboCoachTechnologies/GPT-Synthesizer), ROScribe builds an entire ROS package through a series of specification steps that identify the package elements in a top-down approach. In particular, ROScribe helps you with the following steps:
+
+1. Creating a list of ROS nodes and topics, based on your application and deployment (e.g. simulation vs. real-world)
+2. Visualizing your project in an RQT-style graph
+3. Generating code for each ROS node
+4. Writing launch file and installation scripts
+
+If you are new to ROS, ROScribe will be your robot(ics) mentor 🤖️
+
+If you are a seasoned ROS user, ROScribe can help with creating a blueprint for your ROS package 📦️
+
+**New in v0.0.4:**
+ROScribe can now be used as your personal robotics consultant!
+
+A vector database of all open-source ROS repositories available on [ROS Index](https://index.ros.org/) is built, and using retrieval augmented generation (RAG), ROScribe can answer every question regarding relevant ROS packages for your project. Chekout [this wiki](https://github.com/RoboCoachTechnologies/ROScribe/wiki/3.-Explore-ROS-Repositories-with-RAG) for more information.
+
+## How to use
+
+Please see our wiki page to learn how to install and use ROScribe in your robotics projects:
+* [Installation](https://github.com/RoboCoachTechnologies/ROScribe/wiki/1.-Installation)
+* [ROS Package Generation using ROScribe](https://github.com/RoboCoachTechnologies/ROScribe/wiki/2.-ROS-Package-Generation)
+* [Explore Open-source Robotics Repositories using ROScribe-RAG](https://github.com/RoboCoachTechnologies/ROScribe/wiki/3.-Explore-ROS-Repositories-with-RAG)
+* [Create Your Own ROS Index Database](https://github.com/RoboCoachTechnologies/ROScribe/wiki/4.-Create-Your-Own-ROS-Index-Database)
+
+## Demos
+
+- [TurtleSim Code Generation with ROScribe](https://www.youtube.com/watch?v=H2QaeelkReU)
+- [ROScribe-RAG Demo](https://www.youtube.com/watch?v=3b5FyZvlkxI&list=PLN8Hz7F2GjIkiYVForVuyvNs17sggQYOt&index=3)
+
+## Roadmap
+
+Currently, ROScribe supports both ROS1 and ROS2 with Python code generation. We aim to add the following features in the coming releases:
+- C++ code generation
+- ROS1 to ROS2 automated codebase migration
+
+As an open-source project, we encourage all robotics enthusiasts to contribute to ROScribe. During each release, we will announce the list of new contributors.
+
+## Additional documentations & articles
+
+[Looking inside ROScribe and the idea of LLM-based robotic platform](https://discourse.ros.org/t/looking-inside-roscribe-and-the-idea-of-llm-based-robotic-platform/34298) 
+
+[Presentation slides of UCSD ROS workshop Oct. 27, 2023](docs/assets/ROScribeDeepDive.pdf)
+
+[Video recording of UCSD ROS workshop presentation Oct. 27, 2023](https://www.youtube.com/watch?v=CPHleR-3Wko)
+
+## Contact
+
+For business inquiries, such as consulting or contracting jobs, please contact robocoachtechnologies@gmail.com. 
+
