@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: yctmodel
+Version: 2.1.1
+Summary: ModelSelector automates ensemble pipeline creation with optimized hyperparameters for superior predictions. Use start() for ensemble selection and get_pipeline() to retrieve the generated pipeline. Fine-tune existing pipelines with specific models using auto_tuning(). Streamline model selection and hyperparameter tuning with ModelSelector.
+Home-page: https://github.com/gems-yc4923/thames.git
+Author: yc4923
+License: MIT
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: xgboost
+
