@@ -1,0 +1,5 @@
+libreda-0.0.4.dist-info/METADATA,sha256=d23Qf18giaShVpydJAMmS_QNy3bSFYktw-vkSSst248,1419
+libreda-0.0.4.dist-info/WHEEL,sha256=PDjFe9z3P5BieoqpBjlh8sIKwm01iIcpuk5wwkJiXJg,108
+libreda/__init__.py,sha256=J_AjO9S6payAqQy62x6xgZwNiuNZQxGZDcWTZ6Lu5ZY,111
+libreda/libreda.cpython-311-x86_64-linux-gnu.so,sha256=ZKWqyy8K2yYb-aynLYUQ4ABf5RV3Hn_nqztEOKtdNP8,2777552
+libreda-0.0.4.dist-info/RECORD,,
