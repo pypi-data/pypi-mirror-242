@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mydbpackage
+Version: 0.2.4
+Summary: A short description of my package
+Description-Content-Type: text/markdown
+
+First import the DB name
+
+from mydbpackage.database import MyDB
+
+Then Connect your DB
+
+db = MyDB("host", "username", "databasename")
+
+Create table 
+
+db.create_table("table name",[column name]) # pass the table name in must br string 
+                                            # column name must be list
+
+Insert the valuve
+
+db.insert_log('[[Value]]',"table name") # pass the value [['name','20','30'],['tesname','10','10']]

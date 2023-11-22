@@ -1,0 +1,16 @@
+First import the DB name
+
+from mydbpackage.database import MyDB
+
+Then Connect your DB
+
+db = MyDB("host", "username", "databasename")
+
+Create table 
+
+db.create_table("table name",[column name]) # pass the table name in must br string 
+                                            # column name must be list
+
+Insert the valuve
+
+db.insert_log('[[Value]]',"table name") # pass the value [['name','20','30'],['tesname','10','10']]
