@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+palma/__init__.py
+palma.egg-info/PKG-INFO
+palma.egg-info/SOURCES.txt
+palma.egg-info/dependency_links.txt
+palma.egg-info/requires.txt
+palma.egg-info/top_level.txt
+tests/test_utils_.py
