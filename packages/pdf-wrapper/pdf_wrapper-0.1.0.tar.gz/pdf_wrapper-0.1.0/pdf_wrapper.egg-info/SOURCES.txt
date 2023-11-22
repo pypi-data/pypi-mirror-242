@@ -1,0 +1,10 @@
+README.md
+setup.py
+pdf_wrapper/__init__.py
+pdf_wrapper/pdf_wrapper.py
+pdf_wrapper.egg-info/PKG-INFO
+pdf_wrapper.egg-info/SOURCES.txt
+pdf_wrapper.egg-info/dependency_links.txt
+pdf_wrapper.egg-info/not-zip-safe
+pdf_wrapper.egg-info/requires.txt
+pdf_wrapper.egg-info/top_level.txt
