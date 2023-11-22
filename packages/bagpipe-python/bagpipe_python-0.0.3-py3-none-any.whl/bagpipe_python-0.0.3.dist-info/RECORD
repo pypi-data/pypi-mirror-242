@@ -1,0 +1,7 @@
+bagpipe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bagpipe/prepocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bagpipe/prepocessing/pipelist.py,sha256=mdppia0WGb4RPqpexZLizcr6pSSE1YBO02cDQTI5ndU,8160
+bagpipe_python-0.0.3.dist-info/METADATA,sha256=PZO4bPd1X6jKAHdLGjAQtT376q2Lhm5JWOq_X3Hdu-c,864
+bagpipe_python-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+bagpipe_python-0.0.3.dist-info/licenses/LICENSE,sha256=shSO_ONoMoTW6KlMeR9IgLRcNwK3FAkidhHh9QTryFU,1098
+bagpipe_python-0.0.3.dist-info/RECORD,,
