@@ -1,0 +1,28 @@
+# This is the default configuration file for the Kattis CLI.
+# Use TOML format https://toml.io/en/
+# Just copy the default section and modify the values according the language
+
+title = "Kattis-cli language configuration file for local testing."
+
+[default]
+compiler = "python3"
+compiler_flags = ""
+file_extensions = ["py", "py3"]
+mainfile = "<problemid>.py"
+mainclass = ""
+
+[python3]
+compiler = "python3"
+compiler_flags = ""
+file_extensions = ["py", "py3"]
+mainfile = "<problemid>.py"
+mainclass = ""
+kattis_name = "Python 3"
+
+[cpp] # don't change this name
+compiler = "g++"
+compiler_flags = "-std=c++11 -O2 -Wall"
+file_extensions = ["cpp", "cc"]
+mainfile = "<problemid>.cpp"
+mainclass = ""
+kattis_name = "C++"
