@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: matlib-Pirate-Wolf
+Version: 0.1
+Summary: A small math library
+Home-page: http://github.com/PedroSantos/matlib_Pirate_Wolf
+Author: Pedro Santos
+Author-email: pedroshiva.santos2@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
+
