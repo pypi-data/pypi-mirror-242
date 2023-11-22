@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+quantum-cryptography/__init__.py
+quantum_cryptography.egg-info/PKG-INFO
+quantum_cryptography.egg-info/SOURCES.txt
+quantum_cryptography.egg-info/dependency_links.txt
+quantum_cryptography.egg-info/top_level.txt
