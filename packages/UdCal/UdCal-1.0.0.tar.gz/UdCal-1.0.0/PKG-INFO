@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: UdCal
+Version: 1.0.0
+Summary: This is my udemy calculator package
+Home-page: 
+Author: Suraj
+Requires-Python: >=3.6
+License-File: LICENCE
+
+Welcome to my Udemy Calculator

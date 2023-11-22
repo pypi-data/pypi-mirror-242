@@ -1,0 +1,11 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+UdCal/__init__.py
+UdCal/calculator.py
+UdCal.egg-info/PKG-INFO
+UdCal.egg-info/SOURCES.txt
+UdCal.egg-info/dependency_links.txt
+UdCal.egg-info/top_level.txt
+test/test_calculator.py
