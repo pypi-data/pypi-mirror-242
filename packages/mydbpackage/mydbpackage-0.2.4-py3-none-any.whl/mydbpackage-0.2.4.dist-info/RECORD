@@ -1,0 +1,13 @@
+my_package/__init__.py,sha256=CkcFz5PaJRQqUnVxPXRgCOoh-zoOVrsXgIFdilCGQ_Q,27
+my_package/database.py,sha256=6Qby2ab5uJxYkvn62sfZguBpGniCH6SQvBT6Nin4a7Q,905
+my_package/utils.py,sha256=K9neqVQV3KXuV4_O74O46OUdWEYx2AMrY5AeGmB_LP4,62
+mydbpackage/__init__.py,sha256=CkcFz5PaJRQqUnVxPXRgCOoh-zoOVrsXgIFdilCGQ_Q,27
+mydbpackage/database.py,sha256=7bHqfNVKE5JXr2081yYtSKXi_CaLBXASmkFvsBHTmJ0,1728
+mydbpackage/utils.py,sha256=K9neqVQV3KXuV4_O74O46OUdWEYx2AMrY5AeGmB_LP4,62
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_database.py,sha256=uAyG_1WfwNaByqTEZrtkgj5n9Tmlk5uL9Qifr7Mo1To,833
+mydbpackage-0.2.4.dist-info/METADATA,sha256=xeLdi1cC4u6N3-sAaoVSumj8J-yqjSJoqXOerar-xfI,625
+mydbpackage-0.2.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mydbpackage-0.2.4.dist-info/entry_points.txt,sha256=mHVJQh5KZsZE1OLl0eHLks7sm_nDGV7TFcEkiTtNrdY,67
+mydbpackage-0.2.4.dist-info/top_level.txt,sha256=hLxJY6HUIG8gq4v8jW-1hkrdFnc4raxF-FObhvbh6AM,18
+mydbpackage-0.2.4.dist-info/RECORD,,
