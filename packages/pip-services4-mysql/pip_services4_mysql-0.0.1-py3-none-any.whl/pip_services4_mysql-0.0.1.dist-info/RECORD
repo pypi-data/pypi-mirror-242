@@ -1,0 +1,16 @@
+pip_services4_mysql/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pip_services4_mysql/build/DefaultMySqlFactory.py,sha256=w5t8CqwcRu_8fd_FiPNcY6zYSIstZcsRCi9SY3HNYbo,812
+pip_services4_mysql/build/__init__.py,sha256=ldPT9gW0C2MstS1Y62EDTvZPkioxRXhqDTvzOnu3oh4,113
+pip_services4_mysql/connect/MySqlConnection.py,sha256=Xs3ZO016ZZYC628eo4qGM4OBN7qodq9Ieqf5qCrCj9Y,7689
+pip_services4_mysql/connect/MySqlConnectionResolver.py,sha256=NJNuOqkAKnYBFzNa6FtivTrIK2hz9aJKnl7oDyECTVE,6518
+pip_services4_mysql/connect/__init__.py,sha256=PJDdgEQQuECHrJzX7E61cgIH98HMHWuroepx807_exY,189
+pip_services4_mysql/persistence/IdentifiableJsonMySqlPersistence.py,sha256=vWWy0najkPcalGk1g6fU2uMx1hKmO-DqqBG9xQDBG-U,7290
+pip_services4_mysql/persistence/IdentifiableMySqlPersistence.py,sha256=uoGpkKouMuzEQ87qzF9PPrciHJklWs0UptMFioMTpyE,12601
+pip_services4_mysql/persistence/MySqlPersistence.py,sha256=EPZ-M9fjpRhvIFY8mft1bLpDm6BpddTWQGO-lUspTLw,24849
+pip_services4_mysql/persistence/__init__.py,sha256=H2gaV2hpPPsvpictfp7VoIlUjVOsLp6DiWT8YTpvszg,318
+pip_services4_mysql-0.0.1.dist-info/LICENSE,sha256=ctsbTIPvRHYnix1lVKVTpbd-0rqcfojFRtLjwo8rAbs,1077
+pip_services4_mysql-0.0.1.dist-info/METADATA,sha256=VCUt-7dB75Q8IOH9UQ_TbYsM3VxYMnP2rJtJI0JfDs4,1612
+pip_services4_mysql-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pip_services4_mysql-0.0.1.dist-info/top_level.txt,sha256=OwBW4vIRv64FqTwg5dZMgW8RQ8ejD5ytpbXqeOlE-io,20
+pip_services4_mysql-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pip_services4_mysql-0.0.1.dist-info/RECORD,,
