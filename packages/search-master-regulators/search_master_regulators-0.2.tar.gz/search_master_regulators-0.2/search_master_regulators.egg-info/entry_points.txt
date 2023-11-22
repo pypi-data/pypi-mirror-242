@@ -1,0 +1,3 @@
+[console_scripts]
+mycommand = search_master_regulators.main:main
+
