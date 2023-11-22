@@ -1,0 +1,11 @@
+setup.py
+newsprofile/NewsprofileService_pb2.py
+newsprofile/NewsprofileService_pb2_grpc.py
+newsprofile/__init__.py
+newsprofile/newsprofile_channel_pool.py
+newsprofile/newsprofile_grpc_client.py
+newsprofile.egg-info/PKG-INFO
+newsprofile.egg-info/SOURCES.txt
+newsprofile.egg-info/dependency_links.txt
+newsprofile.egg-info/requires.txt
+newsprofile.egg-info/top_level.txt
