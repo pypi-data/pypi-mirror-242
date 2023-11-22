@@ -1,0 +1,10 @@
+CHANGES
+=======
+
+0.12.4
+------
+
+* deprecated kill-running for launch
+* fix tidevice developer --download-all
+* fix imagemounter bug
+* update coverage yml
