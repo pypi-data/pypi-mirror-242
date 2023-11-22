@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+cr7/__init__.py
+cr7.egg-info/PKG-INFO
+cr7.egg-info/SOURCES.txt
+cr7.egg-info/dependency_links.txt
+cr7.egg-info/top_level.txt
