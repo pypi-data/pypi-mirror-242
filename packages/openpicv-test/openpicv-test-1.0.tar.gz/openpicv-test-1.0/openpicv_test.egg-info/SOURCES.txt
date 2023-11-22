@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+openpicv-test/__init__.py
+openpicv-test/add_num.py
+openpicv-test/face_detetion.py
+openpicv_test.egg-info/PKG-INFO
+openpicv_test.egg-info/SOURCES.txt
+openpicv_test.egg-info/dependency_links.txt
+openpicv_test.egg-info/requires.txt
+openpicv_test.egg-info/top_level.txt
