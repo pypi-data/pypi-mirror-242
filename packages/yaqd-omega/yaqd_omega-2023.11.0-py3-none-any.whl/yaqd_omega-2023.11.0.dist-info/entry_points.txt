@@ -1,0 +1,5 @@
+[console_scripts]
+yaqd-omega-d8200=yaqd_omega._omega_d8200:OmegaD8200.main
+yaqd-omega-iseries-modbus=yaqd_omega._omega_iseries_modbus:OmegaIseriesModbus.main
+yaqd-omega-platinum=yaqd_omega._omega_platinum:OmegaPlatinum.main
+
