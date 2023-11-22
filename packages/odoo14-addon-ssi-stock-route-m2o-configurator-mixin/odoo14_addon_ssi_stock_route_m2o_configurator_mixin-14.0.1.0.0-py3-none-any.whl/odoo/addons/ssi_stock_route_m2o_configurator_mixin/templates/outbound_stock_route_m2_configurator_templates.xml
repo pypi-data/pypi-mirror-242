@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<template id="outbound_stock_route_m2o_configurator_template">
+    <group name="outbound_route_1" col="2" colspan="4" string="Outbound Route">
+        <field name="outbound_route_selection_method" />
+        <field
+                name="outbound_route_ids"
+                attrs="{'invisible':[('outbound_route_selection_method','!=','manual')]}"
+            />
+        <field
+                name="outbound_route_domain"
+                widget="domain"
+                options="{'model': 'stock.location.route', 'in_dialog': True}"
+                attrs="{'invisible':[('outbound_route_selection_method','!=','domain')]}"
+            />
+        <field
+                name="outbound_route_python_code"
+                widget="ace"
+                attrs="{'invisible':[('outbound_route_selection_method','!=','code')]}"
+            />
+    </group>
+</template>
+</odoo>

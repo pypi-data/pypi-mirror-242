@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<template id="stock_route_m2o_configurator_template">
+    <group name="route_1" col="2" colspan="4" string="Route">
+        <field name="route_selection_method" />
+        <field
+                name="route_ids"
+                attrs="{'invisible':[('route_selection_method','!=','manual')]}"
+            />
+        <field
+                name="route_domain"
+                widget="domain"
+                options="{'model': 'stock.location.route', 'in_dialog': True}"
+                attrs="{'invisible':[('route_selection_method','!=','domain')]}"
+            />
+        <field
+                name="route_python_code"
+                widget="ace"
+                attrs="{'invisible':[('route_selection_method','!=','code')]}"
+            />
+    </group>
+</template>
+</odoo>
