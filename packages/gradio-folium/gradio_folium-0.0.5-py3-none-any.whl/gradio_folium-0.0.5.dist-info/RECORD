@@ -1,0 +1,10 @@
+gradio_folium/__init__.py,sha256=cT6yjaqedlmjshmCOxJJewEQwUvdJtgOAxLTZErUVuk,50
+gradio_folium/folium.py,sha256=ys9--V794LdgmWHlXaoKInJjQvF5pN8jQd7se4bGWkA,1637
+gradio_folium/folium.pyi,sha256=4MDMZbVH4wS2wKZ5xvclL-MnemdANktcMN0MiBoKSaI,1501
+gradio_folium/templates/component/index.js,sha256=JoR9gk2EvEfRwtJ6G1ZwJ_qyNKeVG4lCla5t-pdBF9E,56641
+gradio_folium/templates/component/style.css,sha256=rjvZHTAn_kf_j3rPbEHK2ETxRqkcPXOFTuQhsiHm534,12354
+gradio_folium/templates/example/index.js,sha256=AcEKu2d4hjZyQsKf4pvOMqUT-QB_uFGbfbtGYc7mf9o,1549
+gradio_folium/templates/example/style.css,sha256=Aj4k-S41TV83pot-J9j9Fi2UonrXHFC1Jl4Zb1xaYo4,61
+gradio_folium-0.0.5.dist-info/METADATA,sha256=9CAc0BinzvHv2u37Ij4fBjL2dwOSgpspslgrdorwB50,1250
+gradio_folium-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gradio_folium-0.0.5.dist-info/RECORD,,
