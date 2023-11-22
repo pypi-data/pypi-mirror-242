@@ -1,0 +1,11 @@
+xtdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xtdb/__main__.py,sha256=rAJNuehlk_0n1u3c87kdHR1Y8BNMBCUS1V7WyRlNuok,211
+xtdb/datalog.py,sha256=YK_yGvFIpmpIVAddfo3YKvb2z15Vn5j-_WQ03s7Y5NA,16361
+xtdb/exceptions.py,sha256=YiWwijuSI8hOc-Z5KO1PaKJ9LagGUe0lDJbBokKyApM,315
+xtdb/orm.py,sha256=BrWTGrVg8I7njsxVp2j99kLPcru6J6jm4qZceof4jn8,1786
+xtdb/query.py,sha256=aZgAm7RoZ5jmRLLQMVKUdHJE5VAixKsYnoFvuZXVdf0,6477
+xtdb/session.py,sha256=n4h8gbu-TRB2i78XfTfLvVqKq-4Pzoki9-IsDO4aEO0,13467
+xtdb-0.6.1.dist-info/LICENSE,sha256=pDQ4p7a0SNJsHgrJP02VULUEkeJEcs2NpmCL6iNZk4E,1077
+xtdb-0.6.1.dist-info/METADATA,sha256=hdmO8t5FwitTeEfjM_5BJrb4JS47tzdwQEdol2avHmY,5871
+xtdb-0.6.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+xtdb-0.6.1.dist-info/RECORD,,
