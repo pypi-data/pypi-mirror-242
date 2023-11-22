@@ -1,0 +1,5 @@
+[console_scripts]
+compaction = compaction.cli:compaction
+
+[landlab.components]
+Compact = compaction.landlab:Compact
