@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "akamai-shared-cloudlets"
+version = "0.0.17"
+authors = [
+  { name="Tomas Hampl", email="tomas.hampl@gmail.com" },
+]
+description = "Library that implements Akamai API requests to control the cloudlet API version 3"
+readme = "README.md"
+requires-python = ">=3.10"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "edgegrid-python",
+    "requests",
+    "click",
+    "pyOpenSSL",
+    "ndg-httpsclient"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-mock",
+    "coverage",
+    "requests-mock"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TomasHampl/akamai_shared_cloudlets.git"
+"Bug Tracker" = "https://github.com/TomasHampl/akamai_shared_cloudlets/issues"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+    "--import-mode=importlib",
+    ]
+testpaths = [
+    "tests",
+]
+pythonpath = [
+    "."
+]
+
+[project.scripts]
+cloudlets = "akamai_shared_cloudlets:__main__.main"

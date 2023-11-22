@@ -1,0 +1,2 @@
+[console_scripts]
+cloudlets = akamai_shared_cloudlets:__main__.main

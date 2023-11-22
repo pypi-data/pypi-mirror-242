@@ -1,0 +1,11 @@
+edgegrid-python
+requests
+click
+pyOpenSSL
+ndg-httpsclient
+
+[dev]
+pytest
+pytest-mock
+coverage
+requests-mock
