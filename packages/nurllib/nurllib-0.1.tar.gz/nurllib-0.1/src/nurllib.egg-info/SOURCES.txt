@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/nurllib/__init__.py
+src/nurllib.egg-info/PKG-INFO
+src/nurllib.egg-info/SOURCES.txt
+src/nurllib.egg-info/dependency_links.txt
+src/nurllib.egg-info/top_level.txt
+src/nurllib/parse/__init__.py
+src/nurllib/parse/parse.py
+tests/test_urlparse.py
