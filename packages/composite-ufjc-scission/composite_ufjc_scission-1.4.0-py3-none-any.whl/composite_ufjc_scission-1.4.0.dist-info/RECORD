@@ -1,0 +1,13 @@
+composite_ufjc_scission/__init__.py,sha256=6ZhGMZ-b9MKmAvLbq-eD1D-yE7T1FzxPZt7WO6La-Bg,260
+composite_ufjc_scission/characterizer.py,sha256=Ji9SZ7eiZsWgcKTRVJAUQDSn30Ua7-MoM5lb6ZvxP3I,1644
+composite_ufjc_scission/composite_ufjc.py,sha256=qp3lRK5aR_BOoOjl9_j6UEQAVosmcTity-27le5oOX8,2890
+composite_ufjc_scission/core.py,sha256=G2TAsREvR_W_lx2LGgvz-IiEyNccH8o-y94ct7LaRnw,23961
+composite_ufjc_scission/default_parameters.py,sha256=oViv-qeyOMcK-sxg-sLe78gB2iYDHricAZXHRxfegKo,5483
+composite_ufjc_scission/rate_dependence_scission.py,sha256=mcp23YJkOgenl4PIV-_dsN6YZ_9TgSsJTYiG6PeTs_s,11865
+composite_ufjc_scission/scission_model.py,sha256=lDZP_mWKemJIbjn9RdMMibsNKgB7NXhULSSrHTUMjw8,49103
+composite_ufjc_scission/utility.py,sha256=gTsY12BX6d439Hgl601hKu5Hi0rrSrjKxYr1Brejd9c,3159
+composite_ufjc_scission-1.4.0.dist-info/LICENSE,sha256=qCTgi04Cm-9Og_5BpLns0jYUl8Pn2iZIBdaL0gqNAME,735
+composite_ufjc_scission-1.4.0.dist-info/METADATA,sha256=InPycfgDARA7lCvAIDzKjP_k07RswHfzqLibqt8A3lg,4118
+composite_ufjc_scission-1.4.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+composite_ufjc_scission-1.4.0.dist-info/top_level.txt,sha256=XFe29YzNaSSzRoKZtAHnujqpYK8KO5snObNiuyulX7Y,24
+composite_ufjc_scission-1.4.0.dist-info/RECORD,,
