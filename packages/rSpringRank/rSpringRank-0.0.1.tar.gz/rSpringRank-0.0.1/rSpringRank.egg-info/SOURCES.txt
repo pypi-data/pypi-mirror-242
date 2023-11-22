@@ -1,0 +1,42 @@
+.gitignore
+LICENSE
+PI_c18basic.gt
+README.md
+graph_for_debugging.gt
+pyproject.toml
+requirements.txt
+.github/workflows/release.yml
+config/dev.yaml
+data/README.md
+data/PhD Exchange Network Data/PhD_exchange.txt
+data/PhD Exchange Network Data/PhD_exchange_network.mat
+data/PhD Exchange Network Data/README.txt
+data/PhD Exchange Network Data/school_names.txt
+data/parakeet/README_for_aggXquarter.txt
+data/parakeet/aggXquarter.txt
+etc/Dual-gradient-derivation-29Mar23.pdf
+etc/bicgstab-time-varying-09May23.jpg
+etc/condition-number-precision-16May23.jpg
+etc/example_c18.png
+etc/fenchel-duality-12Feb23.png
+etc/flowchart-demmel-linear-system-27Jan23.png
+rSpringRank.egg-info/PKG-INFO
+rSpringRank.egg-info/SOURCES.txt
+rSpringRank.egg-info/dependency_links.txt
+rSpringRank.egg-info/requires.txt
+rSpringRank.egg-info/top_level.txt
+reg_sr/__init__.py
+reg_sr/_version.py
+reg_sr/benchmark.py
+reg_sr/cross_validation.py
+reg_sr/cvx.py
+reg_sr/experiments.py
+reg_sr/firstOrderMethods.py
+reg_sr/fit.py
+reg_sr/losses.py
+reg_sr/models.py
+reg_sr/regularizers.py
+reg_sr/utils.py
+tests/__init__.py
+tests/test_phd_exchange.py
+tests/test_vanilla_springrank.py
