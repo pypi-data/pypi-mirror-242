@@ -1,0 +1,51 @@
+# https://python-poetry.org/docs/pyproject
+# minimal required information
+
+[tool.poetry]
+name = "dcmri"
+version = "0.1.0"
+description = "A collection of functins for DCE-MRI and DSC-MRI"
+authors = ["Ebony Gunwhy <e.gunwhy@sheffield.ac.uk>", "Steven Sourbron <s.sourbron@sheffield.ac.uk>"]
+readme = "README.md"
+
+# optional information
+license = "Apache-2.0"
+classifiers = [
+  # How mature is this project? Common values are
+  #   3 - Alpha
+  #   4 - Beta
+  #   5 - Production/Stable
+  'Development Status :: 3 - Alpha',
+
+  # Indicate who your project is intended for
+  'Intended Audience :: Developers',
+  'Intended Audience :: Science/Research',
+  'Topic :: Scientific/Engineering',
+  'Operating System :: OS Independent',
+
+  'License :: OSI Approved :: Apache Software License',
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3"
+]
+keywords = ['python', "medical imaging", "perfusion", "MRI"]
+
+[project.urls]
+"Homepage" = "https://qib-sheffield.github.io/dcmri"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "1.22.4"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^5.2"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "4.5.0"
+matplotlib = "^3.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
