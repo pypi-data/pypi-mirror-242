@@ -1,0 +1,9 @@
+README.md
+setup.py
+myeventstudy/__init__.py
+myeventstudy/event_analysis.py
+myeventstudy.egg-info/PKG-INFO
+myeventstudy.egg-info/SOURCES.txt
+myeventstudy.egg-info/dependency_links.txt
+myeventstudy.egg-info/requires.txt
+myeventstudy.egg-info/top_level.txt
