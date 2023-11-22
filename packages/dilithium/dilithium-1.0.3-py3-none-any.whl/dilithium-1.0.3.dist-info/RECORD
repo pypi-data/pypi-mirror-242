@@ -1,0 +1,16 @@
+dilithium/__init__.py,sha256=Sttq8PpnqU32QTGnGluhnnqmLTnqfP_AF1rf0wHUdtw,426
+dilithium/aes256_ctr_drbg.py,sha256=5EMAwJEGGtk2a-H7eO-4yFh-RZpza6wWH7K8qxquW0Y,3759
+dilithium/benchmark_dilithium.py,sha256=i8_nKEUmgO3rv8dpIIXob4HRsBBpzM8qHAHjrHzyhoU,1987
+dilithium/dilithium.py,sha256=luSI4pAng087pmUlAenUXJ3jPfyy8B4MsxVYoeAJR2Q,20182
+dilithium/modules.py,sha256=gMs5EN6omq9psg_BGpsU0VXcWRLOyUH9-Sqr3g9ws3s,11787
+dilithium/ntt_helper.py,sha256=RITXGKt-SYGztq8mat-FfrWibRbTagpowJsXt6rQ6DE,7653
+dilithium/polynomials.py,sha256=Yy7iqAm4Sl7FxhczFylKInRJ4bk8rEWjejXrg96OgA0,17484
+dilithium/shake_wrapper.py,sha256=FgiwCEwuOJJZMaz6j4b4LpfTqqQWtUmGRcVzebkH6VY,1822
+dilithium/test_dilithium.py,sha256=wKub22M9s8sgUvrOhWTw8f715lvsXKgkCBiZL2S3eZw,6645
+dilithium/utils.py,sha256=uCeBDIC_wfIYzSjd8T6yRGez1kS3w69tjTiwj_85qNc,2838
+dilithium/xoshiro128starstar.py,sha256=uAtJUWRymcKKzE-W8Q9BjsyDl9otOq5QDZrh7cuXwGg,1550
+dilithium-1.0.3.dist-info/LICENSE,sha256=eHLEXMKUrioOmFGbODu07N4sl60BIwYhm36xJ-Rvfy4,1069
+dilithium-1.0.3.dist-info/METADATA,sha256=c2z5pnt6G9vbvC4MDnVKdOsxZiaFEYiLSBHVwKcaK6M,8342
+dilithium-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dilithium-1.0.3.dist-info/top_level.txt,sha256=iynkek_faaRZBFH81oeYPSyjh-qQkwe9-O352jb_jDU,10
+dilithium-1.0.3.dist-info/RECORD,,
