@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/clibb/Application.py
+src/clibb/Color.py
+src/clibb/Mutable.py
+src/clibb/Window.py
+src/clibb/__init__.py
+src/clibb.egg-info/PKG-INFO
+src/clibb.egg-info/SOURCES.txt
+src/clibb.egg-info/dependency_links.txt
+src/clibb.egg-info/top_level.txt
