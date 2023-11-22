@@ -1,0 +1,10 @@
+LICENSE
+README.md
+chialisp_loader.py
+pyproject.toml
+setup.py
+quex_chialisp_loader.egg-info/PKG-INFO
+quex_chialisp_loader.egg-info/SOURCES.txt
+quex_chialisp_loader.egg-info/dependency_links.txt
+quex_chialisp_loader.egg-info/requires.txt
+quex_chialisp_loader.egg-info/top_level.txt
