@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: algebratrio
+Version: 0.0.1
+Summary: Una librería de álgebra lineal para la comunidad de IA.
+Project-URL: Homepage, https://github.com/APRE192681/algebratrio
+Project-URL: Bug Tracker, https://github.com/APRE192681/algebratrio/issues
+Author-email: "Rodrigo Rosales, Andrea Reyes y Paula Rayas" <192564-0@iberoleon.edu.mx>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: matplotlib==3.8.1
+Requires-Dist: numpy==1.26.0
+Requires-Dist: scipy==1.11.3
+Description-Content-Type: text/markdown
+
+# algebratrio
