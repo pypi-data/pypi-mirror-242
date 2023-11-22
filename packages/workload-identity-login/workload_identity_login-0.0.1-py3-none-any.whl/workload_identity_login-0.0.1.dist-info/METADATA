@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: workload-identity-login
+Version: 0.0.1
+Summary: Generate login information using gcp workload identity.
+Home-page: https://www.example.com
+Author: posh
+Author-email: Adam Ceresia <adam.ceresia@posh.tech>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
