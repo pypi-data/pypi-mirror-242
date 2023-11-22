@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: easy-es
+Version: 0.0.1
+Summary: Python Event Financial Study
+Author: Vladislav Pyzhov
+Author-email: vladpyzhov@gmail.com
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Python package to conduct basic event financial study
+
