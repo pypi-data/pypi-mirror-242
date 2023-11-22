@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+mtasr/__init__.py
+mtasr/asr_pb2.py
+mtasr/asr_pb2_grpc.py
+mtasr/grpc_client.py
+mtasr.egg-info/PKG-INFO
+mtasr.egg-info/SOURCES.txt
+mtasr.egg-info/dependency_links.txt
+mtasr.egg-info/requires.txt
+mtasr.egg-info/top_level.txt
