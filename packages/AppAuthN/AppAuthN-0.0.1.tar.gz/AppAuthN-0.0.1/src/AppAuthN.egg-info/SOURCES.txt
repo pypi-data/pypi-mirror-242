@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/AppAuthN/__init__.py
+src/AppAuthN/checkAuthN.py
+src/AppAuthN/send.py
+src/AppAuthN.egg-info/PKG-INFO
+src/AppAuthN.egg-info/SOURCES.txt
+src/AppAuthN.egg-info/dependency_links.txt
+src/AppAuthN.egg-info/top_level.txt
