@@ -1,0 +1,11 @@
+MANIFEST.in
+readme.md
+setup.cfg
+setup.py
+felZ.egg-info/PKG-INFO
+felZ.egg-info/SOURCES.txt
+felZ.egg-info/dependency_links.txt
+felZ.egg-info/top_level.txt
+tools/LIBzek.py
+tools/LIBzx.py
+tools/__init__.py

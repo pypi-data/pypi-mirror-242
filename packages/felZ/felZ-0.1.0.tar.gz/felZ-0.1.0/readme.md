@@ -1,0 +1,1 @@
+This library maked for cfPass(Manager of passwords)
