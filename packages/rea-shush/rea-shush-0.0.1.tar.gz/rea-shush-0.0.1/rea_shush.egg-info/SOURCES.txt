@@ -1,0 +1,5 @@
+setup.py
+rea_shush.egg-info/PKG-INFO
+rea_shush.egg-info/SOURCES.txt
+rea_shush.egg-info/dependency_links.txt
+rea_shush.egg-info/top_level.txt
