@@ -1,0 +1,9 @@
+setup.py
+csvstat/__init__.py
+csvstat/csv.py
+csvstat/setup.py
+csvstat.egg-info/PKG-INFO
+csvstat.egg-info/SOURCES.txt
+csvstat.egg-info/dependency_links.txt
+csvstat.egg-info/requires.txt
+csvstat.egg-info/top_level.txt
