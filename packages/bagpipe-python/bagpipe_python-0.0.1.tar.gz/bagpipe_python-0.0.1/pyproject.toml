@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bagpipe-python"
+version = "0.0.1"
+authors = [
+    { name = "Noah Puetz", email = "noah_christoph.puetz@th-koeln.de" },
+    { name = "Jens Brandt", email = "jens_uwe.brandt@th-koeln.de" },
+]
+description = """\ 
+bagpipe is a scikit-learn powered preprocessing \
+library for listed dataframes based on the pipline structure of sklearn. \
+It provides a set of specialized new transformers which can be used in addition to exsisting \
+sklearn transformers, making it easier for handling datasets containing different csv \
+in a sequence based setting. \
+"""
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
