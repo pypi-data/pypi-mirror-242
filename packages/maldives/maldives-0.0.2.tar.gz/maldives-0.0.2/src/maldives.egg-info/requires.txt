@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+fredapi
+wallstreet
+scipy
+plotly
