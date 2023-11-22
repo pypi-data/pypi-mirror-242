@@ -1,0 +1,5 @@
+setup.py
+vibe_csv_json.egg-info/PKG-INFO
+vibe_csv_json.egg-info/SOURCES.txt
+vibe_csv_json.egg-info/dependency_links.txt
+vibe_csv_json.egg-info/top_level.txt
