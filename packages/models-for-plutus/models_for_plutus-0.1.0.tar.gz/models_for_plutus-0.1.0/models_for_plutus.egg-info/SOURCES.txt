@@ -1,0 +1,7 @@
+setup.py
+django_models/__init__.py
+models_for_plutus.egg-info/PKG-INFO
+models_for_plutus.egg-info/SOURCES.txt
+models_for_plutus.egg-info/dependency_links.txt
+models_for_plutus.egg-info/top_level.txt
+tortoise_models/__init__.py
