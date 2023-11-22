@@ -1,0 +1,2 @@
+[console_scripts]
+colorblind_pdf = colorblind_pdf.colorblind_pdf:main

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+colorblind_pdf/__init__.py
+colorblind_pdf/colorblind_pdf.py
+colorblind_pdf.egg-info/PKG-INFO
+colorblind_pdf.egg-info/SOURCES.txt
+colorblind_pdf.egg-info/dependency_links.txt
+colorblind_pdf.egg-info/entry_points.txt
+colorblind_pdf.egg-info/requires.txt
+colorblind_pdf.egg-info/top_level.txt
+tests/test_colorblind_pdf.py
