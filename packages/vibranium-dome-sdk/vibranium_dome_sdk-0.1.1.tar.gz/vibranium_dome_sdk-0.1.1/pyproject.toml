@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "vibranium-dome-sdk"
+version = "0.1.1"
+description = ""
+authors = ["Uri Shamay <cmpxchg16@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vibranium_dome_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+openai = "^0.28.1"
+traceloop-sdk = {path="./packages/traceloop-sdk/", develop=true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
