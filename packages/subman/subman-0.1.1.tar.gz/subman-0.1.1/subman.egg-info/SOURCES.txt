@@ -1,0 +1,14 @@
+LICENSE
+pyproject.toml
+setup.cfg
+docs/README.rst
+subman/__init__.py
+subman/exceptions.py
+subman/machine.py
+subman/py.typed
+subman/subman.py
+subman.egg-info/PKG-INFO
+subman.egg-info/SOURCES.txt
+subman.egg-info/dependency_links.txt
+subman.egg-info/top_level.txt
+tests/test_basics.py
