@@ -1,0 +1,2 @@
+example_safe_password
+safe_password
