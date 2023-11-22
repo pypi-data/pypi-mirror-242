@@ -1,0 +1,1 @@
+The module contains several features that provide functionality for various aspects of eshop cart.
