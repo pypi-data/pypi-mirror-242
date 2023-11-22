@@ -1,0 +1,14 @@
+example.py,sha256=WdJ-PBI9mmA4Bj4NLyrH-QX7DnYdHzPm9WeyXrI1V8o,604
+res/logo.png,sha256=uifzWxMtzK8-vjDESx_Vhz3kT5IZ7PXFnL7bPhSd2gc,52513
+voices/gabby.voicex,sha256=gly-OvChvJsD3fW-eoF5MEbs2zTaKriWYbinA5xBmKU,227
+voices/granny.voicex,sha256=ZYDteWRInUPgn5etsbUbT04DxFQzyLNTGhIqc6KZX-g,227
+voices/kimberly.voicex,sha256=8r5i3MabHY8HOTtL2DuAjIEqr_qmgjvK-dBQpHs-_rU,227
+voices/silvan.voicex,sha256=MRmtKv7CfDGcTsKH3NnJ1R1msyqu7ZqvO3MtEaUEH_Y,227
+voicex/TTS.py,sha256=ZNow90KDtWldYklFO85CqZwnxYc69lzZV6UnS4MQ5us,2040
+voicex/Voices.py,sha256=ZJwC4JU-SNeCOgwt8Owsl9WN9twC0FYUVCCsP0xeMGc,194
+voicex/__init__.py,sha256=goraANFzvpR-reYJLkUDP2ULjcd_opphz9fEVPR49Zk,48
+voicex-1.0.7.dist-info/LICENSE,sha256=P67NQeU2Eq9SVqDXFi_O-IAE0cuEtM4S-X6bv5EXTNY,1113
+voicex-1.0.7.dist-info/METADATA,sha256=Ja34JBiV5nXJsVgVSmV8pSn052dcNfGgutHwnWXv6rI,1316
+voicex-1.0.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+voicex-1.0.7.dist-info/top_level.txt,sha256=-BVC4fwHGMmwSVpDNawDE1iUYcHd9CQ3qYFdP8RxbVI,26
+voicex-1.0.7.dist-info/RECORD,,
