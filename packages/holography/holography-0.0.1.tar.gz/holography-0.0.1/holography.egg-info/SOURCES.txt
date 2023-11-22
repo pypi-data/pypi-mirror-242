@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+holography/__init__.py
+holography.egg-info/PKG-INFO
+holography.egg-info/SOURCES.txt
+holography.egg-info/dependency_links.txt
+holography.egg-info/top_level.txt
