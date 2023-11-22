@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: table-synthesis
+Version: 1.0.0
+Summary: Table Image Synthesis
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: numpy (==1.24.4)
+Requires-Dist: opencv-contrib-python (==4.6.0.66)
+Requires-Dist: opencv-python (==4.7.0.68)
+Requires-Dist: opencv-python-headless (==4.8.1.78)
+Requires-Dist: Pillow (==10.1.0)
+Requires-Dist: selenium (==3.8.1)
+Requires-Dist: tqdm (==4.65.0)
+
+# Table Synthesis Library
+
+## Introduction
+This is the Table Image Synthesis tool that can generate a number of template table images given a template, with a goal of providing similar images to fine-tune the table recognition model. This is done by keeping the table structure and changing the text inside it.
+
+
+## Usage
+
+First, depending on the browser you use, get the corresponding driver executable with the browser ([chromedriver.exe](https://chromedriver.chromium.org/) for Chrome or [geckodriver.exe](https://github.com/mozilla/geckodriver) for Firefox) from the Internet. Then put the driver file in the same directory as your main file.
+
+The full model usage can be found here:
+
+```
+from table_synthesis import SynthesizeTable
+
+syn = SynthesizeTable(input_path='test',
+                        out_path='test_out')
+
+syn(num_synth=1)
+```
+Here, the `input_path` is the path to the folder with the `gt.txt` file (which is a label file exported from PPOCRLabel program), and optionally the extra html files in the `html/` folder if using TableGeneration tool.
+
+The `out_path` should be the folder containing the output (recommended empty).
+
+Then initilalize the Synthesis class and run it to generate `num_synth` images from each label image.
