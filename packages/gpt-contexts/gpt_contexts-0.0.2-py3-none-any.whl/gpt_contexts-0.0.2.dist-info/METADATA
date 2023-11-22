@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gpt-contexts
+Version: 0.0.2
+Summary: Drop-in replacement to provide GPT context with python objects
+Project-URL: Homepage, https://github.com/jakestrouse00/GPTContext
+Author-email: Jake Strouse <jstrouse@meh.llc>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: faker==19.6.1
+Requires-Dist: httpx==0.25.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: ua-generator==0.1.8
+Description-Content-Type: text/markdown
+
+# GPTContext
