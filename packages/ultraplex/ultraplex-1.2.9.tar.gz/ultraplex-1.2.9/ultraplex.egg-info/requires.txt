@@ -1,0 +1,5 @@
+dnaio>=0.5.0
+xopen~=1.0.0
+multiprocess~=0.70.15
+setuptools_scm
+cython>0.29.22
