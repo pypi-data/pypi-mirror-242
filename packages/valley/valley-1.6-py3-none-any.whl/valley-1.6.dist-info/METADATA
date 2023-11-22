@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: valley
+Version: 1.6
+Summary: Python extensible schema validations and declarative syntax helpers.
+Home-page: https://github.com/capless/valley
+License: Apache-2.0
+Keywords: validations,schema,declarative
+Author: Brian Jinwright
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: envs (>=1.4,<2.0)
+Project-URL: Repository, https://github.com/capless/valley
+Description-Content-Type: text/markdown
+
+![alt text](https://s3.amazonaws.com/capless/images/valley-small.png "Valley - Extensible Schema Validations and Declarative Syntax Helpers")
+
+# Valley
+
+Python extensible schema validations and declarative syntax helpers.
+
+[![Unittests](https://github.com/capless/valley/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/capless/valley/actions/workflows/main.yml)
+
+## Installation
+
+```shell
+pip install valley
+```
+
+## Getting Started
+
+```python
+import valley as v
+
+
+class Animal(v.Schema):
+    name = v.StringProperty(required=True)
+    species = v.StringProperty(required=True)
+    color = v.StringProperty(required=True)
+    meal_type = v.StringProperty()
+    age = v.IntegerProperty(required=True)
+    
+frog = Animal(name='Kermit',species='frog',color='green',meal='carnivore',age=1)
+frog.validate()
+```
+
+
