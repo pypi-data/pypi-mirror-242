@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: nyx_space
+Version: 2.0.0b0
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Requires-Dist: pandas ~=2.1.0
+Requires-Dist: plotly ~=5.16.0
+Requires-Dist: pytest ~=7.2.0
+Requires-Dist: pyarrow ~=13.0.0
+Requires-Dist: scipy ~=1.11.2
+Requires-Dist: python-slugify ~=8.0.1
+License-File: LICENSE
+Summary: A high-fidelity space mission toolkit, with orbit propagation, estimation and some systems engineering
+Keywords: space,mission,design,orbit,estimation
+Home-Page: https://nyxspace.com
+Author: Christopher Rabotin <christopher.rabotin@gmail.com>
+Author-email: Christopher Rabotin <christopher.rabotin@gmail.com>
+License: AGPL-3.0-or-later
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://gitlab.com/nyx-space/nyx
+
+# Nyx: Revolutionizing Flight Dynamics
+
+**Blazing fast from mission concept to operations, and automation.** -- [https://nyxspace.com/](https://nyxspace.com/)
+
+Nyx is provided under the AGPLv3 License. By using this software, you assume responsibility for adhering to the license. Refer to [the pricing page](https://nyxspace.com/pricing/) for an FAQ on the AGPLv3 license.
+
+[![nyx-space on crates.io][cratesio-image]][cratesio]
+[![nyx-space on docs.rs][docsrs-image]][docsrs]
+[![LoC](https://tokei.rs/b1/github/nyx-space/nyx?category=lines)](https://github.com/nyx-space/nyx).
+[![codecov](https://codecov.io/gh/nyx-space/nyx/graph/badge.svg?token=gEiAvwzwh5)](https://codecov.io/gh/nyx-space/nyx)
+
+[cratesio-image]: https://img.shields.io/crates/v/nyx-space.svg
+[cratesio]: https://crates.io/crates/nyx-space
+[docsrs-image]: https://docs.rs/nyx-space/badge.svg
+[docsrs]: https://docs.rs/nyx-space/
+
+## Who am I?
+An GNC and flight dynamics engineer with a heavy background in software. I currently work for Rocket Lab USA on the Blue Ghost lunar lander. -- Find me on [LinkedIn](https://www.linkedin.com/in/chrisrabotin/).
+
