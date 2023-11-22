@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ender_ansi
+Version: 1.0.2
+Summary: Simple script containing some ANSI escape codes.
+Author: Endercat126
+Keywords: python,colour,ansi
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
