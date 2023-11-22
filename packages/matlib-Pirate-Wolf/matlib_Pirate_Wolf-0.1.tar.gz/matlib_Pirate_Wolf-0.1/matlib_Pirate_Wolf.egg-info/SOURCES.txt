@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+matlib_Pirate_Wolf/__init__.py
+matlib_Pirate_Wolf/operacoes.py
+matlib_Pirate_Wolf.egg-info/PKG-INFO
+matlib_Pirate_Wolf.egg-info/SOURCES.txt
+matlib_Pirate_Wolf.egg-info/dependency_links.txt
+matlib_Pirate_Wolf.egg-info/top_level.txt
