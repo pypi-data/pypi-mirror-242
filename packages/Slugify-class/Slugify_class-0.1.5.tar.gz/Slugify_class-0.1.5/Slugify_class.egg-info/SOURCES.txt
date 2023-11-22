@@ -1,0 +1,7 @@
+setup.py
+Slugify_class.egg-info/PKG-INFO
+Slugify_class.egg-info/SOURCES.txt
+Slugify_class.egg-info/dependency_links.txt
+Slugify_class.egg-info/top_level.txt
+pack/__init__.py
+pack/slugify.py
