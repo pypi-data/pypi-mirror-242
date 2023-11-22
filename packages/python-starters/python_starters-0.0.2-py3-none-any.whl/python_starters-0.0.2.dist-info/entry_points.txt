@@ -1,0 +1,3 @@
+[console_scripts]
+python-starters=python_starters.__main__:main
+
