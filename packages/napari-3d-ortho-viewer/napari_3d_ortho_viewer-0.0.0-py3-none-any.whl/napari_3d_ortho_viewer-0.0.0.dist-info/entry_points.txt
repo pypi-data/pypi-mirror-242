@@ -1,0 +1,2 @@
+[napari.plugin]
+napari-3d-ortho-viewer = napari_3d_ortho_viewer
