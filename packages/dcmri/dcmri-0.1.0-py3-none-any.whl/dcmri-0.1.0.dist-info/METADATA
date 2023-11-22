@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dcmri
+Version: 0.1.0
+Summary: A collection of functins for DCE-MRI and DSC-MRI
+License: Apache-2.0
+Keywords: python,medical imaging,perfusion,MRI
+Author: Ebony Gunwhy
+Author-email: e.gunwhy@sheffield.ac.uk
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: numpy (==1.22.4)
+Description-Content-Type: text/markdown
+
+`dcmri` is the authorative python package for perfusion MRI. 
+
+For more detail please see the [documentation](https://osipi.github.io/pypi/).
+
+`osipi` is developed by the Open Source Initiative for Perfusion Imaging [OSIPI](www.osipi.org), an initiative of the perfusion study group of the International Society for Magnetic Resonance in Medicine [ISMRM](www.ismrm.org). 
+
+The `osipi` package structure and logic follows the [lexicon](https://osipi.github.io/OSIPI_CAPLEX/) defined by OSIPI, and wraps around selected implementations collected in the [code contributions](https://github.com/OSIPI/DCE-DSC-MRI_CodeCollection) of OSIPI.
+
+
+
+
+
+
