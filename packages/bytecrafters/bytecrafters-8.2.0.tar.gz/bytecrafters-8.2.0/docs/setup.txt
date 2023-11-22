@@ -1,0 +1,134 @@
+===============
+===============
+SIGNAL ANALYZER
+===============
+===============
+
+Version: 8.2.0
+Author:  Matteo Pi (Bytecrafters)
+Date:    Nov. 21, 2023
+
+SETUP INSTRUCTIONS (PYTHON)
+
+Abstract
+--------
+Ref. user manual for functionality overview.
+
+Two branches of this tool are available:
+-  Python
+-  Matlab (reduced functionalities, eg: less plots, less generated output, no audio file processing)
+
+This document is about Python branch setup.
+
+The tool can be installed from PYPI repository, or, if you have the zip file, directly on your file system.
+
+SETUP PRELIMINARIES
+===================
+Install Python (from 3.8 to 3.11.x - do NOT use 3.12 or upper).
+Do not add Python to system path.
+Python can be downloaded at: https://www.python.org/downloads.
+
+3.12.x proved being problematic, ref. known issue PYTHON-0009.
+The tool also works with 3.7, 3.8, but with some issue with Wavelet transform,
+ref. Appendix B "SUPPORT FOR PYTHON 3.8/3.7 OR LESS"
+
+Only if you intend to process audio files (*): install FFMPEG (ref. Appendix A - FFMPEG SETUP, below)
+
+SETUP PROCEDURE (from PYPI)
+===========================
+
+Open a command shell and make sure in the PATH you have:
+- your Python version accessible for execution.
+- FFMPEG executable.
+
+Just test this with commands:
+> python --version
+> ffmpeg -version
+
+Install the tool with:
+
+python.exe -m pip install bytecrafters
+
+This will install all the needed dependencies.
+
+
+SETUP PROCEDURE (if you have ZIP file)
+======================================
+
+Unzip the archive.
+
+Edit bin/env.cmd (PYTHON path, if you are not the developer you have to set the PYTHON_HOME_OUSER)
+If you intend to process audio files (*), edit, in this script, also the correct path for the FFMPEG home.
+
+On a command shell, execute:
+> CALL .\bin\env.cmd
+and check python version and with:
+> python --version
+
+Example output:
+Python 3.11.3
+
+If you have installed FFMPEG, check its version:
+> ffmpeg -version (e' richiesta 6.0 o sup)
+
+Example output:
+ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+
+[with PC connected online] Upgrade PIP.
+> python.exe -m pip install --upgrade pip
+
+[with PC connected online] with PIP, install the following dependencies:
+python.exe -m pip install PyYAML      (configuration file access)
+python.exe -m pip install numpy       (calculations)
+python.exe -m pip install pandas      (csv loading)
+python.exe -m pip install chardet     (encoding related calculations)
+python.exe -m pip install scipy       (math library)
+python.exe -m pip install matplotlib  (plots)
+
+If you intend to process audio files (*), install also:
+python.exe -m pip install pydub
+If you intend to process audio files (**), install also:
+python.exe -m pip install moviepy
+If you intend to perform also wavelet transform, install also:
+python.exe -m pip install PyWavelets  (***)
+
+It is recommended to read known issue PYTHON-0009 at this point.
+
+Note, there is also a script for automated install of all these dependencies.
+It contain typos. It's on purpose - to avoid accidental invocation.
+
+(*) all the audio files supported, except WMV
+(**) WMV
+(***) PyWavelets install may fail if Python version is not in the supported ones.
+
+APPENDIX A - FFMPEG SETUP
+=========================
+(Optional; only if you want to process audio files as well)
+Latest 'essentials' release available from:
+https://www.gyan.dev/ffmpeg/builds/#release-builds
+Direct link shoudl be:
+https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip
+Version: 6.0 or upper.
+
+Unzip the archive, 
+The directory containing the 'bin' subdirectory is called FFMPEG home.
+
+APPENDIX B - SUPPORT FOR PYTHON 3.8/3.7 OR LESS
+===============================================
+
+Python 3.8:
+-----------
+pip install PyWavelet will FAIL, ref. known issue PYTHON-0024.
+
+Python 3.7:
+-----------
+pip install PyWavelet will FAIL because this module is not available for Python old version.
+Ref. known issue PYTHON-0021.
+
+Pandas 'read_csv' function does not support, on 3.7, the on bad lines setting.
+Ref. known issue PYTHON-0020.
+
+Python < 3.7:
+-------------
+No test will be carried out. There is no plan to support 3.7 or lower.
