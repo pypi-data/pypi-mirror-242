@@ -1,0 +1,9 @@
+caikit_nlp_client/__init__.py,sha256=GmTHCnPGsJgHNXsPUS3eu76fwmBHRxjcavxqYYfW4us,204
+caikit_nlp_client/_version.py,sha256=hB095avW4HuDZxn8qPHRG1UMzSSonb8ZDAsLxt9hmk8,411
+caikit_nlp_client/grpc_client.py,sha256=KRyrWf6wRkfGQOE4V-kjHpJwKxo-RUSSmgUD5QEstPo,9713
+caikit_nlp_client/http_client.py,sha256=CnqhfZBfFI-VVBfXYQB8G3CXqpfExO2LScnroevms50,8273
+caikit_nlp_client-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+caikit_nlp_client-0.0.3.dist-info/METADATA,sha256=GIfe0vyxVB_GINkqCfAiPQYmOQrfXHlsH8AolHyvnE8,5385
+caikit_nlp_client-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+caikit_nlp_client-0.0.3.dist-info/top_level.txt,sha256=TVagUywvUa8C0Dzq3oko4ng9olDD-QXgfTNhEOiFFBg,18
+caikit_nlp_client-0.0.3.dist-info/RECORD,,
