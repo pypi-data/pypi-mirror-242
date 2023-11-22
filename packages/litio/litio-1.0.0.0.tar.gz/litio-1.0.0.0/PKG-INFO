@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: litio
+Version: 1.0.0.0
+Summary: A simple tool for testing
+Home-page: https://github.com/lizardwine/litio
+Author: Lizardwine
+Author-email: lizardwine@hotmail.com
+License: GPL v3.0
+Project-URL: Bug Tracker, https://github.com/lizardwine/litio/issues
+Keywords: testing,tester
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: rich==13.7.0
+
+A command line function tester
+
+# litio
+
+## how to use
+
+example 1:
+
+```
+python3 -m litio -c litio-config.yml
+```
+
+litio-config.yml:
+```yaml
+name: My Awesome Title
+
+tests:
+  firsth-test: # test name
+    path: ./tests/test1.py # path to python file
+    functions: # functions list
+      - pow: # function name
+          inputs: # inputs
+            # arguments with name of parameters
+            base: 2
+            exponent: 2
+          expected:
+            value: 4 # expected value
+            comparator: Equals
+          print-return: true # print returned value by function
+```
+
+test1.py:
+```python
+def pow(base, exponent):
+    return base**exponent
+```
