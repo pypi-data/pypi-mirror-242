@@ -1,0 +1,9 @@
+mtasr/__init__.py,sha256=_bdZgsDVu1SurEvB6V9UDQL-9lEeIJ_5C7eVPJd4xQY,73
+mtasr/asr_pb2.py,sha256=AJjlwMqNpVQHup7sTPG7gQw1PP14pMMBTHL-267js6k,3337
+mtasr/asr_pb2_grpc.py,sha256=9JQOyX8bJkD0bPEZ7MCRHvV8NU6bnmUHotSkTm1I04Q,4385
+mtasr/grpc_client.py,sha256=j5J0FQyDvuAbeOks2m7wsj0bxrlUdnMXZHwBOitUTjQ,5405
+mtasr-1.0.1.dist-info/LICENSE,sha256=JLajA_l1XmwvHbN08yt89T8iwZ4NS-pJK6qzoBtr-w0,1062
+mtasr-1.0.1.dist-info/METADATA,sha256=dLQOl0Qu--AcJ88RGJbNORl7l-LkrNSJNcu0VTQ-ZO4,1140
+mtasr-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mtasr-1.0.1.dist-info/top_level.txt,sha256=5Wtzx8AHGWVGZK7KbCSlUZ9rEUjzPTV4AwPUXIFVhuY,6
+mtasr-1.0.1.dist-info/RECORD,,
