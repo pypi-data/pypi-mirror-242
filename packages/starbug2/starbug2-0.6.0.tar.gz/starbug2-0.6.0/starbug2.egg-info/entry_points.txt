@@ -1,0 +1,2 @@
+[console_scripts]
+starbug2 = starbug2.scripts.main:starbug_main
