@@ -1,0 +1,14 @@
+solver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solver/cartesian_mesh.py,sha256=a7VVjlfbBT1paE0epX-Rq8Cftthxa06MGLUR0C85Ru0,11904
+solver/cartesian_solver.py,sha256=NC0ta-pG04HJPTGmNpAfpIAIgUxQ_sSWSQLHTAwkFao,401
+solver/mesher.py,sha256=k3VHxec19l-1ptHr_v6wf94A-w2894mS8jRHm1BuTHs,16774
+solver/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solver/solver.py,sha256=sZ1fdnw5GU8VxLUL8RSs_GUdf3tvFUZgVMgOyQZFTDg,11838
+solver/utilities.py,sha256=MUS_QSBnmCsI5r4rlg2X2jUpGy9CTpyo3oDFlh86_fk,9061
+solver/code_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solver/code_project/main.py,sha256=vk1q0xbhdrsTtBjHJ--8IFHGa2dYE8IAeV-zFWdvVVg,10979
+bray_pde-0.1.4.dist-info/LICENSE,sha256=ijAA5k-fp8fQqIIcf54bdrKKvwRzhb1BjEnrhoX5S7A,1062
+bray_pde-0.1.4.dist-info/METADATA,sha256=I65HnPusWVs8W4m7jEx2-YmB7TlVQozJQkMna6FoafI,681
+bray_pde-0.1.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+bray_pde-0.1.4.dist-info/top_level.txt,sha256=RIto_Z3phdVw6gFtSChYmUUkG-B565bDsyves_k6DGg,7
+bray_pde-0.1.4.dist-info/RECORD,,

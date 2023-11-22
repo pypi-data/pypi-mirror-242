@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bray-pde
+Version: 0.1.4
+Summary: My implementation of the 2d advection diffusion for NAU525 Applied Computational Fluid Dynamics Course
+Author: Bray Moll
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy >=1.0.0
+Requires-Dist: pandas >=2.1.0
+Requires-Dist: matplotlib >=3.8.0
+Requires-Dist: plotnine >=0.12.0
+Provides-Extra: testing
+Requires-Dist: pytest >=6.0 ; extra == 'testing'
+Requires-Dist: pytest-cov >=4.0 ; extra == 'testing'
+Requires-Dist: pytest-mock >=3.12 ; extra == 'testing'
+Requires-Dist: mypy >=0.910 ; extra == 'testing'
+Requires-Dist: flake8 >=3.9 ; extra == 'testing'
+Requires-Dist: tox >=3.24 ; extra == 'testing'
+
