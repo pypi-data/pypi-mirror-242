@@ -1,0 +1,17 @@
+bioio_tiff_glob/__init__.py,sha256=zrcnn0IcXqMtGQ8bDmFposGNPxp-jDbIksOhM6Z0ekU,452
+bioio_tiff_glob/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bioio_tiff_glob/reader.py,sha256=B3id7hdpPc_2F85IGfgH5VbhMM2Oul3jB5LgrWFWWH8,25085
+bioio_tiff_glob/reader_metadata.py,sha256=ywUxu4py23_DuLfS1bMDJfDYOLh3LBbOuYxEOtV_-m4,782
+bioio_tiff_glob/utils.py,sha256=hWG9EW_m3IumFEuig2vhukZV6GnJs-PX-zt5iOVx12I,2384
+bioio_tiff_glob/tests/__init__.py,sha256=FZk9hm7vBsK8G16pNugputbrrEciYqJc_XRAhTCcojI,46
+bioio_tiff_glob/tests/test_reader.py,sha256=LUotVAMwiXCxnb_bzQ-rkA3geR7qUwujwq0w74f9AIU,6734
+docs/conf.py,sha256=wbG0OCL1fzQpDXfDD2iZs8vbzcigESm0sEfjkd4X1Xk,5419
+docs/contributing.rst,sha256=w-9cHMND1IRn4mFh2M0C4Ngv-NsNrN0cPbkSZywoUBg,34
+docs/index.rst,sha256=alRNxEpoukXByA9nY-GHBUPp_x1HXuC-QocmVeTjz48,258
+docs/installation.rst,sha256=BiIRaMsZR96OyoRFbVJTTzQDc9ELEPihNSBNwJbeni8,1182
+bioio_tiff_glob-0.9.0.dist-info/LICENSE,sha256=mqO4RlsClVxRN4BnRXt5c-DzUOkCjcxcVPldlj251Uo,1498
+bioio_tiff_glob-0.9.0.dist-info/METADATA,sha256=lTRjTWyQbkmoIxCT52UjdVonc6aFB6vNVtItAWHECY4,2743
+bioio_tiff_glob-0.9.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+bioio_tiff_glob-0.9.0.dist-info/entry_points.txt,sha256=-UHNhH-r6sa_fFUC1ft2y0w9JGJYIKKoOS1grcwx_T4,50
+bioio_tiff_glob-0.9.0.dist-info/top_level.txt,sha256=IBYEsB46dYOO8RX2qLFzk22kpHZFjtDc7Uiu87nXd1Q,21
+bioio_tiff_glob-0.9.0.dist-info/RECORD,,
