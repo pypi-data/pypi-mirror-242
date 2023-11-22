@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cool-graph
+Version: 0.0.1
+Summary: The library to make GNN easy to touch
+License: MIT
+License-File: LICENSE.md
+
+CoolGraph is an easy-to-use Python library using Graph Neural Networks for node classification.
