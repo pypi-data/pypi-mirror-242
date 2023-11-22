@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/PDDL_Prover.egg-info/PKG-INFO
+src/PDDL_Prover.egg-info/SOURCES.txt
+src/PDDL_Prover.egg-info/dependency_links.txt
+src/PDDL_Prover.egg-info/top_level.txt
+src/pddl_prover/__init__.py
+src/pddl_prover/examples.py
+src/pddl_prover/logic.py
+src/pddl_prover/tests.py
