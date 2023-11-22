@@ -1,0 +1,3 @@
+[console_scripts]
+cifrador = onepackage.__main__:main
+
