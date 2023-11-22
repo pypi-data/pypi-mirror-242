@@ -1,0 +1,14 @@
+file_groups/__init__.py,sha256=1OO3tLnRnIe51VfZSQz0sqUaUP-xS7oHxiSexnKwpEY,94
+file_groups/compare_files.py,sha256=38EfZzpEpj0wH7SUruPxgyF_W8eqCbIjG6yUOx8hcFA,434
+file_groups/config_files.py,sha256=IDwhznEM8wpMBp0Fl69r1CbPxfgYCu82iE3b_mxkk6g,10211
+file_groups/groups.py,sha256=6tVIYBC5nCVPI4Ig1EuijT12accw2DZ08TEIMSJecLo,11531
+file_groups/handler.py,sha256=06_8_fBEaHndrfUdxMsFw6KZw8PRcRj4MsH4FY3I4sU,10083
+file_groups/handler_compare.py,sha256=78TXl9QFMIL5gZQhiLYvbzF5OidS7kcaRz6zCCNVG6I,2120
+file_groups/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_groups/types.py,sha256=giq3H58RuKpS6b7sjxnzP-sN1Xr4VTQ-rG4brLP5qMI,107
+file_groups-0.2.1.dist-info/LICENSE.txt,sha256=NZc9ictLEwfoL4ywpAbLbd-n02KETGHLYQU820TJD_Q,1494
+file_groups-0.2.1.dist-info/METADATA,sha256=hnoCAPIfqQ_bjodGN2qVzLhGWCBdg1-PCmYpf5G0I1U,1512
+file_groups-0.2.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+file_groups-0.2.1.dist-info/top_level.txt,sha256=mAdRf0R2TA8tpH7ftHzXP7VMRhw07p7B2mI8QKpDnjU,12
+file_groups-0.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+file_groups-0.2.1.dist-info/RECORD,,
