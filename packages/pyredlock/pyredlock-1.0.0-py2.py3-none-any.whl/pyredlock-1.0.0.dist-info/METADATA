@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: pyredlock
+Version: 1.0.0
+Summary: A Redis distributed lock implementation in Python
+Home-page: https://github.com/amazingchow/redlock-py
+Author: Adam Zhou
+Author-email: adamzhouisnothing@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: jsonschema ==4.20.0
+Requires-Dist: loguru ==0.7.2
+Requires-Dist: redis ==5.0.1
+
+
+pyredlock - A Redis distributed lock implementation in Python
+
+This python lib implements the Redis-based distributed lock manager algorithm [described in this blog post](https://redis.io/docs/manual/patterns/distributed-locks/).
+
+### How to use it?
+
+To create a lock manager:
+
+```python
+from pyredlock import RedisClient
+from pyredlock import Redlock, Lock
+
+...
+client = RedisClient(client_conf={
+    "endpoint": "localhost:6379",
+    "password": "your_redis_password",
+    "db": 0,
+    "socket_timeout": 0.5,
+    "socket_connect_timeout": 0.25
+})
+lock_mgr = Redlock(connections=[client.get_connection()], async_mode=False)
+...
+```
+
+To acquire a lock:
+
+```python
+...
+success, my_lock = lock_mgr.lock("my_resource_name", 1000)
+...
+```
+
+To release a lock:
+
+```python
+...
+lock_mgr.unlock(my_lock)
+...
+```
+
+To extend your ownership of a lock that you already own:
+
+```python
+...
+lock_mgr.extend(my_lock, 1000)
+...
+```
+
+**Disclaimer**: This implementation is currently a proposal, it was not formally analyzed. Make sure to understand how it works before using it in your production environments.
