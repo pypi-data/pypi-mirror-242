@@ -1,0 +1,10 @@
+pytask_vscode/__init__.py,sha256=pzGWuV9qHtBJIsyO9sq2oW-yXlHPzokKq0-nK-ZG0o4,350
+pytask_vscode/_version.py,sha256=nwmSMCe0dKJKDWjx6DxHrhxQs-QeRxriclJiXvka63U,427
+pytask_vscode/execution.py,sha256=xDWzfZak4zMSBpeLok3VeiP6n8IkzqTzuouk1aJhqcM,1767
+pytask_vscode/plugin.py,sha256=VQYWPNwxtWEAMj8hO7HpCSB9MAi_uo8ewMr0IiJPoJ8,183
+pytask_vscode-0.0.2.dist-info/LICENSE,sha256=trS8XZ-tNsYesLdE0WhV7Kh9qeraxwhfTxB9bcr41oI,1094
+pytask_vscode-0.0.2.dist-info/METADATA,sha256=Ips1EFKhN_iebpI5RWLGEKdqyEcqW5cPYfyMZWicDNU,1536
+pytask_vscode-0.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pytask_vscode-0.0.2.dist-info/entry_points.txt,sha256=qkgA9yisFMmDwovg2Gicw49hbMkb6TPUn8ZWkrq3Guk,46
+pytask_vscode-0.0.2.dist-info/top_level.txt,sha256=cwKSVmouiy0uWp_DQ1f-k4UNvzgroO4Y69YWC6D-_eY,14
+pytask_vscode-0.0.2.dist-info/RECORD,,
