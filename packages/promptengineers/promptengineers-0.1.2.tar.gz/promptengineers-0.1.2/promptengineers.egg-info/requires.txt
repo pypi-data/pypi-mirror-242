@@ -1,0 +1,8 @@
+ujson
+
+[history]
+fastapi
+uvicorn
+motor
+pymongo
+cryptography
