@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pytask-vscode
+Version: 0.0.2
+Summary: Additional Logging for VS Code integration
+Home-page: https://github.com/pytask-dev/pytask-vscode
+Author: Max Jahn
+Author-email: max.jahn45@gmail.com
+License: MIT
+Project-URL: Changelog, https://github.com/pytask-dev/pytask-vscode/blob/main/CHANGES.rst
+Project-URL: Documentation, https://github.com/pytask-dev/pytask-vscode
+Project-URL: Github, https://github.com/pytask-dev/pytask-vscode
+Project-URL: Tracker, https://github.com/pytask-dev/pytask-vscode/issues
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pytask>=0.4.2
+Requires-Dist: requests
+
+# pytask-vscode
+
+This is a plugin for Pytask. It is needed to use the Pytask VS Code Extension.
+
+
+## Installation
+
+pytask-vscode is available on [PyPI](https://pypi.org/project/pytask-vscode/). Install it with
+
+```console
+$ pip install pytask-vscode
+
+```
+
+## Changes
+
+Consult the [release notes](CHANGES.md) to find out about what is new.
