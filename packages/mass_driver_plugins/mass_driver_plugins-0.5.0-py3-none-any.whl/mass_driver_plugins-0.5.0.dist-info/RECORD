@@ -1,0 +1,11 @@
+mass_driver_plugins/__init__.py,sha256=VcSkgfj3MQ4moHNTMIVf3t_Y4-_I7BoITu2WpbbgSYk,47
+mass_driver_plugins/cli.py,sha256=0EHoV3EX6a_Jt6V8ihP1vGvAILhfdPixFBwZeltAu90,756
+mass_driver_plugins/jsonpatch.py,sha256=2nflmUvVuSYLjnR7mVTwHk18AaX5C74R6vLPYfmqlwk,2845
+mass_driver_plugins/poetry_surgical.py,sha256=I71UrJDMwxN0qmITPKX8fHsWjdPEVnFaQzz2PaAEFOo,5480
+mass_driver_plugins/py.typed,sha256=8PjyZ1aVoQpRVvt71muvuq5qE-jTFZkK-GLHkhdebmc,26
+mass_driver_plugins/surgical.py,sha256=YCmibCsAfIRASl6wOTUvvv_jAlf83Hy5n4FMyidpgc0,8817
+mass_driver_plugins/template.py,sha256=grx6OYk0USK6Xdd_Qs6qSQO4ijOxqiuW6QZ_1YmcIMc,886
+mass_driver_plugins-0.5.0.dist-info/METADATA,sha256=HBdRVgxILxL3jS1embpToDtFZVtL0fnGIlBFdVBxebo,3157
+mass_driver_plugins-0.5.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+mass_driver_plugins-0.5.0.dist-info/entry_points.txt,sha256=_yZEzB6da-4FciTKSMQku2KPc1IYv5K6k8cdyEI_kz8,459
+mass_driver_plugins-0.5.0.dist-info/RECORD,,
