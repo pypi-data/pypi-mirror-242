@@ -1,0 +1,74 @@
+name: Daily Workflow
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Run at midnight every day
+
+jobs:
+    full-coverage:
+        name: Unit test and integration test coverage analysis
+        runs-on: ubuntu-latest
+    
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v3
+    
+          - name: Install stable toolchain
+            uses: dtolnay/rust-toolchain@master
+            with:
+              toolchain: stable
+              components: rustfmt, clippy
+    
+          - name: Install cargo-grcov
+            run: |
+              rustup component add llvm-tools-preview
+              cargo install grcov
+    
+          - name: Generate coverage report for unit tests
+            env:
+              RUSTFLAGS: "-Cinstrument-coverage"
+              LLVM_PROFILE_FILE: "target/coverage/nyx_space-%p-%m.profraw"
+            run: cargo test --lib && grcov . --branch --binary-path ./target/debug/ -t lcov -s . --keep-only 'src/*' > ${{ github.workspace }}/lcov-lib.txt
+        
+          - name: Generate coverage report for doc tests
+            env:
+                RUSTFLAGS: "-Cinstrument-coverage"
+                LLVM_PROFILE_FILE: "target/coverage/nyx_space-%p-%m.profraw"
+            run: cargo test --doc && grcov . --branch --binary-path ./target/debug/ -t lcov -s . --keep-only 'src/*' > ${{ github.workspace }}/lcov-docs.txt
+          
+          - name: Generate coverage report for cosmic integr. tests
+            env:
+              RUSTFLAGS: "-Cinstrument-coverage"
+              LLVM_PROFILE_FILE: "target/coverage/nyx_space-%p-%m.profraw"
+            run: cargo test -- cosmic && grcov . --branch --binary-path ./target/debug/ -t lcov -s . --keep-only 'src/*' > ${{ github.workspace }}/lcov-cosmic.txt
+          
+          - name: Generate coverage report for mission_design integr. tests
+            env:
+              RUSTFLAGS: "-Cinstrument-coverage"
+              LLVM_PROFILE_FILE: "target/coverage/nyx_space-%p-%m.profraw"
+            run: cargo test -- mission_design && grcov . --branch --binary-path ./target/debug/ -t lcov -s . --keep-only 'src/*' > ${{ github.workspace }}/lcov-mission_design.txt
+          
+          - name: Generate coverage report for OD integr. tests
+            env:
+              RUSTFLAGS: "-Cinstrument-coverage"
+              LLVM_PROFILE_FILE: "target/coverage/nyx_space-%p-%m.profraw"
+            run: cargo test -- orbit_determination::trackingarc orbit_determination::filtererrors orbit_determination::measurements orbit_determination::simulator orbit_determination::spacecraft && grcov . --branch --binary-path ./target/debug/ -t lcov -s . --keep-only 'src/*' > ${{ github.workspace }}/lcov-od.txt
+          
+          - name: Generate coverage report for propulsion integr. tests
+            env:
+              RUSTFLAGS: "-Cinstrument-coverage"
+              LLVM_PROFILE_FILE: "target/coverage/nyx_space-%p-%m.profraw"
+            run: cargo test -- propulsion && grcov . --branch --binary-path ./target/debug/ -t lcov -s . --keep-only 'src/*' > ${{ github.workspace }}/lcov-prop.txt
+          
+          - name: Generate coverage report for monte carlo integr. tests
+            env:
+              RUSTFLAGS: "-Cinstrument-coverage"
+              LLVM_PROFILE_FILE: "target/coverage/nyx_space-%p-%m.profraw"
+            run: cargo test -- test_monte_carlo_epoch && grcov . --branch --binary-path ./target/debug/ -t lcov -s . --keep-only 'src/*' > ${{ github.workspace }}/lcov-mc.txt
+    
+          - name: Upload coverage report
+            uses: codecov/codecov-action@v3
+            with:
+              token: ${{ secrets.CODECOV_TOKEN }}
+              files: ${{ github.workspace }}/lcov-*.txt
