@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: personal-tracker
+Version: 0.0.1
+Summary: A simple python package to get the weather of any city
+Author: Nhuengzii (Anawat Moonmanee)
+Author-email: <32nhueng@gmail.com>
+Requires-Dist: ultralytics
+Requires-Dist: opencv-python
+Requires-Dist: opencv-contrib-python
+
