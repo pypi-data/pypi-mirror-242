@@ -1,0 +1,6 @@
+extism_sys-1.0.0rc3.dist-info/METADATA,sha256=UQY-q9gD-XzhVg8fxW6-SuUcXeEMWW6Te5cnrKNQKuk,282
+extism_sys-1.0.0rc3.dist-info/WHEEL,sha256=DMlVjnxxDSYc63pGHJzU1C2EL1OLK2ekvoxqF2_k3Es,106
+extism_sys/__init__.py,sha256=hsVZR7agC05B2LKh1o3-Xj95Uziyiy2NP0_kS0aEM4k,136
+extism_sys/ffi.py,sha256=cwSR4dOojUO2CSON5V2Yoqlnp881Z0vh43sEPXo2sNo,7102
+extism_sys/native.so,sha256=afY-npy72OOpA182UN-PATbD2nC9wL7TNtynueQnQxI,24064224
+extism_sys-1.0.0rc3.dist-info/RECORD,,
