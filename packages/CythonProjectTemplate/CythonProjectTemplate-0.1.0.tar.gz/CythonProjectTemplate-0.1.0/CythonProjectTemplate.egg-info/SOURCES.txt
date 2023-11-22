@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+_build.py
+pyproject.toml
+setup.py
+CythonProjectTemplate/__init__.py
+CythonProjectTemplate/power.c
+CythonProjectTemplate.egg-info/PKG-INFO
+CythonProjectTemplate.egg-info/SOURCES.txt
+CythonProjectTemplate.egg-info/dependency_links.txt
+CythonProjectTemplate.egg-info/requires.txt
+CythonProjectTemplate.egg-info/top_level.txt
+CythonProjectTemplate/module/add.c
+Tests/Test_Add.py
+Tests/Test_Power.py
+tests/Test_Add.py
+tests/Test_Power.py
