@@ -1,0 +1,5 @@
+matplotlib
+numpy
+pandas
+scikit-learn
+scikit-image>=0.20.0
