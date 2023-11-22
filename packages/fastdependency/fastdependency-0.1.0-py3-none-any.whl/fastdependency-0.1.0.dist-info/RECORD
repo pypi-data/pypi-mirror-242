@@ -1,0 +1,9 @@
+lib/fastdependency/__init__.py,sha256=mNYCXl6wKc4SSnBfibxKq0KPFgIHq98Nm__uLWXzcN4,180
+lib/fastdependency/container.py,sha256=pogRqrQ4G9vRqrtfRApPWCLFvIBAyBHZ_x1z7QK8cCI,664
+lib/fastdependency/decorators.py,sha256=7OhMfKPNgAvWJZEI9vY4LCcPZ0CZuPVcbELdtLKaS68,1551
+lib/fastdependency/exceptions.py,sha256=gtolb7at7lveLBFCVuHgMPLPE4HXx_0NoKzBuvF1sN8,230
+lib/fastdependency/resolvables.py,sha256=rtla2VxhBqKpFU1c32EaS_SyWftcJih0g5b25DxnvPY,1375
+lib/fastdependency/utils.py,sha256=r-QXXm91o_frC48GExnZZVXAXZyKoDZhVq-RG2COJ4g,596
+fastdependency-0.1.0.dist-info/METADATA,sha256=oRqnL36mVvGGdd4s5mfOOh4r4gdkVo4kpF2ZKw0TS1c,1139
+fastdependency-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fastdependency-0.1.0.dist-info/RECORD,,
