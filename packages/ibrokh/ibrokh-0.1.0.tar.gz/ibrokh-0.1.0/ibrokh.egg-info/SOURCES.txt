@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ibrokh.egg-info/PKG-INFO
+ibrokh.egg-info/SOURCES.txt
+ibrokh.egg-info/dependency_links.txt
+ibrokh.egg-info/top_level.txt
+src/__init__.py
+src/__main__.py
+src/viewer.py
