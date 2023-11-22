@@ -1,0 +1,2 @@
+[console_scripts]
+ciliaseg = ciliaseg.main.py:launch
