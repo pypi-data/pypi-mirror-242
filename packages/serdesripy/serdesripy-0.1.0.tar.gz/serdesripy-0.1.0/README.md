@@ -1,0 +1,7 @@
+
+`serdesripy` is a lightweight wrapper around
+[`serde_esri`](https://github.com/JosiahParry/serde_esri) which is a
+Rust library that can serialize and deserialize Esri JSON objects.
+
+This python library is a proof of concept package illustrating how we
+can call `serde_esri` to process JSON and return a PyArrow object.
