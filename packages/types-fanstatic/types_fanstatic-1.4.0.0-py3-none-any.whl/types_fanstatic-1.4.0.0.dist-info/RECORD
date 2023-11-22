@@ -1,0 +1,15 @@
+fanstatic-stubs/METADATA.toml,sha256=SuPK9V-ktGispaJnMYZCyURz1n17868daBiNx8UsG2Q,133
+fanstatic-stubs/__init__.pyi,sha256=GxYsYlmAykAwixzjsf_H99WzQHE0XEzzkzHVw7fnm-w,1847
+fanstatic-stubs/checksum.pyi,sha256=WOAe7XX2yBJPnqa0ICGmnnYdH_IXgudqkvxMiLPO7W8,359
+fanstatic-stubs/compiler.pyi,sha256=zwUhlUXD934SK6vNLEaUmq3Kq3eRLOmf5TNrNT0tvNI,3844
+fanstatic-stubs/config.pyi,sha256=WuN50TEaTLVRwm1YHbl47GuGU5iNMaXPB5OOWiCImew,249
+fanstatic-stubs/core.pyi,sha256=rY_AsyqPImLAMxw15_jelFbH-wrvWVQbBuGxdsH8LV8,7828
+fanstatic-stubs/inclusion.pyi,sha256=J6RASGI6rATh7TMtbMsPfNHGyvwTncANoMeIiFOD758,744
+fanstatic-stubs/injector.pyi,sha256=dU5Q63yM077Wf3b4h2ofkUr3_LKD_UZ-xsTGT5lCT2E,2043
+fanstatic-stubs/publisher.pyi,sha256=UcN-P6K2p3At4ZaOKv5TwcOdTqtGmJCBj4y2FcYm6DU,1681
+fanstatic-stubs/registry.pyi,sha256=HjZgv6_i4QzhkpdEnkTXvGCx6uGmYamXdyxc2sXyfZk,1437
+fanstatic-stubs/wsgi.pyi,sha256=LqQXJ4JeeoAQ6U7sVY7FfhyLDexfc4RxMQ7o9HfQd38,797
+types_fanstatic-1.4.0.0.dist-info/METADATA,sha256=XvwW5vKspmoaLuTdYVeP7dMIKnrHZs660NBsKcHDDek,1641
+types_fanstatic-1.4.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+types_fanstatic-1.4.0.0.dist-info/top_level.txt,sha256=2BfvLiMBqRRF4Si-F9thyxXCh-cSxbcThPS4rc2SEgk,16
+types_fanstatic-1.4.0.0.dist-info/RECORD,,
