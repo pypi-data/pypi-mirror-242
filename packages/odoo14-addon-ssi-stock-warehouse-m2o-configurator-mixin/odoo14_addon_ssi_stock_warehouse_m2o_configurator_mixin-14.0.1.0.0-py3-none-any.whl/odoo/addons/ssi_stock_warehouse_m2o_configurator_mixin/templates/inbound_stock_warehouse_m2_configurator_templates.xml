@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<template id="inbound_stock_warehouse_m2o_configurator_template">
+    <group name="inbound_warehouse_1" col="2" colspan="4" string="Inbound Warehouse">
+        <field name="inbound_warehouse_selection_method" />
+        <field
+                name="inbound_warehouse_ids"
+                attrs="{'invisible':[('inbound_warehouse_selection_method','!=','manual')]}"
+            />
+        <field
+                name="inbound_warehouse_domain"
+                widget="domain"
+                options="{'model': 'stock.warehouse', 'in_dialog': True}"
+                attrs="{'invisible':[('inbound_warehouse_selection_method','!=','domain')]}"
+            />
+        <field
+                name="inbound_warehouse_python_code"
+                widget="ace"
+                attrs="{'invisible':[('inbound_warehouse_selection_method','!=','code')]}"
+            />
+    </group>
+</template>
+</odoo>
