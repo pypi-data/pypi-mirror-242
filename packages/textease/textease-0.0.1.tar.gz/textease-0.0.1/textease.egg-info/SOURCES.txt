@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+textease/__init__.py
+textease.egg-info/PKG-INFO
+textease.egg-info/SOURCES.txt
+textease.egg-info/dependency_links.txt
+textease.egg-info/top_level.txt
