@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gollumpy
+Version: 1.0.1
+Summary: detection of rings on acrocentric chromosomes using short reads sequencing
+Author-email: Freddy Cliquet <freddy.cliquet@pasteur.fr>
+Keywords: genomics,structural-variation,chromosomal-anomaly-detection
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyranges
+Requires-Dist: scikit-learn

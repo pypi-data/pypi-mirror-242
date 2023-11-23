@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+gollumpy/__init__.py
+gollumpy/gollum.py
+gollumpy.egg-info/PKG-INFO
+gollumpy.egg-info/SOURCES.txt
+gollumpy.egg-info/dependency_links.txt
+gollumpy.egg-info/entry_points.txt
+gollumpy.egg-info/requires.txt
+gollumpy.egg-info/top_level.txt
+gollumpy/resources/acro.short_arm.T2T.bed
