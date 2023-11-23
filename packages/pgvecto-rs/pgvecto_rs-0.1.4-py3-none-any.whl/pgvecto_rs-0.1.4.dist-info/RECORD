@@ -1,0 +1,15 @@
+pgvecto_rs-0.1.4.dist-info/METADATA,sha256=ddHnGTKCl6dbH947CKKeHJEWrSk7Xwn6SV5DwlPU0g8,3512
+pgvecto_rs-0.1.4.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+pgvecto_rs-0.1.4.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pgvecto_rs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgvecto_rs/errors.py,sha256=PEu4qvBHzz1FF1uIeXh8-vs4nZZcQbeyqdFnBMbpr-o,708
+pgvecto_rs/psycopg/__init__.py,sha256=Q4b9D1lOOhKXeIa0iswcK8oY139XM__T5BUWLgjAsAA,1331
+pgvecto_rs/sdk/__init__.py,sha256=lXU8qPplIBaqwppnU51Z0CiRx_Gq9mS6pcbGfvY1qjc,172
+pgvecto_rs/sdk/client.py,sha256=0k4EKDlrOPJi7KMWh4fHjNficyATpp82c_F8ZF02sgU,4737
+pgvecto_rs/sdk/filters.py,sha256=zP0VoJsyWLhW6gyH6I2tYB4cFvzJweyM16-zaovLEg4,351
+pgvecto_rs/sdk/record.py,sha256=tO6C9v49W0Udvl_5QI6O1U0hVAWAkFi0gFfxUbpz9lY,1285
+pgvecto_rs/sqlalchemy/__init__.py,sha256=y1w2M8I-nl0JS70eX71KOpxJv25PFbGVbEKIYzxeqnw,1195
+pgvecto_rs/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgvecto_rs/utils/decorators.py,sha256=NFo8d78QsBqCGn6MkEO6PWLRo5KQwnYJFmakvEWWKIY,1401
+pgvecto_rs/utils/serializer.py,sha256=ZkASh9jaGJuVD68Gy3SLGEvoSantN_D23Il_nZMaeEY,615
+pgvecto_rs-0.1.4.dist-info/RECORD,,
