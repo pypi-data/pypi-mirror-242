@@ -1,0 +1,10 @@
+requests
+astropy>=5.1
+matplotlib
+numpy
+scipy
+mpmath
+progressbar2
+aplpy
+mayavi
+h5py
