@@ -1,0 +1,9 @@
+setup.py
+bonus/__init__.py
+bonus/service.py
+bonus/utils.py
+bonus.egg-info/PKG-INFO
+bonus.egg-info/SOURCES.txt
+bonus.egg-info/dependency_links.txt
+bonus.egg-info/requires.txt
+bonus.egg-info/top_level.txt
