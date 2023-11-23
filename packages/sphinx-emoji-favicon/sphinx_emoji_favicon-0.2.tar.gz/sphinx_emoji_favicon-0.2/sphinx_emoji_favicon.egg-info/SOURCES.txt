@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sphinx_emoji_favicon/__init__.py
+sphinx_emoji_favicon.egg-info/PKG-INFO
+sphinx_emoji_favicon.egg-info/SOURCES.txt
+sphinx_emoji_favicon.egg-info/dependency_links.txt
+sphinx_emoji_favicon.egg-info/requires.txt
+sphinx_emoji_favicon.egg-info/top_level.txt
+test/test_build.py
+test/test_parser.py

@@ -1,0 +1,11 @@
+sphinx
+docutils
+emoji
+
+[dev]
+tqdm
+emoji
+
+[test]
+tqdm
+emoji
