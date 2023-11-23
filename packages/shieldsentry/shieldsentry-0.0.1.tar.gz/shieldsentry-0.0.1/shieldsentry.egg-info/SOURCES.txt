@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+shieldsentry/__init__.py
+shieldsentry/shieldsentry.py
+shieldsentry.egg-info/PKG-INFO
+shieldsentry.egg-info/SOURCES.txt
+shieldsentry.egg-info/dependency_links.txt
+shieldsentry.egg-info/top_level.txt
