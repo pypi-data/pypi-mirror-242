@@ -1,0 +1,13 @@
+pysideprocessing/__about__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+pysideprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysideprocessing/color.py,sha256=sqckDn20MgYKCtH-x7w3ukXVpQL76ychZwxRL3swdiY,7607
+pysideprocessing/papplet.py,sha256=WRnuVpoKO_XDgK9rfKfXBkYrQiQstNJb6QlW-aft5Sc,7709
+pysideprocessing/pconstants.py,sha256=SqKxfGMBxcMxPFp1Ru4ghMSl6IQZXYTpYNea5Mh8juo,2498
+pysideprocessing/pgraphics.py,sha256=cEWYrhoJTkNCCest5ehsqaoQX4GguZ-HWCiZpBd_K-0,16479
+pysideprocessing/pimage.py,sha256=UkwT8eEIivhidpkDJYteT0td_zMLw5QrksAXus6yOpg,4906
+pysideprocessing/pwidget.py,sha256=GPmQRs3h09EDBDnQU47doE3SsORnjGKbYidkAZ3SFJA,14511
+pysideprocessing/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysideprocessing-0.0.4.dist-info/METADATA,sha256=1ZToYMjasBmBWnlzfgc1J2B2unQFCFFKk6L4J0SMxzg,1555
+pysideprocessing-0.0.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pysideprocessing-0.0.4.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pysideprocessing-0.0.4.dist-info/RECORD,,
