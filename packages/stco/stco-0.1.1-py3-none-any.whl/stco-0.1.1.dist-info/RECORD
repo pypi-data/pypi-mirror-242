@@ -1,0 +1,10 @@
+stco/__init__.py,sha256=M8wPGEEWTx-s9PL9oub05nSkw8JFt12y71NGopkS_JY,1236
+stco/clustering.py,sha256=upoS8viS_ii6xIAPhH0l3gyiBp_avD-FRbDTh1dAT_E,8414
+stco/overlay.py,sha256=yRcymJ0WqYi4PjTsGJtcRNvtyfL2DCaBUXjvRHOw6Uo,8402
+stco/tests/test_clustering.py,sha256=BYIkU6xUe56OngmyIx3YLWfxnlvAK5NevqVszSib7dE,4562
+stco/tests/test_overlay.py,sha256=MW1xVlqlTKsn60Kv4BYiqDzH5adKJd7u1GK2l3aTe4k,4804
+stco-0.1.1.dist-info/LICENSE,sha256=q1K3gVpl6EXDSEMNnAHr5Rm907DWi6nQEN-PbXXphqg,1068
+stco-0.1.1.dist-info/METADATA,sha256=d3pGqTFAd6K8beIqsEkuJJnEnfRhr2LDlW3TWK-uCNA,5261
+stco-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+stco-0.1.1.dist-info/top_level.txt,sha256=0GSXN8E16fOSiwz3KQq5J0NISEWh9ctgt7rPU4VSOWM,5
+stco-0.1.1.dist-info/RECORD,,
