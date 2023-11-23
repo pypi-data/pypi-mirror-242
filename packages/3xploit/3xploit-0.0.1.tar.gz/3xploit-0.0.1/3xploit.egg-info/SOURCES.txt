@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+3xploit/__init__.py
+3xploit.egg-info/PKG-INFO
+3xploit.egg-info/SOURCES.txt
+3xploit.egg-info/dependency_links.txt
+3xploit.egg-info/top_level.txt
