@@ -1,0 +1,95 @@
+[build-system]
+requires = [ "whey",]
+build-backend = "whey"
+
+[project]
+name = "flake8-prettycount"
+version = "0.1.2"
+description = "Wrapper around flake8 providing a formatted count at the end."
+readme = "README.rst"
+keywords = [ "flake8",]
+dynamic = []
+dependencies = [
+    "click>=7.1.2",
+    "consolekit>=0.8.0",
+    "domdf-python-tools>=3.0.0",
+    "flake8>=3.8.4",
+    "typing-extensions>=3.7.4.3",
+]
+classifiers = [
+    "Environment :: Console",
+    "Framework :: Flake8",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Typing :: Typed",
+]
+requires-python = ">=3.6"
+
+[[project.authors]]
+name = "Dominic Davis-Foster"
+email = "dominic@davis-foster.co.uk"
+
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/python-formate/flake8-prettycount"
+"Issue Tracker" = "https://github.com/python-formate/flake8-prettycount/issues"
+"Source Code" = "https://github.com/python-formate/flake8-prettycount"
+
+[project.scripts]
+flake8-prettycount = "flake8_prettycount.__main__:main"
+flake8_prettycount = "flake8_prettycount.__main__:main"
+
+[tool.importcheck]
+always = [ "flake8_prettycount", "flake8_prettycount.__main__", "flake8_prettycount.application",]
+
+[tool.whey]
+base-classifiers = [
+    "Environment :: Console",
+    "Framework :: Flake8",
+    "Intended Audience :: Developers",
+    "Typing :: Typed",
+]
+python-versions = [ "3.6", "3.7", "3.8", "3.9", "3.10", "3.11", "3.12",]
+python-implementations = [ "CPython", "PyPy",]
+platforms = [ "Windows", "macOS", "Linux",]
+license-key = "MIT"
+package = "flake8_prettycount"
+
+[tool.mypy]
+python_version = "3.8"
+namespace_packages = true
+check_untyped_defs = true
+warn_unused_ignores = true
+no_implicit_optional = true
+show_error_codes = true
+
+[tool.snippet-fmt]
+directives = [ "code-block",]
+
+[tool.dependency-dash."requirements.txt"]
+order = 10
+
+[tool.snippet-fmt.languages.python]
+reformat = true
+
+[tool.snippet-fmt.languages.TOML]
+reformat = true
+
+[tool.snippet-fmt.languages.ini]
+
+[tool.snippet-fmt.languages.json]
