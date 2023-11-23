@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+oshada/__init__.py
+oshada.egg-info/PKG-INFO
+oshada.egg-info/SOURCES.txt
+oshada.egg-info/dependency_links.txt
+oshada.egg-info/top_level.txt
