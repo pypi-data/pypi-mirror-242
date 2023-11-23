@@ -1,0 +1,14 @@
+numpy
+scipy
+xarray
+dask[complete]
+zarr
+smt==2.1.0
+matplotlib
+
+[gpus]
+cupy
+
+[test]
+pytest
+coverage

@@ -1,0 +1,56 @@
+# This uses actios:
+#  checkout: https://github.com/actions/checkout
+#  cache: https://github.com/actions/cache
+#  codecov-action: https://github.com/codecov/codecov-action
+
+name: CI
+on:
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+  build:
+    name: Build (${{ matrix.python-version }} | ${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ["ubuntu-latest"]
+        python-version: ["3.9", "3.10", "3.11"]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Cache conda
+        uses: actions/cache@v3
+        env:
+          # Increase this value to reset cache if ci/environment.yaml has not changed
+          CACHE_NUMBER: 0
+        with:
+          path: ~/conda_pkgs_dir
+          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('ci/environment.yaml') }}
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: xesn # Defined in ci/environment*.yml
+          auto-update-conda: false
+          python-version: ${{ matrix.python-version }}
+          environment-file: ci/environment.yaml
+          use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
+      - name: Run Unit Tests
+        shell: bash -l {0}
+        run: |
+          coverage run --rcfile=coverage.toml -m pytest --verbose xesn/test/matrix.py xesn/test/esn.py xesn/test/lazy.py xesn/test/xdata.py xesn/test/optim.py xesn/test/psd.py xesn/test/cost.py xesn/test/driver.py
+      - name: Get coverage report
+        shell: bash -l {0}
+        run: |
+          coverage report -m ; coverage xml
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./coverage.xml
+          flags: unittests # optional
+
+
