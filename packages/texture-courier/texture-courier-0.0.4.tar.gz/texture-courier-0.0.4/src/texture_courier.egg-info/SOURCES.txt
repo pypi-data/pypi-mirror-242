@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/texture_courier/__init__.py
+src/texture_courier/cache.py
+src/texture_courier.egg-info/PKG-INFO
+src/texture_courier.egg-info/SOURCES.txt
+src/texture_courier.egg-info/dependency_links.txt
+src/texture_courier.egg-info/entry_points.txt
+src/texture_courier.egg-info/requires.txt
+src/texture_courier.egg-info/top_level.txt
