@@ -1,0 +1,8 @@
+hatch_nuitka/__about__.py,sha256=dZzi1Vnxba2dMP4a69bIZaVsNjh3YnvGcIqozHdZsGc,119
+hatch_nuitka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_nuitka/hooks.py,sha256=jtZweX2md248Ta32ecnB_Z7alWsF1MStGkF35494iQA,156
+hatch_nuitka/plugin.py,sha256=9Hw786tMMlXe69Yi-LozpoiKd7m-Q41qD4KkxDgsqfo,2318
+hatch_nuitka-0.0.1.dist-info/METADATA,sha256=_CPrU-S5L0C-y9TZVIVSOTzeU3GMqYfsc_OQGLhbXY8,1418
+hatch_nuitka-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+hatch_nuitka-0.0.1.dist-info/licenses/LICENSE.txt,sha256=SZZ8GQ1UZM6WaRdduyulM-s-Pubsp7S_tS2c33wiVsI,1089
+hatch_nuitka-0.0.1.dist-info/RECORD,,
