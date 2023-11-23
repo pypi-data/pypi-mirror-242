@@ -1,0 +1,30 @@
+/* -----------------------------------------------------------------------------
+| Copyright (c) Jupyter Development Team.
+| Distributed under the terms of the Modified BSD License.
+|---------------------------------------------------------------------------- */
+
+@import url('./variables.css');
+@import url('./urls.css');
+@import url('./base.css');
+@import url('./fonts.css');
+
+/* Set the default typography for monospace elements */
+
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--jp-code-font-family);
+  font-size: var(--jp-code-font-size);
+  line-height: var(--jp-code-line-height);
+}
+
+:where(
+    .jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']
+      pre
+      .ansi-yellow-bg
+  ) {
+  color: black;
+  background-color: #ddb62b50;
+}
