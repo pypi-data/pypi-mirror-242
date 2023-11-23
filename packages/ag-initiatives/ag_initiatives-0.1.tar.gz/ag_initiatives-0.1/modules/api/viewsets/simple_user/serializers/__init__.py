@@ -1,0 +1,1 @@
+from modules.api.viewsets.simple_user.serializers.initiative import InitiativeForSimpleUserSerializer

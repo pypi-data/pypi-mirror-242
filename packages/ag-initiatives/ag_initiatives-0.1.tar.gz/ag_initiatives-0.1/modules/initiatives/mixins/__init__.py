@@ -1,0 +1,1 @@
+from modules.initiatives.mixins.model_with_deletion_protection import ModelWithDeletionProtection

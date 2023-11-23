@@ -1,0 +1,10 @@
+include MANIFEST.in
+recursive-include modules/initiatives/admin *
+recursive-include modules/initiatives/enums *
+recursive-include modules/initiatives/management *
+recursive-include modules/initiatives/management/commands *
+recursive-include modules/initiatives/migrations *
+recursive-include modules/initiatives/mixins *
+recursive-include modules/initiatives/models *
+recursive-include modules/initiatives/service *
+recursive-include modules/initiatives/utils *
