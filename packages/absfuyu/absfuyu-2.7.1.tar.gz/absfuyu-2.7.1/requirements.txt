@@ -1,0 +1,5 @@
+typing_extensions>=3.7.4; python_version=='3.7'
+bs4
+python-dateutil
+requests
+unidecode
