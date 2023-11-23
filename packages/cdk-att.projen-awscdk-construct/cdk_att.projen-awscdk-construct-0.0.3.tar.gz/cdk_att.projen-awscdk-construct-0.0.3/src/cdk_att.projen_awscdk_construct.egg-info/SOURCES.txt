@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_att.projen_awscdk_construct.egg-info/PKG-INFO
+src/cdk_att.projen_awscdk_construct.egg-info/SOURCES.txt
+src/cdk_att.projen_awscdk_construct.egg-info/dependency_links.txt
+src/cdk_att.projen_awscdk_construct.egg-info/requires.txt
+src/cdk_att.projen_awscdk_construct.egg-info/top_level.txt
+src/cdk_att_projen_awscdk_construct/__init__.py
+src/cdk_att_projen_awscdk_construct/py.typed
+src/cdk_att_projen_awscdk_construct/_jsii/__init__.py
+src/cdk_att_projen_awscdk_construct/_jsii/projen-awscdk-construct@0.0.3.jsii.tgz
