@@ -1,0 +1,9 @@
+ansible-builder
+ansible-creator
+ansible-lint
+ansible-navigator
+ansible-sign
+molecule
+pytest-ansible
+tox-ansible
+setuptools
