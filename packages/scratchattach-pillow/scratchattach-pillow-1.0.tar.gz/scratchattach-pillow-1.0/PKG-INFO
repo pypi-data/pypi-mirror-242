@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: scratchattach-pillow
+Version: 1.0
+Summary: An modded version of scratchattach
+Home-page: https://github.com/TimMcCool/scratchattach
+Author: mas6y6
+Author-email: 
+Keywords: scratch api,scratchattach,scratch api python,scratch python,scratch for python,scratch,scratch cloud,scratch cloud variables,scratch bot
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: websocket-client
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: bs4
+
+# scratchattach-pillow
+
+This is a modded version of scratchattach that enables plugin loading and has better logging.
+
+For the original README.md [click me](https://github.com/TimMcCool/scratchattach)
+
+**This is in the works**
