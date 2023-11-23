@@ -1,0 +1,6 @@
+README.md
+setup.py
+samplepython02.egg-info/PKG-INFO
+samplepython02.egg-info/SOURCES.txt
+samplepython02.egg-info/dependency_links.txt
+samplepython02.egg-info/top_level.txt
