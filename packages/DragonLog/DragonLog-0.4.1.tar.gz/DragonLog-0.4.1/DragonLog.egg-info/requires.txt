@@ -1,0 +1,7 @@
+PyQt6
+maidenhead
+xmlschema
+PyADIF-File>=0.4.1
+
+[extra]
+openpyxl
