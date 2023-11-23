@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: myeventstudy
+Version: 0.1.4
+Summary: Python package for event study analysis
+Home-page: https://pypi.org/project/myeventstudy/
+Author: Qi Yan
+Author-email: 953736070@qq.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: statsmodels
+Requires-Dist: scipy
+
+# myeventstudy Package
+
+## 简介
+myeventstudy 是一个用于进行金融事件研究分析的 Python 包。目前提供了基于市场模型、市场调整模型、Fama三因子模型的事件研究法。
+- 市场模型 (Market Model)
+
+    $ R_{i,t}=\alpha_i+\beta_iR_{m,t}+\epsilon_{i,t} $
+
+- 市场调整模型 (Market-adjused Model)
+
+    $ R_{i,t}=R_{m,t}+\epsilon_{i,t} $
+
+- Fama三因素模型 (Fama-French Three Factor Model)
+
+    $ R_{i,t}-R_{f,t}=\alpha_i+\beta_1[R_{m,t}-R_{f,t}]+\beta_2SMB_t+\beta_3(HML_t)+\epsilon_{i,t} $
+
+## 安装
+通过 pip 安装 myeventstudy
+```bash
+pip install myeventstudy
+```
+
+## 参数
+| 参数名 | 描述 | 例子 |
+|:------|:----|:----|
+| `df_eventstudy` | 待分析数据，必须包含 `stockid`, `sreturn`, `date`, `mreturn`, `eventdate` 变量，如果使用FAMA三因子模型，还必须包含 `smb`, `hml`, `rf` 变量 | `df_eventstudy = df_eventstudy` |
+| `event_window_list` | 事件窗口列表，可添加多个事件窗口 | `event_window_list = [(-20, -11), (-10, -6), (-5, 10), (11, 20), (21, 60)]` |
+| `est_window` | 估计窗口，默认值为 `(-120, -20)` | `est_window = (-120, -20)` |
+| `predict_model` | 估计正常收益率时所用模型，支持 `'market'`, `'fama3'`, `'market_adj'` | `predict_model = 'market'` |
+| `save_path` | T检验结果保存文件夹路径，默认为当前路径，可以指定 | `save_path = 'e:\study\essay\tools'` |
+
+## 示例数据
+| stockid | sreturn   | date      | mreturn   | eventdate |
+|---------|-----------|-----------|-----------|-----------|
+| 2       | -.099668  | 04mar2013 | -.046133  | 15jul2022 |
+| 2       | -.006454  | 24aug2017 | -.005709  | 15jul2022 |
+| 2       | -.009456  | 07dec2016 | .004797   | 15jul2022 |
+| 2       | .013333   | 12mar2014 | .002595   | 15jul2022 |
+| 2       | -.005549  | 13may2021 | -.010224  | 15jul2022 |
+| 2       | -.003764  | 29apr2014 | .011008   | 15jul2022 |
+| 2       | .000911   | 09apr2013 | .006929   | 15jul2022 |
+
+- note1：证券代码前有没有0都可以，函数内部会自动补齐
+- note2：date和eventdate是日期格式即可，如果不是，函数内部也会自动转换
+- note3：函数会删去含有缺失值的数据行，并且去除事件发生前一年中数据不足240天的股票，确保估计期是连续的
+
+
+## 快速开始
+```bash
+import myeventstudy.event_analysis as es
+
+# 示例数据
+df_eventstudy = pd.read_...
+
+# 设置事件窗口
+event_window_list = [(-20, -11), (-10, -6), (-5, 10), (11, 20), (21, 60)]
+
+# 进行事件研究分析
+result = es.event_study(df_eventstudy = df_eventstudy, event_window_list = event_window_list, est_window = (-120,-20), predict_model = 'market')
+```
+
+## 结果展示
+函数会输出一个dataframe并且在当前目录（默认）或指定目录保存为excel文件（如果已存在同名文件，自动在文件名后添加数字，从1开始）
+
+| Time Window   | Mean CAR   | t_stat   | p_value   |
+|---------------|------------|----------|-----------|
+| CAR[-20,-11]  | 0.002100   | 0.269736 | 0.788338  |
+| CAR[-10,-6]   | -0.001810  | -0.301178| 0.764375  |
+| CAR[-5,10]    | 0.010361   | 0.746893 | 0.458198  |
+| CAR[11,20]    | -0.002996  | -0.342015| 0.733597  |
+| CAR[21,60]    | -0.017331  | -1.015776| 0.314029  |
+
+
+## 功能概述
+EventStudy 包包含以下主要功能：
+
+- mark_event_window：标记事件窗口和估计窗口。
+- event_study：执行事件研究方法，包括统计检验和结果汇总。
