@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: promptengineers
+Version: 0.1.3
+Summary: A collection of utilities by Prompt Engineers
+Home-page: https://github.com/promptengineers-ai/core
+Author: Ryan Eggleston
+Author-email: kre8mymedia@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: ujson
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Provides-Extra: history
+Requires-Dist: motor; extra == "history"
+Requires-Dist: pymongo; extra == "history"
+Requires-Dist: cryptography; extra == "history"
+Provides-Extra: storage
+Requires-Dist: minio; extra == "storage"
+Requires-Dist: python-multipart; extra == "storage"
+Provides-Extra: chat
+Requires-Dist: langchain; extra == "chat"
+Requires-Dist: openai; extra == "chat"
+Requires-Dist: python-multipart; extra == "chat"
+Requires-Dist: redis; extra == "chat"
+Requires-Dist: pinecone-client; extra == "chat"
+Requires-Dist: youtube-transcript-api; extra == "chat"
+Requires-Dist: pypdf; extra == "chat"
+Requires-Dist: numexpr; extra == "chat"
+Requires-Dist: tiktoken; extra == "chat"
+Requires-Dist: nest_asyncio; extra == "chat"
+Requires-Dist: beautifulsoup4; extra == "chat"
+
+### Prompt Engineers AI Open Source Package
