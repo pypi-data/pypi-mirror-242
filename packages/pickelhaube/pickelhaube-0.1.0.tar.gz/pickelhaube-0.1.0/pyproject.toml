@@ -1,0 +1,82 @@
+[build-system]
+requires = [
+  "setuptools >= 61.0",
+  "versioningit",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pickelhaube"
+description = "Secure Pickling"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = [
+]
+authors = [
+  {name = "Powertools Technologies", email = "simao.afonso@powertools-tech.com"},
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+]
+# TODO: Read from `requirements.txt`?
+dependencies = [
+]
+# Dynamic Settings
+dynamic = ["version"]
+
+[project.scripts]
+pickelhaube = 'pickelhaube.cli:entrypoint'
+
+[project.urls]
+Source = "https://support.powertools-tech.com/PowertoolsTech/pickelhaube"
+Issues = "https://support.powertools-tech.com/PowertoolsTech/pickelhaube/issues"
+
+[tool.setuptools]
+package-dir = {"" = "python"}
+
+[tool.versioningit]
+# The format used by versioneer
+distance = '{base_version}+{distance}.{vcs}{rev}'
+dirty = '{base_version}+{distance}.{vcs}{rev}.dirty'
+distance-dirty = '{base_version}+{distance}.{vcs}{rev}.dirty'
+[tool.versioningit.vcs]
+method = "git-archive"
+default-tag = "v0.0.0"
+# Match 'v*' tags:
+match = ['v*']
+describe-subst = '$Format:%(describe:match=v*)$'
+
+[tool.flake8]
+ignore = [
+  # Long lines
+  "E501",
+]
+extend-exclude = [
+  # Test Fixtures
+  "tests/fixtures/",
+]
+
+[tool.ruff]
+ignore = [
+    # Long lines
+    "E501",
+]
+select = [
+    "E", "F", "W",  # Default
+]
+
+[tool.mypy]
+no_error_summary = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+check_untyped_defs = true
+[[tool.mypy.overrides]]
+module = "pprint3x"
+ignore_missing_imports = true
