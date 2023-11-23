@@ -1,0 +1,14 @@
+fargopy/__cycle1.py,sha256=mJbXkTu1SI8lb3TRs0NoZuTvH5LBlQRNDlVDzWMGJGI,33432
+fargopy/__init__.py,sha256=in-P41MRX6lHp7BmOm5H6SWGYMzQ38Nv8ekOQJeDHfo,5385
+fargopy/conf.py,sha256=clvquJV1jqAsAeEqYwO8gi_cvNoUehtDvs_zKer9lBc,620
+fargopy/fargo3d.py,sha256=EQXfLGgm_MevtUHeg1zFSZjFuq-rZA8lPiik4wszisw,18927
+fargopy/sys.py,sha256=4y1UtqArFm4lsBiZMDNNE7PxovTi6d-9EPCyfHMoJcM,3685
+fargopy/util.py,sha256=edkAf7zqUACPLvJLayAiL9TTgJ9t-WsLWbIWmGLKya8,1443
+fargopy/version.py,sha256=rMVbwJtnhvClCgUpRk-pY5BzWKXcTGLga-MTWCjk_OY,16
+fargopy-0.2.0.data/scripts/ifargopy,sha256=t5E07jKzOLtNnlNyElQZbzjCW6wnR0bc8uCaZpw9yS8,382
+fargopy-0.2.0.dist-info/LICENSE,sha256=aIckKnNVrkXQMqEKlzGn_REfTwc82TF35BHMCRwPXCI,1097
+fargopy-0.2.0.dist-info/METADATA,sha256=17m0ksKIv7X7pDRT-8BEw9c0A_AEKcrmfxDydZxxu2c,17266
+fargopy-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+fargopy-0.2.0.dist-info/entry_points.txt,sha256=555NPKYbLCN0fgJbdW4b4azZ5sqjhqVqTUxujBBYEJY,49
+fargopy-0.2.0.dist-info/top_level.txt,sha256=_r66v1_-9T7dB5sQa12AdxaAdsv9-OTwtR-vft4OPBU,8
+fargopy-0.2.0.dist-info/RECORD,,
