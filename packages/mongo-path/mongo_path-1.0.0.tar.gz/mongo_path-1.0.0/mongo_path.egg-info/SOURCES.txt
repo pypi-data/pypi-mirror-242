@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mongo_path/__init__.py
+mongo_path/field_repr.py
+mongo_path/meta.py
+mongo_path/path_generator.py
+mongo_path/typing_utils.py
+mongo_path.egg-info/PKG-INFO
+mongo_path.egg-info/SOURCES.txt
+mongo_path.egg-info/dependency_links.txt
+mongo_path.egg-info/requires.txt
+mongo_path.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+Used to enumerate mongo query paths while mongo schema is mapped with Pydantic
