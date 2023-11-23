@@ -1,0 +1,4 @@
+PyJWT
+certifi
+urllib3
+six
