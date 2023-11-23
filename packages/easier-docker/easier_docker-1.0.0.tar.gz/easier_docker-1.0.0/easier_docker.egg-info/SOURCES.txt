@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+easier_docker.egg-info/PKG-INFO
+easier_docker.egg-info/SOURCES.txt
+easier_docker.egg-info/dependency_links.txt
+easier_docker.egg-info/requires.txt
+easier_docker.egg-info/top_level.txt
+easierdocker/__init__.py
+easierdocker/easier_docker.py
+easierdocker/easier_docker.pyi
