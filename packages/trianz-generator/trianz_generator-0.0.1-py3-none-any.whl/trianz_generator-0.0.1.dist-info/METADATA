@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: trianz-generator
+Version: 0.0.1
+Summary: A generator that generates random email for Trianz
+Home-page: https://trianz.com
+Author: Feroz
+Author-email: mohammed.feroz@trianz.com
+License: Apache License 2.0
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
