@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: fastdependency
+Version: 0.2.0
+Summary: Dependency Injection Library
+Home-page: https://github.com/mahs4d/fastdependency
+License: MIT
+Author: Mahdi Sadeghi
+Author-email: mahdi74sadeghi@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Project-URL: Repository, https://github.com/mahs4d/fastdependency
+Description-Content-Type: text/markdown
+
+# Fast Dependency
+
+## Installation
+
+`pip install fastdependency`
+
+## Usage
+
+```python
+from fastdependency import Depends, inject
+
+
+def username() -> str:
+    return 'mahdi'
+
+
+def password() -> str:
+    return '123***456'
+
+
+@inject
+def my_function(
+        param: int,
+        username: str = Depends(username),  # Gets it from function.
+        password: str = Depends(password),  # Gets it from container.
+):
+    print(param)
+    print(username)
+    print(password)
+
+
+my_function(12)
+```
+
+## TODO
+- [ ] Full Docs
+- [ ] Precommit
