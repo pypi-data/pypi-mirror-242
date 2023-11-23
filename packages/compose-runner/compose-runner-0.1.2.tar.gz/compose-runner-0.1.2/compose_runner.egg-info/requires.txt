@@ -1,0 +1,7 @@
+nimare==0.2.0
+click
+
+[tests]
+pytest
+pytest-recording
+vcrpy
