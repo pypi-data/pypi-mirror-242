@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: airboss
+Version: 0.2.1
+Summary: Easily integrate, deploy and release your projects
+License: The Unlicence
+Author: Luís Miranda
+Author-email: luistm@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: turbofan (==0.0.3)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# Airboss
+
+Manage your software projects lifecycle.
+
+## How to release a project
+
+```bash
+# This should be run form the projects directory
+airboss release --infra aws --platform docker --app profitpulse
+```
+
