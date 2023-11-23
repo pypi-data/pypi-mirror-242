@@ -1,0 +1,6 @@
+pyproject.toml
+src/__init__.pyc
+src/testoftrump.egg-info/PKG-INFO
+src/testoftrump.egg-info/SOURCES.txt
+src/testoftrump.egg-info/dependency_links.txt
+src/testoftrump.egg-info/top_level.txt
