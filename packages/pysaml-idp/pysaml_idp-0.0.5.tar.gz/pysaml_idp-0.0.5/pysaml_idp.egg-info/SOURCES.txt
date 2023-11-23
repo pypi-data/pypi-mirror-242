@@ -1,0 +1,9 @@
+README.md
+setup.py
+pysaml_idp/__init__.py
+pysaml_idp/pysaml.py
+pysaml_idp.egg-info/PKG-INFO
+pysaml_idp.egg-info/SOURCES.txt
+pysaml_idp.egg-info/dependency_links.txt
+pysaml_idp.egg-info/requires.txt
+pysaml_idp.egg-info/top_level.txt
