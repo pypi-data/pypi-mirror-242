@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: norske-kommuner
+Version: 0.3.0
+Summary: Pydantic models on Norwegian municipalities (Norske kommuner).
+Home-page: https://github.com/AndersSteenNilsen/norske-kommuner
+Keywords: kommuner,municipalities,norway
+Author: Anders Steen
+Author-email: asteennilsen@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: attrs (>=23.1.0,<24.0.0)
+Requires-Dist: pydantic (>=2.5.1,<3.0.0)
+Project-URL: Repository, https://github.com/AndersSteenNilsen/norske-kommuner
+Description-Content-Type: text/markdown
+
+# Norske Kommuner
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/AndersSteenNilsen/norske-kommuner/main.svg)](https://results.pre-commit.ci/latest/github/AndersSteenNilsen/norske-kommuner/main)
+[![PyPI - Status](https://img.shields.io/pypi/status/norske-kommuner?logo=pypi&logoColor=white)](https://pypi.org/project/norske-kommuner/)
+[![Download Stats](https://img.shields.io/pypi/dm/norske-kommuner?logo=pypi&logoColor=white)](https://pypistats.org/packages/norske-kommuner)
+
+Pydantic models on Norwegian municipalities (Norske kommuner).
+
+```python
+from norske_kommuner import kommuner, get_kommune_by_nr
+
+#  Loop over all kommuner:
+for kommune in kommuner.values():
+    print(kommune)
+
+#  Get kommunenummer
+print (kommuner['Stavanger'].kommunenummer) # 1103
+
+# Can also get kommune by kommunenr
+print(get_kommune_by_nr('1103')) #  Stavanger
+
+# Each kommune is a pydantic model and have pydantic functionality like exporting to json
+print(kommuner['Stavanger'].json())
+
+```
+
+Last line will output
+```json
+{
+    "avgrensningsboks": {
+        "coordinates":   [[[5.49903313381, 58.884658939559], [5.49903313381, 59.312103554166], [6.131310442607, 59.312103554166], [6.131310442607, 58.884658939559], [5.49903313381, 58.884658939559]]],
+        "crs": {
+            "properties": {
+                "name": "EPSG:4258"
+            },
+            "type": "name"
+        },
+        "type": "Polygon"
+    },
+    "fylkesnavn": "Rogaland",
+    "fylkesnummer": "11",
+    "gyldigeNavn": [
+        {
+            "navn": "Stavanger",
+            "prioritet": 1,
+            "sprak": "Norwegian"
+        },
+        {
+            "navn": null,
+            "prioritet": 2,
+            "sprak": null
+        },
+        {
+            "navn": null,
+            "prioritet": 3,
+            "sprak": null
+        }
+    ],
+    "kommunenavn": "Stavanger",
+    "kommunenavnNorsk": "Stavanger",
+    "kommunenummer": "1103",
+    "punktIOmrade": {
+        "coordinates": [
+            5.712610778068,
+            59.10201328799
+        ],
+        "crs": {
+            "properties": {
+                "name": "EPSG:4258"
+            },
+            "type": "name"
+        },
+        "type": "Point"
+    },
+    "samiskForvaltningsomrade": false
+}
+```
+
+>Uses data and models from "[Åpent API fra Kartverket for administrative enheter](https://ws.geonorge.no/kommuneinfo/v1/)"
+
