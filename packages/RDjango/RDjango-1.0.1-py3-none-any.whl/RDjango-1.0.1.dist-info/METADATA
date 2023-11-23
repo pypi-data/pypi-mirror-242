@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: RDjango
+Version: 1.0.1
+Summary: A base of our code that implement repository pattern.
+Author-email: Wrya Mohammed <Wrya.Mohammed@rigt.com>
+Project-URL: Homepage, https://github.com
+Project-URL: Issues, https://github.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RDjango
