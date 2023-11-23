@@ -1,0 +1,16 @@
+kalista/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+kalista/helpers.py,sha256=3SH2DdaLCEnBJoEVaCAQQel88Zy7b41zQ4t39KUSvkk,349
+kalista/models/__init__.py,sha256=xOcEGhtWczghCDsTBWj-P0kAA3FR8ciJr0sHwP-9tqY,446
+kalista/models/exceptions.py,sha256=7jcjWc24WKesQIiUarjj70fd01ktg11jU4Qkswuib9U,3058
+kalista/models/game.py,sha256=jcbLqw2bgpMr23CnvxRhisMnTMsvEWFxVcaY4_LLBmM,11877
+kalista/models/league.py,sha256=2wo0OhPbaN0C1BLjLZ2SC7cwvkY82y4Z5EXOF0ibYrk,6925
+kalista/models/match.py,sha256=sjIz2J230_eNO6nkykCw05-vRp_buZ3BFgq0V1KSGZ4,5590
+kalista/models/player.py,sha256=vPh_pJW61kry0yeyP0r-QDQJ2MM0jI_SJSuozzBSQCQ,1499
+kalista/models/schedule.py,sha256=h6Zhuq8bhszYrx0G4948XR5JaV5qIP4s92CsisDcH2E,4354
+kalista/models/standings.py,sha256=bl_YIQs6lQdeRqirrQAhrylVqoJUvGibfdIS-ssAqnw,2900
+kalista/models/team.py,sha256=LMVxv2G8s-7x3TO47iYjj_Qq_faQ9sucrXPpQlJ2tEg,5263
+kalista/models/tournament.py,sha256=S4lhmETHaq8ZQ4U_lMyoMd_pDerJZ0t2RAP41f51w5Y,3786
+kalista-0.1.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+kalista-0.1.5.dist-info/METADATA,sha256=plEE1McMspQnqqroRTGN14Bd3kUpVfemsnesdzZnc9o,492
+kalista-0.1.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+kalista-0.1.5.dist-info/RECORD,,
