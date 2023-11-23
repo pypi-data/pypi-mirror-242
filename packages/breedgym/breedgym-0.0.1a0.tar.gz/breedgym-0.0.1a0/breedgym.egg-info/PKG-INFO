@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: breedgym
+Version: 0.0.1a0
+Summary: Suite of Gymnasium environments for optimizing breeding programs
+Author-email: "Omar G. Younis" <omar.g.younis@gmail.com>
+License: BSD-3-Clause
+Project-URL: Repository, https://github.com/younik/breedgym
+Project-URL: Bug Report, https://github.com/younik/breedgym/issues
+Keywords: Reinforcement Learning,Breeding,genetics,bioinformatics
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: docs
+License-File: LICENSE
+
+# BreedGym
+
+## Installation
+
+From source:
+```bash
+git clone https://github.com/younik/breedgym
+cd breedgym
+pip install -e .
+```
