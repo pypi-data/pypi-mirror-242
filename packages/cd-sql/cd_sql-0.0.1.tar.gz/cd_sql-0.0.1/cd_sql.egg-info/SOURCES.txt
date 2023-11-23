@@ -1,0 +1,13 @@
+LICENSE.md
+LICENSE.txt
+README.md
+pyproject.toml
+cd_sql/__init__.py
+cd_sql/querries.py
+cd_sql/sql.py
+cd_sql/version.py
+cd_sql.egg-info/PKG-INFO
+cd_sql.egg-info/SOURCES.txt
+cd_sql.egg-info/dependency_links.txt
+cd_sql.egg-info/requires.txt
+cd_sql.egg-info/top_level.txt
