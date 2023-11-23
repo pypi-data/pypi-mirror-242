@@ -1,0 +1,49 @@
+# An unofficial Google Tools wrapper
+
+## GoogleTools
+
+This library provides a simple interface for accessing GoogleTools features.
+
+### Installation
+```bash
+pip install google-tools-wrapper==0.2.1
+```
+
+## Currency Conversion Usage
+```python
+from google_tools import GoogleTools as gt
+
+# first example:
+>>> result = gt.currency_conversion(base_currency='USD', 
+                                    target_currency='BRL')
+>>> print(result)
+(1, 4.91)
+
+# second example:
+>>> result = gt.currency_conversion(base_currency='USD', 
+                                    target_currency='BRL',
+                                    only_float=False)
+>>> print(result) # don't look like it on the real terminal, just prettyfied it
+{
+    'conversion': [
+        '1 USD', 
+        '4.9 BRL'
+    ],
+    'float': (1, 4.91), 
+    'last_update': 'Nov 23, 1:14:00 AM UTC'
+}
+```
+
+## Translater Usage
+```python
+from google_tools import GoogleTools as gt
+
+>>> result = gt.translater(source_language='en',
+                        target_language='pt',
+                        text='Hello, World!')
+>>> print(result) # maybe this takes something around 10 seconds, selenium is very slow, but im working to make it faster
+Olá Mundo!
+```
+
+### Disclaimer
+This library is provided for educational purposes only and should not be used in production environments. It is not affiliated with Google and may not always provide accurate or up-to-date currency conversion rates. For real-time currency conversion services, please refer to official financial sources.
