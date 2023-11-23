@@ -1,0 +1,9 @@
+imaparms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imaparms/__main__.py,sha256=C8zf8XQ5Gl-mekbtfLmsl-pfasUKIgIEdoeBs5sdxgs,64966
+imaparms/argparse.py,sha256=qJCaarNDaT_QD8cD7eUyfVh20dz5ZUzBr5_DX4K1M_k,7464
+imaparms/exceptions.py,sha256=EDqr_QfxKjXw0eCXSlYhBZhVJhoFXWGXiC0WJaFumBk,664
+imaparms-2.1.dist-info/METADATA,sha256=MtDf8b2YuqfPFRDV6JZRd5DqpLghOYEv32BdA_52WaM,42294
+imaparms-2.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+imaparms-2.1.dist-info/entry_points.txt,sha256=sY7QbV6jXv-U-AQHTWc8PgaJO6CtP95Iy7MwQB7CB4I,52
+imaparms-2.1.dist-info/top_level.txt,sha256=GqAnUgsQNUvbZX47Dq4WW0XZb6HV6-mqlCS0xAldPYs,9
+imaparms-2.1.dist-info/RECORD,,
