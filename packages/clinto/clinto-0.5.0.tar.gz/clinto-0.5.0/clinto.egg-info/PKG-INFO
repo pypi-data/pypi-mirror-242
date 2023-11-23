@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: clinto
+Version: 0.5.0
+Summary: Clinto
+Home-page: http://www.github.com/wooey/clinto
+Author: Chris Mitchell
+Author-email: chris.mit7@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE
