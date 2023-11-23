@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: evercycle-models
+Version: 1.0.0
+Summary: Everycle Models
+Home-page: https://github.com/evercycle-org/evercycle-models
+Author: Evercycle
+Author-email: mija@evercycle.io
+License: MIT
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Requires-Dist: django >=3.0
+
