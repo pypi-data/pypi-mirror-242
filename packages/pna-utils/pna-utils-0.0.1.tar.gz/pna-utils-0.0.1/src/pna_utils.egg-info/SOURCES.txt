@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/pna-utils/__init__.py
+src/pna_utils.egg-info/PKG-INFO
+src/pna_utils.egg-info/SOURCES.txt
+src/pna_utils.egg-info/dependency_links.txt
+src/pna_utils.egg-info/top_level.txt
