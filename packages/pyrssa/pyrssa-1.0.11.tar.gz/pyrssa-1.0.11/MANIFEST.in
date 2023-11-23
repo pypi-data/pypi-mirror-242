@@ -1,0 +1,2 @@
+include pyrssa/data/*
+include pyrssa/extdoc/*
