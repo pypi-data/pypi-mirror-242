@@ -1,0 +1,11 @@
+helper.py,sha256=h3L8mMFgoq6ikqItDZ-3HKCStKgcHTlGXd_xgxySiaI,3087
+setup.py,sha256=DY1IH-oygxCNw7gVfsWUAZyDJcCOwhLcGbZ6hf3sDRs,1281
+text-to-html/__init__.py,sha256=v9SuABm7AXAAFVFIrObr861PFRbClbhG3fgOe7-EX3I,39
+text-to-html/file_processors.py,sha256=GtVAwlX2ndNKLhtznktR5qzR8uuQVZZLJ83b-DiC7MI,5337
+text-to-html/helper.py,sha256=h3L8mMFgoq6ikqItDZ-3HKCStKgcHTlGXd_xgxySiaI,3087
+text-to-html/sidebar.py,sha256=cnQq_nfV6KOyBmXiTN445Hf9rRO0bV7sNeL7TOMu9NE,243
+text-to-html/text_to_html.py,sha256=XUvTu_UAn7gDkwIchas41K-K4c0w3Bh8JnX4dKstNmo,3508
+text_to_html_converter_pasqua_101-1.0.dist-info/METADATA,sha256=wlC6CkqrCdjS5Jl0hShiYZKh8RcVdF2ZakPqUubxu-A,4414
+text_to_html_converter_pasqua_101-1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+text_to_html_converter_pasqua_101-1.0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+text_to_html_converter_pasqua_101-1.0.dist-info/RECORD,,
