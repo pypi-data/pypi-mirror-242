@@ -1,0 +1,9 @@
+numpy
+ase
+numba
+fire
+pandas
+plotly
+ipykernel
+nbformat
+cython
