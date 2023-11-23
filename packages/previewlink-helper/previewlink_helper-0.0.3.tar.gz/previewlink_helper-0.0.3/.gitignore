@@ -1,0 +1,10 @@
+.coverage
+.idea/
+bin/
+dist/
+*.egg-info/
+__pycache__/
+venv/
+practice/
+.vscode
+build/
