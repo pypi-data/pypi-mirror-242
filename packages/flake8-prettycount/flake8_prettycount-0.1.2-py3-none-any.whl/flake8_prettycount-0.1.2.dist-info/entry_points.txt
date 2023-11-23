@@ -1,0 +1,3 @@
+[console_scripts]
+flake8-prettycount = flake8_prettycount.__main__:main
+flake8_prettycount = flake8_prettycount.__main__:main
