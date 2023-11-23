@@ -1,0 +1,17 @@
+README.md
+setup.py
+pyez_stats/__init__.py
+pyez_stats/bayesian_statistics.py
+pyez_stats/confidence_interval.py
+pyez_stats/data.py
+pyez_stats/distributions.py
+pyez_stats/hypothesis_testing.py
+pyez_stats/likelihoods.py
+pyez_stats/pca.py
+pyez_stats/regression.py
+pyez_stats/statistic.py
+pyez_stats.egg-info/PKG-INFO
+pyez_stats.egg-info/SOURCES.txt
+pyez_stats.egg-info/dependency_links.txt
+pyez_stats.egg-info/requires.txt
+pyez_stats.egg-info/top_level.txt

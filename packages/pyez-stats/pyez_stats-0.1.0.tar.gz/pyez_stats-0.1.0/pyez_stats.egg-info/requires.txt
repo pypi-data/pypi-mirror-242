@@ -1,0 +1,6 @@
+numpy
+scipy
+scipy.stats
+matplotlib
+matplotlib.pyplot
+matplotlib.lines
