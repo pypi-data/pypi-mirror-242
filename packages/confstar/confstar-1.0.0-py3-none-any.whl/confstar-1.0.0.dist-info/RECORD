@@ -1,0 +1,10 @@
+confstar/__init__.py,sha256=xCP7ykroUOHwVa6zjbFIgZUxhrTKj7qe-s4UbTcBxhE,121
+confstar/__version__.py,sha256=ZhzQKWZ8RFrTIkj7z87B144DI95e8LMfA5w8NDWQDtg,23
+confstar/loader.py,sha256=VoCSkraK3m2tSY9U0-73y6ZpHA0fLXrDx720G5ZjqxM,3375
+confstar/types.py,sha256=28ANPaPhxpb5F09hgEbkeveL_c5ygnQoA3BZYQQL0aY,3182
+confstar/utils.py,sha256=B-9j4e_hfBSgo7B87veiRMkCpP4MS3kUeO5K1uCCybM,330
+confstar-1.0.0.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+confstar-1.0.0.dist-info/METADATA,sha256=1sNkhfJYOxGO1NQj3iGBMYVHUQUYNRLORVX7Y7UOrUw,4412
+confstar-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+confstar-1.0.0.dist-info/top_level.txt,sha256=r93Ilt2xpa12xRkKLOSw2aIIKRBv8uymqs8xDiVJMqo,9
+confstar-1.0.0.dist-info/RECORD,,
