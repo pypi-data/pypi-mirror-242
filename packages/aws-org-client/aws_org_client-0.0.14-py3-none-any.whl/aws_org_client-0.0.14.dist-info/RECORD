@@ -1,0 +1,11 @@
+aws_org_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_org_client/client.py,sha256=AmkotabsKnkVWKXMwIufUMInQxvZrisNAXl3EpdAw9U,4409
+aws_org_client/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_org_client/modules/identity_store.py,sha256=KEqQ6IOmydeZEl_pptEwdRjJUVQchGh43tG9AzEpNb0,2813
+aws_org_client/modules/logger.py,sha256=rxyh6QQNPTUsyo1LWO8xnnlDLEAbg5GD5sy5r7_R3X4,894
+aws_org_client/modules/organizations.py,sha256=KLryfpz7KLGEfe417zbPM6pqW5N-tX09nuO4WlbQX0I,1508
+aws_org_client/modules/paginator.py,sha256=43l_GwNh-76vy-uzWumZuQz4LyzsQVifgeOhzMpcIuY,1014
+aws_org_client/modules/sso_admin.py,sha256=5Iq5aAzRI6Ni0x8qsWrO5ASab90MC21IUIb1xk3FcLw,3378
+aws_org_client-0.0.14.dist-info/METADATA,sha256=ERYjkq5nKUdQmqVumY7o5tGhndo4Oivb6SrKNHLq3n8,3887
+aws_org_client-0.0.14.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+aws_org_client-0.0.14.dist-info/RECORD,,
