@@ -1,0 +1,9 @@
+kognic/query/__init__.py,sha256=6njjyocx90cxdiS5XFy5XJghZumv5fiaI-YYiw3PinY,89
+kognic/query/_version.py,sha256=LYtDBVW9tT6_Peb3ILmMIXLao9tsKL9W8SoGcNiJH9Y,411
+kognic/query/query_api_client.py,sha256=VKLX1Uvcx0PCbg8miUyoUAs39Z-cMgVur3NrvqThdJI,5464
+kognic/query/query_model.py,sha256=hAs07bYm9bB87HKn-ykUVPSRv1DHOOo79tKggFgg09o,1248
+kognic/query/util.py,sha256=a9kkqfFp_yc69rAZRazWTda755Cuc-UD5TVE18Yba24,257
+kognic_query-3.0.1.dist-info/METADATA,sha256=yPBrUABJtV-BT-Kc5HGDY2XyT9Inl-4R75SEOfzP3DU,1490
+kognic_query-3.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+kognic_query-3.0.1.dist-info/top_level.txt,sha256=Hs7z54Wbf9na7y9j19fqfwptMrhlcPLw-Ycen3nh3pU,7
+kognic_query-3.0.1.dist-info/RECORD,,
