@@ -1,0 +1,2 @@
+ascend-io-sdk==0.2.62
+click==8.1.7
