@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: qurix-dataframe-anonymizer
+Version: 0.2.0
+Summary: qurix dataframe anonymizer for kafka
+Home-page: https://github.com/qurixtechnology/qurix-dataframe-anonymizer.git
+Author: qurix Technology
+Keywords: python
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# KafkaAnonymizer
+
+## What is it?
+
+The KafkaAnonymizer, powered by the Qurix Dataframe Anonymizer, is a Python package designed for anonymizing data within Kafka streams. Achieve data privacy compliance and protect sensitive information in real-time data pipelines.
+
+## Main Features
+
+1. Descriptive Statistics:
+Generate comprehensive descriptive statistics for each column, including mean, min, max, frequency, unique values, and data type.
+
+2. Anonymization Techniques:
+Anonymize diverse data types such as float, int, string, and date columns based on statistical properties like mean, standard deviation, count, min, and max values.
+
+3. Configurability:
+Customize the anonymization process using white and blacklists, providing fine-grained control over which columns to include or exclude from anonymization.
+
+4. String Anonymization Providers:
+Support various string anonymization strategies, including generic text, gender, addresses, and person names.
+Specify preferred string anonymization providers for each string column.
+
+5. Dataframe Anonymization:
+Anonymize entire DataFrames using the anonymize_dataframe method.
+Flexibility to choose specific columns for anonymization through white and blacklists.
+
+6. Randomization and Shuffling:
+Utilize randomization techniques to generate synthetic data, ensuring representative yet anonymized information.
+Implement shuffling mechanisms for randomizing string values during the anonymization process.
+
+7. Data Type Handling:
+Handle different data types (float, int, object, datetime) with dedicated anonymization logic for each type.
+
+## Requirements
+
+- `confluent-kafka`
+
+You can install these dependencies manually or use the provided `requirement.txt` file in the repository.
+
+## Installation
+
+1. Create a New Virtual Environment (named `.venv` in this case):
+
+```bash
+python3 -m venv venv
+```
+
+2. Activate the Virtual Environment:
+
+```bash
+source venv/bin/activate
+```
+
+3. Install the Package:
+
+To install the `qurix-dataframe-anonymizer` package, use `pip`:
+
+```bash
+pip install qurix-dataframe-anonymizer
+```
+
+## Usage
+
+### Dataframe anonymizer
+
+Anonymize dataframes using the DataframeAnonymizer class:
+
+```python
+import pandas as pd
+from qurix.dataframe.anonymizer import DataframeAnonymizer, AnonymizeStrProvider
+
+df = pd.read_csv("<my_csv_file.csv>")
+
+anonymizer = DataframeAnonymizer()
+df_anonymized = anonymizer.anonymize_dataframe(df)
+df_anonymized.head()
+
+# Dictionary specifiying specific anonymizer string for a particular column, e.g. GENDER, NAMES
+anonymize_str_map = {
+    "Sex": AnonymizeStrProvider.GENDER,
+    "Name": AnonymizeStrProvider.PERSON_NAME
+}
+
+# Anonymize
+df_anonymized = anonymizer.anonymize_dataframe(df, anonymize_str_map)
+df_anonymized.head()
+
+#For more advanced usage and customization, explore additional parameters in the anonymize_dataframe method, such as white and blacklists.
+
+anonymized_df = anonymizer.anonymize_dataframe(df, white_list=["column1"], black_list=["column2"])
+
+# Specify string anonymization providers
+anonymized_df = anonymizer.anonymize_dataframe(df, anonymize_str_map={"column3": "gender"})
+```
+
+## Contact
+
+For any inquiries or questions, feel free [reach out](https://qurix.tech/about_us.html).
