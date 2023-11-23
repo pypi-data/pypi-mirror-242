@@ -1,0 +1,17 @@
+.gitignore
+config.yml
+__pycache__/
+*.ipynb
+api.json
+build/
+dist/
+*.egg-info/
+start_server.py
+*.pem
+images/
+*.png
+.env
+*.jpg
+_version.py
+CHANGELOG.md
+dashboard/
