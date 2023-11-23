@@ -1,0 +1,8 @@
+Pillow
+ipympl
+ipywidgets
+numexpr
+opencv-python
+pandas
+py_pol
+screeninfo
