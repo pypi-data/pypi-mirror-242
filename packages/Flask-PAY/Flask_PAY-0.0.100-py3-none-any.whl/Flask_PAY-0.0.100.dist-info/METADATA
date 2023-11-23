@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: Flask-PAY
+Version: 0.0.100
+Summary: flask-pay
+Home-page: 
+Author: 浩
+Author-email: 
+License: GPL
+Keywords: flask extension development pay
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask
+Requires-Dist: wechatpayv3
+
+flask-pay
+
+
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+
+
+
+
+
+
+
+
+
+
+
