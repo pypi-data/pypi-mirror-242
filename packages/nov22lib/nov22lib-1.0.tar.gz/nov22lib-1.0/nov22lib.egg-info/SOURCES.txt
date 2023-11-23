@@ -1,0 +1,5 @@
+setup.py
+nov22lib.egg-info/PKG-INFO
+nov22lib.egg-info/SOURCES.txt
+nov22lib.egg-info/dependency_links.txt
+nov22lib.egg-info/top_level.txt
