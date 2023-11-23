@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pytoshop-layer"
+version = "0.1.0"
+description = ""
+authors = []
+packages = [
+    {include = "pytoshop"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Cython = "^3.0.5"
+numpy = "^1.26.2"
+
+[build-system]
+requires = ["setuptools", "cython"]
