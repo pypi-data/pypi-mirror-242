@@ -1,0 +1,58 @@
+#!/bin/bash
+
+#-----------------------------
+get_args()
+{
+    MEMO=8000
+    QUEU="mid"
+    DSET="2018_TOS"
+    while getopts j:f:m:q:d: option
+    do
+	case "${option}"
+	    in
+	    j)NJOB=${OPTARG};;
+	    f)NFIT=${OPTARG};;
+	    m)MEMO=${OPTARG};;
+	    q)QUEU=${OPTARG};;
+	    d)DSET="${OPTARG}";;
+	esac
+    done
+}
+#-----------------------------
+check_args()
+{
+    if [[ $MEMO -gt 20000 ]];then
+	echo "Memory cannot go above 12Gb, requested: $MEMO"
+	kill -INT $$
+    fi
+}
+#-----------------------------
+prepare()
+{
+    JOBDIR=/publicfs/ucas/user/campoverde/Jobs/rk_extractor
+    DATE=$(date | sed "s|\s|_|g" | sed "s|:|_|g")
+    JOBDIR=$JOBDIR"_"$DATE
+    mkdir -p $JOBDIR
+    rm    -f $JOBDIR/*.out
+    rm    -f $JOBDIR/*.err
+}
+#-----------------------------
+submit()
+{
+    cd $JOBDIR
+    OFILE=rk_extractor_%{ClusterId}_%{ProcId}
+
+    echo "Jobs: $NJOB"
+    echo "NFIT: $NFIT"
+    echo "MEMO: $MEMO"
+    echo "Queu: $QUEU"
+    echo "DSET: $DSET"
+
+    hep_sub -n $NJOB -g lhcb -e $OFILE".err" -o $OFILE".out" -argu %{ProcId} $NFIT $JOBDIR "$DSET" -mem $MEMO rxe_local -wt $QUEU 
+}
+#-----------------------------
+get_args "$@"
+check_args
+prepare
+submit
+
