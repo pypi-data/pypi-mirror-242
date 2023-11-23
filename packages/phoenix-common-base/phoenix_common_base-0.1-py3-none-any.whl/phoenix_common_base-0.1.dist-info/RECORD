@@ -1,0 +1,15 @@
+azure_base/__init__.py,sha256=G8Sr1W2Q2QpKO73I-5OwBIuGOkeC0iy_T0uxC_hRLj4,50
+azure_base/blob_storage.py,sha256=rms7NA3ewA0Sfc9qItJHTycfJdk_z7zD9goyUZN7QIw,603
+azure_base/constants.py,sha256=YpzgXFXo91bm4hwr36cFTuwQh5Ccy4QAcTyXG1XYRCU,795
+azure_base/database.py,sha256=bIay-HcwFGRC6WnQjjPcCVeH2laLEj9EG3c0__PaK5o,784
+azure_base/database_connector.py,sha256=U94hGrL0Raj_uHDCpzC7rpXftxg06Tkdgn21IjYih3w,7113
+azure_base/errors.py,sha256=0bwuA5C1YH6UTy28hXcFvBHsPZHyuEGNI4jDM2zeyac,118
+azure_base/helper_methods.py,sha256=qye3TG9DmMW5Ip1QOjLJPZRRmugJLhmRZXQUPLvWwM0,241
+azure_base/invoice_model.py,sha256=Yz44R4FlVKkIf7bwIvtZX0-N-HS8K6q5L5utcknKHco,9544
+azure_base/key_vault.py,sha256=Te1r2VcRKO9kxD-rHTOhrdsca32SIt7LjfRyUETugZs,885
+azure_base/service_bus.py,sha256=KVFfezvrvNNKPBFM35FECuRohU1ZmenDCNbJRZ_rAkw,470
+azure_base/validator.py,sha256=xXzC8mR78-Q4mbZHchaW7Znirbl6IlpPY-TqLn_ynDQ,3852
+phoenix_common_base-0.1.dist-info/METADATA,sha256=9Bg2_yXfZbbz9sll76hVy6HjAdlENy1UCyiF7Ztk2DU,181
+phoenix_common_base-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+phoenix_common_base-0.1.dist-info/top_level.txt,sha256=HOKSeQkfH9FKyX1B4AN2p9Mz0SeTywluJhhUNRh3RpM,11
+phoenix_common_base-0.1.dist-info/RECORD,,
