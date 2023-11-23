@@ -1,0 +1,11 @@
+cannoli/__init__.py,sha256=B6fU-gaa4opZ-NOFNEhaeS9tK9RHDO5gqMP_BJdg5Rc,28
+cannoli/cannoli.py,sha256=MBeWioNcxlhDp6bfJmB5D0SE8WGLmIkEEurS3v55Ff8,2771
+cannoli/default_settings.json,sha256=h9pE52Hq9GWcWrz9gYORxbFusj4xuPqx5ABEkktMA_k,169
+cannoli/datasets/reviews.dsv,sha256=SAvT49vdtUyf9vE0jbAGN4a8EJdcb8LnN-nXe4rX3d4,3292
+cannoli/utils/generate_dataset.py,sha256=tsTwYyQdH59edh9rfoYwQNTFuCSuB_cw2ljhcPzx4c8,850
+cannoli/utils/generate_test_dataset.py,sha256=0XhZEDtgt0qUWJtp71vxOhpgdA5VlPh9FWjcAiOWOhg,858
+cannoli-0.1.25.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cannoli-0.1.25.dist-info/METADATA,sha256=-axeFmX0H-LiZCl7yK4S6ltWfvBqPkmAChGAsieP44Y,1716
+cannoli-0.1.25.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cannoli-0.1.25.dist-info/top_level.txt,sha256=eDGzwugtUpi2znV_rtZ-n-JsWER8r5Emz5zNQ6_3J00,8
+cannoli-0.1.25.dist-info/RECORD,,
