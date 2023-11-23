@@ -1,0 +1,10 @@
+jinja2>3.0.0
+
+[dev]
+flake8
+mypy
+tox
+pytest
+sphinx
+sphinx_markdown_builder
+sphinx-rtd-theme
