@@ -1,0 +1,32 @@
+{
+    "config": {
+        "flow_title": "{name} ( {host} )",
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "password": "Slapta\u017eodis"
+                },
+                "description": "Patikrinkite kredencialus."
+            },
+            "user": {
+                "data": {
+                    "heating_type": "\u0160ildymo tipas",
+                    "username": "El. pa\u0161tas"
+                },
+                "description": "Nustatykite ViCare integracij\u0105. Nor\u0117dami sugeneruoti API rakt\u0105, eikite \u012f https://app.developer.viessmann.com"
+            }
+        }
+    },
+    "services": {
+        "set_vicare_mode": {
+            "description": "Nustatykite ViCare re\u017eim\u0105.",
+            "fields": {
+                "vicare_mode": {
+                    "description": "ViCare re\u017eimas.",
+                    "name": "ViCare re\u017eimas"
+                }
+            },
+            "name": "Nustatykite ViCare re\u017eim\u0105"
+        }
+    }
+}

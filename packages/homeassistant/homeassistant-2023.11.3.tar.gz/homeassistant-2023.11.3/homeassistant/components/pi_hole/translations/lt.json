@@ -1,0 +1,45 @@
+{
+    "config": {
+        "step": {
+            "reauth_confirm": {
+                "description": "\u012eveskite nauj\u0105 API rakt\u0105, skirt\u0105 PI-Hole adresu {host} / {location}",
+                "title": "I\u0161 naujo autentifikuokite PI-Hole"
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "status": {
+                "name": "B\u016bsena"
+            }
+        },
+        "sensor": {
+            "ads_blocked_today": {
+                "name": "\u0160iandien u\u017eblokuoti skelbimai"
+            },
+            "ads_percentage_today": {
+                "name": "\u0160iandien u\u017eblokuot\u0173 skelbim\u0173 procentas"
+            },
+            "clients_ever_seen": {
+                "name": "Matyti klientai"
+            }
+        },
+        "update": {
+            "web_update_available": {
+                "name": "Galimas \u017einiatinklio atnaujinimas"
+            }
+        }
+    },
+    "services": {
+        "disable": {
+            "description": "Tam tikr\u0105 laik\u0105 i\u0161jungia sukonfig\u016bruot\u0105 (-as) Pi skyl\u0119 (-es).",
+            "fields": {
+                "duration": {
+                    "description": "Laikas, per kur\u012f Pi skyl\u0117 tur\u0117t\u0173 b\u016bti i\u0161jungta.",
+                    "name": "Trukm\u0117"
+                }
+            },
+            "name": "I\u0161jungti"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Paskyra jau sukonfig\u016bruota"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "username": "Prisijungimos vardas"
+                }
+            }
+        }
+    },
+    "services": {
+        "set_pump_speed": {
+            "fields": {
+                "speed": {
+                    "name": "Greitis"
+                }
+            },
+            "name": "Nustatykite siurblio greit\u012f"
+        }
+    }
+}

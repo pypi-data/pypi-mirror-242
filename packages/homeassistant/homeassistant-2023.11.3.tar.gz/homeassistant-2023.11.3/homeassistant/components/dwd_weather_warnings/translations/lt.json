@@ -1,0 +1,50 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "region_identifier": "Warncell ID arba pavadinimas"
+                },
+                "description": "Norint nustatyti norim\u0105 region\u0105, reikalingas warncell ID / pavadinimas."
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "advance_warning_level": {
+                "name": "I\u0161ankstinio \u012fsp\u0117jimo lygis",
+                "state_attributes": {
+                    "last_update": {
+                        "name": "Paskutinis atnaujinimas"
+                    },
+                    "region_id": {
+                        "name": "Regiono ID"
+                    },
+                    "region_name": {
+                        "name": "Regiono pavadinimas"
+                    },
+                    "warning_count": {
+                        "name": "\u012esp\u0117jim\u0173 skai\u010dius"
+                    }
+                }
+            },
+            "current_warning_level": {
+                "name": "Dabartinis \u012fsp\u0117jimo lygis",
+                "state_attributes": {
+                    "last_update": {
+                        "name": "Paskutinis atnaujinimas"
+                    },
+                    "region_id": {
+                        "name": "Regiono ID"
+                    },
+                    "region_name": {
+                        "name": "Regiono pavadinimas"
+                    },
+                    "warning_count": {
+                        "name": "\u012esp\u0117jim\u0173 skai\u010dius"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "config": {
+        "abort": {
+            "not_supported": "\u012erenginys nepalaikomas"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "heart_rate": {
+                "name": "\u0160irdies ritmas"
+            },
+            "real_time_weight": {
+                "name": "Realaus laiko svoris"
+            },
+            "weight": {
+                "name": "Svoris"
+            }
+        }
+    }
+}

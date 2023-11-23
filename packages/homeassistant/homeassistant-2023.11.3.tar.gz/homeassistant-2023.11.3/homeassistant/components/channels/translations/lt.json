@@ -1,0 +1,8 @@
+{
+    "services": {
+        "seek_forward": {
+            "description": "Ie\u0161ko \u012f priek\u012f nustatytu sekund\u017ei\u0173 skai\u010diumi.",
+            "name": "Siekite pirmyn"
+        }
+    }
+}

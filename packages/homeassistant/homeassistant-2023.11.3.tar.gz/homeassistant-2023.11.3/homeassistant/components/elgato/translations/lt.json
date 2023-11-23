@@ -1,0 +1,36 @@
+{
+    "entity": {
+        "button": {
+            "identify": {
+                "name": "Identifikuoti"
+            }
+        },
+        "sensor": {
+            "charge_power": {
+                "name": "\u012ekrovimo galia"
+            },
+            "input_charge_current": {
+                "name": "\u012ekrovimo srov\u0117"
+            },
+            "input_charge_voltage": {
+                "name": "\u012ekrovimo \u012ftampa"
+            },
+            "voltage": {
+                "name": "Akumuliatoriaus \u012ftampa"
+            }
+        },
+        "switch": {
+            "bypass": {
+                "name": "Studijos re\u017eimas"
+            },
+            "energy_saving": {
+                "name": "Energijos taupymas"
+            }
+        }
+    },
+    "services": {
+        "identify": {
+            "name": "Identifikuoti"
+        }
+    }
+}

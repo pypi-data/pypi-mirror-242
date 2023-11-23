@@ -1,0 +1,188 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u0160is NextDNS profilis jau sukonfig\u016bruotas."
+        },
+        "step": {
+            "profiles": {
+                "data": {
+                    "profile": "Profilis"
+                }
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "device_connection_status": {
+                "name": "\u012erenginio ry\u0161io b\u016bsena"
+            },
+            "device_profile_connection_status": {
+                "name": "\u012erenginio profilio ry\u0161io b\u016bsena"
+            }
+        },
+        "button": {
+            "clear_logs": {
+                "name": "I\u0161valyti \u017eurnalus"
+            }
+        },
+        "sensor": {
+            "all_queries": {
+                "name": "DNS u\u017eklausos"
+            },
+            "blocked_queries": {
+                "name": "DNS u\u017eklausos u\u017eblokuotos"
+            },
+            "dot_queries": {
+                "name": "DNS per TLS u\u017eklausos"
+            },
+            "dot_queries_ratio": {
+                "name": "DNSper TLS u\u017eklaus\u0173 santykis"
+            },
+            "encrypted_queries": {
+                "name": "\u0160ifruotos u\u017eklausos"
+            },
+            "encrypted_queries_ratio": {
+                "name": "\u0160ifruot\u0173 u\u017eklaus\u0173 santykis"
+            },
+            "ipv4_queries": {
+                "name": "IPv4 u\u017eklausos"
+            },
+            "ipv6_queries": {
+                "name": "IPv6 u\u017eklausos"
+            },
+            "ipv6_queries_ratio": {
+                "name": "IPv6 u\u017eklaus\u0173 santykis"
+            },
+            "not_validated_queries": {
+                "name": "DNSSEC nepatvirtintos u\u017eklausos"
+            },
+            "relayed_queries": {
+                "name": "DNS u\u017eklausos perduodamos"
+            }
+        },
+        "switch": {
+            "block_bereal": {
+                "name": "Blokuoti BeReal"
+            },
+            "block_chatgpt": {
+                "name": "Blokuoti ChatGPT"
+            },
+            "block_google_chat": {
+                "name": "Blokuoti Google Chat"
+            },
+            "block_hbomax": {
+                "name": "Blokuoti HBO Max"
+            },
+            "block_mastodon": {
+                "name": "Blokuoti Mastodon\u0105"
+            },
+            "block_minecraft": {
+                "name": "Blokuoti Minecraft"
+            },
+            "block_netflix": {
+                "name": "Blokuoti \u201eNetflix\u201c"
+            },
+            "block_nrd": {
+                "name": "Blokuoti naujai registruotus domenus"
+            },
+            "block_online_gaming": {
+                "name": "Blokuoti internetinius \u017eaidimus"
+            },
+            "block_page": {
+                "name": "Blokuoti puslap\u012f"
+            },
+            "block_parked_domains": {
+                "name": "Blokuoti paliktuosius domenus"
+            },
+            "block_pinterest": {
+                "name": "Blokuoti Pinterest"
+            },
+            "block_piracy": {
+                "name": "Blokuoti piratavim\u0105"
+            },
+            "block_playstation_network": {
+                "name": "Blokuoti PlayStation tinkl\u0105"
+            },
+            "block_porn": {
+                "name": "Blokuoti pornografij\u0105"
+            },
+            "block_primevideo": {
+                "name": "Blokuoti Prime Video"
+            },
+            "block_reddit": {
+                "name": "Blokuoti Reddit"
+            },
+            "block_roblox": {
+                "name": "Blokuoti Roblox"
+            },
+            "block_signal": {
+                "name": "Blokuoti Signal"
+            },
+            "block_skype": {
+                "name": "Blokuoti Skype"
+            },
+            "block_snapchat": {
+                "name": "Blokuoti Snapchat"
+            },
+            "block_social_networks": {
+                "name": "Blokuoti socialinius tinklus"
+            },
+            "block_spotify": {
+                "name": "Blokuoti \u201eSpotify\u201c."
+            },
+            "block_steam": {
+                "name": "Blokuoti Steam"
+            },
+            "block_telegram": {
+                "name": "Blokuoti Telegram"
+            },
+            "block_tiktok": {
+                "name": "Blokuoti TikTok"
+            },
+            "block_tinder": {
+                "name": "Blokuoti Tinder"
+            },
+            "block_tumblr": {
+                "name": "Blokuoti Tumblr"
+            },
+            "block_twitch": {
+                "name": "Blokuoti Twitch"
+            },
+            "block_twitter": {
+                "name": "Blokuoti X (anks\u010diau \u201eTwitter\u201c)"
+            },
+            "block_video_streaming": {
+                "name": "Blokuoti vaizdo transliacij\u0105"
+            },
+            "block_vimeo": {
+                "name": "Blokuoti Vimeo"
+            },
+            "block_vk": {
+                "name": "Blokuoti VK"
+            },
+            "block_whatsapp": {
+                "name": "Blokuoti WhatsApp"
+            },
+            "block_xboxlive": {
+                "name": "Blokuoti Xbox Live"
+            },
+            "block_youtube": {
+                "name": "Blokuoti \u201eYouTube\u201c."
+            },
+            "block_zoom": {
+                "name": "Blokuoti Zoom"
+            },
+            "cache_boost": {
+                "name": "Talpyklos padidinimas"
+            },
+            "safesearch": {
+                "name": "Priverskite saugi\u0105 paie\u0161k\u0105"
+            }
+        }
+    },
+    "system_health": {
+        "info": {
+            "can_reach_server": "Pasiekite server\u012f"
+        }
+    }
+}

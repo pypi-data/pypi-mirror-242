@@ -1,0 +1,53 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Paskyra jau sukonfig\u016bruota",
+            "single_instance_allowed": "Jau sukonfig\u016bruota. Galima tik viena konfig\u016bracija."
+        },
+        "create_entry": {
+            "default": "S\u0117kmingai autentifikuota"
+        },
+        "error": {
+            "cannot_connect": "Nepavyko prisijungti"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "token": "API prieigos raktas"
+                },
+                "description": "\u012eveskite API prieigos rakt\u0105 i\u0161 [Todoist nustatym\u0173 puslapio] ( {settings_url} )"
+            }
+        }
+    },
+    "services": {
+        "new_task": {
+            "description": "Sukuria nauj\u0105 u\u017eduot\u012f ir prideda j\u0105 prie projekto.",
+            "fields": {
+                "assignee": {
+                    "description": "Bendrinamo projekto nari\u0173 naudotojo vardas, kuriam reikia priskirti \u0161i\u0105 u\u017eduot\u012f.",
+                    "name": "Per\u0117m\u0117jas"
+                },
+                "content": {
+                    "description": "U\u017eduoties pavadinimas.",
+                    "name": "Turinys"
+                },
+                "due_date": {
+                    "description": "Laikas, kada reikia atlikti \u0161i\u0105 u\u017eduot\u012f, formatu YYYY-MM-DD arba YYYY-MM-DDTHH:MM:SS, UTC laiko juosta.",
+                    "name": "Terminas"
+                },
+                "due_date_lang": {
+                    "description": "Due_date_string kalba.",
+                    "name": "Termino kalba"
+                },
+                "due_date_string": {
+                    "description": "Diena, kai \u0161i u\u017eduotis turi b\u016bti atlikta nat\u016bralia kalba.",
+                    "name": "Termino eilut\u0117"
+                },
+                "labels": {
+                    "description": "Visos etiket\u0117s, kurias norite taikyti \u0161iai u\u017eduo\u010diai, atskirtos kableliu."
+                }
+            },
+            "name": "Nauja u\u017eduotis"
+        }
+    }
+}

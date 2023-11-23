@@ -1,0 +1,14 @@
+{
+    "config": {
+        "error": {
+            "invalid_user_key": "Neteisingas vartotojo raktas"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "user_key": "Naudotojo raktas"
+                }
+            }
+        }
+    }
+}

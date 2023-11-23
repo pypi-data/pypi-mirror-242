@@ -1,0 +1,92 @@
+{
+    "config": {
+        "abort": {
+            "oauth_error": "Gauti neteisingi prieigos rakto duomenys.",
+            "oauth_failed": "Klaida gaunant prieigos rakt\u0105.",
+            "oauth_timeout": "Baig\u0117si skirtasis OAuth prieigos raktas.",
+            "oauth_unauthorized": "OAuth prieigos teis\u0117s klaida gaunant prieigos rakt\u0105."
+        }
+    },
+    "device_automation": {
+        "trigger_subtype": {
+            "schedule": "Tvarkara\u0161tis"
+        },
+        "trigger_type": {
+            "cancel_set_point": "{entity_name} atnaujino savo tvarkara\u0161t\u012f"
+        }
+    },
+    "options": {
+        "step": {
+            "public_weather": {
+                "data": {
+                    "area_name": "Teritorijos pavadinimas",
+                    "lat_ne": "\u0160iaur\u0117s ryt\u0173 kampo platuma",
+                    "lat_sw": "Pietvakari\u0173 kampo platuma",
+                    "lon_ne": "\u0160iaur\u0117s ryt\u0173 kampo ilguma",
+                    "lon_sw": "Pietvakari\u0173 kampo ilguma",
+                    "mode": "Skai\u010diavimas",
+                    "show_on_map": "Rodyti \u017eem\u0117lapyje"
+                },
+                "description": "Konfig\u016bruokite vie\u0161\u0105j\u012f or\u0173 jutikl\u012f vietov\u0117je.",
+                "title": "Netatmo vie\u0161asis or\u0173 jutiklis"
+            },
+            "public_weather_areas": {
+                "data": {
+                    "new_area": "Vietov\u0117s pavadinimas",
+                    "weather_areas": "Or\u0173 zonos"
+                },
+                "description": "Konfig\u016bruokite vie\u0161uosius oro jutiklius."
+            }
+        }
+    },
+    "services": {
+        "set_camera_light": {
+            "name": "Nustatyti fotoaparato \u0161viesos re\u017eim\u0105"
+        },
+        "set_person_away": {
+            "fields": {
+                "person": {
+                    "description": "Asmens vardas.",
+                    "name": "Asmuo"
+                }
+            }
+        },
+        "set_persons_home": {
+            "description": "Nustato asmen\u0173 s\u0105ra\u0161\u0105 kaip namuose. Asmens vardas turi sutapti su vardu, kur\u012f \u017eino Netatmo Indoor (sveiki) kamera.",
+            "fields": {
+                "persons": {
+                    "description": "Vard\u0173 s\u0105ra\u0161as.",
+                    "name": "Asmenys"
+                }
+            },
+            "name": "Nustatykite asmenis namuose"
+        },
+        "set_preset_mode_with_end_datetime": {
+            "description": "Nustato i\u0161 anksto nustatyt\u0105 Netatmo klimato \u012frenginio re\u017eim\u0105. I\u0161 anksto nustatytas re\u017eimas turi atitikti i\u0161 anksto nustatyt\u0105 re\u017eim\u0105, sukonfig\u016bruot\u0105 Netatmo.",
+            "fields": {
+                "end_datetime": {
+                    "description": "Data ir laikas, iki kada i\u0161ankstinis nustatymas bus aktyvus.",
+                    "name": "Pabaigos data ir laikas"
+                },
+                "preset_mode": {
+                    "description": "i\u0161 anksto nustatytas klimato re\u017eimas, pvz., grafikas, i\u0161vykimas arba apsauga nuo \u0161al\u010dio.",
+                    "name": "I\u0161 anksto nustatytas re\u017eimas"
+                }
+            },
+            "name": "Nustatykite i\u0161 anksto nustatyt\u0105 re\u017eim\u0105 su pabaigos data ir laiku"
+        },
+        "set_schedule": {
+            "fields": {
+                "schedule_name": {
+                    "description": "Tvarkara\u0161\u010dio pavadinimas.",
+                    "name": "Tvarkara\u0161tis"
+                }
+            },
+            "name": "Nustatykite \u0161ildymo grafik\u0105"
+        },
+        "unregister_webhook": {
+            "description": "I\u0161registruojamas \u201eWebhook\u201c i\u0161 \u201eNetatmo\u201c u\u017epakalin\u0117s programos.",
+            "name": "I\u0161registruoti webhook"
+        }
+    }
+}

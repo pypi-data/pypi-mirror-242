@@ -1,0 +1,14 @@
+{
+    "config": {
+        "step": {
+            "get_encryption_key_legacy": {
+                "description": "Jutiklio perduodami jutiklio duomenys yra u\u017e\u0161ifruoti. Nor\u0117dami j\u012f i\u0161\u0161ifruoti, mums reikia 24 simboli\u0173 \u0161e\u0161ioliktainio susiejimo rakto."
+            }
+        }
+    },
+    "device_automation": {
+        "trigger_type": {
+            "motion_detected": "Aptiktas judesys"
+        }
+    }
+}

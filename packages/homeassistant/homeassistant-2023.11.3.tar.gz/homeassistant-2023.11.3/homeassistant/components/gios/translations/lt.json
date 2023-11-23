@@ -1,0 +1,32 @@
+{
+    "entity": {
+        "sensor": {
+            "aqi": {
+                "state": {
+                    "bad": "Blogas",
+                    "good": "Geras"
+                }
+            },
+            "no2_index": {
+                "name": "Azoto dioksido indeksas"
+            },
+            "o3_index": {
+                "name": "Ozono indeksas"
+            },
+            "pm10_index": {
+                "name": "PM10 indeksas"
+            },
+            "pm25_index": {
+                "name": "PM2.5 indeksas"
+            },
+            "so2_index": {
+                "name": "Sieros dioksido indeksas"
+            }
+        }
+    },
+    "system_health": {
+        "info": {
+            "can_reach_server": "Pasiekite GIO\u015a server\u012f"
+        }
+    }
+}

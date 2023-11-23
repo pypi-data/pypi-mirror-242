@@ -1,0 +1,15 @@
+{
+    "entity": {
+        "sensor": {
+            "noise": {
+                "name": "Triuk\u0161mas"
+            },
+            "overload": {
+                "name": "Perkrova"
+            },
+            "total_consumption": {
+                "name": "Bendras suvartojimas"
+            }
+        }
+    }
+}

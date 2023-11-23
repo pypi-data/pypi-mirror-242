@@ -1,0 +1,9 @@
+{
+    "config": {
+        "step": {
+            "reauth_confirm": {
+                "description": "Le mot de passe pour {username} n'est pas valide."
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "config": {
+        "step": {
+            "reauth_confirm": {
+                "description": "Per\u017ei\u016br\u0117kite \u201eDiscord\u201c roboto rakto gavimo dokumentus. \n\n {url}"
+            },
+            "user": {
+                "description": "Per\u017ei\u016br\u0117kite \u201eDiscord\u201c roboto rakto gavimo dokumentus. \n\n {url}"
+            }
+        }
+    }
+}

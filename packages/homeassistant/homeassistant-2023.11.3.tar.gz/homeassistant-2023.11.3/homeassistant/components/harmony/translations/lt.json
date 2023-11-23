@@ -1,0 +1,52 @@
+{
+    "config": {
+        "flow_title": "{name}",
+        "step": {
+            "link": {
+                "description": "Ar norite nustatyti {name} ( {host} )?"
+            },
+            "user": {
+                "data": {
+                    "name": "Hubo pavadinimas"
+                },
+                "title": "Nustatykite \u201eLogitech Harmony Hub\u201c."
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "activities": {
+                "state": {
+                    "power_off": "I\u0161jungti"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "activity": "Numatytoji veikla, vykdoma, kai nenurodyta.",
+                    "delay_secs": "V\u0117lavimas tarp komand\u0173 siuntimo."
+                },
+                "description": "Sureguliuokite \u201eHarmony Hub\u201c parinktis"
+            }
+        }
+    },
+    "services": {
+        "change_channel": {
+            "description": "Siun\u010dia kanalo keitimo komand\u0105 \u012f Harmony HUB.",
+            "fields": {
+                "channel": {
+                    "description": "Kanalo numeris, \u012f kur\u012f norite pakeisti.",
+                    "name": "Kanalas"
+                }
+            },
+            "name": "Keisti kanal\u0105"
+        },
+        "sync": {
+            "description": "Sinchronizuoja nuotolinio valdymo pulto konfig\u016bracij\u0105.",
+            "name": "Sinchronizuoti"
+        }
+    }
+}

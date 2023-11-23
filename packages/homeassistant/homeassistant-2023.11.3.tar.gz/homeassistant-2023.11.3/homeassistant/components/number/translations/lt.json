@@ -1,0 +1,52 @@
+{
+    "device_automation": {
+        "action_type": {
+            "set_value": "Nustatyti {entity_name} vert\u0119"
+        }
+    },
+    "entity_component": {
+        "_": {
+            "state_attributes": {
+                "max": {
+                    "name": "Maksimalus"
+                },
+                "min": {
+                    "name": "Minimumas"
+                },
+                "mode": {
+                    "name": "Re\u017eimas",
+                    "state": {
+                        "auto": "Automatinis",
+                        "box": "D\u0117\u017e\u0117",
+                        "slider": "Slankiklis"
+                    }
+                },
+                "step": {
+                    "name": "\u017dingsnis"
+                }
+            }
+        },
+        "ph": {
+            "name": "pH"
+        }
+    },
+    "issues": {
+        "platform_integration_no_support": {
+            "description": "{platform} platforma, skirta {domain} integravimui, nepalaiko platformos s\u0105rankos. \n\n Pa\u0161alinkite j\u012f i\u0161 konfig\u016bracijos ir i\u0161 naujo paleiskite \u201eHome Assistant\u201c, kad i\u0161spr\u0119stum\u0117te \u0161i\u0105 problem\u0105.",
+            "title": "Platformos palaikymas nepalaikomas"
+        }
+    },
+    "services": {
+        "set_value": {
+            "description": "Nustato skai\u010diaus reik\u0161m\u0119.",
+            "fields": {
+                "value": {
+                    "description": "Tikslin\u0117 vert\u0117, kuri\u0105 reikia nustatyti.",
+                    "name": "Vert\u0117"
+                }
+            },
+            "name": "Nustatyti"
+        }
+    },
+    "title": "Skai\u010dius"
+}

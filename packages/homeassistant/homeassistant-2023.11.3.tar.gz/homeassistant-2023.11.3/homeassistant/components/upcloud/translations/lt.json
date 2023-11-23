@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "username": "Prisijungimos vardas"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "scan_interval": "Atnaujinimo intervalas sekund\u0117mis, ma\u017eiausiai 30"
+                }
+            }
+        }
+    }
+}

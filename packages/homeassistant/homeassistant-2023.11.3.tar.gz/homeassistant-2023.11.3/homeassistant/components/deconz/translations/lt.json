@@ -1,0 +1,47 @@
+{
+    "config": {
+        "abort": {
+            "no_hardware_available": "Prie deCONZ neprijungta jokia radijo aparat\u016bra"
+        },
+        "error": {
+            "linking_not_possible": "Nepavyko susieti su \u0161liuzu"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Pasirinkite atrast\u0105 deCONZ \u0161liuz\u0105"
+                }
+            }
+        }
+    },
+    "device_automation": {
+        "trigger_type": {
+            "remote_button_rotated_fast": "Greitai pasuktas mygtukas \"{subtype}\""
+        }
+    },
+    "options": {
+        "step": {
+            "deconz_devices": {
+                "title": "deCONZ parinktys"
+            }
+        }
+    },
+    "services": {
+        "configure": {
+            "fields": {
+                "field": {
+                    "name": "Kelias"
+                }
+            },
+            "name": "Konfig\u016bruoti"
+        },
+        "device_refresh": {
+            "description": "Atnaujina turimus deCONZ \u012frenginius.",
+            "name": "\u012erenginio atnaujinimas"
+        },
+        "remove_orphaned_entries": {
+            "description": "I\u0161valo \u012frenginio ir objekto registro \u012fra\u0161us, kuriuos paliko deCONZ.",
+            "name": "Pa\u0161alinti na\u0161lai\u010di\u0173 \u012fra\u0161us"
+        }
+    }
+}
