@@ -1,0 +1,4 @@
+include *.txt
+include *.json
+include README.md
+recursive-include scs_philips_hue *.json
