@@ -1,0 +1,9 @@
+qurix/dataframe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qurix/dataframe/__version__.py,sha256=hg2hRKGMAYDIRPwLrt9V4r6NGoIM3Wj0E_aokn1_k-Y,87
+qurix/dataframe/anonymizer.py,sha256=nEjpx1eZ8N10q9huM_WmTUvJLkMjNHFU7x4r1RnZoyM,9254
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_anonymizer.py,sha256=2mJS3GM4Sdu74p9p31_-tl9kaXNs3-Xt_gXnhTh2ZvY,4689
+qurix_dataframe_anonymizer-0.2.0.dist-info/METADATA,sha256=0_ba4mltR6nJzbgOgnwXJhuPDLTDJOC98AGrSS_VuFM,3875
+qurix_dataframe_anonymizer-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+qurix_dataframe_anonymizer-0.2.0.dist-info/top_level.txt,sha256=ql9StnZ_pMAizzRlF3pW24UzCd0HlhcH7VH8QMhajUI,27
+qurix_dataframe_anonymizer-0.2.0.dist-info/RECORD,,
