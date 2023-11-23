@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "suumo_scraping"
+version = "0.0.1"
+authors = [
+  { name="Asano Naoki", email="asannaoki@gmail.com" },
+]
+description = "suumo web scraping package"
+readme = "README.md"
+requires-python = ">=3.8.10"
+dependencies =  [
+    "bs4 == 0.0.1",
+    "requests >= 2.28.2",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Asano-Naoki/suumo_scraping"
+Issues = "https://github.com/Asano-Naoki/suumo_scraping/issues"
