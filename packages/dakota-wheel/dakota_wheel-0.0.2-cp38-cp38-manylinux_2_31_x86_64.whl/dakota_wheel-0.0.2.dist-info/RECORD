@@ -1,0 +1,8 @@
+dakota_wheel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dakota_wheel-0.0.2.data/scripts/dakota,sha256=Ah0vF6JvkYx27P3pkOzniVhwV4q4F57dXMkWwQ07aLo,45430456
+dakota_wheel-0.0.2.data/platlib/dakota/environment/__init__.py,sha256=MqC4MSc-gJdork2sEcTc6SvmTiz0JHZKsLWynM4uTlg,27
+dakota_wheel-0.0.2.data/platlib/dakota/environment/environment.cpython-38-x86_64-linux-gnu.so,sha256=h1V0UUFyPpz1JDXv-pEbcMapwmsITMVAorlf_E9V2GU,45675648
+dakota_wheel-0.0.2.dist-info/METADATA,sha256=hK0KUQaUSHhIyElZo4cvSKh5g7-OTmVFKPPhOP0TuLE,78
+dakota_wheel-0.0.2.dist-info/WHEEL,sha256=EzAiyreadBvjK2hZ95MqHPPPvCagisC22IaTqgaKKmU,94
+dakota_wheel-0.0.2.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dakota_wheel-0.0.2.dist-info/RECORD,,
