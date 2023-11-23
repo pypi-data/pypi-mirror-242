@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+opcit/__init__.py
+opcit/deposit.py
+opcit/fastapi_entry.py
+opcit/opcit_router.py
+opcit/settings.py
+opcit.egg-info/PKG-INFO
+opcit.egg-info/SOURCES.txt
+opcit.egg-info/dependency_links.txt
+opcit.egg-info/requires.txt
+opcit.egg-info/top_level.txt
+opcit/depositors/__init__.py
+opcit/depositors/ia.py
