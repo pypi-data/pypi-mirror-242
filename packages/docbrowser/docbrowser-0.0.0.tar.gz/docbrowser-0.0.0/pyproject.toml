@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docbrowser"
+dynamic = ["version"]
+authors = [
+  { name="Nick Veitch", email="nick.veitch@canonical.com" },
+]
+description = "A cli-based app for reading Markdown project docs"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Development Status :: 1 - Planning"
+]
+
+[project.urls]
+Homepage = "https://github.com/evilnick/docbrowser"
+Issues = "https://github.com/evilnick/docbrowser/issues"
