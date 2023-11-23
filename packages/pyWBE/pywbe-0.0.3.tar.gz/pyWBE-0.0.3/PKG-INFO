@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyWBE
+Version: 0.0.3
+Summary: A Python Library for wastewater-based epidemiology.
+Home-page: 
+Author: Anuj Tiwari
+Author-email: anujt@uic.edu
+License: MIT
+Keywords: Python_Library
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+<h2>pyWBE: an open-source wastewater-based epidemiology library in Python</h2> 
+
+<p>Wastewater-based epidemiology (WBE) is a dynamic tool used historically to monitor various pathogens and contaminants in communities, from viruses such as COVID-19, influenza, and RSV to challenges like opioid detection. With the COVID-19 pandemic, WBE's role as an early detection and monitoring system has grown significantly. However, despite its potential, the WBE field lacks a centralized computational library, leading to redundancies and inefficiencies in data handling and analysis.</p>
+
+<p>Our mission is to address this void by launching "pyWBE," a dedicated Python library catering to a broad range of WBE needs:</p>
+
+<ol>
+<li><strong>Data Management</strong>: Efficient tools for efficient data preparation and preprocessing, meta-data integration, eliminating redundancy, and adhering to the CDC's standardized data dictionaries.</li>
+<li><strong>Geospatial Support</strong>: Features to integrate wastewater data with social, demographic, and climate datasets at the administrative boundary level, offering a comprehensive perspective in relation to demographics, health metrics, and environmental indicators.</li>
+<li><strong>Data Analytics</strong>: Comprehensive tools for detecting patterns, tracing relationships among various pathogens and viral variants, and leveraging epidemiological models, converting wastewater data into valuable public health insights.</li>
+<li><strong>Visualization and Reporting</strong>: Tools for creating clear and informative visuals, emphasizing clarity and accuracy to prevent potential data misinterpretations.</li>
+<li><strong>Data Interpretation</strong>: Tools for unpacking the complexities of WBE metrics and transforming data into actionable knowledge while actively countering potential misinformation.</li>
+</ol>
+
+<p>With the rising reliance on WBE for tracking a spectrum of challenges, from viruses to opioids, a toolkit like "pyWBE" is imperative. It promises to standardize practices, battle misinformation, and serve as an invaluable asset in training and workforce development. "pyWBE" seeks to empower the WBE community, ensuring that accurate, actionable, and standardized insights drive public health decisions.</p>
+
+<h4>We will be uploading the functions soon. Thank you for visiting.</h4>
+
+
