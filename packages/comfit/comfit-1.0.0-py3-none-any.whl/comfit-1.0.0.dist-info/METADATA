@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: comfit
+Version: 1.0.0
+Author: Vidar Skogvoll and Jonas Rønning
+License-File: LICENSE
+Requires-Dist: numpy (>=1.22.0)
+Requires-Dist: scikit-image
+
