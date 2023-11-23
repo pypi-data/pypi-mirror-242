@@ -1,0 +1,22 @@
+{
+    "entity_component": {
+        "_": {
+            "state": {
+                "idle": "Laukiama",
+                "off": "Pripa\u017eintas",
+                "on": "aktyvus"
+            }
+        }
+    },
+    "services": {
+        "turn_off": {
+            "description": "Nutildo \u012fsp\u0117jim\u0173 prane\u0161imus.",
+            "name": "I\u0161jungti"
+        },
+        "turn_on": {
+            "description": "I\u0161 naujo nustato \u012fsp\u0117jim\u0173 prane\u0161imus.",
+            "name": "\u012ejungti"
+        }
+    },
+    "title": "\u012esp\u0117jimas"
+}

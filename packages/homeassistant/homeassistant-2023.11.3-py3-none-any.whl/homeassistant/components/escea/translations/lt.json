@@ -1,0 +1,9 @@
+{
+    "config": {
+        "step": {
+            "confirm": {
+                "description": "Ar norite \u012frengti Escea \u017eidin\u012f?"
+            }
+        }
+    }
+}

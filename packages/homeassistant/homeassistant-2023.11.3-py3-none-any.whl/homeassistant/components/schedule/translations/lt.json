@@ -1,0 +1,22 @@
+{
+    "entity_component": {
+        "_": {
+            "state": {
+                "off": "I\u0161jungta",
+                "on": "\u012ejungta"
+            },
+            "state_attributes": {
+                "next_event": {
+                    "name": "Kitas renginys"
+                }
+            }
+        }
+    },
+    "services": {
+        "reload": {
+            "description": "I\u0161 naujo \u012fkelia tvarkara\u0161\u010dius i\u0161 YAML konfig\u016bracijos.",
+            "name": "\u012ekelti i\u0161 naujo"
+        }
+    },
+    "title": "Tvarkara\u0161tis"
+}

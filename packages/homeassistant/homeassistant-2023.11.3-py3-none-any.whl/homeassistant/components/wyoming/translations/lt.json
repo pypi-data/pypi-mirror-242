@@ -1,0 +1,12 @@
+{
+    "config": {
+        "abort": {
+            "no_services": "Galiniame ta\u0161ke paslaug\u0173 nerasta"
+        },
+        "step": {
+            "hassio_confirm": {
+                "description": "Ar norite konfig\u016bruoti \"Home Assistant\", kad jis prisijungt\u0173 prie papildinio teikiamos \"Wyoming\" paslaugos: {addon}?"
+            }
+        }
+    }
+}

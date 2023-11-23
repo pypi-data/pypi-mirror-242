@@ -1,0 +1,30 @@
+{
+    "config": {
+        "error": {
+            "no_sites_found": "Nerasta svetaini\u0173, kurias vartotojas gal\u0117t\u0173 valdyti.",
+            "unsupported_controller": "Omada valdiklio versija nepalaikoma."
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "username": "Prisijungimos vardas"
+                },
+                "description": "Pateikti kredencialai nustojo veikti. Pra\u0161ome juos atnaujinti.",
+                "title": "Atnaujinkite TP-Link Omada kredencialus"
+            },
+            "site": {
+                "data": {
+                    "site": "Svetain\u0117"
+                },
+                "title": "Pasirinkite, kuri\u0105 (-ias) svetain\u0119 (-es) tvarkyti"
+            },
+            "user": {
+                "data": {
+                    "username": "Prisijungimos vardas"
+                },
+                "description": "\u012eveskite \u201eOmada\u201c valdiklio ry\u0161io duomenis. Debes\u0173 valdikliai nepalaikomi.",
+                "title": "TP-Link Omada valdiklis"
+            }
+        }
+    }
+}

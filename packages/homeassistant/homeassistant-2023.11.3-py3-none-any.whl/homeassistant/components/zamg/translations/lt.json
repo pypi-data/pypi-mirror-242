@@ -1,0 +1,10 @@
+{
+    "config": {
+        "abort": {
+            "station_not_found": "Stoties ID nerastas zamg"
+        },
+        "error": {
+            "station_not_found": "Stoties ID nerastas zamg"
+        }
+    }
+}

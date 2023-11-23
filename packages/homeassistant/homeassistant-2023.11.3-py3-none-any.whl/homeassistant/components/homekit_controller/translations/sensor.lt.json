@@ -1,0 +1,17 @@
+{
+    "state": {
+        "homekit_controller__thread_node_capabilities": {
+            "full": "Visas galutinis \u012frenginys",
+            "minimal": "Minimalus galutinis \u012frenginys",
+            "none": "Joks"
+        },
+        "homekit_controller__thread_status": {
+            "child": "Vaikas",
+            "detached": "Atskiras",
+            "disabled": "I\u0161jungtas",
+            "joining": "Prisijungimas",
+            "leader": "Lyderis",
+            "router": "Mar\u0161rutizatorius"
+        }
+    }
+}

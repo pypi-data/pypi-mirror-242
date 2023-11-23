@@ -1,0 +1,7 @@
+{
+    "config": {
+        "error": {
+            "not_main_key": "Aptiktas netinkamas API rakto tipas, naudokite \u201epagrindin\u012f\u201c API rakt\u0105"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "config": {
+        "abort": {
+            "oauth_failed": "Klaida gaunant prieigos rakt\u0105.",
+            "oauth_timeout": "Baig\u0117si skirtasis OAuth prieigos raktas.",
+            "oauth_unauthorized": "OAuth prieigos teis\u0117s klaida gaunant prieigos rakt\u0105."
+        }
+    },
+    "services": {
+        "append_sheet": {
+            "description": "Prideda duomenis prie darbalapio \u201eGoogle\u201c skai\u010diuokl\u0117se.",
+            "fields": {
+                "config_entry": {
+                    "description": "Lapas, \u012f kur\u012f reikia \u012ftraukti duomenis.",
+                    "name": "Lapas"
+                },
+                "data": {
+                    "description": "Duomenys, kuriuos reikia prid\u0117ti prie darbalapio. Taip reik\u0161m\u0117s \u012ftraukiamos \u012f nauj\u0105 eilut\u0119 po atitinkamu stulpeliu (raktu). Bet koks naujas raktas dedamas naujo stulpelio vir\u0161uje.",
+                    "name": "Duomenys"
+                },
+                "worksheet": {
+                    "description": "Darbo lapo pavadinimas. Numatytoji vert\u0117 yra pirmoji dokumente.",
+                    "name": "Darbalapis"
+                }
+            },
+            "name": "Prid\u0117ti prie lapo"
+        }
+    }
+}

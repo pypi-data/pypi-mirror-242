@@ -1,0 +1,24 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u012erenginys jau sukonfig\u016bruotas",
+            "already_in_progress": "Konfig\u016bracijos procesas jau vyksta",
+            "cannot_connect": "Nepavyko prisijungti",
+            "no_devices_found": "Tinkle nerasta joki\u0173 \u012frengini\u0173"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "address": "\u012erenginys"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "cpm": {
+                "name": "Skai\u010diuoja per minut\u0119"
+            }
+        }
+    }
+}

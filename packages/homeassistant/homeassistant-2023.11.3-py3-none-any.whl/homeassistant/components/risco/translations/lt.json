@@ -1,0 +1,26 @@
+{
+    "config": {
+        "step": {
+            "cloud": {
+                "data": {
+                    "username": "Prisijungimos vardas"
+                }
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "alarmed": {
+                "name": "Aliarmas"
+            },
+            "armed": {
+                "name": "U\u017erakinta"
+            }
+        },
+        "switch": {
+            "bypassed": {
+                "name": "Aplenktas"
+            }
+        }
+    }
+}
