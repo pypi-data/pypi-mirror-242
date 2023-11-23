@@ -1,0 +1,10 @@
+mongo_path/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongo_path/field_repr.py,sha256=pX1EwuWX8oeOqG7he_TJPWiGo8rfSqQP5JhvbP9Wd6c,898
+mongo_path/meta.py,sha256=vVkcrizHEXKkX-Pb3XQtKdj_9JU0gLbGF9N49vf4gcQ,918
+mongo_path/path_generator.py,sha256=CEL5zMiq716lRCRSwgP9cdDqGtR6ToZWsT6hrrR8U24,1845
+mongo_path/typing_utils.py,sha256=19klpeyczXSLw-dqqT7gXHRbEfwu5VR1lxcGzpN9fWQ,276
+mongo_path-1.0.0.dist-info/LICENSE,sha256=BVqajMRBcHFX9JHJZqD5Usi-x8veJkdlrXFiEzfKsSQ,1072
+mongo_path-1.0.0.dist-info/METADATA,sha256=5ws2-H4Kbve1_zwLCBlghRT7T_Pmdtd5N8smIiDkx-8,289
+mongo_path-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mongo_path-1.0.0.dist-info/top_level.txt,sha256=XFB7JAaunrJi-YHFRpSHXdbk2ES--9M3jRQS90NNbog,11
+mongo_path-1.0.0.dist-info/RECORD,,

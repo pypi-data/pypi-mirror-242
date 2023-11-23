@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mongo-path
+Version: 1.0.0
+Keywords: MongoDB,pydantic
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic ~=2.3.0
+
+Used to enumerate mongo query paths while mongo schema is mapped with Pydantic
