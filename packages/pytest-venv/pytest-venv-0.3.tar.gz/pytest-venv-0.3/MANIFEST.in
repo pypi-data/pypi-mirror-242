@@ -1,0 +1,15 @@
+graft .github
+graft src
+graft tests
+prune tests/myapp/*.egg-info
+
+include README.rst
+include CHANGES.rst
+include LICENSE.txt
+include CONTRIBUTING.rst
+
+include pyproject.toml
+include .coveragerc .flake8 pytest.ini
+include tox.ini
+
+recursive-exclude * __pycache__ *.py[cod]
