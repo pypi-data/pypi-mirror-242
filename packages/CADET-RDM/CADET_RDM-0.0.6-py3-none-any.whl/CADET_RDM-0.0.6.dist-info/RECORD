@@ -1,0 +1,15 @@
+cadetrdm/__init__.py,sha256=I5xPGS-hHOMmltI28iQblSAQ0yeayBNdUKItSTMGaSA,182
+cadetrdm/cli_integration.py,sha256=uYOvHr-_STMF5GbeohLkP3t4nfGmctwutmw2L_gbJXo,3454
+cadetrdm/conda_env_utils.py,sha256=N3lyU-8zm0CP4vfbcxnYIedOrnOjVb5I0JycjobPO-w,708
+cadetrdm/initialize_repo.py,sha256=nlCnBqQPU-m855Y1PpG3rO1JqpV-PrfaD5mYUib6Y2Y,8331
+cadetrdm/io_utils.py,sha256=qYK16v3gEcp2HBa4ZbrlBcs9nBo-S7WU3c87WA6oKGA,1613
+cadetrdm/repositories.py,sha256=QbVmXm0K4DTG0I2DKRnNwCwQLRJxaD59D8OnJ-blT1Y,37156
+cadetrdm/web_utils.py,sha256=2bt9H2MGDZhBLrbhRYBV59M7s4NRKWIueoug7RXQY4g,330
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_git_adapter.py,sha256=6OduMJ_PeFoX1VOjal4fR6FfdTAzEVExwogKTd9RdtA,8459
+CADET_RDM-0.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+CADET_RDM-0.0.6.dist-info/METADATA,sha256=LT10UOwqPxrnorsNal9zOwL5MESpwiU1iulxFP9_Pvg,4380
+CADET_RDM-0.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+CADET_RDM-0.0.6.dist-info/entry_points.txt,sha256=t9_mInZZQCVUdaSvuijmdSlye7TKsUKY0rsL-KVL8gs,59
+CADET_RDM-0.0.6.dist-info/top_level.txt,sha256=JD3V8gzLqHUdDgBSGbQqm9IMh5vdTRfra6LtajhwcYA,15
+CADET_RDM-0.0.6.dist-info/RECORD,,
