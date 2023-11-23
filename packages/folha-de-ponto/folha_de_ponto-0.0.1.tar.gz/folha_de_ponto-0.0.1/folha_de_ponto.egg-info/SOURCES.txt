@@ -1,0 +1,8 @@
+README.md
+setup.py
+folha_de_ponto/__init__.py
+folha_de_ponto.egg-info/PKG-INFO
+folha_de_ponto.egg-info/SOURCES.txt
+folha_de_ponto.egg-info/dependency_links.txt
+folha_de_ponto.egg-info/not-zip-safe
+folha_de_ponto.egg-info/top_level.txt
