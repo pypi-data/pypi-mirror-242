@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "boltml-python"
+version = "0.0.2"
+description = ""
+authors = ["Kevin Alex Zhang <kevz@boltml.dev>"]
+readme = "README.md"
+packages = [{include = "boltml"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+websockets = "^12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
