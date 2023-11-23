@@ -1,0 +1,5 @@
+datasette-enrichments>=0.1a4
+
+[test]
+pytest
+pytest-asyncio
