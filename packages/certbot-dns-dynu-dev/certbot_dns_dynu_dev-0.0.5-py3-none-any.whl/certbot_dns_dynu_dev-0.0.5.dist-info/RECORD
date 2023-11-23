@@ -1,0 +1,9 @@
+certbot_dns_dynu_dev/__init__.py,sha256=GtahrDM9BBBGzuDomnV3ttLMqYX_6mtaqVQhdgM8hHk,57
+certbot_dns_dynu_dev/dns_dynu.py,sha256=2KT1ETsJbkv6AJxdMAQy-XLeJkFg1R-GhWziQ5bq114,3213
+certbot_dns_dynu_dev/dns_dynu_test.py,sha256=3CG-XtT_Q_IqdQLjaCYzmyuEBiNRGmhC0CG1VpgwFLw,1947
+certbot_dns_dynu_dev-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+certbot_dns_dynu_dev-0.0.5.dist-info/METADATA,sha256=C47gvAj3UqGF9NhX7638peoNn5EP45jtUSgmnqu7WHA,3898
+certbot_dns_dynu_dev-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+certbot_dns_dynu_dev-0.0.5.dist-info/entry_points.txt,sha256=8849P1GQJmcPVCRyn1zXRj9_oxOh-MxqTnMIcZCKQWE,73
+certbot_dns_dynu_dev-0.0.5.dist-info/top_level.txt,sha256=1m0p4g72QDdB5WhJTn4iWUU8_WBUxKN7yTTnK4mdS8o,21
+certbot_dns_dynu_dev-0.0.5.dist-info/RECORD,,
