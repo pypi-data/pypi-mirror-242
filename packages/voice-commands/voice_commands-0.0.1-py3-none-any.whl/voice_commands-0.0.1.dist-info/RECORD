@@ -1,0 +1,16 @@
+voice_commands/__init__.py,sha256=C1R6P4KhkA6Q8tggZ5to9K8MEZpI-4zjUBFkIA2_bCs,162
+voice_commands/assistant.py,sha256=jz0Pr6aQdSgWK_PwOnAYk19LKic317Qb2t1kYXOgIxI,2465
+voice_commands/config.py,sha256=qsfqszAiEkBCqiRY8EPuP8gFFhttEad0b54X6pgVc4o,3091
+voice_commands/model_manager.py,sha256=NCxKQTu-SOmyacaIyrjhzAAFT1Hrk1LBXFBOi6nAOP0,1282
+voice_commands/types.py,sha256=KBOvxl4qYSVS_HRUezqZQBhn9UzFuvSVtOqqwvILKek,438
+voice_commands/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voice_commands/core/audio_api.py,sha256=oU8TxlV3uSnqk-paEWytKCJ6hc7n4ZsEsQbwkeDMM5w,1365
+voice_commands/core/audio_processing_utils.py,sha256=A6fKGBX7JXVAWk-tuq187a4ByV0ccJhoosEFkqd0568,197
+voice_commands/core/executor.py,sha256=PDljwnSplOIBTlFRcsPJKWRyRKyPLVfNl4sYDOE-emo,611
+voice_commands/core/interpretation.py,sha256=JmGtbSU6d8cLwTs5J-6rDVUE4pN-WXekHq3c7KoTvwM,4141
+voice_commands/core/recognition.py,sha256=pV3smFFJ7RAOUaWPqrP60-88mjqfqc1jY_e_bfZrvDA,1128
+voice_commands/core/voice_activity_detection.py,sha256=vAji84F5fvMW50KgE0ruVr-iq8mXy1lRyEPCJnoyzI4,1610
+voice_commands-0.0.1.dist-info/METADATA,sha256=aPCGvdMhcfSj01lsodFFxpeLZ8CUrWGfs7c_EJ-Kfhw,4532
+voice_commands-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+voice_commands-0.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+voice_commands-0.0.1.dist-info/RECORD,,
