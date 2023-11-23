@@ -1,0 +1,17 @@
+numpy>=1.18.5
+scipy<1.10
+matplotlib>=3.7.4
+
+[dev]
+black>=22.8.0
+pre-commit>=2.20.0
+flake8>=5.0.4
+isort>=5.10.1
+flake8-pyproject>=1.2.3
+setuptools_scm>=6.2
+
+[docs]
+sphinx
+nbsphinx
+pygments>=2.4
+sphinx_rtd_theme
