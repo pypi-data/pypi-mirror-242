@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bonus
+Version: 1.1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: AI University
+Author-email: falson2007@yandex.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: ipython (==8.16.1)
+Requires-Dist: ipywidgets (==8.1.1)
+
+UNKNOWN
+
