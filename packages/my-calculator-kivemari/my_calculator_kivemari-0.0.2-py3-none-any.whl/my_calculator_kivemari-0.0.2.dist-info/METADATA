@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: my_calculator_kivemari
+Version: 0.0.2
+Summary: A calculator package
+Author-email: Marija Kiveryte <marija.kiveyrte@gmail.com>
+Requires-Python: >=3.10
