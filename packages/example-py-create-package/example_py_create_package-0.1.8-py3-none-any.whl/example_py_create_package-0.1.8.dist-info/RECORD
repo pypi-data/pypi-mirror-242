@@ -1,0 +1,9 @@
+example_py_create_package/__init__.py,sha256=MwdmvML59pMZIrHfWvcqoACUcv1bwm7x4xlf2RTlPDo,61
+example_py_create_package/imported_subModule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_py_create_package/imported_subModule/moduleB.py,sha256=w6iiUz5_FbP_N9OCqYkeJmhc1dHSe03eDih78vyeQ4g,77
+example_py_create_package/module_no_imported.py,sha256=8FYuaG9HBmxvYThKfPwIDguuhEcJZC7LDkfP_pUIWKg,59
+example_py_create_package/moduleMain.py,sha256=wIrPXUPOEH_sfRSKSjkSq6rymEgkOaFkg1P9xcJx5r8,42
+example_py_create_package/subModuleA/moduleA.py,sha256=tHZjiEx4PFGaIYm1fFq8hA1o7HXCeVVpfTgL10bgJfo,36
+example_py_create_package-0.1.8.dist-info/METADATA,sha256=C7xcXIZsJ9vkcO-ZEd9mplSGaeaxI38Ni5-p9IOnsAg,357
+example_py_create_package-0.1.8.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+example_py_create_package-0.1.8.dist-info/RECORD,,
