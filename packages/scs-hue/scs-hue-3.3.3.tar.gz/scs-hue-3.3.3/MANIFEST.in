@@ -1,0 +1,2 @@
+include *.txt *.json
+include README.md
