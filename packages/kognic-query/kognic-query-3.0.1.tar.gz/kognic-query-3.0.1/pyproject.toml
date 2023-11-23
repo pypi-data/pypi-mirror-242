@@ -1,0 +1,39 @@
+[build-system]
+requires = [
+    "setuptools-scm[toml]>=7",
+]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "kognic-query"
+dynamic = ["version"]
+authors = [
+    { name = "Michel Edkrantz", email = "michel.edkrantz@kognic.com" },
+]
+description = "Kognic Query"
+dependencies = [
+     "requests>=2.20,<3",
+     "kognic-auth[requests]>=3.0.0,<4"
+]
+requires-python = ">=3.8"
+readme = "README.md"
+keywords = ["Kognic", "API"]
+license = {text = "MIT"}
+
+[project.urls]
+homepage = "https://github.com/annotell/kognic-query-python"
+
+[tool.setuptools_scm]
+write_to = "src/kognic/query/_version.py"
+
+
+[tool.ruff]
+line-length = 120
+select = ["E", "F", "B", "W", "I001"]
+
+[tool.black]
+line-length = 120
+
+[tool.pylint]
+# just use default

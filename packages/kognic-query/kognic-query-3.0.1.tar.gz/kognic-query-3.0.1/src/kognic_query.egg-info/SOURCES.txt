@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+CODEOWNERS
+README.md
+pybuild.toml
+pyproject.toml
+.github/dependabot.yml
+src/kognic/query/__init__.py
+src/kognic/query/_version.py
+src/kognic/query/query_api_client.py
+src/kognic/query/query_model.py
+src/kognic/query/util.py
+src/kognic_query.egg-info/PKG-INFO
+src/kognic_query.egg-info/SOURCES.txt
+src/kognic_query.egg-info/dependency_links.txt
+src/kognic_query.egg-info/requires.txt
+src/kognic_query.egg-info/top_level.txt

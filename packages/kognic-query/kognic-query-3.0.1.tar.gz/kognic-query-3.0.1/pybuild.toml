@@ -1,0 +1,3 @@
+# pybuild config for this repo
+[pybuild]
+min-version="1.45.0"
