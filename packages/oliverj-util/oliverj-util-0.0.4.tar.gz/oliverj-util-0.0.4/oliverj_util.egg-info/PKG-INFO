@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: oliverj-util
+Version: 0.0.4
+Summary: A utility package
+Home-page: https://pypi.org/project/oliverj-util
+Author: Olliejohnson
+Author-email: contact@oliverj.io
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package that adds many useful utils
