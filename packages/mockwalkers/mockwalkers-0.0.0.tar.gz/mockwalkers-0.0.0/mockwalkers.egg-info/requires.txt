@@ -1,0 +1,11 @@
+numpy
+matplotlib
+multimethod
+
+[dev]
+black
+pytest
+sphinx
+furo
+build
+twine

@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+mockwalkers/__init__.py
+mockwalkers/geometry.py
+mockwalkers/graphic.py
+mockwalkers/obstacle.py
+mockwalkers/solver.py
+mockwalkers/vdcalculator.py
+mockwalkers/walkers.py
+mockwalkers.egg-info/PKG-INFO
+mockwalkers.egg-info/SOURCES.txt
+mockwalkers.egg-info/dependency_links.txt
+mockwalkers.egg-info/requires.txt
+mockwalkers.egg-info/top_level.txt
+tests/test_solver.py
