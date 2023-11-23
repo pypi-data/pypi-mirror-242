@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: fhdw-modelling
+Version: 0.2.2
+Summary: A collection of modelling tools. Intended for generic usage in FHDW projects.
+License: MPL-2.0
+Author: Pascal Niggemeier
+Author-email: pascal.niggemeier@fhdw.de
+Requires-Python: >=3.11,<3.12
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: kaleido (==0.2.1)
+Requires-Dist: pycaret (>=3.2.0)
+Description-Content-Type: text/markdown
+
+# Modelling Tools
+
+This is a collection of modelling tools. It is intended as a project-independent package.
+
+# Contribution
+
+- Use the devcontainer.
+- Development utilities can be installed via `pipx`
+- `poetry` is used for packaging. See [`poetry publish`](https://python-poetry.org/docs/cli/#publish).
+
