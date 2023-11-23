@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+app/trianz/__init__.py
+app/trianz/generator.py
+app/trianz_generator.egg-info/PKG-INFO
+app/trianz_generator.egg-info/SOURCES.txt
+app/trianz_generator.egg-info/dependency_links.txt
+app/trianz_generator.egg-info/top_level.txt

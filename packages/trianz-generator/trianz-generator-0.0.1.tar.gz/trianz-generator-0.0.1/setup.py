@@ -1,0 +1,30 @@
+from setuptools import find_packages, setup
+
+setup(
+    name="trianz-generator",
+    version="0.0.1",
+    description="A generator that generates random email for Trianz",
+    long_description="",
+    long_description_content_type="text/markdown",
+    url="https://trianz.com",
+    author="Feroz",
+    author_email="mohammed.feroz@trianz.com",
+    platforms="any",
+    license="Apache License 2.0",
+    license_files=("LICENSE.txt",),
+    package_dir={"": "app"},
+    packages=find_packages(where="app"),
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "License :: OSI Approved :: Apache Software License",
+        "Operating System :: Microsoft :: Windows",
+        "Operating System :: MacOS :: MacOS X",
+        "Operating System :: POSIX :: Linux",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+    ],
+    install_requires=[],
+    python_requires=">=3.8",
+)
