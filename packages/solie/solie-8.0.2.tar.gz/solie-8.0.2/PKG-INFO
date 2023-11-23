@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: solie
+Version: 8.0.2
+Summary: Backtesting and auto-trading cryptos with intuitive GUI on Binance futures
+Home-page: https://github.com/cunarist/solie
+Author: Cunarist
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiodns (>=3.1.1,<4.0.0)
+Requires-Dist: aiofiles (>=23.2.1,<24.0.0)
+Requires-Dist: aiohttp (>=3.8.6,<4.0.0)
+Requires-Dist: apscheduler (>=3.10.4,<4.0.0)
+Requires-Dist: faust-cchardet (>=2.1.19,<3.0.0)
+Requires-Dist: getmac (>=0.8.3,<0.9.0)
+Requires-Dist: numpy (>=1.26.2,<2.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: pandas-ta (>=0.3.14b,<0.4.0)
+Requires-Dist: pygments (>=2.17.1,<3.0.0)
+Requires-Dist: pyperclip (>=1.8.2,<2.0.0)
+Requires-Dist: pyqtgraph (>=0.13.3,<0.14.0)
+Requires-Dist: pyside6 (>=6.6.0,<7.0.0)
+Requires-Dist: qasync (>=0.27.1,<0.28.0)
+Requires-Dist: scipy (>=1.11.3,<2.0.0)
+Requires-Dist: time-machine (>=2.13.0,<3.0.0)
+Requires-Dist: yapf (>=0.32.0,<0.33.0)
+Project-URL: Repository, https://github.com/cunarist/solie
