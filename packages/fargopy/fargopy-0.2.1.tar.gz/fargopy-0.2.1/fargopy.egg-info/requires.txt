@@ -1,0 +1,6 @@
+scipy
+matplotlib
+tqdm
+numpy
+ipython
+celluloid
