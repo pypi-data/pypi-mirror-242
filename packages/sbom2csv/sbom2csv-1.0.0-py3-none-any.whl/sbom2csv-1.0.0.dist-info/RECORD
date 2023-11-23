@@ -1,0 +1,8 @@
+sbom2csv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbom2csv/generate.py,sha256=RHHWX5IDJAHuEaQdXNOuGJMHuZWIbpozx82oF_QRFiE,1737
+sbom2csv-1.0.0.dist-info/LICENSE,sha256=LxwW3jsM-OW8mgzeCo4MuuwPmRUluZ9t6jYaysj9Ll4,11343
+sbom2csv-1.0.0.dist-info/METADATA,sha256=UczHQic03RXFI4DIXn7lUgpSIWdMFj9CG-UE3sCcfC0,835
+sbom2csv-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sbom2csv-1.0.0.dist-info/entry_points.txt,sha256=mxwjkD0zIDWGHLfYUJwfOB3iW-1Hq1qpwS1SCjIJCuE,53
+sbom2csv-1.0.0.dist-info/top_level.txt,sha256=6XUQ2iH1Tdk85XRYzcwKCF06QHxCbRiGAlCjgV-rt74,9
+sbom2csv-1.0.0.dist-info/RECORD,,
