@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: gptflow
+Version: 0.1
+Summary: A brief description of the gptflow package
+Home-page: https://github.com/Future-Mobility-Lab/gptflow
+Author: Artur Grigorev
+Author-email: grigorev.science@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
