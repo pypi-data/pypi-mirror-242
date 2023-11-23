@@ -1,0 +1,18 @@
+[project]
+name = "RDjango"
+version = "1.0.0"
+authors = [
+  { name="Wrya Mohammed", email="Wrya.Mohammed@rigt.com" },
+]
+description = "A base of our code that implement repository pattern."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com"
+Issues = "https://github.com"

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/main.py
+src/RDjango.egg-info/PKG-INFO
+src/RDjango.egg-info/SOURCES.txt
+src/RDjango.egg-info/dependency_links.txt
+src/RDjango.egg-info/top_level.txt
+src/rdjango/__init__.py
+src/rdjango/example.py
