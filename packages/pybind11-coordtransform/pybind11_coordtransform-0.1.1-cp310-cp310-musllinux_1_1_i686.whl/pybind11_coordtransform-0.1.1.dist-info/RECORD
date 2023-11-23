@@ -1,0 +1,10 @@
+pybind11_coordtransform/_core.cpython-310-i386-linux-gnu.so,sha256=hL6EUg1beuYYUoXXAXgCYic8PKn9VoE20KN9-kb4E3s,167253
+pybind11_coordtransform/__main__.py,sha256=Ta3oNGA5uB5dm0Ms5UX3omULxYITp3tAX9K_6wTVAKI,72
+pybind11_coordtransform/__init__.py,sha256=4bat966QooVJt-RKnF8-RpaqiICfUMCj-rcAxgt87Nk,486
+pybind11_coordtransform.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+pybind11_coordtransform.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+pybind11_coordtransform-0.1.1.dist-info/METADATA,sha256=dhpaVW5hlH1-b5jd0uJSzw5rhAnCTlBPe05ttrhR_kw,710
+pybind11_coordtransform-0.1.1.dist-info/RECORD,,
+pybind11_coordtransform-0.1.1.dist-info/WHEEL,sha256=Oa_6aIMmTY4R4U9o-eeMNBLugmgIrnh9v4z9D5nfkRY,114
+pybind11_coordtransform-0.1.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybind11_coordtransform-0.1.1.dist-info/licenses/LICENSE,sha256=SBNiCMUPOkN74CrKaGEJk1CNXzPemZ76Qsm106kwI1E,2182
