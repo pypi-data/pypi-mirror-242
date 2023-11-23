@@ -1,0 +1,10 @@
+matrixlib_jfj/__init__.py,sha256=78c_rRQkmS6xOJ1EMgEZYAvxiqP2NnrcR1sTg8ADLXY,1006
+matrixlib_jfj/__main__.py,sha256=9Cb8tTVWalMRBJCbugO_0mr-Ryt9pLMSnL4CUlGjToI,229
+matrixlib_jfj/matrix.py,sha256=3K07N4Ca9Ez8Ay0Upz8QxcNKpVTeohpDRw3PsNKng8U,14569
+matrixlib_jfj/utils.py,sha256=jTom-G4wGswyW-2q4eeVfe5tVXLbu-q4oXvtCR9fVrc,145
+matrixlib_jfj/vector.py,sha256=bha_Y2JWSEYLXI3H91wEs8NjB9wRMPE0uhHXTyyFbaU,224
+matrixlib_jfj-0.1.91.dist-info/LICENSE.md,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+matrixlib_jfj-0.1.91.dist-info/METADATA,sha256=eWGoQEGdFsElsnFk5sL4Xpg3PSamjTmK0C0YUEI_gdU,3537
+matrixlib_jfj-0.1.91.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+matrixlib_jfj-0.1.91.dist-info/top_level.txt,sha256=tT3DLyksAVikckOIqf7pw8cNLWKmvsWRZRvuAwIlM_8,14
+matrixlib_jfj-0.1.91.dist-info/RECORD,,
