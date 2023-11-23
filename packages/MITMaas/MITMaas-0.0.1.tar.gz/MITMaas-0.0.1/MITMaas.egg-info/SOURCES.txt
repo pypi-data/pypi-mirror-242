@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+MITMaas/__init__.py
+MITMaas.egg-info/PKG-INFO
+MITMaas.egg-info/SOURCES.txt
+MITMaas.egg-info/dependency_links.txt
+MITMaas.egg-info/top_level.txt
