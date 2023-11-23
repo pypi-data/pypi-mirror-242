@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: zato-ext-python-tds
+Version: 1.11.2
+Summary: A vendor copy of python-tds.
+Home-page: https://zato.io
+Author: Zato Source
+Author-email: info@zato.io
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+License-File: LICENSE.txt
+
+UNKNOWN
+
