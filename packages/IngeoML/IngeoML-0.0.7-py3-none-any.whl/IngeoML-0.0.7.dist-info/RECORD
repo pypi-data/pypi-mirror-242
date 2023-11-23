@@ -1,0 +1,12 @@
+IngeoML/__init__.py,sha256=PGLMlsubtOzeLHFLUxKr30ZC6_aOmug0QiMfwZ3kfA4,696
+IngeoML/bootstrap.py,sha256=GuCY4ejUlZVKZKaAnuAPIVWcDvg8URQOA16PXHPZ7JU,8961
+IngeoML/cluster.py,sha256=gnT338q_HmyHFyV5adRfYA7H2B4J3u4wbAOBW7rrE2s,1298
+IngeoML/feature_selection.py,sha256=D3CXKBPkP6hcaNRDOGM6xCnmXKQGNlBZVHIrIjq0KkI,5099
+IngeoML/tests/__init__.py,sha256=T6VfCef2CozpJJRJSJd4XIGWy2SVyiQ27fggyhKV7WM,580
+IngeoML/tests/test_bootstrap.py,sha256=EHENi-HKAB0VOZU5uhdSJlzBEfc_d3vp19pzkvaJARk,2758
+IngeoML/tests/test_feature_selection.py,sha256=ZP9uenTMkJTqbenx-7JSPHrmWhiC1KD3b84WNMcLTVo,1773
+IngeoML-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+IngeoML-0.0.7.dist-info/METADATA,sha256=j3NdiS4YWuVnzL9fyMv-SN1GqLivtXmB_9yOVgFeftM,131
+IngeoML-0.0.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+IngeoML-0.0.7.dist-info/top_level.txt,sha256=P_ab82AmCw6O6vzv0C_xrTZBAa7Y-gjYND83OZ1Xf5k,8
+IngeoML-0.0.7.dist-info/RECORD,,
