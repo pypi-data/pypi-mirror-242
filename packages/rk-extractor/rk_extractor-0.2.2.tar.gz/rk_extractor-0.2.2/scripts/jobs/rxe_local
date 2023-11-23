@@ -1,0 +1,81 @@
+#!/usr/bin/env python3
+
+import subprocess
+import argparse
+import shutil
+import glob
+import os
+
+from logzero import logger as log
+
+#----------------------------
+class data:
+    jobid   = None
+    nfits   = None
+    sandbox = None
+    dset    = None
+#----------------------------
+def get_args():
+    parser = argparse.ArgumentParser(description='Used to test locally jobs for rx_extractor toy fits')
+    parser.add_argument('-i', '--jobid'   , type=int, help='Job id', default=0)
+    parser.add_argument('-n', '--nfits'   , type=int, help='Number of fits per job', default=1)
+    parser.add_argument('-s', '--sandbox' , type=str, help='Path to sandbox, used to run job', default='/tmp/extractor_local_test')
+    parser.add_argument('-d', '--dset'    , type=str, help='Space separated list of datasets') 
+    args = parser.parse_args()
+
+    data.jobid   = args.jobid
+    data.nfits   = args.nfits
+    data.sandbox = f'{args.sandbox}_{data.jobid:03}_{data.nfits:03}'
+    data.dset    = args.dset
+
+    try:
+        os.makedirs(data.sandbox, exist_ok=True)
+    except:
+        log.error(f'Cannot make sandbox: {data.sandbox}')
+        raise
+#----------------------------
+def copy_files():
+    ext_dir = os.environ['EXTDIR']
+
+    l_tarball = glob.glob(f'{ext_dir}/*.tar.gz')
+    if len(l_tarball) != 3:
+        log.error(f'Wrong number of tarballs: {l_tarball}')
+        raise
+
+    l_script = ['rxe_toys', 'rxe_run_toys']
+    l_file   = l_script + l_tarball
+    for file_path in l_file:
+        file_name = os.path.basename(file_path)
+        shutil.copyfile(file_path, f'{data.sandbox}/{file_name}')
+
+    for script in l_script:
+        subprocess.run(['chmod', '+x', f'{data.sandbox}/{script}'] )
+#----------------------------
+def run():
+    if data.dset is None:
+        l_command = ['./rxe_run_toys']
+    else:
+        l_command = ['./rxe_run_toys', '-d', data.dset]
+
+    log.info(f'Running: {l_command}')
+
+    stat = subprocess.run(l_command)
+    if stat.returncode != 0:
+        log.error(f'Process returned exit status: {stat.returncode}')
+        raise
+#----------------------------
+def make_seeds():
+    with open(f'{data.jobid}.sd', 'w') as ofile:
+        for i_fit in range(data.nfits):
+            seed = i_fit + 1000 * data.jobid
+            ofile.write(f'{seed}\n')
+#----------------------------
+def main():
+    get_args()
+    copy_files()
+    os.chdir(data.sandbox)
+    make_seeds()
+    run()
+#----------------------------
+if __name__ == '__main__':
+    main()
