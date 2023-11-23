@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rai-chem
+Version: 0.0.4
+Home-page: https://github.com/vtarasv/rai-chem.git
+Download-URL: https://github.com/vtarasv/rai-chem/archive/refs/tags/0.0.4.tar.gz
+Author: vtarasv
+Author-email: taras.voitsitskyi@receptor.ai
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE

@@ -1,0 +1,5 @@
+tqdm
+numpy
+pandas
+scipy
+rdkit-pypi==2022.9.1
