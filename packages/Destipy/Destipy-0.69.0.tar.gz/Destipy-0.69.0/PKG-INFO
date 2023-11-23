@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Destipy
+Version: 0.69.0
+Summary: Asynchronous Python Wrapper for the Bungie API
+Author-email: Sedam <sedam.code@gmail.com>
+Keywords: bungie,destiny,async,wrapper,api
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp>=3.7.4
