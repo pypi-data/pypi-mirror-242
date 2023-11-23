@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+best_profanity/__init__.py
+best_profanity/best_profanity.py
+best_profanity.egg-info/PKG-INFO
+best_profanity.egg-info/SOURCES.txt
+best_profanity.egg-info/dependency_links.txt
+best_profanity.egg-info/requires.txt
+best_profanity.egg-info/top_level.txt
+tests/test_profanity_check.py
