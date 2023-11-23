@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+unicorn_binance_local_depth_cache/__init__.c
+unicorn_binance_local_depth_cache/exceptions.c
+unicorn_binance_local_depth_cache/manager.c
+unicorn_binance_local_depth_cache.egg-info/PKG-INFO
+unicorn_binance_local_depth_cache.egg-info/SOURCES.txt
+unicorn_binance_local_depth_cache.egg-info/dependency_links.txt
+unicorn_binance_local_depth_cache.egg-info/requires.txt
+unicorn_binance_local_depth_cache.egg-info/top_level.txt
