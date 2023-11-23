@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peracotta"
+dynamic = ["version"]
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3.10",
+  "Environment :: X11 Applications :: Qt",
+  "License :: OSI Approved :: MIT License",
+]
+
+dependencies = [
+  "certifi==2023.11.17",
+  "chardet==4.0.0",
+  "colorama==0.4.4",
+  "commonmark==0.9.1",
+  "idna==2.10",
+  "Pygments==2.8.1",
+  "PyQt6==6.6.0",
+  "pytarallo>=2.3.0",
+  "python-dotenv==0.17.0",
+  "requests==2.25.1",
+  "rich==9.13.0",
+  "typing-extensions==3.7.4.3",
+  "urllib3==1.26.5",
+  "loguru==0.7.2",
+]
+
+[project.optional-dependencies]
+gui = ["PyQt6"]
+dev = [
+  "attrs==19.3.0",
+  "fuzzywuzzy==0.18.0",
+  "importlib-metadata==2.0.0",
+  "iniconfig==1.1.1",
+  "more-itertools==8.0.2",
+  "packaging==23.2",
+  "pluggy==0.13.1",
+  "py==1.11.0",
+  "pyparsing==2.4.6",
+  "pytest==6.2.5",
+  "pytest-qt==4.0.2",
+  "six==1.13.0",
+  "toml==0.10.2",
+  "wcwidth==0.1.7",
+  "zipp==3.3.1",
+  "black==23.11.0",
+]
+
+[project.scripts]
+peracruda = "peracotta:main_cli"
+
+[project.gui-scripts]
+peracotta = "peracotta:main_gui"
+
+[tool.setuptools.package-dir]
+peracotta = "peracotta/src"
+
+[tool.setuptools.dynamic]
+version = { attr = "peracotta.constants.VERSION" }
+
+[tool.black]
+line-length = 160
