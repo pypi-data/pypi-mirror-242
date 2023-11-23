@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: VeloVGI
+Version: 0.0.5
+Summary: Graph Variational Autoencoder for scRNA-seq velocity
+Home-page: https://github.com/HuangDDU/velovgi_workstation
+Author: HuangDDU
+Author-email: hzy554598474@163.com
+License-File: LICENSE
