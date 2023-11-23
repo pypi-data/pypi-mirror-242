@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cotd-stats-visualiser
+Version: 0.0.1a2
+Summary: A script that generates a visualisation of the Trackmania COTD stats for a given player.
+Home-page: https://github.com/EdVraz/COTDStatsVisualiser
+Author: EdVraz
+Author-email: edvraz12@gmail.com
+License: LICENSE
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: orjson
+Requires-Dist: pandas
+Requires-Dist: ratelimiter
+Requires-Dist: requests
+Requires-Dist: setuptools>=61.0
+
+# THIS IS A WIP
+
+soon more information, but basically this will give you a plot for COTD stats for you (or other players) from the game
+Trackmania 2020.
