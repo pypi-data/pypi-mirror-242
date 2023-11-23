@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+algorithms/__init__.py
+algorithms/socialprograms.py
+socialprograms.egg-info/PKG-INFO
+socialprograms.egg-info/SOURCES.txt
+socialprograms.egg-info/dependency_links.txt
+socialprograms.egg-info/requires.txt
+socialprograms.egg-info/top_level.txt
