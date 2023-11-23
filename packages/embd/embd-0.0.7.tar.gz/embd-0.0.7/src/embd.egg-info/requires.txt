@@ -1,0 +1,5 @@
+pytest
+sentence_transformers
+is_instance
+assure
+mmry>=0.0.4
