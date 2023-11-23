@@ -1,0 +1,10 @@
+cd_rss_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cd_rss_reader/rss_reader.py,sha256=AY0ne_Kt1rXUeJcepdUymmjxziAzgcA0orSBHdNq48Y,2303
+cd_rss_reader/version.py,sha256=ry5O5SW74ugwOUMKSV2_LbWjYa8B0IEvUm7S-lHPA2c,23
+cd_rss_reader/Examples/example.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cd_rss_reader-0.0.1.dist-info/LICENSE.md,sha256=xXPRashrI0cnQQXx2q4Ypb5FmNlRGcJx0D2iCSTOGls,1100
+cd_rss_reader-0.0.1.dist-info/LICENSE.txt,sha256=xXPRashrI0cnQQXx2q4Ypb5FmNlRGcJx0D2iCSTOGls,1100
+cd_rss_reader-0.0.1.dist-info/METADATA,sha256=62StaZrEDir3Gd_aTP08uXID7_8cN26Xu_74vxxIWFE,3002
+cd_rss_reader-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cd_rss_reader-0.0.1.dist-info/top_level.txt,sha256=agUu1Qphd4GJW4rzv37hO106OoMNMsIVu7LMD36n2Eo,14
+cd_rss_reader-0.0.1.dist-info/RECORD,,
