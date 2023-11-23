@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: sizes-cli
+Version: 0.2.1
+Summary: 
+Author: Yuki Nagato
+Author-email: 37764578+YUKI2eN3e@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: all
+Provides-Extra: completions
+Provides-Extra: rich
+Requires-Dist: argcomplete (>=3.1.2,<4.0.0) ; extra == "completions" or extra == "all"
+Requires-Dist: rich-argparse (>=1.4.0,<2.0.0) ; extra == "rich" or extra == "all"
+Description-Content-Type: text/markdown
+
+# Sizes 
+Get File/Directory sizes in the terminal.
+
+## Install
+```bash
+pipx install "sizes-cli[all]"
+```
+
+OR
+
+```bash
+git clone https://github.com/YUKI2eN3e/sizes.git
+cd sizes
+just install
+```
+
+![sizes --help](img/help.svg)
