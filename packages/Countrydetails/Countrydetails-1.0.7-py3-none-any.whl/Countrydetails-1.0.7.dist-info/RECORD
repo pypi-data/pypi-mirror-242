@@ -1,0 +1,15 @@
+Countrydetails/__init__.py,sha256=kTJpq1thWO73tyR61R_wXbOjd4Zb6eO_RAgwe-Q7gI0,211
+Countrydetails/cli.py,sha256=MF5RG2zHScEqU6hZy8xuW29Whe8AfRmKxYvW40Rj8tU,539
+Countrydetails/countries.py,sha256=cBwMeAnDcCJe0r4evtacyvz1DliQhdNaaAG6WunNTUo,13834
+Countrydetails/country.py,sha256=OmwbBqZZ98mrdO2XQDYbBChK-cRM0vx0YlOhcHy3p60,40790
+Countrydetails/test.py,sha256=A15RsBX6glZcl14Oa_fSvBhswbVm4B79iFjSCYoB1TQ,489
+Countrydetails/version.py,sha256=A2hyo7so0ekhMgLqX7oCoQZq9eN8grvMFanPPMDXD7w,22
+Countrydetails/cli_dir/__init__.py,sha256=IPo-yaDBmlJewhU3wHsxzgIfvsk9OdD8fD1MgaPcsHM,59
+Countrydetails/cli_dir/banner.py,sha256=d5Au3lSgFifD8opXRn8sEFg248myS0ljr419HtmlF6g,1913
+Countrydetails/cli_dir/colors.py,sha256=T7Fg72861ENELBW7nYAqB1hrpy5puP4WGgRDxr3pGWg,310
+Countrydetails-1.0.7.dist-info/LICENSE,sha256=1oM5v4RXqY8Hmt-2jOZxSKjgYR5kWH0P3pTTCqBuR_E,1062
+Countrydetails-1.0.7.dist-info/METADATA,sha256=QVkEN6IyWKHDqM95XEdG5vBQ80SCYs5SDfHgkospJ0Q,21008
+Countrydetails-1.0.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+Countrydetails-1.0.7.dist-info/entry_points.txt,sha256=QbnHfuSebfnRWrST9cIjT5RoTaCFHc9dju8qSKThq0s,60
+Countrydetails-1.0.7.dist-info/top_level.txt,sha256=ia23gXNWdd5UwGRwVFaW0EN4-3Bn0cw5iB6FHo6j4ys,15
+Countrydetails-1.0.7.dist-info/RECORD,,
