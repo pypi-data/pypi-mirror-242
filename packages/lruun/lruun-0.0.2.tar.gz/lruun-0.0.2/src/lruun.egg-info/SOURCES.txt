@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/lruun/__init__.py
+src/lruun.egg-info/PKG-INFO
+src/lruun.egg-info/SOURCES.txt
+src/lruun.egg-info/dependency_links.txt
+src/lruun.egg-info/requires.txt
+src/lruun.egg-info/top_level.txt
+src/lruun/tf/__init__.py
+src/lruun/tf/geglu.py
+src/lruun/tf/linear_recurrent_unit.py
+tests/tests.py
