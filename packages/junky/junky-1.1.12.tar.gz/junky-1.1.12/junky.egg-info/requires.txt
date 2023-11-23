@@ -1,0 +1,9 @@
+corpuscula>=1.0.56
+gensim
+matplotlib
+numpy
+pandas
+seaborn
+scikit-learn
+torch>=1.8.0
+transformers>=4.3.3
