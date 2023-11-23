@@ -1,0 +1,10 @@
+feagi_agent_video_capture/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feagi_agent_video_capture/__main__.py,sha256=KTlO6ZB5ZvJGt1150MSMB5u3GD4suNLxmNh697e8aCE,2678
+feagi_agent_video_capture/configuration.py,sha256=NlfEpD4Nbu_ddsq2zE255DsaLTgUctJ-E9WPClmD0lY,1863
+feagi_agent_video_capture/controller.py,sha256=qt7WEf4LLz9gzgDX_yUbXrH0KAUDdaG2v20-TPCEzD8,8591
+feagi_agent_video_capture/version.py,sha256=PKVoPNNz1cdBQnytztS-SqrJZ_ypRMtANXvQ-mv2hEI,27
+feagi_agent_video_capture-0.0.7.dist-info/LICENSE,sha256=3t98W7Lkk6Wb-Q6WnLoN27XYIMlSMYYSL_JfPf2Tjg0,11344
+feagi_agent_video_capture-0.0.7.dist-info/METADATA,sha256=HxWeYOgbgaoPezPTT4na11KR3ppNE7_-SeWSnPEalGY,2902
+feagi_agent_video_capture-0.0.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+feagi_agent_video_capture-0.0.7.dist-info/top_level.txt,sha256=aplPEalH3s4KkOc0gz6jinUFyAGA0oqB7hVCaDDILao,26
+feagi_agent_video_capture-0.0.7.dist-info/RECORD,,
