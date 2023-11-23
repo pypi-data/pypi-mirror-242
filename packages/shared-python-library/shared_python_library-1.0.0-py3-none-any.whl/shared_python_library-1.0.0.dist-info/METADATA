@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: shared-python-library
+Version: 1.0.0
+Summary: # airtech-shared-python-library
+Author: airtech
+Keywords: shared,library,postgres
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: psycop2
+
+# airtech-shared-python-library
+
+## DescriÃ§Ã£o
+
+O airtech-shared-python-library Ã© um projeto de biblioteca compartilhada que oferece funcionalidades especÃ­ficas, com suporte para PostgreSQL por meio de um adaptador dedicado.
+
+## Requisitos
+
+- Python
+- PostgreSQL
+
+## InstalaÃ§Ã£o
+
+Certifique-se de ter o Python e o PostgreSQL instalados no seu ambiente. Em seguida, execute os seguintes comandos:
+
+```bash
+pip install airtech-shared-python-library
+```
+
+## ConfiguraÃ§Ã£o do Adaptador PostgreSQL
+
+Para utilizar o adaptador PostgreSQL, Ã© necessÃ¡rio configurar as informaÃ§Ãµes de conexÃ£o. Aqui estÃ¡ um exemplo de como configurar o adaptador no seu cÃ³digo Python:
+
+```python
+from airtech_shared_python_library.adaptadores import PostgreSQLConnection
+
+# ConfiguraÃ§Ã£o do adaptador PostgreSQL
+conexao_postgres = PostgreSQLConnection(
+    host='localhost',
+    port=5432,
+    database='seu_banco_de_dados',
+    user='seu_usuario',
+    password='sua_senha'
+)
+```
+
+Lembre-se de substituir as informaÃ§Ãµes acima pelos detalhes especÃ­ficos do seu ambiente.
+
+## Uso do Adaptador PostgreSQL
+
+Agora que o adaptador estÃ¡ configurado, vocÃª pode usÃ¡-lo para realizar consultas no banco de dados PostgreSQL. Aqui estÃ¡ um exemplo bÃ¡sico:
+
+```python
+# Exemplo de uso do adaptador PostgreSQL
+with conexao_postgres as conexao:
+    cursor = conexao.create_cursor()
+    resultado = conexao.execute_query("SELECT * FROM sua_tabela;")
+    for linha in resultado.fetchall():
+        print(linha)
+```
+
+## ContribuiÃ§Ã£o
+
+Se vocÃª quiser contribuir para este projeto, siga estas etapas:
+
+- Fork do projeto
+- Crie uma nova branch (git checkout -b feature/nova-feature)
+- FaÃ§a commit das suas alteraÃ§Ãµes (git commit -m 'Adicionar nova feature')
+- FaÃ§a push para a branch (git push origin feature/nova-feature)
+- Abra um pull request
