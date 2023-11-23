@@ -1,0 +1,9 @@
+name: test
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  test: 
+    uses: ./.github/workflows/_template.test.yaml
