@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bytecrafters
+Version: 8.3.1
+Summary: Miscellaneous Utilities and libraries
+Author-email: Matteo Pi <thx.1138@inwind.it>
+License-File: LICENSE
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+
+# Bytecrafters
+
+[![PyPI Version](https://img.shields.io/pypi/v/bytecrafters.svg)](https://pypi.org/project/bytecrafters/)
+[![License](https://img.shields.io/pypi/l/bytecrafters.svg)](https://opensource.org/licenses/MIT)
+[![Python Versions](https://img.shields.io/pypi/pyversions/bytecrafters.svg)](https://pypi.org/project/bytecrafters/)
+
+## Abstract
+
+This project has been DECOMMISSIONED on Nov. 22, 2023.
+
+Bytecrafters was a package containing various utilities and libraries, which were renamed/moved:
+
+- Signal Analyzer (now: [Wave Cracker](https://pypi.org/project/wavecracker))
