@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: discord-ext-ipcx
+Version: 0.0.1
+Summary: Maintained and updated version of discord-ext-ipc for discord.py
+License: Apache-2.0
+Author: No767
+Author-email: 73260931+No767@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: discord-py (>=2,<3)
+Description-Content-Type: text/markdown
+
+# discord-ext-ipcx
