@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pickpock
+Version: 0.1.2
+Summary: A re-implementation of Deen Freelon's pyktok
+Author: Pascal Jürgens
+Author-email: juergens@uni-trier.de
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: browser-cookie3 (>=0.19.1,<0.20.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: selectolax (>=0.3.17,<0.4.0)
+Description-Content-Type: text/markdown
+
+# pickpock
+
+This is a slightly cleaned up re-implementation of Deen Freelon's pyktok library for scraping TikTok metadata
+
+I've removed heavy dependencies (numpy, pandas), modernized cookie handling (with request sessions) and modularized the code.
+
+To scrape TikTok metadata, first provide a firefox or chrome cookie database and use the generic dispatch functions:
+
+```python
+import pickpock 
+
+# the library always returns generators
+results = pickpock.fetch("<some_url>")
+# there are two convenience functions for writing either raw metadata as jsonlines
+for video in pickpock.fetch("<some_url>"):
+    pickpock.write_json(video)
+# or to write a csv similar to the original pyktok
+for video in pickpock.fetch("<some_url>"):
+    pickpock.write_csv(video)
+```
