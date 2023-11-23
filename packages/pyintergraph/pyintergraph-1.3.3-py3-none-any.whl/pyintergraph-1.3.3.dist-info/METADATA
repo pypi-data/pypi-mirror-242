@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pyintergraph
+Version: 1.3.3
+Summary: Convert Python-Graph-Objects between networkx, python-igraph and graph-tools.
+Home-page: https://github.com/luerhard/pyintergraph
+License: MIT
+Author: Lukas Erhard
+Author-email: luerhard@googlemail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Provides-Extra: net
+Provides-Extra: networkx
+Provides-Extra: python-igraph
+Requires-Dist: networkx (>=2.4) ; extra == "networkx" or extra == "net"
+Requires-Dist: numpy (>=1.18) ; python_version < "3.12"
+Requires-Dist: numpy (>=1.26) ; python_version >= "3.12"
+Requires-Dist: python-igraph (>=0.8) ; extra == "python-igraph" or extra == "net"
+Project-URL: Repository, https://github.com/luerhard/pyintergraph
+Description-Content-Type: text/markdown
+
+# pyintergraph
+
+Convert Python-Graph-Objects between networkx, python-igraph and graph-tool. 
+
+# Installation 
+This package can be installed via:
+```
+pip install pyintergraph
+```
+For the note on imports and dependencies, see the section at the bottom of the page. 
+
+# Usage
+
+```python
+import networkx as nx
+import pyintergraph
+
+nx_graph = nx.karate_club_graph()
+
+graph_tool_graph = pyintergraph.nx2gt(nx_graph, labelname="node_label")
+igraph_graph = pyintergraph.gt2igraph(graph_tool_graph, labelname="node_label")
+reversed_nx_graph = pyintergraph.igraph2nx(igraph_graph)
+
+# or
+
+Graph = pyintergraph.InterGraph.from_networkx(nx_graph)
+graph_tool_graph = Graph.to_graph_tool(labelname="node_label")
+igraph_graph = Graph.to_igraph()
+reversed_nx_graph = Graph.to_networkx()
+
+assert list(nx_graph.nodes(data=True)) == list(reversed_nx_graph.nodes(data=True))
+assert list(nx_graph.edges(data=True)) == list(reversed_nx_graph.edges(data=True))
+assert type(nx_graph) == type(reversed_nx_graph)
+```
+
+## A note on imports and dependencies
+
+Because the installation of python-igraph and graph_tool can be tricky, they are not set as required dependencies for this package. As not everyone has all three packages installed, imports happen just when the two functions of interest are called. That way it is possible to convert networkX-Graphs to igraph-Graphs even when graph_tool is not installed.
+
