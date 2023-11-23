@@ -1,0 +1,1 @@
+from colorem._version import __version__

@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/colorem/__init__.py
+src/colorem/_version.py
+src/colorem/classes.py
+src/colorem/setup.py
+src/colorem.egg-info/PKG-INFO
+src/colorem.egg-info/SOURCES.txt
+src/colorem.egg-info/dependency_links.txt
+src/colorem.egg-info/top_level.txt
