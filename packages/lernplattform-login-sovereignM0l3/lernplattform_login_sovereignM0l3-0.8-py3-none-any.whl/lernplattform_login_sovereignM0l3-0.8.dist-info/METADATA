@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: lernplattform-login-sovereignM0l3
+Version: 0.8
+Summary: loggt dich ein und startet die zeiterfassung, bzw stoppt die zeiterfassung
+Author-email: sovereignM0le <jhv83f27yhsdhfkwl3hgsadfg@proton.me>
+Project-URL: Homepage, https://github.com/sovereignM0l3/lernplattformInteractions
+Project-URL: Issues, https://github.com/sovereignM0l3/lernplattformInteractions/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.'
+
+`testCode`
+``testCode``
+
+    codeblock
