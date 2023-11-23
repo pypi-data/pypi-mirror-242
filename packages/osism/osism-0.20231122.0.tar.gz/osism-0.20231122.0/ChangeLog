@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.20231122.0
+-------------
+
+* chore(deps): update dependency celery to v5.3.6 (#696)
