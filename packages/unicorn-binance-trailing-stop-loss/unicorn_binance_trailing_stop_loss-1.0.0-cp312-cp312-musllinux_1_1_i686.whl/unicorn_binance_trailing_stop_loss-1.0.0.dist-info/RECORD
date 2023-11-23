@@ -1,0 +1,9 @@
+unicorn_binance_trailing_stop_loss-1.0.0.dist-info/top_level.txt,sha256=M426uwMZuRFB4judilRMFRqAGXtUX4f9ejPIoyYw6Bk,35
+unicorn_binance_trailing_stop_loss-1.0.0.dist-info/WHEEL,sha256=xSsrtqppTNWGYq463zG3F-8Ocis922N13V_M_lXTGJ4,111
+unicorn_binance_trailing_stop_loss-1.0.0.dist-info/entry_points.txt,sha256=RAB_5REfSe3zkxXj2kZBPt-Q7g9vUvd90k9V9-VLj2s,70
+unicorn_binance_trailing_stop_loss-1.0.0.dist-info/METADATA,sha256=A8oEEl-ipI2AMMVin1e4vc6bFJbqrUguR0ktjynwvw4,26564
+unicorn_binance_trailing_stop_loss-1.0.0.dist-info/LICENSE,sha256=CMGm-miM6dDRyi8i5F2oUQcg-zx50Ss1rvk82UIdaBg,4267
+unicorn_binance_trailing_stop_loss-1.0.0.dist-info/RECORD,,
+unicorn_binance_trailing_stop_loss/__init__.cpython-312-i386-linux-musl.so,sha256=uqwVGSF1LENY2pLBZ-Ob0Ba8oMjnDKxbFe-yCBNsrFk,76424
+unicorn_binance_trailing_stop_loss/manager.cpython-312-i386-linux-musl.so,sha256=rhP8OXhv0PyrqV_skiHL-QsrBAi4DmmBWDFOu3blsuo,3366908
+unicorn_binance_trailing_stop_loss/cli.cpython-312-i386-linux-musl.so,sha256=H67LaqoM04H7h-7G6eZ8gXndl2R26eFEpTxKBYuHZvU,1749588
