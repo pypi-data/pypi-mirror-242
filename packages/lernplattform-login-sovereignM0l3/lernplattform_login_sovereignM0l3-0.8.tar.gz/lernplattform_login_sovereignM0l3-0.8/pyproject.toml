@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0","mechanize","bs4","urllib3","cookiejar"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lernplattform_login_sovereignM0l3"
+version = "0.8"
+authors = [
+  { name="sovereignM0le", email="jhv83f27yhsdhfkwl3hgsadfg@proton.me" },
+]
+description = "loggt dich ein und startet die zeiterfassung, bzw stoppt die zeiterfassung"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/sovereignM0l3/lernplattformInteractions"
+Issues = "https://github.com/sovereignM0l3/lernplattformInteractions/issues"

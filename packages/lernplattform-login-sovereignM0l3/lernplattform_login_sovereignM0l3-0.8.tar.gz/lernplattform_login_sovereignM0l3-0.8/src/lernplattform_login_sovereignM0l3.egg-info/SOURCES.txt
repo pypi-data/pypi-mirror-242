@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/lernplattform_login_sovereignM0l3.egg-info/PKG-INFO
+src/lernplattform_login_sovereignM0l3.egg-info/SOURCES.txt
+src/lernplattform_login_sovereignM0l3.egg-info/dependency_links.txt
+src/lernplattform_login_sovereignM0l3.egg-info/top_level.txt
