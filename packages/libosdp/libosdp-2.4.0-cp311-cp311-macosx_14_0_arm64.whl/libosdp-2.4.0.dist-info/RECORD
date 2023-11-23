@@ -1,0 +1,11 @@
+osdp_sys.cpython-311-darwin.so,sha256=YhVhPcz2HLdnmLBo-uCZyrd7EwFovgXqyi27pOqh_Ao,188800
+osdp/__init__.py,sha256=hWOnzOnINCWN_Oh5KvYZrQ9xvr0_jdRCA6-v97AhPnA,599
+osdp/constants.py,sha256=0mxiqqGrNge5gp9094-kExOjdncpeisztHH5Lnt-1Rs,2280
+osdp/control_panel.py,sha256=0osD7zxQDanPqy_ghoVr_0AQHDvAFFW2gaQl_hUakXA,5490
+osdp/helpers.py,sha256=4WVn4isYvjLWItabEtHYSK01TiCYZyBzO4Y9tJ_f1_k,2426
+osdp/key_store.py,sha256=ty0fzk0ge-KOzbhz26wID9uZGOGwNDVsBD7NQQmDIN0,1834
+osdp/peripheral_device.py,sha256=bYdinz1rTWnZQ-O4gQfl8lJt6PuYwIuz7TKvNvD0EsA,2424
+libosdp-2.4.0.dist-info/METADATA,sha256=9MbcOM1k98ZkjK1kLsw7wrljSkUzLZoEAzgs9Z_4OhU,3367
+libosdp-2.4.0.dist-info/WHEEL,sha256=HWYX263JeAjyVv057HbcELWrJCfjqgjaP_5I-d5jo6M,110
+libosdp-2.4.0.dist-info/top_level.txt,sha256=N-WLeQq6NGZMX7FpCcGVHnrUXx2gITbCyPAqenbnWGg,14
+libosdp-2.4.0.dist-info/RECORD,,
