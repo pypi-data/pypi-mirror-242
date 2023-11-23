@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/rectset/__init__.py
+src/rectset/pseudopotential.py
+src/rectset/rectangle_electrode.py
+src/rectset.egg-info/PKG-INFO
+src/rectset.egg-info/SOURCES.txt
+src/rectset.egg-info/dependency_links.txt
+src/rectset.egg-info/requires.txt
+src/rectset.egg-info/top_level.txt
+tests/test_rectset.py

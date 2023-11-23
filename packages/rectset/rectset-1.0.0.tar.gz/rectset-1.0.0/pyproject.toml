@@ -1,0 +1,29 @@
+[project]
+name = "rectset"
+version = "1.0.0"
+authors = [
+  { name = "Carmelo Mordini", email = "carmelo.mordini@gmail.com" },
+]
+description = "Analytical potentials for rectangle electrodes in a surface ion trap"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["python", "trapped ions", "surface electrodes", "SET", "ion trap", "quantum computing"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research"
+]
+
+requires-python = ">=3.8"
+dependencies = [
+  "numpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/carmelom/rectset"
+
+[build-system]
+requires = ["setuptools>=68.1.0"]
+build-backend = "setuptools.build_meta"
