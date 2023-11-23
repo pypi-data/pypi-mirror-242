@@ -1,0 +1,14 @@
+pyez_stats/__init__.py,sha256=tQjN18lorpGgNvlqkX34sRsOVaD7m1d7qAn9bu8WM7U,1565
+pyez_stats/bayesian_statistics.py,sha256=W2kqyy3lfADnkKqyNbbvb-nEUQK64h7NBpw_FomJR8I,24448
+pyez_stats/confidence_interval.py,sha256=procl4Uslt1R9O5TT4PqOYDXBk2cokccWpqyneXb7IU,8771
+pyez_stats/data.py,sha256=fOt8AH8HaZbyzNMPT7GqXt4nPAddOLsw87rLcc1wOXc,9982
+pyez_stats/distributions.py,sha256=5tEKi6pfws1_-CydbolxktEGnU5PnWmFCN534rwA5nA,55976
+pyez_stats/hypothesis_testing.py,sha256=sJOed0cizHsMHfpVXapP8QPra2fdLgygUxyc4TDd-EU,19833
+pyez_stats/likelihoods.py,sha256=Zk42RnUKAfdwWlFa5mcSSoZdXO8N9-dKDZc7D1AK6z0,12645
+pyez_stats/pca.py,sha256=kwOyYmDEyiToCkhljVhOpFjo3iUY_hYtqa5xsW9v_5w,3074
+pyez_stats/regression.py,sha256=90frgbDOIN4Z2EWT2suQ78j3FktktkbzAtqLgXnKqXg,20884
+pyez_stats/statistic.py,sha256=B-33_TRkXoilgScTq3_KSTjlzgKH54nv5-GgvNkwlQ8,5532
+pyez_stats-0.1.1.dist-info/METADATA,sha256=nCOIQk0gU13T_kSADGMJOxm4ha3-53rjGN_BKLVSMmo,2649
+pyez_stats-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyez_stats-0.1.1.dist-info/top_level.txt,sha256=qD_yPaIL0eh2YwdQgXmgzK1E1qqrGjCuh4kpopLF9Mc,11
+pyez_stats-0.1.1.dist-info/RECORD,,
