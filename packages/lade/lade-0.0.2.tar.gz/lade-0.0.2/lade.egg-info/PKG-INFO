@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: lade
+Version: 0.0.2
+Summary: Lookahead Decoding Implementation
+Home-page: https://github.com/hao-ai-lab/LookaheadDecoding.git
+Author: Fu Yichao
+Author-email: yichaofu2000@outlook.com
+License: Apache-2
