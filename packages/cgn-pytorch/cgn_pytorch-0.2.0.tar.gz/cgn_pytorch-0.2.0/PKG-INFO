@@ -1,0 +1,337 @@
+Metadata-Version: 2.1
+Name: cgn-pytorch
+Version: 0.2.0
+Summary: Pytorch implementation of Contact Graspnet
+License: MIT
+Keywords: artificial intelligence,deep learning,grasping,robotics
+Author: Sebastian Peralta
+Author-email: peraltas@seas.upenn.edu
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: absl-py (==2.0.0)
+Requires-Dist: asttokens (==2.4.1)
+Requires-Dist: cachetools (==5.3.2)
+Requires-Dist: certifi (==2023.11.17)
+Requires-Dist: charset-normalizer (==3.3.2)
+Requires-Dist: decorator (==5.1.1)
+Requires-Dist: exceptiongroup (==1.2.0)
+Requires-Dist: executing (==2.0.1)
+Requires-Dist: filelock (==3.13.1)
+Requires-Dist: freetype-py (==2.4.0)
+Requires-Dist: fsspec (==2023.10.0)
+Requires-Dist: google-auth (==2.23.4)
+Requires-Dist: google-auth-oauthlib (==1.1.0)
+Requires-Dist: grpcio (==1.59.3)
+Requires-Dist: idna (==3.4)
+Requires-Dist: imageio (==2.33.0)
+Requires-Dist: importlib-resources (==6.1.1)
+Requires-Dist: ipython (==8.17.2)
+Requires-Dist: jedi (==0.19.1)
+Requires-Dist: jinja2 (==3.1.2)
+Requires-Dist: joblib (==1.3.2)
+Requires-Dist: markdown (==3.5.1)
+Requires-Dist: markupsafe (==2.1.3)
+Requires-Dist: matplotlib-inline (==0.1.6)
+Requires-Dist: meshcat (==0.3.2)
+Requires-Dist: mpmath (==1.3.0)
+Requires-Dist: networkx (==3.2.1)
+Requires-Dist: numpy (==1.26.2)
+Requires-Dist: oauthlib (==3.2.2)
+Requires-Dist: parso (==0.8.3)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pillow (==10.1.0)
+Requires-Dist: prompt-toolkit (==3.0.41)
+Requires-Dist: protobuf (==4.23.4)
+Requires-Dist: psutil (==5.9.6)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: pure-eval (==0.2.2)
+Requires-Dist: pyasn1 (==0.5.1)
+Requires-Dist: pyasn1-modules (==0.3.0)
+Requires-Dist: pyglet (==2.0.10)
+Requires-Dist: pygments (==2.17.2)
+Requires-Dist: pyngrok (==7.0.1)
+Requires-Dist: pyopengl (==3.1.0)
+Requires-Dist: pyparsing (==3.1.1)
+Requires-Dist: pyrender (==0.1.45)
+Requires-Dist: pyyaml (==6.0.1)
+Requires-Dist: pyzmq (==25.1.1)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: requests-oauthlib (==1.3.1)
+Requires-Dist: rsa (==4.9)
+Requires-Dist: scikit-learn (==1.3.2)
+Requires-Dist: scipy (==1.11.4)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: stack-data (==0.6.3)
+Requires-Dist: sympy (==1.12)
+Requires-Dist: tensorboard-data-server (==0.7.2)
+Requires-Dist: threadpoolctl (==3.2.0)
+Requires-Dist: torch (==2.1.1)
+Requires-Dist: torch-cluster (==1.6.3)
+Requires-Dist: torch-geometric (==2.4.0)
+Requires-Dist: tornado (==6.3.3)
+Requires-Dist: tqdm (==4.66.1)
+Requires-Dist: traitlets (==5.13.0)
+Requires-Dist: trimesh (==4.0.4)
+Requires-Dist: typeguard (==4.1.5)
+Requires-Dist: typing-extensions (==4.8.0)
+Requires-Dist: u-msgpack-python (==2.8.0)
+Requires-Dist: urllib3 (==2.1.0)
+Requires-Dist: wcwidth (==0.2.12)
+Requires-Dist: werkzeug (==3.0.1)
+Description-Content-Type: text/markdown
+
+# Pytorch Implementation of Contact Graspnet
+
+This code is based heavily on 
+https://github.com/alinasarmiento/pytorch_contactnet. Original Tensorflow implementation can be found at: https://github.com/NVlabs/contact_graspnet
+
+Usage:
+
+`import cgn_pytorch`
+
+`cgn_model, optimizer, config_dict  = cgn_pytorch.from_pretrained()`
+
+`cgn`
+
+```
+CGN(
+  (set_abstract_msg): ModuleList(
+    (0): ModuleList(
+      (0): SAModule(
+        (conv): PointNetConv(local_nn=Sequential(
+          (0): Sequential(
+            (0): Linear(in_features=3, out_features=32, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (1): Sequential(
+            (0): Linear(in_features=32, out_features=32, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (2): Sequential(
+            (0): Linear(in_features=32, out_features=64, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        ), global_nn=None)
+      )
+      (1): SAModule(
+        (conv): PointNetConv(local_nn=Sequential(
+          (0): Sequential(
+            (0): Linear(in_features=3, out_features=64, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (1): Sequential(
+            (0): Linear(in_features=64, out_features=64, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (2): Sequential(
+            (0): Linear(in_features=64, out_features=128, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        ), global_nn=None)
+      )
+      (2): SAModule(
+        (conv): PointNetConv(local_nn=Sequential(
+          (0): Sequential(
+            (0): Linear(in_features=3, out_features=64, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (1): Sequential(
+            (0): Linear(in_features=64, out_features=96, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (2): Sequential(
+            (0): Linear(in_features=96, out_features=128, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        ), global_nn=None)
+      )
+    )
+    (1): ModuleList(
+      (0): SAModule(
+        (conv): PointNetConv(local_nn=Sequential(
+          (0): Sequential(
+            (0): Linear(in_features=323, out_features=64, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (1): Sequential(
+            (0): Linear(in_features=64, out_features=64, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (2): Sequential(
+            (0): Linear(in_features=64, out_features=128, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        ), global_nn=None)
+      )
+      (1-2): 2 x SAModule(
+        (conv): PointNetConv(local_nn=Sequential(
+          (0): Sequential(
+            (0): Linear(in_features=323, out_features=128, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (1): Sequential(
+            (0): Linear(in_features=128, out_features=128, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (2): Sequential(
+            (0): Linear(in_features=128, out_features=256, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        ), global_nn=None)
+      )
+    )
+    (2): ModuleList(
+      (0): SAModule(
+        (conv): PointNetConv(local_nn=Sequential(
+          (0): Sequential(
+            (0): Linear(in_features=643, out_features=64, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (1): Sequential(
+            (0): Linear(in_features=64, out_features=64, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (2): Sequential(
+            (0): Linear(in_features=64, out_features=128, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        ), global_nn=None)
+      )
+      (1-2): 2 x SAModule(
+        (conv): PointNetConv(local_nn=Sequential(
+          (0): Sequential(
+            (0): Linear(in_features=643, out_features=128, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (1): Sequential(
+            (0): Linear(in_features=128, out_features=128, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+          (2): Sequential(
+            (0): Linear(in_features=128, out_features=256, bias=True)
+            (1): ReLU()
+            (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        ), global_nn=None)
+      )
+    )
+  )
+  (set_abstract_final): Sequential(
+    (0): Sequential(
+      (0): Linear(in_features=640, out_features=256, bias=True)
+      (1): ReLU()
+      (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (1): Sequential(
+      (0): Linear(in_features=256, out_features=512, bias=True)
+      (1): ReLU()
+      (2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (2): Sequential(
+      (0): Linear(in_features=512, out_features=1024, bias=True)
+      (1): ReLU()
+      (2): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (feat_prop): ModuleList(
+    (0): FPModule(
+      (nn): Sequential(
+        (0): Sequential(
+          (0): Linear(in_features=1280, out_features=256, bias=True)
+          (1): ReLU()
+          (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=256, out_features=256, bias=True)
+          (1): ReLU()
+          (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (1): FPModule(
+      (nn): Sequential(
+        (0): Sequential(
+          (0): Linear(in_features=896, out_features=256, bias=True)
+          (1): ReLU()
+          (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): ReLU()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (2): FPModule(
+      (nn): Sequential(
+        (0): Sequential(
+          (0): Linear(in_features=448, out_features=128, bias=True)
+          (1): ReLU()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): ReLU()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): ReLU()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+  )
+  (multihead): ModuleList(
+    (0): Sequential(
+      (0): Conv1d(131, 128, kernel_size=(1,), stride=(1,))
+      (1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): Dropout(p=0.5, inplace=False)
+      (3): Conv1d(128, 1, kernel_size=(1,), stride=(1,))
+    )
+    (1-2): 2 x Sequential(
+      (0): Conv1d(131, 128, kernel_size=(1,), stride=(1,))
+      (1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): Dropout(p=0.7, inplace=False)
+      (3): Conv1d(128, 3, kernel_size=(1,), stride=(1,))
+    )
+    (3): Sequential(
+      (0): Conv1d(131, 128, kernel_size=(1,), stride=(1,))
+      (1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): Dropout(p=0, inplace=False)
+      (3): Conv1d(128, 1, kernel_size=(1,), stride=(1,))
+    )
+  )
+  (success_sigmoid): Sigmoid()
+  (width_relu): ReLU()
+  (conf_loss_fn): BCEWithLogitsLoss()
+)
+```
