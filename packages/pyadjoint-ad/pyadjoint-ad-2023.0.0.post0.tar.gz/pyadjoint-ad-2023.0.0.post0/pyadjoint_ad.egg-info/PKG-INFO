@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: pyadjoint-ad
+Version: 2023.0.0.post0
+Summary: High-level automatic differentiation library.
+Home-page: https://github.com/dolfin-adjoint/pyadjoint
+Author: Jørgen Dokken
+Author-email: dokken@simula.no
+License: LGPL-3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy>=1.0
+Provides-Extra: moola
+Requires-Dist: moola>=0.1.6; extra == "moola"
+Provides-Extra: test
+Requires-Dist: pytest>=3.10; extra == "test"
+Requires-Dist: flake8; extra == "test"
+Requires-Dist: coverage; extra == "test"
+Provides-Extra: visualisation
+Requires-Dist: tensorflow; extra == "visualisation"
+Requires-Dist: protobuf; extra == "visualisation"
+Requires-Dist: networkx; extra == "visualisation"
+Requires-Dist: pygraphviz; extra == "visualisation"
+Provides-Extra: meshing
+Requires-Dist: pygmsh; extra == "meshing"
+Requires-Dist: meshio; extra == "meshing"
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx-autobuild; extra == "doc"
+Requires-Dist: sphinxcontrib-bibtex; extra == "doc"
+Provides-Extra: all
+Requires-Dist: moola>=0.1.6; extra == "all"
+Requires-Dist: pytest>=3.10; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: coverage; extra == "all"
+Requires-Dist: tensorflow; extra == "all"
+Requires-Dist: protobuf; extra == "all"
+Requires-Dist: networkx; extra == "all"
+Requires-Dist: pygraphviz; extra == "all"
+Requires-Dist: pygmsh; extra == "all"
+Requires-Dist: meshio; extra == "all"
+Requires-Dist: sphinx; extra == "all"
+Requires-Dist: sphinx-autobuild; extra == "all"
+Requires-Dist: sphinxcontrib-bibtex; extra == "all"
+
+# The algorithmic differentation tool pyadjoint
+
+The full documentation is available [here](https://pyadjoint.org)
+
+Circle CI status: [![CircleCI](https://circleci.com/gh/dolfin-adjoint/pyadjoint.svg?style=svg)](https://circleci.com/gh/dolfin-adjoint/pyadjoint)
+
+
+# Contributing
+
+We love pull requests from everyone. 
+
+Fork, then clone the repository at https://github.com/dolfin-adjoint/pyadjoint
+
+Make sure the tests pass:
+
+    py.test tests/pyadjoint
+
+Make your change. Add tests for your change. Make the tests pass:
+
+    py.test tests/pyadjoint
+
+Push to your fork and [submit a pull request][pr].
+
+[pr]: https://github.com/dolfin-adjoint/pyadjoint/pulls
+
+At this point you're waiting on us. We may suggest
+some changes or improvements or alternatives.
+
+Some things that will increase the chance that your pull request is accepted:
+
+* Write tests.
+* Add Python docstrings that follow the [Google Style][style].
+* Write good commit and pull request message.
+
+[style]: http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+
+# Licence
+This software is licensed under the [GNU LGPL v3][license].
+
+[license]: https://github.com/dolfin-adjoint/pyadjoint/raw/master/LICENSE
