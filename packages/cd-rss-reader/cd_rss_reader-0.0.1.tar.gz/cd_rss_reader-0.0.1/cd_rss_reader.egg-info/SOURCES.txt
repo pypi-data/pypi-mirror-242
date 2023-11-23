@@ -1,0 +1,13 @@
+LICENSE.md
+LICENSE.txt
+README.md
+pyproject.toml
+cd_rss_reader/__init__.py
+cd_rss_reader/rss_reader.py
+cd_rss_reader/version.py
+cd_rss_reader.egg-info/PKG-INFO
+cd_rss_reader.egg-info/SOURCES.txt
+cd_rss_reader.egg-info/dependency_links.txt
+cd_rss_reader.egg-info/requires.txt
+cd_rss_reader.egg-info/top_level.txt
+cd_rss_reader/Examples/example.py

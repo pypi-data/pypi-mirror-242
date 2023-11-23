@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cd_rss_reader"
+version = "0.0.1"  # Replace with your actual version
+description = "The RSSReader is a Python utility for effortlessly fetching and parsing RSS and Atom feeds."
+readme = "README.md"
+authors = [
+    { name = "Code Docta", email = "codedocta@gmail.com" },
+]
+license = { text = "MIT" }
+requires-python = ">=3.6"
+dependencies = [
+    "feedparser==6.0.10",
+    "lxml==4.9.3",
+    "sgmllib3k==1.0.0",
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://codedocta.com"
+Bug-Reports = "https://github.com/codedocta/cd_rss_reader/issues"
+Source = "https://github.com/codedocta/cd_rss_reader/"
