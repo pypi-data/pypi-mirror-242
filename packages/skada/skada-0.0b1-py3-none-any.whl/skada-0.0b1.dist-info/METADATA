@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: skada
+Version: 0.0b1
+Summary: Domain adaptation toolbox compatible with scikit-learn.
+Home-page: https://github.com/scikit-adaptation/skada
+Author: Théo Gnassounou, Rémi Flamary
+Author-email: theo.gnassounou@inria.fr, remi.flamary@polytechnique.edu
+License: BSD 3-Clause
+Keywords: da deep-learning
+
