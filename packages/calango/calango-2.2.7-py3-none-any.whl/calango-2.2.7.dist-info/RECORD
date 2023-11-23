@@ -1,0 +1,11 @@
+calango/__init__.py,sha256=YAV7YPShekyluvh9vYda6DMHF7x0lwuuNS_lXZSNJ3I,1299
+calango/devices.py,sha256=fltTIKu5KJvsVQV0KqU-9TGMgH6EH0XRsmp1gfG_5Wk,4542
+calango/media.py,sha256=FDbTOiFmE_iqybvq5jV4NZcLV0YurOq-ExkTckeUZxc,43494
+calango/settings.py,sha256=LyHFGz-I7u5R7Xg8xiCk8lPGufN1kl4Jlfi0Rkis1EE,295
+calango/utils.py,sha256=N4v7S_i1ienCU82go9MCfZlCeZk9RJAnrMVlf52u8Wg,1659
+tests/__init__.py,sha256=X_LjL8Gnda4ELWHvceEEqbZq_yk-_TQnxa2LCLnJfMc,135
+calango-2.2.7.dist-info/LICENSE,sha256=iOhOEgTvkW5WjUPJW1pZhx_QJwqH-itutap5_oUXFwY,1063
+calango-2.2.7.dist-info/METADATA,sha256=jvo5AgyoefJOwUp0YQRJH_0Mahjtx6zHM5pNR3bgtDg,2864
+calango-2.2.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+calango-2.2.7.dist-info/top_level.txt,sha256=sCU-vV7gA74d54wEfc2uC25gYB47npsZUNs6s3P6row,14
+calango-2.2.7.dist-info/RECORD,,
