@@ -1,0 +1,11 @@
+pyproject.toml
+readme.md
+requirements.txt
+setup.py
+eikeskoge_dev01/__init__.py
+eikeskoge_dev01/eikeskog.py
+ste_ste_temp.egg-info/PKG-INFO
+ste_ste_temp.egg-info/SOURCES.txt
+ste_ste_temp.egg-info/dependency_links.txt
+ste_ste_temp.egg-info/requires.txt
+ste_ste_temp.egg-info/top_level.txt
