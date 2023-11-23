@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: IndicLatinSoundex
+Version: 0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# IndicLatinSoundex
+Generates a special soundex code for distinguishing Indian names written in Latin script
+
+### Example Usage
+Import package like this
+```python
+>>> from IndicLatinSoundex import IndicLatinSoundex
+```
+To get a soundex code do
+```python
+>>> soudex = IndicLatinSoundex()
+>>> soundex.get_soundex('example')
+```
+To compare between two words
+```python
+>>> soundex.compare('word1','word2')
+```
+It will return True if both word are phonetically same
+
