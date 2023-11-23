@@ -1,0 +1,6 @@
+example_py_create_package/__init__.py,sha256=DYXeWNngzZeACANS6sD4DMsh_cz-UikPNeh58ycaLhs,17
+example_py_create_package/moduleMain.py,sha256=WFdoCOEVAnrT7hafeVpM_T4dFoLzpWFzqDj8Dym27ps,36
+example_py_create_package/subModuleA/moduleA.py,sha256=tHZjiEx4PFGaIYm1fFq8hA1o7HXCeVVpfTgL10bgJfo,36
+example_py_create_package-0.1.1.dist-info/METADATA,sha256=SgNGwGya1p-XywOaNPuaiR8iB8EjO8BkeSWRaQEd7SQ,357
+example_py_create_package-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+example_py_create_package-0.1.1.dist-info/RECORD,,
