@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <template id="report_sale_order_template">
+        <t t-foreach="docs" t-as="doc">
+            <t t-if="data['template'] != 'deliveries'">
+                <t t-call="web.html_container">
+                    <t t-foreach="data['langs']" t-as="lang">
+                        <t t-call="sale_order_mitxelena.report_saleorder_template" t-lang="lang" />
+                    </t>
+                </t>
+            </t>
+            <t t-if="data['template'] == 'deliveries'">
+                <t t-call="web.html_container">
+                    <t t-foreach="data['langs']" t-as="lang">
+                        <t t-call="sale_order_mitxelena.report_saleorder_delivery_template" t-lang="lang" />
+                    </t>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>
