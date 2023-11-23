@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sbom2csv/__init__.py
+sbom2csv/generator.py
+sbom2csv/version.py
+sbom2csv.egg-info/PKG-INFO
+sbom2csv.egg-info/SOURCES.txt
+sbom2csv.egg-info/dependency_links.txt
+sbom2csv.egg-info/entry_points.txt
+sbom2csv.egg-info/top_level.txt
