@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+jixer_sync/__init__.py
+jixer_sync/base.py
+jixer_sync/engines.py
+jixer_sync.egg-info/PKG-INFO
+jixer_sync.egg-info/SOURCES.txt
+jixer_sync.egg-info/dependency_links.txt
+jixer_sync.egg-info/requires.txt
+jixer_sync.egg-info/top_level.txt
