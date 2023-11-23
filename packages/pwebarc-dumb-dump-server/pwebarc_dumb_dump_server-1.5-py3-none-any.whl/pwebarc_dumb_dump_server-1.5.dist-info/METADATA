@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pwebarc-dumb-dump-server
+Version: 1.5
+Summary: A very simple archiving server for pWebArc extension of Private Web Archive (pwebarc) project
+Author-email: Jan Malakhovski <oxij@oxij.org>
+License: GPL-3.0-or-later
+Keywords: HTTP,HTTPS,archive,wayback machine,download
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: System :: Archiving :: Mirroring
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: Internet :: Log Analysis
+Classifier: Operating System :: POSIX
+Classifier: Environment :: Console
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: cbor
+Requires-Dist: cbor2 ; extra == 'cbor'
+
+# What?
+
+`pwebarc_dumb_dump_server.py`: a very ~~dumb~~ simple archiving server for [pWebArc](https://github.com/Own-Data-Privateer/extension/). This thing is less than 200 lines of pure Python that only uses the Python\'s standard library and nothing else. You could be running it already.
+
+# Why?
+
+This was made for easy [Quickstart](https://github.com/Own-Data-Privateer/README.md#quickstart). Ideally, you would use something smarter than this (when I publish it), but this will work fine as a starting point.
