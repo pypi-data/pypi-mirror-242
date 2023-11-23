@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: phonexia-grpc
+Version: 1.0.1rc1
+Summary: Libraries to communicate with grpc server of phonexia microservices
+Home-page: https://gitlab.cloud.phonexia.com/phonexia/dev/technologies/microservices/protofiles/-/tree/main
+License: Apache-2.0
+Author: Phonexia s.r.o.
+Author-email: info@phonexia.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: grpc-stubs (>=1.53.0.2,<2.0.0.0)
+Requires-Dist: grpcio (>=1.54.0,<2.0.0)
+Requires-Dist: mypy-protobuf (>=3.4.0,<4.0.0)
+Requires-Dist: protobuf (>=4.22.3,<5.0.0)
+Project-URL: Repository, https://gitlab.cloud.phonexia.com/phonexia/dev/technologies/microservices/protofiles/-/tree/main
