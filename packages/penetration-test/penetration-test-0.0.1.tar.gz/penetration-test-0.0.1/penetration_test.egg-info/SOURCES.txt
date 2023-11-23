@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+penetration-test/__init__.py
+penetration_test.egg-info/PKG-INFO
+penetration_test.egg-info/SOURCES.txt
+penetration_test.egg-info/dependency_links.txt
+penetration_test.egg-info/top_level.txt
