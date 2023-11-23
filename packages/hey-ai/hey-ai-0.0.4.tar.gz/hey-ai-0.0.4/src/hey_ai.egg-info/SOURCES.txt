@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/hey-ai/__init__.py
+src/hey-ai/hey.py
+src/hey_ai.egg-info/PKG-INFO
+src/hey_ai.egg-info/SOURCES.txt
+src/hey_ai.egg-info/dependency_links.txt
+src/hey_ai.egg-info/top_level.txt
