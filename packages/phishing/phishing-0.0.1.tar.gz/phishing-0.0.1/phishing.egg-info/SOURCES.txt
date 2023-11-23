@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+phishing/__init__.py
+phishing.egg-info/PKG-INFO
+phishing.egg-info/SOURCES.txt
+phishing.egg-info/dependency_links.txt
+phishing.egg-info/top_level.txt
