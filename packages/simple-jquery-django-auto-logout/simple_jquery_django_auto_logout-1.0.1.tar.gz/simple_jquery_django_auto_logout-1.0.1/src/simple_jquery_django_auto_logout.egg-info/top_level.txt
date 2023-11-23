@@ -1,0 +1,1 @@
+simple_jquery_django_auto_logout

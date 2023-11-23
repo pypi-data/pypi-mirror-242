@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/simple_jquery_django_auto_logout/__init__.py
+src/simple_jquery_django_auto_logout/context_processors.py
+src/simple_jquery_django_auto_logout/supports.py
+src/simple_jquery_django_auto_logout.egg-info/PKG-INFO
+src/simple_jquery_django_auto_logout.egg-info/SOURCES.txt
+src/simple_jquery_django_auto_logout.egg-info/dependency_links.txt
+src/simple_jquery_django_auto_logout.egg-info/top_level.txt
