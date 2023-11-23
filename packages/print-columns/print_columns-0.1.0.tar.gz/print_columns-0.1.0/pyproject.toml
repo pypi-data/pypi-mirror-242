@@ -1,0 +1,21 @@
+[project]
+name = "print_columns"
+version = "0.1.0"
+description = "A simple package for printing text to the terminal in columns"
+authors = [
+    { name = "Matt Zhang", email = "set.stun@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
