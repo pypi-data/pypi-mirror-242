@@ -1,0 +1,6 @@
+azure_key_vault_report/__init__.py,sha256=989Vyw84vUSkqSJHHwJwIJGExn5zMFbVZYEMdgrmGR8,142
+azure_key_vault_report/azure_key_vault_report.py,sha256=U2bpTfuNslUGxtW2PDlI1VCr2RsJTVMuLATzX9N2Fg0,5287
+ops_py_azure_key_vault_report-0.0.1.dist-info/METADATA,sha256=Eb1LxsyFH0xc1EKiOzdqRpktE71T7S0Uh2LwF8mvsWc,1526
+ops_py_azure_key_vault_report-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ops_py_azure_key_vault_report-0.0.1.dist-info/top_level.txt,sha256=xgmOtDZu3riIE_f5A0HqKBNgmBcMuME2tjFbM2xo9MQ,23
+ops_py_azure_key_vault_report-0.0.1.dist-info/RECORD,,
