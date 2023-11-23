@@ -1,0 +1,9 @@
+agenttobenamed/__init__.py,sha256=ipeddYKuE0W7jZdPJZLzM0BNOwaYdDnLz9bP_38SbY8,27
+agenttobenamed/agent.py,sha256=P7OWyQHJsMjViPhHaZlmjkK15qkQerNZIIFk4CvaabY,3574
+agenttobenamed/code_manipulation.py,sha256=0x_lx63wDAYS4zep0h9JRbHqBtRdn3GiisVOSBpWnig,4460
+agenttobenamed/llms.py,sha256=J3aDPLbDSUnM5d5Jy5ozq7Y1gHhJQHRU6DD4nTm9f90,8254
+agenttobenamed/logger.py,sha256=HLgSGFyd9YCvQwlbrLAnsn6qh3CGa3ybmMLQPUy9SxE,255
+agenttobenamed/prompts.py,sha256=6M_m86dg0PNHu2eYd4IFUffkcvmhnleNF0_EZduVYLw,5207
+agenttobenamed-0.1.0.dist-info/METADATA,sha256=7HwoNLfOqpX1TPo0oktrFXs-kTlDjTvznJFXMhPJ48Y,775
+agenttobenamed-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+agenttobenamed-0.1.0.dist-info/RECORD,,
