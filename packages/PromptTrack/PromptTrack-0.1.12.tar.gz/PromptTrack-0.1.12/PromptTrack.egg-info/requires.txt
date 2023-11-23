@@ -1,0 +1,8 @@
+numpy
+timm==0.4.5
+transformers==4.6
+matplotlib
+scikit-image
+opencv-python
+nms==0.1.6
+bytetracker
