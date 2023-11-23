@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: clisnips
+Version: 0.5.0
+Summary: A command-line snippets manager.
+Home-page: https://github.com/ju1ius/clisnips
+License: GPL-3.0+
+Keywords: snippet,snippets,cli,tui
+Author: ju1ius
+Author-email: jules.bernable@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Classifier: Topic :: Terminals :: Terminal Emulators/X Terminals
+Classifier: Topic :: Utilities
+Requires-Dist: observ (>=0.14,<0.15)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: pygments (>=2.16.1,<3.0.0)
+Requires-Dist: tomlkit (>=0.12.3,<0.13.0)
+Requires-Dist: typing-extensions (>=4.8.0,<5.0.0)
+Requires-Dist: urwid (>=2.2.3,<3.0.0)
+Project-URL: Repository, https://github.com/ju1ius/clisnips
+Description-Content-Type: text/markdown
+
+# clisnips
+
+
+clisnips is a command-line snippets manager.
+
+![xkcd/tar](http://imgs.xkcd.com/comics/tar.png)
+
+It provides a graphical command-line user interface in which you can save, search and recall your commands.
+
+
+## Installation
+
+clisnips requires python 3.11 or higher.
+
+### 1. Install clisnips
+
+The recommended way is to use [pipx](https://pypa.github.io/pipx/):
+```sh
+pipx install git+https://github.com/ju1ius/clisnips.git
+```
+
+### 2. Install shell key-bindings
+
+```sh
+# For bash
+clisnips key-bindings bash
+# For zsh
+clisnips key-bindings zsh
+```
+
+Open a *new* shell and type the `Alt+s` keyboard shortcut to open the snippets library.
+
+## Usage
+
+Clisnips stores snippets in a local SQLite database,
+using an FTS5 table to enable full-text search.
+The search input accepts the whole [FTS5 full-text query syntax][fts5-ref].
+
+Please have a look at the docs for getting started on
+[writing your own snippets][creating-snippets].
+
+You may also read the [quick-tour][],
+a small TOML file containing some example snippets.
+You can import it in your snippets database by running:
+```sh
+clisnips import snippets/quick-tour.toml
+```
+
+In addition to its TUI, clisnips comes with a bunch of other subcommands
+to help you manage your snippets. Please run `clisnips --help` to read the CLI documentation.
+
+
+[quick-tour]: https://github.com/ju1ius/clisnips/blob/master/snippets/quick-tour.toml
+[creating-snippets]: https://github.com/ju1ius/clisnips/blob/master/docs/creating-snippets.md
+[fts5-ref]: https://www.sqlite.org/fts5.html#full_text_query_syntax
+

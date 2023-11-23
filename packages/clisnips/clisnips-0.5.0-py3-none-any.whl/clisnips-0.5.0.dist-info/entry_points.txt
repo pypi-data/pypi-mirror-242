@@ -1,0 +1,3 @@
+[console_scripts]
+clisnips=clisnips.__main__:main
+
