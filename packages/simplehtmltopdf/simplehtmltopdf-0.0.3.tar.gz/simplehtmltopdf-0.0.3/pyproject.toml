@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simplehtmltopdf"
+dynamic = ["version"]
+authors = [
+  { name="Karel Kenens", email="karelkenens36@gmail.com" },
+]
+description = "A simple package to print HTML files or URLs to a PDF."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'selenium >= 4.15.2',
+]
+
+[project.urls]
+Homepage = "https://github.com/KarelKenens/simplehtmltopdf"
+Issues = "https://github.com/KarelKenens/simplehtmltopdf/issues"
+
+[tool.hatch.version]
+path = "src/__about__.py"
