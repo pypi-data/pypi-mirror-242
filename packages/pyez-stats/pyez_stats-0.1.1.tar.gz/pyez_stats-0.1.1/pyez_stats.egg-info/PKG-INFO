@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pyez-stats
+Version: 0.1.1
+Summary: stats library
+Home-page: https://pyez_stats.readthedocs.io/
+Author: Jason DiBiase
+Author-email: dibiasej3@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pyez_stats
+
+A python library that allows for easy statistical analysis.
+This library has functionality for hypothesis testing, Bayesian statistical analysis, linear regression and multiple linear regression and principle component analysis. The distribution module allows the user to fit passed in data to multiple distributions and calculate mean, median and variance and other statistical values. It also allows for calculating probability density functions, cumulative distribution functions and percentiles of the data.
+The main class in this library is the Data class that incorporates every other class into it allowing for easy statistical analysis in one array like data structure.
+### Installation
+`pip install pyez_stats`
+
+### Get Started
+
+Below is a simple array of data passed into our Data class. We set the model to be a Gaussian distribution, then calculate the mean and probabilty of a certain value.
+
+```python
+import pyez_stats as ez
+
+arr = [11, 11, 12, 11, 12, 13, 14, 16, 18, 16, 15]
+
+data = ez.Data(arr)
+
+data.set_model("gaus")
+
+print(data.pdf(12))
+
+print(data.mean())
+```
+### Using the modules
+
+Below we show how to use multiple of the modules in the pyez_stats library.
+
+### Hypothesis Test
+
+```python
+hyp_test = data.hypothesis_test("gauss")
+
+print(hyp_test(11, wald_test=True, left_tail=True))
+
+print(hyp_test(11, z_test=True, right_tail=True, sigma=3))
+
+print(hyp_test(11, t_test=True, left_tail=True))
+```
+
+### Bayesian Statistics
+
+```python
+bays = data.bayesian_statistic(likelihood="gaus", prior="gaus")
+
+bays.set_theta_range([10, 18])
+
+print(bays.plot_posteriors(var = 3))
+
+print(bays.map(var = 3))
+```
