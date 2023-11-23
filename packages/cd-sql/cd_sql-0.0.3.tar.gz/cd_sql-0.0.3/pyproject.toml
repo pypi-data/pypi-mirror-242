@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cd_sql"
+version = "0.0.3"
+description = "This Python package provides a simple and intuitive wrapper for SQLAlchemy."
+readme = "README.md"
+authors = [
+    { name = "Code Docta", email = "codedocta@gmail.com" },
+]
+license = { text = "MIT" }
+requires-python = ">=3.6"
+dependencies = [
+    "SQLAlchemy==2.0.23",
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://codedocta.com"
+Bug-Reports = "https://github.com/codedocta/cd_sql/issues"
+Source = "https://github.com/codedocta/cd_sql/"
