@@ -1,0 +1,2 @@
+[console_scripts]
+banga = banga.module:main_function

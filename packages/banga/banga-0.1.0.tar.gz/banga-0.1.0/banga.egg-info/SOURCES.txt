@@ -1,0 +1,9 @@
+README.md
+setup.py
+banga/__init__.py
+banga/module.py
+banga.egg-info/PKG-INFO
+banga.egg-info/SOURCES.txt
+banga.egg-info/dependency_links.txt
+banga.egg-info/entry_points.txt
+banga.egg-info/top_level.txt
