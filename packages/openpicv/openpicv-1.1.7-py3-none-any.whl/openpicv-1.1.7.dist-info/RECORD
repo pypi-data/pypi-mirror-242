@@ -1,0 +1,20 @@
+PiKit/__init__.py,sha256=DRnXK9CmwIE3YAdvSd5xmdl4t5WZKsMfbwhe3AWpg4o,2240
+PiKit/add_num.py,sha256=2g465uTz-Ulk01WA7FIuTQ3asjVQBk8yQrQ1kI50fXY,66
+PiKit/cvkit.py,sha256=6IbEf_KUTdFTN9fjngqdPckoUYLBc9ehdu51nkdp5SQ,2169
+PiKit/face_detetion.py,sha256=VcGG0xAZ2GC045tv5g3aDcWV48Vpt12NIVgRSOOkZZ0,1630
+openpicv/__init__.py,sha256=DRnXK9CmwIE3YAdvSd5xmdl4t5WZKsMfbwhe3AWpg4o,2240
+openpicv/add_num.py,sha256=2g465uTz-Ulk01WA7FIuTQ3asjVQBk8yQrQ1kI50fXY,66
+openpicv/cvkit.py,sha256=6IbEf_KUTdFTN9fjngqdPckoUYLBc9ehdu51nkdp5SQ,2169
+openpicv/face_detetion.py,sha256=VcGG0xAZ2GC045tv5g3aDcWV48Vpt12NIVgRSOOkZZ0,1630
+openpicv /__init__.py,sha256=DRnXK9CmwIE3YAdvSd5xmdl4t5WZKsMfbwhe3AWpg4o,2240
+openpicv /add_num.py,sha256=2g465uTz-Ulk01WA7FIuTQ3asjVQBk8yQrQ1kI50fXY,66
+openpicv /cvkit.py,sha256=6IbEf_KUTdFTN9fjngqdPckoUYLBc9ehdu51nkdp5SQ,2169
+openpicv /face_detetion.py,sha256=VcGG0xAZ2GC045tv5g3aDcWV48Vpt12NIVgRSOOkZZ0,1630
+openpicv-test/__init__.py,sha256=DRnXK9CmwIE3YAdvSd5xmdl4t5WZKsMfbwhe3AWpg4o,2240
+openpicv-test/add_num.py,sha256=2g465uTz-Ulk01WA7FIuTQ3asjVQBk8yQrQ1kI50fXY,66
+openpicv-test/face_detetion.py,sha256=VcGG0xAZ2GC045tv5g3aDcWV48Vpt12NIVgRSOOkZZ0,1630
+openpicv-1.1.7.dist-info/LICENSE,sha256=iv1i3GMMY1C3bZ03WGyDeeteBtkmVfL2dG0BwIoB1OM,1071
+openpicv-1.1.7.dist-info/METADATA,sha256=PQDTU9tNpTHlZdDnC2CHxaj3W0DBR_hh6xdHy4MEdTw,389
+openpicv-1.1.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+openpicv-1.1.7.dist-info/top_level.txt,sha256=u0HFpf87kZxC8kxQANnwJZa9GKw-vClJjbN5lunsXOk,10
+openpicv-1.1.7.dist-info/RECORD,,
