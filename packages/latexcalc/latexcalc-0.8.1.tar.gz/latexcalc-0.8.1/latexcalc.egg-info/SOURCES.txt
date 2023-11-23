@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+latexcalc/__init__.py
+latexcalc.egg-info/PKG-INFO
+latexcalc.egg-info/SOURCES.txt
+latexcalc.egg-info/dependency_links.txt
+latexcalc.egg-info/requires.txt
+latexcalc.egg-info/top_level.txt
