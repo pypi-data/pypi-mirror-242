@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/jathin/__init__.py
+src/jathin/prg.py
+src/jathin.egg-info/PKG-INFO
+src/jathin.egg-info/SOURCES.txt
+src/jathin.egg-info/dependency_links.txt
+src/jathin.egg-info/top_level.txt
