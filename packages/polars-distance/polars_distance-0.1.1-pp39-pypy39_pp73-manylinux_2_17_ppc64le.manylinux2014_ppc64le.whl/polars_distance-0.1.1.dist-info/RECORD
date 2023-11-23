@@ -1,0 +1,5 @@
+polars_distance-0.1.1.dist-info/METADATA,sha256=HmOTLdOAqsixajA-cv93fQcPy2mQgt8e_SvjyOoq3hM,1348
+polars_distance-0.1.1.dist-info/WHEEL,sha256=LkfITgFr5Z37iXH0zmohPKAuB7Eud9H_YrN3Frlbi7g,136
+polars_distance/__init__.py,sha256=PywB76x21vyjUsNDQ4JiNCbbweh52xJPWOWjCTcVRjc,1797
+polars_distance/polars_distance.pypy39-pp73-ppc_64-linux-gnu.so,sha256=t_11j-YQYs-TvIiuMiBnQ-pn_u1rD3hhIcO_JbNnPvc,43019008
+polars_distance-0.1.1.dist-info/RECORD,,
