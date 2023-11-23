@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: common_models
+Version: 0.0.5
+Summary: A package containing common Django eve_models
+Home-page: https://github.com/evercycle-org/common_models
+Description-Content-Type: text/markdown
+
+# common_models
