@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+./image_io/__init__.py
+./image_io/io.py
+cxx_image_io.egg-info/PKG-INFO
+cxx_image_io.egg-info/SOURCES.txt
+cxx_image_io.egg-info/dependency_links.txt
+cxx_image_io.egg-info/requires.txt
+cxx_image_io.egg-info/top_level.txt
+image_io/__init__.py
+image_io/io.py
+test/test_image_io.py
