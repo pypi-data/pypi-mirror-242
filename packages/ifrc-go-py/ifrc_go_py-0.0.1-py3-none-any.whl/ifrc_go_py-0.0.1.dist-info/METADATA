@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ifrc-go-py
+Version: 0.0.1
+Summary: A library for working with IFRC GO data.
+Home-page: UNKNOWN
+Author: Jonathan Garro
+Author-email: jonathan.garro@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
