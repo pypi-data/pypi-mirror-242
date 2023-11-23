@@ -1,0 +1,8 @@
+setuptools>=42
+wheel
+pillow
+discord
+disnake
+datetime
+requests
+colour
