@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vectordb-orm-pyler
+Version: 0.2.0
+Summary: clone of vectordb-orm
+Home-page: https://github.com/hgkang1226/vectordb-orm-pyler
+Author: Hyungook Kang
+Author-email: hgkang1226@gmail.com
+License: MIT
+Keywords: vector db orm
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pinecone-client
+Requires-Dist: tqdm
+Requires-Dist: protobuf
+
