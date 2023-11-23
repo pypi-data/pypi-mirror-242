@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+fredapi
+wallstreet
+scipy
+plotly
+findiff
+matplotlib
