@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: ranshark-drawranflow
+Version: 1.0.8
+Summary: Pcap analyzer installable django app
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: Django~=4.2.7
+Requires-Dist: celery~=5.3.4
+Requires-Dist: pandas~=1.3.3
+Requires-Dist: pyshark~=0.6
+
+# ranshark
+
+<p>This is the Python project that read 5g RAN packets using pyshark lib (Tshark wrapper) and filter flows based below identities.</p>
+<ul>
+<li>CRNTI</li>
+<li>DU F1AP ID</li>
+<li>CU F1AP ID</li>
+<li>RAN NGAP ID</li>
+<li>AMF NGAP ID</li>
+
+</ul>
+
+<p>This will automatically draw visual drawing based on the filters determined</p>
+
+
+```commandline
+Modules:
+    Django Framework
+    pyShark lib
+    sqlite3 (DB)
+```
+
+
+#TODO:
+<ol>
+<li>XnAP interface</li>
+<li>Make Interface better for upload trace</li>
+<li>Analyze each message/call provide success/fail stats</li>
+</ol>
+
+<p>Here are some screenshots</p>
+
+Home Page looks like this:
+
+![image](https://github.com/ugandhar84/ranshark/assets/67985777/7a54ef07-7051-4da7-80d2-cb99fda0376a)
+
+Click on the table row, sequnce flow will show up:
+
+![image](https://github.com/ugandhar84/ranshark/assets/67985777/f35734d2-aed2-4f85-9d4d-dcf12c88d779)
+
+
+Click on the message, pop up will apper and display contents of the respective packet.
+
+![image](https://github.com/ugandhar84/ranshark/assets/67985777/36de13bb-c621-4e91-832c-ef0380358e80)
