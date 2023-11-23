@@ -1,0 +1,11 @@
+lazygitgpt/__init__.py,sha256=w8QxzXOCZAwhkbY7l4rsYJtWF9-4zjseq-UeOCmZsVQ,229
+lazygitgpt/__main__.py,sha256=LZ_Db4MXKvx9-0FKsqd3rFOpvuOR40SpqOCD1Mnvoy0,39
+lazygitgpt/ai_operations.py,sha256=9BI1bOfxQnDnT8RJhBvbXO9S6HNAj6_T8_H2ozP_OVg,3359
+lazygitgpt/cli.py,sha256=MwSsL-2cRHgt14WMo8PvvCAyyfmWXCIretdURcqurFg,925
+lazygitgpt/git_operations.py,sha256=6g9UU-vMpjOQLVsJft9gjm42bI6lGD4wrEDRN32i92k,1829
+lazygitgpt-0.1.0b0.dist-info/LICENSE,sha256=FLRo0VRYfTqV2swZmSZjgarCfddLuk9jnu28c6E2XI0,1097
+lazygitgpt-0.1.0b0.dist-info/METADATA,sha256=V3_cuQNnd5HBHURXEu38Yn5D8OPpNJ2D7aBst8X0OuE,611
+lazygitgpt-0.1.0b0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+lazygitgpt-0.1.0b0.dist-info/entry_points.txt,sha256=FVYY19EHJPbH08sUK_ot8icJiJllCNMsLdZXyPKqwgg,50
+lazygitgpt-0.1.0b0.dist-info/top_level.txt,sha256=BFIwS4FeMi6DebFiZa5l_cvMiKM5u5E0wtCQz1aVEgU,11
+lazygitgpt-0.1.0b0.dist-info/RECORD,,
