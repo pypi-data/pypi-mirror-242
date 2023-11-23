@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pytoshop-layer"
+version = "0.1.4"
+description = ""
+authors = []
+packages = [
+    {include = "pytoshop"}
+]
+
+[tool.poetry.build]
+generate-setup-file = false
+script = 'build.py'
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Cython = "^3.0.5"
+numpy = "^1.26.2"
+
+[build-system]
+requires = ["poetry-core", "setuptools", "cython"]
+build-backend = "poetry.core.masonry.api"
