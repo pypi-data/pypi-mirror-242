@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+autopack/autopackSoikie.egg-info/PKG-INFO
+autopack/autopackSoikie.egg-info/SOURCES.txt
+autopack/autopackSoikie.egg-info/dependency_links.txt
+autopack/autopackSoikie.egg-info/top_level.txt
