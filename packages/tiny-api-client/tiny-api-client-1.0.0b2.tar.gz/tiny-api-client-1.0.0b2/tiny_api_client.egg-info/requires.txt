@@ -1,0 +1,11 @@
+requests
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest
+pytest-mock
+exceptiongroup
+mypy
