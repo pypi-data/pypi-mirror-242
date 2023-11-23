@@ -1,0 +1,8 @@
+mappings_utility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mappings_utility/mapping_svc.py,sha256=GTqUK-7Be-AHvX5Smu79MYtozfE-gwW9mPDI3YbcaOE,4978
+mappings_utility/mapping_utility.py,sha256=83_dG3M7VvT1p39J4mwF1pS5fdcXR3Ify95wbbzMvS4,4372
+mappings_utility/sdmx_mapping_utility.py,sha256=XNbJ_JEW6aTgFtOjgZoGKOvzzt5oK9omsGOf01G_xfg,10218
+mappings_utility/sdmx_structures.py,sha256=czSHAjhbDlYmsjwcjOpvltV1FcwwjgEjrQXV-c--DrM,7592
+mappings_utility-0.2.1.dist-info/METADATA,sha256=reix0uLa6F3k-6Xtvj5A1icjMR-8RsD3UU-f37zfAb8,1282
+mappings_utility-0.2.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+mappings_utility-0.2.1.dist-info/RECORD,,
