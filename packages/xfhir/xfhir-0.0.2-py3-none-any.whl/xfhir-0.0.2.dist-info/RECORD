@@ -1,0 +1,9 @@
+xfhir/__init__.py,sha256=abb7ldg53QSWO6B0A9ubl82Nd--vu97N9i2TVZhktas,2066
+xfhir/__version__.py,sha256=UyTSdQMBG8yu3qxVZWAVjhhcanWC_cIjORDkyx8fc3Y,322
+xfhir/cli.py,sha256=eoUka5YlMfSnyFbAFqnhAIboiOLKquriQUKreCO7RBE,824
+xfhir-0.0.2.dist-info/LICENSE,sha256=hcMzkligKst6Vz9pXbSQ5vr80xLKp2IGO-ILcvAPwFY,551
+xfhir-0.0.2.dist-info/METADATA,sha256=GRwbL3N_ga3wQ1LQypO5N1QXcW0bf5CE1Pvf_et_uWk,2050
+xfhir-0.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+xfhir-0.0.2.dist-info/entry_points.txt,sha256=ITnKRJzL-TjYW2tF6uV08trIiSTe2dSQWgrivk8oD80,39
+xfhir-0.0.2.dist-info/top_level.txt,sha256=34Cq__8B3f-ooJzzCU1x3q6PW2MK6AjYFlwPoU3EK9Y,6
+xfhir-0.0.2.dist-info/RECORD,,

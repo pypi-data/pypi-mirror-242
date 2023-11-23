@@ -1,0 +1,2 @@
+[console_scripts]
+xfhir = cli.main:run
