@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-shorturl
+Version: 0.2.1
+Summary: Generate short url by bot for bypassing censorship
+Home-page: https://github.com/StarHeartHunt/nonebot-plugin-shorturl
+License: MIT
+Keywords: nonebot,nonebot2,shorturl
+Author: StarHeartHunt
+Author-email: starheart233@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: all
+Provides-Extra: diskcache
+Provides-Extra: redis
+Requires-Dist: diskcache (>=5.6.3,<6.0.0) ; extra == "diskcache" or extra == "all"
+Requires-Dist: nonebot2[fastapi] (>=2.0.0,<3.0.0)
+Requires-Dist: pybase62 (>=1.0.0,<2.0.0)
+Requires-Dist: redis[hiredis] (>=5.0.0,<6.0.0) ; extra == "redis" or extra == "all"
+Project-URL: Documentation, https://github.com/StarHeartHunt/nonebot-plugin-shorturl#readme
+Project-URL: Repository, https://github.com/StarHeartHunt/nonebot-plugin-shorturl
+Description-Content-Type: text/markdown
+
+<!-- markdownlint-disable MD033 MD036 MD041 -->
+
+<p align="center">
+  <a href="https://nonebot.dev/">
+    <img src="https://nonebot.dev/logo.png" height="100" alt="nonebot">
+  </a>
+</p>
+
+<div align="center">
+
+# nonebot-plugin-shorturl
+
+_✨ 为 NoneBot 插件提供短链接服务支持 ✨_
+
+</div>
+
+<p align="center">
+  <a href="https://github.com/StarHeartHunt/nonebot-plugin-shorturl/master/LICENSE">
+    <img src="https://img.shields.io/github/license/StarHeartHunt/nonebot-plugin-shorturl.svg" alt="license">
+  </a>
+  <a href="https://pypi.python.org/pypi/nonebot-plugin-shorturl">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-shorturl.svg" alt="pypi">
+  </a>
+  <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
+</p>
+
+## 使用方式
+
+暂无
+
+## 配置项
+
+暂无
+
