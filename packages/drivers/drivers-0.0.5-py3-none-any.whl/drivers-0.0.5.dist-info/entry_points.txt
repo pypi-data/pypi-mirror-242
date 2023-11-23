@@ -1,0 +1,8 @@
+[console_scripts]
+html = drivers.html:main
+image = drivers.image:main
+input = drivers.__main__:main
+input-html = drivers.html:main
+input-image = drivers.image:main
+input-pdf = drivers.pdf:main
+pdf = drivers.pdf:main
