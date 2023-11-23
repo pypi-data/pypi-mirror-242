@@ -1,0 +1,11 @@
+tab_dataset/__init__.py,sha256=UTJp4t6ixvQT2-FtgQt0tGnsMoLa448NNkC0kp96o58,1514
+tab_dataset/cdataset.py,sha256=OD5L0fTTNBjxkVoC8COpFio-h3lIkqzQO9Gti3hC76U,19985
+tab_dataset/cfield.py,sha256=kl5gc7myfkU2uWE-wsL1WUVdoWbM7jBDNfxD7o2Kg_c,33408
+tab_dataset/dataset.py,sha256=ejcsE5Qu5hv922ORckgo6Cmp3Hb5P07iw4YMh9O4buM,36609
+tab_dataset/dataset_interface.py,sha256=rRM5Kfz0fSyjRa8mCG-7_SLPYNwiKwD-HRPNqd4j_x8,23657
+tab_dataset/field.py,sha256=w4lAehC8BqLNI62k1zBoCIrt9aNxpfIxhKC8KI9Bx2U,15166
+tab_dataset/field_interface.py,sha256=-vDn-EWNmqhxNEjpAET7baLSi-3E7hC8E64DrlkhF8o,8877
+tab_dataset-0.1.0.dist-info/METADATA,sha256=4AwVW-aSWc8dRbNry2h1rj5qW3p7fs2OTpZisBrSkeg,7352
+tab_dataset-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tab_dataset-0.1.0.dist-info/top_level.txt,sha256=5xK2fBjNj3hZWF1ww3DTtrJxuVIFD_Y7i1fIwQzt7Ak,12
+tab_dataset-0.1.0.dist-info/RECORD,,
