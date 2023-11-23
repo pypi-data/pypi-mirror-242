@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pickpock"
+version = "0.1.5"
+description = "A re-implementation of Deen Freelon's pyktok"
+authors = ["Pascal Jürgens <juergens@uni-trier.de>"]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+browser-cookie3 = "^0.19.1"
+requests = "^2.31.0"
+selectolax = "^0.3.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
