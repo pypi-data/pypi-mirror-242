@@ -1,0 +1,10 @@
+cd_sql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cd_sql/querries.py,sha256=BDeakLstedhIvZynS3-ETOHhyKcUN2VGm3F4DHUycs0,4641
+cd_sql/sql.py,sha256=f1ucjVOq_5f9W9FPYgW-0L8zAxZfcxsfzDoz_pjK1mg,2472
+cd_sql/version.py,sha256=4dCrvStS1OgE3Vlcv-qx5-TAo377yOMEToEqCi-PwY4,23
+cd_sql-0.0.3.dist-info/LICENSE.md,sha256=xXPRashrI0cnQQXx2q4Ypb5FmNlRGcJx0D2iCSTOGls,1100
+cd_sql-0.0.3.dist-info/LICENSE.txt,sha256=xXPRashrI0cnQQXx2q4Ypb5FmNlRGcJx0D2iCSTOGls,1100
+cd_sql-0.0.3.dist-info/METADATA,sha256=Zzr30pWwFDvhPnPpzeeMuJVUQ4hzX6hkUhIcP4aOpnQ,7763
+cd_sql-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cd_sql-0.0.3.dist-info/top_level.txt,sha256=706_B3Sbts2GrqaKn1GK_4RWYhP-JOS0vSRfT_lBP4c,7
+cd_sql-0.0.3.dist-info/RECORD,,
