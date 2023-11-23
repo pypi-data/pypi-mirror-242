@@ -1,0 +1,96 @@
+<p align="center">
+
+<img src="https://github.com/shangcode/md2sheet/raw/main/docs/img/md2sheet-logo.svg"/>
+
+</p>
+
+<p align="center">
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+<a href="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml"><img src="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml/badge.svg?branch=main"></a>
+<a href="https://www.bestpractices.dev/projects/8105"><img src="https://www.bestpractices.dev/projects/8105/badge"></a>
+</p>
+
+
+Convert structed markdown content into sheet(XLSX).
+
+
+## Is this for me?
+
+If you want convert a markdown like this:
+
+```md
+# Comics
+
+## Detective Comics (DC)
+
+### Batman Family
+
+#### Batman
+
+...
+
+#### Catwoman
+
+...
+
+## Marvel Comics
+
+### Avengers
+
+#### Iron Man
+
+...
+
+#### Captain America
+
+...
+```
+
+into sheet like this:
+|h1|h2|h3|h4|h5|
+|--|--|--|--|--|
+|Comics|Detective Comics (DC)|BatmanFamily|Batman|...|
+|Comics|Detective Comics (DC)|BatmanFamily|Cat woman|...|
+|Comics|Marvel Comics|Avengers|Iron Man|...|
+|Comics|Marvel Comics|Avengers|Captain America|...|
+
+then you are on the right place.
+
+💡Futhuremore, you can use office tools to modifiy the sheet according to your preferences:
+![use office tools to modify sheet](https://github.com/shangcode/md2sheet/raw/main/docs/img/modifed-with-office-tools.png)
+
+## Requirements
+Python 3.11+
+
+The md2Sheet stands on the shoulders of giants:
+
+- [markdown-to-json](https://github.com/njvack/markdown-to-json/)
+- [pandas](https://pandas.pydata.org/)
+- [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
+- [Typer](https://typer.tiangolo.com/)
+
+## Installation
+```console
+pip install md2sheet
+```
+
+## Usage
+
+```console
+md2xlsx [OPTIONS] IN_FILE OUT_FILE
+```
+
+**Options**:
+
+- `--install-completion`: Install completion for the current shell.
+- `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+- `--help`: Show this message and exit.
+
+**Arguments**:
+
+- `IN_FILE`: Enter the markdown filepath [required]
+- `OUT_FILE`: Enter the xlsx filepath [required]
+
+## License
+
+This project is licensed under the terms of the MIT license.
