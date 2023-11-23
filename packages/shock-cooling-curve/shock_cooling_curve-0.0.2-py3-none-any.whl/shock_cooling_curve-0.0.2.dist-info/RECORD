@@ -1,0 +1,16 @@
+shock_cooling_curve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shock_cooling_curve/fitter.py,sha256=d6qAnmeebCLKCXRqBt_Dl6Mp00O1dEVm7xAzsCpsUtQ,8492
+shock_cooling_curve/plotter.py,sha256=E8_pU_CpbBEIzC_85ApeiejjOAaw8ZgUbfaYxctxyik,8519
+shock_cooling_curve/supernova.py,sha256=cHZP0JIpwrJVuM_BxmJXDm_e0mF9R7lY1_3-Lip450o,12676
+shock_cooling_curve/models/PIRO_2015.py,sha256=UhwiZ9cyB4cZLOtGB0A-QKuxlluiXnd-UwXdzHsqGtw,1965
+shock_cooling_curve/models/PIRO_2020.py,sha256=1XhzSKH8QZwHjQkodcVA6TuXqiVucYHc0hHlfMUveMc,3119
+shock_cooling_curve/models/SW_BSG.py,sha256=Mb36JrcZfmbJzzM6-kfLcy-u5ItQWVlx4fdApShreB4,1285
+shock_cooling_curve/models/SW_RSG.py,sha256=OfEr2oy7pEP39wNE3LdTApUSUxmiUQ28Qj-DsNXC9Rs,1413
+shock_cooling_curve/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shock_cooling_curve/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shock_cooling_curve/utils/utils.py,sha256=IpG3LOi5OxvrMJIbnvJ3WbeKOpPFKSh4oZdisgnvsBw,1231
+shock_cooling_curve-0.0.2.dist-info/LICENSE,sha256=8i8hE4Oibdw4_UMbxYuNaSjQ1JSip_EP4pCQbDTg48w,1074
+shock_cooling_curve-0.0.2.dist-info/METADATA,sha256=W26acKa9yJfpsDme_MZEFvy4KZaKUqQ4YtnMPKMx6q8,1949
+shock_cooling_curve-0.0.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+shock_cooling_curve-0.0.2.dist-info/top_level.txt,sha256=UgHfYsZsE0R1w1zWgPeGl2hYDFX8tbQvWRuLuyBsNao,20
+shock_cooling_curve-0.0.2.dist-info/RECORD,,
