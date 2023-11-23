@@ -1,0 +1,10 @@
+procurement_tools/__init__.py,sha256=RkDWKjR2n7h7RfAfBm725yEjGo_NAp9QcDSb4BZkb4g,79
+procurement_tools/far.py,sha256=2ENAEc-JneaLkPs7OkzCUIOe_18lZ4xZuD90fuAi0hY,2753
+procurement_tools/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+procurement_tools/models/far_clause.py,sha256=oeujomjMwygLppJEgHLdNjSMevgTGb9ZjMrgbT0Ai5c,495
+procurement_tools/uei.py,sha256=AkWlhR0Gn7SHEu78vgRMSSqg3-6DNwJ3JYdIkxbvaYA,1511
+procurement_tools/usaspending.py,sha256=T4aRIGOCNAIvQomGF0jFTAG3WfK2WPH6vdpGpW4N8-E,639
+procurement_tools-0.1.1.dist-info/LICENSE.md,sha256=bfZKWnTHPfTPATNupGQDjlflMSUrR5OFp938RFj8KmA,10501
+procurement_tools-0.1.1.dist-info/METADATA,sha256=NeRbxtl3l5xpADT94XMkksyWFBxNAa6wjdPt0awb0gU,1269
+procurement_tools-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+procurement_tools-0.1.1.dist-info/RECORD,,
