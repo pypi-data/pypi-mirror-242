@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+./lazygitgpt/__init__.py
+./lazygitgpt/__main__.py
+./lazygitgpt/ai_operations.py
+./lazygitgpt/cli.py
+./lazygitgpt/git_operations.py
+lazygitgpt.egg-info/PKG-INFO
+lazygitgpt.egg-info/SOURCES.txt
+lazygitgpt.egg-info/dependency_links.txt
+lazygitgpt.egg-info/entry_points.txt
+lazygitgpt.egg-info/requires.txt
+lazygitgpt.egg-info/top_level.txt
+tests/test_cli.py
