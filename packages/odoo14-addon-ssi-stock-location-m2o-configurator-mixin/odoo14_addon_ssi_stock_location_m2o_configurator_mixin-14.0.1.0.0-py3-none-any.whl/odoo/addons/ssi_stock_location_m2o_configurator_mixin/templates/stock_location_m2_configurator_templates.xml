@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<template id="stock_location_m2o_configurator_template">
+    <group name="location_1" col="2" colspan="4" string="Location">
+        <field name="location_selection_method" />
+        <field
+                name="location_ids"
+                attrs="{'invisible':[('location_selection_method','!=','manual')]}"
+            />
+        <field
+                name="location_domain"
+                widget="domain"
+                options="{'model': 'stock.location', 'in_dialog': True}"
+                attrs="{'invisible':[('location_selection_method','!=','domain')]}"
+            />
+        <field
+                name="location_python_code"
+                widget="ace"
+                attrs="{'invisible':[('location_selection_method','!=','code')]}"
+            />
+    </group>
+</template>
+</odoo>
