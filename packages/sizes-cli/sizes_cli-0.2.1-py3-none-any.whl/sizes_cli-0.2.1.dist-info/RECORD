@@ -1,0 +1,12 @@
+sizes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sizes/__main__.py,sha256=7rLs5-77pLOxi2SY8pIImE7pUfUe1Zv_eFD4obTo3bc,1185
+sizes/_util.py,sha256=Y92k8RIQeEuG5x0o14nxrliwdlHBjJhUo3ESXtipoHw,385
+sizes/cli.py,sha256=nSa0LCXJqUDPbyu1j5_69ht-JAJVKbbCAjuyOSXv7eI,2618
+sizes/colours.py,sha256=mXaJpX6dmrIt3O_T6X7yhrBCdhfdvOFgmL5FXREXHbo,1124
+sizes/dir.py,sha256=nxNqEkw4i37pDEb6Rncdvy2dB5zWBm4JvC3CRSy5HjI,1379
+sizes/file.py,sha256=Ghn-XxytdQrTp-OK8l1WHapkKtxhxj6UmpGV5wKnhVA,1341
+sizes/utils.py,sha256=_dlJtj_5Ruj23e5mPUOfwFgr7av1NEYDgUG2R-qn8Ts,1199
+sizes_cli-0.2.1.dist-info/entry_points.txt,sha256=ROJLyLoI1nhDgv-Q01RGSsFbdKAInQ8Ed4L2bFXyzWE,44
+sizes_cli-0.2.1.dist-info/METADATA,sha256=3f9s0lrzsT8kbJ_aPwY3KpA3gdL55NHvE7BkN4t7Ev4,823
+sizes_cli-0.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+sizes_cli-0.2.1.dist-info/RECORD,,
