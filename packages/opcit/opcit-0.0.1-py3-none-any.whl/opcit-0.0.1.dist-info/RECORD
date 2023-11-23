@@ -1,0 +1,11 @@
+opcit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opcit/deposit.py,sha256=HmlEPgnuJYCiHZNvKUVJ9zlbbFOU0VbJAEduZi1a3gE,15913
+opcit/fastapi_entry.py,sha256=aQwd7p3ONFJp9Ssmr60kFWd3ebFnVIC8KTg-65GJgDg,726
+opcit/opcit_router.py,sha256=WtBjf4G8sbcsi0VTyk4pixSw5ztiLE56EBQpqoiJaig,799
+opcit/settings.py,sha256=IYOypvUjzMcTAGEr5c43ET6jQ6x5nMjCkSpT2cuGQT4,1114
+opcit/depositors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opcit/depositors/ia.py,sha256=6fTkg7an8-RWEMaLfkl-cjazshFJPYWWv7xHCG6qgj0,2611
+opcit-0.0.1.dist-info/METADATA,sha256=qMo91SNP8nY3TPJAHdKJ0Vs33BAUet2R9J1vM6kfp3I,2680
+opcit-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+opcit-0.0.1.dist-info/top_level.txt,sha256=i563JacC9rTfT3Kik3XkMv5QRrAAv28h-1gkaPj4ug0,6
+opcit-0.0.1.dist-info/RECORD,,
