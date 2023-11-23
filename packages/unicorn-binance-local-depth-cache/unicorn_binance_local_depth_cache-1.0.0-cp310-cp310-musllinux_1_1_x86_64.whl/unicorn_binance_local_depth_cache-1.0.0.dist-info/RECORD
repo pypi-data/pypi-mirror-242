@@ -1,0 +1,8 @@
+unicorn_binance_local_depth_cache-1.0.0.dist-info/top_level.txt,sha256=LPxEgRd3d-xKsovFhSwt8709SPwu2w1k0SUN94gAszs,34
+unicorn_binance_local_depth_cache-1.0.0.dist-info/WHEEL,sha256=XRy71Q9dkxeaN5xqg4V0IQ2y1PE7-xmFNFjaSBPcoPM,113
+unicorn_binance_local_depth_cache-1.0.0.dist-info/METADATA,sha256=UmEKHlzPyZqjao6dD2YXhhra3kMXi61ax0-oBYvPegk,28107
+unicorn_binance_local_depth_cache-1.0.0.dist-info/LICENSE,sha256=nq1CgraHzf4C2FHrlThZ2ETc3TKF7GlKbROMMCcLqZQ,4260
+unicorn_binance_local_depth_cache-1.0.0.dist-info/RECORD,,
+unicorn_binance_local_depth_cache/__init__.cpython-310-x86_64-linux-gnu.so,sha256=9HvAw2iMgTCIzgi2XbpsWD8Bjd9B_LeYeGB5y-HmoXc,90976
+unicorn_binance_local_depth_cache/exceptions.cpython-310-x86_64-linux-gnu.so,sha256=zPiSF-CWve_8QJN2nDLVrIz2SVfgwzAao2gTzy9s9mc,102648
+unicorn_binance_local_depth_cache/manager.cpython-310-x86_64-linux-gnu.so,sha256=P2uK8Ro2tohADvL7qG_I9ylCzgpUaSB5SY6SFNm7Mqc,3294168
