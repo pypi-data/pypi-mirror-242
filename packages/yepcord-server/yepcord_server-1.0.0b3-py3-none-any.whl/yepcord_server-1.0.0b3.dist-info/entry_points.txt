@@ -1,0 +1,3 @@
+[console_scripts]
+yepcord=yepcord.cli:main
+
