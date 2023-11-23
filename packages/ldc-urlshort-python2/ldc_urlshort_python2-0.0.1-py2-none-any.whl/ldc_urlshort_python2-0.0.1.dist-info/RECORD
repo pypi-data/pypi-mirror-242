@@ -1,0 +1,12 @@
+urlshort_python2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urlshort_python2/helpers.py,sha256=y-QhlVbxs-IR0LRgpZAw0qybwuRg1ytvIh7vnpV5DBw,1816
+urlshort_python2/models.py,sha256=Woa9jbsXhOpWhRfIuGc_Kte8SDC2MRGXe3alLPzP4SA,722
+urlshort_python2/urls.py,sha256=pNce_wKgLB3EV1GZAnZ03sHhK9Thnoh_p5mV9LDgFoY,251
+urlshort_python2/utils.py,sha256=FeAl0f5WVFeF8nhI0Wx1c3L8Lcwg7xil7upwghGvE_s,5636
+urlshort_python2/views.py,sha256=aTK9NfM4LLFTqO3GobGusbufzCU5ADOvEcnYYdSlKPw,2361
+urlshort_python2/migrations/0001_initial.py,sha256=T7ECdBrJ-XZOCSff1SGM42iPcMVuugHTI2YafdEb9oo,1318
+urlshort_python2/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ldc_urlshort_python2-0.0.1.dist-info/METADATA,sha256=4oD-QGxiuluzEm5Juc4zun39JoXC4y2CxMIUPcJ5skA,3729
+ldc_urlshort_python2-0.0.1.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+ldc_urlshort_python2-0.0.1.dist-info/top_level.txt,sha256=uhyPVQdMU1WscwbYUzGJaMT-OUvztdg0A1RbIjHDvBQ,17
+ldc_urlshort_python2-0.0.1.dist-info/RECORD,,
