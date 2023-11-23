@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: image-shrinker
+Version: 0.1.0
+Summary: Shrinks images. Use it before committing to git and/or using on a website
+Keywords: image,shrink,web
+Author-email: Don Parakin <don@weaddvalue.ca>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Dist: Pillow>3.0.0
+Project-URL: Documentation, https://image-shrinker.readthedocs.org
+Project-URL: Homepage, https://gitlab.com/parakin/image-shrinker
+Project-URL: Issues, https://gitlab.com/parakin/image-shrinker/-/issues
+Project-URL: Repository, https://gitlab.com/parakin/image-shrinker.git
+
+# image-shrinker
+
+Go directly to the [DOCUMENTATION](https://image-shrinker.readthedocs.io/).
+
+## Description
+Yup, you guessed right, it shrinks images.
+Use it before committing large image files into git and/or using large image files on a website.
+
+*image-shrinker* was built to scratch my own itch.
+You might have the same itch.
+
+- I needed a no-brainer command I could quickly run on the source files of my website(s).
+- It would shrink large image files before I committed them to git ... and before I would
+  deploy them on my website.
+- It wouldn't require me to remember which directories need what kind of shrinking.
+  - For example, that images in my `img/thumbnails` directory needed to shrink to width=100
+  - But that images in my `img/photos/carousel` needed to shrink to height=300
+    so that they were all the same height on my home page's rotating photo carousel.
+- I wanted to run the command only once and have it handle multiple shrink cases.
+- I wanted all my shrinking requirements specified in a file in my repository
+  version-controlled and in sync with the rest of my source files.
+- ~~Easy peasy~~ (no, I hate that phrase)
+
+*image-shrinker* happens to be written in Python,
+but you do not need to be a Python programmer to use it.
+
+## Documentation
+For instructions on how to install and use *image-shrinker*,
+see [image-shrinker.readthedocs.io](https://image-shrinker.readthedocs.io/).
+
+## Support
+Try opening an issue [HERE](https://gitlab.com/parakin/image-shrinker/-/issues).
+No promises on any level of service. Best efforts only.
+The code is really simple. Any Python developer should be able to help you.
+
+## Contributing
+Contributions will be considered.
+
+## Acknowledgment
+Thanks to [Pillow](https://pillow.readthedocs.io/en/stable/), the Python Image Library.
+It does all the hard work of shrinking images.
+
+## License
+MIT Licensed. See [LICENSE](LICENSE).
+
+## Project status
+Actively but lightly maintained by Don Parakin.
+
