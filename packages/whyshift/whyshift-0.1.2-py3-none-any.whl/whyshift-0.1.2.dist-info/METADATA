@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: whyshift
+Version: 0.1.2
+Summary: A package of various specified distribution shift patterns of out-of-distributoin generalization problem on tabular data, and tools for diagnosing model performance are integrated.
+Home-page: https://github.com/namkoong-lab/whyshift
+Author: Jiashuo Liu, Tianyu Wang, Peng Cui, Hongseok Namkoong
+Author-email: liujiashuo77@gmail.com, tw2837@columbia.edu, cuip@tsinghua.edu.cn, namkoong@gsb.columbia.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: lightgbm
+Requires-Dist: xgboost
+Requires-Dist: fairlearn
+Requires-Dist: tqdm
+Requires-Dist: torch
+Requires-Dist: scipy
+
+## `WhyShift`: A Benchmark with Specified Distribution Shift Patterns 
+
+> <a href="https://ljsthu.github.io">Jiashuo Liu*</a>, <a href="https://wangtianyu61.github.io">Tianyu Wang*</a>, <a href="https://pengcui.thumedialab.com">Peng Cui</a>, <a href="https://hsnamkoong.github.io">Hongseok Namkoong</a>
+
+> Tsinghua University, Columbia University
+
+
+
+`WhyShift` is a python package that provides a benchmark with various specified distribution shift patterns on real-world tabular data. And several tools to diagnose performance degradation are integrated in it. Our testbed highlights the importance of future research that builds an understanding of how distributions differ. For more details, please refer to our <a href="https://openreview.net/pdf?id=PF0lxayYST">paper</a>.
+
+If you find this repository useful in your research, please cite the following paper:
+
+```
+@inproceedings{liu2023need,
+  title={On the Need for a Language Describing Distribution Shifts: Illustrations on Tabular Datasets},
+  author={Jiashuo Liu and Tianyu Wang and Peng Cui and Hongseok Namkoong},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  year={2023}
+}
+```
