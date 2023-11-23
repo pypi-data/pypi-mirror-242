@@ -1,0 +1,23 @@
+name: xesn
+channels:
+    - conda-forge
+dependencies:
+# Basics
+    - numpy
+    - scipy
+      #- cupy
+    - matplotlib
+# xarray et al
+    - xarray
+    - netCDF4
+    - bottleneck
+    - dask[complete]
+    - zarr
+# jupyter etc
+    - jupyter
+# Testing
+    - pytest
+    - coverage
+    - pip
+    - pip:
+        - smt==2.1.0
