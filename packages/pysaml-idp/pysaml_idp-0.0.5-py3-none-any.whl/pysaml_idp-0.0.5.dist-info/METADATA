@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: pysaml-idp
+Version: 0.0.5
+Summary: Librería para realizar login en Microsoft Entra ID como IdP
+Home-page: https://github.com/qaingenieros
+Author: Alejandro Mejia Ayala
+Author-email: alejandromejia@qaingenieros.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3
+
+# pysaml_idp
+## Autor : Alejandro Mejia Ayala
+
+This library simplify SAML2 Login on Microsoft Entra ID (Azure AD)
+It requires:
+
+* A business application configured on Azure Panel
+* A unique Application Id
+* A valid callback Url configured in Business App
+* A valid login and logout Url addresses (from Business app configuration)
+
+## HOWTO
+
+* Create test subdir
+
+    ```
+        mkdir pysaml-idp-test & cd pysaml-idp-test
+    ```
+
+* create a virtual environment
+
+    ```
+        python3 -m venv venv & source venv/bin/activate
+    ```
+
+* Install requirenments
+
+    ```
+        pip install Flask pysaml-idp python-dotenv cryptography
+    ```
+
+* Save variables on .env file
+
+    ```python
+        APPLICATION_ID=<application_id> # from Azure Portal
+        REDIRECT_URL=<Callback_URL> # Where login flow must return after Identification
+        LOGIN_URL=<Login_Url>  # from Azure Portal
+        LOGOUT_URL=<Logout_Url>  # from Azure Portal
+    ```
+
+* app.py
+
+    ```python
+        from flask import Flask, redirect, request, url_for, render_template
+        import logging
+        from pysaml_idp import SAML2
+        from dotenv import load_dotenv
+        import os
+
+        load_dotenv()
+
+        APPLICATION_ID = os.getenv('APPLICATION_ID')
+        REDIRECT_URL = os.getenv('REDIRECT_URL')
+        LOGIN_URL = os.getenv('LOGIN_URL')
+        LOGOUT_URL = os.getenv('LOGOUT_URL')
+
+        logging.basicConfig(level=logging.DEBUG)
+        app = Flask(__name__)
+        saml = SAML2(
+            APPLICATION_ID,
+            REDIRECT_URL,
+            LOGIN_URL,
+            LOGOUT_URL
+        )
+
+
+        @app.route('/')
+        def hello_world():
+            # Render the login template and pass the Azure AD login URL to the template
+            return '<a href="/azure_login">Azure Idp Login</a>'
+
+        @app.route('/azure_login')
+        def azureLogin():
+            login_url = saml.prepare_request()
+            response = redirect(login_url, code=302)
+            response.headers['Cache-Control'] = 'no-cache, no-store'
+            response.headers['Pragma'] = 'no-cache'
+            return response
+
+        @app.route('/auth/redirect', methods=['GET','POST'])
+        def saml_redirect():
+            # Extract the SAML response from the request form data
+            saml_response = request.form['SAMLResponse']
+            claims = saml.extract_claims(saml_response)
+            return claims
+
+        if __name__ == '__main__':
+            app.run(
+                host='0.0.0.0',
+                port="5000",
+                debug=True,
+                ssl_context='adhoc'
+            )
+    ```
+
+* run app
+    ```console
+        $  export FLASK_APP=app
+        $  export FLASK_ENV=development
+        $  flask run
+    ```
+
+* Open page on your preferred browser
+
+
+        [https://127.0.0.1:5000/](https://127.0.0.1:5000/)
+
+
+
