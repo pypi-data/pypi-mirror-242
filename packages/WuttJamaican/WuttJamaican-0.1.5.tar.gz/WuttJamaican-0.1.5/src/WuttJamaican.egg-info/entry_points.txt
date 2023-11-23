@@ -1,0 +1,6 @@
+[console_scripts]
+wutta = wuttjamaican.commands.base:main
+
+[wutta.subcommands]
+make-appdir = wuttjamaican.commands.make_appdir:MakeAppDir
+setup = wuttjamaican.commands.setup:Setup
