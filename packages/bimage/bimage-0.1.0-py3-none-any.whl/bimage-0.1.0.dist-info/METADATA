@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: bimage
+Version: 0.1.0
+Summary: A bulk image scraper for use in ML
+Home-page: https://github.com/xobek/bimage
+Author: xobek
+Author-email: xobekme@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: duckduckgo-search ==3.*
+Requires-Dist: Pillow ==10.*
+Requires-Dist: fastdownload ==0.0.*
+
+<div align="center">
+
+# bimage
+[![PyPI - Version](https://img.shields.io/pypi/v/bimage.svg)](https://pypi.org/project/bimage/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+bimage is a simple Python CLI that lets you find and download images in bulk based on your query. 
+</div>
+
+## Installation
+
+Install the repo:
+
+```sh
+pip install bimage
+```
+
+
+## Usage
+
+To get help with the commandline arguments use:
+
+```sh
+bimage --help
+```
+
+
+
+# Development
+
+Clone the repository and install packages from the requirements.txt file 
+
+```sh
+pip install -r requirements.txt
+```
+
+## Meta
+
+xobekme@gmail.com
+
+Distributed under the MIT license. See `LICENSE` for more information.
+
+## Contributing
+
+Fork from the repository (<https://github.com/xobek/bimage/fork>) 
