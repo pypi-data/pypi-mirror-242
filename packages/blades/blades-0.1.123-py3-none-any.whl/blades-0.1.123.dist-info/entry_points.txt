@@ -1,0 +1,3 @@
+[console_scripts]
+blades=blades.train:main
+
