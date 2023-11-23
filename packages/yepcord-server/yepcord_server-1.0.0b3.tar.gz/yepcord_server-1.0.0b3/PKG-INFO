@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: yepcord-server
+Version: 1.0.0b3
+Summary: YEPCord - Free open source selfhostable fully discord-compatible chat
+Home-page: https://github.com/yepcord/server
+License: AGPL-3.0
+Keywords: yepcord,chat,discord,chat-server,chat-backend,discord-backend
+Author: RuslanUC
+Author-email: dev_ruslan_uc@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: Flask
+Classifier: Framework :: Pydantic
+Classifier: Framework :: Pydantic :: 2
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Internet
+Classifier: Typing :: Typed
+Requires-Dist: aerich (>=0.7.2,<0.8.0)
+Requires-Dist: aioboto3 (==12.0.0)
+Requires-Dist: aiofiles (==23.2.1)
+Requires-Dist: aioftp (==0.21.4)
+Requires-Dist: aiohttp (==3.9.0)
+Requires-Dist: async-timeout (>=4.0.3,<5.0.0)
+Requires-Dist: bcrypt (==4.0.1)
+Requires-Dist: botocore (==1.31.64)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: cryptography (==41.0.5)
+Requires-Dist: emoji (==2.8.0)
+Requires-Dist: jinja2 (==3.1.2)
+Requires-Dist: mailers[smtp] (==3.0.1)
+Requires-Dist: maxminddb (==2.5.1)
+Requires-Dist: orjson (==3.9.10)
+Requires-Dist: pillow (==10.1.0)
+Requires-Dist: propan[async-rabbit,async-redis] (==0.1.5.24)
+Requires-Dist: protobuf (==4.25.1)
+Requires-Dist: pydantic (==2.5.2)
+Requires-Dist: pytest-asyncio (==0.21.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: python-magic (==0.4.27)
+Requires-Dist: quart (==0.19.4)
+Requires-Dist: quart-schema (==0.18.0)
+Requires-Dist: redis (>=4.6.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tortoise-orm[aiosqlite,asyncmy] (>=0.20.0,<0.21.0)
+Requires-Dist: types-protobuf (>=4.24.0.4,<5.0.0.0)
+Requires-Dist: uvicorn (==0.24.0.post1)
+Requires-Dist: uvloop (==0.19.0)
+Requires-Dist: websockets (==12.0)
+Requires-Dist: werkzeug (==3.0.1)
+Requires-Dist: wget (==3.2)
+Requires-Dist: yc-protobuf3-to-dict (>=0.3.0,<0.4.0)
+Project-URL: Repository, https://github.com/yepcord/server
+Description-Content-Type: text/markdown
+
+# YEPcord server
+Unofficial discord backend implementation in python.
+
+[![Stand With Ukraine](.github/banner-direct.svg)](https://stand-with-ukraine.pp.ua)
+
+# Setup
+**Requirements:**
+ - Python 3.9+
+ - Poetry (Optional)
+ 
+**Setup**:
+1. Clone yepcord repository:
+    ```bash
+    git clone https://github.com/yepcord/server yepcord-server && cd yepcord-server
+    ```
+2. Install requirements:
+    ```bash
+    poetry install
+    ```
+3. (Optional) Install and start redis, mysql/mariadb.
+4. (Optional) Fill config file (example in config.example.py) with your values.
+5. Run (with your config): 
+    ```bash
+    poetry run yepcord migrate -c yepcord-config.py
+    poetry run yepcord run_all -c yepcord-config.py
+    ```
+   Run (with default config): 
+    ```bash
+    poetry run yepcord migrate
+    poetry run yepcord run_all
+    ```
+   
+**Install as python package and run (simple method):**
+1. Install yepcord-server from pypi:
+    ```bash
+    pip install yepcord-server
+    ```
+2. (Optional) Install and start redis, mysql/mariadb.
+3. (Optional) Fill config file (example in config.example.py) with your values.
+4. Run (with your config): 
+    ```bash
+    yepcord migrate -c yepcord-config.py
+    yepcord run_all -c yepcord-config.py
+    ```
+   Run (with default config): 
+    ```bash
+    yepcord migrate
+    yepcord run_all
+    ```
+
+
+### License
+
+**Any commit before 10.04.2023 is also covered by this license.**
+
+Copyright (C) 2023 RuslanUC
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation version 3 of the
+License
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see https://www.gnu.org/licenses/agpl-3.0.de.html
