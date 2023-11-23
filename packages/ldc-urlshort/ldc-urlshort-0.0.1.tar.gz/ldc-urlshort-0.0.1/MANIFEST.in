@@ -1,0 +1,4 @@
+graft urlshort
+include pyproject.toml
+include setup.py
+global-exclude *.py[cod]
