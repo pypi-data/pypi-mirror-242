@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+botnets/__init__.py
+botnets.egg-info/PKG-INFO
+botnets.egg-info/SOURCES.txt
+botnets.egg-info/dependency_links.txt
+botnets.egg-info/top_level.txt
