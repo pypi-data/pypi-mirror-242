@@ -1,0 +1,14 @@
+unicorn_binance_websocket_api/connection.cpython-310-darwin.so,sha256=eWx8sUKiLX4sJK1RLFNWD-VrEbBsGLJlsFffJY6e_iY,421960
+unicorn_binance_websocket_api/api.cpython-310-darwin.so,sha256=c8kGctKojqwaKcYoL-25KIsLMT8jr8ycxC4RbYvQrHw,398120
+unicorn_binance_websocket_api/restclient.cpython-310-darwin.so,sha256=3Y_17pZ1bDJRukslTmP0hgQafPUfSL7rM9gAmwLDpwE,193072
+unicorn_binance_websocket_api/sockets.cpython-310-darwin.so,sha256=p5X2X02nklGsnJjHv7s4BxSr1NwA1AIx4fVQX5PRdZs,232224
+unicorn_binance_websocket_api/connection_settings.cpython-310-darwin.so,sha256=8CY3ZLOXOTqefmL8j1WHMD-jzEuqsuG9ygTU0TaCPqI,88376
+unicorn_binance_websocket_api/manager.cpython-310-darwin.so,sha256=DLd_buluYN4kciyIQsHf1nllAV5tGr6L9jYWdkqdtzA,1766040
+unicorn_binance_websocket_api/exceptions.cpython-310-darwin.so,sha256=7SQ3GyM7hdPN48ZWKWvTddNaFWdhjgLUlmJ_0S-HV4o,41712
+unicorn_binance_websocket_api/__init__.cpython-310-darwin.so,sha256=15ZpZ0zrO9qMbvxrF_tmdFgW3JCun3WHS88TKjnulYA,41440
+unicorn_binance_websocket_api/restserver.cpython-310-darwin.so,sha256=6h_MIjeTfKhOr7hTerrpFS3WTVf1Di11vFy0U4ULkbI,86928
+unicorn_binance_websocket_api-2.1.2.dist-info/RECORD,,
+unicorn_binance_websocket_api-2.1.2.dist-info/LICENSE,sha256=hHPgwlasJlbmIm-JFVXLmQPXMjdvoecz-nKQV-5rw4U,4232
+unicorn_binance_websocket_api-2.1.2.dist-info/WHEEL,sha256=TQlmCAd20YUeVyGm7PjFMnC_pA_j6rw_ne2D-uRkDyE,111
+unicorn_binance_websocket_api-2.1.2.dist-info/top_level.txt,sha256=805jzwlIjaJ8D50zJxQsRgRosB3WaNnU676MR03tSM0,30
+unicorn_binance_websocket_api-2.1.2.dist-info/METADATA,sha256=tp8LtMZl3VF6yAbXNWrumZQe9sD1A2GR4zZ_F7n9Ze0,49513
