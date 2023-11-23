@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "taskscore"
+version = "0.1.12"
+description = ""
+authors = ["Paulo Mulotto <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.pytest.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
