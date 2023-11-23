@@ -1,0 +1,6 @@
+setup.py
+skada/__init__.py
+skada.egg-info/PKG-INFO
+skada.egg-info/SOURCES.txt
+skada.egg-info/dependency_links.txt
+skada.egg-info/top_level.txt
