@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: arifpay-plugin-Python
+Version: 0.2
+Summary: Create Checkout Session plugin for arifpay
+Home-page: https://github.com/AnaniyaBelew
+Author: Ananiya Belew
+Author-email: anewscho@gmail.com
+Requires-Dist: uuid
+Requires-Dist: requests
+Requires-Dist: python-dotenv
