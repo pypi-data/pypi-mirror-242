@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+UIQuasar/__init__.py
+UIQuasar.egg-info/PKG-INFO
+UIQuasar.egg-info/SOURCES.txt
+UIQuasar.egg-info/dependency_links.txt
+UIQuasar.egg-info/top_level.txt
