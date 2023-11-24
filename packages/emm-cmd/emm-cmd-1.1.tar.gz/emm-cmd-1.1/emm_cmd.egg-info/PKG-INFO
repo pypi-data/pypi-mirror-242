@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: emm-cmd
+Version: 1.1
+Summary: AI command line assistant.
+Author: Chunyang
+Requires-Python: >=3.6
+License-File: LICENCE.md
