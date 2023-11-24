@@ -1,0 +1,11 @@
+blackboard/__init__.py,sha256=ymVclner3LJIQfaqEtDn4B8nt0ES7V7pTOnBr6eAbbc,225
+blackboard/api.py,sha256=aLUsaPd2vNU_N4ROSwbC5qVlL9D2TwFeoRFNmwix8u8,24633
+blackboard/api_extended.py,sha256=12VaZa5-P01dIRcDpzMPjvGFrw4VwSXdiPR7GNzCY2A,2159
+blackboard/blackboard.py,sha256=hxBorsxzXDqDxRs2kHqU-T3E3nNnyjbS6-kIhsfX978,6856
+blackboard/filters.py,sha256=kVIhJJ5MFQXnte7_8AbckEo5BQ-Lwpdo7QHPb5Jj3Zc,3849
+bblearn-0.1.0.dist-info/AUTHORS.md,sha256=LxKhKtlD-XnXaC4Wbf8ku52pa7ZV4K-EqCqdNznkx40,152
+bblearn-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+bblearn-0.1.0.dist-info/METADATA,sha256=jOJNLIg8BqIOIO9j_cBD2xKfyHDIh1PpP9Jg3Bjd6zA,2566
+bblearn-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+bblearn-0.1.0.dist-info/top_level.txt,sha256=OnMtWoUwoTCZsKBQyTKMcjRbmta4nYuolk0vw7OeulA,11
+bblearn-0.1.0.dist-info/RECORD,,
