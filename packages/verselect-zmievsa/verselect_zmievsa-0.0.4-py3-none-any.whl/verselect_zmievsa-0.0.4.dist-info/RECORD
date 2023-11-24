@@ -1,0 +1,13 @@
+verselect/__init__.py,sha256=_6eft_MylyCPJmtfahq3NbcsKdwoUDJjNXLDhVZKQTk,75
+verselect/apps.py,sha256=9agEFs8QxWGaNxw7FyROxJgOBvMGmlhIZDquZdS1n_U,7315
+verselect/docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verselect/docs/docs.html,sha256=WNm5ANJVy51TcIUFOaqKf1Z8eF86CC85TTHPxACtkzw,3455
+verselect/exceptions.py,sha256=RCs44bJEU1ElhINeBLolnzhmHViiZg2-aW097oKaf6w,53
+verselect/middleware.py,sha256=KD5tQ2ZablGCqcnvZYA9OObj-HWZ1kNM4amsXuHNF-Y,3023
+verselect/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verselect/routing.py,sha256=uBQ_lYmthUpUY0kEi9WvXgAEEcicqsoDvO8jFCvo_vQ,6200
+verselect/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verselect_zmievsa-0.0.4.dist-info/LICENSE,sha256=eIQhGOA0sYJo_OhM7qhUN7diI7dylC1WStzEJab60HY,1068
+verselect_zmievsa-0.0.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+verselect_zmievsa-0.0.4.dist-info/METADATA,sha256=-w35LNLmhhfaq-R6dXkUi3kUrnMKUDdEevUPRZR3UAk,1513
+verselect_zmievsa-0.0.4.dist-info/RECORD,,
