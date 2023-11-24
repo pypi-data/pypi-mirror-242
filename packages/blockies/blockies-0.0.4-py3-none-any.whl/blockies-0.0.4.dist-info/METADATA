@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: blockies
+Version: 0.0.4
+Summary: A tiny library for generating blocky identicons.
+Author-email: Tristan King <tristan.king@gmail.com>
+Project-URL: Homepage, https://github.com/tristan/blockies
+Project-URL: Issues, https://github.com/tristan/blockies/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow >=7.0.0
+
+# Blockies (for python)
+
+A tiny library for generating blocky identicons.
+
+Python port of the blockies javascript library from https://github.com/alexvandesande/blockies .
+
+# Usage
+
+```
+import blockies
+
+data = blockies.create("0xfb6916095ca1df60bb79ce92ce3ea74c37c5d359")
+with open('test.png', 'wb') as png:
+    png.write(data)
+```
