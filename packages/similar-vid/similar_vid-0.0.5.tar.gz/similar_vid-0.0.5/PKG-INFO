@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: similar_vid
+Version: 0.0.5
+Summary: Similar-vid is a library for finding similar frames between videos
+Home-page: https://github.com/supermakc/similar-vid
+Author: Maxim Baryshev
+Author-email: supermakc@gmail.com
+License: MIT
+Keywords: video similar skip intro
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+UNKNOWN
+
