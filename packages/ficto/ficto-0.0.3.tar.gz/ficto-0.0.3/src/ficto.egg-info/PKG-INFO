@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ficto
+Version: 0.0.3
+Summary: A Python package to generate realistic demo data in csv or json format.
+Home-page: https://github.com/taeefnajib/ficto
+Author: taeefnajib
+Author-email: taeefnajib@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/taeefnajib/ficto/issues
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: PyYAML
+Requires-Dist: six
+Requires-Dist: tzdata
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: mypy; extra == "testing"
+Requires-Dist: flake8; extra == "testing"
+Requires-Dist: tox; extra == "testing"
+Requires-Dist: black; extra == "testing"
+
+# **Ficto - Generate Demo Data**
