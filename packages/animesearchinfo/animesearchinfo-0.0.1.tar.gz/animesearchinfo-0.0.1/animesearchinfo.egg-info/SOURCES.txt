@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+animeinfo/__init__.py
+animeinfo/anime_library.py
+animesearchinfo.egg-info/PKG-INFO
+animesearchinfo.egg-info/SOURCES.txt
+animesearchinfo.egg-info/dependency_links.txt
+animesearchinfo.egg-info/top_level.txt
