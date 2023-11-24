@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: i6_models
+Version: 0.0.1
+Summary: A collection of PyTorch NN models and parts.
+Home-page: https://github.com/rwth-i6/i6_models/
+Author-email: Christoph Lüscher <luescher@cs.rwth-aachen.de>, Nick Rossenbach <rossenbach@cs.rwth-aachen.de>, Benedikt Hilmes <hilmes@cs.rwth-aachen.de>, Jingjing Xu <jxu@cs.rwth-aachen.de>, Mohammad Zeineldeen <zeineldeen@cs.rwth-aachen.de>, Albert Zeyer <zeyer@cs.rwth-aachen.de>, Peter Vieting <vieting@cs.rwth-aachen.de>, Simon Berger <sberger@cs.rwth-aachen.de>, Eugen Beck <ebeck@apptek.com>, Ping Zheng <p.zheng@apptek.com>, Wilfried Michel <wmichel@apptek.com>
+Project-URL: Homepage, https://github.com/rwth-i6/i6_models
+Project-URL: Bug Tracker, https://github.com/rwth-i6/i6_models/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# i6_models
+Collection of NN-Model parts
