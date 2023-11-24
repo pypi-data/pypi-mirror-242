@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+govee_H613_BTcontroller/__init__.py
+govee_H613_BTcontroller/constants.py
+govee_H613_BTcontroller/govee_H613_BTcontroller.py
+govee_H613_BTcontroller/utils.py
+govee_H613_BTcontroller.egg-info/PKG-INFO
+govee_H613_BTcontroller.egg-info/SOURCES.txt
+govee_H613_BTcontroller.egg-info/dependency_links.txt
+govee_H613_BTcontroller.egg-info/requires.txt
+govee_H613_BTcontroller.egg-info/top_level.txt
