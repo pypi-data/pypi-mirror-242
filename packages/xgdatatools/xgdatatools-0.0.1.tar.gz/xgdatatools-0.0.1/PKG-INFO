@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xgdatatools
+Version: 0.0.1
+Summary: xgdatatools package
+Project-URL: Homepage, https://github.com/mkisono/xgdatatools
+Project-URL: Issues, https://github.com/mkisono/xgdatatools/issues
+Author-email: Masahiro Kisono <mkisono@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# xgdatatools
+Originally created by Michael Petch and was hosted on a website that was not in use anymore, This is only on github for people who want to read this file format which is abandoned by Microsoft.
