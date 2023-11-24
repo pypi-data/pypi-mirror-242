@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ThreatArmorX/__init__.py
+ThreatArmorX.egg-info/PKG-INFO
+ThreatArmorX.egg-info/SOURCES.txt
+ThreatArmorX.egg-info/dependency_links.txt
+ThreatArmorX.egg-info/top_level.txt
