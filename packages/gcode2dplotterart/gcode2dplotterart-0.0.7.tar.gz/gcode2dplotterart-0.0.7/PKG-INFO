@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gcode2dplotterart
+Version: 0.0.7
+Summary: Easily generate plotter art with your 2D plotter or 3D printer. This library abstracts away G-Code so you can focus on making art.
+Author: Travis Bumgarner
+Requires-Python: >=3.11.5,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: black (>=23.10.1,<24.0.0)
+Requires-Dist: flake8 (>=6.1.0,<7.0.0)
+Requires-Dist: matplotlib (>=3.8.1,<4.0.0)
+Requires-Dist: mypy (>=1.7.0,<2.0.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: setuptools (>=68.2.2,<69.0.0)
+Requires-Dist: wheel (>=0.41.3,<0.42.0)
