@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+hackergpt/__init__.py
+hackergpt.egg-info/PKG-INFO
+hackergpt.egg-info/SOURCES.txt
+hackergpt.egg-info/dependency_links.txt
+hackergpt.egg-info/top_level.txt
