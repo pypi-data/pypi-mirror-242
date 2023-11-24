@@ -1,0 +1,12 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/example_usage.py,sha256=P3v1ti_zg10Ez6oqoGj6a2xuoCxMkX20CvsQVrZemEQ,2071
+snaildb/__init__.py,sha256=tQ9bIE1LAtrnbvmykIHr-3N3rgg8fZ6KaltAvbuhFTU,55
+snaildb/snaildb.py,sha256=-zGKz-VAaCR7_m_THtDcWQ10ahbKZhbrvpadTX-LxZE,11848
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_snaildb.py,sha256=F8GVWR0uijKYMDEoDbDtGk0GUDRdP70QraNvgh1UzSE,4189
+snailDB-0.0.2.dist-info/LICENSE,sha256=B-lX8_tvYD4GhAkK6uN3zauvEU2L96JciuYwOaOvVuI,1092
+snailDB-0.0.2.dist-info/METADATA,sha256=frHpNSyyLw_MUolKb4pO1XJyS9JeDd3ojLwM47vw9Xk,5241
+snailDB-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snailDB-0.0.2.dist-info/entry_points.txt,sha256=XVUN_GPR5-PmiCjkBi_0siTdafTeiA_3KVcS27YZ6i4,49
+snailDB-0.0.2.dist-info/top_level.txt,sha256=UEybpxPDi1dlemXw_r0KKaVnMG-l_XbiesO9OIRextY,23
+snailDB-0.0.2.dist-info/RECORD,,
