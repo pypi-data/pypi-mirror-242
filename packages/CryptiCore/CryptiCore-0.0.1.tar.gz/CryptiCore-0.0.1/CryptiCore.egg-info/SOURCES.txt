@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+CryptiCore/__init__.py
+CryptiCore.egg-info/PKG-INFO
+CryptiCore.egg-info/SOURCES.txt
+CryptiCore.egg-info/dependency_links.txt
+CryptiCore.egg-info/top_level.txt
