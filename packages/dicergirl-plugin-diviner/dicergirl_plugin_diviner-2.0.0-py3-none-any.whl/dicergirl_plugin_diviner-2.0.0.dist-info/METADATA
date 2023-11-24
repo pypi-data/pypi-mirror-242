@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dicergirl-plugin-diviner
+Version: 2.0.0
+Summary: DicerGirl 占卜插件
+Home-page: https://gitee.com/unvisitor/dicergirl-plugin-diviner/
+Author: 苏向夜 <fu050409@163.com>
+Author-email: fu050409@163.com
+License: Apache-2.0
+Project-URL: Bug Tracker, https://gitee.com/unvisitor/dicergirl-plugin-diviner/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: dicergirl
+
