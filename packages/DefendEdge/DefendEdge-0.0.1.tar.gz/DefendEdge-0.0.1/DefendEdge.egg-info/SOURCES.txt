@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+DefendEdge/__init__.py
+DefendEdge.egg-info/PKG-INFO
+DefendEdge.egg-info/SOURCES.txt
+DefendEdge.egg-info/dependency_links.txt
+DefendEdge.egg-info/top_level.txt
