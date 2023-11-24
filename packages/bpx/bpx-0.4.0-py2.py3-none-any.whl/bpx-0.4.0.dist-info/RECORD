@@ -1,0 +1,11 @@
+bpx/__init__.py,sha256=eavpaUR4_5PswZIdUPH8np0qEWXEL8SwV1zd4kSS4eQ,417
+bpx/expression_parser.py,sha256=LG1Jvhf8jnwHGT6aLE1QxTwN40NtBpcB8zR8g9YvZGQ,2316
+bpx/function.py,sha256=5cGqGYyknRezTvzNSZ4Vd0x0UBGHlyuZcEfav8tygx4,2545
+bpx/interpolated_table.py,sha256=B0_TOLrP5sEaVXpkcQDZYYbESiGNzVF_p61EMx7R7r0,539
+bpx/parsers.py,sha256=OseIHAHC_c6WjXWS9Svg-jiZmKUbGTcqd1bUpHCkB-0,1728
+bpx/schema.py,sha256=ThPvgSb6q114ugwtufUebdqHV5eXY61kLJ_NMxSviRw,13846
+bpx/utilities.py,sha256=p0IqP47YsPKCX5peH6T3AgvBStPBVp1PId1cad2aNvI,1938
+bpx/validators.py,sha256=tJrSwr1jhimeEos1eQFOh1QMbHi-uJAw33zYwnb5yJY,1893
+bpx-0.4.0.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+bpx-0.4.0.dist-info/METADATA,sha256=GOIUF5MOgfJYz178eXnH4H7TPS0j3vrFTknh8nOB14w,4990
+bpx-0.4.0.dist-info/RECORD,,
