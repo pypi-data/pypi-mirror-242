@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+infosec/__init__.py
+infosec.egg-info/PKG-INFO
+infosec.egg-info/SOURCES.txt
+infosec.egg-info/dependency_links.txt
+infosec.egg-info/top_level.txt
