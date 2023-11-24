@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+py_pheno/__init__.py
+py_pheno/func_preseason_api.cp37-win_amd64.pyd
+py_pheno/func_preseason_api.cp38-win_amd64.pyd
+py_pheno.egg-info/PKG-INFO
+py_pheno.egg-info/SOURCES.txt
+py_pheno.egg-info/dependency_links.txt
+py_pheno.egg-info/requires.txt
+py_pheno.egg-info/top_level.txt
