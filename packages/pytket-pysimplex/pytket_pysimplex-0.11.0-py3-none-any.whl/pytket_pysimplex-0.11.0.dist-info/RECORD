@@ -1,0 +1,10 @@
+pytket/extensions/pysimplex/__init__.py,sha256=PAcuQgFqEHePZig0MAoGVrLU5_FM08rvUXwQEiGDRjs,826
+pytket/extensions/pysimplex/_metadata.py,sha256=1IOm94Fh41uWGo0SRcy6Kd4LZ4EO1TbJ6MUShjU2QI0,73
+pytket/extensions/pysimplex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytket/extensions/pysimplex/backends/__init__.py,sha256=Cbzu8UF2DMWFmvPGmvil2sLy92f-kE9c_qmRwYzJn9Y,724
+pytket/extensions/pysimplex/backends/simplex_backend.py,sha256=6cFuLAP2hfkKgGzaLVMBto3UJ48XNkyQ2JZktznAgic,6320
+pytket_pysimplex-0.11.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytket_pysimplex-0.11.0.dist-info/METADATA,sha256=qc45Wl5QsDTDm3pdjTbyjjr0aIHwp3alWho6r3COx5U,3801
+pytket_pysimplex-0.11.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pytket_pysimplex-0.11.0.dist-info/top_level.txt,sha256=GsvCQQpJ7P8Vrx4ydtbjs36yufXiD59vSbbQFtFgcQ0,7
+pytket_pysimplex-0.11.0.dist-info/RECORD,,
