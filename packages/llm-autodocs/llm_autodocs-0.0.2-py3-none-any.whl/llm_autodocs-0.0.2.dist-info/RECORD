@@ -1,0 +1,7 @@
+src/autodocs.py,sha256=OGuV3_SjdP-x1U_GMGQ1LzafgTblUiZGlO8jZ2sjIts,2241
+src/cli.py,sha256=s--iJ9MHeonDm71Hlpqw6VS0kybuMrCScyFN91-uh20,1089
+src/documenters.py,sha256=Wnx5NWU9pw7b3WJdAN6Pqw66AIa28sD-vho6HiYbZbc,5067
+llm_autodocs-0.0.2.dist-info/METADATA,sha256=387GEkRPcId6nFzoxRLg6P9koyhQ-Wtwallva-k1axY,868
+llm_autodocs-0.0.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llm_autodocs-0.0.2.dist-info/entry_points.txt,sha256=YNQZPHDIqAxBm2J0Rro4Uq0CGzY8PlmoEB1kbTzSqbM,41
+llm_autodocs-0.0.2.dist-info/RECORD,,
