@@ -1,0 +1,6 @@
+packTest/__init__.py,sha256=5HKB9YSCiv6_QsG15l_q2F39nxEE3MykcJX8XMadlos,32
+packTest/testFile.py,sha256=3o8FCNupktNO9tVDiyNaolKMbSsyZ_6l26BPRW4fZUA,43
+test_package_by_me_231123-0.0.1.dist-info/METADATA,sha256=12FDuFhNgpwteb0NIOZDC89DzX9WUSfckOheTYvEGGg,74
+test_package_by_me_231123-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+test_package_by_me_231123-0.0.1.dist-info/top_level.txt,sha256=sBhR3aPrxFLXz14CEEitxXfREgfM9E8fi73BgH1sb9I,9
+test_package_by_me_231123-0.0.1.dist-info/RECORD,,
