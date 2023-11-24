@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Defendron/__init__.py
+Defendron.egg-info/PKG-INFO
+Defendron.egg-info/SOURCES.txt
+Defendron.egg-info/dependency_links.txt
+Defendron.egg-info/top_level.txt
