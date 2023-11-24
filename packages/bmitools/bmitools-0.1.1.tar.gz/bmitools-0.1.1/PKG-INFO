@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: bmitools
+Version: 0.1.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+	BMI utilities and analysis tools
+	=================
+
+	...
+	
+	
+	.. code-block:: bash
+
+	   pip install bmitools
+
+	Usage
+	-----
+
+	To use Binarize2PCalcium, import the package in your Python code:
+
+	.. code-block:: python
+
+	   from bmitools import ... 
+
+
+	

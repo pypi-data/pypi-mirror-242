@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+bmitools.egg-info/PKG-INFO
+bmitools.egg-info/SOURCES.txt
+bmitools.egg-info/dependency_links.txt
+bmitools.egg-info/requires.txt
+bmitools.egg-info/top_level.txt
