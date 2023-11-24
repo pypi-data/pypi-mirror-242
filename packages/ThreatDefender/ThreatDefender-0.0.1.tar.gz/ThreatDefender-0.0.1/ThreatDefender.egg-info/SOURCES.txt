@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ThreatDefender/__init__.py
+ThreatDefender.egg-info/PKG-INFO
+ThreatDefender.egg-info/SOURCES.txt
+ThreatDefender.egg-info/dependency_links.txt
+ThreatDefender.egg-info/top_level.txt
