@@ -1,0 +1,68 @@
+[tool.poetry]
+name = "fedlib"
+version = "0.0.12345"
+description = "A Scalable Federated Learning Library"
+authors = ["Shenghui Li <shenghui.li@it.uu.se>"]
+license = "Apache-2.0"
+readme = "README.rst"
+homepage = "https://fllib.github.io"
+repository = "https://github.com/fllib/fllib"
+documentation = "https://fllib.readthedocs.io"
+keywords = ["deep-learning", "pytorch", "federated-learning"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+packages = [
+    { include = "core", from = "fllib" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.0.1"
+torchvision = "~0.15.2"
+torchaudio = "*"
+numpy = "^1.26.1"
+ray = "^2.8.0"
+matplotlib = "^3.8.1"
+requests = "^2.27.1"
+setuptools = "*"
+#ruamel.yaml = "*"
+tqdm = "*"
+wandb = "^0.15.12"
+typer = "*"
+dm_tree = "*"
+scikit-learn = "^1.3.2"
+pytest = "*"
+pre-commit = "*"
+torchmetrics = "*"
+
+[tool.poetry.dev-dependencies]
+yapf = "*"
+isort = "*"
+codespell = "*"
+black = "*"
+pytest = "*"
+pylint = "*"
+
+[tool.poetry.scripts]
+blades = "blades.train:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+skip = [".gitignore", "__init__.py"]
