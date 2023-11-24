@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+monalisa/__init__.py
+monalisa.egg-info/PKG-INFO
+monalisa.egg-info/SOURCES.txt
+monalisa.egg-info/dependency_links.txt
+monalisa.egg-info/top_level.txt
