@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: GameStateMachine
+Version: 0.0.4
+Summary: Game state machine - provides a game management based on a game state
+Home-page: https://github.com/OleksiiBulba/GameStateManager
+Author: Oleksii Bulba
+Author-email: oleksii.bulba+gamestatemachine@gmail.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.7.17
+Description-Content-Type: text/markdown
+License-File: COPYING
+
+# Game state machine
+Game State Machine is a wrapper class set of Python classes and modules
+that help manage game and game states. For instance, during game running
+you would need several states (splash screen, loading screen,
+menu screen, lobby screen etc.), so you can easily manage all of them
+by creating classes from BaseGameState
+
+# Authors
+Game state machine was created by [Oleksii Bulba](mailto:oleksii.bulba+gamestatemachine@gmail.com)
+
+# License
+GNU General Public License v3.0 or later
+
+See [COPYING](./COPYING) to see the full text.

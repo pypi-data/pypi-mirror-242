@@ -1,0 +1,15 @@
+CHANGE.md
+COPYING
+MANIFEST.in
+Makefile
+README.md
+requirements.txt
+setup.py
+version.txt
+GameStateMachine/__init__.py
+GameStateMachine/engine.py
+GameStateMachine.egg-info/PKG-INFO
+GameStateMachine.egg-info/SOURCES.txt
+GameStateMachine.egg-info/dependency_links.txt
+GameStateMachine.egg-info/top_level.txt
+GameStateMachine/states/__init__.py
