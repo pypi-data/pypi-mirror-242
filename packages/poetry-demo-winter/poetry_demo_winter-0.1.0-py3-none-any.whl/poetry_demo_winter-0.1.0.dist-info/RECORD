@@ -1,0 +1,7 @@
+poetry_demo_winter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_demo_winter/numlookupapi.py,sha256=lWGDgaQOiHmw7WbHto0mlSB2fFb3HZL8-wZLcyeGyn4,921
+poetry_demo_winter/validate.py,sha256=zYVZGN4M4ATGWtepr-wDmYtHzyplKEmZ2CEcs1PkXdg,1086
+poetry_demo_winter-0.1.0.dist-info/entry_points.txt,sha256=mWjAGj_5UEdVjsHvRbNxc7VxzEwNs3-in7ijQp82rxI,67
+poetry_demo_winter-0.1.0.dist-info/METADATA,sha256=0WuwDre7jQJoZ2uqd5P_KFnWwTLfB-D324xFmNmy0EY,560
+poetry_demo_winter-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+poetry_demo_winter-0.1.0.dist-info/RECORD,,
