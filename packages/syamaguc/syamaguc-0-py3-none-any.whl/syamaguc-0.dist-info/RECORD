@@ -1,0 +1,8 @@
+Makefile,sha256=Lk42dP2ZFo9eWeIHmn3PPiQMBGsXuxQfB9z35I4mJJI,299
+syamaguc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syamaguc/syamaguc.py,sha256=3CzQ9U5zDOREuJ0t2ZpKJcMdF0FVla8rRLgAqqJM1zo,202
+tox.ini,sha256=eSaVubjtBR50_qvYLii9WOw8eUogFgBhWBvdtxdj4O8,793
+syamaguc-0.dist-info/LICENSE,sha256=ZSix0S_XAzr0X8D366SIXE2T7yfmezwhZlsE4dlpUEA,1077
+syamaguc-0.dist-info/METADATA,sha256=OxOYQcvWG5PFXKJJMYQqTTk_JKj49pt4qS3aGxlktGA,819
+syamaguc-0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+syamaguc-0.dist-info/RECORD,,
