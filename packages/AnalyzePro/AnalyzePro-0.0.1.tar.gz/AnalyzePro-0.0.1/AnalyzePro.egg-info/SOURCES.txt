@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+AnalyzePro/__init__.py
+AnalyzePro.egg-info/PKG-INFO
+AnalyzePro.egg-info/SOURCES.txt
+AnalyzePro.egg-info/dependency_links.txt
+AnalyzePro.egg-info/top_level.txt
