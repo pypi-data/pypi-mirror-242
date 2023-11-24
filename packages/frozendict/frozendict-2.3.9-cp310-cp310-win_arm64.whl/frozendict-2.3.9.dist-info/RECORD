@@ -1,0 +1,12 @@
+frozendict/__init__.py,sha256=2uHSyRM_N2_MFhNoqIE0MVVbOBUkSO3MEFkk4Pwafq0,1284
+frozendict/__init__.pyi,sha256=MtDVoVmVAvhfqYpMJDwLPKE3kgC34CDKgpyphS9goLg,2746
+frozendict/_frozendict.cp310-win_arm64.pyd,sha256=qPjagrWUucyTgRZ8GXXjFUatghCLirrQo46N_rFKe4Y,48128
+frozendict/core.py,sha256=DjMOHlifcKxyaeUqtcmYIRIBD-szdjq4BGJsrgCmN_c,17012
+frozendict/monkeypatch.py,sha256=tzq0pk7iX2wtgaRIfA4Eb98kPjq6R1pQikXZahKJAck,5823
+frozendict/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frozendict/version.py,sha256=WFED6o37NanpVfJ-bh8i1pfMSRr8lE0cgqcLBA1AZn8,19
+frozendict-2.3.9.dist-info/LICENSE.txt,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+frozendict-2.3.9.dist-info/METADATA,sha256=WMJp0yEuAbVuaQBfcSRyzRuP4sVaKDFxwj_vt9QucWw,21212
+frozendict-2.3.9.dist-info/WHEEL,sha256=HDzSPLFUKznhTkoTXiFf146Ck08PBHRaSqxhcwV_glY,102
+frozendict-2.3.9.dist-info/top_level.txt,sha256=H0x_yOfp00xK1WR_JMHct-wr-7Ht9uC9iQR2aHNL_uw,11
+frozendict-2.3.9.dist-info/RECORD,,
