@@ -1,0 +1,11 @@
+arab_transliterator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arab_transliterator/alphabet.py,sha256=mD0ZwTGrCZEvsOyXixENfoGMbfnqnC9KeKKHGW08AWc,1855
+arab_transliterator/arab_text.py,sha256=9QBS3bE_skmFWCYiTHUbsaoluSBOEmLEIKOeq1u0vQw,3484
+arab_transliterator/mapping.py,sha256=izIZChCeejhWKy5G1tt9WpvD3oiE2zgahM0NepxJX24,2373
+arab_transliterator/transliterator.py,sha256=hqiuArhH8p2mQtEXX8Z6LBZRh1JU-gFr-5vmm1IdpP8,5198
+arab_transliterator/_types/__init__.py,sha256=K5dp0CEGOwr49viJQ5v1mgnrL9sQzlHJkeJvMv4OxtE,118
+arab_transliterator/_types/linked_queue.py,sha256=yivgQydQvtF_FqFjJFK0ybG6jZlN7LNTKmMN1qRzMGo,1168
+arab_transliterator-1.0.3.dist-info/METADATA,sha256=tjCLGXUH3fCf90pmKBktowA97kpT5K5lqWO5BgNJikw,5674
+arab_transliterator-1.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+arab_transliterator-1.0.3.dist-info/top_level.txt,sha256=EbBlM2NTw4fljUNa5pjyM7a2TR3l4CX4SkB9q48XSas,20
+arab_transliterator-1.0.3.dist-info/RECORD,,
