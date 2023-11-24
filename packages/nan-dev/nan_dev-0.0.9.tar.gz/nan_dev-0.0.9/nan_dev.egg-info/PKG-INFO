@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: nan-dev
+Version: 0.0.9
+Summary: Library Untuk Sqlite-Ubot
+Home-page: https://github.com/naya1503/Sqlite-Ubot
+Author: Keenan
+Author-email: nan-dev@github.com
+License: LGPLv3
+Project-URL: Tracker, https://github.com/naya1503/Sqlite-Ubot/issues
+Project-URL: Community, https://t.me/kynansupport
+Project-URL: Source, https://github.com/naya1503/Sqlite-Ubot
+Keywords: telegram chat messenger mtproto api client library python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.lesser
+License-File: NOTICE
+Requires-Dist: pyaes==1.6.1
+Requires-Dist: pysocks==1.7.1
+
+<p align="center">
+    <a href="https://github.com/naya1503/nan-dev">
+        <img src="https://telegra.ph//file/593bf36fc330069457fa4.jpg">
+    </a>
+    <br>
+    <b>Library For Sqlite-Ubot</b>
+    <br>
+    <a href="https://github.com/naya1503">
+        Github
+    </a>
+</p>
+
+
+# Credit :
+- [Pyrogram](https://github.com/pyrogram/pyrogram).
+- [Delivrance](https://github.com/delivrance).
