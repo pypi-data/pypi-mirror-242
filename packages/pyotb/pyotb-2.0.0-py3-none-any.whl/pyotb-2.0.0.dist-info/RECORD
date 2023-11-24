@@ -1,0 +1,13 @@
+pyotb/__init__.py,sha256=GKnSe32IBNaavzGSFb0JZq543UH2uuC5fd-1CkRXMoo,497
+pyotb/apps.py,sha256=laWHXhINi3Ipl79o-AU_rhj10Tsd7UqbDk0CzxK0bNY,3142
+pyotb/core.py,sha256=6qp9c6r76xPgKUWfGScxVyZV4kDGB_rc7rLjeX4VED4,71940
+pyotb/depreciation.py,sha256=EeptKCI1_fQLM04MnNBp4p4r3ymUQFJ-y9xT1Xd42oI,2786
+pyotb/functions.py,sha256=-Tt5k4oI-YQSBc9xWrgaHK4zm-jn_eYLqTcawL-8gec,21545
+pyotb/helpers.py,sha256=MkjUCP7MfAq4ftLS_pMlAwmJq_cnVH-dSNvPjKCskg4,13006
+pyotb/install.py,sha256=vdc_EnkN8Cz-tdXuvPE8VRgOojompFxD7NaXT6Xy7m0,7826
+pyotb-2.0.0.dist-info/AUTHORS.md,sha256=004PdCrLKAKfMInIiRw4yJ4V-UOPkY-5sETVGmdnwEw,155
+pyotb-2.0.0.dist-info/LICENSE,sha256=zT5MVcZ5z3z8mskLwOI2E-9xl1DUwzLsXvDWIvSnspE,11354
+pyotb-2.0.0.dist-info/METADATA,sha256=T5K460tl9qEG_RwumgY0ha_YgZemWbrVUBsUYVSSzmw,3327
+pyotb-2.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyotb-2.0.0.dist-info/top_level.txt,sha256=IThKIXGgA5CUmd3vCnKzbt8hpImK6YDMzi_iiRrvrVQ,6
+pyotb-2.0.0.dist-info/RECORD,,
