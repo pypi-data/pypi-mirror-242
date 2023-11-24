@@ -1,0 +1,6 @@
+test_tool
+test_tool_bash_cmd_plugin
+test_tool_copy_files_ssh_plugin
+test_tool_jdbc_sql_plugin
+test_tool_rest_plugin
+test_tool_ssh_cmd_plugin
