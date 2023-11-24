@@ -1,0 +1,11 @@
+amey_ml/__init__.py,sha256=xrHfp0UF-YSAROo4C9ZR7vVcxZCjyoqYmgebSdj2MK4,198
+amey_ml/decision_tree.py,sha256=ZNNc9R3T3gRczGVwGHWQ8hzv87T7UE0lxSJ87ChjczM,16660
+amey_ml/k_means.py,sha256=hSiD6FxWYh5PXbbg4pa1ZgKU9Xf7NCWCTW_oic96aQI,3342
+amey_ml/knn_classify.py,sha256=4TAR74d81GHPr4kFCoydUJd9FmXgi6J-3O57zhjDNvI,5191
+amey_ml/linear_regression.py,sha256=G-iXv7-2ZNtTVofLT2_kBXGTmlbd9AXiyMlIqLWlFm0,4557
+amey_ml/naive_bayes.py,sha256=_6MwZU9WbONABAZ94wwiij0TeTPnyaq3952CIppZJk8,6164
+amey_ml/nn_keras.py,sha256=IVwsZFzNCZKG6elPidZCrKRTgXD4F_2bvVyC7xeFWzI,4567
+amey_ml-0.0.1.dist-info/METADATA,sha256=18KaR_d7uiAIfYqbWSGHsda7yaQmdfyct2QUCmMwq14,457
+amey_ml-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+amey_ml-0.0.1.dist-info/top_level.txt,sha256=iUKMBf7I-3eYG4uU4iXHcK0heASrSCQe0TBbEiIJQcQ,8
+amey_ml-0.0.1.dist-info/RECORD,,

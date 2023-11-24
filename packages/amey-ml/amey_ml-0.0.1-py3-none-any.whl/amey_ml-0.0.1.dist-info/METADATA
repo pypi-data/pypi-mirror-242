@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: amey-ml
+Version: 0.0.1
+Summary: A Machine Learning Library for the noobies
+Author: Amey Shinde
+Author-email: <amey.shinde@bizzencecollab.com>
+Keywords: python,machinelearning
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: keras
+
+A package that allows to get the classification and test results of machine learning algorithm
