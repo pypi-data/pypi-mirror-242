@@ -1,0 +1,15 @@
+alpacaz/__init__.py,sha256=xAZKFb227z3DnoA7WIQDId6k93wOzj51rHEyiEsVSkM,300
+alpacaz/alpacaz.py,sha256=mnX3yxKDIXZR1nPVRg2pj3Y24I9HlGkt6yQ7-uK23S4,297
+alpacaz/constants.py,sha256=jfkG9Ke0NpvztyX2x-VphJqVB7VgpPewGphC3dBqQps,114
+alpacaz/display.py,sha256=h6gAQlsTVx8-yKtsrV87xwwA9uS3hDt5rJBYIZiEF6U,315
+alpacaz/download.py,sha256=IaCLXZ3A9YCf1zlQwOR3opP-_m26aCjDcaSmxX7JI6w,303
+alpacaz/file_utilities.py,sha256=W4NYkY6tsC6R4zNJDeajDbSwh_BT7bHulJwO8EeatyU,319
+alpacaz/image_conversion.py,sha256=tjDZrmgMHArti6QRAKrN7DeUr9E7bjbaktEB7PC3Cho,309
+alpacaz/image_processing.py,sha256=IftvWSO1HX-mpndguhwg-iKRdkweJ0VAHar9j04apmw,313
+alpacaz/input_validation.py,sha256=N4ZCrvW2H3mXk0rIKt8TxKCQ9laPM34-IMs7_D1xzxk,303
+alpacaz/resources.py,sha256=P-0ZjB-DBtB0XIQBoZDJ7rnzbhlkV04Abh49vojWNTE,293
+alpacaz-0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+alpacaz-0.2.dist-info/METADATA,sha256=gZtQ521EGNUYcuMeB3IbyxVZf8Y-6Gbm42lz4574dFU,355
+alpacaz-0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+alpacaz-0.2.dist-info/top_level.txt,sha256=H2TwLAHBZnM9MpPyYrH-pZqqU-nl6NdIH6go2aKICOE,8
+alpacaz-0.2.dist-info/RECORD,,
