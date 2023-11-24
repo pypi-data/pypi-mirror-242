@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: junit-generator
+Version: 1.1
+Summary: Generate HTML reports from Junit results
+Home-page: https://your.new.url
+Author: khoa.dong
+Author-email: dangkhoa0894@gmail.com
+License: License :: OSI Approved :: MIT License
+Platform: any
+License-File: LICENSE
+Requires-Dist: jinja2 (>=3.0)
+
+Generate a single file HTML report from a Junit or XUnit XML results file
