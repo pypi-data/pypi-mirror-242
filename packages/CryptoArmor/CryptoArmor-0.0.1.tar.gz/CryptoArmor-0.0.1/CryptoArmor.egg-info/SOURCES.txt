@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+CryptoArmor/__init__.py
+CryptoArmor.egg-info/PKG-INFO
+CryptoArmor.egg-info/SOURCES.txt
+CryptoArmor.egg-info/dependency_links.txt
+CryptoArmor.egg-info/top_level.txt
