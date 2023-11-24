@@ -1,0 +1,11 @@
+README.md
+license.txt
+setup.py
+FRU_bias/FRSpy.py
+FRU_bias/__init__.py
+FRU_bias/h5file_create_array.py
+FRU_bias/uncertainty.py
+FRU_bias.egg-info/PKG-INFO
+FRU_bias.egg-info/SOURCES.txt
+FRU_bias.egg-info/dependency_links.txt
+FRU_bias.egg-info/top_level.txt
