@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+emote-like/__init__.py
+emote_like.egg-info/PKG-INFO
+emote_like.egg-info/SOURCES.txt
+emote_like.egg-info/dependency_links.txt
+emote_like.egg-info/top_level.txt
