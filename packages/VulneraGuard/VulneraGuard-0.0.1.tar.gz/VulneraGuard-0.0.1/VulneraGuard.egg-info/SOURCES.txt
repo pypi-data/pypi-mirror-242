@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+VulneraGuard/__init__.py
+VulneraGuard.egg-info/PKG-INFO
+VulneraGuard.egg-info/SOURCES.txt
+VulneraGuard.egg-info/dependency_links.txt
+VulneraGuard.egg-info/top_level.txt
