@@ -1,0 +1,2 @@
+[console_scripts]
+aijobapply = main:aijobapply_cli
