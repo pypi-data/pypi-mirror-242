@@ -1,0 +1,23 @@
+from setuptools import setup, find_packages
+
+setup(name='PyMGA',
+      version='0.1.1',
+      description='A Python library from Modeling to Generate Alternatives methods',
+      url='https://github.com/LukasBNordentoft/PyMGA_LBN',
+      download_url = 'https://github.com/LukasBNordentoft/PyMGA_LBN/archive/refs/tags/v0.1.1.tar.gz',
+      author='Tim Pedersen',
+      author_email='timtoernes@gmail.com',
+      license='MIT',
+      packages=find_packages(),
+      install_requires=['numpy>=1.22',
+                        'pypsa>=0.21',
+                        'matplotlib',
+                        # 'gurobi>=9.5',
+                        'pandas',
+                        'pyyaml',
+                        'chaospy>=3.3',
+                        'scipy',
+                        'dask>=2022.12',
+                        'polytope',
+                        'dask-jobqueue>=0.8'],
+      zip_safe=False)

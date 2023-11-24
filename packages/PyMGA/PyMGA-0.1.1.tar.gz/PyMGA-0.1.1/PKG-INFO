@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: PyMGA
+Version: 0.1.1
+Summary: A Python library from Modeling to Generate Alternatives methods
+Home-page: https://github.com/LukasBNordentoft/PyMGA_LBN
+Download-URL: https://github.com/LukasBNordentoft/PyMGA_LBN/archive/refs/tags/v0.1.1.tar.gz
+Author: Tim Pedersen
+Author-email: timtoernes@gmail.com
+License: MIT
+License-File: license.txt
