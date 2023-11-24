@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: j2bfield
+Version: 0.0.2
+Summary: J field to B field
+Home-page: https://gitee.com/aheck
+Author: aheck
+Author-email: Aheck <610993278@qq.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# 一个简单的电流转磁场工具
+
+待写
