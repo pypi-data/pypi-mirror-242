@@ -1,0 +1,8 @@
+
+
+
+botanical
+
+	This is limited to using "body_scan"
+	and cannot use "vivacious", because
+	this is a requirement of "vivacious".

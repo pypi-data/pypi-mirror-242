@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: botanical
+Version: 0.1.3
+Summary: various botanical tools
+Description-Content-Type: text/plain
+Requires-Dist: psutil
+
+
+
+
+botanical
+
+	This is limited to using "body_scan"
+	and cannot use "vivacious", because
+	this is a requirement of "vivacious".
