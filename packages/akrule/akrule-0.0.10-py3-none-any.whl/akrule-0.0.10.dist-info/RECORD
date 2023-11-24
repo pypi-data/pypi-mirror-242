@@ -1,0 +1,12 @@
+akrule/__init__.py,sha256=tEk1s7fRz4IvaCQiQWbUv3pcRQ5enVB2MyhRWJ1fytk,30
+akrule/time_series/__init__.py,sha256=NF4UG0T6q2cPK-niaFA7wgvY-paA8qh3h7K1cYdmFrA,416
+akrule/time_series/_akrulebasedts.py,sha256=WlymVd-7_SuiCbVMDF0Ed7Gx7_76vN-Wm_Nmnicb350,14205
+akrule/time_series/_datasets.py,sha256=_10sEklYIe7e-RVWer82JGG-zHepDye3cp--cOjW9Mw,15246
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/time_series/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/time_series/test_akrulebasedts.py,sha256=Nx2rFLb6gr-IOT0MqRaNrdL06fZgu5n8d5nynQNmfOs,13565
+akrule-0.0.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+akrule-0.0.10.dist-info/METADATA,sha256=bfwfRAVwxQ2Qan7isAtTWV23jAKBj1P1c330J3LpGpc,827
+akrule-0.0.10.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+akrule-0.0.10.dist-info/top_level.txt,sha256=TY61QrNjLKT3bY7YXpo5Zpul7jT1U6gTv_HX1RV_GMw,12
+akrule-0.0.10.dist-info/RECORD,,
