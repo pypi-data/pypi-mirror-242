@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ghostmapper/__init__.py
+ghostmapper.egg-info/PKG-INFO
+ghostmapper.egg-info/SOURCES.txt
+ghostmapper.egg-info/dependency_links.txt
+ghostmapper.egg-info/top_level.txt
