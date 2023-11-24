@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+kasina/__init__.py
+kasina.egg-info/PKG-INFO
+kasina.egg-info/SOURCES.txt
+kasina.egg-info/dependency_links.txt
+kasina.egg-info/top_level.txt
