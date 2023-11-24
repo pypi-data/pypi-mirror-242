@@ -1,0 +1,5 @@
+setup.py
+JScyPi.egg-info/PKG-INFO
+JScyPi.egg-info/SOURCES.txt
+JScyPi.egg-info/dependency_links.txt
+JScyPi.egg-info/top_level.txt
