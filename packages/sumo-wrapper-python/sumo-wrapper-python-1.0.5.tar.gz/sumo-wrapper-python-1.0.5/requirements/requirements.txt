@@ -1,0 +1,8 @@
+msal>=1.24.1
+msal-extensions>=1.0.0
+PyYAML>=6.0.1
+setuptools>=68.0.0
+pyjwt>=2.4.0
+httpx>=0.24.1
+tenacity>=8.2.2
+azure-identity>=1.13.0
