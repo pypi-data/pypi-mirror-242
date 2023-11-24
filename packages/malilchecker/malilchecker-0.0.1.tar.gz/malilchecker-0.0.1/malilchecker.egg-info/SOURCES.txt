@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+malilchecker/__init__.py
+malilchecker.egg-info/PKG-INFO
+malilchecker.egg-info/SOURCES.txt
+malilchecker.egg-info/dependency_links.txt
+malilchecker.egg-info/top_level.txt
