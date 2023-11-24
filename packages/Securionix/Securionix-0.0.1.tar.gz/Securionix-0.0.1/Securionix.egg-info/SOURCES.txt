@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Securionix/__init__.py
+Securionix.egg-info/PKG-INFO
+Securionix.egg-info/SOURCES.txt
+Securionix.egg-info/dependency_links.txt
+Securionix.egg-info/top_level.txt
