@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mosint/__init__.py
+mosint.egg-info/PKG-INFO
+mosint.egg-info/SOURCES.txt
+mosint.egg-info/dependency_links.txt
+mosint.egg-info/top_level.txt
