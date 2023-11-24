@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: spectronator
+Version: 0.0.2
+Summary: A spectral sensitivity analyser for time series data
+Author-email: Joni Kemppainen <joni.kemppainen@windowslive.com>
+Project-URL: Homepage, https://github.com/jkemppainen/spectronator
+Project-URL: Issues, https://github.com/jkemppainen/spectronator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: tk-steroids
+Requires-Dist: python-biosystfiles
+
+# A spectral sensitivity analyser
+
+Spectronator is a graphical tool that quantifies spectral sensitivity from
+time series data. In sensory neuroscience, for example, this data
+can be eyes' responsivness to differently colored light flashes,
+measured by extracellular ERG electrodes.
+
+Features
+- Open CSV and Biosyst data files
+- Low and highpass filtering
+- Response quantification by algorithms
+    - minmax
+    - start-vs-max
+    - start-vs-min
+- Spectral responsivness plotting
+- Export to CSV and PNG
+
+
+## Installing and launching
+
+Select one of the following.
+
+## A) All-in-one installer (Windows only)
+TBA...
+
+## B) Python standard
+
+To install, open the command-line and type in
+
+```bash
+pip install spectronator
+```
+
+Then you can launch via the command-line by
+
+```bash
+python -m spectronator.tkgui
+```
+
+or alternatively via the Python interpreter by
+
+```python
+import spectronator.tkgui
+spectronator.tkgui.main()
+```
