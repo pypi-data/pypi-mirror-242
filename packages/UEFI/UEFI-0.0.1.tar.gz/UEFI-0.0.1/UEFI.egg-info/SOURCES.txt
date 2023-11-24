@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+UEFI/__init__.py
+UEFI.egg-info/PKG-INFO
+UEFI.egg-info/SOURCES.txt
+UEFI.egg-info/dependency_links.txt
+UEFI.egg-info/top_level.txt
