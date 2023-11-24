@@ -1,0 +1,15 @@
+bis_fetcher/__cli__.py,sha256=fxC_UfmZn7e0yL3WfastYqSbsLCEXriQzMI18-fWrv8,186
+bis_fetcher/__init__.py,sha256=fzsuZeVPXR5f5KDMpkzgdJwBEBZAyVlJlRMZctxfLXE,473
+bis_fetcher/_version.py,sha256=cID1jLnC_vj48GgMN6Yb1FA3JsQ95zNmCHmRYE8TFhY,22
+bis_fetcher/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bis_fetcher/conf/about/bis_fetcher.yaml,sha256=oaRh8vcFgvylPZU3U7Xu6CXd5PJCn0sp5Ai42dNzKGU,259
+bis_fetcher/fetcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bis_fetcher/fetcher/base.py,sha256=sqwAbBiPz9xImVaT8KdidICPFfU90SCB7l0nKg1cOs4,15558
+bis_fetcher/fetcher/bis.py,sha256=2qdv53PKMyIn9WoWiIHdD5_x5c8QAIxNaRZmxCRS1Sc,4127
+bis_fetcher/fetcher/chromedriver.py,sha256=-Pr6VVOOJUCLYR4jYr9yJF4t0rRacBEUx4Afh55yOtE,5640
+bis_fetcher/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bis_fetcher-0.6.0.dist-info/LICENSE,sha256=6_-z_j5TJ7bQ5RlPwAJZ0Eqo3qWC6pMDjlLjz0R4wkE,1071
+bis_fetcher-0.6.0.dist-info/METADATA,sha256=7U4kJ74YxyyggWc7gN_AXnjImnSMvyLV34eVr8jNUw0,3442
+bis_fetcher-0.6.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bis_fetcher-0.6.0.dist-info/entry_points.txt,sha256=COarjMj-A0DK5-2-Vvc5ppPNAovkIjIyo9gppuXSCGU,56
+bis_fetcher-0.6.0.dist-info/RECORD,,
