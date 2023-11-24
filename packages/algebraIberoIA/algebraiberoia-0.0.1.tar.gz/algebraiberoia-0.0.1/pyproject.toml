@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "algebraIberoIA"
+version = "0.0.1"
+authors = [
+    {name = "Edgar Ivan Gálvez Ortega", email = "kasito321@gmail.com"}
+]
+description = "CoAutor: Santiago Romo Rubio, Libreria de algebra lineal"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "numpy==1.26.0",
+    "matplotlib==3.8.1",
+    "scipy==1.11.3"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/0mudkip/repo_paquete_ibero_al"
+"Bug Tracker" = "https://github.com/0mudkip/repo_paquete_ibero_al/issues"
