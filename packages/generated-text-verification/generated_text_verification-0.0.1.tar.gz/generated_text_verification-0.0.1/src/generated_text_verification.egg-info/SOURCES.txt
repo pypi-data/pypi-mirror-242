@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/generated_text_verification/__init__.py
+src/generated_text_verification/generated_text_verification.py
+src/generated_text_verification.egg-info/PKG-INFO
+src/generated_text_verification.egg-info/SOURCES.txt
+src/generated_text_verification.egg-info/dependency_links.txt
+src/generated_text_verification.egg-info/not-zip-safe
+src/generated_text_verification.egg-info/requires.txt
+src/generated_text_verification.egg-info/top_level.txt

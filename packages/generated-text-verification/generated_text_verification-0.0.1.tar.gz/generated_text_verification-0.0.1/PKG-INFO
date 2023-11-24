@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: generated_text_verification
+Version: 0.0.1
+Summary: A package comprising functions designed for the validation of rewritten texts
+Home-page: https://github.com/ManhDzungNguyen/generated_text_verification
+Author: Kuuhaku
+Author-email: kuuhaku.work@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Generated Text Verification
+
+A package comprising functions designed for the validation of rewritten texts
