@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ishanoshada/__init__.py
+ishanoshada.egg-info/PKG-INFO
+ishanoshada.egg-info/SOURCES.txt
+ishanoshada.egg-info/dependency_links.txt
+ishanoshada.egg-info/top_level.txt
