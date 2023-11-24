@@ -1,0 +1,7 @@
+graphviz
+mmcif
+numpy
+ordered-set
+orjson
+pulp
+scipy
