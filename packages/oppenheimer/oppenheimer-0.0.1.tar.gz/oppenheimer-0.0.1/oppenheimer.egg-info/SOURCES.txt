@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+oppenheimer/__init__.py
+oppenheimer.egg-info/PKG-INFO
+oppenheimer.egg-info/SOURCES.txt
+oppenheimer.egg-info/dependency_links.txt
+oppenheimer.egg-info/top_level.txt
