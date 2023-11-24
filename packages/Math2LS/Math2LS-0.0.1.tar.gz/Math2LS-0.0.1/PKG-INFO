@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Math2LS
+Version: 0.0.1
+Summary: A Python module for maths tools and logic.
+Author-email: Pigeon <ilikepigeons.whataboutyou@gmail.com>
+Project-URL: Homepage, https://github.com/pid-j/Math2LS
+Project-URL: Issues, https://github.com/pid-j/Math2LS/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Math2LS
+![Logo](https://github.com/pid-j/Math2LS/assets/146737777/a7b26e63-4541-49c9-93be-d02f727e2295)
+<br><br>
+A Python module for simple maths tools and logic.

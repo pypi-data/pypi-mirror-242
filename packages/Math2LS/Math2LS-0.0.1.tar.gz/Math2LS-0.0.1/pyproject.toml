@@ -1,0 +1,18 @@
+[project]
+name = "Math2LS"
+version = "0.0.1"
+authors = [
+  { name="Pigeon", email="ilikepigeons.whataboutyou@gmail.com" },
+]
+description = "A Python module for maths tools and logic."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pid-j/Math2LS"
+Issues = "https://github.com/pid-j/Math2LS/issues"

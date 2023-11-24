@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+Math2LS.egg-info/PKG-INFO
+Math2LS.egg-info/SOURCES.txt
+Math2LS.egg-info/dependency_links.txt
+Math2LS.egg-info/top_level.txt
