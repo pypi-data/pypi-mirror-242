@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+Open_ChatGPT_Plugins.egg-info/PKG-INFO
+Open_ChatGPT_Plugins.egg-info/SOURCES.txt
+Open_ChatGPT_Plugins.egg-info/dependency_links.txt
+Open_ChatGPT_Plugins.egg-info/top_level.txt
+assistants/__init__.py
+assistants/assistants.py
+openainode/__init__.py
+openainode/openai_model.py
+openainode/openai_node.py
