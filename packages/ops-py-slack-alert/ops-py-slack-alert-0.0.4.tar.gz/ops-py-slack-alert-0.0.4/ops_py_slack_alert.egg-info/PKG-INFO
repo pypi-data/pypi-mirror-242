@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: ops-py-slack-alert
+Version: 0.0.4
+Summary: Post a payload to Slack
+License: MIT License
+        
+        Copyright (c) 2023 Equinor
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Description-Content-Type: text/markdown
+Requires-Dist: certifi==2023.11.17
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: idna==3.4
+Requires-Dist: pip==23.3.1
+Requires-Dist: requests==2.31.0
+Requires-Dist: setuptools==68.2.2
+Requires-Dist: urllib3==2.1.0
+Requires-Dist: wheel==0.41.3
+
+# ops-py-slack-alert
+
+---
+
+## Description
+Post a message to a Slack webhook.
+
+Note: In the example code below a Slack Automation Worklow has already been built. The message part of the Slack Workflow has been defined to receive a `header` and a `msg` variable.
+
+---
+
+## Installation
+`pip install ops-py-slack-alert`
+
+---
+
+## Usage
+Export your slack webhook:   
+`export WEBHOOK="12345blablabla...."`
+
+Example code:   
+```
+from slack_alert import slack_alert as sa
+
+WEBHOOK = os.getenv("WEBHOOK")
+heading = "This is the heading"
+message = "This is the message"
+sa = SlackAlert(WEBHOOK)
+sa.set_payload(heading=heading, msg=message)
+sa.post_payload()
+response_code = sa.get_response_code()
+print(response_code)
+```
