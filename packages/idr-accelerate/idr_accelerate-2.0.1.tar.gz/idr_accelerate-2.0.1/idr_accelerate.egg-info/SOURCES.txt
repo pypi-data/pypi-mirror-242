@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION.txt
+setup.py
+idr_accelerate/__init__.py
+idr_accelerate/__main__.py
+idr_accelerate/launcher.py
+idr_accelerate/version.py
+idr_accelerate.egg-info/PKG-INFO
+idr_accelerate.egg-info/SOURCES.txt
+idr_accelerate.egg-info/dependency_links.txt
+idr_accelerate.egg-info/entry_points.txt
+idr_accelerate.egg-info/requires.txt
+idr_accelerate.egg-info/top_level.txt
