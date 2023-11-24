@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+CyberSecurion/__init__.py
+CyberSecurion.egg-info/PKG-INFO
+CyberSecurion.egg-info/SOURCES.txt
+CyberSecurion.egg-info/dependency_links.txt
+CyberSecurion.egg-info/top_level.txt
