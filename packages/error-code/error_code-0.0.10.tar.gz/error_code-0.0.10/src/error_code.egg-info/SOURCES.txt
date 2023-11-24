@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/error_code/__init__.py
+src/error_code/error_code_info.py
+src/error_code.egg-info/PKG-INFO
+src/error_code.egg-info/SOURCES.txt
+src/error_code.egg-info/dependency_links.txt
+src/error_code.egg-info/requires.txt
+src/error_code.egg-info/top_level.txt
