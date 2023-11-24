@@ -1,0 +1,9 @@
+pyvpmr.cpython-310-x86_64-linux-gnu.so,sha256=KtmdaIKsLEdjTWerEXFw3ykII5El2ml0fz6hcBDu5bw,12256281
+pyvpmr-231124.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyvpmr-231124.dist-info/METADATA,sha256=fpsAFd54jDSv0glGA491ukFSJe37XY1Qx6hYMUpKdPo,7817
+pyvpmr-231124.dist-info/RECORD,,
+pyvpmr-231124.dist-info/top_level.txt,sha256=ENm9qRtAC3dnh_ed1I9WUQ5Yy1vPyOuKFWpR9sPXMrE,7
+pyvpmr-231124.dist-info/WHEEL,sha256=891WnqsrVQOHOTMosLr3-boxWLI4SwqGtnmeJrMgvZ4,114
+pyvpmr.libs/libgmp-452f15e0.so.10.3.2,sha256=kHA0du_vPKRKVapg5JkvgYJRF9ZP6QuttSZDFlE38a8,1570473
+pyvpmr.libs/libmpfr-b7fafdf8.so.4.1.6,sha256=sZJLd-t9PdU8HtWqk9UiG61yH6KS5si0xkPLQHHj8iU,533337
+pyvpmr.libs/libtbb-79d9bc54.so.2,sha256=4BE_Gp4115ZvWXf9S2soe3XsZz21HUvflk0rB3zqZPY,317977
