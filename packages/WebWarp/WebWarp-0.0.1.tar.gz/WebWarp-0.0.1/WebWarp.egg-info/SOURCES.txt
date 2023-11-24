@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+WebWarp/__init__.py
+WebWarp.egg-info/PKG-INFO
+WebWarp.egg-info/SOURCES.txt
+WebWarp.egg-info/dependency_links.txt
+WebWarp.egg-info/top_level.txt
