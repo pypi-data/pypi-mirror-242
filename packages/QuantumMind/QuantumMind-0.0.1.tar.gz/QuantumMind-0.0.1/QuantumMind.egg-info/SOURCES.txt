@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+QuantumMind/__init__.py
+QuantumMind.egg-info/PKG-INFO
+QuantumMind.egg-info/SOURCES.txt
+QuantumMind.egg-info/dependency_links.txt
+QuantumMind.egg-info/top_level.txt
