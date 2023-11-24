@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+LogicNestAI/__init__.py
+LogicNestAI.egg-info/PKG-INFO
+LogicNestAI.egg-info/SOURCES.txt
+LogicNestAI.egg-info/dependency_links.txt
+LogicNestAI.egg-info/top_level.txt
