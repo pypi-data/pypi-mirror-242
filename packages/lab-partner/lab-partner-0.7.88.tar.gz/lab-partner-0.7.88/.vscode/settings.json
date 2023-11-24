@@ -1,0 +1,7 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "docker.environment": {
+        "DOCKER_HOST": "tcp://localhost:2375",
+        "DOCKER_TLS_VERIFY": "0"
+    }
+}
