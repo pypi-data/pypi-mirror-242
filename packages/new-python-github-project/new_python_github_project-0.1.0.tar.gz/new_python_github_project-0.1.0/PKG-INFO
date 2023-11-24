@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: new-python-github-project
+Version: 0.1.0
+Summary: Create a new Python project on GitHub
+Author: Håkon Hægland
+Author-email: hakon.hagland@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: docs
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: sphinx (>=7.2.5,<8.0.0) ; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints (>=1.24.0,<2.0.0) ; extra == "docs"
+Requires-Dist: sphinx-click (>=5.1.0,<6.0.0) ; extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=1.3.0,<2.0.0) ; extra == "docs"
+Description-Content-Type: text/markdown
+
+# new-python-github-project
+
+- Create a new Python GitHub project
+
+## Documentation
+
+See [hakonhagland.github.io/new-python-github-project](https://hakonhagland.github.io/new-python-github-project)
+
+## PyPI
+
+See [new-python-github-project](https://pypi.org/project/new-python-github-project/)
+
