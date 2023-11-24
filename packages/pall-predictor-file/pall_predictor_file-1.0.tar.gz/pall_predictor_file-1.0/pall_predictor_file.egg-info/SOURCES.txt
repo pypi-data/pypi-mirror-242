@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pall_predict/__init__.py
+pall_predict/pall_preidctor.py
+pall_predictor_file.egg-info/PKG-INFO
+pall_predictor_file.egg-info/SOURCES.txt
+pall_predictor_file.egg-info/dependency_links.txt
+pall_predictor_file.egg-info/top_level.txt
