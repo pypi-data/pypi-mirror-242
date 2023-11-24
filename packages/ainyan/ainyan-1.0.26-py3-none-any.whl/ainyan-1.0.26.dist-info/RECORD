@@ -1,0 +1,12 @@
+ainyan/__init__.py,sha256=qBY9H4MPXsxhahil21434XiwBzrRCrIucrqABnh7Ju8,118
+ainyan/models.py,sha256=6eZwF4CsxrQuKSLuiIV9cy7a01a_ohccbC0lw8HMTis,2833
+ainyan/mydatasets.py,sha256=t6shgdKIDj0gN7-4VV8Vkf4sDFIM5yKuj3PreRW8_NQ,5528
+ainyan/pdfcrawl.py,sha256=SiuLT8iKmSkCt3RJhCFGCtpbCy6mR_f9jwKzONi0k98,3812
+ainyan/training.py,sha256=zJd8zled_Elkgg3cLiQq67Ok8SXKGDglA7AnFlsNSco,5609
+ainyan/zippers.py,sha256=x_Yk3Qsrm8wc2NZ_ld8JMVGf838fHMIjSGYqWT_hLAY,776
+ainyan-1.0.26.dist-info/LICENSE.txt,sha256=ao149vvrrb3dQ5750ecAmPcrdMPUxlxxwPqMaz0NM-s,1067
+ainyan-1.0.26.dist-info/METADATA,sha256=w4bTENczwX361xk4TpEU0tHd5tiC0rq9ROeEKjlWiIQ,2864
+ainyan-1.0.26.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ainyan-1.0.26.dist-info/entry_points.txt,sha256=5H-Vd1vgm5GTZtrOWA3ty9dtCGTQzpiCFpHKhUgHvsE,177
+ainyan-1.0.26.dist-info/top_level.txt,sha256=D8iNHS9m1W6JgeZgG8SRbL1FYLKFC3OZMVDhcEQfZjQ,7
+ainyan-1.0.26.dist-info/RECORD,,
