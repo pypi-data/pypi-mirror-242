@@ -1,0 +1,2 @@
+[console_scripts]
+wp2hugo = wp2hugo.__main__:cli
