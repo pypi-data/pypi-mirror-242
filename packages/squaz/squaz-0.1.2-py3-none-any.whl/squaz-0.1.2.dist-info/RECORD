@@ -1,0 +1,8 @@
+quiz/QUESTIONS.toml,sha256=s40KcFtXbuiup28BgNFAnctLJcyLHhOnZnCvlbnb-gU,9209
+quiz/__init__.py,sha256=jzfPTYNgRozH44CXmsC-S5UXRKt9qFFkJmrJsnMDlc0,212
+quiz/add_question.py,sha256=IPcdVuZaUQZHAtqZDezw6j7Rw2VV--KcdKj2Bgq0LS4,2654
+quiz/quiz.py,sha256=8GxmGQ4_bad9WYVoQ-MT4T8JjelJNM_wQFmJRI8DtsU,4967
+squaz-0.1.2.dist-info/LICENSE,sha256=SgJWN9GFD8oNn0-JEq9XMeKWoFq4e2XCgEr5F7I6BiM,1072
+squaz-0.1.2.dist-info/METADATA,sha256=7XK2qdT_1oh57iPVvcds9hZCj83C9rP1w185hihxN9g,2437
+squaz-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+squaz-0.1.2.dist-info/RECORD,,
