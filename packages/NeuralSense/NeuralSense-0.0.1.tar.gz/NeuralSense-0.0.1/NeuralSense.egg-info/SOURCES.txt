@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+NeuralSense/__init__.py
+NeuralSense.egg-info/PKG-INFO
+NeuralSense.egg-info/SOURCES.txt
+NeuralSense.egg-info/dependency_links.txt
+NeuralSense.egg-info/top_level.txt
