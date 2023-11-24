@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dataframe_api
+Version: 2023.10b0
+Summary: Dataframe API specification
+Project-URL: Homepage, https://github.com/data-apis/dataframe-api
+Project-URL: Bug Tracker, https://github.com/data-apis/dataframe-api
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
