@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+FortiEncrypt/__init__.py
+FortiEncrypt.egg-info/PKG-INFO
+FortiEncrypt.egg-info/SOURCES.txt
+FortiEncrypt.egg-info/dependency_links.txt
+FortiEncrypt.egg-info/top_level.txt
