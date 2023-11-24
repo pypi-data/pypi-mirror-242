@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: idr-accelerate
+Version: 2.0.0
+Home-page: https://www.idris.fr
+Author: IDRIS
+Author-email: assist@idris.fr
+License: MIT
+Requires-Dist: accelerate
+Requires-Dist: idr_torch>=2.0.0
+Requires-Dist: packaging
+Requires-Dist: torch

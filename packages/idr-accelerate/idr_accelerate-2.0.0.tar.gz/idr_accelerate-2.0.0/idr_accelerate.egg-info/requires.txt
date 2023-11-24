@@ -1,0 +1,4 @@
+accelerate
+idr_torch>=2.0.0
+packaging
+torch
