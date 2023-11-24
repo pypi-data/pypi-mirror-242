@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+CogniMatrix/__init__.py
+CogniMatrix.egg-info/PKG-INFO
+CogniMatrix.egg-info/SOURCES.txt
+CogniMatrix.egg-info/dependency_links.txt
+CogniMatrix.egg-info/top_level.txt
