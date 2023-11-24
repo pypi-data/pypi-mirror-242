@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+MindCraftAI/__init__.py
+MindCraftAI.egg-info/PKG-INFO
+MindCraftAI.egg-info/SOURCES.txt
+MindCraftAI.egg-info/dependency_links.txt
+MindCraftAI.egg-info/top_level.txt
