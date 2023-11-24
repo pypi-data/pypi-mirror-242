@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+GateSender/__init__.py
+GateSender.egg-info/PKG-INFO
+GateSender.egg-info/SOURCES.txt
+GateSender.egg-info/dependency_links.txt
+GateSender.egg-info/top_level.txt
