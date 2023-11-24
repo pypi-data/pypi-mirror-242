@@ -1,0 +1,9 @@
+py_pheno/__init__.py,sha256=5xSikb0Ta2aE42mpX74-T7s5UDarDPoOTen4FRCuZ4Q,64
+py_pheno/func_preseason_api.cp37-win_amd64.pyd,sha256=6nMrIXOBtUYHtGTGgXMEz6CXh2puQns5i9GN7n3ygPI,61952
+py_pheno/func_preseason_api.cp38-win_amd64.pyd,sha256=kbe-9Zsn64UZBsG6Kzd_jp1i2ULbZ8X2HT_eK7o1jYI,61440
+py_pheno/func_preseason_api.cp39-win_amd64.pyd,sha256=TBmevN5PE_wVdtPi6BBuw9ytH8xy9hs9keqHri7ZhWc,61440
+py_pheno-0.0.22.dist-info/LICENSE,sha256=e_1epAtc9aMGOPAAChVwjkheJU-T4Io_oKsPpAisxo4,1063
+py_pheno-0.0.22.dist-info/METADATA,sha256=v9_RMrCPmfT96WdD5s3Zdol_8twYBlhDW-1mTvRz2Xg,666
+py_pheno-0.0.22.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+py_pheno-0.0.22.dist-info/top_level.txt,sha256=PSvLpcTbSFwyfGKmwSTvVxY8HI7S-45CcMftef3yZvI,9
+py_pheno-0.0.22.dist-info/RECORD,,
