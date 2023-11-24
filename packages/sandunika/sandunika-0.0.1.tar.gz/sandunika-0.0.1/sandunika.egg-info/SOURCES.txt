@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sandunika/__init__.py
+sandunika.egg-info/PKG-INFO
+sandunika.egg-info/SOURCES.txt
+sandunika.egg-info/dependency_links.txt
+sandunika.egg-info/top_level.txt
