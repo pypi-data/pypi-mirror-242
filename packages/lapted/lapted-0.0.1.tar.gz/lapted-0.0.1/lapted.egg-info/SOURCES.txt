@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lapted/__init__.py
+lapted.egg-info/PKG-INFO
+lapted.egg-info/SOURCES.txt
+lapted.egg-info/dependency_links.txt
+lapted.egg-info/top_level.txt
