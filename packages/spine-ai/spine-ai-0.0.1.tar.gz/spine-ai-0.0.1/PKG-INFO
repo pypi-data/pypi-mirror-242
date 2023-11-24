@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: spine-ai
+Version: 0.0.1
+Summary: An Autonomous LLM powered scheduler and agent orchestration system.
+Home-page: https://github.com/AaronWard/spine
+Author: AaronWard
+Author-email: aaron_ward@optum.com
+License: MIT
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pyfiglet
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: termcolor
+Requires-Dist: numpy
+Requires-Dist: python-dotenv
+Requires-Dist: tqdm

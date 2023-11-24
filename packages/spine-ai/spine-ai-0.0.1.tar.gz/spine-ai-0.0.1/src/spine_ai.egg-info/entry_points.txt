@@ -1,0 +1,2 @@
+[console_scripts]
+spine = spine.cli:cli
