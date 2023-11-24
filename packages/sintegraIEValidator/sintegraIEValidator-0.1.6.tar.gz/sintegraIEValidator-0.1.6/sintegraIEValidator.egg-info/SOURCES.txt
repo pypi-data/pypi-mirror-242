@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+sintegraIEValidator/__init__.py
+sintegraIEValidator/acre.py
+sintegraIEValidator/alagoas.py
+sintegraIEValidator/base.py
+sintegraIEValidator/goias.py
+sintegraIEValidator/mato_grosso.py
+sintegraIEValidator/minas_gerais.py
+sintegraIEValidator/pernambuco.py
+sintegraIEValidator/sao_paulo.py
+sintegraIEValidator.egg-info/PKG-INFO
+sintegraIEValidator.egg-info/SOURCES.txt
+sintegraIEValidator.egg-info/dependency_links.txt
+sintegraIEValidator.egg-info/top_level.txt
