@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: spt
+Version: 0.1.9
+Summary: Scientific matplotlib plot rcParams configuration template python package.
+Home-page: https://gitee.com/yangsl306/spt
+Author: yangsl
+Author-email: 3304839708@qq.com
+Platform: all
+Requires-Python: >3.6
+
+Scientific matplotlib plot rcParams configuration template python package.
