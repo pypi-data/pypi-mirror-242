@@ -1,0 +1,9 @@
+fastjsonschema
+ujson
+orjson
+jsonschema
+pathspec
+repath
+typing_extensions
+Flask
+Flask-SocketIO
