@@ -1,0 +1,10 @@
+compare_datasets/__init__.py,sha256=RvSKkTGjBdlmOZOlG8ckjPVKTHAuqPdLMkAwdw-BLeo,1372
+compare_datasets/numeric_comparisons.py,sha256=Pj32aCd_pg-Na9qq2sCIfghx5cLkgeS7FRLEbJRF_c8,5228
+compare_datasets/prepare.py,sha256=HUsFtI3KCcqOXVL49jlsBP7QLrFX6HVtrNNExawLYok,12940
+compare_datasets/string_comparisons.py,sha256=B71uDgy-CikItXwgQThCcoHyWmRL4kK-7v_EHN6Yejo,5038
+compare_datasets/structure.py,sha256=B7dffp0xXiKVs_fB4MSGX2EtFJYRBhwJeeTnlrhu7rw,4250
+compare_datasets/tests/cases.md,sha256=5Atpm9QGNSV419ZThU8OE739PbbVJGdaSEkgqVHkJMk,72
+compare_datasets-0.1.0.dist-info/LICENSE.txt,sha256=ETtk-CDczQpxBORbMZ4De1ukeR4uDomjGNG8kXWvEI4,1092
+compare_datasets-0.1.0.dist-info/METADATA,sha256=bOj6miGd2G0Y3LTn7ChGNaKxVBkG9zwaPYIDB6bIdR4,4510
+compare_datasets-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+compare_datasets-0.1.0.dist-info/RECORD,,
