@@ -1,0 +1,2 @@
+[console_scripts]
+hint = hint_cli.hint:cli_entrypoint
