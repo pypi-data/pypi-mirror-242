@@ -1,0 +1,3 @@
+[console_scripts]
+semversion = semversion.__main__:main
+
