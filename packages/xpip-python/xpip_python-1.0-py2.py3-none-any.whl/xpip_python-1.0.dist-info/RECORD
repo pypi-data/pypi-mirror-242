@@ -1,0 +1,17 @@
+xpip/__init__.py,sha256=mkcDNzH7mHm-bhs6cQh5B3fJC6ILFZCfVZeuZlM3JxQ,65
+xpip/util.py,sha256=muGAyqHDnCKgEcnAStpggFJ6ApiF32jr2yZ5h0nJrbQ,897
+xpip/builder/__init__.py,sha256=iNHEeBAALWlsNElQ2AU7C5fiUSAaZfalAKGvDSlLfto,34
+xpip/builder/build.py,sha256=T1vWKEY2j_WCbBUxZ0Lz5d2q-2Jvfz5XSz7PXevNWpU,1786
+xpip/builder/setup.py,sha256=MjMtIHbJv-L02s6IsqGvgQDTMfNVys6sss4JKXDRM50,2830
+xpip/config/__init__.py,sha256=iNHEeBAALWlsNElQ2AU7C5fiUSAaZfalAKGvDSlLfto,34
+xpip/config/mirrors.toml,sha256=61LqUIaNc8F0ZdnYEr_8HX81Wgwtu5_LbeXCWDxQ1iE,316
+xpip/installer/__init__.py,sha256=iNHEeBAALWlsNElQ2AU7C5fiUSAaZfalAKGvDSlLfto,34
+xpip/installer/mirror.py,sha256=VEPIZ1xKheTgGAMQNe3YLycFnW4hQLFgBi1pF3rFgI4,6930
+xpip/installer/upload.py,sha256=VDd9I70k_-QXzYCyiRWt7hooNapHfhqjc1gHDrxq1bs,1649
+xpip_python-1.0.dist-info/LICENSE,sha256=2zFjz4UrY6158t0Fr-mqZiafr7AaHncb7kIMdJCvE0w,1114
+xpip_python-1.0.dist-info/METADATA,sha256=MRXIolVUfd3bpvtuYqK0Gel1RtF9eEd5gbW9LR3Rz8A,2547
+xpip_python-1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+xpip_python-1.0.dist-info/entry_points.txt,sha256=JIbIZs5-7V2IUr_s0DjA3p_-sjK1dpitla2TrGM-OEU,138
+xpip_python-1.0.dist-info/top_level.txt,sha256=NNDr7ezQ-YVP6Rg89ahixz3a1zwBeQxPISXRjykoPK8,5
+xpip_python-1.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+xpip_python-1.0.dist-info/RECORD,,
