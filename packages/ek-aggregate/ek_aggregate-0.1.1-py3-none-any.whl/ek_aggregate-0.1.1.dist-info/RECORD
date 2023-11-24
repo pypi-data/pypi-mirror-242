@@ -1,0 +1,12 @@
+earthkit/aggregate/__init__.py,sha256=RP22PzyvrNXaBQtZvvlCUApx4X51I48QI8wHt3ekWCI,992
+earthkit/aggregate/climatology.py,sha256=mlJ4TqeLLskA-nxlM3jSFIdzlndsMTvqWHKonDF3rSE,16929
+earthkit/aggregate/general.py,sha256=E_8IMcqDq57Y_Q2RaTZdDiLnB1QFx116EFsD4fmrg80,10177
+earthkit/aggregate/spatial.py,sha256=Dua0tv9cL2eLQaJxR88uMSE052VQteUBuPLI1ttkRSw,19089
+earthkit/aggregate/temporal.py,sha256=5x4smRTzU7mkPeqdC2CVRHVazFCQ-uUiFeBtDJA5EjE,10027
+earthkit/aggregate/tools.py,sha256=a6HJCOo11snTAGbR6ThD4uWrMo5ERIq1YMT63evheK8,10358
+earthkit/aggregate/version.py,sha256=CAskQgr-KDwiwFd-I2ZBm38devMlzVF_lRCVXyIs4A8,72
+ek_aggregate-0.1.1.dist-info/LICENSE,sha256=EXa9TeBMc3bjJ8QjcgV6rl6rc7tLDFdHIMzFD6ougSU,11382
+ek_aggregate-0.1.1.dist-info/METADATA,sha256=g7RAzKTr2-2JMXkc0liAtoofM02ZsxWzcPo4dpx2fvg,15672
+ek_aggregate-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ek_aggregate-0.1.1.dist-info/top_level.txt,sha256=rlHOKqOMbPp3ZOnnqxjzxP3k_XvdR3AeH_mQLzGAVBI,9
+ek_aggregate-0.1.1.dist-info/RECORD,,
