@@ -1,0 +1,14 @@
+semantic_versioning/__init__.py,sha256=LTKmZc6-asaUhQp3WwFpulKGCIi8u4bbQewG4JaUwlE,28
+semantic_versioning/__main__.py,sha256=mI5irll2Nb6Y7-u9nlCGw2qexTtAIIfwLnGqKH2vNXI,953
+semantic_versioning/version.py,sha256=JyD4N34R9lNhf5UdjNebxCFxbAH46Y_y1cppuw8rS6U,1631
+semversion/__init__.py,sha256=39C5jg-s2c0uZKBuihbP34WuiyxH17iMi8ZwuQpDh6w,125
+semversion/__main__.py,sha256=GaNEbeFtU-DtgIFM1_o2U0JSjgCvWlIHyZGQxqVkKak,946
+semversion/constants.py,sha256=91Dq-rxDKX9D9oqp6SZl4hqLPZ9lGtfN2Q-H8gRbhM0,105
+semversion/increment.py,sha256=7V_LzeFipbGALXeTUT4xMsQAOey3R4XY-M9hrV0vSBw,934
+semversion/version.py,sha256=zDx055VLBnMjl7YirLVR7IZRjnVgYaw6vWqyvqkB0Gs,338
+semversion-1.2.0.dist-info/LICENSE,sha256=UY90PKgvPkffodX7HnsTgcbyD4oSDqtUAtMVVkUwYAU,1072
+semversion-1.2.0.dist-info/METADATA,sha256=y5HfSIenpkqkvKBKfrgX5HwIzY5xBSjA96B6j9RD1_4,98
+semversion-1.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+semversion-1.2.0.dist-info/entry_points.txt,sha256=_C7_YFL4Iwoxkcr6fg-L4EhzTwezToLV6Irpl5DQkCk,56
+semversion-1.2.0.dist-info/top_level.txt,sha256=ydJXTc340_ARtmVpuJ6-G0qskRV4xRvCeDWYhTbUFVc,11
+semversion-1.2.0.dist-info/RECORD,,
