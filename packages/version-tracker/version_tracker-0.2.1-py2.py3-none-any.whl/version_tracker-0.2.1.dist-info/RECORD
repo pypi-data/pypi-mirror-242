@@ -1,0 +1,10 @@
+version_tracker/__init__.py,sha256=RCGBTdi-8Ng-mh1a_GtUQrGnAtUed4H_KdGm8BWhmsc,77
+version_tracker/cli.py,sha256=80j7gSnLnbf_7SOTUcA5yS0T1nngXctvxlEJYGYP8p0,675
+version_tracker/version_tracker.py,sha256=6mN9yvF8YakvJTj7F7tdsuoxKFmbiVTm5oN-ek6Hqlw,5529
+version_tracker-0.2.1.dist-info/AUTHORS.rst,sha256=ysBJpuGQWuBV28j7KLba7v1wQPLU2bSRTXXEg8-IXwA,163
+version_tracker-0.2.1.dist-info/LICENSE,sha256=jTUT7v5Jj3hdwxcLjAP-7QiFWsj6OePWzV2vBO5qbmA,1074
+version_tracker-0.2.1.dist-info/METADATA,sha256=70z6JeSgW-xJFa1jE0i3ALSFwkid-o-o67mNsVKIgFs,8788
+version_tracker-0.2.1.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+version_tracker-0.2.1.dist-info/entry_points.txt,sha256=rNmupHiesHvP6Kx_4GC-wLK4YTO0zzDbsx-aJuU4sNw,62
+version_tracker-0.2.1.dist-info/top_level.txt,sha256=-75CpIkvMKKu3KWrhDk1OGxSjhGv63N4ZLvZ-3RgIiQ,16
+version_tracker-0.2.1.dist-info/RECORD,,
