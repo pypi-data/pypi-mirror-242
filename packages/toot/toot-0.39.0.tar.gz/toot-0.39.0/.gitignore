@@ -1,0 +1,17 @@
+*.egg-info/
+*.pyc
+.pypirc
+/.cache/
+/.coverage
+/.env
+/.envrc
+/.pytest_cache/
+/build/
+/dist/
+/htmlcov/
+/tmp/
+/toot-*.tar.gz
+debug.log
+/pyrightconfig.json
+/venv/
+/book
