@@ -1,0 +1,17 @@
+LICENSE,sha256=QaELXFGQ7fQ_rBrmvXlE5Y0Qpp_khYfbkPSur8oeJjw,1100
+epub3/__init__.py,sha256=NzP-KSrRNyuuUCOgXQuNzz7masotJra3ojDFLsypVDs,60
+epub3/__main__.py,sha256=H_0jKdnG_HWYV2_EoiZ8AIlTBq-YWN7x5JnNzpzA_lQ,39
+epub3/epub.py,sha256=mnvz-2L5Lpt8z3Zj3g6pvr4n0mHwPrZs-8VrtHNJoU4,48353
+epub3/util/__init__.py,sha256=4muRH5-ZnGs23DbZ8JjXS0Yiyal9guYXzn0FazFsS2U,260
+epub3/util/_init_mimetypes.py,sha256=db1Zr9QkBtt5jAqvKBnECfB17HznMnqO01YxmY2S4vU,3775
+epub3/util/file.py,sha256=DuGuB88pp1LrmKnbvWV0LFa6jm6L5kG6QNTwjtNXNv0,7677
+epub3/util/helper.py,sha256=Cdl5x2WPuJscxkpOuIFUCaTblNDDZpvDIuNGZGHHK-U,1165
+epub3/util/proxy.py,sha256=FBsTe4yvTalmhMDl0A9cnR2b4RSrzQydWR_-G9GQ6OY,24629
+epub3/util/stream.py,sha256=8qjx1_lp_X7oOT0LLzVkRUwXSUGhDuzQ8OLI2k8r-pc,14379
+epub3/util/undefined.py,sha256=lmUu88nGCoNjw-WrP_H-X6eV7TjDFTk7yfguBBhxlBg,765
+epub3/util/xml.py,sha256=3NFzBmeiJLsgzGmBt0-zwuIO-Lx6IbA14nV4C7ny0_c,19038
+epub3/util/xml_plus.py,sha256=ycMWcZuAQuRxRjWYkbpwgY7t9BDghMTw5C7UleGguPI,10426
+python_epub3-0.0.1.8.dist-info/LICENSE,sha256=QaELXFGQ7fQ_rBrmvXlE5Y0Qpp_khYfbkPSur8oeJjw,1100
+python_epub3-0.0.1.8.dist-info/METADATA,sha256=aboAF1-Ef7Nu74KiuoRfKWjX6w5T5l09oa_QkvHR2II,17565
+python_epub3-0.0.1.8.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+python_epub3-0.0.1.8.dist-info/RECORD,,
