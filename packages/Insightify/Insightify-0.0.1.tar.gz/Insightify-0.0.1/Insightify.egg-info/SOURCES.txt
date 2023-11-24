@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Insightify/__init__.py
+Insightify.egg-info/PKG-INFO
+Insightify.egg-info/SOURCES.txt
+Insightify.egg-info/dependency_links.txt
+Insightify.egg-info/top_level.txt
