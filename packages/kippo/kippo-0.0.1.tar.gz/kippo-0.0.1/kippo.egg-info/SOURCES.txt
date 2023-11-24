@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+kippo/__init__.py
+kippo.egg-info/PKG-INFO
+kippo.egg-info/SOURCES.txt
+kippo.egg-info/dependency_links.txt
+kippo.egg-info/top_level.txt
