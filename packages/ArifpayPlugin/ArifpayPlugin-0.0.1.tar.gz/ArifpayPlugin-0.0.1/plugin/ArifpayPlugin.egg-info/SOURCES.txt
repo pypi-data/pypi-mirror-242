@@ -1,0 +1,7 @@
+README.md
+setup.py
+plugin/ArifpayPlugin.egg-info/PKG-INFO
+plugin/ArifpayPlugin.egg-info/SOURCES.txt
+plugin/ArifpayPlugin.egg-info/dependency_links.txt
+plugin/ArifpayPlugin.egg-info/requires.txt
+plugin/ArifpayPlugin.egg-info/top_level.txt
