@@ -1,0 +1,74 @@
+# Compare Dataframes
+
+## Description
+This powerful Python library is designed to facilitate easy and efficient comparison of data frames.
+
+
+### Key Features
+- Universal Compatibility: The library is designed to work out of the box with data frames of any type, including pandas, polars, or Spark data frames. This flexibility allows you to use the library with your preferred data manipulation framework.
+
+- String Comparison: For string comparison, the library employs the Levenshtein distance algorithm. The Levenshtein distance is a string metric for measuring the difference between two sequences. The algorithm is used to identify the minimum number of single-character edits (insertions, deletions, or substitutions) required to change one word into the other.
+
+- Numeric Comparison: Numeric comparisons are conducted using the Euclidean distance between columns. This method is effective for identifying differences in numeric data, providing insights into variations between datasets.
+
+- Rust-Based Distance Functions: To achieve parallelized and fast performance at native speeds, the distance functions are implemented in Rust. This choice ensures that the library can handle large-scale data comparisons with efficiency. The comparison engine is built over the polars library, providing exceptional performance. The underlying design ensures that the library efficiently handles large datasets for quick and reliable comparisons.
+
+- User-friendly reporting: The library generates a detailed tabular report that provides a comprehensive overview of the differences between the two datasets. 
+
+## Example Usage
+```python
+import polars as pl
+df = pl.DataFrame(
+    {
+        "a": ['21-03-2022', 'soccer', 'cricket'],
+        "b": ["21-03-2022", 'soccer', "cricket"],
+        "c": [1, 2, 3],
+    }
+)
+
+df1 = pl.DataFrame(
+    {
+        "a": ['21-03-2022', 'soccer', 'cricket', 'baseball'],
+        "b": ["21-03-2022", 'sucker', "cricket", 'man'],
+        "c": [4, 2, 3, 4],
+        
+    }
+)
+from compare_datasets import Compare
+compared = Compare(df, df1)
+print(compared) # prints the tabulated result
+compared.save_report("<PATH_TO_SAVE_REPORT>")
+```
+## Use Cases
+Thisis particularly useful (not exhaustive) in the following scenarios:
+
+- Testing: Quickly identify and verify differences between expected and actual data frames during testing phases.
+
+- Analysis: Gain insights into the variations and discrepancies between two datasets, facilitating thorough data analysis.
+
+## Roadmap
+- Add other distance functions
+- Add seamless integration with pytest
+- Write a user guide
+
+## License
+Copyright (c) 2023 Kumar Shantanu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
