@@ -1,0 +1,16 @@
+geoid_list = [3426691]
+name_list = ["Puerto Argentino"]
+ascii_name_list = ["Stanley"]
+alternate_names_list = [["Puerto Stanley"]]
+latitude_list = [-51.69382]
+longitude_list = [-57.85701]
+country_code_list = ["FK"]
+population_list = [2213]
+dem_list = [28]
+timezone_list = [256]
+altitude_list = [-1]
+_feature_class_list = ["P"]
+_feature_code_list = ["PPLC"]
+_parent_code_list = ["FK.00"]
+_states = {}
+_districts = {}

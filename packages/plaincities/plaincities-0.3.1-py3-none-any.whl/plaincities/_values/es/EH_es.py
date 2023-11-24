@@ -1,0 +1,16 @@
+geoid_list = [2462881, 2463029, 2463447]
+name_list = ["El Aaiún", "Cabo Bojador", "Dajla"]
+ascii_name_list = ["Laayoune", "Boujdour", "Dakhla"]
+alternate_names_list = [["Aaiún"], ["Boujdour", "Cabo Bojador", "Cape Blanc", "bwjdwr", "بوجدور", "ⴱⵓⵊⴷⵓⵔ"], ["Villa Cisneros"]]
+latitude_list = [27.1418, 26.13073, 23.68477]
+longitude_list = [-13.18797, -14.48513, -15.95798]
+country_code_list = ["EH", "EH", "EH"]
+population_list = [196331, 42651, 75000]
+dem_list = [68, 28, 6]
+timezone_list = [20, 20, 20]
+altitude_list = [-1, -1, -1]
+_feature_class_list = ["P", "P", "P"]
+_feature_code_list = ["PPLA", "PPL", "PPLA"]
+_parent_code_list = ["EH", "EH", "EH.CE"]
+_states = {}
+_districts = {}
