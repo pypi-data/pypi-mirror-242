@@ -1,0 +1,6 @@
+usepy_plugin_redis/__init__.py,sha256=Qez9wCqvK-r5Vhb0RPTQ365I7XBYH62j3rnrO3cbzlw,307
+usepy_plugin_redis/store.py,sha256=M5PTbgr_87Ll2BUWh_g-DdejJQrFA_X2C6EP4CtMSx0,2232
+usepy_plugin_redis/stream.py,sha256=Oelnyt53Xy5uldZXepGUsX3wTNyre9AjO_gs2xXqWaY,8640
+usepy_plugin_redis-0.1.7.dist-info/METADATA,sha256=CcHGdm32pGoVUldu8Vlapvtri2O9bME13rzdtgP9as0,543
+usepy_plugin_redis-0.1.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+usepy_plugin_redis-0.1.7.dist-info/RECORD,,
