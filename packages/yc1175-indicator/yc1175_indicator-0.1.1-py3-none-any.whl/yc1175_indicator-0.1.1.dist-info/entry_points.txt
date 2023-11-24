@@ -1,0 +1,3 @@
+[console_scripts]
+indicator-cli=yc1175_indicator.indicator_cli:main
+
