@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: raspberryrequest
+Version: 0.0.1
+Summary: Package to handle API requests easily, with built-in back-off and response handling.
+Home-page: https://github.com/Fruitful-DevTools/raspberryrequest
+Author: Charlie Marshall
+Author-email: Charlie Marshall <charlie.marshall1996@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Fruitful-DevTools/raspberryrequest
+Project-URL: Bug Tracker, https://github.com/Fruitful-DevTools/raspberryrequest/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: requests (>=2.26.0)
+
+# RaspberryRequest
+
+Py package for making and handling HTTP requests and responses.
