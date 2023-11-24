@@ -1,0 +1,6 @@
+dist/
+src/hatch_nuitka/__about__.py
+.gitignore
+__pycache__/
+.vscode/
+my-app/
