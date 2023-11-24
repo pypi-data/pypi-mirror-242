@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+DefendRanger/__init__.py
+DefendRanger.egg-info/PKG-INFO
+DefendRanger.egg-info/SOURCES.txt
+DefendRanger.egg-info/dependency_links.txt
+DefendRanger.egg-info/top_level.txt
