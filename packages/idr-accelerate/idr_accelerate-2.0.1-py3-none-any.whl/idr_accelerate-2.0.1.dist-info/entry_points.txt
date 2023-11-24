@@ -1,0 +1,2 @@
+[console_scripts]
+idr_accelerate = idr_accelerate.launcher:run
