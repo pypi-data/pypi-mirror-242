@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+EncryptShield/__init__.py
+EncryptShield.egg-info/PKG-INFO
+EncryptShield.egg-info/SOURCES.txt
+EncryptShield.egg-info/dependency_links.txt
+EncryptShield.egg-info/top_level.txt
