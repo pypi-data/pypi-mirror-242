@@ -1,0 +1,13 @@
+supabase_py_async/__init__.py,sha256=SYeBnzre_Njv45BQfxA9ITT2in8Vkp-ZUnzKrPqgpeI,419
+supabase_py_async/__version__.py,sha256=287CeixwE3XNqfKMa7R0BL3SXIi_hvzgKB-AxDx5vG8,39
+supabase_py_async/client_async.py,sha256=MyzqAA0XiPbVRloHw8ufolqkyZr3Kgyvuq_hI2ZMUkY,13449
+supabase_py_async/lib/__init__.py,sha256=so-GxK15CIKTKRH023u31CB2uILnjfkv13Bljh7NF80,92
+supabase_py_async/lib/auth_client.py,sha256=SRGPyj6ov-y-6XZcyvIoAj71tr35CL_QGyaupd_0HZg,1442
+supabase_py_async/lib/client_options.py,sha256=jlMtSU1_z4223CRq8PweJt3X7ibXUSEZzMtN_etfhBs,3329
+supabase_py_async/lib/realtime_client.py,sha256=nRICTsljdVVudcOLkeiPE6LXSR1IReSYwf4aM_6OTeE,1944
+supabase_py_async/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supabase_py_async/types.py,sha256=xjH6dopc6wmjIhpfN2_staNdaq9HzqqR4qroeh6--QE,85
+supabase_py_async-2.0.6.dist-info/LICENSE,sha256=HswwnKugK4rhU07oFTp5em0Jc4bVPmj1B2r4eVGHFa0,1086
+supabase_py_async-2.0.6.dist-info/METADATA,sha256=B-Eqpe1gopbfbLUgdY088fdnkJgsoCSZSYTOQWs69go,8728
+supabase_py_async-2.0.6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+supabase_py_async-2.0.6.dist-info/RECORD,,
