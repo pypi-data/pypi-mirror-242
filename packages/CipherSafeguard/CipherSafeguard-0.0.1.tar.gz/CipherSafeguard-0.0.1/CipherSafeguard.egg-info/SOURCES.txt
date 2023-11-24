@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+CipherSafeguard/__init__.py
+CipherSafeguard.egg-info/PKG-INFO
+CipherSafeguard.egg-info/SOURCES.txt
+CipherSafeguard.egg-info/dependency_links.txt
+CipherSafeguard.egg-info/top_level.txt
