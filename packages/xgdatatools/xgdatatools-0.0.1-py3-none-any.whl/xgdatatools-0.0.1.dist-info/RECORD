@@ -1,0 +1,10 @@
+xgdatatools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xgdatatools/extractxgdata.py,sha256=ixfhLBRiulerXI2UwIQ1rQvX4aXL6HG-LLLZTRS6x-E,3917
+xgdatatools/xgimport.py,sha256=apDElrm8XfuGt3GGLNWJRmjsqMRofVTrYMZA6l5jOUc,6002
+xgdatatools/xgstruct.py,sha256=hpDlOdkiLAaaZ6O0XUho21eeDniQmNqP4dUvjn-5Qmc,46957
+xgdatatools/xgutils.py,sha256=TrOWagzYqX8_aElzEDrRne1ODYYut_7wkiThYAH-rNA,3624
+xgdatatools/xgzarc.py,sha256=hgcX3bEEjzBJlBQOCHIj8rkuOoiB12WBfcAERwmvxsU,8779
+xgdatatools-0.0.1.dist-info/METADATA,sha256=vtsxA8B6siH5wOteUix2VcHps0WQbASBFXjhgO-CZ54,733
+xgdatatools-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+xgdatatools-0.0.1.dist-info/licenses/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+xgdatatools-0.0.1.dist-info/RECORD,,
