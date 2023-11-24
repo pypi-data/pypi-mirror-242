@@ -1,0 +1,17 @@
+pyMMF/__init__.py,sha256=YGbsb669PqnwtOtaHiGEiQAFFV7nbdgdL8HPshG7X-I,164
+pyMMF/core.py,sha256=kgv4L9Z5RrbiTgC_QgivIRFH9uNJ57TwOZwkACu17Y4,9997
+pyMMF/functions.py,sha256=3m8opOFttvtFc3qO5Gy9KhDgm5wJlmSHYx7lpsgWbk8,792
+pyMMF/index_profile.py,sha256=t12jeeiv6q2GIo9NCfsvd5Q6pnICgEzQe9gtw_bWziY,1772
+pyMMF/logger.py,sha256=HX8kfS-LfEUuazCeTVQlzEwRkMRqFhumar-py9USLgk,994
+pyMMF/modes.py,sha256=k8cp_EpGpL-mHKO2zTcs15IEhs8gttztFafDaNcHk04,10767
+pyMMF/solvers/SI.py,sha256=5j3bK6I3Lz690H3RDO6uFtyx4CHr5AdtByfqDskFrzE,5788
+pyMMF/solvers/WKB.py,sha256=LcSMhFz3WqUgG0Zk6pfZwQS3UIfRoS1YTor9VAGmZQY,5141
+pyMMF/solvers/__init__.py,sha256=bDRSQwIgPqz21AETfr8fCbD-MQq5tzFdVT7sKPkkjgg,161
+pyMMF/solvers/eig2D.py,sha256=Yt0CAuzyRP6agX7hO-NHG5bZkjhNqDtJtlvVNqca9eU,5904
+pyMMF/solvers/radial.py,sha256=8UM_0fnljzkJuodOv9FNiQK3Kg9muPDxhlCe6q03jgk,12157
+pyMMF/solvers/radial_legacy.py,sha256=r53qTZxMGkUPlwrhijRmw2GirOwCbhEd702EOZlnebI,10966
+pyMMF-0.6.dist-info/LICENSE,sha256=fXFS19feIeCe4QRdAuqLaPnVedMqVGF04e2DryJJX18,1073
+pyMMF-0.6.dist-info/METADATA,sha256=JwC4gcFg00cByDM4pjg5248p8bBATj2K73PQR6TqFck,7491
+pyMMF-0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyMMF-0.6.dist-info/top_level.txt,sha256=F_n63nhElaLHGfwSQht2x8NHwQRBCADjvTsydbk8enw,6
+pyMMF-0.6.dist-info/RECORD,,
