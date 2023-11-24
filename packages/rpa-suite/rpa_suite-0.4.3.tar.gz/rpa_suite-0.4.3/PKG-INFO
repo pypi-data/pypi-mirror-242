@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: rpa_suite
+Version: 0.4.3
+Summary: Conjunto de ferramentas essenciais para RPA com Python, que facilitam o dia a dia de desenvolvimento.
+Author: Camilo Costa de Carvalho
+Author-email: camilo.carvalho@triasoftware.com.br
+License: MIT
+Keywords: basic-tools,email-tools,email-validation,file-tools,simple-functions,rpa-tools,rpa-functions
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: loguru
+Requires-Dist: colorama
+Requires-Dist: email_validator
+
+Suite RPA:
+Kit de ferramentas para o desenvolvimento do seu bot, automaÃ§Ã£o ou projeto.
+Versatil: Embora criado com foco no desenvolvimento de BOTs em RPA, as ferramentas sÃ£o de uso geral, podem ser aplicadas tambÃ©m em outros modelos de projetos alÃ©m do RPA.
+
+Simples: Contruimos as ferramentas de maneira mais direta e acertiva possivel e usando apenas libs conhecidas no mercado, para melhor aproveitamento e performance possivel.
+
+Objetivo:
+Estamos tornando mais produtivo o desenvolvimento de RPAs, proporcionando funÃ§Ãµes prontas para usos comuns como:
+
+envio de emails (configuraÃ§Ãµes jÃ¡ prÃ©-montadas)
+validaÃ§Ã£o de emails (limpeza e tratamento de listas)
+busca por palavras ou patterns em textos ou cadeias de string
+criaÃ§Ã£o de pastas e arquivos temporarios e deleta-los com apenas um comando
+console com mensagens de melhor visualizaÃ§Ã£o com cores definidas para alerta, erro, informativo e sucesso.
+e muitas outras facilidades
+InstalaÃ§Ã£o:
+>>> python -m pip install rpa-suite
