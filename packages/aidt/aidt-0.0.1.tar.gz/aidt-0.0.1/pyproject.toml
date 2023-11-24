@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "aidt"
+version = "0.0.1"
+description = "Data transformations using LLMs for use with pandas"
+authors = ["Madhav Singhal"]
+license = "MIT"
+readme = "README.md"
+packages = [
+  { include = "aidt" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+# https://beta.ruff.rs/docs/configuration/
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293']
