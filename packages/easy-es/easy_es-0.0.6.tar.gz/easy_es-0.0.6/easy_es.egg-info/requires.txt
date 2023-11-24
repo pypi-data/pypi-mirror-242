@@ -1,0 +1,10 @@
+pandas
+numpy
+scipy
+plotly
+scikit-learn
+dataclasses
+yfinance
+typing-extensions
+tqdm
+statsmodels
