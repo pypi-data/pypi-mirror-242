@@ -1,0 +1,15 @@
+qtpy
+
+[all]
+freecad-stubs[check,generate]
+
+[check]
+mypy
+pyright
+pylint
+PyQt5
+PyQt5-stubs
+qtpy
+
+[generate]
+more-itertools
