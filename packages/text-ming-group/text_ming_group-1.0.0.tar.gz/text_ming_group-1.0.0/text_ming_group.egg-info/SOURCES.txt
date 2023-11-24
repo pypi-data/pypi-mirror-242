@@ -1,0 +1,7 @@
+setup.py
+text_ming_group.egg-info/PKG-INFO
+text_ming_group.egg-info/SOURCES.txt
+text_ming_group.egg-info/dependency_links.txt
+text_ming_group.egg-info/top_level.txt
+text_mining/__init__.py
+text_mining/text_min.py
