@@ -1,0 +1,13 @@
+[tool.poetry]
+name = 'gcsim-pypi'
+version = 'v2.8.2'
+description = 'gcsim binary for PyPI'
+authors = ['Lei Shi <me@leishi.io>']
+packages = [{include = 'gcsim_pypi'}]
+
+[tool.poetry.dependencies]
+python = '^3.6'
+
+[build-system]
+requires = ['poetry-core']
+build-backend = 'poetry.core.masonry.api'
