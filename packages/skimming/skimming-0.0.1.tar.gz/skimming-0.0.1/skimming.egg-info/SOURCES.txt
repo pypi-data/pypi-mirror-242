@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+skimming/__init__.py
+skimming.egg-info/PKG-INFO
+skimming.egg-info/SOURCES.txt
+skimming.egg-info/dependency_links.txt
+skimming.egg-info/top_level.txt
