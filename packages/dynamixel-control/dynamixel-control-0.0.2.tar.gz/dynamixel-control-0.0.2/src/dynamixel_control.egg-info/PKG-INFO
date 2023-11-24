@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dynamixel-control
+Version: 0.0.2
+Summary: Library for communicating with various Dynamixel motors.
+Home-page: https://github.com/OSUrobotics/dynamixel-control
+Author: Kyle DuFrene
+Author-email: dufrenekm@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
