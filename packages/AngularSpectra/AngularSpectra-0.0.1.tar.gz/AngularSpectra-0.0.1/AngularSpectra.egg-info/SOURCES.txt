@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+AngularSpectra/__init__.py
+AngularSpectra.egg-info/PKG-INFO
+AngularSpectra.egg-info/SOURCES.txt
+AngularSpectra.egg-info/dependency_links.txt
+AngularSpectra.egg-info/top_level.txt
