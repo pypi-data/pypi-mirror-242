@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rabbitmq_flask/ExchangeParams.py
+rabbitmq_flask/ExchangeType.py
+rabbitmq_flask/QueueParams.py
+rabbitmq_flask/RabbitConsumerMiddleware.py
+rabbitmq_flask/RabbitMQ.py
+rabbitmq_flask/__init__.py
+rabbitmq_flask.egg-info/PKG-INFO
+rabbitmq_flask.egg-info/SOURCES.txt
+rabbitmq_flask.egg-info/dependency_links.txt
+rabbitmq_flask.egg-info/requires.txt
+rabbitmq_flask.egg-info/top_level.txt
