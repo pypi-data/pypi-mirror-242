@@ -1,0 +1,9 @@
+poetry_relax/__init__.py,sha256=zms2_B-YvzYV9JT-XPcpMj31Td6IhPH0RScq7mcWz1g,434
+poetry_relax/_core.py,sha256=ImORJ42Wn2J_1Hy0JDWZFSmyfO4UxAWbfyiq1EZuy6w,10431
+poetry_relax/command.py,sha256=eH9cdLcxVkPmXOcdtCBOk9DP0qZW8GajdkqLjEe_IGI,12171
+poetry_relax/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_relax-1.1.0.dist-info/LICENSE,sha256=X5XdbZh0Z-hcxgG7lLqs6v64z5ocCuL2Aw1wsk7pjl0,1070
+poetry_relax-1.1.0.dist-info/METADATA,sha256=Ywj-VqlMNITf3sbr2HAMpnK7N7y3qbMAANWAn8EqBfc,9051
+poetry_relax-1.1.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+poetry_relax-1.1.0.dist-info/entry_points.txt,sha256=SOntW8zBWw8yzfFWTcavv_uMHPECMpT_BI7p5kA5qzs,60
+poetry_relax-1.1.0.dist-info/RECORD,,
