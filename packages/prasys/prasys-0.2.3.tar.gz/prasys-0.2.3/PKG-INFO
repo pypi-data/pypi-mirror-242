@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: prasys
+Version: 0.2.3
+Summary: The project is for calculating and plotting performance and risk analysis for a portfolio of assets.
+Author: Edward Wall
+Author-email: ewallj@gmail.com
+Provides-Extra: dev
+License-File: LICENSE
