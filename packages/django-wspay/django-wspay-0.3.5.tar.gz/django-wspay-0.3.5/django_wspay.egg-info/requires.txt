@@ -1,0 +1,10 @@
+django-appconf
+django>=3.0
+pytz
+requests
+
+[testing]
+mock
+pytest
+pytest-django
+responses
