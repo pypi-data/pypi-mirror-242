@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+reverse-engineering/__init__.py
+reverse_engineering.egg-info/PKG-INFO
+reverse_engineering.egg-info/SOURCES.txt
+reverse_engineering.egg-info/dependency_links.txt
+reverse_engineering.egg-info/top_level.txt
