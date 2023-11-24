@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Ciphex/__init__.py
+Ciphex.egg-info/PKG-INFO
+Ciphex.egg-info/SOURCES.txt
+Ciphex.egg-info/dependency_links.txt
+Ciphex.egg-info/top_level.txt
