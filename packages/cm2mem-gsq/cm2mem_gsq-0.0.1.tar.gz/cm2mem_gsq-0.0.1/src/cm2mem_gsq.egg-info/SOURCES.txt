@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/cm2mem_gsq/__init__.py
+src/cm2mem_gsq/cm2mem.py
+src/cm2mem_gsq.egg-info/PKG-INFO
+src/cm2mem_gsq.egg-info/SOURCES.txt
+src/cm2mem_gsq.egg-info/dependency_links.txt
+src/cm2mem_gsq.egg-info/top_level.txt
