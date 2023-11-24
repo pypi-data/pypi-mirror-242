@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-get-ip
+Version: 2.39
+Summary: Securely getting the IP address of a Django http request client.
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: == 3.9.*
+
+UNKNOWN
+
