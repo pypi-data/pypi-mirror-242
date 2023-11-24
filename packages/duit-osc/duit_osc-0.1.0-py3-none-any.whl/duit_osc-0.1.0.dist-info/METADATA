@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: duit-osc
+Version: 0.1.0
+Summary: OSC communication support for duit datafields.
+Home-page: https://github.com/cansik/duit-osc
+Author: Florian Bruggisser
+Author-email: github@broox.ch
+License: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: duit ~=1.9.0
+Requires-Dist: python-osc ~=1.8.3
+Provides-Extra: all
+
+# OSC for Duit
+Open Sound Control communication for duit datafields.
