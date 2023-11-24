@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+TrafficWatch/__init__.py
+TrafficWatch.egg-info/PKG-INFO
+TrafficWatch.egg-info/SOURCES.txt
+TrafficWatch.egg-info/dependency_links.txt
+TrafficWatch.egg-info/top_level.txt
