@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+megaind/__init__.py
+megaind.egg-info/PKG-INFO
+megaind.egg-info/SOURCES.txt
+megaind.egg-info/dependency_links.txt
+megaind.egg-info/top_level.txt
