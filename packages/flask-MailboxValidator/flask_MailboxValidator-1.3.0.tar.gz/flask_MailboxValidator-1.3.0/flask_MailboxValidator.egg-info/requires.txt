@@ -1,0 +1,10 @@
+Flask>=3.0.0
+Flask-WTF>=1.0.0
+WTForms>=3.0.0
+
+[docs]
+sphinx>=1.8.1
+Pallets-Sphinx-Themes
+
+[tests]
+nose2
