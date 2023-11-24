@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+gene-editing/__init__.py
+gene_editing.egg-info/PKG-INFO
+gene_editing.egg-info/SOURCES.txt
+gene_editing.egg-info/dependency_links.txt
+gene_editing.egg-info/top_level.txt
