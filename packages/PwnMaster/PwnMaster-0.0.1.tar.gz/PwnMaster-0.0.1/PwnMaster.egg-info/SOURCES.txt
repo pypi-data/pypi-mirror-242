@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PwnMaster/__init__.py
+PwnMaster.egg-info/PKG-INFO
+PwnMaster.egg-info/SOURCES.txt
+PwnMaster.egg-info/dependency_links.txt
+PwnMaster.egg-info/top_level.txt
