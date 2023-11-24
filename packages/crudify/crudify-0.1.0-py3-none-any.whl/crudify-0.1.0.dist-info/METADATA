@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: crudify
+Version: 0.1.0
+Requires-Dist: django
+Requires-Dist: djangorestframework
+Requires-Dist: drf-yasg
+
