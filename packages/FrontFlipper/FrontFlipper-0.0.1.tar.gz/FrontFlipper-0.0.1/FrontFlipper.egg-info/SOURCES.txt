@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+FrontFlipper/__init__.py
+FrontFlipper.egg-info/PKG-INFO
+FrontFlipper.egg-info/SOURCES.txt
+FrontFlipper.egg-info/dependency_links.txt
+FrontFlipper.egg-info/top_level.txt
