@@ -1,0 +1,8 @@
+fhdw/modelling/__init__.py,sha256=n16u2m6PQAtLaQEhAxx5SLrBA2Ql9QiqrAOiiwpHiHo,35
+fhdw/modelling/base.py,sha256=xjgNltgW17FzAgVqRodQcp1pT4LtVkEdHMPAVmjYtn8,1027
+fhdw/modelling/pycaret.py,sha256=kB0NuxHSsxdIXob7-0qsoVKbTx36m_pLb7h8XCrh8sA,1778
+fhdw/tests/__init__.py,sha256=ul-1z24vNajXQ_Y_9ua6Ao-GI5pa2sUiPIPZFlTuZ-o,22
+fhdw/tests/test_base.py,sha256=G8z39nCQYhTo-nfgaYmoTe--P9k5AmEF5XO5X2cKyeQ,1772
+fhdw_modelling-0.3.0.dist-info/METADATA,sha256=92Z2Hs-L5am4OwVv1Nz4qQJJxgyNW9yK4Ci4EIyb8S8,806
+fhdw_modelling-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fhdw_modelling-0.3.0.dist-info/RECORD,,
