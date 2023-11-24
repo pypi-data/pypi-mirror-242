@@ -1,0 +1,19 @@
+[project]
+name = "GPTManager"
+version = "0.0.2"
+authors = [
+  { name="Ufuk İlke Avcı", email="ufukilkeavci@gmail.com" },
+  { name="İlke Torun", email="ilketorun97@gmail.com"}
+]
+description = "Package for managing GPT API access"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/gpt-public-tools/GPTManager"
+Issues = "https://github.com/gpt-public-tools/GPTManager/issues"

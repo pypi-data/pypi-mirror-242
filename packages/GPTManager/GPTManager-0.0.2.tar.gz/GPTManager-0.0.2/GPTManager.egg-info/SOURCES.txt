@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+GPTManager/Assistant.py
+GPTManager/Thread.py
+GPTManager/__init__.py
+GPTManager.egg-info/PKG-INFO
+GPTManager.egg-info/SOURCES.txt
+GPTManager.egg-info/dependency_links.txt
+GPTManager.egg-info/top_level.txt
+tests/test_GPTManager.py
