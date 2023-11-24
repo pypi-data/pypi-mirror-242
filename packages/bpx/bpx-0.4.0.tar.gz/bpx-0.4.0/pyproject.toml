@@ -1,0 +1,27 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "bpx"
+authors = [{name = "Martin Robinson", email = "martin.robinson@dtc.ox.ac.uk"}]
+readme = "README.md"
+dynamic = ["version", "description"]
+dependencies = [
+    "devtools",
+    "pydantic<2",
+    "pyparsing",
+]
+
+[project.optional-dependencies]
+dev = [
+    'coverage',                 # Coverage checking
+    'flake8>=3',                # Style checking
+    "sphinx>=6",
+    "sphinx_rtd_theme>=0.5",
+    "pydata-sphinx-theme",
+    "sphinx_design",
+    "sphinx-copybutton",
+    "myst-parser",
+    "sphinx-inline-tabs",
+]
