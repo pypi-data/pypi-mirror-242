@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+VaultCrypt/__init__.py
+VaultCrypt.egg-info/PKG-INFO
+VaultCrypt.egg-info/SOURCES.txt
+VaultCrypt.egg-info/dependency_links.txt
+VaultCrypt.egg-info/top_level.txt
