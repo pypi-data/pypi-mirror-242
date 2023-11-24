@@ -1,0 +1,17 @@
+Cython
+networkx
+ogb
+pandas
+dgl
+dglgo
+PyYAML
+scikit-learn
+scipy
+seaborn
+texttable
+torch
+torchaudio
+torchvision
+tqdm
+wget
+gdown
