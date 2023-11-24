@@ -1,0 +1,11 @@
+dataframe_api/__init__.py,sha256=yEXoewwZXxndPpJvXYJvt_0OYZR7_ekq-YqJyqoDu1o,10949
+dataframe_api/column_object.py,sha256=C0b5-2j0Z7Noy8NAlHC9awHxm_fwa7HsOgZYkfbklDA,30899
+dataframe_api/dataframe_object.py,sha256=ZYRmoM7D3x2FbqgKGMqhiYZne5qFuwElaODaUxxDm7A,24675
+dataframe_api/dtypes.py,sha256=_rj9ik6mCkdeTjpsfmOuJ8otRKoV6SDjxrdcZg-zPCo,1678
+dataframe_api/groupby_object.py,sha256=yuf0xOOUdJ9bCKSozkKzHqrfG-dy7f8noYHaQhqrFis,3699
+dataframe_api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataframe_api/scalar_object.py,sha256=LKOQxJxgaG1TRutLXE7FbWU6m4Hk-SeBYyJQqy0gNZQ,3227
+dataframe_api/typing.py,sha256=XmITEZDxa7dPV3bhXVTmEkiM-QSAgzxhY-2jRamRhqU,3995
+dataframe_api-2023.10b0.dist-info/METADATA,sha256=TjeNrJIqUlG8oPfPhR1sq2YPCILvKPS745rr6IQiXU0,402
+dataframe_api-2023.10b0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dataframe_api-2023.10b0.dist-info/RECORD,,
