@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+hakor/__init__.py
+hakor.egg-info/PKG-INFO
+hakor.egg-info/SOURCES.txt
+hakor.egg-info/dependency_links.txt
+hakor.egg-info/top_level.txt
