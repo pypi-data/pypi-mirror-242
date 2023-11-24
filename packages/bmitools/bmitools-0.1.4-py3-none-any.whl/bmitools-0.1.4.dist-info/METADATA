@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: bmitools
+Version: 0.1.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pyyaml
+Requires-Dist: networkx
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: opencv-python
+Requires-Dist: parmap
+
+
+	BMI utilities and analysis tools
+	=================
+
+	...
+	
+	
+	.. code-block:: bash
+
+	   pip install bmitools
+
+	Usage
+	-----
+
+	To use Binarize2PCalcium, import the package in your Python code:
+
+	.. code-block:: python
+
+	   from bmitools import ... 
+
+
+	
