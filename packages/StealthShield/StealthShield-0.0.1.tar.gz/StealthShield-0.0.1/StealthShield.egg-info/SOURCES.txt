@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+StealthShield/__init__.py
+StealthShield.egg-info/PKG-INFO
+StealthShield.egg-info/SOURCES.txt
+StealthShield.egg-info/dependency_links.txt
+StealthShield.egg-info/top_level.txt
