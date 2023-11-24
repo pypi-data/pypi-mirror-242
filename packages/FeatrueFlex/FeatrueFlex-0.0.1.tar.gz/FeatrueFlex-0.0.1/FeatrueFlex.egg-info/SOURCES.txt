@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+FeatrueFlex/__init__.py
+FeatrueFlex.egg-info/PKG-INFO
+FeatrueFlex.egg-info/SOURCES.txt
+FeatrueFlex.egg-info/dependency_links.txt
+FeatrueFlex.egg-info/top_level.txt
