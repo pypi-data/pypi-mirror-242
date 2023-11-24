@@ -1,0 +1,5 @@
+numpy
+scipy
+pandas>=2.0.0
+plotly
+requests>=2.22.0
