@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cm2mem-gsq
+Version: 0.0.1
+Summary: Allows easy manipulation of memory in the Roblox game Circuit Maker 2. Supports MassiveMemory and MassMemory.
+Author-email: Gogle Squirminton <goglesquirmintontheiii@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cm2mem
+
+To use, initialize a Memory instance. Use massive=False if you're using a ``MassMemory`` and not a ``MassiveMemory``.
+Use the Memory class as if it were an array, for example: ``print(mem[123])`` or ``mem[123] = 255``.
+
+You can use the various functions under the ``premade`` class to (quickly) write values to a ``MassiveMemory`` that allow you to use the ``MassiveMemory`` as a multiplier, adder, etc..
+**The functions under the ``premade`` class ONLY work with ``MassiveMemory``**
+
+If you need help with anything, feel free to DM me on Discord @animepfp
+
+May break if memory in Circuit Maker 2 is modified. (DM me if that happens, or if you find a bug)
