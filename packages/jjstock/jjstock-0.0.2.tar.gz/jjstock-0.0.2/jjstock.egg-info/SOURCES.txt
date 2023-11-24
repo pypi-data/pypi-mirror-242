@@ -1,0 +1,6 @@
+README.md
+setup.py
+jjstock.egg-info/PKG-INFO
+jjstock.egg-info/SOURCES.txt
+jjstock.egg-info/dependency_links.txt
+jjstock.egg-info/top_level.txt
