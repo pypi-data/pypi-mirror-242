@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+chatAFL/__init__.py
+chatAFL.egg-info/PKG-INFO
+chatAFL.egg-info/SOURCES.txt
+chatAFL.egg-info/dependency_links.txt
+chatAFL.egg-info/top_level.txt
