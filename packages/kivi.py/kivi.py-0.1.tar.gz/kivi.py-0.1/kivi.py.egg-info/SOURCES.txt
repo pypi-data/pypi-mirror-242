@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+kivi/__init__.py
+kivi/erros.py
+kivi/pkg.py
+kivi.py.egg-info/PKG-INFO
+kivi.py.egg-info/SOURCES.txt
+kivi.py.egg-info/dependency_links.txt
+kivi.py.egg-info/requires.txt
+kivi.py.egg-info/top_level.txt
