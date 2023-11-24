@@ -1,0 +1,1 @@
+from Arifpay_Plugin import *
