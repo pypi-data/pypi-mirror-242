@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ArifpayPlugin
+Version: 0.0.1
+Summary: Python Plug in for Arifpay
+Home-page: https://github.com/AnaniyaBelew
+Author: Ananiya Belew
+Author-email: anewscho@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: uuid
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+
+Arifpay Python plugin 
+A package used to integrate to the arifpays gateway .
+
+How to use
+After installing the package use following import:
+
+from ArifpayPlugin import Arifpay
+
+Then use following code:
+
+arifpay= Arifpay("Api key","expiredate")
+response=arifpay.Make_payement(payment_info)
+print(response)
+
+2023-package/app/README.md at main Â· ArjanCodes/2023-package
