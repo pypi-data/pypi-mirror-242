@@ -1,0 +1,17 @@
+[project]
+name = "drtsepackage"
+version = "0.0.2"
+authors = [
+  { name="Thomas Bryden", email="thomas.bryden@eng.ox.ac.uk" },
+]
+description = "Package for controlling the Speedgoats as part of the ESI4NZ project"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/W02764X/1"

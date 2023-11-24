@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: drtsepackage
+Version: 0.0.2
+Summary: Package for controlling the Speedgoats as part of the ESI4NZ project
+Author-email: Thomas Bryden <thomas.bryden@eng.ox.ac.uk>
+Project-URL: Homepage, https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/W02764X/1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# drtse Package
+
+Read me to be updated, please contact Thomas for more details.
