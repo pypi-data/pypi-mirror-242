@@ -1,0 +1,10 @@
+pyreadstat/__init__.py,sha256=-_GsV8y4sEUOTNbRifi3bKVrTZby7bjKgV8QjK2MBbM,1124
+pyreadstat/_readstat_writer.cpython-39-x86_64-linux-gnu.so,sha256=XV_XZVHiQ5VGvSMMnOsPMT7-gsPgpN0bLteLBNiFlzg,3213424
+pyreadstat/pyreadstat.cpython-39-x86_64-linux-gnu.so,sha256=FxzoxY7fGhXBYCBfw31dAh1sZbUpnk7UJBfM4JWvJuA,2992312
+pyreadstat/worker.py,sha256=DHA7KXzZ3KSUSiYrepD7RpABPSLCYDq3-hOcoaFNBaI,972
+pyreadstat/_readstat_parser.cpython-39-x86_64-linux-gnu.so,sha256=zFaqoThpldAF3W26zCQ1yvREpuh0Nrz8_VmJMpdHxlc,2772296
+pyreadstat-1.2.5.dist-info/top_level.txt,sha256=7LlluhR4SADp00dJTEVpKMet_Jki7JHA6abJ-wu831E,11
+pyreadstat-1.2.5.dist-info/WHEEL,sha256=nIxR5vuQPQ6CvC3h-1pWWXVV6Ku-TITLSJjpV-6iFqM,148
+pyreadstat-1.2.5.dist-info/METADATA,sha256=mgorx3l8lQPW8w9K-r7yk9GRFjn53pTi9E9KRSiy7WQ,1049
+pyreadstat-1.2.5.dist-info/LICENSE,sha256=Tjohfl1RlkuDoTF5ctnLvkGnr8TU27PEy7PhOHjRz5c,12903
+pyreadstat-1.2.5.dist-info/RECORD,,
