@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+khafre/__init__.py
+khafre.egg-info/PKG-INFO
+khafre.egg-info/SOURCES.txt
+khafre.egg-info/dependency_links.txt
+khafre.egg-info/top_level.txt
