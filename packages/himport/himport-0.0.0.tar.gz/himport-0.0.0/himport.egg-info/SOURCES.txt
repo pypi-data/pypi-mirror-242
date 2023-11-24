@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+himport/__init__.py
+himport/himport.py
+himport/utils.py
+himport.egg-info/PKG-INFO
+himport.egg-info/SOURCES.txt
+himport.egg-info/dependency_links.txt
+himport.egg-info/requires.txt
+himport.egg-info/top_level.txt
