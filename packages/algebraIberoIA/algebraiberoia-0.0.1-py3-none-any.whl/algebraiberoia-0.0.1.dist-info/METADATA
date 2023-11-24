@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: algebraIberoIA
+Version: 0.0.1
+Summary: CoAutor: Santiago Romo Rubio, Libreria de algebra lineal
+Project-URL: Homepage, https://github.com/0mudkip/repo_paquete_ibero_al
+Project-URL: Bug Tracker, https://github.com/0mudkip/repo_paquete_ibero_al/issues
+Author-email: Edgar Ivan Gálvez Ortega <kasito321@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: matplotlib==3.8.1
+Requires-Dist: numpy==1.26.0
+Requires-Dist: scipy==1.11.3
+Description-Content-Type: text/markdown
+
+# algebraLineal
+
+Librería que te permite utilizar funciones básicas de álgebra lineal
+
+# funciones y cómo utilizarlas
+
+pedir_matriz(filas, columnas)
+    la función pedir_matriz te pedirá un valor por cada fila y columna, y agregará el valor a una matriz
+
+determinante(matriz, filas, columnas)
+    la función determinante retornará el valor del determinante de la matriz si ésta es cuadrada; si no, retornará la cadena de texto: "Solo se pueden obtener determinantes de matrices cuadradas"
+
+producto_escalar(escalar, matriz)
+    la función producto_escalar multiplicará cada valor en la matriz por un escalar, retornando como resultado la matriz resultante
+
+suma_matrices(matriz1, matriz2)
+    la función suma_matrices retornará una sola matriz en la que los valores de las dos matrices en los parámetros se sumaron
+
+resta_matrices(matriz1, matriz2)
+    la función resta_matrices retornará una sola matriz en la que los valores de las dos matrices en los parámetros se restaron
