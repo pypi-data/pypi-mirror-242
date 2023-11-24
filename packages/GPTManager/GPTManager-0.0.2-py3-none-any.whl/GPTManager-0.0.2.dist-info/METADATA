@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: GPTManager
+Version: 0.0.2
+Summary: Package for managing GPT API access
+Author-email: Ufuk İlke Avcı <ufukilkeavci@gmail.com>, İlke Torun <ilketorun97@gmail.com>
+Project-URL: Homepage, https://github.com/gpt-public-tools/GPTManager
+Project-URL: Issues, https://github.com/gpt-public-tools/GPTManager/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GPTManager Library Documentation
