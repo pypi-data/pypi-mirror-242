@@ -1,0 +1,8 @@
+[
+  "test_domain.py::test_get_app_with_version",
+  "test_domain.py::test_get_os_version",
+  "test_domain.py::test_get_win_version",
+  "test_domain.py::test_invalid_get_app_with_version",
+  "test_domain.py::test_invalid_get_os_version",
+  "test_domain.py::test_os_is_match"
+]
