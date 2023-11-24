@@ -1,0 +1,5 @@
+[console_scripts]
+intake_nwp = intake_nwp.cli:main
+
+[intake.drivers]
+nwp = intake_nwp.source:NWPSource
