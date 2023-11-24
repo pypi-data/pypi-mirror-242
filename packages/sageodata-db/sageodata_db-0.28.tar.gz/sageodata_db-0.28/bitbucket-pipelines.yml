@@ -1,0 +1,14 @@
+image: python:3.8
+
+pipelines:
+  tags:
+    'v*':
+      - step:
+          name: Deploy to Production
+          deployment: Production
+          script:
+            - python -m pip install setuptools-scm twine build
+            - python -m build
+            - twine upload dist/* -u __token__ -p $PYPI_PASSWORD
+            
+                
