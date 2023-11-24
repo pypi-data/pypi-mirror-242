@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+zero-click/__init__.py
+zero_click.egg-info/PKG-INFO
+zero_click.egg-info/SOURCES.txt
+zero_click.egg-info/dependency_links.txt
+zero_click.egg-info/top_level.txt
