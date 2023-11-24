@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+AnalytixHub/__init__.py
+AnalytixHub.egg-info/PKG-INFO
+AnalytixHub.egg-info/SOURCES.txt
+AnalytixHub.egg-info/dependency_links.txt
+AnalytixHub.egg-info/top_level.txt
