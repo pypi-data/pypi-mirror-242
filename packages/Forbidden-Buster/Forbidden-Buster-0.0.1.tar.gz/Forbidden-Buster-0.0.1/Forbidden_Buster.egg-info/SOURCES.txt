@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Forbidden-Buster/__init__.py
+Forbidden_Buster.egg-info/PKG-INFO
+Forbidden_Buster.egg-info/SOURCES.txt
+Forbidden_Buster.egg-info/dependency_links.txt
+Forbidden_Buster.egg-info/top_level.txt
