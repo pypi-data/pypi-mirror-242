@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: fast-pedago
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/supaero-aircraft-design/FAST-PEDAGO
+License: GPL-3.0-only
+Keywords: aircraft,design,multi-disciplinary,teaching,educational
+Author: Ousmane SY
+Author-email: Ousmane.SY@isae-supaero.fr
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: appmode (==0.9.0)
+Requires-Dist: click (==8.0.3)
+Requires-Dist: fast-oad-core (==1.5.2)
+Requires-Dist: fast-oad-cs25 (==0.3.0)
+Requires-Dist: ipywidgets (==7.7.2)
+Requires-Dist: openmdao (==3.25.0)
+Requires-Dist: progressbar2 (==4.2.0)
+Requires-Dist: voila (==0.3.7)
+Requires-Dist: xmltodict (==0.13.0)
+Description-Content-Type: text/markdown
+
+# FAST-OAD TRAINING AND INCREMENTAL DEVELOPMENT BRANCH
+
+This package offers a lightweight interface to perform OAD analysis using FAST-OAD (https://github.com/fast-aircraft-design/FAST-OAD).
+
