@@ -1,0 +1,3 @@
+[console_scripts]
+version_tracker = version_tracker.cli:main
+
