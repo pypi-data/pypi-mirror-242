@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+TextLinker/__init__.py
+TextLinker.egg-info/PKG-INFO
+TextLinker.egg-info/SOURCES.txt
+TextLinker.egg-info/dependency_links.txt
+TextLinker.egg-info/top_level.txt
