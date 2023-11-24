@@ -1,0 +1,8 @@
+izihawa_textparser/__init__.py,sha256=RS7l3tEpSZiV5d-z-KBIoM-o7WEAxYZr4qTEb1v3g20,64
+izihawa_textparser/_epub.py,sha256=85jEkZlA-wPARkpP6L_ISutPkeVLV8DUEn7iilpSUMA,2107
+izihawa_textparser/_grobid.py,sha256=S5dVotg_8T2u-VLb4xcIu3AV51l5lGwcj3SQo-S9hWY,8335
+izihawa_textparser/_utils.py,sha256=2Gpu7YjblATr72xzJrDNgX4Fjkur29VIdMxqt1GSSgM,1451
+izihawa_textparser-0.1.2.dist-info/METADATA,sha256=1LPMTsF5LR9mjz6PsEQPLUKl8VesnYTlG7_z1N6Rgyw,870
+izihawa_textparser-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+izihawa_textparser-0.1.2.dist-info/entry_points.txt,sha256=0G_3zHAgsQxyikK_htX1GC1ystFIJyO7G7aNGlFtWII,46
+izihawa_textparser-0.1.2.dist-info/RECORD,,
