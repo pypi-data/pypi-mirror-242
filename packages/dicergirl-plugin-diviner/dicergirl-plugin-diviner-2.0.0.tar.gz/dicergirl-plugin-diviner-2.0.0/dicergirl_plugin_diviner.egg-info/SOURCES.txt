@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+dicergirl/plugins/diviner/__init__.py
+dicergirl/plugins/diviner/handlers.py
+dicergirl/plugins/diviner/utils.py
+dicergirl_plugin_diviner.egg-info/PKG-INFO
+dicergirl_plugin_diviner.egg-info/SOURCES.txt
+dicergirl_plugin_diviner.egg-info/dependency_links.txt
+dicergirl_plugin_diviner.egg-info/requires.txt
+dicergirl_plugin_diviner.egg-info/top_level.txt
