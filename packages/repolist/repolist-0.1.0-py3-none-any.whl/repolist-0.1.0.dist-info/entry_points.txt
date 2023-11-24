@@ -1,0 +1,3 @@
+[console_scripts]
+repolist=repolist.cli:main
+
