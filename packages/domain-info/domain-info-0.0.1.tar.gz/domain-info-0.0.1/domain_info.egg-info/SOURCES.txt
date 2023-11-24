@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+domain-info/__init__.py
+domain_info.egg-info/PKG-INFO
+domain_info.egg-info/SOURCES.txt
+domain_info.egg-info/dependency_links.txt
+domain_info.egg-info/top_level.txt
