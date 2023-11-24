@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+oja/__init__.py
+oja.egg-info/PKG-INFO
+oja.egg-info/SOURCES.txt
+oja.egg-info/dependency_links.txt
+oja.egg-info/top_level.txt
