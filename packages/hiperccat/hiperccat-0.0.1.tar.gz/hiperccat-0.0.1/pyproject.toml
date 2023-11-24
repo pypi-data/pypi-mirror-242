@@ -1,0 +1,234 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hiperccat"
+description = "tools for automating job creation and management for DFT calculations"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+keywords = ["dft", "hpc", "automation", "matter modeling"]
+version = "0.0.1"
+authors = [
+  { name = "Ugochukwu Nwosu", email = "ugognw@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Framework :: Sphinx",
+    "Framework :: tox",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: Unix",
+    "Operating System :: POSIX",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "ase>=3.22.1",  # for atoms
+    "numpy>=1.23.1",  # for linear algebra
+    "monty>=2022.4.26",  # python utility methods
+    "shortuuid>=1.0.9",  # uuids
+    "pymatgen>=2022.9.8",  # parsing, property methods
+    "pydantic>=2",  # data validation
+    "pydantic-settings",  # configuration
+    "emmet-core>=0.68.0",  # data validation
+    "Jinja2>=3.1.2",  # templating
+    "typer[all]",  # CLI
+    "typing-extensions"  # Python < 3.8 compatibility
+]
+
+[project.scripts]
+hiperccat = "hiperccat.cli.main:main"
+
+[tool.black]
+target-version = ["py310", "py311", "py312"]
+line-length = 79
+skip-string-normalization = true
+
+[tool.coverage.run]
+branch = true
+parallel = true
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == '__main__':",
+  "if TYPE_CHECKING:",
+]
+
+[tool.hatch.build]
+ignore-vcs = true
+packages = ["src/hiperccat"]
+
+[[tool.hatch.envs.test.matrix]]
+python = [
+  "3.7",
+  "3.8",
+  "3.9",
+  "3.10",
+  "3.11",
+  "3.12",
+  "3.13",
+]
+
+[tool.hatch.envs.default]
+dependencies = [
+    "black==23.7.0",
+    "mypy==1.5.1",
+    "pytest==7.4.0",
+    "pytest-cov==4.1.0",
+    "pytest-datadir==1.4.1",
+    "pytest-xdist==3.3.1",
+    "pre-commit==3.3.3",
+    "tox==3.26.0",
+    "PyQt6==6.3.1",
+    "coverage==6.4.4",
+    "ruff==0.0.290",
+]
+python = "3.11"
+
+[tool.hatch.envs.default.env-vars]
+PYTHONPATH="src"
+COVERAGE_PROCESS_START="pyproject.toml"
+
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "pytest -n auto --cov=src/hiperccat --cov-report=html --cov-report=lcov --cov-report=xml --cov-report=term-missing {args:tests/}"
+test-cov-unit = "test-cov -m 'not (slow and (api or cli))' tests/"
+test-cov-api = "test-cov -m 'api' tests/"
+test-cov-cli = "test-cov -m 'cli' tests/"
+
+[tool.hatch.envs.lint]
+detached = true
+dependencies = [
+  "black==23.7.0",
+  "mypy==1.5.1",
+  "pytest==7.4.0",
+  "ruff==0.0.290",
+]
+python = "3.11"
+
+[tool.hatch.envs.lint.scripts]
+typing = "mypy --strict --install-types --non-interactive src/hiperccat/ tests/"
+style = [
+  "ruff {args:.}",
+  "black --check --diff {args:.}",
+]
+fmt = [
+  "black {args:.}",
+  "ruff --fix {args:.}",
+  "style",
+]
+all = [
+  "style",
+  "typing",
+]
+
+[tool.hatch.envs.docs]
+dependencies = [
+    "epydoc==3.0.1",
+    "Sphinx==5.1.1",
+]
+
+[tool.hatch.publish.index]
+disable = true
+
+[tool.pytest.ini_options]
+addopts = [
+    "-n",
+    "auto",
+    "--import-mode=importlib",
+    "-r A",
+    "--strict-markers",
+    "--doctest-modules",
+    "--doctest-glob=*.md",
+    "--tb=short"
+]
+norecursedirs = "migrations"
+python_files = [
+    "test_*.py",
+    "*_test.py",
+    "tests.py"
+]
+testpaths = "tests"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 79
+select = [
+  "A",
+  "ARG",
+  "B",
+  "C",
+  "C4",
+  "DTZ",
+  "E",
+  "EM",
+  "EXE",
+  "F",
+  "FBT",
+  "I",
+  "ICN",
+  "INT",
+  "ISC",
+  "N",
+  "PIE",
+  "PLC",
+  "PLE",
+  "PLR",
+  "PLW",
+  "PT",
+  "PTH",
+  "Q",
+  "RSE",
+  "RUF",
+  "S",
+  "SIM",
+  "T",
+  "TID",
+  "UP",
+  "W",
+  "YTT",
+]
+ignore = [
+  # Allow non-abstract empty methods in abstract base classes
+  "B027",
+  # Allow boolean positional values in function calls, like `dict.get(... True)`
+  "FBT003",
+  # Ignore checks for possible passwords
+  "S105", "S106", "S107", "S603",
+  # Ignore complexity
+  "C901", "PLR0911", "PLR0912", "PLR0913", "PLR0915",
+]
+
+[tool.ruff.flake8-pytest-style]
+fixture-parentheses = false
+mark-parentheses = false
+
+[tool.ruff.flake8-quotes]
+inline-quotes = "double"
+
+[tool.ruff.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.isort]
+known-first-party = ["hiperccat"]
+
+[tool.ruff.per-file-ignores]
+# Tests can use magic values, assertions, and relative imports
+"tests/**/*" = ["PLR2004", "S101", "TID252"]
