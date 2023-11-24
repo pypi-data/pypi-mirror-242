@@ -1,0 +1,11 @@
+numpy
+tqdm
+scipy
+matplotlib
+pyyaml
+networkx
+scikit-learn
+scikit-image
+pandas
+opencv-python
+parmap
