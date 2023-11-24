@@ -1,0 +1,3 @@
+[console_scripts]
+turkeypy=turkeypy.__main__:main
+
