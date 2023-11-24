@@ -1,0 +1,2 @@
+[console_scripts]
+hiperccat = hiperccat.cli.main:main
