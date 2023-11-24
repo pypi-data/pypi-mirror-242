@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+HttpAntiDebug/__init__.py
+HttpAntiDebug/__version__.py
+HttpAntiDebug/api.py
+HttpAntiDebug/exception.py
+HttpAntiDebug/response.py
+HttpAntiDebug/session.py
+HttpAntiDebug.egg-info/PKG-INFO
+HttpAntiDebug.egg-info/SOURCES.txt
+HttpAntiDebug.egg-info/dependency_links.txt
+HttpAntiDebug.egg-info/top_level.txt
