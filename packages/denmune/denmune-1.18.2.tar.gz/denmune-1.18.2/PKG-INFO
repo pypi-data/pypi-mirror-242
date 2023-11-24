@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: denmune
+Version: 1.18.2
+Summary: This is the package for DenMune Clustering Algorithm published in paper https://doi.org/10.1016/j.patcog.2020.107589
+Home-page: https://github.com/scikit-learn-contrib/denmune-clustering-algorithm
+Author: Dr. Mohamed Ali Abbas & Prof. Amin  Shoukry
+Author-email: mohamed.alyabbas@outlook.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==1.24.3
+Requires-Dist: pandas==1.5.3
+Requires-Dist: matplotlib==3.7.3
+Requires-Dist: scikit-learn==1.2.2
+Requires-Dist: seaborn==0.12.2
+Requires-Dist: ngt==2.0.4
+Requires-Dist: anytree==2.8
+Requires-Dist: treelib==1.6.1
