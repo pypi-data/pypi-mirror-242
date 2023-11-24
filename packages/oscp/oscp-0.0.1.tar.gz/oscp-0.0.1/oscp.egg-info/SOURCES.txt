@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+oscp/__init__.py
+oscp.egg-info/PKG-INFO
+oscp.egg-info/SOURCES.txt
+oscp.egg-info/dependency_links.txt
+oscp.egg-info/top_level.txt
