@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+GateWay-Connect/__init__.py
+GateWay_Connect.egg-info/PKG-INFO
+GateWay_Connect.egg-info/SOURCES.txt
+GateWay_Connect.egg-info/dependency_links.txt
+GateWay_Connect.egg-info/top_level.txt
