@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Featuronix/__init__.py
+Featuronix.egg-info/PKG-INFO
+Featuronix.egg-info/SOURCES.txt
+Featuronix.egg-info/dependency_links.txt
+Featuronix.egg-info/top_level.txt
