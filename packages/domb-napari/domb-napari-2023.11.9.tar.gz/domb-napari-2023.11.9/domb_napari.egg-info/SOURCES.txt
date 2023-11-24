@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+domb_napari/__init__.py
+domb_napari/_widget.py
+domb_napari.egg-info/PKG-INFO
+domb_napari.egg-info/SOURCES.txt
+domb_napari.egg-info/dependency_links.txt
+domb_napari.egg-info/entry_points.txt
+domb_napari.egg-info/requires.txt
+domb_napari.egg-info/top_level.txt
+tests/test.py
