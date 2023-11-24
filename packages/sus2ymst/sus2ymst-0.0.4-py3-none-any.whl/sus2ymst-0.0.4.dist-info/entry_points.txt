@@ -1,0 +1,2 @@
+[console_scripts]
+sus2ymst = sus2ymst.cli:main
