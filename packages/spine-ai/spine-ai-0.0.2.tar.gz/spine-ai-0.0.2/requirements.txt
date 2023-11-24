@@ -1,0 +1,7 @@
+click
+pyfiglet
+pandas
+pyyaml   # imported as yaml
+termcolor
+numpy
+python-dotenv

@@ -1,0 +1,8 @@
+click
+pyfiglet
+pandas
+pyyaml
+termcolor
+numpy
+python-dotenv
+tqdm
