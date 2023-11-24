@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+j2bfield.egg-info/PKG-INFO
+j2bfield.egg-info/SOURCES.txt
+j2bfield.egg-info/dependency_links.txt
+j2bfield.egg-info/top_level.txt
+j2bfield.egg-info/src/__init__.py
+j2bfield.egg-info/src/j2bfield.py
+j2bfield.egg-info/src/j2bfield.egg-info/PKG-INFO
+j2bfield.egg-info/src/j2bfield.egg-info/SOURCES.txt
+j2bfield.egg-info/src/j2bfield.egg-info/dependency_links.txt
+j2bfield.egg-info/src/j2bfield.egg-info/top_level.txt
