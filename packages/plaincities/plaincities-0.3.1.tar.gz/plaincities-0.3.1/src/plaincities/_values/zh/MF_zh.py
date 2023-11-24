@@ -1,0 +1,16 @@
+geoid_list = [3578851]
+name_list = ["马里戈"]
+ascii_name_list = ["Marigot"]
+alternate_names_list = [["MSB", "Marigo", "Marigot", "Marigoto", "Marinko", "Mariqo", "Marygo", "XCJ", "ma li ge", "ma ri ko", "maligas", "maligo", "marigo", "marikat", "marygw", "Μαριγκό", "Мариго", "Марыго", "Маріго", "ماریگاٹ", "ماریگو", "मारिगो", "மரிகாட்", "มารีโก", "მარიგო", "マリゴ", "马里戈", "마리갓", "마리고"]]
+latitude_list = [18.06819]
+longitude_list = [-63.08302]
+country_code_list = ["MF"]
+population_list = [5700]
+dem_list = [9]
+timezone_list = [120]
+altitude_list = [-1]
+_feature_class_list = ["P"]
+_feature_code_list = ["PPLC"]
+_parent_code_list = ["MF.00"]
+_states = {}
+_districts = {}
