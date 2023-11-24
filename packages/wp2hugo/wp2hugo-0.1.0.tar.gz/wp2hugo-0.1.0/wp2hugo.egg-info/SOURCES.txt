@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+wp2hugo/__main__.py
+wp2hugo/commands.py
+wp2hugo.egg-info/PKG-INFO
+wp2hugo.egg-info/SOURCES.txt
+wp2hugo.egg-info/dependency_links.txt
+wp2hugo.egg-info/entry_points.txt
+wp2hugo.egg-info/requires.txt
+wp2hugo.egg-info/top_level.txt
