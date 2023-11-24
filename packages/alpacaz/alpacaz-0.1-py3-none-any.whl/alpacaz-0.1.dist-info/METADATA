@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: alpacaz
+Version: 0.1
+Home-page: 
+Author: Lalith Kumar Shiyam Sundar, Zacharias Chalampalakis
+Author-email: Lalith.shiyamsundar@meduniwien.ac.at
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+![ALPACA-logo](./ALPACA-logo.png)
+# 🦙 ALPACA
