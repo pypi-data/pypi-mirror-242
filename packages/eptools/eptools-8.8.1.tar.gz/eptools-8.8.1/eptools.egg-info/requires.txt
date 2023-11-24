@@ -1,0 +1,8 @@
+slack-sdk
+pyodbc
+holidays
+O365
+simple-salesforce
+sqlalchemy
+requests
+pymysql
