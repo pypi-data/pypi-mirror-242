@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+msgJunction/__init__.py
+msgJunction.egg-info/PKG-INFO
+msgJunction.egg-info/SOURCES.txt
+msgJunction.egg-info/dependency_links.txt
+msgJunction.egg-info/top_level.txt
