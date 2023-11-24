@@ -1,0 +1,10 @@
+xcwarnings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcwarnings/build_warning.py,sha256=x4A8swX2uIbsH9U6X1e5fVDw5jLWZFNRBnBg1me730g,5380
+xcwarnings/build_warning_diff.py,sha256=IY1B3q6OrUnHnsHfY9tCNAk4QCjug8oQFa2KGnCDCng,1266
+xcwarnings/build_warning_diff_report.py,sha256=grRQZAx_yRgVcFogq0ilpWRWrLy0QckNc_kpPOlN900,5556
+xcwarnings/build_warning_scope.py,sha256=4zZrxBMd0KE0v321n9pCOOnlDKrn39Y_BdHclT4S1bk,296
+xcwarnings/xcwarnings.py,sha256=sH888ZnZf1nbXs2rzt-hUFRdJ73-rC8_7wqhqBnZmxY,10760
+xcwarnings-0.1.1.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+xcwarnings-0.1.1.dist-info/METADATA,sha256=o1VIciQW3udBKCvgrwUDPpHbJL2cNEJvqO38e8kO3DY,6783
+xcwarnings-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+xcwarnings-0.1.1.dist-info/RECORD,,
