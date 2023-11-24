@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dvenom/__init__.py
+dvenom.egg-info/PKG-INFO
+dvenom.egg-info/SOURCES.txt
+dvenom.egg-info/dependency_links.txt
+dvenom.egg-info/top_level.txt
