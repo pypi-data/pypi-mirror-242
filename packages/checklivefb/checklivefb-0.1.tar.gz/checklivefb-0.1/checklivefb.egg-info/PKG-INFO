@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: checklivefb
+Version: 0.1
+Summary: Công cụ check live uid Facebook
+Home-page: UNKNOWN
+Author: lam nioai
+Author-email: ldl.contact.booking@gmail.com
+License: MIT
+Description: Công cụ check live uid Facebook
+        
+        Thay Đổi
+        
+        - Update v0.1
+Keywords: check live
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

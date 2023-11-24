@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+checklivefb/__int__.py
+checklivefb.egg-info/PKG-INFO
+checklivefb.egg-info/SOURCES.txt
+checklivefb.egg-info/dependency_links.txt
+checklivefb.egg-info/top_level.txt
