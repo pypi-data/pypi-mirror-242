@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PreactZenith/__init__.py
+PreactZenith.egg-info/PKG-INFO
+PreactZenith.egg-info/SOURCES.txt
+PreactZenith.egg-info/dependency_links.txt
+PreactZenith.egg-info/top_level.txt
