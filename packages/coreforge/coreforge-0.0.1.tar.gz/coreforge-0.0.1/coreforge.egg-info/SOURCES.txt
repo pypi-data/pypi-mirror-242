@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+coreforge/__init__.py
+coreforge.egg-info/PKG-INFO
+coreforge.egg-info/SOURCES.txt
+coreforge.egg-info/dependency_links.txt
+coreforge.egg-info/top_level.txt
