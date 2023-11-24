@@ -1,0 +1,5 @@
+findiff
+scipy
+scikit-learn
+torch
+tqdm
