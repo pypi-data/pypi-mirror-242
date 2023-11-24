@@ -1,0 +1,4 @@
+scipy
+matplotlib
+tk_steroids
+python-biosystfiles
