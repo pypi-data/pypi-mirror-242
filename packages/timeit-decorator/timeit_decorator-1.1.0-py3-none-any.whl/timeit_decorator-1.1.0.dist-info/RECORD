@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/test_timeit.py,sha256=jhMOEOZp3M9mXqCMCyVMjuBZfonduRARJVr5kGA4L3g,6644
+timeit_decorator/__init__.py,sha256=GMgEI3zQO0SNHxEFWw2ot1uQhao5-z2JNIeNg_BiJmk,27
+timeit_decorator/timeit.py,sha256=maCpKTp7CmxwECwAhuO1qaQz2v7B7ckmh8kE3V2Ysp8,7816
+timeit_decorator-1.1.0.dist-info/LICENSE,sha256=9Vh2IK8siAXfinKOa4JhAqt662PpN94o8INgs7wAKIA,1070
+timeit_decorator-1.1.0.dist-info/METADATA,sha256=O8j0y2pvWqdlE56QaaS6xkEmnx9j5hW4jXCIZoJP3w8,7837
+timeit_decorator-1.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+timeit_decorator-1.1.0.dist-info/top_level.txt,sha256=xLWPMlfpfl6c35w4zTZOWGoVtlTeJe_5tnlTPxB_v5Q,23
+timeit_decorator-1.1.0.dist-info/RECORD,,
