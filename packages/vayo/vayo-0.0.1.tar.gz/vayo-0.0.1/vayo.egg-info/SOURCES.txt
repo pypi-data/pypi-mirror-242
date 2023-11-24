@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+vayo/__init__.py
+vayo.egg-info/PKG-INFO
+vayo.egg-info/SOURCES.txt
+vayo.egg-info/dependency_links.txt
+vayo.egg-info/top_level.txt
