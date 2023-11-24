@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pharaohs/__init__.py
+pharaohs.egg-info/PKG-INFO
+pharaohs.egg-info/SOURCES.txt
+pharaohs.egg-info/dependency_links.txt
+pharaohs.egg-info/top_level.txt
