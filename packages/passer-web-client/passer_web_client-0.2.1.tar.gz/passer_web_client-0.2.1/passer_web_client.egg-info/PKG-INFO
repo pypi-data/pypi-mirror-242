@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: passer-web-client
+Version: 0.2.1
+Summary: The client of passer-ground!
+Home-page: https://xymedimg.coding.net/public/data-manage-platform/passer-web-client/git
+Author: Daryl.Xu
+Author-email: xuziqiang@zyheal.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# passer web client
+
+passer-web-client，使用python实现。方便调用passer-web的接口
+
+## 安装
+
+``` bash
+# 使用pipenv安装最新代码（不稳定）
+pipenv install "git+https://e.coding.net/xymedimg/data-manage-platform/passer-web-client.git#egg=passer_web_client&subdirectory=python"
+## 使用pipenv安装指定版本（v0.2.0-py） 
+pipenv install "git+https://e.coding.net/xymedimg/data-manage-platform/passer-web-client.git@v0.2.0-py#egg=passer_web_client&subdirectory=python"
+
+# 使用pip安装最新代码（不稳定）
+pip install "git+https://e.coding.net/xymedimg/data-manage-platform/passer-web-client.git#egg=passer_web_client&subdirectory=python"
+## 使用pip安装指定版本（v0.2.0-py）
+pip install "git+https://e.coding.net/xymedimg/data-manage-platform/passer-web-client.git@v0.2.0-py#egg=passer_web_client&subdirectory=python"
+```
+
+## 示例代码
+
+[example.py](./tests/example.py)
+
+

@@ -1,0 +1,3 @@
+requests
+dicomweb-client
+requests-toolbelt

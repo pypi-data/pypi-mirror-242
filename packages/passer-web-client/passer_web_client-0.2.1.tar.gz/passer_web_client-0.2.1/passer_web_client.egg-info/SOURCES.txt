@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+./passer_web_client/__init__.py
+./passer_web_client/api.py
+./passer_web_client/exceptions.py
+./passer_web_client/passer_web.py
+passer_web_client.egg-info/PKG-INFO
+passer_web_client.egg-info/SOURCES.txt
+passer_web_client.egg-info/dependency_links.txt
+passer_web_client.egg-info/requires.txt
+passer_web_client.egg-info/top_level.txt
