@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.cfg
+src/JScyPi.egg-info/PKG-INFO
+src/JScyPi.egg-info/SOURCES.txt
+src/JScyPi.egg-info/dependency_links.txt
+src/JScyPi.egg-info/top_level.txt
+src/constants/__init__.py
+src/constants/constants.py
