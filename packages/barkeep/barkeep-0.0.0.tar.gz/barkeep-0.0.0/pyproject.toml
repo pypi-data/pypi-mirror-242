@@ -1,0 +1,6 @@
+[project]
+name = 'barkeep'
+version = '0.0.0'
+description = ''
+requires-python = '>=3.9'
+license = {file = 'LICENSE'}
