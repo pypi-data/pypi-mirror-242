@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+thejo/__init__.py
+thejo.egg-info/PKG-INFO
+thejo.egg-info/SOURCES.txt
+thejo.egg-info/dependency_links.txt
+thejo.egg-info/top_level.txt
