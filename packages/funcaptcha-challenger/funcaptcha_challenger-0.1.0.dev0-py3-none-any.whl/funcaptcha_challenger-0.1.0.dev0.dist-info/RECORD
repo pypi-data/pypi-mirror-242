@@ -1,0 +1,10 @@
+funcaptcha_challenger/__init__.py,sha256=SO_9GoIv4l_Utr_enkwpio51XrJgO86I-i76QcrRoC8,436
+funcaptcha_challenger/hopscotch_highsec.py,sha256=XPhNCEmvF2ARs6iL2HjWlZVbKfBl3jLr5jvOJHI_Fy0,1218
+funcaptcha_challenger/match_count.py,sha256=Y-RrLwNRyHUDNAEHtEu5gebWNQWtaLq_33xUeaek30g,3781
+funcaptcha_challenger/model.py,sha256=iNe739zmYY0tYraevUv0PdHPJKgo68-vxPpqDjcA5js,2938
+funcaptcha_challenger/predictor.py,sha256=dpsc9GaTWbpC_od36HPzQs5hxfAD2P7qrsnXQvyRvLs,294
+funcaptcha_challenger/rotate_animal.py,sha256=D8yUwGDrLApjIk6Y8w7TJ3R9AeJGYO8ls4aPK2J_tV4,1066
+funcaptcha_challenger/tools.py,sha256=gLhj-zNbcCLzFBbL94UhcMTs6jpLbrDTNQuuLVrhlPA,784
+funcaptcha_challenger-0.1.0.dev0.dist-info/METADATA,sha256=9ix9T2HcutkurnbJh8lLaag4d18jWmJGFo4WLKBY-n8,1636
+funcaptcha_challenger-0.1.0.dev0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+funcaptcha_challenger-0.1.0.dev0.dist-info/RECORD,,
