@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fast-grid
+Version: 0.1.9
+Summary: Fast grid calculation
+Home-page: https://github.com/hspark1212/fast-grid.git
+Author: Hyunsoo Park
+Author-email: hpark@ic.ac.uk
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: ase
+Requires-Dist: numba
+Requires-Dist: fire
+Requires-Dist: plotly
+Requires-Dist: pandas
+
