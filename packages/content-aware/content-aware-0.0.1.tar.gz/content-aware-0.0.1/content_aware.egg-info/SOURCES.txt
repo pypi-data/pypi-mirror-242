@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+content-aware/__init__.py
+content_aware.egg-info/PKG-INFO
+content_aware.egg-info/SOURCES.txt
+content_aware.egg-info/dependency_links.txt
+content_aware.egg-info/top_level.txt
