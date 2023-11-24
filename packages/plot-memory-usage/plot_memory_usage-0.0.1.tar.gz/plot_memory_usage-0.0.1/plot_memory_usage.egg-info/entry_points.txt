@@ -1,0 +1,3 @@
+[console_scripts]
+plot_memory_usage = plot_memory_usage.plot_memory_usage_core:main
+
