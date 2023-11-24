@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Facetify/__init__.py
+Facetify.egg-info/PKG-INFO
+Facetify.egg-info/SOURCES.txt
+Facetify.egg-info/dependency_links.txt
+Facetify.egg-info/top_level.txt
