@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Link2SMS/__init__.py
+Link2SMS.egg-info/PKG-INFO
+Link2SMS.egg-info/SOURCES.txt
+Link2SMS.egg-info/dependency_links.txt
+Link2SMS.egg-info/top_level.txt
