@@ -1,0 +1,10 @@
+fileoperator/__init__.py,sha256=3Drjq-mUo0ZdQtxZVLFmd6Js1drH_g-niJ-N81ciVvY,953
+fileoperator/compression.py,sha256=XZIT0W6Cwb0_P-ZB21jxvgAUB0C11cKuwnaFszu4-bo,1671
+fileoperator/encryption.py,sha256=uQbXdHkmNavT68vheHXFXAttW-te5CaGBOVTG1sO5Xg,1086
+fileoperator/file_operations.py,sha256=v3VVzy4LXkUHjUW_8ZMxK8v-klmEP_8uMVZIfQ9QDJY,16528
+fileoperator/hash.py,sha256=rt-WRSss8dLlQcWxEvku30qJTTM0AcCNILNdBwVnT2g,1298
+fileoperator-0.1.0.dist-info/LICENSE.txt,sha256=hE0Fs8J4Ijsum7-PsBIKV6WQyLzE-mQaXWLRbviKW-M,1070
+fileoperator-0.1.0.dist-info/METADATA,sha256=UvtfDwQUzvjyj798JIimRMTNitEgUCBZVvjs2YwnMOQ,2645
+fileoperator-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+fileoperator-0.1.0.dist-info/top_level.txt,sha256=Oz45yksc3-fwDjC179ETB9jPxP8Ypz-jHHok3fbzXIY,13
+fileoperator-0.1.0.dist-info/RECORD,,
