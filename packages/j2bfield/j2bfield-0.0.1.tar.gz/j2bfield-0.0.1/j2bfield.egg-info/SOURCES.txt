@@ -1,0 +1,7 @@
+README.md
+setup.py
+j2bfield.egg-info/PKG-INFO
+j2bfield.egg-info/SOURCES.txt
+j2bfield.egg-info/dependency_links.txt
+j2bfield.egg-info/top_level.txt
+src/J2BField.py
