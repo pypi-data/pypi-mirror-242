@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+patavi/__init__.py
+patavi.egg-info/PKG-INFO
+patavi.egg-info/SOURCES.txt
+patavi.egg-info/dependency_links.txt
+patavi.egg-info/top_level.txt
