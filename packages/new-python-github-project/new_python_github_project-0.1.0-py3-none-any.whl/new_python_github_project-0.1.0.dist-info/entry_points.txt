@@ -1,0 +1,3 @@
+[console_scripts]
+new-python-github-project=new_python_github_project.main:main
+
