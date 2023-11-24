@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+istupa/__init__.py
+istupa.egg-info/PKG-INFO
+istupa.egg-info/SOURCES.txt
+istupa.egg-info/dependency_links.txt
+istupa.egg-info/top_level.txt
