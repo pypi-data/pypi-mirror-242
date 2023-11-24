@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: PyBulma
+Version: 0.1.0
+Home-page: https://gitlab.com/mnealer-public/pybulma
+Author: Marc Nealer
+Author-email: marcnealer@gmail.com
+License: GNU3
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: jinja2
