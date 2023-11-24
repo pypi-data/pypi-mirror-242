@@ -1,0 +1,10 @@
+django_rest_commons/__init__.py,sha256=V0qyyWcUQMwnvue-uzRJ2Z665BCu380X_EUM41E8vQE,144
+django_rest_commons/mixins.py,sha256=lA7l0SVaJ4gvonyGYp8Y-w4VqBbjsNJRb3O8Of1_51o,2697
+django_rest_commons/serializers.py,sha256=mePkNKF2UaK7kwXTBXUeF-X-bgd31cetg547i-HNwio,8529
+django_rest_commons/utils.py,sha256=-BSPWrr9groLGrHzDBAsAtLR1TdzksStjCn8Th9myLc,527
+django_rest_commons/viewsets.py,sha256=EqpVl_Ld6WARmEz_ysFxoPJton9KtFehQZQeNIKghps,2208
+django_rest_commons-1.0.2.dist-info/LICENSE.txt,sha256=ukEi8E0PKq1dQGTXHUflg3rppLymwAhr7il9x-0nPgg,1062
+django_rest_commons-1.0.2.dist-info/METADATA,sha256=TqkXivQoCE8nVd5gMY9iLdv0MwaA-eOoojg_r-lpdXk,246
+django_rest_commons-1.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_rest_commons-1.0.2.dist-info/top_level.txt,sha256=H_QtnqbVEG1sfvneakAX79XnWVt85KDyWevF587WOyM,20
+django_rest_commons-1.0.2.dist-info/RECORD,,
