@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetry-demo-winter"
+version = "0.1.0"
+description = "Study poetry project, code from https://www.freecodecamp.org/news/how-to-build-and-publish-python-packages-with-poetry/"
+authors = ["Alexander Ten <orionapplepie@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.scripts]
+phone_validate = 'poetry_demo_winter.validate:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

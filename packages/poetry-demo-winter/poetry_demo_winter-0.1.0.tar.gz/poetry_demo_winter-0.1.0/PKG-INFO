@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: poetry-demo-winter
+Version: 0.1.0
+Summary: Study poetry project, code from https://www.freecodecamp.org/news/how-to-build-and-publish-python-packages-with-poetry/
+Author: Alexander Ten
+Author-email: orionapplepie@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+
