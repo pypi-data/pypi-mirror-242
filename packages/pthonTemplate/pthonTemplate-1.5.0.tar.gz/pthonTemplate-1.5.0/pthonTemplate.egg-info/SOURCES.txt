@@ -1,0 +1,8 @@
+README.md
+setup.py
+pthonTemplate.egg-info/PKG-INFO
+pthonTemplate.egg-info/SOURCES.txt
+pthonTemplate.egg-info/dependency_links.txt
+pthonTemplate.egg-info/top_level.txt
+python/CodeTemplate.py
+python/pthonTemplate.py
