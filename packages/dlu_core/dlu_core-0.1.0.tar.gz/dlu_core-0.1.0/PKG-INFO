@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dlu_core
+Version: 0.1.0
+Summary: My utility functions for work
+Author: Danylo Kunyk
+Author-email: kunyk1507@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
