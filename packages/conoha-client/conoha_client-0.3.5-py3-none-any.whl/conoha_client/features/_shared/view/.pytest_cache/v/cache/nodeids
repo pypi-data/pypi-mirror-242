@@ -1,0 +1,6 @@
+[
+  "test_domain.py::test_invalid_model_filter",
+  "test_domain.py::test_model_filter",
+  "test_domain.py::test_view_option_json",
+  "test_domain.py::test_view_option_table"
+]

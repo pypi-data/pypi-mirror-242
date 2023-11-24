@@ -1,0 +1,8 @@
+[
+  "test_domain.py::test_available_apps",
+  "test_domain.py::test_available_versions",
+  "test_domain.py::test_invalid_image_id_mapping",
+  "test_domain.py::test_parse_app_name",
+  "test_domain.py::test_select_image_name",
+  "test_domain.py::test_valid_image_id_mapping"
+]
