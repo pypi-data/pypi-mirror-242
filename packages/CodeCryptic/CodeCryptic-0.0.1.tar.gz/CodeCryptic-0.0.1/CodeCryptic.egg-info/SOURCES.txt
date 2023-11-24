@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+CodeCryptic/__init__.py
+CodeCryptic.egg-info/PKG-INFO
+CodeCryptic.egg-info/SOURCES.txt
+CodeCryptic.egg-info/dependency_links.txt
+CodeCryptic.egg-info/top_level.txt
