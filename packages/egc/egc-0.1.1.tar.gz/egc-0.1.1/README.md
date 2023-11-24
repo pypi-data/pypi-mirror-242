@@ -1,0 +1,160 @@
+# EAGLEGraphClustering <!-- omit in toc -->
+
+A benchmark of community detection algorithms from EAGLE-Lab, ZJU
+
+- [Usage](#usage)
+- [Datasets](#datasets)
+- [Implemented baseline methods](#implemented-baseline-methods)
+  - [Disjoint](#disjoint)
+    - [Unsupervised Graph Neural Networks + Kmeans](#unsupervised-graph-neural-networks--kmeans)
+    - [End-to-End Community Detection](#end-to-end-community-detection)
+  - [Overlapping](#overlapping)
+- [Installation](#installation)
+- [Requirements](#requirements)
+
+## Usage
+
+Run any supported model by :
+
+```shell
+$ python train.py ${OPTIONAL global args} ${POSITIONAL args (model)} ${optional model args}
+```
+
+- *OPTIONAL* global args which should be used before `${model}`
+  | global args    | description                     |
+  | -------------- | ------------------------------- |
+  | -h, --help     | show this help message and exit |
+  | --dataset      | Dataset used in the experiment  |
+  | --gpu          | ID of gpu used by cuda          |
+  | --dir          | Path to store the dataset       |
+  | --seed         | Random seed. Defaults to 4096.  |
+  | --not_set_seed | Force Not to Use Random Seed.   |
+- *POSITIONAL* args, i.e., all models supported
+  | positional args<br/> (models supported) | description                                  |
+  | --------------------------------------- | -------------------------------------------- |
+  | pca_kmeans                              | run community detection on PCA with kmeans   |
+  | SDCN                                    | run community detection on SDCN              |
+  | DANMF                                   | run community detection on DANMF             |
+  | MNMF                                    | run community detection on MNMF              |
+  | gae_kmeans                              | run community detection on GAE with Kmeans   |
+  | vgae_kmeans                             | run community detection on VGAE with Kmeans  |
+  | VGAECD                                  | run community detection on VGAECD            |
+  | dgi_kmeans                              | run community detection on DGI with Kmeans   |
+  | gmi_kmeans                              | run community detection on GMI with Kmeans   |
+  | SENet_kmeans                            | run community detection on SENet with Kmeans |
+  | DFCN                                    | run community detection on DFCN              |
+  | CommunityGAN                            | run community detection on CommunityGAN      |
+  | ComE                                    | run community detection on ComE              |
+
+e.g.,
+
+```shell
+$ python train.py --dataset=Cora gmi_kmeans --l2_coef=0.0
+```
+
+Check all optional args of a model by `python train.py ${model} -h`.
+
+## Datasets
+
+- `Cora`, `Citeseer`, `Pubmed` come from [DGL Lib](https://docs.dgl.ai/api/python/dgl.data.html)
+- `BlogCatalog`, `Flickr` come from [CoLA github](https://github.com/GRAND-Lab/CoLA/tree/main/raw_dataset)
+- `ACM` come from [SDCN github](https://github.com/bdy9527/SDCN)
+- All above datasets are converted to undirected graphs.
+
+|   Dataset   | Nodes | Edges  | Attributes | Classes |
+| :---------: | :---: | :----: | :--------: | :-----: |
+|    Cora     | 2708  | 10556  |    1433    |    7    |
+|  Citeseer   | 3327  |  9228  |    3703    |    6    |
+|   Pubmed    | 19717 | 88651  |    500     |    3    |
+| BlogCatalog | 5196  | 343486 |    8189    |    6    |
+|   Flickr    | 7575  | 479476 |   12047    |    9    |
+|     ACM     | 3025  | 26256  |    1870    |    3    |
+|  CoraFull   | 19793 | 126842 |    8710    |   70    |
+
+## Implemented baseline methods
+
+### Disjoint
+
+#### Unsupervised Graph Neural Networks + Kmeans
+
+|  method   |   Conf/Journal    |          Original Code           | Supproted |
+| :-------: | :---------------: | :------------------------------: | :-------: |
+|  [VGAE]   |      16nips       | [TensorFlow][vgae in tensorflow] |     ✅     |
+| GraphSAGE |                   |                                  |           |
+|   [DGI]   |      19iclr       |    [Pytorch][dgi in pytorch]     |     ✅     |
+|   [GMI]   |       20www       |    [Pytorch][gmi in pytorch]     |     ✅     |
+|  [SENet]  | 21Neural Networks |                                  |     ✅     |
+
+#### End-to-End Community Detection
+
+|  method  | Conf/Journal |       Original Code        | Supproted |
+| :------: | :----------: | :------------------------: | :-------: |
+|  [SDCN]  |    20www     | [Pytorch][sdcn in pytorch] |     ✅     |
+| [DANMF]  |    18cikm    |     [code][danmf code]     |     ✅     |
+| [M-NMF]  |    17aaai    | [Matlab][m-nmf in matlab]  |     ✅     |
+|  [DFCN]  |    21aaai    | [Pytorch][dfcn in pytorch] |     ✅     |
+| [VGAECD] |    18icdm    |             --             |     ✅     |
+|  [ComE]  |    17cikm    |     [code][come code]      |     ✅     |
+| [DAEGC]  |   19ijcai    |  [code][daegc in pytorch]  |     ✅     |
+
+### Overlapping
+
+|     method     | Conf/Journal |              Original Code               | Supproted |
+| :------------: | :----------: | :--------------------------------------: | :-------: |
+| [CommunityGAN] |    19www     | [TensorFlow][communitygan in tensorflow] |     ✅     |
+
+## Installation
+
+```bash
+# NOTE: python>=3.8 is needed
+# Install cuda if necessary. Check Cuda version first.
+$ sudo bash .ci/cuda.sh
+# Leave out `bash .ci/install-dev.sh &&` if no dev env is needed.
+$ bash .ci/install-dev.sh && bash .ci/install.sh
+# run `source .env/bin/activate` to activate the virtual env
+```
+
+## Requirements
+
+DGL installation guide: https://www.dgl.ai/pages/start.html
+
+torch installation guide: https://pytorch.org/get-started/locally/
+
+- CUDA 11
+
+```txt
+python >= 3.8
+cudatoolkit >= 11.1.1
+torch >= 1.12.0
+dgl >= 1.1.0
+ogb >= 1.3.3
+pylint >= 2.11.1
+pre-commit >= 2.15.0
+yapf >= 0.31.0
+tqdm >= 4.62.3
+texttable >= 1.6.4
+Cython >= 0.25
+```
+
+[come]: https://dl.acm.org/doi/abs/10.1145/3132847.3132925
+[come code]: https://github.com/andompesta/ComE
+[communitygan]: https://arxiv.org/pdf/1901.06631.pdf
+[communitygan in tensorflow]: https://github.com/SamJia/CommunityGAN
+[daegc]: https://www.ijcai.org/proceedings/2019/0509.pdf
+[daegc in pytorch]: https://github.com/Tiger101010/DAEGC
+[danmf]: https://www.researchgate.net/profile/Chuan-Chen-11/publication/328439632_Deep_Autoencoder-like_Nonnegative_Matrix_Factorization_for_Community_Detection/links/5d7dc4b3a6fdcc2f0f6fbf3a/Deep-Autoencoder-like-Nonnegative-Matrix-Factorization-for-Community-Detection.pdf
+[danmf code]: https://github.com/benedekrozemberczki/DANMF
+[dfcn]: https://arxiv.org/pdf/2012.09600.pdf
+[dfcn in pytorch]: https://github.com/WxTu/DFCN
+[dgi]: https://arxiv.org/pdf/1809.10341.pdf
+[dgi in pytorch]: https://github.com/PetarV-/DGI
+[gmi]: https://arxiv.org/pdf/2002.01169.pdf
+[gmi in pytorch]: https://github.com/zpeng27/GMI
+[m-nmf]: https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14589/13763
+[m-nmf in matlab]: https://github.com/AnryYang/M-NMF
+[sdcn]: https://arxiv.org/pdf/2002.01633.pdf
+[sdcn in pytorch]: https://github.com/bdy9527/SDCN
+[senet]: https://www.sciencedirect.com/science/article/abs/pii/S0893608021002227
+[vgae]: https://arxiv.org/pdf/1611.07308.pdf
+[vgae in tensorflow]: https://github.com/tkipf/gae
+[vgaecd]: https://sci-hub.ru/10.1109/icdm.2018.00022
