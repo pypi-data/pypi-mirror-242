@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+SMS-GateWayX/__init__.py
+SMS_GateWayX.egg-info/PKG-INFO
+SMS_GateWayX.egg-info/SOURCES.txt
+SMS_GateWayX.egg-info/dependency_links.txt
+SMS_GateWayX.egg-info/top_level.txt
