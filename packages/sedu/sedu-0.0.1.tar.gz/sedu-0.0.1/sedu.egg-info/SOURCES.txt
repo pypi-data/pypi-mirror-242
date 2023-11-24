@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sedu/__init__.py
+sedu.egg-info/PKG-INFO
+sedu.egg-info/SOURCES.txt
+sedu.egg-info/dependency_links.txt
+sedu.egg-info/top_level.txt
