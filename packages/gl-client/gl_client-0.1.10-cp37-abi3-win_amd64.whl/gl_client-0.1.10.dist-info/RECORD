@@ -1,0 +1,17 @@
+gl_client-0.1.10.dist-info/METADATA,sha256=AWCth286Z8hC9FmmOAPW7ScgkqxjlmQX8yQGb8p5cIY,335
+gl_client-0.1.10.dist-info/WHEEL,sha256=w03tqoRs5ZGD7G-Ws_2h-H-R2ZP0f14-ya2jyjD-Jso,94
+glclient/glclient.pyi,sha256=2qN4SYD7MR-6QBzJs22upIycGQztFftzJu-unk0x76Y,1923
+glclient/greenlight_pb2.py,sha256=X-xz6FfoDnCnuUjyRV68B-qcV7_-p3HyK22KpZj-tTA,20582
+glclient/greenlight_pb2.pyi,sha256=-UdrzTyTAfc7A2Yi_obDz9BYkDAH_7cvSizBIdDkc4U,61800
+glclient/greenlight_pb2_grpc.py,sha256=ynCVizdOvupcwYUZIp0Mp1O8DgxodiUFaMoe_W5FHUI,16872
+glclient/greenlight_pb2_grpc.pyi,sha256=YFSFyJIjZ9Ht-t-c9PDrHbYJX4iHy-cehcsZlThKhTs,14542
+glclient/lsps.py,sha256=EnyJkryYVlICovEjU_2Spu8g5ObvMf_G9_9kkBwuYcc,3088
+glclient/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glclient/rpc.py,sha256=LDBgc7RqEFIxlnWxIhGLfEcfsYQ-cDfmus1Z1ydEzV4,26694
+glclient/scheduler_pb2.py,sha256=3kCUUPd4tYldzhQ3EGCNBA42rw7h2clmJiBwnc2FiCw,6563
+glclient/scheduler_pb2.pyi,sha256=IsI9fJJL3I-a2MpGejvXvyzROuB6D1cHQMbxSDUCKLY,16859
+glclient/scheduler_pb2_grpc.py,sha256=dxqPJ1KbWSMmEBkP0vKwKAAX6y29rrXVGnPFkGRPfk4,25765
+glclient/tls.py,sha256=EwsBnsBuB7kVdE86fM08twEvU0rRfafbAxgU-kPPHRU,1642
+glclient/__init__.py,sha256=5XNq-wJpH20s_qSdNXvyC9VwwodamGr5fq9vdDsjOpM,19091
+glclient/glclient.pyd,sha256=MDDA1EAnbuUZ55cxv1UQVvfLRCwVu1IOjPeeFdZCtjA,6699008
+gl_client-0.1.10.dist-info/RECORD,,
