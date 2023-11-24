@@ -1,0 +1,10 @@
+LICENSE
+README.md
+ing0.py
+pyproject.toml
+requirements.txt
+ingzero.egg-info/PKG-INFO
+ingzero.egg-info/SOURCES.txt
+ingzero.egg-info/dependency_links.txt
+ingzero.egg-info/requires.txt
+ingzero.egg-info/top_level.txt

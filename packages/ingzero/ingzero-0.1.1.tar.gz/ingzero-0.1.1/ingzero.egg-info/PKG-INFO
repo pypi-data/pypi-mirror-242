@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ingzero
+Version: 0.1.1
+Summary: Divers productivity tools
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi==2023.11.17
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: eralchemy2==1.3.8
+Requires-Dist: greenlet==3.0.1
+Requires-Dist: idna==3.4
+Requires-Dist: lxml==4.9.3
+Requires-Dist: pygraphviz==1.11
+Requires-Dist: requests==2.31.0
+Requires-Dist: sqlalchemy==2.0.23
+Requires-Dist: typing-extensions==4.8.0
+Requires-Dist: urllib3==2.1.0
+
+# ing0
+
+Producitivty tool to workaround dubious complexity.
+
+```
+Usage:
+
+  ing0 baggify
+  ing0 summary
+  ing0 fastapi routes
+  ing0 vm available
+  ing0 vm create NAME DISTRIBUTION RELEASE ARCH
+  ing0 vm exec NAME [COMMAND ...]
+  ing0 vm spawn NAME
+  ing0 vm boot NAME
+  ing0 sqli NAME
+```
