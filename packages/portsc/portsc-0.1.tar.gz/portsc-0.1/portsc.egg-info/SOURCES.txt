@@ -1,0 +1,7 @@
+setup.py
+portsc.egg-info/PKG-INFO
+portsc.egg-info/SOURCES.txt
+portsc.egg-info/dependency_links.txt
+portsc.egg-info/entry_points.txt
+portsc.egg-info/requires.txt
+portsc.egg-info/top_level.txt
