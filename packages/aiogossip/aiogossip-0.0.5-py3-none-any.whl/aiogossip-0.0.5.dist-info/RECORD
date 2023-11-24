@@ -1,0 +1,11 @@
+aiogossip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiogossip/channel.py,sha256=U0nayP7emfcTxjGrrt-nYShdFtNVrqfwxrzjDymGzzA,1334
+aiogossip/codec.py,sha256=Ir3RexK5Rhm4hXZoBwoODG1JHmDjT7WBoK10j6Fps9c,126
+aiogossip/gossip.py,sha256=5XGnbVvAFUtT7tfKQl7CtbcBEaic9a2cFQE_xaEGmiQ,1995
+aiogossip/mutex.py,sha256=oAMMtgxVgvkX2E60kL-fwJAOLhHQ4ZXsBAPFa7SGx2A,458
+aiogossip/topology.py,sha256=4lk9RgLhOpKM4nhpgYuKeGNzoruI4LkphqbVAuSZ7Lc,2721
+aiogossip/transport.py,sha256=eoVrMlirFwv8cgq9f7tCleTv4mZXJ6yJhiSySwUHlW4,1186
+aiogossip-0.0.5.dist-info/METADATA,sha256=a-TqL8efEtAG71XCMTw1GFtp_5Ki9UiGAs5guFYTlB0,495
+aiogossip-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+aiogossip-0.0.5.dist-info/top_level.txt,sha256=AV4AXrxE03vGxLcNuzC7Z2Y97KhkBl9wtkdkB1srewA,10
+aiogossip-0.0.5.dist-info/RECORD,,
