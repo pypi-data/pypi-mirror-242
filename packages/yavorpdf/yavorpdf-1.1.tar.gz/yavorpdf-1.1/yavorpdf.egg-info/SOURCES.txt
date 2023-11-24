@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+yavorpdf/__init__.py
+yavorpdf/pdf2image.py
+yavorpdf/pdf2text.py
+yavorpdf.egg-info/PKG-INFO
+yavorpdf.egg-info/SOURCES.txt
+yavorpdf.egg-info/dependency_links.txt
+yavorpdf.egg-info/top_level.txt
