@@ -1,0 +1,13 @@
+metadatamapping/__init__.py,sha256=asTZcb7O9wE2Ud8XNCTwQzZL7vD4MI6xEcc9Sa96jr8,62
+metadatamapping/archs4.py,sha256=Hk5WDWyz5UgF4mCnDDIFnq5mrvVc8oj-5qKtU8gPKPE,8616
+metadatamapping/concurrency.py,sha256=7Jvn2Rx5o3f7ay7kmOkdVyME1FXtZTxzV7Hhaw33LC0,4317
+metadatamapping/dbutils.py,sha256=VA8ZbW8SP2dm24boxHWTF6HuPdwAU6K6F7FQoXjZ6js,5641
+metadatamapping/link.py,sha256=5f5pbcu-kYRyP_4RbpSYwX8mvl1FsyjLVPI4f4mavhI,2731
+metadatamapping/metadata.py,sha256=LkogZ6sXIbxBMiwfLWQU82f2veJyhzKmXK5CQxnxcho,6566
+metadatamapping/parsers.py,sha256=RnzJ4rIXh2iiDX9G7-siRJnqzPX3HYOT-kbxnu6XEdA,9699
+metadatamapping/summary.py,sha256=DqIUJdafR6jcN19GwDCkFu3SBDIr0A6uNp5GwTlXyVI,7517
+metadatamapping-1.0.0.dist-info/LICENSE,sha256=-7JpUUk3s9c4P8Z1L2am211paOssGPMCBcti7y9As7w,1069
+metadatamapping-1.0.0.dist-info/METADATA,sha256=wlitDrW3z4WxqEL7YfMFu1LESYXPGH6SGfkX7W0ZncM,6449
+metadatamapping-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+metadatamapping-1.0.0.dist-info/top_level.txt,sha256=AIL9dKcSa6qSsLacCjsxZWfvbilDmoCUjDlRm6Xz2iY,16
+metadatamapping-1.0.0.dist-info/RECORD,,
