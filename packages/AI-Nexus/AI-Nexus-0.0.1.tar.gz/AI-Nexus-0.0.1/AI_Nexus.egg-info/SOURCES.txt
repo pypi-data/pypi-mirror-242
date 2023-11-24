@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+AI-Nexus/__init__.py
+AI_Nexus.egg-info/PKG-INFO
+AI_Nexus.egg-info/SOURCES.txt
+AI_Nexus.egg-info/dependency_links.txt
+AI_Nexus.egg-info/top_level.txt
