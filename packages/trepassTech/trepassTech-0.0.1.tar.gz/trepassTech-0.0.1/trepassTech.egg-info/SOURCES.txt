@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+trepassTech/__init__.py
+trepassTech.egg-info/PKG-INFO
+trepassTech.egg-info/SOURCES.txt
+trepassTech.egg-info/dependency_links.txt
+trepassTech.egg-info/top_level.txt
