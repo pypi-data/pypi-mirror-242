@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sledu/__init__.py
+sledu.egg-info/PKG-INFO
+sledu.egg-info/SOURCES.txt
+sledu.egg-info/dependency_links.txt
+sledu.egg-info/top_level.txt
