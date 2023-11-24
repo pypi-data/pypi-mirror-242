@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+
+from apiflash import ApiFlashClient
+import click
+
+
+@click.group()
+def cli():
+    """Interact with ApiFlash.com"""
+    pass
+
+
+def _client(access_key):
+    if not access_key:
+        click.echo('ERROR: APIFLASH_ACCESS_KEY cannot be empty!')
+        raise click.Abort()
+
+    return ApiFlashClient(access_key)
+
+
+@cli.command
+@click.option(
+    '-a',
+    '--access-key',
+    type=str,
+    envvar='APIFLASH_ACCESS_KEY',
+    help='The ApiFlash access key to use for the request (defaults to environment value of APIFLASH_ACCESS_KEY)',
+)
+def quota(access_key):
+    """Get quota information"""
+
+    resp = _client(access_key).quota()
+    click.echo(resp)
+
+
+@cli.command
+@click.argument('url', type=str)
+@click.option(
+    '-a',
+    '--access-key',
+    type=str,
+    envvar='APIFLASH_ACCESS_KEY',
+    help='The ApiFlash access key to use for the request (defaults to environment value of APIFLASH_ACCESS_KEY)',
+)
+@click.option(
+    '-o',
+    '--option',
+    type=(str, str),
+    multiple=True,
+    help='Any custom options to pass to the screenshot capture method',
+)
+def capture(url, access_key, option):
+    """Make a screenshot of the provided URL"""
+
+    if not url:
+        click.echo('ERROR: URL cannot be empty!')
+        raise click.Abort()
+
+    option = dict(option) if option else {}
+
+    resp = _client(access_key).capture(url, **option)
+    click.echo(resp['url'])
+
+
+@cli.command
+@click.argument('url', type=str)
+@click.argument('output', type=click.File('wb'))
+@click.option(
+    '-a',
+    '--access-key',
+    type=str,
+    envvar='APIFLASH_ACCESS_KEY',
+    help='The ApiFlash access key to use for the request (defaults to environment value of APIFLASH_ACCESS_KEY)',
+)
+@click.option(
+    '-o',
+    '--option',
+    type=(str, str),
+    multiple=True,
+    help='Any custom options to pass to the screenshot capture method',
+)
+def save_capture(url, output, access_key, option):
+    """Save the screenshot of the provided URL to a local file"""
+
+    if not url:
+        click.echo('ERROR: URL cannot be empty!')
+        raise click.Abort()
+
+    option = dict(option) if option else {}
+
+    resp = _client(access_key).capture(url, response_type='image', **option)
+    output.write(resp)
+
+
+if __name__ == '__main__':
+    cli()

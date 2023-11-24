@@ -1,0 +1,14 @@
+LICENCE.txt
+README.rst
+setup.py
+apiflash/__init__.py
+apiflash/client.py
+apiflash/constants.py
+apiflash/error_handler.py
+apiflash/exceptions.py
+apiflash_client.egg-info/PKG-INFO
+apiflash_client.egg-info/SOURCES.txt
+apiflash_client.egg-info/dependency_links.txt
+apiflash_client.egg-info/requires.txt
+apiflash_client.egg-info/top_level.txt
+bin/apiflash
