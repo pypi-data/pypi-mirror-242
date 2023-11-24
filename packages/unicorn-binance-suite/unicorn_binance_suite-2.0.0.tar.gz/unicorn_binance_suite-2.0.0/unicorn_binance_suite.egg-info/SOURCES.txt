@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+unicorn_binance_suite/__init__.py
+unicorn_binance_suite/manager.py
+unicorn_binance_suite.egg-info/PKG-INFO
+unicorn_binance_suite.egg-info/SOURCES.txt
+unicorn_binance_suite.egg-info/dependency_links.txt
+unicorn_binance_suite.egg-info/requires.txt
+unicorn_binance_suite.egg-info/top_level.txt
