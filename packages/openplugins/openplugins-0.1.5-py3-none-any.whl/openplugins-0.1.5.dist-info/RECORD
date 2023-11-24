@@ -1,0 +1,15 @@
+openplugins/__init__.py,sha256=QLcmNdvYD-4lSu79yHCmFjY6Cy9rDp7mWnhT7ptK-CY,29
+openplugins/main.py,sha256=SSKUhUffClbWlzzCYMBhZ9kA4CzF2OemUdSMAw5T_uo,14565
+openplugins/data/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+openplugins/openainode/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+openplugins/openainode/openai_model.py,sha256=Wvocee7cWoHT62askwFfCWbDxy35TR94KJ1jqUFTLYk,4590
+openplugins/openainode/openai_node.py,sha256=tS37jlBR24XdBQH55YQKob2RIyVRF_dAwW1lLgzXUco,7068
+openplugins/prompt/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+openplugins/prompt/few_shot_parameters_generate_prompt.py,sha256=J7zaXUWp59-bySct3fSri3Ed1hkOpa6H-xcDmjNZ8eM,2159
+openplugins/prompt/few_shot_plan_prompt.py,sha256=ZaKwRQy3TnBjw57llfchRBEpbTOFHyPlRK1weDrUVK4,1474
+openplugins/prompt/few_shot_tools_choose_prompt.py,sha256=ifi36P2PXr4J5snbL37gAhTDSEPW8xjj4tlwTmyWfag,5163
+openplugins-0.1.5.dist-info/LICENSE,sha256=zoMuWo62621yEFwWog8D6hBew07TXIcTREr3dceJwH4,1063
+openplugins-0.1.5.dist-info/METADATA,sha256=DZFOKothU9BMDedUDOh1rKLV4tZF-Rkuwfy6hDNTbfc,4195
+openplugins-0.1.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+openplugins-0.1.5.dist-info/top_level.txt,sha256=fYSv5ZxnG2ogFg3E2Z1tn_8Fvy5gbetlGFzJHOZNWDw,12
+openplugins-0.1.5.dist-info/RECORD,,
