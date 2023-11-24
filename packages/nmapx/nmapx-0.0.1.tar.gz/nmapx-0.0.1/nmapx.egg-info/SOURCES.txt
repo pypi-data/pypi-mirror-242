@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+nmapx/__init__.py
+nmapx.egg-info/PKG-INFO
+nmapx.egg-info/SOURCES.txt
+nmapx.egg-info/dependency_links.txt
+nmapx.egg-info/top_level.txt
