@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+brain-computer/__init__.py
+brain_computer.egg-info/PKG-INFO
+brain_computer.egg-info/SOURCES.txt
+brain_computer.egg-info/dependency_links.txt
+brain_computer.egg-info/top_level.txt
