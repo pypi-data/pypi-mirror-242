@@ -1,0 +1,17 @@
+sumo/__init__.py,sha256=ftS-xRPSH-vU7fIHlnZQaCTWbNvs4owJivNW65kzsIM,85
+sumo/wrapper/__init__.py,sha256=DGSIJyIdxJIPfHxjtdXAYUd6Rhg2nJUwn9Ffz8JNwXs,234
+sumo/wrapper/_auth_provider.py,sha256=NIXzBHAsccC-_swPE15K5Cppc_E9nP9yUx0sCy7MipA,7050
+sumo/wrapper/_blob_client.py,sha256=y15_TThJ4ENFtEAF37mgju6Htc8D3ZyzcYCqsYQZo7Y,1495
+sumo/wrapper/_decorators.py,sha256=FSorPaTEBpq2N0qrqfdTt0jMToe_0PpOYlsL6vZSbIg,728
+sumo/wrapper/_logging.py,sha256=XgXcOAEoVw0aqij7V7EPTiP3ALqa8xNDgJgKyWOxeok,838
+sumo/wrapper/_retry_strategy.py,sha256=sata8h2tXWQIm9GQYWJCmzNBLm9Jy_odGYkaOH27j3o,2374
+sumo/wrapper/config.py,sha256=6t7qqjrrmd11m4VMlRryiMYw2JDU_R51305woAP1TAs,865
+sumo/wrapper/login.py,sha256=uucpK5gPvG7xnsFZYIy_-Cm85A5Tvx6KT5VQTfbLX9I,1380
+sumo/wrapper/sumo_client.py,sha256=KD-4wJI3QmuS5CDnozLbtBTiEmG003ZYOIAt-fxoFhw,14927
+sumo/wrapper/version.py,sha256=ClFIlbf5O23dVWC6oD6t3m2n6nB22IOt3V9t-YX_mG0,411
+sumo_wrapper_python-1.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sumo_wrapper_python-1.0.5.dist-info/METADATA,sha256=_BPsRvl2EZdzDuorQ1xouJRvCmL_XkXjZhMIforj4tQ,6859
+sumo_wrapper_python-1.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+sumo_wrapper_python-1.0.5.dist-info/entry_points.txt,sha256=V_vGky2C3He5vohJAxnBdvpt_fqfUDFj5irUm9HtoFc,55
+sumo_wrapper_python-1.0.5.dist-info/top_level.txt,sha256=rLbKyH9rWgCj3PoLeR7fvC5X8vCaUc5LF8-Y_GBWZL0,5
+sumo_wrapper_python-1.0.5.dist-info/RECORD,,
