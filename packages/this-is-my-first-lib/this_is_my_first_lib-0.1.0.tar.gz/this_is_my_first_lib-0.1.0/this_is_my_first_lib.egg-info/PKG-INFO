@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: this-is-my-first-lib
+Version: 0.1.0
+Summary: A simple hello world lib
+Home-page: https://github.com/HackerStore/py_lib
+Author: Shaheem
+Author-email: shaheemanthony@outlook.com
+License: GNU General Public License v3.0
+
+# My Library
+This is a simple Python library.
