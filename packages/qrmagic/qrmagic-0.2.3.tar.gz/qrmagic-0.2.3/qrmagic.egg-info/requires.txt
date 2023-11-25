@@ -1,0 +1,11 @@
+exifread
+flask>=2.1
+heif-image-plugin
+pillow
+piexif
+pylabels
+pyzbar
+qrcode
+reportlab
+tqdm
+whitenoise

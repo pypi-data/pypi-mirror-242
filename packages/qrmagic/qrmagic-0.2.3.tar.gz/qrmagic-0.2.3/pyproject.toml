@@ -1,0 +1,53 @@
+[build-system]
+requires = [
+    "setuptools>=60",
+    "wheel",
+    "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qrmagic"
+dynamic = ["version"]
+description = "Tools to manage qrcoded labels and images during Natural Variaiton experiments"
+keywords=["qrcode", "fieldwork",]
+dependencies = [
+    "exifread",
+    "flask>=2.1",
+    "heif-image-plugin",
+    "pillow",
+    "piexif",
+    "pylabels",
+    "pyzbar",
+    "qrcode",
+    "reportlab",
+    "tqdm",
+    "whitenoise",
+]
+readme = "README.md"
+authors = [
+    {name = "kdm9", email = "foss@kdmurray.id.au"},
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.scripts]
+qrmagic-detect="qrmagic.scanimages:climain"
+qrmagic-labelprint="qrmagic.labelmaker:main"
+
+[tool.setuptools_scm]
+version_file = "qrmagic/_version.py"
+root = ".."
+tag_regex = "^qrmagic-(?P<version>[vV]?\\d+(?:\\.\\d+){0,2}[^\\+]*)(?:\\+.*)?$"
+git_describe_command = "git describe --dirty --tags --long --match 'qrmagic*'"
+
+[tool.setuptools]
+packages = ["qrmagic"]
+
