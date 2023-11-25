@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+netflex.egg-info/PKG-INFO
+netflex.egg-info/SOURCES.txt
+netflex.egg-info/dependency_links.txt
+netflex.egg-info/not-zip-safe
+netflex.egg-info/top_level.txt
+tests/test_fapyuimodule.py
