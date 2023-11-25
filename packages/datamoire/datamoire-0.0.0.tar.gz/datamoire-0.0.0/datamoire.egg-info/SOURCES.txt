@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+datamoire/__init__.py
+datamoire.egg-info/PKG-INFO
+datamoire.egg-info/SOURCES.txt
+datamoire.egg-info/dependency_links.txt
+datamoire.egg-info/top_level.txt
+datamoire/timeseries/__init__.py
+datamoire/timeseries/_plot.py
