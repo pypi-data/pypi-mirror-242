@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: packagehelp
+Version: 1.0.0
+Summary: A moular help package
+Author-email: "左易晗(from china)" <19156653620@163.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# This is a "packagehelp" 's packages help #
+The packages is a help. Help some packages working.
+# packages reh #
+modular "requests" help:\
+1.useragents
+
+### The End ###
