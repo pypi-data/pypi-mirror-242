@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: bgno
+Version: 1.0
+Summary: Сверточная нейронная сеть, с использованием оптимальных параметров
+Author-email: arturgugasian@gmail.com
