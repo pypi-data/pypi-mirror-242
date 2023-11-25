@@ -1,0 +1,13 @@
+osm_flex/__init__.py,sha256=WjJPM8UbLu2ULTfZK7_VmbgQlA0kkM_zNWTTP42ie9A,996
+osm_flex/clip.py,sha256=OTB0uaYICGwMOn7F0_BEazlqX-AM2oByoq0Nk4wrY-U,14954
+osm_flex/config.py,sha256=WNqXVt4lzfIO6ISbZ_tC_6Z4VN6Mytky7U1-cHytiFk,17418
+osm_flex/download.py,sha256=dBmly_PH6Q6Vj3F_xbVot3gwtcg6LjeatO4_aykaUtY,5781
+osm_flex/extract.py,sha256=wb1gEmkfYJj4VgPqjWJBbIhkVXOOoO1aUtlv2xASKDk,7748
+osm_flex/osmconf.ini,sha256=mIIiIHc8jx9Hti-c9PwsHmJSUnUjq47YypZZZO5TXEk,6688
+osm_flex/simplify.py,sha256=p_C_84Wb7ErskuenDWlRadIdPzt-4U8DzTVMIayio04,3724
+osm_flex-1.1.1.dist-info/AUTHORS.md,sha256=QSLe---TA0vR-DAwi02wducngcAeDgqMlr39ch4DNXA,95
+osm_flex-1.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+osm_flex-1.1.1.dist-info/METADATA,sha256=s6d8giI5pj39-pskigHAqjkaS-K8vpjqK_3dY72kA7s,3886
+osm_flex-1.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+osm_flex-1.1.1.dist-info/top_level.txt,sha256=_B2KY3UiGRmWt5OVNzfnYG8hzZVYXcB2Rs10_1wqZxI,9
+osm_flex-1.1.1.dist-info/RECORD,,
