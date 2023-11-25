@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ularkotak
+Version: 0.1.0
+Summary: A simple game library for Python
+Home-page: https://github.com/codewithun/ularkotak.git
+Author: Untara Eka Saputra
+Author-email: untara337@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Snake Game Library
+
+![Snake Game](snakegame/screenshot.png)
+
+A simple Snake Game library for Python using Pygame.
+
+## Installation
+
+pip install ularkotak
+
+## Usage
+
+```python
+from snakegame.game import SnakeGame
+
+if __name__ == "__main__":
+    game = SnakeGame()
+    game.run()
+```
