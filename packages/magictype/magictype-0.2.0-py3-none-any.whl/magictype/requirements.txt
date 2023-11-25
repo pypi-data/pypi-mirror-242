@@ -1,0 +1,2 @@
+astunparse==1.6.3
+rich==13.7.0
