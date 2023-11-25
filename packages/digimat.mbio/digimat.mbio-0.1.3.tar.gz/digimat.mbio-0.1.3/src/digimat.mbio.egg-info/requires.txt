@@ -1,0 +1,7 @@
+digimat.lp
+digimat.units
+ptable
+treelib
+pymodbus
+bottle
+setuptools
