@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+libioplus/__init__.py
+libioplus.egg-info/PKG-INFO
+libioplus.egg-info/SOURCES.txt
+libioplus.egg-info/dependency_links.txt
+libioplus.egg-info/top_level.txt
