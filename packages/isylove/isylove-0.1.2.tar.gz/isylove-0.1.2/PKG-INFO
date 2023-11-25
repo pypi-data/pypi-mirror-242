@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: isylove
+Version: 0.1.2
+Summary: 1111111111111111
+Author: ee
+Author-email: ee@163.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# 使用
+```
+from isylove import abc
+
+a = abc.add(1, 2)
+print(a)
+```
