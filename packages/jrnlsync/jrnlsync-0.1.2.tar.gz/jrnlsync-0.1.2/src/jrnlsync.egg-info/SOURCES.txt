@@ -1,0 +1,8 @@
+README.rst
+setup.py
+src/jrnlsync.egg-info/PKG-INFO
+src/jrnlsync.egg-info/SOURCES.txt
+src/jrnlsync.egg-info/dependency_links.txt
+src/jrnlsync.egg-info/entry_points.txt
+src/jrnlsync.egg-info/requires.txt
+src/jrnlsync.egg-info/top_level.txt
