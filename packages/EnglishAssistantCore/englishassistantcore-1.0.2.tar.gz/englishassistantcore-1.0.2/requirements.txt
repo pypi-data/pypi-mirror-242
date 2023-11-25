@@ -1,0 +1,6 @@
+requests
+pyttsx3
+nltk
+spacy
+en_core_web_sm
+googletrans
