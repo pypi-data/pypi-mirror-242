@@ -1,0 +1,10 @@
+core_commands/__init__.py,sha256=UEwqWGokpB8U9r0P090N_LA-w3KvqHpVa574M40c-Fg,20
+core_commands/cmd/cmd.py,sha256=lmhDoilcY83auShVpA9m9tc4XkdOhTFj_Z3F_h8FBnY,84
+core_commands/cmd/command_cmd.py,sha256=CXKxB3wm5K1CPGWSmby_q5EUQCeH3ZHwByCubo4_7B4,262
+core_commands/cmd/dir.py,sha256=wImmUkgnye8NMAFj3jyYrPlu4virFVbRdy1VgD-YcHU,159
+core_commands/cmd/echo.py,sha256=-kCqHqgjdpW5knv_uDXakGZHe3xQazip7q7YMQgWehk,128
+core_commands/cmd/mkdir.py,sha256=08of2W2WIqCJFeNrq-5e2TD5-EiUOSzlKhd2k9Gud90,450
+"core_commands/commands/winrar,py",sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core_commands-0.2.1.dist-info/METADATA,sha256=FGdkGj2bCX63QE_NUcspJLCzaDUuZMqSBUAP0WK0tPc,355
+core_commands-0.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+core_commands-0.2.1.dist-info/RECORD,,
