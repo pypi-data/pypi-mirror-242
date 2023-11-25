@@ -1,0 +1,109 @@
+[tool.poetry]
+name = "sl-document-processor"
+version = "0.0.3.2"
+description = "Package to process documents of any format"
+authors = ["Vamsidhar Reddy <r.vamsireddy93@gmail.com>"]
+readme = "README.md"
+packages = [{include = "document_processor", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pydantic = "^2.4.2"
+beautifulsoup4 = "^4.12.2"
+selenium = "^4.14.0"
+requests = "^2.31.0"
+fastapi = "^0.104.1"
+uvicorn = "^0.23.2"
+pypdf = "^3.17.0"
+tika = "^2.6.0"
+tabula-py = "^2.8.2"
+pdfminer = "^20191125"
+pymupdf = "^1.23.5"
+pypdf2 = "^3.0.1"
+pymongo = "^4.5.0"
+boto3 = "^1.28.78"
+supabase = "^2.0.3"
+python-dotenv = "^1.0.0"
+pyyaml = "^6.0.1"
+lxml = "^4.9.3"
+mypy = "^1.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.5.0"
+pylint = "^3.0.2"
+jupyterlab = "^4.0.9"
+usort = "^1.0.7"
+pytest = "^7.4.3"
+coverage = "^7.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.usort]
+known_first_party=["document_processor"]
+
+[tool.mypy]
+plugins = [
+  "pydantic.mypy"
+]
+
+python_version = "3.9"
+ignore_missing_imports = true
+disallow_untyped_defs = true
+show_error_codes = true
+no_implicit_optional = true
+warn_return_any = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+disallow_any_generics = true
+check_untyped_defs = true
+no_implicit_reexport = true
+disable_error_code = ["no-any-return","no-any-return","no-untyped-def","type-arg","union-attr","import-untyped","attr-defined","assignment","index","name-defined","return-value","arg-type",'valid-type']
+
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-v"
+testpaths = [
+    "tests",
+    "integration",
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "fast: marks tests as fast (deselect with '-m \"not fast\"')",
+    "normal: marks tests as normal (deselect with '-m \"not normal\"')",
+]
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+# Regexes for lines to exclude from consideration
+exclude_also = [
+    # Don't complain about missing debug-only code:
+    "def __repr__",
+    "if self\\.debug",
+
+    # Don't complain if tests don't hit defensive assertion code:
+    "raise AssertionError",
+    "raise NotImplementedError",
+
+    # Don't complain if non-runnable code isn't run:
+    "if 0:",
+    "if __name__ == .__main__.:",
+
+    # Don't complain about abstract methods, they aren't run:
+    "@(abc\\.)?abstractmethod",
+    ]
+
+ignore_errors = true
+
+[tool.coverage.html]
+directory = "coverage_html_report"
