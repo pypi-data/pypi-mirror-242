@@ -1,0 +1,12 @@
+amazon_services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amazon_services/amazon_manager.py,sha256=LJHQXNU_wzwQ3Qvdx9aWk_ZsnvtkiJpgaAuAmm15gXA,947
+amazon_services/login.py,sha256=B4w1dSOp5TT-Yr_EVQXdxVuqu5FLdt5DD83jKoF-Jio,6563
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/driver.py,sha256=b82vSsOp0dPkfKUCc_CiEHLMfjHngfjznwiJxVuKmQM,1687
+utils/gmail_helper.py,sha256=Rxzt875236WFkiidzvpop8wAGN3EDvswce1Pn05fY2c,4784
+utils/webdriver_actions.py,sha256=J-pjdFMbYKVE70eMRWcfDU1cPDZxvMXtRx-cqXvWK-E,4920
+amazon_login-0.7.dist-info/LICENSE,sha256=pGR83ZX3A3jVgApNDWoOVPPyo-g3kbFjqnMz8Rm4S-w,1093
+amazon_login-0.7.dist-info/METADATA,sha256=k3fa8-6x2izrXaAROIcUWGfjlg9CpQc4bgff7h2eSao,2526
+amazon_login-0.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+amazon_login-0.7.dist-info/top_level.txt,sha256=HxkU6uBGE5G5MzIPyqvugIrw6iMyk2IhPxT1FBhOCik,22
+amazon_login-0.7.dist-info/RECORD,,
