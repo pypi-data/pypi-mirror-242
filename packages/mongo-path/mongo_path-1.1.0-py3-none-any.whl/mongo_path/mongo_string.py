@@ -1,0 +1,2 @@
+class MongoString(str):
+    pass
