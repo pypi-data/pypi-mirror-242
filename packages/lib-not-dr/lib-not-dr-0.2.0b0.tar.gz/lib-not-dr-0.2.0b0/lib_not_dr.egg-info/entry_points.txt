@@ -1,0 +1,2 @@
+[console_scripts]
+lndl-nuitka = lib_not_dr.nuitka.parse:main
