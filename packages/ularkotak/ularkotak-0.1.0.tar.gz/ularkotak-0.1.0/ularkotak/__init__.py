@@ -1,0 +1,1 @@
+from ularkotak.game import SnakeGame
