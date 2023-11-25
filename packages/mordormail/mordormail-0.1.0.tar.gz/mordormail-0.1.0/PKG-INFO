@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mordormail
+Version: 0.1.0
+Summary: A utility class to easily send templated emails from within python scripts.
+Author: tjh63945_gsk
+Author-email: tim.j.hudelmaier@gsk.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+
