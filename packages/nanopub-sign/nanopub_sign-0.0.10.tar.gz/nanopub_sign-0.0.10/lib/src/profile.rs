@@ -1,0 +1,148 @@
+use base64::{engine, Engine as _};
+use getrandom::getrandom;
+use rand_core::{impls, CryptoRng, RngCore};
+use rsa::pkcs1::EncodeRsaPrivateKey;
+use rsa::{pkcs8::DecodePrivateKey, pkcs8::EncodePublicKey, RsaPrivateKey, RsaPublicKey};
+use serde::{Deserialize, Serialize};
+use serde_yaml;
+use std::fmt;
+use std::io::Read;
+use std::{env, fs};
+
+use crate::error::NpError;
+
+#[derive(Clone, Debug, Deserialize, Serialize)]
+pub struct NpProfile {
+    pub orcid_id: String,
+    pub name: String,
+    pub private_key: String,
+    pub public_key: String,
+    pub introduction_nanopub_uri: Option<String>,
+}
+
+impl NpProfile {
+    pub fn new(
+        orcid_id: &str,
+        name: &str,
+        private_key: &str,
+        introduction_nanopub_uri: Option<&str>,
+    ) -> Result<Self, NpError> {
+        let (_priv_key, pubkey) = get_keys(private_key)?;
+        Ok(Self {
+            orcid_id: orcid_id.to_string(),
+            name: name.to_string(),
+            public_key: get_pubkey_str(&pubkey)?,
+            private_key: private_key.to_string(),
+            introduction_nanopub_uri: Some(introduction_nanopub_uri.unwrap_or("").to_string()),
+        })
+    }
+
+    /// Extract profile from YAML file
+    pub fn from_file(filepath: &str) -> Result<Self, NpError> {
+        let filepath = if filepath.is_empty() {
+            // Default to home dir if nothing provided
+            format!(
+                "{}/.nanopub/profile.yml",
+                env::var("HOME")
+                    .or_else(|_| env::var("USERPROFILE"))
+                    .unwrap_or("~".to_string())
+            )
+        } else {
+            filepath.to_string()
+        };
+        let mut file = fs::File::open(filepath)?;
+        let mut contents = String::new();
+        file.read_to_string(&mut contents)?;
+        let mut profile: NpProfile = serde_yaml::from_str(&contents)?;
+        // Read private and public keys from file
+        profile.private_key = normalize_key(&fs::read_to_string(&profile.private_key)?)?;
+        profile.public_key = normalize_key(&fs::read_to_string(&profile.public_key)?)?;
+        Ok(profile)
+    }
+}
+
+impl fmt::Display for NpProfile {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        writeln!(f, "\nNanopub Profile:")?;
+        writeln!(f, "ORCID:{}", self.orcid_id)?;
+        writeln!(f, "Name:{}", self.name)?;
+        writeln!(f, "Public key: {}", self.public_key)?;
+        writeln!(f, "Private key: {}", self.private_key)?;
+        if self.introduction_nanopub_uri.is_some() {
+            writeln!(
+                f,
+                "Introduction URI: {}",
+                self.introduction_nanopub_uri
+                    .clone()
+                    .unwrap_or("".to_string())
+            )?;
+        }
+        Ok(())
+    }
+}
+
+/// Get `RsaPrivateKey` and `RsaPublicKey` given a private key string
+pub fn get_keys(private_key: &str) -> Result<(RsaPrivateKey, RsaPublicKey), NpError> {
+    let priv_key_bytes = engine::general_purpose::STANDARD.decode(private_key)?;
+    let priv_key = RsaPrivateKey::from_pkcs8_der(&priv_key_bytes)?;
+    let public_key = RsaPublicKey::from(&priv_key);
+    Ok((priv_key, public_key))
+}
+
+/// Normalize private/public keys (no prefix, no suffix, no newline)
+pub fn normalize_key(key: &str) -> Result<String, NpError> {
+    let mut normed_key = key.trim().to_string();
+    let start_patterns = [
+        "-----BEGIN PUBLIC KEY-----",
+        "-----BEGIN RSA PRIVATE KEY-----",
+    ];
+    for pattern in start_patterns.iter() {
+        if normed_key.starts_with(pattern) {
+            normed_key = normed_key[pattern.len()..].to_string();
+            break;
+        }
+    }
+    let end_patterns = ["-----END PUBLIC KEY-----", "-----END RSA PRIVATE KEY-----"];
+    for pattern in end_patterns.iter() {
+        if normed_key.ends_with(pattern) {
+            normed_key = normed_key[..normed_key.len() - pattern.len()].to_string();
+            break;
+        }
+    }
+    Ok(normed_key.trim().replace('\n', ""))
+}
+
+/// Get a public key string for a `RsaPublicKey`
+pub fn get_pubkey_str(pubkey: &RsaPublicKey) -> Result<String, NpError> {
+    normalize_key(&pubkey.to_public_key_pem(rsa::pkcs8::LineEnding::LF)?)
+}
+
+/// Generate private/public key pair
+pub fn gen_keys() -> Result<(String, String), NpError> {
+    let mut rng = WasmRng;
+    let bits = 2048;
+    let priv_key = RsaPrivateKey::new(&mut rng, bits).expect("failed to generate a key");
+    let pub_key = RsaPublicKey::from(&priv_key);
+    Ok((
+        normalize_key(&priv_key.to_pkcs1_pem(rsa::pkcs8::LineEnding::LF)?)?,
+        get_pubkey_str(&pub_key)?,
+    ))
+}
+
+// Because of wasm we can't use the rand crate
+struct WasmRng;
+impl RngCore for WasmRng {
+    fn next_u32(&mut self) -> u32 {
+        impls::next_u32_via_fill(self)
+    }
+    fn next_u64(&mut self) -> u64 {
+        impls::next_u64_via_fill(self)
+    }
+    fn fill_bytes(&mut self, dest: &mut [u8]) {
+        getrandom(dest).expect("Error generating random bytes");
+    }
+    fn try_fill_bytes(&mut self, dest: &mut [u8]) -> Result<(), rand_core::Error> {
+        getrandom(dest).map_err(rand_core::Error::new)
+    }
+}
+impl CryptoRng for WasmRng {}
