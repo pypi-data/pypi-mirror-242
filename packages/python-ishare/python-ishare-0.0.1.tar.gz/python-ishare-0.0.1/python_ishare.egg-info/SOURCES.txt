@@ -1,0 +1,5 @@
+setup.py
+python_ishare.egg-info/PKG-INFO
+python_ishare.egg-info/SOURCES.txt
+python_ishare.egg-info/dependency_links.txt
+python_ishare.egg-info/top_level.txt
