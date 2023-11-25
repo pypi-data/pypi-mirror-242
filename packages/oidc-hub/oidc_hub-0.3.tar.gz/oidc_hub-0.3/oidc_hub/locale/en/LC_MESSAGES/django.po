@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-29 23:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:17
+msgid "Delete"
+msgstr ""
+
+#: forms.py:40
+msgid "The following user id(s) are invalid: {}"
+msgstr ""
+
+#: forms.py:50
+msgid "Unspecified action"
+msgstr ""
+
+#: forms.py:54
+msgid "At least one user should be selected"
+msgstr ""
+
+#: forms.py:62
+msgid "At least one administrator must remain"
+msgstr ""
+
+#: forms.py:71
+msgid "Password"
+msgstr ""
+
+#: forms.py:73
+#, python-brace-format
+msgid "Raw passwords are not stored, so there is no way to see this user’s password, but you can {form} instead."
+msgstr ""
+
+#: forms.py:85
+msgid "This form requires a `password` field"
+msgstr ""
+
+#: models.py:16
+msgid "Email address"
+msgstr ""
+
+#: templates/hub/base.j2:4 templates/hub/base.j2:12
+#: templates/hub/pass/change.j2:7 templates/hub/pass/reset.j2:5
+msgid "Research Data Management"
+msgstr ""
+
+#: templates/hub/base.j2:19
+msgid "Welcome,"
+msgstr ""
+
+#: templates/hub/base.j2:24
+msgid "View site"
+msgstr ""
+
+#: templates/hub/base.j2:29
+msgid "Documentation"
+msgstr ""
+
+#: templates/hub/base.j2:33
+msgid "Change password"
+msgstr ""
+
+#: templates/hub/base.j2:37
+msgid "Log out"
+msgstr ""
+
+#: templates/hub/base.j2:47 templates/hub/dashboard.j2:4
+#: templates/hub/dashboard.j2:18 templates/hub/pass/change.j2:15
+#: templates/hub/signout.j2:8 templates/hub/users/edit.j2:4
+#: templates/hub/users/edit.j2:8
+msgid "Dashboard"
+msgstr ""
+
+#: templates/hub/dashboard.j2:32
+msgid "Delete selection"
+msgstr ""
+
+#: templates/hub/dashboard.j2:41 templates/hub/dashboard.j2:46
+msgid "Invite member"
+msgstr ""
+
+#: templates/hub/dashboard.j2:49 templates/hub/pass/change.j2:27
+#: templates/hub/signin.j2:16 templates/hub/signup.j2:16
+#: templates/hub/users/edit.j2:20
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/hub/dashboard.j2:65
+msgid "Send invitation"
+msgstr ""
+
+#: templates/hub/dashboard.j2:78
+msgid "Account"
+msgstr ""
+
+#: templates/hub/dashboard.j2:79
+msgid "Role"
+msgstr ""
+
+#: templates/hub/dashboard.j2:80
+msgid "Activity"
+msgstr ""
+
+#: templates/hub/dashboard.j2:95 templates/hub/partials/users_list.j2:13
+msgid "It's you"
+msgstr ""
+
+#: templates/hub/dashboard.j2:101 templates/hub/partials/users_list.j2:18
+msgid "Administrator"
+msgstr ""
+
+#: templates/hub/dashboard.j2:103 templates/hub/partials/users_list.j2:18
+msgid "Member"
+msgstr ""
+
+#: templates/hub/dashboard.j2:108 templates/hub/partials/users_list.j2:21
+msgid "User created"
+msgstr ""
+
+#: templates/hub/dashboard.j2:109 templates/hub/partials/users_list.j2:22
+msgid "Last activity"
+msgstr ""
+
+#: templates/hub/emails/invitation.j2:16
+msgid "Sign up"
+msgstr ""
+
+#: templates/hub/pass/change.j2:32
+msgid "Please enter your old password, for security’s sake, and then enter your new password twice so we can verify you typed it in correctly."
+msgstr ""
+
+#: templates/hub/pass/change.j2:60
+msgid "Change my password"
+msgstr ""
+
+#: templates/hub/pass/reset.j2:13 templates/hub/pass/reset_sent.j2:6
+#: templates/hub/signin.j2:51
+msgid "Log in"
+msgstr ""
+
+#: templates/hub/pass/reset.j2:14 templates/hub/pass/reset_sent.j2:7
+msgid "Password reset"
+msgstr ""
+
+#: templates/hub/pass/reset.j2:20
+msgid "Forgotten your password? Enter your email address below, and we’ll email instructions for setting a new one."
+msgstr ""
+
+#: templates/hub/pass/reset.j2:26
+msgid "Email address:"
+msgstr ""
+
+#: templates/hub/pass/reset.j2:29
+msgid "Reset my password"
+msgstr ""
+
+#: templates/hub/signin.j2:4 templates/hub/signup.j2:4
+msgid "Django site admin"
+msgstr ""
+
+#: templates/hub/signin.j2:7
+msgid "Authentication"
+msgstr ""
+
+#: templates/hub/signin.j2:31
+#, python-format
+msgid "You are authenticated as %(username)s, but are not authorized to access this page. Would you like to login to a different account?"
+msgstr ""
+
+#: templates/hub/signin.j2:56
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: templates/hub/signout.j2:4 templates/hub/signout.j2:10
+msgid "Logged out"
+msgstr ""
+
+#: templates/hub/signout.j2:18
+msgid "Thanks for spending some quality time with us today."
+msgstr ""
+
+#: templates/hub/signout.j2:20
+msgid "Log in again"
+msgstr ""
+
+#: templates/hub/signup.j2:7
+msgid "Registration"
+msgstr ""
+
+#: templates/hub/signup.j2:42
+msgid "Create account"
+msgstr ""
+
+#: templates/hub/users/edit.j2:10
+msgid "Update user"
+msgstr ""
+
+#: templates/hub/users/edit.j2:41
+msgid "Save changes"
+msgstr ""
+
+#: views.py:43
+msgid "Permission denied"
+msgstr ""
+
+#: views.py:67
+msgid "The following users have been deleted: {}"
+msgstr ""
+
+#: views.py:212
+msgid "An invitation was sent to {}"
+msgstr ""
