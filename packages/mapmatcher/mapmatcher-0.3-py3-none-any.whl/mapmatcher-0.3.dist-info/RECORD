@@ -1,0 +1,17 @@
+docs/source/conf.py,sha256=ZLKbiPdsWh5t77bJ74xAvei7yGiiBab6ACuDsOdCgVs,5534
+docs/source/examples/plot_aequilibrae_example.py,sha256=EttCil5AZY5rCKuY_-KNhd3wHJeGc8lXCxujM2xnP80,2513
+mapmatcher/__init__.py,sha256=fjCCXyXqTMIhyevV5okaxQ0emoS_4lfdTiHJLtoMc0E,58
+mapmatcher/examples.py,sha256=pbFQvdU0ZkY7otpi1G2BFZ3Ts9NsjNCwSr5bEqpXnZ4,375
+mapmatcher/interpolate_ts.py,sha256=KXDUfBlG5iThxmpDs4xqIEkMAKtvDw3IkcQUg__gN58,1992
+mapmatcher/linebearing.py,sha256=t6ZAMq94AQz9SSAW3CmAymS-mNhRGgkK7FreUH2pVic,1334
+mapmatcher/map_matcher.py,sha256=QEUV71c_mQ1J7WAiIT6lSgoqMTVuAC4TV_9Ef6bNiL4,5804
+mapmatcher/network.py,sha256=IlSQ6jx_1moJvoTBmNrjqxDLmk6VoSYxib4yOJCrZ0Q,2872
+mapmatcher/parameters.py,sha256=LRbLBpRs6Mjk8J6wCd_kkQFg7Cx9vc6sezMGYiTPGkw,1974
+mapmatcher/stop_finder.py,sha256=U3zTxQu0WVTu-6JPyGUBNFaonNPkICA3rs6KCq33v28,5782
+mapmatcher/trip.py,sha256=Q8w9rtjispi6xLB6LeRrmyEBPRShFK65g79_4HBhkMU,14420
+mapmatcher/utils/__init__.py,sha256=y0CmMsIhEYDFHyQjJAYT78UgRmRQgoQaeRG5voxF9mg,51
+mapmatcher/utils/check_if_aligned.py,sha256=f9CdLRY2fetHW4_hapDMGoslr8TjoA8NNdvKoEzc0zU,770
+mapmatcher-0.3.dist-info/METADATA,sha256=Dc5AwdCAmaZA-oFU_HVoN6TlpmN9f0qKt0AR1h-BAP8,3069
+mapmatcher-0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mapmatcher-0.3.dist-info/top_level.txt,sha256=sWts6dDXSvoC9yJ_oaxiD2hLQeeRcUvOf_EmUDbnp0Y,16
+mapmatcher-0.3.dist-info/RECORD,,
