@@ -1,0 +1,9 @@
+README.md
+setup.py
+DeepDC_PyTorch/DeepDC.py
+DeepDC_PyTorch/__init__.py
+DeepDC_PyTorch.egg-info/PKG-INFO
+DeepDC_PyTorch.egg-info/SOURCES.txt
+DeepDC_PyTorch.egg-info/dependency_links.txt
+DeepDC_PyTorch.egg-info/requires.txt
+DeepDC_PyTorch.egg-info/top_level.txt
