@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ImageEncoding
+Version: 0.1
+Summary: Four methods for converting time series into images
+Author: PZB
+Author-email: pengzahngbo000@gmail.com
+License: MIT

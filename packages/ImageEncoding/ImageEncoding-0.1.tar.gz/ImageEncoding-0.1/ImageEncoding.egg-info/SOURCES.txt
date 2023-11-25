@@ -1,0 +1,8 @@
+README.md
+setup.py
+ImageEncoding/TimeseriesToImage.py
+ImageEncoding/__init__.py
+ImageEncoding.egg-info/PKG-INFO
+ImageEncoding.egg-info/SOURCES.txt
+ImageEncoding.egg-info/dependency_links.txt
+ImageEncoding.egg-info/top_level.txt
