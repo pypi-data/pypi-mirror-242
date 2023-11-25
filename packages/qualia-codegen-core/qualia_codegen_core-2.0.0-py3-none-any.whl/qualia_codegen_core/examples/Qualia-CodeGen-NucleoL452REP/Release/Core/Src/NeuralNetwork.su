@@ -1,0 +1,3 @@
+../Core/Inc/model.h:2322:6:void cnn(const float (*)[9], float*)	96	static
+../Core/Src/NeuralNetwork.cpp:22:8:float* serialBufToFloats(char*, size_t)	24	static
+../Core/Src/NeuralNetwork.cpp:35:17:NNResult neuralNetworkInfer(float*)	16	static
