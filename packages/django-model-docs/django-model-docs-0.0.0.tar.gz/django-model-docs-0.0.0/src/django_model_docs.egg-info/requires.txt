@@ -1,0 +1,6 @@
+py-markdown-table<1
+
+[dev]
+
+[test]
+tox>=4
