@@ -1,0 +1,12 @@
+icatpackagemanager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icatpackagemanager/__main__.py,sha256=yQP0sf-rkTO-3MOotv4blvukvNGwbJFz10hQhMsxcJM,28
+icatpackagemanager/cli.py,sha256=Glj21aWgqSHC2WqnZF4YLWKNr8A9vgagXG6v-lEhtHI,2213
+icatpackagemanager/commands.py,sha256=OFaEk9R_7iN35kPQvgpi1MHkZx8JEoqM5UH-KIug11g,3037
+icatpackagemanager/files.py,sha256=V_keCW-ByPn1aOkYCx3RkY7OAsSEEAtz4c__Kejh6X8,1960
+icatpackagemanager/repo.py,sha256=943x0oMS8t-Y-tFsidSjFJV_Py-_cCMmLZhusmEhQAs,2146
+icatpackagemanager/utils.py,sha256=GgozqncSTrZbhR5dZNjEhkwvp_F7w8uDqEO2t53pFeE,2556
+icat_package_manager-0.0.3.dist-info/METADATA,sha256=YdkHE5JimesEwFp8xjB3H-yBT4pfJiN_w-rZ0Jr_Ldg,2340
+icat_package_manager-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+icat_package_manager-0.0.3.dist-info/entry_points.txt,sha256=Capld4hFlpKDobKasOJwKfTmQgWh6NecY7auQc49Mqk,51
+icat_package_manager-0.0.3.dist-info/top_level.txt,sha256=YqAJ8raEocYQXqaZez-yIaMPc-XMVxEg-7y9TpJmla4,19
+icat_package_manager-0.0.3.dist-info/RECORD,,
