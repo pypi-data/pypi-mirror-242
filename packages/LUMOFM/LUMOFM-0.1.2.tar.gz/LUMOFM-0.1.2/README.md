@@ -1,0 +1,17 @@
+# LUMOFM- Library for Unified Multiphase Flow Modeling
+
+A small library for a Gas-Solid multiphase flows. The library is a collection of functions used a lot in 
+numerically modeling gas-particle flows. The current version has support for common drag formulations for spherical particles.
+I have also included drag correction terms developed from my PhD work for fractal aggregates in this package.
+
+### Installation
+```
+pip install LUMOFM
+```
+
+### TO DO
+1. Include drag models for regular particulates such as ellipsoids, spheroids, etc.
+2. Include drag models for aerodynamically inetracting particulate systems
+    2 a) Spehrical particles
+    2 b) Ellipsoidal particles
+3. Suggestions ???!!  

@@ -1,0 +1,12 @@
+README.md
+setup.py
+LUMOFM/General.py
+LUMOFM/Irregular_Drag.py
+LUMOFM/Regular_Drag.py
+LUMOFM/Sphere_Drag.py
+LUMOFM/__init__.py
+LUMOFM.egg-info/PKG-INFO
+LUMOFM.egg-info/SOURCES.txt
+LUMOFM.egg-info/dependency_links.txt
+LUMOFM.egg-info/requires.txt
+LUMOFM.egg-info/top_level.txt
