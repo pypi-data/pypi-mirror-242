@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "isylove"
+version = "0.1.1"
+description = "1111111111111111"
+authors = ["ee <ee@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
