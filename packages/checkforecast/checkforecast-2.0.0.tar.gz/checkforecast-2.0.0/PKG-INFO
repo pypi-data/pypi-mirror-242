@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: checkforecast
+Version: 2.0.0
+Summary: This package is used to check weather data from an api openweather
+Home-page: https://github.com/thedowntownboy/weather_forecast_Library.git
+Author: Joywin Gonsalves
+Author-email: joywin16us@gmail.com
+License: MIT
+Keywords: weather,forecast,checkforecast
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
