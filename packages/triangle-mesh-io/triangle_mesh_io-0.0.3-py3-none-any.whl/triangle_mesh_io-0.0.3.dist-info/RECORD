@@ -1,0 +1,14 @@
+triangle_mesh_io/__init__.py,sha256=lalN6-tsVjmWvoM1S_NRNJ-lhaBRqTFvu1QcNlOgB_o,76
+triangle_mesh_io/convert.py,sha256=WlDFiFrJLAfDNBmXhkswliVhPS9PNaM_d_9aL83xs9o,2794
+triangle_mesh_io/obj.py,sha256=3BkwxRFQoZmSYbiWI0XSWBGQNusveeSuTUc0ngY38vs,8135
+triangle_mesh_io/off.py,sha256=7nlqcZ4M2IXWZjmgNfS32K6Nm9KS87QnOj-H8ydLtjA,5037
+triangle_mesh_io/stl.py,sha256=yVvioVVLVmB6eFIzkdsAohdoMa-FleNJtyG6JXs_bn8,6840
+triangle_mesh_io/version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+triangle_mesh_io/tests/resources/gridfinity_cup_modules_x1-y1-z5.stl,sha256=641IqweMmiWednM877LVwBzwx8ydLEsASDrAZVEaocw,454030
+triangle_mesh_io/tests/resources/optical_mirror.obj,sha256=zirup5AEeu1cgvIN677qUtQlF9jebIJGj-82YnYxGpA,132425
+triangle_mesh_io/tests/resources/utah_teapot.stl,sha256=C6Bos__SqSe3LVA3oWP8wXhgvEdMBvDoWnitNPrMzhU,471984
+triangle_mesh_io-0.0.3.dist-info/LICENSE,sha256=vV2lhi-jxaXKMA16XWi7K0EBrkvz9Mt8Cm_wFmJMKzg,1080
+triangle_mesh_io-0.0.3.dist-info/METADATA,sha256=AwST0e9we869cijfPCPRE6DZWypU0v8ORpTCLDyrjWY,6807
+triangle_mesh_io-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+triangle_mesh_io-0.0.3.dist-info/top_level.txt,sha256=uMW0d4MMkC-H6h-yohVjJUsa_pOepzDiZrPPHIBEJLg,17
+triangle_mesh_io-0.0.3.dist-info/RECORD,,
