@@ -1,0 +1,4 @@
+yfinance>=0.2
+boto3>=1.28
+pyarrow>=14
+pyspark>=3.5
