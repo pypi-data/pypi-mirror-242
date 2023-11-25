@@ -1,0 +1,3 @@
+[console_scripts]
+oidc_hub=manage:main
+
