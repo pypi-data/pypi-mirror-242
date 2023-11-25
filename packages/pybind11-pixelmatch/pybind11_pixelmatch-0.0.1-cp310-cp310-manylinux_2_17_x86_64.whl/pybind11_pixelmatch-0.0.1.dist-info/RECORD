@@ -1,0 +1,8 @@
+pybind11_pixelmatch/__init__.py,sha256=6-UJv76XMeqTeAsO9QSpz9eLCJl7swCu89foSZPD0_U,951
+pybind11_pixelmatch/__main__.py,sha256=Ta3oNGA5uB5dm0Ms5UX3omULxYITp3tAX9K_6wTVAKI,72
+pybind11_pixelmatch/_core.cpython-310-x86_64-linux-gnu.so,sha256=WwaFxxNBuyrYjlaWOALowLnFWVXDMuvtURms0fClVzY,246008
+pybind11_pixelmatch-0.0.1.dist-info/METADATA,sha256=TjNcxGaFhX4qnF_7myX_rdvljM8TK08uID3NMVB85Sg,5372
+pybind11_pixelmatch-0.0.1.dist-info/WHEEL,sha256=MlSbey8pfCvGw3HCQnvb91K34-V0vS-MUoXuM93TVpo,117
+pybind11_pixelmatch-0.0.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybind11_pixelmatch-0.0.1.dist-info/licenses/LICENSE,sha256=nKECE7pyR1syjsHx5g0pt_mmt2f2r2AuadvcKLEokWQ,755
+pybind11_pixelmatch-0.0.1.dist-info/RECORD,,
