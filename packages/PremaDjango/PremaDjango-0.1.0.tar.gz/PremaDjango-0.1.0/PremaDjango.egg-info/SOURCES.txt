@@ -1,0 +1,8 @@
+README.md
+setup.py
+PremaDjango/__init__.py
+PremaDjango.egg-info/PKG-INFO
+PremaDjango.egg-info/SOURCES.txt
+PremaDjango.egg-info/dependency_links.txt
+PremaDjango.egg-info/requires.txt
+PremaDjango.egg-info/top_level.txt
