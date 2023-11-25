@@ -1,0 +1,12 @@
+gdal>=3.3.2
+numpy
+torch
+rasterio
+ortools
+geopandas
+torchvision
+matplotlib
+seaborn
+h5py
+scipy
+scikit-image
