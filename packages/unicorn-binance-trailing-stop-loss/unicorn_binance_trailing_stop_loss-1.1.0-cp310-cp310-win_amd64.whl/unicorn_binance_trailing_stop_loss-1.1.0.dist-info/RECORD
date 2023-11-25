@@ -1,0 +1,9 @@
+unicorn_binance_trailing_stop_loss/__init__.cp310-win_amd64.pyd,sha256=7NhAWtQSPPPinMBls0vPmZvRMYxMQI0YlPuM9zcqKgA,20992
+unicorn_binance_trailing_stop_loss/cli.cp310-win_amd64.pyd,sha256=XRPQIigwFDJTi_g5Tk0lqoW5fv8-5uMNoLF2pQ-oO-w,195072
+unicorn_binance_trailing_stop_loss/manager.cp310-win_amd64.pyd,sha256=HBe2j6Gu4Nf4ANMsJ7HJxbIRjHw2Blt7hPwIPrXBTMg,360960
+unicorn_binance_trailing_stop_loss-1.1.0.dist-info/LICENSE,sha256=xGex0C2ATWxZ54arVdj0MWa_GAeP3Tdw0s5PnSFsvH0,4375
+unicorn_binance_trailing_stop_loss-1.1.0.dist-info/METADATA,sha256=fCSmagfkSZHjMwXZ0-z6X8-DA33qYSzzo-c37tcSqdg,26752
+unicorn_binance_trailing_stop_loss-1.1.0.dist-info/WHEEL,sha256=QZRFZfINHXboTe9fmBqbFIViCGEqzQrgdxTyahla7mM,102
+unicorn_binance_trailing_stop_loss-1.1.0.dist-info/entry_points.txt,sha256=RAB_5REfSe3zkxXj2kZBPt-Q7g9vUvd90k9V9-VLj2s,70
+unicorn_binance_trailing_stop_loss-1.1.0.dist-info/top_level.txt,sha256=M426uwMZuRFB4judilRMFRqAGXtUX4f9ejPIoyYw6Bk,35
+unicorn_binance_trailing_stop_loss-1.1.0.dist-info/RECORD,,
