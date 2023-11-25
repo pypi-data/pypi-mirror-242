@@ -1,0 +1,14 @@
+numpy>=1.26.2
+
+[dev]
+black>=22.8.0
+pre-commit>=2.20.0
+flake8>=5.0.4
+isort>=5.10.1
+Flake8-pyproject>=1.1.0.post0
+setuptools_scm>=6.2
+
+[examples]
+matplotlib>=3.8.2
+opencv-contrib-python>=4.8.1.78
+PyQt5>=5.15.2
