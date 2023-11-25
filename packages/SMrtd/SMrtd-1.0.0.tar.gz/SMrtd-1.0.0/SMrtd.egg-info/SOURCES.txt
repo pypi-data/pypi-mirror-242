@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+SMrtd.egg-info/PKG-INFO
+SMrtd.egg-info/SOURCES.txt
+SMrtd.egg-info/dependency_links.txt
+SMrtd.egg-info/top_level.txt
+librtd/__init__.py
