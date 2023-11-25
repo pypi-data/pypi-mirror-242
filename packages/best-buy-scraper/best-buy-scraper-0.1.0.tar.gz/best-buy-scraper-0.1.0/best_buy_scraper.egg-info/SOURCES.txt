@@ -1,0 +1,10 @@
+setup.py
+best_buy_scraper.egg-info/.DS_Store
+best_buy_scraper.egg-info/PKG-INFO
+best_buy_scraper.egg-info/SOURCES.txt
+best_buy_scraper.egg-info/dependency_links.txt
+best_buy_scraper.egg-info/not-zip-safe
+best_buy_scraper.egg-info/setup.py
+best_buy_scraper.egg-info/top_level.txt
+best_buy_scraper.egg-info/dist/best-buy-scraper-0.1.0.tar.gz
+best_buy_scraper.egg-info/dist/best_buy_scraper-0.1.0-py3-none-any.whl
