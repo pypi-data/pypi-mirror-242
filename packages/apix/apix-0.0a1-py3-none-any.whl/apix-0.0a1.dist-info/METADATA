@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: apix
+Version: 0.0a1
+Author-Email: Arwichok <arwichok@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: msgspec>=0.18.4
+Requires-Dist: msgspec>=0.18.4; extra == "base"
+Provides-Extra: base
+Description-Content-Type: text/markdown
+
+# apix
+
+
+## Example
+
+```python
+from apix.aio import AsyncClient
+
+```
+
+## Serializers
+
+- [msgspec](https://jcristharif.com/msgspec/index.html)
+
+
+## Http Clients
+
+- [httpx](https://www.python-httpx.org/)
+  
