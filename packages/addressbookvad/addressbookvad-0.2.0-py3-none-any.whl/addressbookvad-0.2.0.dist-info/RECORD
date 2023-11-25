@@ -1,0 +1,12 @@
+addressbookvad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addressbookvad/address_book.py,sha256=v8yTxQk7mtuBxZ7IXkSIHrLac9m1mqDuwZMVv2Seig0,19796
+addressbookvad/calculator.py,sha256=xu0ItYSU1NtcmJojLLGegj-Owv8zaDlyghaT6vRyHf0,2002
+addressbookvad/files_sort.py,sha256=UtngH1f9wFKlBjHrOCgiEF3eOeeBaY1y5c-ctnGJqsY,9604
+addressbookvad/main.py,sha256=Cgr4dili3-nsohiGZlXciWAxYKjD0FTnly-1dRoUWQw,1438
+addressbookvad/note_book.py,sha256=1cyB_c_k91d6TSuzqcRLr63A4cxsTR8xxlCEUdUfsnY,14684
+addressbookvad-0.2.0.dist-info/LICENSE,sha256=fQzTevactos01WMNr33iNaYjkiqNYvUcFj0eAQZcdks,1089
+addressbookvad-0.2.0.dist-info/METADATA,sha256=1KSsdy2jt-sZatLz5gfs-2BN3dQBMsW7j4F-6afXAYY,302
+addressbookvad-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+addressbookvad-0.2.0.dist-info/entry_points.txt,sha256=AfJgylbQLWrWLHyrRWZHet7ErLWK2yfqsZx9pN4h-Qk,60
+addressbookvad-0.2.0.dist-info/top_level.txt,sha256=5jAElF1oUvPh3h8AvkiiIRX68GnrguPlBcT6hlXYQA0,15
+addressbookvad-0.2.0.dist-info/RECORD,,
