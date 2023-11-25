@@ -1,0 +1,13 @@
+{% extends "hub/base.j2" %}
+{% load i18n %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'hub:dashboard' %}">{{ _('Dashboard') }}</a>
+&rsaquo; {{ _('Password change') }}
+</div>
+{% endblock %}
+
+{% block content %}
+<p>{{ _('Your password was changed.') }}</p>
+{% endblock %}
