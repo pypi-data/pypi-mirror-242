@@ -1,0 +1,12 @@
+pygame_render/__init__.py,sha256=UfJS8k_OwrBBIHcQehaelFrWNvDEo_TjQLrcd3IAzkw,1029
+pygame_render/engine.py,sha256=7_nIVUUV7U1H-bivnPzL9fyQkDBqdEj-8BsMIGPZg14,11672
+pygame_render/fragment_draw.glsl,sha256=vi4hjY3Eg-KCDqo65eQW5A1JYWMu1BntWzxaJ9GemFI,233
+pygame_render/layer.py,sha256=L8QZxxYzVciomHalYROumqHhNeKoISsj0pUM0KJE0Ew,1719
+pygame_render/shader.py,sha256=UgGIgMqlCEtF2H_pYnYc0Q5ssfFuL9LtaWqzTBpe1RE,3809
+pygame_render/util.py,sha256=p0MMD5SXmVdvpH_M3QxnV93d0T3bRatKY9J0zZUgGYw,1606
+pygame_render/vertex.glsl,sha256=bV9SepH7MzJGsPEcOPq8KKQPdJBaA2tePExbaM03zY8,239
+pygame_render-1.1.0.dist-info/LICENSE,sha256=hjva6KZ7nPfk0cUGJJ-mkJ3DmQGTyp6FWm2DNgRoOXc,1064
+pygame_render-1.1.0.dist-info/METADATA,sha256=QGeoZ3_Rp6xkWFkkiAda1udPL-LQxa_evwDIfUEWZOo,3250
+pygame_render-1.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pygame_render-1.1.0.dist-info/top_level.txt,sha256=6GPT_0ZY3Cb9AT4jG6uvJWCYSdlWeHTSFSlptPcG9cE,14
+pygame_render-1.1.0.dist-info/RECORD,,
