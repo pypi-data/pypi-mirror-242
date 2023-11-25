@@ -1,0 +1,8 @@
+setup.py
+checkforecast/__init__.py
+checkforecast/forecast.py
+checkforecast.egg-info/PKG-INFO
+checkforecast.egg-info/SOURCES.txt
+checkforecast.egg-info/dependency_links.txt
+checkforecast.egg-info/requires.txt
+checkforecast.egg-info/top_level.txt
