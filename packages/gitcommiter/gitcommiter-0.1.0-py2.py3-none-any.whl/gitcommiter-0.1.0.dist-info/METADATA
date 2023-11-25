@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: gitcommiter
+Version: 0.1.0
+Summary: A Python script for automatically adding and committing new, modified, and deleted files to Git.
+Author-email: SAIKAT KARMAKAR <saikickkarma@protonmail.com>
+Requires-Dist: click>=8.1.7
