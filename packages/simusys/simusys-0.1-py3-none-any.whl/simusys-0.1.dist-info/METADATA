@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: simusys
+Version: 0.1
+Summary: Dynamic System Simulation
+Home-page: https://github.com/smkalami/simusys
+Download-URL: https://github.com/smkalami/simusys
+Author: Mostapha Kalami Heris
+Author-email: sm.kalami@gmail.com
+License: New BSD
+Keywords: Simulation,Dynamic Systems
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy
+
