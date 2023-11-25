@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "hpc_helper"
+version = "0.3.2"
+description = "Python package with helper functions for working with FAU's High Performance Cluster (HPC)."
+authors = ["Robert Richer <robert.richer@fau.de>"]
+readme = "README.md"
+homepage = "https://github.com/mad-lab-fau/hpc-helper"
+repository = "https://github.com/mad-lab-fau/hpc-helper"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+
+[tool.poetry.dev-dependencies]
+black = { version="^22", extras=["d"] }
+pytest = "^6"
+pytest-cov = "^3.0.0"
+poethepoet = "^0.11.0"
+ruff = "^0.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | docs
+    | build
+    | dist
+    | \.virtual_documents
+  )/
+)
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 120
+skip_gitignore = true
+
+
+[tool.poe.tasks]
+_format = "ruff format ."
+_auto_fix = "ruff . --fix-only --exit-zero"
+format = ["_auto_fix", "_format"]
+lint = { cmd = "ruff hpc_helper --fix", help = "Lint all files with ruff." }
+_lint_ci = "ruff hpc_helper --output-format=github"
+_check_format = "ruff format . --check"
+ci_check = { sequence = ["_check_format", "_lint_ci"], help = "Check all potential format and linting issues." }
+test = {cmd = "pytest --cov=hpc_helper --cov-report=xml", help = "Run Pytest with coverage." }
+update_version = {"script" = "_tasks:task_update_version"}
+default = {sequence = ["format", "lint", "test"], help = "Run the default pipeline, consisting of formatting, linting, and testing."}
