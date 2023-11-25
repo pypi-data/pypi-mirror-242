@@ -1,0 +1,2 @@
+[console_scripts]
+emm = emm.main:app
