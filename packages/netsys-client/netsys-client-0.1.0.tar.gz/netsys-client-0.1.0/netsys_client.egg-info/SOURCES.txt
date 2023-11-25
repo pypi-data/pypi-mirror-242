@@ -1,0 +1,11 @@
+setup.py
+conf/__init__.py
+conf/controller.py
+conf/methods.py
+conf/parametros.py
+conf/validation.py
+netsys_client.egg-info/PKG-INFO
+netsys_client.egg-info/SOURCES.txt
+netsys_client.egg-info/dependency_links.txt
+netsys_client.egg-info/requires.txt
+netsys_client.egg-info/top_level.txt
