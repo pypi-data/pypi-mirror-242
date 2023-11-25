@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+FinalTuringAPI/__init__.py
+FinalTuringAPI.egg-info/PKG-INFO
+FinalTuringAPI.egg-info/SOURCES.txt
+FinalTuringAPI.egg-info/dependency_links.txt
+FinalTuringAPI.egg-info/requires.txt
+FinalTuringAPI.egg-info/top_level.txt
