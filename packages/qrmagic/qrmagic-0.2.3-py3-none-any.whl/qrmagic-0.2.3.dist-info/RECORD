@@ -1,0 +1,11 @@
+qrmagic/__init__.py,sha256=pwtot73wRT-vUplVbVbXHOB5Z9SDL3O21_kX0lVtqB8,406
+qrmagic/_version.py,sha256=AaQEeqeDwmZAHoPuwg2C0ulADePbIYLSFanZzt0cytQ,411
+qrmagic/api.py,sha256=hbtuqNfN_3bnOspOpnTjomAYhvCsNb9CimdNWp8G6Bc,2131
+qrmagic/labelmaker.py,sha256=oPDM7OWAkQtupiBVpyQ8BVwbNWgm_xqOfLZZ5G1jbKU,21136
+qrmagic/scanimages.py,sha256=_Izw1gFQurhG5LffqRBUncwKqSJvDZTm4eS8-smVmvk,6816
+qrmagic-0.2.3.dist-info/LICENSE,sha256=K_3KYK34AxCNTH8AkAC-p2rQDmIeFjGXiBsOqukbUw4,193
+qrmagic-0.2.3.dist-info/METADATA,sha256=eefiwRlSfICtXLg53P5MoKEAbDzr5Pi9lTUD4G_MuHQ,4468
+qrmagic-0.2.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+qrmagic-0.2.3.dist-info/entry_points.txt,sha256=6Ypn1i-07GmQWKaGdvf-aKJFyAVzjCm5EIjZyloGDGQ,107
+qrmagic-0.2.3.dist-info/top_level.txt,sha256=f7slXnVz2JxjkxH89iusigL8wIpjTDsdsyU90lgSe1c,8
+qrmagic-0.2.3.dist-info/RECORD,,
