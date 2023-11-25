@@ -1,0 +1,8 @@
+PyFFD/__init__.py,sha256=rrfFr4CZLYYcSGG-by-euF-wtFfCwEJ1mDD_J19bZJE,100
+PyFFD/ffd_builder.py,sha256=OLdwEnzpfb3fSSFeBu3rKLBqghtPzTaeLbP0KMMHarw,9866
+PyFFD/nurbs.py,sha256=xCxP0zkanw_Wl58eYvW0ig7EJHYlJAl8voMn4pX7TDY,7085
+PyFFD/vtktools.py,sha256=tw6fwdnyINzh_S9vEobQap2QxCEA9MgnDPdtohJ1VVw,10784
+PyFFD-0.1.4.dist-info/METADATA,sha256=4yqkeTlJjsXd5-VCZK10RF47I4kTwvAUWXjsIbhEZ3E,1561
+PyFFD-0.1.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+PyFFD-0.1.4.dist-info/top_level.txt,sha256=HW6WlTwWR-I9zhThoeGDy-jbr70WfsLyHgm9Ht2QeYo,6
+PyFFD-0.1.4.dist-info/RECORD,,
