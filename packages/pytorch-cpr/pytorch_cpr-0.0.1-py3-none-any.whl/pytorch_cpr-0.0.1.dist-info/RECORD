@@ -1,0 +1,11 @@
+setup.py,sha256=TepcluaaNnYzk2_MbGzcFNYcOMgN0LXZjNO21fQxanI,328
+examples/train_grokking_task.py,sha256=w55WHqayIC0RKpKMvZ9rsOvSYeW81woiS_QqBI2um1Q,16548
+examples/train_resnet.py,sha256=AdxPo5-EuRNrAHuJlxiR20U6eJES1zjSwd9JLLohn1I,18475
+pytorch-cpr/__init__.py,sha256=pmcEzO9CdZF3JFylDWquaVfJcbVU66NUmoSB4l2Xf1o,113
+pytorch-cpr/group_parameter.py,sha256=W1xPzD6DHG9p4XXpYOh_ZIcNi7u3l3IdGn3iTKnPseI,4169
+pytorch-cpr/optim_cpr.py,sha256=x1j6Q94G8LY2YTVW3b0SG4IrkJ3yArOE-FxLSqhu5ac,7425
+pytorch-cpr/wrapper.py,sha256=Udi1W9B3tp_nq_zV_m-yHT3cBJ5vGfflccdsZmN-9j4,1387
+pytorch_cpr-0.0.1.dist-info/METADATA,sha256=6iFiIAISwkfXYLcByrbxSOQ9hS_mzAn9QRIQItdfa-I,2597
+pytorch_cpr-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pytorch_cpr-0.0.1.dist-info/licenses/LICENSE,sha256=zjRLJZCLWJiJ_V86k9ZMg0pe3Vn9Oy5cO4vKDZAzjUI,11342
+pytorch_cpr-0.0.1.dist-info/RECORD,,
