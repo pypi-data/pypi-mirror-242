@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mcpi-listener
+Version: 1.0.1
+Summary: Python library for the Minecraft Pi edition and RaspberryJuice API
+Home-page: https://github.com/barbashin-andrey/mcpi-listener
+Author: Barbashin Andrey
+Author-email: barbashin.andrey@vk.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Education
+Classifier: Topic :: Games/Entertainment
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mcpi
+
+# Package for listening to the minecraft events (uses MCPI)
