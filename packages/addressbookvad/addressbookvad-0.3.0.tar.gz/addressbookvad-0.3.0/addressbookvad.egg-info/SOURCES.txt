@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+addressbookvad/__init__.py
+addressbookvad/address_book.py
+addressbookvad/calculator.py
+addressbookvad/files_sort.py
+addressbookvad/main.py
+addressbookvad/note_book.py
+addressbookvad.egg-info/PKG-INFO
+addressbookvad.egg-info/SOURCES.txt
+addressbookvad.egg-info/dependency_links.txt
+addressbookvad.egg-info/entry_points.txt
+addressbookvad.egg-info/requires.txt
+addressbookvad.egg-info/top_level.txt
