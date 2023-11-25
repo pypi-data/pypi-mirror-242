@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: py_attack_hyr
+Version: 1.0.1
+Summary: A test of py_attack
+Author: hyr
+Author-email: 
+Keywords: python,menu,py_attack,windows,mac,linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# py_attack_hyr
+
+
+it is a light weight command line menu that supports **Windows**, **MacOS**, and **Linux**.
+
+
+## Update log
+
+`1.0.8` 
+
+`1.0.7` 
+
+`1.0.6` 
+
+`1.0.5` 
+
+`1.0.4` 
+
+`1.0.3` 
+
+`1.0.2` 
+
+`1.0.1` Add functionality
+
+`1.0.0` first release
+
