@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "EnglishAssistantCore"
+version = "1.0.3"
+authors = [
+  { name="Seyed Mousa Sajadi(WinCento)", email="sajadimousa@gmail.com" },
+]
+description = "To help improve learning a language"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+dependencies = [
+"requests==2.31.0",
+"pyttsx3==2.90",
+"nltk==3.8.1",
+"spacy==3.6.1",
+"en-core-web-sm",
+"googletrans==4.0.0rc1"]
+
+
+
+[project.urls]
+"Homepage" = "https://github.com/yasharsajadi/EnglishAssistantCore"
+
