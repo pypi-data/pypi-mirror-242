@@ -1,0 +1,10 @@
+pybind11_pixelmatch.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+pybind11_pixelmatch.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+pybind11_pixelmatch/__main__.py,sha256=IvvQbqvdRZXcHNmDzuVKPzkC9B-zQZgjKvXxkuO_l_0,2530
+pybind11_pixelmatch/_core.cpython-37m-x86_64-linux-gnu.so,sha256=53Obp86yQn-fb7gc6s9CyxRQSQlbb69BuF5nv7aPiT8,230289
+pybind11_pixelmatch/__init__.py,sha256=6-UJv76XMeqTeAsO9QSpz9eLCJl7swCu89foSZPD0_U,951
+pybind11_pixelmatch-0.1.0.dist-info/METADATA,sha256=3KpQPvHSaaqFdXC8WIKyg5tZ1BCMnwxOPEXwXCpXUSg,5372
+pybind11_pixelmatch-0.1.0.dist-info/RECORD,,
+pybind11_pixelmatch-0.1.0.dist-info/WHEEL,sha256=IA-tnAXnrANNvKQqJ9p08J5tdCD1iU4Gx533V5jkO3I,115
+pybind11_pixelmatch-0.1.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybind11_pixelmatch-0.1.0.dist-info/licenses/LICENSE,sha256=nKECE7pyR1syjsHx5g0pt_mmt2f2r2AuadvcKLEokWQ,755
