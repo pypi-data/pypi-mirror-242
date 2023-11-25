@@ -1,0 +1,15 @@
+python-auditor==0.3.1
+requests==2.31.0
+cryptography==41.0.5
+
+[build]
+build==1.0.3
+setuptools==69.0.2
+
+[style]
+black
+flake8
+
+[tests]
+pytest==7.4.3
+pytest-cov==4.1.0
