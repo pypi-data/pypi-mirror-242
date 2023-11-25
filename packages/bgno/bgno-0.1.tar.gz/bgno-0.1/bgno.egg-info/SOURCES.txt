@@ -1,0 +1,14 @@
+setup.cfg
+setup.py
+bgno/Conv2DLayer.py
+bgno/Dense2D.py
+bgno/Dropout2DLayer.py
+bgno/Flatten2D.py
+bgno/MaxPool2DLayer.py
+bgno/__init__.py
+bgno/tes.py
+bgno.egg-info/PKG-INFO
+bgno.egg-info/SOURCES.txt
+bgno.egg-info/dependency_links.txt
+bgno.egg-info/not-zip-safe
+bgno.egg-info/top_level.txt
