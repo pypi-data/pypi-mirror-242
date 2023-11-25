@@ -1,0 +1,12 @@
+LICENSE,sha256=2uQZjKmEhMIhWKMEPd_rSXiKzD5-za_hWSqPONTr978,1087
+README.md,sha256=wfHnM5d2ywqrvc4ibVZIfaNS2FFTn648ojgU1mygMds,10728
+tcxreader/__init__.py,sha256=O4fhMratE8J4caKPEjksJ0DmvtY9t7UcvmD73yVlhHY,253
+tcxreader/tcx_author.py,sha256=517yzjl4waHT5EmjzDyb4uWc2boM2z60VFTC919rqhs,825
+tcxreader/tcx_exercise.py,sha256=_tIqjMjZjc1byL_V4R1WMuzcce36IZ9f_7_afV0-gpI,3273
+tcxreader/tcx_lap.py,sha256=w-PUXxpbAEGALNQ7UIZQd0BCM3ZbFpXXJNkclknNUGk,3011
+tcxreader/tcx_track_point.py,sha256=0bZicCNBfEtYoAYk-wud7NXS8ZX0VreXDk5vt6VpMKw,1718
+tcxreader/tcxreader.py,sha256=SDPkPg_01XQZZlRMSXO1Vhu5ITiWB-A8Pb-93Ewm4AY,12953
+tcxreader-0.4.5.dist-info/LICENSE,sha256=2uQZjKmEhMIhWKMEPd_rSXiKzD5-za_hWSqPONTr978,1087
+tcxreader-0.4.5.dist-info/METADATA,sha256=KgxBia8X683KSnMlaUrDfKgXH2f5id2389nncrna3_k,855
+tcxreader-0.4.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tcxreader-0.4.5.dist-info/RECORD,,
