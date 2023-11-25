@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+packagehelp/__init__.py
+packagehelp.egg-info/PKG-INFO
+packagehelp.egg-info/SOURCES.txt
+packagehelp.egg-info/dependency_links.txt
+packagehelp.egg-info/top_level.txt
+packagehelp/reqh/__init__.py
+packagehelp/reqh/useragents.py
