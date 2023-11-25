@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+PremaDjango/__init__.py
+PremaDjango/settings.py
+PremaDjango.egg-info/PKG-INFO
+PremaDjango.egg-info/SOURCES.txt
+PremaDjango.egg-info/dependency_links.txt
+PremaDjango.egg-info/requires.txt
+PremaDjango.egg-info/top_level.txt
